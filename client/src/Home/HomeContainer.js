@@ -1,8 +1,9 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, browserHistory } from 'react-router'
+import LoggedInNavContainer from '../Nav/LoggedInNav/LoggedInNavContainer'
 
-class Home extends React.Component {
+class HomeContainer extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -10,10 +11,10 @@ class Home extends React.Component {
 	render() {
 		return (
 			<div>
-			Goal
+			<LoggedInNavContainer/>
 			</div>
 		)
 	}
 } 
 
-export default Home
+export default HomeContainer

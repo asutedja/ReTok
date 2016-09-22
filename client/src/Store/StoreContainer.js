@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-export default class Profile extends React.Component {
+export default class StoreContainer extends React.Component {
 	constructor(props) {
 		super(props)
 	}
