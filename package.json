@@ -36,7 +36,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./node_modules/.bin/webpack -d -w --progress --colors",
+    "start": "node ./server/server.js",
+    "nodemon": "nodemon ./server/server.js"
   },
   "repository": {
     "type": "git",

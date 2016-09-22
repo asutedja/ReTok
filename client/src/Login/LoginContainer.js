@@ -10,7 +10,25 @@ export default class LoginContainer extends React.Component {
 
 	signingIn(user, password) {
 		console.log('User ',user, ' Password ', password);
-		browserHistory.push('/me');
+
+	 let myHeaders = new Headers({'Content-Type': 'application/json; charset=utf-8'});
+    let options = {
+      method: 'POST',
+      headers: myHeaders,
+      body: JSON.stringify({user: user, password: password})
+    };
+		//Create logic for checking user and password
+		fetch('/login', options).then(function() {
+			console.log('sent')
+		})
+
+		//when we see confirmation of user, move user to their profile page
+		//browserHistory.push('/' + user);
+	}
+
+	signUp(user, password) {
+		console.log('User ',user, ' Password ', password);
+
 	}
 
 
@@ -18,7 +36,9 @@ export default class LoginContainer extends React.Component {
 
 		return(
 			<div>
-			HIIII
+				<Signin signingIn={this.signingIn.bind(this)} />
+				<div>
+				</div>
 			</div>
 			)
 	}
