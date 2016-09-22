@@ -1,9 +1,9 @@
 import React from 'react'
 import { Router, browserHistory } from 'react-router'
-import Signin from './Signin.js'
+// import Signin from './Signin.js'
 
 
-export default class Login extends React.Component {
+export default class LoginContainer extends React.Component {
 	constructor(props) {
 		super(props);
 	}
@@ -19,7 +19,6 @@ export default class Login extends React.Component {
 		return(
 			<div>
 			HIIII
-				<Signin signingIn={this.signingIn.bind(this)} />
 			</div>
 			)
 	}

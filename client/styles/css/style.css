@@ -1,3 +1,27 @@
-/*WE ARE USING NODE-SASS FOR THIS REPO. PLEASE MAKE ALL STYLE CHANGES WITHIN /CLIENT/STYLES/SCSS/STYLE.SCSS FILE. AFTER MAKING CSS CHANGES, RUN "gulp-sass" FROM TERMINAL TO COMPILE CSS CHANGES.*/
+/*WE ARE USING NODE-SASS FOR THIS REPO. PLEASE MAKE ALL STYLE CHANGES WITHIN /CLIENT/STYLES/SCSS/STYLE.SCSS FILE. AFTER MAKING CSS CHANGES, RUN "gulp sass" FROM TERMINAL TO COMPILE CSS CHANGES.*/
+* {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; }
+
 body {
-  background-color: black; }
+  background-color: white; }
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-size: 16px;
+  background-color: #a6a6a6; }
+
+a, a:link, a:active, a:visited {
+  text-decoration: none;
+  color: white; }
+
+a:hover {
+  color: #e6e6e6; }

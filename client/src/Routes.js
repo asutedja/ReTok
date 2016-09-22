@@ -1,20 +1,37 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, browserHistory } from 'react-router'
-import Login from './Login'
-import Navbar from './Navbar'
-import Home from './Home'
-import Profile from './Profile'
-import Store from './Store'
-import Chat from './Chat'
- 
-render((
+import { Router, Route, browserHistory, IndexRoute } from 'react-router'
+import LoginContainer from './Login/LoginContainer.js'
+import HomeContainer from './Home/HomeContainer.js'
+import ProfileContainer from './Profile/ProfileContainer.js'
+import AllFriendsContainer from './Profile/AllFriends/AllFriendsContainer.js'
+import StoreContainer from './Store/StoreContainer.js'
+import ChatContainer from './Chat/ChatContainer.js'
+
+var Routes = (
   <Router history={browserHistory}>
-  	 <Route path="/" component={Login}/>
-    <Route path="/home" component={Navbar}/>
-    <Route path="/me" component={Home}/>
-    <Route path="/profile" component={Profile}/>
-    <Route path="/store" component={Store}/>
-    <Route path="/chat" component={Chat}/>
+    <Route path="/" component={HomeContainer}>
+      <IndexRoute component={ProfileContainer}>
+        <IndexRoute component={AllFriendsContainer}/>
+      </IndexRoute>  
+      <Route path='/login' component={LoginContainer}/>
+      <Route path="/store" component={StoreContainer}/>
+      <Route path="/chat" component={ChatContainer}/>
+    </Route>
   </Router>
-), document.getElementById('app'))
+)
+
+export default Routes
+ 
+// render((
+//   <Router history={browserHistory}>
+//   	<Route path="/" component={HomeContainer}>
+//       <IndexRoute component={ProfileContainer}>
+//         <IndexRoute component={AllFriendsContainer}/>
+//       </IndexRoute>  
+//       <Route path='/login' component={LoginContainer}/>
+//       <Route path="/store" component={StoreContainer}/>
+//       <Route path="/chat" component={ChatContainer}/>
+//     </Route>
+//   </Router>
+// ), document.getElementById('app'))
