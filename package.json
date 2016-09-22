@@ -22,6 +22,7 @@
     "mysql": "^2.11.1",
     "node-sass": "^3.10.0",
     "nodemon": "^1.10.2",
+    "node-sass": "^3.10.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
@@ -36,9 +37,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "nodemon ./server/server.js",
-    "dev": "./node_modules/.bin/webpack -d -w --progress --colors"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -51,3 +50,4 @@
   },
   "homepage": "https://github.com/robertkchao/ReTok#readme"
 }
+ 
