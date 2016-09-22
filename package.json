@@ -21,6 +21,8 @@
     "multer": "^1.2.0",
     "mysql": "^2.11.1",
     "node-sass": "^3.10.0",
+    "nodemon": "^1.10.2",
+    "node-sass": "^3.10.0",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
@@ -48,3 +50,4 @@
   },
   "homepage": "https://github.com/robertkchao/ReTok#readme"
 }
+ 
