@@ -24,13 +24,16 @@ var Friendship = sequelize.define('Friendship', {
 	userOne: Sequelize.INTEGER,
 	userTwo: Sequelize.INTEGER,
 	relationship: Sequelize.INTEGER,
-	chatID: Sequelize.INTEGER
+	chatCount: Sequelize.INTEGER
 
 });
 
 // chat model stores all chat histories
 var Chat = sequelize.define('Chat', {
 
-	time: Sequelize.DATE,
+	friendshipID: Sequelize.INTEGER,
+	senderID: Sequelize.INTEGER,
+	text: Sequelize.TEXT,
+	time: Sequelize.DATE
 
 });
