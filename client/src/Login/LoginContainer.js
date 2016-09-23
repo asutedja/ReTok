@@ -1,6 +1,6 @@
 import React from 'react'
-import { Router, browserHistory } from 'react-router'
-// import Signin from './Signin.js'
+import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
+import SignUpForm from './SignUpForm.js'
 
 
 export default class LoginContainer extends React.Component {
@@ -8,9 +8,10 @@ export default class LoginContainer extends React.Component {
 		super(props);
 	}
 
-	signingIn(user, password) {
+	signUp(e,user, password) {
+		e.preventDefault();
 		console.log('User ',user, ' Password ', password);
-		browserHistory.push('/me');
+
 	}
 
 
@@ -18,7 +19,7 @@ export default class LoginContainer extends React.Component {
 
 		return(
 			<div>
-			HIIII
+				<SignUpForm signUp={this.signUp.bind(this)}/>
 			</div>
 			)
 	}

@@ -7,7 +7,7 @@ const LoggedInNav = (props) => {
     <div className="nav">
       <Link to="/" className="logo">ReTok</Link>
       <Link to="/chat">Chat</Link>
-      <Link to="/store">Store</Link>
+      <Link to="/login">Login</Link>
       <Link to="/logout">Logout</Link>
     </div>
   )
