@@ -1,13 +1,14 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 
-export const Signin = (props) => (
+export const SignInNav = (props) => (
 	<div>
 		<form onSubmit={() => props.signingIn(document.getElementById('user').value, document.getElementById('password').value)}>
+			Sign In Here
 			<input id='user' type='text' placeholder='Username'/>
 			<input id='password' type='text' placeholder='Password'/>
 		</form>
-		<button onClick={() => props.signingIn(document.getElementById('user').value, document.getElementById('password').value)}> </button>
 	</div>
 	)
-export default Signin;
+export default SignInNav;
