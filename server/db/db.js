@@ -14,7 +14,7 @@ var User = sequelize.define('User', {
 	gender: Sequelize.STRING,
 	profilePic: Sequelize.STRING,
 	coin: Sequelize.INTEGER
-	// emoji: Sequelize.STRING,
+	emoji: Sequelize.STRING,
 
 });
 
@@ -33,7 +33,7 @@ var Chat = sequelize.define('Chat', {
 
 	friendshipID: Sequelize.INTEGER,
 	senderID: Sequelize.INTEGER,
-	text: Sequelize.TEXT,
+	text: Sequelize.STRING,
 	time: Sequelize.DATE
 
 });
