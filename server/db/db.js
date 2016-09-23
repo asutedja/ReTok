@@ -13,7 +13,7 @@ var User = sequelize.define('User', {
 	dob: Sequelize.DATE,
 	gender: Sequelize.STRING,
 	profilePic: Sequelize.STRING,
-	coin: Sequelize.INTEGER
+	coin: Sequelize.INTEGER,
 	emoji: Sequelize.STRING,
 
 });
@@ -37,3 +37,14 @@ var Chat = sequelize.define('Chat', {
 	time: Sequelize.DATE
 
 });
+
+User.sync();
+Friendship.sync();
+Chat.sync();
+
+module.exports.sequelize = sequelize;
+module.exports.User = User;
+module.exports.Friendship = Friendship;
+module.exports.Chat = Chat;
+
+

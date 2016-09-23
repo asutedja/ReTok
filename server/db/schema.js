@@ -1,18 +1,28 @@
-import {
-	GraphQLObjectType,
- 	GraphQLString,
- 	GraphQLInt,
-	GraphQLSchema,
-	GraphQLList,
-	GraphQLNonNull
-} from 'graphql';
+// import {
+// 	GraphQLObjectType,
+//  	GraphQLString,
+//  	GraphQLInt,
+// 	GraphQLSchema,
+// 	GraphQLList,
+// 	GraphQLNonNull
+// } from 'graphql';
 
-//import date type separately
-import GraphQLDate from 'graphql-date';
+// //import date type separately
+// import GraphQLDate from 'graphql-date';
 
-import Db from './db';
+// import Db from './db';
 
-const User = new GraphQLObjectType({
+var GraphQLDate = require('graphql-date');
+var GraphQLObjectType = require('graphql').GraphQLObjectType;
+var GraphQLString = require('graphql').GraphQLString;
+var GraphQLInt = require('graphql').GraphQLInt;
+var GraphQLSchema = require('graphql').GraphQLSchema;
+var GraphQLList = require('graphql').GraphQLList;
+var GraphQLNonNull = require('graphql').GraphQLNonNull;
+
+var Db = require('./db');
+
+var User = new GraphQLObjectType({
 
 	name: 'User',
 	description: 'User table',
@@ -89,7 +99,7 @@ const User = new GraphQLObjectType({
 
 });
 
-const Friendship = new GraphQLObjectType({
+var Friendship = new GraphQLObjectType({
 
 	name: 'Friendship',
 	description: 'all unique friendships',
@@ -130,7 +140,7 @@ const Friendship = new GraphQLObjectType({
 
 });
 
-const Chat = new GraphQLObjectType({
+var Chat = new GraphQLObjectType({
 
 	name: 'Chat',
 	description: 'chat history log',
@@ -167,12 +177,13 @@ const Chat = new GraphQLObjectType({
 			}
 		}
 	}
+	}
 
 });
 
-const Query = new GraphQLObjectType({
+var Query = new GraphQLObjectType({
 
-	name: 'Query';
+	name: 'Query',
 	description: 'Root query object',
 	fields: () => {
 		return {
@@ -225,12 +236,13 @@ const Query = new GraphQLObjectType({
 	}
 });
 
-const Mutation = new GraphQLObjectType({
+var Mutation = new GraphQLObjectType({
 
 	name: 'Mutation',
 	description: 'functions to create new users, friendships and chats',
 	fields: () => {
-		addUser: {
+		return {
+			addUser: {
 			type: User,
 			args: {
 				username: {type: new GraphQLNonNull(GraphQLString)},
@@ -279,12 +291,13 @@ const Mutation = new GraphQLObjectType({
 			}
 		},
 	}
+	}
 		//TODO: addFriendship, updateFriendship, addChat, delateChat
 });
 
-const Schema = new GraphQLSchema({
+var Schema = new GraphQLSchema({
 	query: Query,
 	mutation: Mutation
 });
 
-export default Schema;
+module.exports.Schema = Schema;	
