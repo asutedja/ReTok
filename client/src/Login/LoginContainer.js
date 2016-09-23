@@ -8,7 +8,8 @@ export default class LoginContainer extends React.Component {
 		super(props);
 	}
 
-	signUp(user, password) {
+	signUp(e,user, password) {
+		e.preventDefault();
 		console.log('User ',user, ' Password ', password);
 
 	}

@@ -2,13 +2,15 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router'
 
-export const SignUpForm = (props) => (
+const SignUpForm = (props) => (
 	<div>
-		<form onSubmit={props.signUp(document.getElementById('user').value, document.getElementById('password').value)}>
+		<form type='submit' onSubmit={(e) => props.signUp(e,document.getElementById('newUser').value, document.getElementById('newPassword').value)}>
 			Sign Up Here
-			<input id='user' type='text' placeholder='Username'/>
-			<input id='password' type='text' placeholder='Password'/>
+			<input id='newUser' type='type/submit' placeholder='Username'/>
+			<input id='newPassword' type='type/submit' placeholder='Password' />
+			<input type='submit' value='Sign Up!'/>
 		</form>
 	</div>
-	)
+)
+
 export default SignUpForm;

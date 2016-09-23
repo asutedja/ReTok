@@ -24,7 +24,8 @@ class LoggedInNavContainer extends React.Component {
       this.setState({loggedIn: !this.state.loggedIn})
     }
 
-  signingIn(user, password) {
+  signingIn(e,user, password) {
+    e.preventDefault();
     console.log('User ',user, ' Password ', password);
     //Create logic for checking user and password
 
