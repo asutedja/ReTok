@@ -28,11 +28,15 @@
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.3",
     "react-dom": "^15.3.2",
+    "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
     "redux": "^3.6.0",
     "sass-loader": "^4.0.2",
     "sequelize": "^3.24.3",
-    "webpack": "^2.1.0-beta.25"
+    "webpack": "^2.1.0-beta.25",
+    "webpack-preset": "^0.2.0",
+    "webpack-preset-babel": "^0.2.0",
+    "webpack-preset-babel-stage-1": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
