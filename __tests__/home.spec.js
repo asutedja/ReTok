@@ -12,7 +12,8 @@ it('CheckboxWithLabel changes the text after click', () => {
 
   const checkboxNode = ReactDOM.findDOMNode(checkbox);
 
-  expect()
+  expect(!!checkboxNode).toBe(true);
+
   // Verify that it's Off by default
   // Simulate a click and verify that it is now On
 });
