@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from 'react-dom'
 
+<<<<<<< 11d24f975a084d4a77b6cdc5433e53d3f0fc47e2
 class ChatContainer extends React.Component {
 
   constructor(props) {
