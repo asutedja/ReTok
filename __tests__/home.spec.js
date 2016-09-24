@@ -34,7 +34,6 @@ it('Check if webRTC grabs local info or not', () => {
   expect(!!checkboxNode).toBe(true);
 
 
-
   // Verify that it's Off by default
   // Simulate a click and verify that it is now On
 });

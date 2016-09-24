@@ -64,25 +64,34 @@ const userInitialState = {
 // ------------ USER REDUCER -----------------//
 export default function userReducer (state = userInitialState, action) {
   switch(action.type){
-    case 'USER_AUTH' :  
-   var a = Object.assign({},state, {isLoggedIn: true})
-   return a;
+    case 'USER_AUTH' :  {
+   return {
+     ...state,
+      isLoggedIn: true},
+      }
+    }
 
-    case 'USER_UNAUTH' : 
-    var a = Object.assign({isLoggedIn: true,
-      user: {},
-      userID: ''
-    }, state);
-      return a;
+    case 'USER_UNAUTH' : {
+      return {
+        ...state,
+         isLoggedIn: true,
+         user: {},
+         userID: ''
+       }
+    }
 
-    case 'TOGGLE_LOGIN' : 
-       var a = Object.assign({isLoggedIn: action.isLoggedIn}, state)
-      return a;
+    case 'TOGGLE_LOGIN' : {
+      return {
+        ...state,
+         isLoggedIn: action.isLoggedIn,
+       }
+    }
 
     case 'FETCHING_USER_INFO' : {
-      var a = Object.assign({isFetching: true
-    }, state);
-      return a;
+      return {
+        ...state,
+         isFetching: true,
+       }
     }
 
     case 'UPDATE_USER' : {
