@@ -8,7 +8,7 @@ class LoggedInNavContainer extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
-        loggedIn: false
+        loggedIn: true
       };
     } 
 
@@ -35,11 +35,8 @@ class LoggedInNavContainer extends React.Component {
  
   render() {
     return(
-      <div className = 'NavContainer'>
-        {this.state.loggedIn ? <LoggedInNav/> : <SignInNav signingIn={this.signingIn.bind(this)} />}
-        <div>
-        <button onClick={this.toggle.bind(this)}>Toggles the NavBar</button>
-        </div>
+      <div>
+        <LoggedInNav/>
       </div>
       )
   }

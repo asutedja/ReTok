@@ -4,19 +4,19 @@ import { connect } from 'react-redux'
 import * as userActions from '../../Redux/userReducer'
 
 
-class AllFriendsContainer extends React.Component {
+class RecentFriendsContainer extends React.Component {
   constructor(props) {
     super(props)
   }
 
   componentWillMount() {
-    console.log('i hit all friends container');
+    console.log('i hit this component for recentfriends')
   }
 
   render() {
     return (
       <div>
-        Hello World
+        Bye World
       </div>
       )
   }
@@ -31,7 +31,4 @@ function mapStateToProps(state) {
 }
 
 
-
-export default connect(mapStateToProps)(AllFriendsContainer)
-
-// export default AllFriendsContainer
+export default connect(mapStateToProps)(RecentFriendsContainer)

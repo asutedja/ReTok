@@ -13,7 +13,9 @@ class HomeContainer extends React.Component {
 		return (
 			<div>
 			<LoggedInNavContainer/>
+			<div id ="wrapper">
 			{this.props.children}
+			</div>
 			</div>
 		)
 	}
