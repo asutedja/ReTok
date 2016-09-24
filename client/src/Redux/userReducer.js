@@ -70,6 +70,7 @@ export default function userReducer (state = userInitialState, action) {
       isLoggedIn: true},
       }
     }
+
     case 'USER_UNAUTH' : {
       return {
         ...state,
@@ -78,6 +79,7 @@ export default function userReducer (state = userInitialState, action) {
          userID: ''
        }
     }
+
     case 'TOGGLE_LOGIN' : {
       return {
         ...state,
