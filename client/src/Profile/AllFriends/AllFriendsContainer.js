@@ -2,6 +2,7 @@ import React, { PropTypes }  from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import * as userActions from '../../Redux/userReducer'
+import AllFriends from './AllFriends.js'
 
 
 class AllFriendsContainer extends React.Component {
@@ -10,13 +11,14 @@ class AllFriendsContainer extends React.Component {
   }
 
   componentWillMount() {
-    console.log('i hit all friends container');
+    console.log('i hit all friends container', this.props.friends);
   }
 
   render() {
+    console.log('what is my props', this.props.friends);
     return (
-      <div>
-        Hello World
+      <div className= "AllFriendsContainer">
+      {this.props.friends.map((item, index) => <AllFriends key={index} friend={item}/>)}
       </div>
       )
   }
@@ -26,7 +28,8 @@ class AllFriendsContainer extends React.Component {
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
-    user: state.userReducer.user
+    user: state.userReducer.user,
+    friends: state.userReducer.friends
   }
 }
 

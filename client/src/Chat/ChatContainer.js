@@ -38,7 +38,8 @@ export default class ChatContainer extends React.Component {
 	}
 
 	componentWillUnmount() {
-
+		var track = stream.getTracks()[0];
+		track.stop();
 	}
 
 	
