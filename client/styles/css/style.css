@@ -64,3 +64,30 @@ a:hover {
   margin-left: 3%;
   margin-top: 1%;
   margin-bottom: 1%; }
+
+.oneFriend {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid white;
+  width: 30%;
+  margin: 1.655%; }
+
+.oneFriend:hover {
+  border: 1px solid black; }
+
+.oneFriendWrapper {
+  width: 0;
+  padding-bottom: 100%;
+  overflow: hidden; }
+
+.AllFriendsContainer {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #e1e8ed; }

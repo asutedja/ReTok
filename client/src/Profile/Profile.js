@@ -14,23 +14,23 @@ const Profile = (props) => {
   // }
 
 
-  //hardcoding data for now.
+  //hardcoding data for now..
   return (
 
     <Grid>
       <Row className = "show-grid" id ="userProfileContainer">
         <div>
-          <Col sm={4}><img id = "profilePhoto" src='http://az616578.vo.msecnd.net/files/2016/03/26/6359460153364648721927328923_cover.jpg'/></Col>
+          <Col sm={4}><img id = "profilePhoto" src={props.user.profilePic}/></Col>
         </div>
         <Col sm={8}>
         <Row className ="show-grid profileRow">
-          <span><b>Name:</b> Jane Doe</span>
+          <span><b>Name: </b>{props.user.firstName}</span>
         </Row>
           <Row className ="show-grid profileRow">
-            <span><b>Email:</b> JaneDoe@gmail.com</span>
+            <span><b>Email: </b>{props.user.email}</span>
           </Row>
           <Row className ="show-grid profileRow">
-            <span><b>Birthday:</b> 9/30/1990</span>
+            <span><b>Birthday:</b>{props.user.dob}</span>
           </Row>
           <Row className ="show-grid profileRow">
             <span><b>Friends Count:</b>1</span>

@@ -18,7 +18,7 @@ import * as userActions from '../Redux/userReducer'
 // }
 class ProfileContainer extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   componentWillMount() {
@@ -28,7 +28,7 @@ class ProfileContainer extends React.Component {
   render() {
     return (
       <div>
-        <Profile/>
+        <Profile user = {this.props.user}/>
         {this.props.children}
       </div>
     )

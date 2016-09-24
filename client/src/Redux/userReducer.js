@@ -36,12 +36,29 @@ export function updateUser (user) {
   }
 }
 
+export function updateFriends (friends) {
+  return {
+    type: 'UPDATE_FRIENDS',
+    friends,
+  }
+}
+
+export function updateEmojis (emoji) {
+  return {
+    type: 'UPDATE_EMOJIS',
+    emojis,
+  }
+}
+
+
 // ----- SET USER REDUCER INITIAL STATE ------ //
 const userInitialState = {
   userID: '',
-  user: {},
+  user: {username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: ''},
+  friends: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}],
   isLoggedIn: false,
   error: '',
+  emojis: []
 }
 
 // ------------ USER REDUCER -----------------//
@@ -75,37 +92,24 @@ export default function userReducer (state = userInitialState, action) {
       }
     }
 
-    // case 'FETCHING_USER_INFO_ERROR' : {
-    //   return {
-    //     ...state,
-    //     isFetching: false, 
-    //     error: action.error, 
-    //   }
-    // }
-
-    // case 'FETCHING_USER_SUCCESS' : {
-    //   if (action.user === null) {
-    //     return {
-    //       ...state,
-    //       user: action.user,
-    //       isFetching: false, 
-    //       error: '',
-    //     }
-    //   } else {
-    //     if(action.userID = state.userID){
-    //       return {
-    //         ...state, 
-    //         isFetching: false, 
-    //         info: action.user,
-    //       }
-    //     }
-    //   }
-    // }
-
     case 'UPDATE_USER' : {
       return {
         ...state,
         user: action.user,
+      }
+    }
+
+    case 'UPDATE_FRIENDS' : {
+      return {
+        ...state,
+        friends: action.friends,
+      }
+    }
+
+    case 'UPDATE_EMOJIS' : {
+      return {
+        ...state,
+        emojis: action.emojis,
       }
     }
 
