@@ -203,7 +203,7 @@ var Query = new GraphQLObjectType({
 					emoji: {type: GraphQLString}
 				},
 				resolve (root, args) {
-					return Db.models.User.findAll({where: args});
+					return Db.User.findAll({where: args});
 				}
 			},
 			friendships: {
@@ -216,7 +216,7 @@ var Query = new GraphQLObjectType({
 					chatCount: {type: GraphQLInt}
 				},
 				resolve (root, args) {
-					return Db.models.Friendship.findAll({where: args});
+					return Db.Friendship.findAll({where: args});
 				}
 			},
 			chats: {
@@ -229,7 +229,7 @@ var Query = new GraphQLObjectType({
 					time: {type: GraphQLDate}
 				},
 				resolve (root, args) {
-					return Db.models.Chat.findAll({where: args});
+					return Db.Chat.findAll({where: args});
 				}
 			},
 		}
@@ -257,7 +257,7 @@ var Mutation = new GraphQLObjectType({
 				emoji: {type: GraphQLString}
 			},
 			resolve (root, args) {
-				return Db.models.User.create({
+				return Db.User.create({
 					username: args.username,
 					password: args.password,
 					firstName: args.firstName,
@@ -286,8 +286,7 @@ var Mutation = new GraphQLObjectType({
 				emoji: {type: GraphQLString}
 			},
 			resolve (root, args) {
-				return Db.models.User.findAll({where: {username: arg.username}})
-				.update(args);
+				return Db.User.update(args, {where: {username: args.username}});
 			}
 		},
 	}
@@ -300,4 +299,4 @@ var Schema = new GraphQLSchema({
 	mutation: Mutation
 });
 
-module.exports.Schema = Schema;	
+module.exports = Schema;	
