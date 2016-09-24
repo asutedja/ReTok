@@ -24,7 +24,6 @@ import ChatContainer from './Chat/ChatContainer.js'
 //   </Router>
 // )
 
-
 var Routes = (
   <Router history={browserHistory}>
     <Route path="/" component={HomeContainer}>
