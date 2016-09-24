@@ -1,4 +1,6 @@
-import Provider from '../node_modules/react-redux/src/components/Provider.js';
+import HomeContainer from '../client/src/Home/HomeContainer.js';
+import ProfileContainer from '../client/src/Profile/ProfileContainer.js';
+import StoreContainer from '../client/src/Store/StoreContainer.js'
 import React from 'react';
 import ReactDOM from 'react-dom';
 import TestUtils from 'react-addons-test-utils';
@@ -13,7 +15,4 @@ it('CheckboxWithLabel changes the text after click', () => {
   const checkboxNode = ReactDOM.findDOMNode(checkbox);
 
   expect(!!checkboxNode).toBe(true);
-
-  // Verify that it's Off by default
-  // Simulate a click and verify that it is now On
 });
