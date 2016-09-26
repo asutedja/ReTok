@@ -1,7 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { Router, Route, browserHistory } from 'react-router'
+import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import LoggedInNavContainer from '../Nav/LoggedInNav/LoggedInNavContainer'
+import Login from '../Login/LoginContainer'
 
 class HomeContainer extends React.Component {
 	constructor(props) {
@@ -12,6 +13,9 @@ class HomeContainer extends React.Component {
 		return (
 			<div>
 			<LoggedInNavContainer/>
+			<div id ="wrapper">
+			{this.props.children}
+			</div>
 			</div>
 		)
 	}

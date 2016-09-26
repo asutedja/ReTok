@@ -243,55 +243,115 @@ var Mutation = new GraphQLObjectType({
 	fields: () => {
 		return {
 			addUser: {
-			type: User,
-			args: {
-				username: {type: new GraphQLNonNull(GraphQLString)},
-				password: {type: new GraphQLNonNull(GraphQLString)},
-				firstName: {type: GraphQLString},
-				lastName: {type: GraphQLString},
-				email: {type: new GraphQLNonNull(GraphQLString)},
-				dob: {type: GraphQLDate},
-				gender: {type: GraphQLString},
-				profilePic: {type: GraphQLString},
-				coin: {type: GraphQLInt},
-				emoji: {type: GraphQLString}
+				type: User,
+				args: {
+					username: {type: new GraphQLNonNull(GraphQLString)},
+					password: {type: new GraphQLNonNull(GraphQLString)},
+					firstName: {type: GraphQLString},
+					lastName: {type: GraphQLString},
+					email: {type: new GraphQLNonNull(GraphQLString)},
+					dob: {type: GraphQLDate},
+					gender: {type: GraphQLString},
+					profilePic: {type: GraphQLString},
+					coin: {type: GraphQLInt},
+					emoji: {type: GraphQLString}
+				},
+				resolve (root, args) {
+					return Db.User.create({
+						username: args.username,
+						password: args.password,
+						firstName: args.firstName,
+						lastName: args.lastName,
+						email: args.email,
+						dob: args.dob,
+						gender: args.gender,
+						profilePic: args.profilePic,
+						coin: 0,
+						emoji: 'test-emoji'
+					});
+				}
 			},
-			resolve (root, args) {
-				return Db.User.create({
-					username: args.username,
-					password: args.password,
-					firstName: args.firstName,
-					lastName: args.lastName,
-					email: args.email,
-					dob: args.dob,
-					gender: args.gender,
-					profilePic: args.profilePic,
-					coin: 0,
-					emoji: 'test-emoji'
-				});
-			}
-		},
-		updateUser: {
-			type: User,
-			args: {
-				username: {type: new GraphQLNonNull(GraphQLString)},
-				password: {type: GraphQLString},
-				firstName: {type: GraphQLString},
-				lastName: {type: GraphQLString},
-				email: {type: GraphQLString},
-				dob: {type: GraphQLDate},
-				gender: {type: GraphQLString},
-				profilePic: {type: GraphQLString},
-				coin: {type: GraphQLInt},
-				emoji: {type: GraphQLString}
+			updateUser: {
+				type: User,
+				args: {
+					username: {type: new GraphQLNonNull(GraphQLString)},
+					password: {type: GraphQLString},
+					firstName: {type: GraphQLString},
+					lastName: {type: GraphQLString},
+					email: {type: GraphQLString},
+					dob: {type: GraphQLDate},
+					gender: {type: GraphQLString},
+					profilePic: {type: GraphQLString},
+					coin: {type: GraphQLInt},
+					emoji: {type: GraphQLString}
+				},
+				resolve (root, args) {
+					return Db.User.update(args, {where: {username: args.username}});
+				}
 			},
-			resolve (root, args) {
-				return Db.User.update(args, {where: {username: args.username}});
-			}
-		},
+			addFriendship: {
+				type: Friendship,
+				args: {
+					userOne: {type: new GraphQLNonNull(GraphQLString)},
+					userTwo: {type: new GraphQLNonNull(GraphQLString)},
+				},
+				resolve (root, args) {
+					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
+					.then(function(users){
+
+						Db.Friendship.create({
+							userOne: users[0].id,
+							userTwo: users[1].id,
+							relationship: 0,
+							chatCount: 0
+						});
+					})
+					.catch(function(err){
+						console.log('There is an error: ', err);
+					});
+				}
+			},
+			updateFriendship: {
+				type: Friendship,
+				args: {
+					userOne: {type: new GraphQLNonNull(GraphQLString)},
+					userTwo: {type: new GraphQLNonNull(GraphQLString)},
+				},
+				resolve (root, args) {
+					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
+					.then(function(users){
+						console.log("users0id---", users[0].id);
+						return Db.Friendship.findAll({
+							where: {
+								$or: [
+									{
+										$and: [
+											{userOne: users[0].id},
+											{userTwo: users[1].id}
+										]
+									},
+									{
+										$and: [
+											{userOne: users[1].id},
+											{userTwo: users[0].id}
+										]
+									}
+								]
+							}
+						})
+					})	
+					.then(function(friendship) {
+						console.log("Friendship---", friendship)
+						Db.Friendship.update({relationship: 1}, {where: {id: friendship[0].id}});
+					})
+					.catch(function(err){
+						console.log('There is an error: ', err);
+					});
+				}
+			},
+		}
 	}
-	}
-		//TODO: addFriendship, updateFriendship, addChat, delateChat
+		//TODO: addChat, delateChat
 });
 
 var Schema = new GraphQLSchema({
