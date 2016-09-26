@@ -1,7 +1,7 @@
 var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
-var Schema = require('./db/schema');
+var User = require('./db/db').User;
 var app = express();
 var fs = require('fs')
 
@@ -14,6 +14,7 @@ var http = require('http').Server(app); //Should be https.  Change later after t
 
 var httpsServer = https.createServer(credentials, app);
 var port = process.env.PORT || 3000;
+var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var os = require('os');
@@ -27,22 +28,34 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // configure strategy
+function verifyPassword(password, dbPassword) {
+	if (password === dbPassword) {
+		return true;
+	} else {
+		return false
+	}
+};
+
+
 passport.use(new LocalStrategy(
 	function(username, password, done) {
-	// search username and password for comparing
-		User.findOne({username: username}, function(err, user) {
-			if (err) {return done(err);}
-			if (!user) {return done(null, false);}
-			if (!user.verifyPassword(password)) {return done(null, false);}
+	// search username and password for comparison
+		User.findAll({where: {username: username}})
+		.then(function(user) {
+			console.log('user: ', user);
+			if (user.length === 0) {return done(null, false, {message: 'wrong username'});}
+			if (!verifyPassword(password, user[0].password)) {return done(null, false, {message: 'wrong message'});}
 			return done(null, user);
 		});
 	}
 ));
 
 passport.serializeUser(function(user, done) {
-	done(null, user);
+	console.log('user in serializeUser: ', user);
+	done(null, user[0].id);
 });
 passport.deserializeUser(function(id, done) {
+	console.log('id: ', id);
 	User.findById(id, function(err, user) {
 		done(err, user);
 	})
@@ -54,18 +67,13 @@ app.use('/graphql', GraphHTTP({
 	graphiql: true
 }));
 
-<<<<<<< 5a1bdd3ec6afb0b180fcf22d22997d3fe085156e
-<<<<<<< cd6b1256062ec58d9a75eddc1001ecc6b8b565ee
-=======
-
-// authenticating request (needs to be updated later)
-=======
->>>>>>> Working on passport local auth
 app.post('/login', passport.authenticate('local', {
-	failureFlash: 'Invalid Username/Password!!',
-	failureRedirect: '/login',
+	successRedirect: '/',
+	failureRedirect: '/home',
 }) ,function(req, res) {
-	res.redirect('/profile/' + req.user.username);
+	console.log('tried logged in');
+	res.status(200).send('welcome');
+	// res.redirect('/profile/' + req.user.username);
 });
 
 
