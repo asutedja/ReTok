@@ -1,4 +1,5 @@
 node_modules/
+/client/bundle.js
 settings.js
 client/bundle.js
 client/.DS_Store
