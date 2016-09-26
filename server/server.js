@@ -1,11 +1,7 @@
 var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
-<<<<<<< 0c1f705c2ea417cd868ec338305d35c09b2e3183
 var User = require('./db/db').User;
-=======
-var Schema = require('./db/schema');
->>>>>>> Working on passport local auth
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
@@ -14,24 +10,13 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 require('./auth/auth');
 
-<<<<<<< 8d22663cc684e5ca568a901e110d84d0e67fdced
-=======
 var io = require('socket.io')(httpsServer);
-<<<<<<< 0c1f705c2ea417cd868ec338305d35c09b2e3183
-=======
- 
->>>>>>> Working on passport local auth
->>>>>>> Working on passport local auth
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
 app.use(passport.initialize());
 app.use(passport.session());
 
-<<<<<<< 8d22663cc684e5ca568a901e110d84d0e67fdced
-=======
-// configure strategy
-<<<<<<< 0c1f705c2ea417cd868ec338305d35c09b2e3183
 app.use('/graphql', GraphHTTP({
   schema: Schema,
   pretty: true,
@@ -117,6 +102,7 @@ io.sockets.on('connection', function(socket) {
 
 
 });
+
 
 http.listen(port, function(data) {
   console.log('listening on ' + port);
