@@ -2,6 +2,7 @@ var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
+
 var app = express();
 var fs = require('fs')
 
@@ -54,6 +55,8 @@ passport.serializeUser(function(user, done) {
 	console.log('user in serializeUser: ', user);
 	done(null, user[0].id);
 });
+
+
 passport.deserializeUser(function(id, done) {
 	console.log('id: ', id);
 	User.findById(id, function(err, user) {
@@ -139,7 +142,6 @@ io.sockets.on('connection', function(socket) {
   });
   
 });
-
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
