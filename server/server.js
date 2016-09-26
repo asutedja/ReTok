@@ -3,7 +3,6 @@ var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
 var Schema = require('./db/schema');
-
 var app = express();
 var fs = require('fs')
 
@@ -21,7 +20,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var os = require('os');
 var io = require('socket.io')(httpsServer);
- 
+
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}))
@@ -144,7 +143,6 @@ io.sockets.on('connection', function(socket) {
 
 
 
-<<<<<<< 56ae1d1b1ad3d5e9fa8ffb9d4a61e37bdeba6b4c
 app.post('/login', passport.authenticate('local', {
 	successRedirect: '/',
 	failureRedirect: '/home',
@@ -154,11 +152,29 @@ app.post('/login', passport.authenticate('local', {
 	// res.redirect('/profile/' + req.user.username);
 });
 	
-=======
 
->>>>>>> add new test for redux
+// authenticating request (needs to be updated later)
+app.post('/login', passport.authenticate('local', {
+	failureFlash: 'Invalid Username/Password!!',
+	failureRedirect: '/login',
+}) ,function(req, res) {
+	res.redirect('/profile/' + req.user.username);
+});
 
 
+
+
+
+
+
+
+
+
+
+
+// app.get('/', function(req, res) {
+// 	res.status(200).send('I am sending back!');
+// })
 
 io.sockets.on('connection', function(socket) {
 
