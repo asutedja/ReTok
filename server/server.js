@@ -2,6 +2,7 @@ var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
+
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
@@ -100,7 +101,6 @@ io.sockets.on('connection', function(socket) {
   });
   
 });
-
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
