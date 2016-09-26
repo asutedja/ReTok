@@ -143,12 +143,13 @@ io.sockets.on('connection', function(socket) {
 
 
 
-	
 app.post('/login', passport.authenticate('local', {
-	failureFlash: 'Invalid Username/Password!!',
-	failureRedirect: '/login',
+	successRedirect: '/',
+	failureRedirect: '/home',
 }) ,function(req, res) {
-	res.redirect('/profile/' + req.user.username);
+	console.log('tried logged in');
+	res.status(200).send('welcome');
+	// res.redirect('/profile/' + req.user.username);
 });
 
 
