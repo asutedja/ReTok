@@ -1,7 +1,11 @@
 var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
+<<<<<<< 0c1f705c2ea417cd868ec338305d35c09b2e3183
 var User = require('./db/db').User;
+=======
+var Schema = require('./db/schema');
+>>>>>>> Working on passport local auth
 var app = express();
 var fs = require('fs')
 
@@ -20,6 +24,10 @@ var LocalStrategy = require('passport-local').Strategy;
 var os = require('os');
 
 var io = require('socket.io')(httpsServer);
+<<<<<<< 0c1f705c2ea417cd868ec338305d35c09b2e3183
+=======
+ 
+>>>>>>> Working on passport local auth
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}))
@@ -27,6 +35,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // configure strategy
+<<<<<<< 0c1f705c2ea417cd868ec338305d35c09b2e3183
 function verifyPassword(password, dbPassword) {
 	if (password === dbPassword) {
 		return true;
@@ -66,15 +75,13 @@ app.use('/graphql', GraphHTTP({
 	graphiql: true
 }));
 
+// authenticating request (needs to be updated later)
 app.post('/login', passport.authenticate('local', {
-	successRedirect: '/',
-	failureRedirect: '/home',
+	failureFlash: 'Invalid Username/Password!!',
+	failureRedirect: '/login',
 }) ,function(req, res) {
-	console.log('tried logged in');
-	res.status(200).send('welcome');
-	// res.redirect('/profile/' + req.user.username);
+	res.redirect('/profile/' + req.user.username);
 });
-	
 
 io.sockets.on('connection', function(socket) {
 
