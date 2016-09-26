@@ -2,7 +2,6 @@ var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
-
 var app = express();
 var fs = require('fs')
 
@@ -20,7 +19,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var os = require('os');
 var io = require('socket.io')(httpsServer);
- 
+
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}))
@@ -141,7 +140,6 @@ io.sockets.on('connection', function(socket) {
   });
 
 });
-	
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
