@@ -54,10 +54,13 @@ app.use('/graphql', GraphHTTP({
 	graphiql: true
 }));
 
+<<<<<<< 5a1bdd3ec6afb0b180fcf22d22997d3fe085156e
 <<<<<<< cd6b1256062ec58d9a75eddc1001ecc6b8b565ee
 =======
 
 // authenticating request (needs to be updated later)
+=======
+>>>>>>> Working on passport local auth
 app.post('/login', passport.authenticate('local', {
 	failureFlash: 'Invalid Username/Password!!',
 	failureRedirect: '/login',
@@ -79,11 +82,6 @@ app.post('/login', passport.authenticate('local', {
 // app.get('/', function(req, res) {
 // 	res.status(200).send('I am sending back!');
 // })
->>>>>>> Working on passport local auth
-
-
-
-<<<<<<< cd6b1256062ec58d9a75eddc1001ecc6b8b565ee
 
 io.sockets.on('connection', function(socket) {
 
@@ -152,8 +150,6 @@ io.sockets.on('connection', function(socket) {
 });
 
 
-=======
->>>>>>> Working on passport local auth
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
