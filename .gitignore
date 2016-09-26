@@ -1,16 +1,9 @@
 node_modules/
-<<<<<<< 5a1bdd3ec6afb0b180fcf22d22997d3fe085156e
 /client/bundle.js
-=======
->>>>>>> Working on passport local auth
 settings.js
 client/bundle.js
 client/.DS_Store
 client/src/.DS_Store
 server/.DS_Store
 server/db/.DS_Store
-<<<<<<< 5a1bdd3ec6afb0b180fcf22d22997d3fe085156e
 client/src/Test
-=======
-client/src/Test
->>>>>>> Working on passport local auth
