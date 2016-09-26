@@ -1,5 +1,6 @@
 var express = require('express');
 var GraphHTTP = require('express-graphql');
+var session = require('express-session');
 var Schema = require('./db/schema');
 var app = express();
 var fs = require('fs')
@@ -19,9 +20,33 @@ var os = require('os');
 
 var io = require('socket.io')(httpsServer);
  
-
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
+app.use(session({secret: 'lets ReTok'}))
+app.use(passport.initialize());
+app.use(passport.session());
+
+// configure strategy
+passport.use(new LocalStrategy(
+	function(username, password, done) {
+	// search username and password for comparing
+		User.findOne({username: username}, function(err, user) {
+			if (err) {return done(err);}
+			if (!user) {return done(null, false);}
+			if (!user.verifyPassword(password)) {return done(null, false);}
+			return done(null, user);
+		});
+	}
+));
+
+passport.serializeUser(function(user, done) {
+	done(null, user);
+});
+passport.deserializeUser(function(id, done) {
+	User.findById(id, function(err, user) {
+		done(err, user);
+	})
+});
 
 app.use('/graphql', GraphHTTP({
 	schema: Schema,
@@ -29,9 +54,36 @@ app.use('/graphql', GraphHTTP({
 	graphiql: true
 }));
 
+<<<<<<< cd6b1256062ec58d9a75eddc1001ecc6b8b565ee
+=======
+
+// authenticating request (needs to be updated later)
+app.post('/login', passport.authenticate('local', {
+	failureFlash: 'Invalid Username/Password!!',
+	failureRedirect: '/login',
+}) ,function(req, res) {
+	res.redirect('/profile/' + req.user.username);
+});
 
 
 
+
+
+
+
+
+
+
+
+
+// app.get('/', function(req, res) {
+// 	res.status(200).send('I am sending back!');
+// })
+>>>>>>> Working on passport local auth
+
+
+
+<<<<<<< cd6b1256062ec58d9a75eddc1001ecc6b8b565ee
 
 io.sockets.on('connection', function(socket) {
 
@@ -100,6 +152,8 @@ io.sockets.on('connection', function(socket) {
 });
 
 
+=======
+>>>>>>> Working on passport local auth
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
