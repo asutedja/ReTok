@@ -11,6 +11,7 @@ var LocalStrategy = require('passport-local').Strategy;
 require('./auth/auth');
 
 var io = require('socket.io')(httpsServer);
+ 
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
@@ -98,7 +99,17 @@ io.sockets.on('connection', function(socket) {
     console.log('received bye');
   });
 
+
+
 });
+
+
+
+
+
+
+
+
 
 
 http.listen(port, function(data) {

@@ -6,6 +6,7 @@ import { createStore, combineReducers } from 'redux'
 import { Provider } from 'react-redux'
 import userReducer from './Redux/userReducer'
 
+// import {tester} from 'graphql-tester';
 
   // render(
   //   Routes, document.getElementById('app')
