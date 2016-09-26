@@ -1,11 +1,8 @@
 var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
 var User = require('./db/db').User;
-=======
 var Schema = require('./db/schema');
->>>>>>> Working on passport local auth
 var app = express();
 var fs = require('fs')
 
@@ -18,18 +15,12 @@ var http = require('http').Server(app); //Should be https.  Change later after t
 
 var httpsServer = https.createServer(credentials, app);
 var port = process.env.PORT || 3000;
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
-var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var os = require('os');
 
 var io = require('socket.io')(httpsServer);
  
-=======
-var passport = require('passport');
-var LocalStrategy = require('passport-local').Strategy;
->>>>>>> Working on passport local auth
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}))
@@ -37,7 +28,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 // configure strategy
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
 function verifyPassword(password, dbPassword) {
 	if (password === dbPassword) {
 		return true;
@@ -55,32 +45,24 @@ passport.use(new LocalStrategy(
 			console.log('user: ', user);
 			if (user.length === 0) {return done(null, false, {message: 'wrong username'});}
 			if (!verifyPassword(password, user[0].password)) {return done(null, false, {message: 'wrong message'});}
-=======
-passport.use(new LocalStrategy(
-	function(username, password, done) {
-	// search username and password for comparing
-		User.findOne({username: username}, function(err, user) {
-			if (err) {return done(err);}
-			if (!user) {return done(null, false);}
-			if (!user.verifyPassword(password)) {return done(null, false);}
->>>>>>> Working on passport local auth
+
 			return done(null, user);
 		});
 	}
 ));
 
 passport.serializeUser(function(user, done) {
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
 	console.log('user in serializeUser: ', user);
 	done(null, user[0].id);
 });
 passport.deserializeUser(function(id, done) {
 	console.log('id: ', id);
-=======
 	done(null, user);
 });
 passport.deserializeUser(function(id, done) {
->>>>>>> Working on passport local auth
+	done(null, user);
+});
+passport.deserializeUser(function(id, done) {
 	User.findById(id, function(err, user) {
 		done(err, user);
 	})
@@ -91,8 +73,6 @@ app.use('/graphql', GraphHTTP({
 	pretty: true,
 	graphiql: true
 }));
-
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
 app.post('/login', passport.authenticate('local', {
 	successRedirect: '/',
 	failureRedirect: '/home',
@@ -168,35 +148,14 @@ io.sockets.on('connection', function(socket) {
 
 
 
-=======
-
-// authenticating request (needs to be updated later)
 app.post('/login', passport.authenticate('local', {
 	failureFlash: 'Invalid Username/Password!!',
 	failureRedirect: '/login',
 }) ,function(req, res) {
 	res.redirect('/profile/' + req.user.username);
->>>>>>> Working on passport local auth
 });
 
 
-
-
-
-
-
-
-
-
-
-
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
-
-=======
->>>>>>> Working on passport local auth
-// app.get('/', function(req, res) {
-// 	res.status(200).send('I am sending back!');
-// })
 
 io.sockets.on('connection', function(socket) {
 
@@ -208,7 +167,6 @@ io.sockets.on('connection', function(socket) {
     socket.emit('log', array);
   }
 
-<<<<<<< 62a018f62947cbe143f870a50993a108b9b6acdc
   socket.on('connect', function(socket) {
   	log('socket has connected');
   });
@@ -265,9 +223,6 @@ io.sockets.on('connection', function(socket) {
 
 });
 
-
-=======
->>>>>>> Working on passport local auth
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
