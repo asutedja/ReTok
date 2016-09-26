@@ -2,7 +2,6 @@ var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
-
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
@@ -13,7 +12,7 @@ require('./auth/auth');
 
 var os = require('os');
 var io = require('socket.io')(httpsServer);
- 
+
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
@@ -102,7 +101,6 @@ io.sockets.on('connection', function(socket) {
   });
 
 });
-	
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
