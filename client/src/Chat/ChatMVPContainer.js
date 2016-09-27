@@ -35,7 +35,7 @@ class ChatMVPContainer extends React.Component {
 
      /////////////////////////////////////////////
 
-     var room = 'foo';
+     var room = 'fo';
      // Could prompt for room name:
      // room = prompt('Enter room name:');
 
@@ -107,7 +107,7 @@ class ChatMVPContainer extends React.Component {
      console.log(navigator.mediaDevices);
 
      navigator.mediaDevices.getUserMedia({
-       audio: true,
+       audio: false,
        video: true
      })
      .then(gotStream)
@@ -129,13 +129,13 @@ class ChatMVPContainer extends React.Component {
        video: true
      };
 
-     console.log('Getting user media with constraints', constraints);
+     // console.log('Getting user media with constraints', constraints);
 
-     if (location.hostname !== 'localhost') {
-       requestTurn(
-         'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
-       );
-     }
+     // if (location.hostname !== 'localhost') {
+     //   requestTurn(
+     //     'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
+     //   );
+     // }
 
      function maybeStart() {
        console.log('>>>>>>> maybeStart() ', isStarted, localStream, isChannelReady);

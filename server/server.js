@@ -38,7 +38,6 @@ app.get('/logout', function (req, res){
   res.redirect('/');
 });
 
-
 io.sockets.on('connection', function(socket) {
 
   // convenience function to log server messages on the client
@@ -51,8 +50,6 @@ io.sockets.on('connection', function(socket) {
   socket.on('connection', function(socket) {
   	log('socket has connected');
   });
-
-
 
   socket.on('message', function(message) {
     log('Client said: ', message);
@@ -101,6 +98,7 @@ io.sockets.on('connection', function(socket) {
   });
  
 });
+
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 
