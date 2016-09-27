@@ -363,9 +363,6 @@ class ChatContainer extends React.Component {
     sdpLines[mLineIndex] = mLineElements.join(' ');
     return sdpLines;
   }
-}
-
-
 
   render() {
     return (
@@ -382,7 +379,5 @@ class ChatContainer extends React.Component {
 
 
   }
-
-};
-
+}
 export default ChatContainer;
