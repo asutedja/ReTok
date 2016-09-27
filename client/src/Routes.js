@@ -9,6 +9,7 @@ import RecentFriendsContainer from './Profile/RecentFriends/RecentFriendsContain
 import SuggestedContainer from './Profile/Suggested/SuggestedContainer.js'
 import StoreContainer from './Store/StoreContainer.js'
 import ChatContainer from './Chat/ChatContainer.js'
+import ChatMVPContainer from './Chat/ChatMVPContainer.js'
 
 // var Routes = (
 //   <Router history={browserHistory}>
@@ -34,7 +35,7 @@ var Routes = (
       </Route>  
       <Route path='/login' component={LoginContainer}/>
       <Route path="/store" component={StoreContainer}/>
-      <Route path="/chat" component={ChatContainer}/>
+      <Route path="/chat" component={ChatMVPContainer}/>
     </Route>
   </Router>
 )
