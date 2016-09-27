@@ -4,6 +4,7 @@ import SignInNav from './SignInNav'
 import axios from 'axios'
 import { Router, Route, IndexRoute, Link } from 'react-router'
 
+
 class LoggedInNavContainer extends React.Component {
     constructor(props) {
       super(props);
@@ -13,6 +14,7 @@ class LoggedInNavContainer extends React.Component {
     } 
 
     componentWillMount() {
+      
       //Some server query to find the session status of client joining app
 
       //Create logic to check if session is true or not
