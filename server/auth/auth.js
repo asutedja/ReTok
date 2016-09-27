@@ -14,7 +14,6 @@ passport.use(new LocalStrategy(
 		.then(function(user) {
 			if (user.length === 0) {return done(null, false, {message: 'wrong username'});}
 			if (!comparePw(password, user[0].password)) {return done(null, false, {message: 'wrong message'});}
-
 			return done(null, user);
 		});
 	}
