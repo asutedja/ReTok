@@ -10,7 +10,6 @@ class ChatContainer extends React.Component {
   componentDidMount() {
     var socket = io();
     console.log('SOCKET CONNECTION',socket)
-
     var isChannelReady = false;
     var isInitiator = false;
     var isStarted = false;
