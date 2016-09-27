@@ -75,8 +75,8 @@ app.post('/login', passport.authenticate('local', {
 	// res.redirect('/profile/' + req.user.username);
 });
 
-io.sockets.on('connection', function(socket) {
 
+io.sockets.on('connection', function(socket) {
 
   // convenience function to log server messages on the client
   function log() {
@@ -85,7 +85,7 @@ io.sockets.on('connection', function(socket) {
     socket.emit('log', array);
   }
 
-  socket.on('connect', function(socket) {
+  socket.on('connection', function(socket) {
   	log('socket has connected');
   });
 
@@ -100,7 +100,7 @@ io.sockets.on('connection', function(socket) {
   socket.on('create or join', function(room) {
     log('Received request to create or join room ' + room);
 
-    var numClients = io.sockets.sockets.length;
+    var numClients = Object.keys(io.sockets.sockets).length;
     log('Room ' + room + ' now has ' + numClients + ' client(s)');
 
     if (numClients === 1) {
@@ -108,7 +108,7 @@ io.sockets.on('connection', function(socket) {
       log('Client ID ' + socket.id + ' created room ' + room);
       socket.emit('created', room, socket.id);
 
-    } else if (numClients === 2) {
+    } else if (numClients >= 2) {
       log('Client ID ' + socket.id + ' joined room ' + room);
       io.sockets.in(room).emit('join', room);
       socket.join(room);
@@ -136,8 +136,6 @@ io.sockets.on('connection', function(socket) {
   socket.on('bye', function(){
     console.log('received bye');
   });
-
-
 
 });
 

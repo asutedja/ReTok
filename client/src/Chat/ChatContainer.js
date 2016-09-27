@@ -7,8 +7,10 @@ class ChatContainer extends React.Component {
     super(props);
   }
 
-  componentWillMount() {
+  componentDidMount() {
   	console.log('I get here')
+    var socket = io();
+    console.log('SOCKET CONNECTION',socket)
     var isChannelReady = false;
     var isInitiator = false;
     var isStarted = false;
@@ -47,6 +49,7 @@ class ChatContainer extends React.Component {
     .then(this.gotStream.bind(this))
     .catch(function(e) {
       alert('getUserMedia() error: ' + e.name);
+      console.log(e);
     });
 
 
@@ -126,7 +129,8 @@ class ChatContainer extends React.Component {
   	window.stream = stream;
     console.log('Adding local stream.');
     localVideo.src = window.URL.createObjectURL(stream);
-    localStream = stream;
+    var localStream = stream;
+    window.localStream = localStream;
     this.sendMessage('got user media');
     if (isInitiator) {
       maybeStart();
@@ -134,11 +138,11 @@ class ChatContainer extends React.Component {
   }
 
   maybeStart() {
-    console.log('>>>>>>> maybeStart() ', isStarted, localStream, isChannelReady);
-    if (!isStarted && typeof localStream !== 'undefined' && isChannelReady) {
+    console.log('>>>>>>> maybeStart() ', isStarted, window.localStream, isChannelReady);
+    if (!isStarted && typeof window.localStream !== 'undefined' && isChannelReady) {
       console.log('>>>>>> creating peer connection');
       this.createPeerConnection();
-      pc.addStream(localStream);
+      pc.addStream(window.localStream);
       isStarted = true;
       console.log('isInitiator', isInitiator);
       if (isInitiator) {
@@ -370,6 +374,7 @@ class ChatContainer extends React.Component {
       <div id="videos">
         <video id="localVideo" autoPlay></video>
         <video id="remoteVideo" autoPlay></video>
+      </div>
       </div>
     )
   }
