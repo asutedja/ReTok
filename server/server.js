@@ -29,11 +29,12 @@ app.use('/graphql', GraphHTTP({
 	graphiql: true
 }));
 
-	
+
 
 
 
 io.sockets.on('connection', function(socket) {
+
 
   // convenience function to log server messages on the client
   function log() {
@@ -41,6 +42,12 @@ io.sockets.on('connection', function(socket) {
     array.push.apply(array, arguments);
     socket.emit('log', array);
   }
+
+  socket.on('connect', function(socket) {
+  	log('socket has connected');
+  });
+
+
 
   socket.on('message', function(message) {
     log('Client said: ', message);
@@ -59,12 +66,15 @@ io.sockets.on('connection', function(socket) {
       log('Client ID ' + socket.id + ' created room ' + room);
       socket.emit('created', room, socket.id);
 
-    } else if (numClients > 1) {
+    } else if (numClients === 2) {
       log('Client ID ' + socket.id + ' joined room ' + room);
       io.sockets.in(room).emit('join', room);
       socket.join(room);
       socket.emit('joined', room, socket.id);
       io.sockets.in(room).emit('ready');
+    } else if(numClients > 2) {
+    	var user = io.sockets.adapter.rooms[room];
+    	console.log(user, 'number of users', user.length);
     } else { // max two clients
       socket.emit('full', room);
     }
@@ -76,7 +86,7 @@ io.sockets.on('connection', function(socket) {
       ifaces[dev].forEach(function(details) {
         if (details.family === 'IPv4' && details.address !== '127.0.0.1') {
           socket.emit('ipaddr', details.address);
-        }
+        } 
       });
     }
   });
@@ -84,6 +94,8 @@ io.sockets.on('connection', function(socket) {
   socket.on('bye', function(){
     console.log('received bye');
   });
+
+
 
 });
 

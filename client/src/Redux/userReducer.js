@@ -65,7 +65,7 @@ const userInitialState = {
 export default function userReducer (state = userInitialState, action) {
   switch(action.type){
     case 'USER_AUTH' :  
-   var a = Object.assign({isLoggedIn: true}, state)
+   var a = Object.assign({},state, {isLoggedIn: true})
    return a;
 
     case 'USER_UNAUTH' : 
@@ -86,8 +86,10 @@ export default function userReducer (state = userInitialState, action) {
     }
 
     case 'UPDATE_USER' : {
-      var a = Object.assign({user: action.user}, state)
-      return a;
+     return {
+       ...state,
+        user:action.user,
+      }
     }
 
     case 'UPDATE_FRIENDS' : {
