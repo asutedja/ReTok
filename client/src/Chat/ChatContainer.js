@@ -9,6 +9,7 @@ class ChatContainer extends React.Component {
 
   componentWillMount() {
   	console.log('I get here')
+
     var isChannelReady = false;
     var isInitiator = false;
     var isStarted = false;
@@ -33,11 +34,11 @@ class ChatContainer extends React.Component {
     };
 
    
+    var socket = io();
+
 
     var localVideo = document.querySelector('#localVideo');
     var remoteVideo = document.querySelector('#remoteVideo');
-
-    console.log('Does getUserMedia exist?',navigator.mediaDevices);
 
     navigator.mediaDevices.getUserMedia({
       audio: false,
@@ -372,6 +373,6 @@ class ChatContainer extends React.Component {
       </div>
     )
   }
-
 }
+
 export default ChatContainer;

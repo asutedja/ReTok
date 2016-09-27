@@ -75,7 +75,6 @@ app.post('/login', passport.authenticate('local', {
 	// res.redirect('/profile/' + req.user.username);
 });
 
-
 io.sockets.on('connection', function(socket) {
 
 
