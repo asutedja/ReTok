@@ -1,26 +1,16 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-<<<<<<< 2b9deea9e97b5afa3daaf6dc91fe8dcee63d566f
-<<<<<<< 11d24f975a084d4a77b6cdc5433e53d3f0fc47e2
-=======
->>>>>>> Bring peerRTCConnection to our client unfunctionally
 class ChatContainer extends React.Component {
 
   constructor(props) {
     super(props);
   }
 
-<<<<<<< 2b9deea9e97b5afa3daaf6dc91fe8dcee63d566f
   componentDidMount() {
   	console.log('I get here')
     var socket = io();
     console.log('SOCKET CONNECTION',socket)
-=======
-  componentWillMount() {
-  	console.log('I get here')
-
->>>>>>> Bring peerRTCConnection to our client unfunctionally
     var isChannelReady = false;
     var isInitiator = false;
     var isStarted = false;
@@ -41,7 +31,6 @@ class ChatContainer extends React.Component {
       'mandatory': {
         'OfferToReceiveAudio': true,
         'OfferToReceiveVideo': true
-<<<<<<< 2b9deea9e97b5afa3daaf6dc91fe8dcee63d566f
       }
     };
 
@@ -159,121 +148,7 @@ class ChatContainer extends React.Component {
       if (isInitiator) {
         this.doCall();
       }
-=======
-      }
-    };
 
-    var socket = io();
-
-    var localVideo = document.querySelector('#localVideo');
-    var remoteVideo = document.querySelector('#remoteVideo');
-
-    navigator.mediaDevices.getUserMedia({
-      audio: false,
-      video: true
-    })
-    .then(this.gotStream.bind(this))
-    .catch(function(e) {
-      alert('getUserMedia() error: ' + e.name);
-    });
-
-
-    if (location.hostname !== 'localhost') {
-      this.requestTurn(
-        'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
-      );
-    }
-
-    var room = 'foo';
-    // Could prompt for room name:
-    // room = prompt('Enter room name:');
-
-    var socket = io.connect();
-
-    if (room !== '') {
-      socket.emit('create or join', room);
-      console.log('Attempted to create or  join room', room);
-    }
-
-    socket.on('created', function(room) {
-      console.log('Created room ' + room);
-      isInitiator = true;
-    });
-
-    socket.on('full', function(room) {
-      console.log('Room ' + room + ' is full');
-    });
-
-    socket.on('join', function (room){
-      console.log('Another peer made a request to join room ' + room);
-      console.log('This peer is the initiator of room ' + room + '!');
-      isChannelReady = true;
-    });
-
-    socket.on('joined', function(room) {
-      console.log('joined: ' + room);
-      isChannelReady = true;
-    });
-
-    socket.on('log', function(array) {
-      console.log.apply(console, array);
-    });
-
-
-    // This client receives a message
-    socket.on('message', function(message) {
-      console.log('Client received message:', message);
-      if (message === 'got user media') {
-        this.maybeStart();
-      } else if (message.type === 'offer') {
-        if (!isInitiator && !isStarted) {
-          this.maybeStart();
-        }
-        pc.setRemoteDescription(new RTCSessionDescription(message));
-        this.doAnswer();
-      } else if (message.type === 'answer' && isStarted) {
-        pc.setRemoteDescription(new RTCSessionDescription(message));
-      } else if (message.type === 'candidate' && isStarted) {
-        var candidate = new RTCIceCandidate({
-          sdpMLineIndex: message.label,
-          candidate: message.candidate
-        });
-        pc.addIceCandidate(candidate);
-      } else if (message === 'bye' && isStarted) {
-        this.handleRemoteHangup();
-      }
-    });
-
-  }
-
-  sendMessage(message) {
-    console.log('Client sending message: ', message);
-    socket.emit('message', message);
-  }
-
-  gotStream(stream) {
-  	window.stream = stream;
-    console.log('Adding local stream.');
-    localVideo.src = window.URL.createObjectURL(stream);
-    localStream = stream;
-    this.sendMessage('got user media');
-    if (isInitiator) {
-      maybeStart();
-    }
-  }
-
-  maybeStart() {
-    console.log('>>>>>>> maybeStart() ', isStarted, localStream, isChannelReady);
-    if (!isStarted && typeof localStream !== 'undefined' && isChannelReady) {
-      console.log('>>>>>> creating peer connection');
-      this.createPeerConnection();
-      pc.addStream(localStream);
-      isStarted = true;
-      console.log('isInitiator', isInitiator);
-      if (isInitiator) {
-        this.doCall();
-      }
->>>>>>> Bring peerRTCConnection to our client unfunctionally
     }
   }
 
@@ -490,10 +365,8 @@ class ChatContainer extends React.Component {
     sdpLines[mLineIndex] = mLineElements.join(' ');
     return sdpLines;
   }
-<<<<<<< 2b9deea9e97b5afa3daaf6dc91fe8dcee63d566f
-=======
+
 }
->>>>>>> Bring peerRTCConnection to our client unfunctionally
 
 
   render() {

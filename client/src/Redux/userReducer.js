@@ -78,7 +78,6 @@ export default function userReducer (state = userInitialState, action) {
          userID: ''
        }
     }
-
     case 'TOGGLE_LOGIN' : {
       return {
         ...state,
