@@ -67,7 +67,7 @@ export default function userReducer (state = userInitialState, action) {
     case 'USER_AUTH' :  {
    return {
      ...state,
-      isLoggedIn: true},
+      isLoggedIn: true,
       }
     }
     case 'USER_UNAUTH' : {
