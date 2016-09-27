@@ -14,16 +14,19 @@ passport.use(new LocalStrategy(
 		.then(function(user) {
 			if (user.length === 0) {return done(null, false, {message: 'wrong username'});}
 			if (!comparePw(password, user[0].password)) {return done(null, false, {message: 'wrong message'});}
+
 			return done(null, user);
 		});
 	}
 ));
 
 passport.serializeUser(function(user, done) {
+
 	done(null, user[0].id);
 });
 
 passport.deserializeUser(function(id, done) {
+
 	User.findAll({where: {id: id}})
 	.then(function(user) {
 		done(null, user);
