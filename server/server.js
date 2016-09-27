@@ -73,7 +73,6 @@ app.use(cors());
 // 	})
 // });
 
-
 app.use('/graphql', GraphHTTP({
   schema: Schema,
   pretty: true,
@@ -94,6 +93,7 @@ app.post('/login', passport.authenticate('local', {
   // successRedirect: '/',
   failureRedirect: '/',
 }) ,function(req, res) {
+
   var userID = req.session.passport.user;
   console.log('checking my request over here -------->', req.session.passport.user);
 
@@ -171,6 +171,10 @@ io.sockets.on('connection', function(socket) {
   socket.on('bye', function(){
     console.log('received bye');
   });
+
+
+	res.status(200).send('welcome');
+	// res.redirect('/profile/' + req.user.username);
 
 });
 
