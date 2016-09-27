@@ -51,11 +51,11 @@ class ChatContainer extends React.Component {
     });
 
 
-    if (location.hostname !== 'localhost') {
-      this.requestTurn(
-        'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
-      );
-    }
+    // if (location.hostname !== 'localhost') {
+    //   this.requestTurn(
+    //     'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
+    //   );
+    // }
 
     var room = 'foo';
     // Could prompt for room name:
@@ -363,8 +363,8 @@ class ChatContainer extends React.Component {
     sdpLines[mLineIndex] = mLineElements.join(' ');
     return sdpLines;
   }
-
 }
+
 
 
   render() {
