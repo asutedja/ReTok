@@ -70,7 +70,6 @@ export default function userReducer (state = userInitialState, action) {
       isLoggedIn: true},
       }
     }
-
     case 'USER_UNAUTH' : {
       return {
         ...state,
