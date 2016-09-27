@@ -1,7 +1,8 @@
 //establish database connection
 //CHANGE PASSWORD IN SETTINGS.JS IF NEEDED
 var Sequelize = require('sequelize');
-var userinfo = require('../../settings.js').userInfo;
+var userinfo = require('../../settings.js');
+console.log('here I am', userinfo);
 var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
 
 //define user model
