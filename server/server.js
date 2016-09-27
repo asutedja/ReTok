@@ -11,6 +11,7 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 require('./auth/auth');
 
+var os = require('os');
 var io = require('socket.io')(httpsServer);
  
 app.use(express.static('client'));
@@ -101,6 +102,7 @@ io.sockets.on('connection', function(socket) {
   });
   
 });
+
 http.listen(port, function(data) {
   console.log('listening on ' + port);
 

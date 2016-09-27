@@ -6,6 +6,7 @@ const jestPreset = require('babel-preset-es2015');
 const react = require('babel-preset-react')
 const stage = require('babel-preset-stage-1')
 
+
 module.exports = {
   process(src, filename) {
     if (babel.util.canCompile(filename)) {
