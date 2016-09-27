@@ -138,7 +138,7 @@ class ChatContainer extends React.Component {
   }
 
   maybeStart() {
-    console.log('>>>>>>> maybeStart() ', isStarted, window.localStream, isChannelReady);
+    console.log('>>>>>>maybeStart() ', isStarted, window.localStream, isChannelReady);
     if (!isStarted && typeof window.localStream !== 'undefined' && isChannelReady) {
       console.log('>>>>>> creating peer connection');
       this.createPeerConnection();
@@ -364,6 +364,7 @@ class ChatContainer extends React.Component {
     sdpLines[mLineIndex] = mLineElements.join(' ');
     return sdpLines;
   }
+
 
   render() {
     return (
