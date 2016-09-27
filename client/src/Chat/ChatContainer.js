@@ -376,5 +376,4 @@ class ChatContainer extends React.Component {
   }
 }
 
-
 export default ChatContainer;
