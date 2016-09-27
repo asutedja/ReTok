@@ -36,8 +36,6 @@ app.get('/logout', function (req, res){
   res.redirect('/');
 });
 
-
-
 io.sockets.on('connection', function(socket) {
 
 
