@@ -1,4 +1,4 @@
-<<<<<<< 11d24f975a084d4a77b6cdc5433e53d3f0fc47e2
+
 import HomeContainer from '../client/src/Home/HomeContainer.js';
 import ProfileContainer from '../client/src/Profile/ProfileContainer.js';
 import StoreContainer from '../client/src/Store/StoreContainer.js'
@@ -34,24 +34,4 @@ it('Check if webRTC grabs local info or not', () => {
 
   expect(!!checkboxNode).toBe(true);
 
-
-=======
-import Provider from '../node_modules/react-redux/src/components/Provider.js';
-import React from 'react';
-import ReactDOM from 'react-dom';
-import TestUtils from 'react-addons-test-utils';
-
-
-it('CheckboxWithLabel changes the text after click', () => {
-  // Render a checkbox with label in the document
-  const checkbox = TestUtils.renderIntoDocument(
-    <Provider />
-  );
-
-  const checkboxNode = ReactDOM.findDOMNode(checkbox);
-
-  expect()
->>>>>>> Rebase
-  // Verify that it's Off by default
-  // Simulate a click and verify that it is now On
 });
