@@ -34,13 +34,9 @@ class ChatContainer extends React.Component {
       }
     };
 
-  
-
 
     var localVideo = document.querySelector('#localVideo');
     var remoteVideo = document.querySelector('#remoteVideo');
-
-    console.log('Does getUserMedia exist?',navigator.mediaDevices);
 
     navigator.mediaDevices.getUserMedia({
       audio: false,
@@ -378,5 +374,6 @@ class ChatContainer extends React.Component {
     )
   }
 }
+
 
 export default ChatContainer;
