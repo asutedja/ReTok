@@ -363,7 +363,6 @@ class ChatContainer extends React.Component {
     return sdpLines;
   }
 
-
   render() {
     return (
       <div>
