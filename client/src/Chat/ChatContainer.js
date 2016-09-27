@@ -8,9 +8,9 @@ class ChatContainer extends React.Component {
   }
 
   componentDidMount() {
-  	console.log('I get here')
     var socket = io();
     console.log('SOCKET CONNECTION',socket)
+
     var isChannelReady = false;
     var isInitiator = false;
     var isStarted = false;
@@ -35,8 +35,11 @@ class ChatContainer extends React.Component {
     };
 
 
+
     var localVideo = document.querySelector('#localVideo');
     var remoteVideo = document.querySelector('#remoteVideo');
+
+    console.log('Does getUserMedia exist?',navigator.mediaDevices);
 
     navigator.mediaDevices.getUserMedia({
       audio: false,
