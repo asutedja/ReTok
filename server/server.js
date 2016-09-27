@@ -10,6 +10,13 @@ var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 require('./auth/auth');
 
+var fs = require('fs');
+var https = require('https')
+var privateKey  = fs.readFileSync('server/key.pem', 'utf8');
+var certificate = fs.readFileSync('server/cert.pem', 'utf8');
+var credentials = {key: privateKey, cert: certificate};
+var httpsServer = https.createServer(credentials, app);
+
 var os = require('os');
 var io = require('socket.io')(httpsServer);
 
@@ -103,3 +110,6 @@ http.listen(port, function(data) {
   console.log('listening on ' + port);
 
 });
+
+
+httpsServer.listen(8443);
