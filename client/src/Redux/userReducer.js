@@ -14,7 +14,7 @@ export function toggleLogIn(bool){
     isLoggedIn: bool,
   }
 }
-
+ 
 export function userUnauth () {
   return {
     type: 'USER_UNAUTH',
