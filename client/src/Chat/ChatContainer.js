@@ -1,7 +1,6 @@
 import React from 'react'
 import { render } from 'react-dom'
 
-<<<<<<< 622f26b6505b018100b8d4fa7697bdcb851f8fd6
 class ChatContainer extends React.Component {
 
   constructor(props) {
@@ -35,13 +34,9 @@ class ChatContainer extends React.Component {
       }
     };
 
-  
-
 
     var localVideo = document.querySelector('#localVideo');
     var remoteVideo = document.querySelector('#remoteVideo');
-
-    console.log('Does getUserMedia exist?',navigator.mediaDevices);
 
     navigator.mediaDevices.getUserMedia({
       audio: false,
@@ -380,5 +375,6 @@ class ChatContainer extends React.Component {
     )
   }
 }
+
 
 export default ChatContainer;
