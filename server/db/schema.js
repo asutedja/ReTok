@@ -22,6 +22,8 @@ var GraphQLNonNull = require('graphql').GraphQLNonNull;
 
 var Db = require('./db');
 
+var Auth = require('../auth/auth');
+
 var User = new GraphQLObjectType({
 
 	name: 'User',
@@ -257,17 +259,23 @@ var Mutation = new GraphQLObjectType({
 					emoji: {type: GraphQLString}
 				},
 				resolve (root, args) {
-					return Db.User.create({
-						username: args.username,
-						password: args.password,
-						firstName: args.firstName,
-						lastName: args.lastName,
-						email: args.email,
-						dob: args.dob,
-						gender: args.gender,
-						profilePic: args.profilePic,
-						coin: 0,
-						emoji: 'test-emoji'
+					return Auth.hashPwAsync(args.password)
+					.then(function (hashed) {
+						return Db.User.create({
+							username: args.username,
+							password: hashed,
+							firstName: args.firstName,
+							lastName: args.lastName,
+							email: args.email,
+							dob: args.dob,
+							gender: args.gender,
+							profilePic: args.profilePic,
+							coin: 0,
+							emoji: 'test-emoji'
+						});
+					})
+					.catch(function (err) {
+						console.log("There is an error: ", err);
 					});
 				}
 			},
