@@ -12,7 +12,7 @@ var bodyparser = require('body-parser');
 require('./auth/auth');
 
 var fs = require('fs');
-var https = require('https')
+var https = require('https');
 var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
 var certificate = fs.readFileSync(__dirname + '/cert.pem', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
@@ -26,7 +26,7 @@ app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(bodyparser.json());
+// app.use(bodyparser.json());
 
 app.use('/graphql', GraphHTTP({
   schema: Schema,

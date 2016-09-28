@@ -33,6 +33,7 @@ class LoginContainer extends React.Component {
 					}`
 
 
+
 			};
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
@@ -40,6 +41,9 @@ class LoginContainer extends React.Component {
 					this.props.dispatch(userActions.userAuth(data));
 					})
 			})
+
+
+
 
 
 
