@@ -4568,6 +4568,7 @@ exports.userUnauth = userUnauth;
 exports.updateUser = updateUser;
 exports.updateFriends = updateFriends;
 exports.updateOnlineFriends = updateOnlineFriends;
+exports.updateSearch = updateSearch;
 exports.updateEmojis = updateEmojis;
 exports.default = userReducer;
 
@@ -4622,6 +4623,13 @@ function updateOnlineFriends(onlineFriends) {
   };
 }
 
+function updateSearch(search) {
+  return {
+    type: 'UPDATE_SEARCH',
+    search: search
+  };
+}
+
 function updateEmojis(emoji) {
   return {
     type: 'UPDATE_EMOJIS',
@@ -4637,7 +4645,9 @@ var userInitialState = {
   onlineFriends: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
   isLoggedIn: false,
   error: '',
-  emojis: []
+  emojis: [],
+  search: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }]
+
 };
 
 // ------------ USER REDUCER -----------------//
@@ -4696,6 +4706,13 @@ function userReducer() {
         });
       }
 
+    case 'UPDATE_SEARCH':
+      {
+        return _extends({}, state, {
+          search: action.search
+        });
+      }
+
     case 'UPDATE_EMOJIS':
       {
         return _extends({}, state, {
@@ -4726,6 +4743,8 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(updateFriends, 'updateFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateOnlineFriends, 'updateOnlineFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(updateSearch, 'updateSearch', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateEmojis, 'updateEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
@@ -15788,7 +15807,7 @@ var LoginContainer = function (_React$Component) {
 			};
 			fetch('/graphql', options).then(function (res) {
 				return res.json().then(function (data) {
-					console.log(data);
+					console.log('what is my data', data);
 					_this2.props.dispatch(userActions.userAuth(data));
 					console.log('checking router', _this2.context.router);
 					_this2.context.router.push('/profile');
@@ -28588,8 +28607,20 @@ var LoggedInNav = function LoggedInNav(props) {
     { className: 'mainNav' },
     _react2.default.createElement(
       _reactRouter.Link,
-      { to: '/', className: 'logo' },
+      { to: '/profile', className: 'logo' },
       'ReTok'
+    ),
+    _react2.default.createElement(
+      'form',
+      { id: 'searchForm', onSubmit: function onSubmit(event) {
+          event.preventDefault();props.searchReTok(document.getElementById('usernameSearch').value);
+        } },
+      _react2.default.createElement('input', { id: 'usernameSearch', className: 'NavInputForm', placeholder: 'search users' }),
+      _react2.default.createElement(
+        'button',
+        { className: 'searchButton' },
+        'search ReTok!'
+      )
     ),
     _react2.default.createElement(
       _reactRouter.Link,
@@ -28600,11 +28631,6 @@ var LoggedInNav = function LoggedInNav(props) {
       _reactRouter.Link,
       { to: '/store' },
       'Store'
-    ),
-    _react2.default.createElement(
-      _reactRouter.Link,
-      { to: '/profile' },
-      'Profile'
     ),
     _react2.default.createElement(
       _reactRouter.Link,
@@ -28661,6 +28687,14 @@ var _axios2 = _interopRequireDefault(_axios);
 
 var _reactRouter = __webpack_require__(21);
 
+var _reactRedux = __webpack_require__(42);
+
+var _userReducer = __webpack_require__(37);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -28672,10 +28706,10 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 var LoggedInNavContainer = function (_React$Component) {
   _inherits(LoggedInNavContainer, _React$Component);
 
-  function LoggedInNavContainer(props) {
+  function LoggedInNavContainer(props, context) {
     _classCallCheck(this, LoggedInNavContainer);
 
-    var _this = _possibleConstructorReturn(this, (LoggedInNavContainer.__proto__ || Object.getPrototypeOf(LoggedInNavContainer)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (LoggedInNavContainer.__proto__ || Object.getPrototypeOf(LoggedInNavContainer)).call(this, props, context));
 
     _this.state = {
       loggedIn: true
@@ -28699,14 +28733,36 @@ var LoggedInNavContainer = function (_React$Component) {
       this.setState({ loggedIn: !this.state.loggedIn });
     }
   }, {
-    key: 'signingIn',
-    value: function signingIn(e, user, password) {
-      e.preventDefault();
-      console.log('User ', user, ' Password ', password);
-      //Create logic for checking user and password
+    key: 'searchReTok',
+    value: function searchReTok(query) {
+      var _this2 = this;
 
-      //when we see confirmation of user, move user to their profile page
-      //browserHistory.push('/' + user);
+      if (query.indexOf(' ') !== -1) {
+        query = query.split(' ')[0];
+      }
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n        {\n\n          users(firstName: "' + query + '")\n              {\n               id\n               username\n               password\n               firstName\n               lastName\n               email   \n               profilePic\n              }\n        }'
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          var searchresult = data.data.users.slice();
+          console.log('what is my data from my search bar', searchresult);
+
+          _this2.props.dispatch(userActions.updateSearch(searchresult));
+          console.log('checking router', _this2.context.router);
+          _this2.context.router.push('/search');
+        });
+      });
+
+      // console.log(username);
+      // this.props.dispatch(userActions.updateSearch(username));
+      // this.context.router.push('/search');
     }
   }, {
     key: 'render',
@@ -28714,7 +28770,7 @@ var LoggedInNavContainer = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_LoggedInNav2.default, null)
+        _react2.default.createElement(_LoggedInNav2.default, { searchReTok: this.searchReTok.bind(this) })
       );
     }
   }]);
@@ -28722,7 +28778,19 @@ var LoggedInNavContainer = function (_React$Component) {
   return LoggedInNavContainer;
 }(_react2.default.Component);
 
-var _default = LoggedInNavContainer;
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    search: state.userReducer.search
+  };
+}
+
+LoggedInNavContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(LoggedInNavContainer);
+
 exports.default = _default;
 ;
 
@@ -28730,6 +28798,8 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 
   __REACT_HOT_LOADER__.register(LoggedInNavContainer, 'LoggedInNavContainer', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 
@@ -28826,8 +28896,8 @@ var LoggedOutNav = function LoggedOutNav(props) {
       { id: 'loginForm', onSubmit: function onSubmit(event) {
           event.preventDefault();props.loggingIn(document.getElementById('usernameLogIn').value, document.getElementById('passwordLogIn').value);
         } },
-      _react2.default.createElement('input', { id: 'usernameLogIn', className: 'LogInInputForm', placeholder: 'username' }),
-      _react2.default.createElement('input', { id: 'passwordLogIn', className: 'LogInInputForm', placeholder: 'password' }),
+      _react2.default.createElement('input', { id: 'usernameLogIn', className: 'NavInputForm', placeholder: 'username' }),
+      _react2.default.createElement('input', { id: 'passwordLogIn', className: 'NavInputForm', placeholder: 'password' }),
       _react2.default.createElement(
         'button',
         { className: 'loginButton' },
@@ -28921,7 +28991,8 @@ var LoggedOutNavContainer = function (_React$Component) {
         console.log('what is my res data for loggin in???', res.data);
 
         console.log('checking router', _this2.context.router);
-        if (res.data) {
+        if (res.data[0].username) {
+          _this2.props.dispatch(userActions.updateUser(res.data[0]));
           _this2.props.dispatch(userActions.userAuth(res.data));
           _this2.context.router.push('/profile');
         }
@@ -29374,9 +29445,9 @@ var Profile = function Profile(props) {
             _react2.default.createElement(
               'b',
               null,
-              'Birthday:'
+              'User Name:'
             ),
-            props.user.dob
+            props.user.username
           )
         ),
         _react2.default.createElement(
@@ -29400,7 +29471,7 @@ var Profile = function Profile(props) {
       { className: 'profileNav' },
       _react2.default.createElement(
         _reactRouter.Link,
-        { to: '/' },
+        { to: '/profile' },
         'All Friends'
       ),
       _react2.default.createElement(
@@ -29693,6 +29764,10 @@ var _ChatMVPContainer = __webpack_require__(252);
 
 var _ChatMVPContainer2 = _interopRequireDefault(_ChatMVPContainer);
 
+var _SearchContainer = __webpack_require__(556);
+
+var _SearchContainer2 = _interopRequireDefault(_SearchContainer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Routes = _react2.default.createElement(
@@ -29710,6 +29785,7 @@ var Routes = _react2.default.createElement(
       _react2.default.createElement(_reactRouter.Route, { path: '/suggested', component: _SuggestedContainer2.default })
     ),
     _react2.default.createElement(_reactRouter.Route, { path: '/store', component: _StoreContainer2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/search', component: _SearchContainer2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: '/chat', component: _ChatMVPContainer2.default })
   )
 );
@@ -61362,6 +61438,202 @@ var _temp = function () {
 
 module.exports = __webpack_require__(250);
 
+
+/***/ },
+/* 556 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(14);
+
+var _reactRedux = __webpack_require__(42);
+
+var _Search = __webpack_require__(557);
+
+var _Search2 = _interopRequireDefault(_Search);
+
+var _userReducer = __webpack_require__(37);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SearchContainer = function (_React$Component) {
+  _inherits(SearchContainer, _React$Component);
+
+  function SearchContainer(props) {
+    _classCallCheck(this, SearchContainer);
+
+    return _possibleConstructorReturn(this, (SearchContainer.__proto__ || Object.getPrototypeOf(SearchContainer)).call(this, props));
+  }
+
+  _createClass(SearchContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      //console.log('making sure my search container is getting props', this.props.search);
+    }
+  }, {
+    key: 'addFriend',
+    value: function addFriend(friend) {
+      console.log('i tried to add this friend', friend);
+      console.log('im checking my own user info', this.props.user);
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: 'mutation\n        {\n          addFriendship(userOne: "' + this.props.user.username + '" userTwo: "' + friend.username + '")\n          {\n                userOne\n                userTwo\n                relationship\n                chatCount\n              }\n        }'
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          console.log('what is my data', data);
+          // this.props.dispatch(userActions.userAuth(data));
+          // console.log('checking router', this.context.router);
+          // this.context.router.push('/profile')
+        });
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        this.props.search.map(function (item, index) {
+          return _react2.default.createElement(_Search2.default, { key: index, friend: item, addFriend: _this2.addFriend.bind(_this2) });
+        })
+      );
+    }
+  }]);
+
+  return SearchContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    user: state.userReducer.user,
+    search: state.userReducer.search
+  };
+}
+
+SearchContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(SearchContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Search/SearchContainer.js');
+
+  __REACT_HOT_LOADER__.register(SearchContainer, 'SearchContainer', '/Users/Rob/Desktop/ReTok/client/src/Search/SearchContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Search/SearchContainer.js');
+}();
+
+;
+
+/***/ },
+/* 557 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(21);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Search = function Search(props) {
+  //inline CSS-style. fills the entire AllFriends div with photo
+  var divStyle = {
+    backgroundImage: 'url(' + props.friend.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+  };
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneFriend', style: divStyle },
+    _react2.default.createElement(
+      'button',
+      { className: 'AddFriend', onClick: function onClick(e) {
+          e.preventDefault;props.addFriend(props.friend);
+        } },
+      'Add Friend'
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      props.friend.firstName
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      props.friend.lastName
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      props.friend.username
+    ),
+    _react2.default.createElement('div', { className: 'oneFriendWrapper' })
+  );
+};
+
+var _default = Search;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(Search, 'Search', '/Users/Rob/Desktop/ReTok/client/src/Search/Search.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Search/Search.js');
+}();
+
+;
 
 /***/ }
 /******/ ]);

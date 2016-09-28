@@ -5,10 +5,15 @@ const LoggedInNav = (props) => {
 
   return (
     <div className="mainNav">
-      <Link to="/" className="logo">ReTok</Link>
+      <Link to="/profile" className="logo">ReTok</Link>
+      <form id= "searchForm" onSubmit={(event)=>{event.preventDefault(); props.searchReTok(document.getElementById('usernameSearch').value);}}>
+        <input id ="usernameSearch" className="NavInputForm" placeholder="search users"/>
+        <button className = "searchButton">
+          search ReTok!
+        </button>
+      </form>
       <Link to="/chat">Chat</Link>
       <Link to="/store">Store</Link>
-      <Link to="/profile">Profile</Link>
       <Link to="/logout">Logout</Link>
     </div>
   )
