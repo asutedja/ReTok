@@ -30,7 +30,7 @@ const Profile = (props) => {
             <span><b>Email: </b>{props.user.email}</span>
           </Row>
           <Row className ="show-grid profileRow">
-            <span><b>Birthday:</b>{props.user.dob}</span>
+            <span><b>User Name:</b>{props.user.username}</span>
           </Row>
           <Row className ="show-grid profileRow">
             <span><b>Friends Count:</b>1</span>
@@ -38,7 +38,7 @@ const Profile = (props) => {
         </Col>
       </Row>
       <div className= "profileNav">
-      <Link to="/">All Friends</Link>
+      <Link to="/profile">All Friends</Link>
       <Link to="/online">Online</Link>
       <Link to="/suggested">You Should Talk to...</Link>
       </div>

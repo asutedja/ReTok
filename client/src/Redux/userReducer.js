@@ -50,6 +50,15 @@ export function updateOnlineFriends (onlineFriends) {
   }
 }
 
+
+export function updateSearch (search) {
+  return {
+    type: 'UPDATE_SEARCH',
+    search,
+  }
+}
+
+
 export function updateEmojis (emoji) {
   return {
     type: 'UPDATE_EMOJIS',
@@ -66,7 +75,9 @@ const userInitialState = {
   onlineFriends: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}],
   isLoggedIn: false,
   error: '',
-  emojis: []
+  emojis: [],
+  search: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}]
+
 }
 
 // ------------ USER REDUCER -----------------//
@@ -121,6 +132,14 @@ export default function userReducer (state = userInitialState, action) {
         onlineFriends: action.onlineFriends,
       }
     }
+
+    case 'UPDATE_SEARCH' : {
+      return {
+        ...state,
+        search: action.search,
+      }
+    }
+
 
     case 'UPDATE_EMOJIS' : {
       return {

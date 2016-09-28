@@ -51,10 +51,17 @@ app.post('/login', passport.authenticate('local', {
   // successRedirect: '/',
   failureRedirect: '/',
 }) ,function(req, res) {
-  console.log('checking my request over here -------->', req.url);
-  var url = req.url;
+  var userID = req.session.passport.user;
+  console.log('checking my request over here -------->', req.session.passport.user);
+
+  User.findAll({where:{id: userID}}).then(function(user) {
+    console.log('confirming i have user information', user);
+    res.status(200).send(user);
+  });
+
+  // var url = req.url;
   // res.render('/profile');
-  res.status(200).send(url);
+
   // res.redirect('/profile/' + req.user.username);
 });
 

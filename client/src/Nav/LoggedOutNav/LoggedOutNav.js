@@ -8,8 +8,8 @@ const LoggedOutNav = (props) => {
       <Link to="/" className="logo">ReTok</Link>
 
       <form id= "loginForm" onSubmit={(event)=>{event.preventDefault(); props.loggingIn(document.getElementById('usernameLogIn').value, document.getElementById('passwordLogIn').value);}}>
-        <input id ="usernameLogIn" className="LogInInputForm" placeholder="username"/>
-        <input id= "passwordLogIn" className="LogInInputForm" placeholder="password"/>
+        <input id ="usernameLogIn" className="NavInputForm" placeholder="username"/>
+        <input id= "passwordLogIn" className="NavInputForm" placeholder="password"/>
         <button className = "loginButton">
           Log In!
         </button>

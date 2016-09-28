@@ -307,10 +307,10 @@ var Mutation = new GraphQLObjectType({
 					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
 					.then(function(users){
 
-						Db.Friendship.create({
+						return Db.Friendship.create({
 							userOne: users[0].id,
 							userTwo: users[1].id,
-							relationship: 0,
+							relationship: 1,
 							chatCount: 0
 						});
 					})

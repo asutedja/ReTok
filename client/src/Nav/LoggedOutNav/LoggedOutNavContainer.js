@@ -30,7 +30,8 @@ class LoggedOutNavContainer extends React.Component {
         console.log('what is my res data for loggin in???',res.data);
 
         console.log('checking router', this.context.router);
-        if (res.data) {
+        if (res.data[0].username) {
+          this.props.dispatch(userActions.updateUser(res.data[0]));
           this.props.dispatch(userActions.userAuth(res.data));
           this.context.router.push('/profile');
         }

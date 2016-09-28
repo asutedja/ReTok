@@ -10,6 +10,7 @@ import SuggestedContainer from './Profile/Suggested/SuggestedContainer.js'
 import StoreContainer from './Store/StoreContainer.js'
 import ChatContainer from './Chat/ChatContainer.js'
 import ChatMVPContainer from './Chat/ChatMVPContainer.js'
+import SearchContainer from './Search/SearchContainer.js'
 
 var Routes = (
   <Router history={hashHistory}>
@@ -21,6 +22,7 @@ var Routes = (
         <Route path='/suggested' component={SuggestedContainer}/>
       </Route>  
       <Route path="/store" component={StoreContainer}/>
+      <Route path="/search" component={SearchContainer}/>
       <Route path="/chat" component={ChatMVPContainer}/>
     </Route>
   </Router>

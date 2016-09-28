@@ -37,7 +37,7 @@ class LoginContainer extends React.Component {
 			};
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
-					console.log(data);
+					console.log('what is my data',data);
 					this.props.dispatch(userActions.userAuth(data));
 					console.log('checking router', this.context.router);
 					this.context.router.push('/profile')
