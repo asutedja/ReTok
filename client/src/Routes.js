@@ -14,12 +14,12 @@ import ChatMVPContainer from './Chat/ChatMVPContainer.js'
 var Routes = (
   <Router history={hashHistory}>
     <Route path="/" component={HomeContainer}>
-      <Route component={ProfileContainer}>
+      <IndexRoute component={LoginContainer}/>
+      <Route path="/profile" component={ProfileContainer}>
         <IndexRoute component={AllFriendsContainer}/>
         <Route path='/online' component={OnlineFriendsContainer}/>
         <Route path='/suggested' component={SuggestedContainer}/>
       </Route>  
-      <Route path='/login' component={LoginContainer}/>
       <Route path="/store" component={StoreContainer}/>
       <Route path="/chat" component={ChatMVPContainer}/>
     </Route>

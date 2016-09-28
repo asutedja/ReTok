@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropTypes } from 'react'
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import SignUpForm from './SignUpForm.js'
 import axios from 'axios'
@@ -7,8 +7,8 @@ import * as userActions from '../Redux/userReducer'
 
 
 class LoginContainer extends React.Component {
-	constructor(props) {
-		super(props);
+	constructor(props, context) {
+		super(props, context);
 	}
 
 	signUp(user, password, firstName, lastName, email) {
@@ -39,6 +39,8 @@ class LoginContainer extends React.Component {
 				return res.json().then((data) => {
 					console.log(data);
 					this.props.dispatch(userActions.userAuth(data));
+					console.log('checking router', this.context.router);
+					this.context.router.push('/profile')
 					})
 			})
 
@@ -66,9 +68,9 @@ function mapStateToProps(state) {
   }
 }
 
-// LoginContainer.contextTypes = {
-//   router: PropTypes.object.isRequired
-// }
+LoginContainer.contextTypes = {
+  router: PropTypes.object.isRequired
+}
 
 export default connect(mapStateToProps)(LoginContainer)
 
