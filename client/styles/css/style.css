@@ -80,6 +80,10 @@ a:hover {
   padding-bottom: 100%;
   overflow: hidden; }
 
+video {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1); }
+
 .AllFriendsContainer {
   margin: 0 auto;
   width: 90%;
