@@ -13,6 +13,8 @@ var bodyparser = require('body-parser');
 var cors = require('cors');
 require('./auth/auth');
 
+var sockets = {};
+
 var fs = require('fs');
 var https = require('https');
 var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
@@ -96,6 +98,16 @@ app.get('/logout', function (req, res){
 
 io.sockets.on('connection', function(socket) {
 
+
+  socket.on('login', function(user) {
+    sockets[user] = socket.id; 
+  })
+
+  socket.on('calling', function(info) {
+      var id = sockets[info.user];
+      io.socket.connected[id].emit('invite',room)    
+  })
+
   // convenience function to log server messages on the client
   function log() {
     var array = ['Message from server:'];
@@ -103,13 +115,13 @@ io.sockets.on('connection', function(socket) {
     socket.emit('log', array);
   }
 
-  socket.on('connection', function(socket) {
-  	log('socket has connected');
-  });
+  console.log('socket connected')
+  log('I have connected' + socket);
 
   socket.on('message', function(message) {
     log('Client said: ', message);
     // for a real app, would be room-only (not broadcast)
+    console.log(message);
     socket.broadcast.emit('message', message);
   });
 
@@ -152,6 +164,15 @@ io.sockets.on('connection', function(socket) {
   socket.on('bye', function(){
     console.log('received bye');
   });
+
+  socket.on('disconnect', function() {
+    //If this breaks, change it
+    for( var key in sockets) {
+      if(sockets[key] === socket.id) {
+        delete sockets[key];
+      }
+    }
+  })
 
 });
 

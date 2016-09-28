@@ -1,5 +1,8 @@
 import React from 'react'
 import { render } from 'react-dom'
+import { connect } from 'react-redux'
+import io from 'socket.io-client'
+import * as userActions from '../Redux/userReducer'
 
 class ChatMVPContainer extends React.Component {
 
@@ -8,9 +11,8 @@ class ChatMVPContainer extends React.Component {
   }
 
   componentDidMount() {
-     'use strict';
-     var socket = io();
 
+     var socket = this.props.socket
      var isChannelReady = false;
      var isInitiator = false;
      var isStarted = false;
@@ -35,9 +37,10 @@ class ChatMVPContainer extends React.Component {
 
      /////////////////////////////////////////////
 
-     var room = 'fo';
+     var room = this.props.room;
      // Could prompt for room name:
      // room = prompt('Enter room name:');
+     console.log('this room', this.props.room)
 
      if (room !== '') {
        socket.emit('create or join', room);
@@ -381,4 +384,14 @@ class ChatMVPContainer extends React.Component {
 
 };
 
-export default ChatMVPContainer;
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket
+  }
+}
+
+export default connect(mapStateToProps)(ChatMVPContainer);
