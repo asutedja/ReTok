@@ -8,10 +8,8 @@ import * as userActions from '../../Redux/userReducer'
 
 class LoggedOutNavContainer extends React.Component {
     constructor(props, context) {
-      super(props);
-      this.state = {
-        loggedIn: true
-      };
+      super(props, context);
+
     } 
 
     componentWillMount() {
@@ -30,9 +28,12 @@ class LoggedOutNavContainer extends React.Component {
     axios.post("http://127.0.0.1:3000/login?username="+username+"&password="+password)
       .then((res)=>{
         console.log('what is my res data for loggin in???',res.data);
-        this.props.dispatch(userActions.userAuth(res.data));
+
         console.log('checking router', this.context.router);
-        this.context.router.push('/profile')
+        if (res.data) {
+          this.props.dispatch(userActions.userAuth(res.data));
+          this.context.router.push('/profile');
+        }
       });
     //when we see confirmation of user, move user to their profile page
     //browserHistory.push('/' + user);

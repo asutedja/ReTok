@@ -28902,12 +28902,7 @@ var LoggedOutNavContainer = function (_React$Component) {
   function LoggedOutNavContainer(props, context) {
     _classCallCheck(this, LoggedOutNavContainer);
 
-    var _this = _possibleConstructorReturn(this, (LoggedOutNavContainer.__proto__ || Object.getPrototypeOf(LoggedOutNavContainer)).call(this, props));
-
-    _this.state = {
-      loggedIn: true
-    };
-    return _this;
+    return _possibleConstructorReturn(this, (LoggedOutNavContainer.__proto__ || Object.getPrototypeOf(LoggedOutNavContainer)).call(this, props, context));
   }
 
   _createClass(LoggedOutNavContainer, [{
@@ -28924,9 +28919,12 @@ var LoggedOutNavContainer = function (_React$Component) {
 
       _axios2.default.post("http://127.0.0.1:3000/login?username=" + username + "&password=" + password).then(function (res) {
         console.log('what is my res data for loggin in???', res.data);
-        _this2.props.dispatch(userActions.userAuth(res.data));
+
         console.log('checking router', _this2.context.router);
-        _this2.context.router.push('/profile');
+        if (res.data) {
+          _this2.props.dispatch(userActions.userAuth(res.data));
+          _this2.context.router.push('/profile');
+        }
       });
       //when we see confirmation of user, move user to their profile page
       //browserHistory.push('/' + user);

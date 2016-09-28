@@ -51,9 +51,10 @@ app.post('/login', passport.authenticate('local', {
   // successRedirect: '/',
   failureRedirect: '/',
 }) ,function(req, res) {
-  res.redirect('http://127.0.0.1:3000/#/profile/');
+  console.log('checking my request over here -------->', req.url);
+  var url = req.url;
   // res.render('/profile');
-  // res.status(200).send('welcome');
+  res.status(200).send(url);
   // res.redirect('/profile/' + req.user.username);
 });
 
