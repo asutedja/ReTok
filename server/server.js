@@ -8,6 +8,7 @@ var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
+var bodyparser = require('body-parser');
 require('./auth/auth');
 
 var fs = require('fs');
@@ -25,12 +26,17 @@ app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(bodyparser.json());
 
 app.use('/graphql', GraphHTTP({
   schema: Schema,
   pretty: true,
   graphiql: true
 }));
+
+// app.post('/test', function(req, res) {
+// 	console.log('checking req body', req.body);
+// });
 
 app.post('/login', passport.authenticate('local', {
   successRedirect: '/',

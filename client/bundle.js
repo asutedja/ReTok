@@ -5085,6 +5085,7 @@ exports.toggleLogIn = toggleLogIn;
 exports.userUnauth = userUnauth;
 exports.updateUser = updateUser;
 exports.updateFriends = updateFriends;
+exports.updateOnlineFriends = updateOnlineFriends;
 exports.updateEmojis = updateEmojis;
 exports.default = userReducer;
 
@@ -5132,6 +5133,13 @@ function updateFriends(friends) {
   };
 }
 
+function updateOnlineFriends(onlineFriends) {
+  return {
+    type: 'UPDATE_ONLINE_FRIENDS',
+    onlineFriends: onlineFriends
+  };
+}
+
 function updateEmojis(emoji) {
   return {
     type: 'UPDATE_EMOJIS',
@@ -5144,6 +5152,7 @@ var userInitialState = {
   userID: '',
   user: { username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: '' },
   friends: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
+  onlineFriends: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
   isLoggedIn: false,
   error: '',
   emojis: []
@@ -5198,6 +5207,13 @@ function userReducer() {
         });
       }
 
+    case 'UPDATE_ONLINE_FRIENDS':
+      {
+        return _extends({}, state, {
+          onlineFriends: action.onlineFriends
+        });
+      }
+
     case 'UPDATE_EMOJIS':
       {
         return _extends({}, state, {
@@ -5226,6 +5242,8 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(updateUser, 'updateUser', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateFriends, 'updateFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(updateOnlineFriends, 'updateOnlineFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateEmojis, 'updateEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
@@ -15724,6 +15742,18 @@ var _SignUpForm = __webpack_require__(253);
 
 var _SignUpForm2 = _interopRequireDefault(_SignUpForm);
 
+var _axios = __webpack_require__(98);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _reactRedux = __webpack_require__(41);
+
+var _userReducer = __webpack_require__(44);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -15743,9 +15773,25 @@ var LoginContainer = function (_React$Component) {
 
 	_createClass(LoginContainer, [{
 		key: 'signUp',
-		value: function signUp(e, user, password) {
-			e.preventDefault();
-			console.log('User ', user, ' Password ', password);
+		value: function signUp(user, password, firstName, lastName, email) {
+			var _this2 = this;
+
+			console.log('User ', user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
+
+			var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+			var options = {
+
+				method: 'POST',
+				headers: myHeaders,
+				body: 'mutation\n\t\t\t\t\t{\n\t\t\t\t\t\taddUser(username: "' + user + '" password: "' + password + '" firstName: "' + firstName + '" lastName: "' + lastName + '" email: "' + email + '")\n\t\t\t\t\t\t{\n\t\t\t\t\t\t\t\t\tusername\n\t\t\t\t\t\t\t\t\tpassword\n\t\t\t\t\t\t\t\t\tfirstName\n\t\t\t\t\t\t\t\t\tlastName\n\t\t\t\t\t\t\t\t\temail\n\t\t\t\t\t\t\t\t}\n\t\t\t\t\t}'
+
+			};
+			fetch('/graphql', options).then(function (res) {
+				return res.json().then(function (data) {
+					console.log(data);
+					_this2.props.dispatch(userActions.userAuth(data));
+				});
+			});
 		}
 	}, {
 		key: 'render',
@@ -15762,7 +15808,18 @@ var LoginContainer = function (_React$Component) {
 	return LoginContainer;
 }(_react2.default.Component);
 
-var _default = LoginContainer;
+function mapStateToProps(state) {
+	return {
+		isLoggedIn: state.userReducer.isLoggedIn
+	};
+}
+
+// LoginContainer.contextTypes = {
+//   router: PropTypes.object.isRequired
+// }
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(LoginContainer);
+
 exports.default = _default;
 ;
 
@@ -15770,6 +15827,8 @@ var _temp = function () {
 	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
 		return;
 	}
+
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Login/LoginContainer.js');
 
 	__REACT_HOT_LOADER__.register(LoginContainer, 'LoginContainer', '/Users/Rob/Desktop/ReTok/client/src/Login/LoginContainer.js');
 
@@ -27923,9 +27982,21 @@ var _LoggedInNavContainer = __webpack_require__(255);
 
 var _LoggedInNavContainer2 = _interopRequireDefault(_LoggedInNavContainer);
 
+var _LoggedOutNavContainer = __webpack_require__(258);
+
+var _LoggedOutNavContainer2 = _interopRequireDefault(_LoggedOutNavContainer);
+
 var _LoginContainer = __webpack_require__(153);
 
 var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
+
+var _reactRedux = __webpack_require__(41);
+
+var _userReducer = __webpack_require__(44);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -27950,7 +28021,7 @@ var HomeContainer = function (_React$Component) {
 			return _react2.default.createElement(
 				'div',
 				null,
-				_react2.default.createElement(_LoggedInNavContainer2.default, null),
+				this.props.isLoggedIn ? _react2.default.createElement(_LoggedInNavContainer2.default, null) : _react2.default.createElement(_LoggedOutNavContainer2.default, null),
 				_react2.default.createElement(
 					'div',
 					{ id: 'wrapper' },
@@ -27963,14 +28034,35 @@ var HomeContainer = function (_React$Component) {
 	return HomeContainer;
 }(_react2.default.Component);
 
-var _default = HomeContainer;
+// function used by connect(below) to map default state properties as props to our component. 
+// notice how althouth the state tree contains all the different states of our entire app,
+// we are only interested in extracting the state that this component will use/need
+
+
+function mapStateToProps(state) {
+	console.log(state, 'mapStateToProps state');
+	return {
+		isLoggedIn: state.userReducer.isLoggedIn //<=== shouldnt have to do this...? 
+	};
+}
+
+// 'connect' from react-redux allows us to set the default state we assign to the statetree onto our components as props!
+// i.e. you won't see this.state anymore... since we are now completely separating state logic from container logic. 
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(HomeContainer);
+
 exports.default = _default;
+
+// export default HomeContainer
+
 ;
 
 var _temp = function () {
 	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
 		return;
 	}
+
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Home/HomeContainer.js');
 
 	__REACT_HOT_LOADER__.register(HomeContainer, 'HomeContainer', '/Users/Rob/Desktop/ReTok/client/src/Home/HomeContainer.js');
 
@@ -27987,7 +28079,7 @@ var _temp = function () {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-	value: true
+  value: true
 });
 
 var _react = __webpack_require__(0);
@@ -28001,20 +28093,27 @@ var _reactRouter = __webpack_require__(21);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SignUpForm = function SignUpForm(props) {
-	return _react2.default.createElement(
-		'div',
-		null,
-		_react2.default.createElement(
-			'form',
-			{ type: 'submit', onSubmit: function onSubmit(e) {
-					return props.signUp(e, document.getElementById('newUser').value, document.getElementById('newPassword').value);
-				} },
-			'Sign Up Here',
-			_react2.default.createElement('input', { id: 'newUser', type: 'type/submit', placeholder: 'Username' }),
-			_react2.default.createElement('input', { id: 'newPassword', type: 'type/submit', placeholder: 'Password' }),
-			_react2.default.createElement('input', { type: 'submit', value: 'Sign Up!' })
-		)
-	);
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'form',
+      { type: 'submit', className: 'signUpForm', onSubmit: function onSubmit(e) {
+          e.preventDefault();props.signUp(document.getElementById('newUser').value, document.getElementById('newPassword').value, document.getElementById('firstName').value, document.getElementById('lastName').value, document.getElementById('email').value);
+        } },
+      _react2.default.createElement(
+        'h2',
+        { id: 'signUpHere' },
+        'Sign Up Here'
+      ),
+      _react2.default.createElement('input', { id: 'newUser', className: 'signUpInput', type: 'type/submit', placeholder: 'Username' }),
+      _react2.default.createElement('input', { id: 'newPassword', className: 'signUpInput', type: 'type/submit', placeholder: 'Password' }),
+      _react2.default.createElement('input', { id: 'firstName', className: 'signUpInput', type: 'type/submit', placeholder: 'First Names' }),
+      _react2.default.createElement('input', { id: 'lastName', className: 'signUpInput', type: 'type/submit', placeholder: 'Last Name' }),
+      _react2.default.createElement('input', { id: 'email', className: 'signUpInput', type: 'type/submit', placeholder: 'Email' }),
+      _react2.default.createElement('input', { className: 'formButton', type: 'submit', value: 'Sign Up!' })
+    )
+  );
 };
 
 var _default = SignUpForm;
@@ -28022,13 +28121,13 @@ exports.default = _default;
 ;
 
 var _temp = function () {
-	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-		return;
-	}
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
 
-	__REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Rob/Desktop/ReTok/client/src/Login/SignUpForm.js');
+  __REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Rob/Desktop/ReTok/client/src/Login/SignUpForm.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Login/SignUpForm.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Login/SignUpForm.js');
 }();
 
 ;
@@ -28264,8 +28363,191 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 257 */,
-/* 258 */,
+/* 257 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(21);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var LoggedOutNav = function LoggedOutNav(props) {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'mainNav' },
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { to: '/', className: 'logo' },
+      'ReTok'
+    ),
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { to: '/login' },
+      'Login'
+    ),
+    _react2.default.createElement(
+      'form',
+      { id: 'loginForm', onSubmit: function onSubmit(event) {
+          event.preventDefault();props.loggingIn(document.getElementById('usernameLogIn').value, document.getElementById('passwordLogIn').value);
+        } },
+      _react2.default.createElement('input', { id: 'usernameLogIn', className: 'LogInInputForm', placeholder: 'username' }),
+      _react2.default.createElement('input', { id: 'passwordLogIn', className: 'LogInInputForm', placeholder: 'password' }),
+      _react2.default.createElement(
+        'button',
+        { className: 'loginButton' },
+        'Log In!'
+      )
+    )
+  );
+};
+
+var _default = LoggedOutNav;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(LoggedOutNav, 'LoggedOutNav', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+}();
+
+;
+
+/***/ },
+/* 258 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _LoggedOutNav = __webpack_require__(257);
+
+var _LoggedOutNav2 = _interopRequireDefault(_LoggedOutNav);
+
+var _axios = __webpack_require__(98);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _reactRouter = __webpack_require__(21);
+
+var _reactRedux = __webpack_require__(41);
+
+var _userReducer = __webpack_require__(44);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var LoggedOutNavContainer = function (_React$Component) {
+  _inherits(LoggedOutNavContainer, _React$Component);
+
+  function LoggedOutNavContainer(props) {
+    _classCallCheck(this, LoggedOutNavContainer);
+
+    var _this = _possibleConstructorReturn(this, (LoggedOutNavContainer.__proto__ || Object.getPrototypeOf(LoggedOutNavContainer)).call(this, props));
+
+    _this.state = {
+      loggedIn: true
+    };
+    return _this;
+  }
+
+  _createClass(LoggedOutNavContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {}
+  }, {
+    key: 'loggingIn',
+    value: function loggingIn(username, password) {
+      var _this2 = this;
+
+      console.log('User ', username, ' Password ', password);
+      //Create logic for checking user and password
+      var userInfo = { username: username, password: password };
+
+      _axios2.default.post("http://127.0.0.1:3000/login?username=" + username + "&password=" + password).then(function (res) {
+        console.log('what is my res data for loggin in???', res.data);
+        _this2.props.dispatch(userActions.userAuth(res.data));
+      });
+      //when we see confirmation of user, move user to their profile page
+      //browserHistory.push('/' + user);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_LoggedOutNav2.default, { loggingIn: this.loggingIn.bind(this) })
+      );
+    }
+  }]);
+
+  return LoggedOutNavContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn
+  };
+}
+
+LoggedOutNavContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(LoggedOutNavContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+
+  __REACT_HOT_LOADER__.register(LoggedOutNavContainer, 'LoggedOutNavContainer', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+}();
+
+;
+
+/***/ },
 /* 259 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -28416,8 +28698,171 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 261 */,
-/* 262 */,
+/* 261 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(21);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var OnlineFriends = function OnlineFriends(props) {
+  //inline CSS-style. fills the entire AllFriends div with photo
+  var divStyle = {
+    backgroundImage: 'url(' + props.friend.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+  };
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneFriend', style: divStyle },
+    _react2.default.createElement(
+      'button',
+      { className: 'videoButton', onClick: function onClick(e) {
+          e.preventDefault;props.videoChat();
+        } },
+      'Video Chat'
+    ),
+    _react2.default.createElement(
+      'button',
+      { className: 'chatButton' },
+      'Chat'
+    ),
+    _react2.default.createElement('div', { className: 'oneFriendWrapper' })
+  );
+};
+
+var _default = OnlineFriends;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(OnlineFriends, 'OnlineFriends', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriends.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriends.js');
+}();
+
+;
+
+/***/ },
+/* 262 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(14);
+
+var _reactRedux = __webpack_require__(41);
+
+var _OnlineFriends = __webpack_require__(261);
+
+var _OnlineFriends2 = _interopRequireDefault(_OnlineFriends);
+
+var _userReducer = __webpack_require__(44);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var OnlineFriendsContainer = function (_React$Component) {
+  _inherits(OnlineFriendsContainer, _React$Component);
+
+  function OnlineFriendsContainer(props) {
+    _classCallCheck(this, OnlineFriendsContainer);
+
+    return _possibleConstructorReturn(this, (OnlineFriendsContainer.__proto__ || Object.getPrototypeOf(OnlineFriendsContainer)).call(this, props));
+  }
+
+  _createClass(OnlineFriendsContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      console.log('i hit this component for onlinefriends');
+    }
+  }, {
+    key: 'videoChat',
+    value: function videoChat(friend) {
+      console.log('i hit video chat for this friend', friend);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      return _react2.default.createElement(
+        'div',
+        { className: 'AllFriendsContainer' },
+        this.props.onlineFriends.map(function (item, index) {
+          return _react2.default.createElement(_OnlineFriends2.default, { key: index, friend: item, videoChat: _this2.videoChat.bind(_this2) });
+        })
+      );
+    }
+  }]);
+
+  return OnlineFriendsContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    onlineFriends: state.userReducer.onlineFriends
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(OnlineFriendsContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+
+  __REACT_HOT_LOADER__.register(OnlineFriendsContainer, 'OnlineFriendsContainer', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+}();
+
+;
+
+/***/ },
 /* 263 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -28535,8 +28980,8 @@ var Profile = function Profile(props) {
       ),
       _react2.default.createElement(
         _reactRouter.Link,
-        { to: '/recent' },
-        'Recent'
+        { to: '/online' },
+        'Online'
       ),
       _react2.default.createElement(
         _reactRouter.Link,
@@ -28803,9 +29248,9 @@ var _AllFriendsContainer = __webpack_require__(260);
 
 var _AllFriendsContainer2 = _interopRequireDefault(_AllFriendsContainer);
 
-var _RecentFriendsContainer = __webpack_require__(556);
+var _OnlineFriendsContainer = __webpack_require__(262);
 
-var _RecentFriendsContainer2 = _interopRequireDefault(_RecentFriendsContainer);
+var _OnlineFriendsContainer2 = _interopRequireDefault(_OnlineFriendsContainer);
 
 var _SuggestedContainer = __webpack_require__(265);
 
@@ -28825,24 +29270,9 @@ var _ChatMVPContainer2 = _interopRequireDefault(_ChatMVPContainer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// var Routes = (
-//   <Router history={browserHistory}>
-//     <Route path="/" component={HomeContainer}>
-//       <Route path="/profile" component={ProfileContainer}>
-//         <IndexRoute component={AllFriendsContainer}/>
-//         <Route path='/recent' component={RecentFriendsContainer}/>
-//       </Route>  
-//       <Route path='/login' component={LoginContainer}/>
-//       <Route path="/store" component={StoreContainer}/>
-//       <Route path="/chat" component={ChatContainer}/>
-//     </Route>
-//   </Router>
-// )
-
-
 var Routes = _react2.default.createElement(
   _reactRouter.Router,
-  { history: _reactRouter.browserHistory },
+  { history: _reactRouter.hashHistory },
   _react2.default.createElement(
     _reactRouter.Route,
     { path: '/', component: _HomeContainer2.default },
@@ -28850,7 +29280,7 @@ var Routes = _react2.default.createElement(
       _reactRouter.Route,
       { component: _ProfileContainer2.default },
       _react2.default.createElement(_reactRouter.IndexRoute, { component: _AllFriendsContainer2.default }),
-      _react2.default.createElement(_reactRouter.Route, { path: '/recent', component: _RecentFriendsContainer2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/online', component: _OnlineFriendsContainer2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '/suggested', component: _SuggestedContainer2.default })
     ),
     _react2.default.createElement(_reactRouter.Route, { path: '/login', component: _LoginContainer2.default }),
@@ -60932,95 +61362,6 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(ChatMVPContainer, 'ChatMVPContainer', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatMVPContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatMVPContainer.js');
-}();
-
-;
-
-/***/ },
-/* 556 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _reactDom = __webpack_require__(14);
-
-var _reactRedux = __webpack_require__(41);
-
-var _userReducer = __webpack_require__(44);
-
-var userActions = _interopRequireWildcard(_userReducer);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-
-var RecentFriendsContainer = function (_React$Component) {
-  _inherits(RecentFriendsContainer, _React$Component);
-
-  function RecentFriendsContainer(props) {
-    _classCallCheck(this, RecentFriendsContainer);
-
-    return _possibleConstructorReturn(this, (RecentFriendsContainer.__proto__ || Object.getPrototypeOf(RecentFriendsContainer)).call(this, props));
-  }
-
-  _createClass(RecentFriendsContainer, [{
-    key: 'componentWillMount',
-    value: function componentWillMount() {
-      console.log('i hit this component for recentfriends');
-    }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        'Bye World'
-      );
-    }
-  }]);
-
-  return RecentFriendsContainer;
-}(_react2.default.Component);
-
-function mapStateToProps(state) {
-  return {
-    isLoggedIn: state.userReducer.isLoggedIn,
-    user: state.userReducer.user
-  };
-}
-
-var _default = (0, _reactRedux.connect)(mapStateToProps)(RecentFriendsContainer);
-
-exports.default = _default;
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Profile/RecentFriends/RecentFriendsContainer.js');
-
-  __REACT_HOT_LOADER__.register(RecentFriendsContainer, 'RecentFriendsContainer', '/Users/Rob/Desktop/ReTok/client/src/Profile/RecentFriends/RecentFriendsContainer.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/RecentFriends/RecentFriendsContainer.js');
 }();
 
 ;
