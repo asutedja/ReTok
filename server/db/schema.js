@@ -19,6 +19,7 @@ var GraphQLInt = require('graphql').GraphQLInt;
 var GraphQLSchema = require('graphql').GraphQLSchema;
 var GraphQLList = require('graphql').GraphQLList;
 var GraphQLNonNull = require('graphql').GraphQLNonNull;
+var GraphQLBoolean = require('graphql').GraphQLBoolean;
 
 var Db = require('./db');
 
@@ -94,6 +95,12 @@ var User = new GraphQLObjectType({
 				type: GraphQLString,
 				resolve (user) {
 					return user.emoji;
+				}
+			},
+			online: {
+				type: GraphQLBoolean,
+				resolve (user) {
+					return user.online;
 				}
 			}
 		}
@@ -234,6 +241,21 @@ var Query = new GraphQLObjectType({
 					return Db.Chat.findAll({where: args});
 				}
 			},
+			findFriends: {
+				type: new GraphQLList(User),
+				args: {
+					username: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve (root, args) {
+					return Db.User.findAll({where: args})
+					.then(function(user){
+						return Db.Friendship.findAll({where: {userOne: user[0].id}, include: [FriendTwo]});
+					})
+					.catch(function(err){
+						console.log("There is an error: ", err);
+					});
+				}
+			}
 		}
 	}
 });
@@ -271,7 +293,8 @@ var Mutation = new GraphQLObjectType({
 							gender: args.gender,
 							profilePic: args.profilePic,
 							coin: 0,
-							emoji: 'test-emoji'
+							emoji: 'test-emoji',
+							online: true
 						});
 					})
 					.catch(function (err) {
@@ -291,7 +314,8 @@ var Mutation = new GraphQLObjectType({
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
 					coin: {type: GraphQLInt},
-					emoji: {type: GraphQLString}
+					emoji: {type: GraphQLString},
+					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
 					return Db.User.update(args, {where: {username: args.username}});
