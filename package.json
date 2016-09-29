@@ -62,8 +62,13 @@
     "webpack-dev-server": "^1.16.1",
     "webpack-preset": "^0.2.0",
     "webpack-preset-babel": "^0.2.0",
-    "webpack-preset-babel-stage-1": "^0.2.0"
+    "webpack-preset-babel-stage-1": "^0.2.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "graphql-tester": "0.0.4",
+    "mocha": "^3.0.2"
   },
+
   "scripts": {
     "dev": "./node_modules/.bin/webpack -d -w --progress --colors",
     "start": "node ./server/server.js",
