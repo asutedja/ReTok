@@ -1,21 +1,10 @@
 import React, { PropTypes } from 'react'
 import { render } from 'react-dom'
-import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router'
+import { Router, Route, IndexRoute, Link } from 'react-router'
 import { connect } from 'react-redux'
 import Profile from './Profile.js'
 import * as userActions from '../Redux/userReducer'
 
-// 	componentWillMount() {
-// 		//Variable to hold value for session status for user
-// 		//Will require a query to server for status on server
-// 		var session = false;
-// 		if(!session) {
-// 			browserHistory.push('/login')	
-// 		}
-// 	}
-
-
-// }
 class ProfileContainer extends React.Component {
   constructor(props) {
     super(props);
@@ -23,6 +12,9 @@ class ProfileContainer extends React.Component {
 
   componentWillMount() {
     console.log('checking my props', this.props);
+    var socket = this.props.socket
+
+    socket.emit('login', this.props.user)
   }
 
   render() {
@@ -39,7 +31,8 @@ class ProfileContainer extends React.Component {
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
-    user: state.userReducer.user
+    user: state.userReducer.user,
+    socket: state.userReducer.socket
   }
 }
 
@@ -48,4 +41,3 @@ ProfileContainer.contextTypes = {
 }
 
 export default connect(mapStateToProps)(ProfileContainer)
-// export default ProfileContainer

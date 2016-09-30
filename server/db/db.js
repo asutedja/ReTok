@@ -6,7 +6,6 @@ var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
 
 //define user model
 var User = sequelize.define('User', {
-	
 	username: Sequelize.STRING,
 	password: Sequelize.STRING,
 	firstName: Sequelize.STRING,
@@ -16,32 +15,38 @@ var User = sequelize.define('User', {
 	gender: Sequelize.STRING,
 	profilePic: Sequelize.STRING,
 	coin: Sequelize.INTEGER,
-	emoji: Sequelize.STRING,
 	online: Sequelize.BOOLEAN
-
 });
 
 // chat model stores all chat histories
 var Chat = sequelize.define('Chat', {
-
-	friendshipID: Sequelize.INTEGER,
-	senderID: Sequelize.INTEGER,
+	senderId: Sequelize.STRING,
+	receiverId: Sequelize.STRING,
 	text: Sequelize.STRING,
 	time: Sequelize.DATE
-
 });
+
+// placeholder for emoji table...
+var Emoji = sequelize.define('Emoji', {
+	emoji: Sequelize.STRING
+});
+
+Emoji.belongsToMany(User, {through: 'emoji_user'});
+User.belongsToMany(Emoji, {through: 'emoji_user'});
 
 User.sync();
 Chat.sync();
-
+Emoji.sync();
 // friendship model stores all friendships and related information
 var Friendship = sequelize.define('Friendship', {
 	relationship: Sequelize.INTEGER,
-	chatCount: Sequelize.INTEGER
+	textChatCount: Sequelize.INTEGER,
+	videoChatCount: Sequelize.INTEGER,
+	lastChatTime: Sequelize.DATE
 });
 
-module.exports.Friend = User.belongsToMany(User, {as: 'Friend', through: 'Friendship'});
-
+module.exports.FriendTwo = User.belongsToMany(User, {as: 'FriendTwo', through: 'Friendship', foreignKey: 'userOne', otherKey: 'userTwo'});
+module.exports.FriendOne = User.belongsToMany(User, {as: 'FriendOne', through: 'Friendship', foreignKey: 'userTwo', otherKey: 'userOne'});
 
 Friendship.sync();
 

@@ -12,30 +12,42 @@ class LoggedOutNavContainer extends React.Component {
 
     } 
 
-    componentWillMount() {
-
-    }
-
 
   loggingIn(username, password) {
     console.log('User ',username, ' Password ', password);
     //Create logic for checking user and password
     var userInfo = {username: username, password: password};
 
+    axios.post('/login', userInfo)
+    .then((res)=>{
+      console.log('what is my res data for loggin in???',res.data);
+      console.log('checking router', this.context.router);
+      if (res.data.user[0].username) {
+        this.props.dispatch(userActions.updateUser(res.data.user[0]));
+        this.props.dispatch(userActions.userAuth());
+        this.context.router.push('/profile');
+      } else {
+        this.setState({
+          exist:true
+        })
+      }
+    });
 
+    // axios.post("https://10.8.24.3:8443/login?username="+username+"&password="+password)
+    //   .then((res)=>{
+    //     console.log('what is my res data for loggin in???',res.data);
 
-
-    axios.post("http://127.0.0.1:3000/login?username="+username+"&password="+password)
-      .then((res)=>{
-        console.log('what is my res data for loggin in???',res.data);
-
-        console.log('checking router', this.context.router);
-        if (res.data[0].username) {
-          this.props.dispatch(userActions.updateUser(res.data[0]));
-          this.props.dispatch(userActions.userAuth(res.data));
-          this.context.router.push('/profile');
-        }
-      });
+    //     console.log('checking router', this.context.router);
+    //     if (res.data[0].username) {
+    //       this.props.dispatch(userActions.updateUser(res.data[0]));
+    //       this.props.dispatch(userActions.userAuth(res.data));
+    //       this.context.router.push('/profile');
+    //     } else {
+    //       this.setState({
+    //         exist:true
+    //       })
+    //     }
+    //   });
     //when we see confirmation of user, move user to their profile page
     //browserHistory.push('/' + user);
   }

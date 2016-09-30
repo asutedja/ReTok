@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { Router, Route, browserHistory, hashHistory, IndexRoute } from 'react-router'
 import LoginContainer from './Login/LoginContainer.js'
 import HomeContainer from './Home/HomeContainer.js'
+import PhotoUploadContainer from './PhotoUpload/PhotoUploadContainer.js'
 import ProfileContainer from './Profile/ProfileContainer.js'
 import AllFriendsContainer from './Profile/AllFriends/AllFriendsContainer.js'
 import OnlineFriendsContainer from './Profile/OnlineFriends/OnlineFriendsContainer.js'
@@ -24,6 +25,7 @@ var Routes = (
       <Route path="/store" component={StoreContainer}/>
       <Route path="/search" component={SearchContainer}/>
       <Route path="/chat" component={ChatMVPContainer}/>
+      <Route path="/upload" component={PhotoUploadContainer}/>
     </Route>
   </Router>
 )
