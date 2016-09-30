@@ -8,7 +8,7 @@ const SignUpForm = (props) => (
       <h2 id= "signUpHere">Sign Up Here</h2>
       <input id='newUser' className = "signUpInput" type='type/submit' placeholder='Username'/>
       <input id='newPassword' className = "signUpInput" type='type/submit' placeholder='Password' />
-      <input id='firstName' className = "signUpInput" type='type/submit' placeholder='First Names'/>
+      <input id='firstName' className = "signUpInput" type='type/submit' placeholder='First Name'/>
       <input id='lastName' className = "signUpInput" type='type/submit' placeholder='Last Name'/>
       <input id='email' className = "signUpInput" type='type/submit' placeholder='Email'/>
       <input className="formButton" type='submit' value='Sign Up!'/>

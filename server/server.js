@@ -96,6 +96,18 @@ app.get('/logout', function (req, res){
 
 io.sockets.on('connection', function(socket) {
 
+
+  socket.on('login', function(user) {
+    sockets[user.username] = socket.id; 
+    socket.join(user);
+  })
+
+  socket.on('calling', function(info) {
+      var id = sockets[info.user];
+      io.socket.connected[id].emit('invite',room)    
+  })
+
+
   // convenience function to log server messages on the client
   function log() {
     var array = ['Message from server:'];

@@ -22,7 +22,7 @@ class LoginContainer extends React.Component {
 				headers: myHeaders,
 				body: `mutation
 					{
-						addUser(username: \"${user}\" password: \"${password}\" firstName: \"${firstName}\" lastName: \"${lastName}\" email: \"${email}\")
+						addUser(username: \"${user}\" password: \"${password}\" firstName: \"${firstName}\" lastName: \"${lastName}\" email: \"${email}\" )
 						{
 									username
 									password
@@ -37,12 +37,17 @@ class LoginContainer extends React.Component {
 			};
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
-					console.log('what is my data',data);
-					this.props.dispatch(userActions.userAuth(data));
-					console.log('checking router', this.context.router);
-					this.context.router.push('/profile');
-					
-					})
+					console.log(data);
+					if(data === null) {
+						this.setState({
+							exist: true
+						})
+					} else {
+						this.props.dispatch(userActions.userAuth(data));
+						console.log('go to proile')
+						this.context.router.push('/profile')
+					}
+				})
 			})
 
 
