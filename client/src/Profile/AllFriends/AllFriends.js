@@ -11,6 +11,7 @@ const AllFriends = (props) => {
     }
   return(
     <div className = "oneFriend" style={divStyle}>
+      <span>{props.friend.username}</span>
         <div className="oneFriendWrapper">
         </div>
     </div>

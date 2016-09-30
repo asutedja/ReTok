@@ -6,21 +6,13 @@ import {Grid, Row, Col, Nav, NavItem} from 'react-bootstrap'
 
 const Profile = (props) => {
 
-  // const divStyle = {
-  //   backgroundImage: 'url(' +props.userFacebook.profilePhotoUrl+ ')',
-  //   backgroundPosition:'center',
-  //   backgroundSize: 'cover',
-  //   backgroundRepeat: 'no-repeat'
-  // }
 
-
-  //hardcoding data for now..
   return (
 
     <Grid>
       <Row className = "show-grid" id ="userProfileContainer">
         <div>
-          <Col sm={4}><img id = "profilePhoto" src={props.user.profilePic}/></Col>
+          <Col sm={4}><img id = "profilePhoto" src={props.user.profilePic ? props.user.profilePic : ""}/></Col>
         </div>
         <Col sm={8}>
         <Row className ="show-grid profileRow">

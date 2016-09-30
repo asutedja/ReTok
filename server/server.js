@@ -2,6 +2,7 @@ var express = require('express');
 var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
+var Friendship = require('./db/db').Friendship;
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
@@ -29,6 +30,11 @@ app.use(session({secret: 'lets ReTok'}));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors());
+
+
+var uploadPhoto = ('./db/uploadPhoto');
+require('./db/uploadPhoto')(app);
+
 // app.use(bodyparser.json());
 
 app.use('/graphql', GraphHTTP({
@@ -47,23 +53,41 @@ app.use('/graphql', GraphHTTP({
 // 	console.log('checking req body', req.body);
 // });
 
+// app.post('/login', passport.authenticate('local', {
+//   // successRedirect: '/',
+//   failureRedirect: '/',
+// }) ,function(req, res) {
+//   var userID = req.session.passport.user;
+//   console.log('checking my request over here -------->', req.session.passport.user);
+
+//   User.findAll({where:{id: userID}}).then(function(user) {
+//     console.log('confirming i have user information', user);
+//     res.status(200).send(user);
+//   });
+
+// });
+
 app.post('/login', passport.authenticate('local', {
-  // successRedirect: '/',
-  failureRedirect: '/',
+ // successRedirect: '/',
+ failureRedirect: '/',
 }) ,function(req, res) {
-  var userID = req.session.passport.user;
-  console.log('checking my request over here -------->', req.session.passport.user);
-
-  User.findAll({where:{id: userID}}).then(function(user) {
-    console.log('confirming i have user information', user);
-    res.status(200).send(user);
-  });
-
-  // var url = req.url;
-  // res.render('/profile');
-
-  // res.redirect('/profile/' + req.user.username);
+ var userID = req.session.passport.user;
+ console.log('checking my request over here -------->', req.session);
+ var returnedData = {};
+ User.findAll({where:{id: userID}}).then(function(user) {
+   console.log('confirming i have user information', user);
+   returnedData.user = user;
+   Friendship.findAll({where: {$or:[{userOne: userID}, {userTwo: userID}]}}).then(function(friendship) {
+     returnedData.friendship = friendship;
+     console.log('checking my returned data from server --->', returnedData);
+     res.status(200).send(returnedData);
+   });
+ });
 });
+
+
+
+
 
 app.get('/logout', function (req, res){
   req.logout();

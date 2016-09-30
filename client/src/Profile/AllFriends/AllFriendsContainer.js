@@ -15,7 +15,6 @@ class AllFriendsContainer extends React.Component {
   }
 
   render() {
-    console.log('what is my props', this.props.friends);
     return (
       <div className= "AllFriendsContainer">
       {this.props.friends.map((item, index) => <AllFriends key={index} friend={item}/>)}
