@@ -9,7 +9,7 @@ var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var bodyparser = require('body-parser');
+var bodyParser = require('body-parser');
 var cors = require('cors');
 require('./auth/auth');
 
@@ -34,6 +34,9 @@ app.use(cors());
 
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
+
+app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
+app.use(/\/((?!graphql).)*/, bodyParser.json());
 
 // app.use(bodyparser.json());
 
@@ -95,6 +98,18 @@ app.get('/logout', function (req, res){
 });
 
 io.sockets.on('connection', function(socket) {
+
+
+  socket.on('login', function(user) {
+    sockets[user.username] = socket.id; 
+    socket.join(user);
+  })
+
+  socket.on('calling', function(info) {
+      var id = sockets[info.user];
+      io.socket.connected[id].emit('invite',room)    
+  })
+
 
   // convenience function to log server messages on the client
   function log() {

@@ -1,13 +1,14 @@
 import React, { PropTypes }  from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
+import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import OnlineFriends from './OnlineFriends.js'
 import * as userActions from '../../Redux/userReducer'
 
 
 class OnlineFriendsContainer extends React.Component {
-  constructor(props) {
-    super(props)
+  constructor(props, context) {
+    super(props, context)
   }
 
   componentWillMount() {
@@ -16,6 +17,14 @@ class OnlineFriendsContainer extends React.Component {
 
   videoChat(friend) {
     console.log('i hit video chat for this friend', friend);
+    var room = this.props.user + friend
+    this.props.dispatch(userActions.createRoom(room));
+    this.context.router.push('/chat')
+    var socket = this.props.socket;
+    var info = {user: friend, room:room}
+    socket.emit('calling', info);
+
+
   }
 
   render() {
@@ -27,12 +36,17 @@ class OnlineFriendsContainer extends React.Component {
   }
 }
 
+OnlineFriendsContainer.contextTypes = {
+  router: PropTypes.object.isRequired
+}
+
 
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
     user: state.userReducer.user,
-    onlineFriends: state.userReducer.onlineFriends
+    onlineFriends: state.userReducer.onlineFriends,
+    socket: state.userReducer.socket
   }
 }
 
