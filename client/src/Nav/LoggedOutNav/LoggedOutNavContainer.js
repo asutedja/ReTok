@@ -9,9 +9,7 @@ import * as userActions from '../../Redux/userReducer'
 class LoggedOutNavContainer extends React.Component {
     constructor(props, context) {
       super(props, context);
-      this.state = {
-        exist: false
-      }
+
     } 
 
     componentWillMount() {
@@ -24,15 +22,13 @@ class LoggedOutNavContainer extends React.Component {
     //Create logic for checking user and password
     var userInfo = {username: username, password: password};
 
-
     axios.post('/login', userInfo)
     .then((res)=>{
       console.log('what is my res data for loggin in???',res.data);
-
       console.log('checking router', this.context.router);
-      if (res.data[0].username) {
-        this.props.dispatch(userActions.updateUser(res.data[0]));
-        this.props.dispatch(userActions.userAuth(res.data));
+      if (res.data.user[0].username) {
+        this.props.dispatch(userActions.updateUser(res.data.user[0]));
+        this.props.dispatch(userActions.userAuth());
         this.context.router.push('/profile');
       } else {
         this.setState({
@@ -63,9 +59,7 @@ class LoggedOutNavContainer extends React.Component {
   render() {
     return(
       <div>
-        {this.state.exist ? <div>Wrong username or password</div> : null}
         <LoggedOutNav loggingIn = {this.loggingIn.bind(this)}/>
-        }
       </div>
       )
   }
