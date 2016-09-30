@@ -9,6 +9,9 @@ import * as userActions from '../Redux/userReducer'
 class LoginContainer extends React.Component {
 	constructor(props, context) {
 		super(props, context);
+		this.state = {
+			exist: false
+		}
 	}
 
 	signUp(user, password, firstName, lastName, email) {
@@ -37,12 +40,17 @@ class LoginContainer extends React.Component {
 			};
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
-					console.log('what is my data',data);
-					this.props.dispatch(userActions.userAuth(data));
-					console.log('checking router', this.context.router);
-					this.context.router.push('/profile');
-					
-					})
+					console.log(data);
+					if(data === null) {
+						this.setState({
+							exist: true
+						})
+					} else {
+						this.props.dispatch(userActions.userAuth(data));
+						console.log('checking router', this.context.router);
+						this.context.router.push('/profile')
+					}
+				})
 			})
 
 
@@ -57,6 +65,7 @@ class LoginContainer extends React.Component {
 
 		return(
 			<div>
+			{this.state.exist ? <h1>User already exists</h1> : null}
 				<SignUpForm signUp={this.signUp.bind(this)}/>
 			</div>
 			)
