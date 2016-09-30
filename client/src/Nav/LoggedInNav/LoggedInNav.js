@@ -12,7 +12,7 @@ const LoggedInNav = (props) => {
           search ReTok!
         </button>
       </form>
-      {props.hide ? <Link id="chat" onClick={props.accept} to="/chat">Chat</Link> : null}
+      <Link to="/chat">Chat</Link>
       <Link to="/store">Store</Link>
       <Link to="/upload">Upload</Link>
       <Link to="/logout">Logout</Link>

@@ -2,74 +2,31 @@ import React, { PropTypes } from 'react'
 import LoggedInNav from './LoggedInNav'
 import SignInNav from './SignInNav'
 import axios from 'axios'
-import { connect } from 'react-redux'
 import { Router, Route, IndexRoute, Link } from 'react-router'
-import io from 'socket.io-client'
+import { connect } from 'react-redux'
 import * as userActions from '../../Redux/userReducer'
 
 
 class LoggedInNavContainer extends React.Component {
-  constructor(props, context) {
+    constructor(props, context) {
       super(props, context);
-      //states are used to control when to show chat button on client to allow them to enter a chat together
       this.state = {
-        toggle: null,
-        hide: false
-      }
-  } 
+        loggedIn: true
+      };
+    } 
 
-  componentWillMount() {
+    componentWillMount() {
+      
+      //Some server query to find the session status of client joining app
 
-    var socket = io();
-    console.log('socket' , socket)
-    this.props.dispatch(userActions.sendSocket(socket));
+      //Create logic to check if session is true or not
+        //if true, loggedInNav should show
+        //else, signInNav should show
+    }
 
-    socket.on('invite', function(room) {
-      this.invitation();
-      this.props.dispatch(userActions.createRoom(room));
-      console.log(room)
-      //peer should have room info
-
-    }.bind(this))
-
-  }
-    
-  
-  logout() {
-    var socket = this.props.socket;
-    axios.get('/logout');
-    this.props.dispatch(userActions.toggleLogIn(false));
-    this.props.dispatch(userActions.sendSocket(null))
-    socket.disconnect()
-    this.context.router.push('/')
-  }
-
-  invitation() {
-
-    this.setState({
-      hide:true
-    })
-    var toggling = setInterval(function() {
-      var background = document.getElementById('chat').style.backgroundColor;
-       if (background == "rgb(255, 145, 0)") {
-           document.getElementById('chat').style.background = "rgb(26,255,0)";
-       } else {
-           document.getElementById('chat').style.background = "rgb(255,145,0)";
-       }
-    })
-
-
-    this.setState({
-      toggle: toggling
-    })
-
-    console.log('inviting')
-  }
-
-  accept() {
-    clearInterval(this.state.toggle);
-    document.getElementById('chat').style.background = "#4d4d4d";
-  }
+    toggle() {
+      this.setState({loggedIn: !this.state.loggedIn})
+    }
 
 
 
@@ -125,7 +82,7 @@ class LoggedInNavContainer extends React.Component {
   render() {
     return(
       <div>
-        <LoggedInNav hide={this.state.hide} logout= {this.logout.bind(this)} accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)}/>
+        <LoggedInNav searchReTok={this.searchReTok.bind(this)}/>
       </div>
       )
   }
@@ -135,9 +92,7 @@ class LoggedInNavContainer extends React.Component {
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
-    search: state.userReducer.search,
-    room: state.userReducer.room,
-    socket: state.userReducer.socket
+    search: state.userReducer.search
   }
 }
 
@@ -147,4 +102,3 @@ LoggedInNavContainer.contextTypes = {
 
 
 export default connect(mapStateToProps)(LoggedInNavContainer)
-
