@@ -4,7 +4,6 @@ import { Router, Route, IndexRoute, Link } from 'react-router'
 import { connect } from 'react-redux'
 import Profile from './Profile.js'
 import * as userActions from '../Redux/userReducer'
-import io from 'socket.io-client'
 
 class ProfileContainer extends React.Component {
   constructor(props) {
@@ -12,10 +11,7 @@ class ProfileContainer extends React.Component {
   }
 
   componentWillMount() {
-    console.log('checking my props', this.props);
-    var socket = this.props.socket
-
-    socket.emit('login', this.props.user)
+    console.log('checking my props for user', this.props.user);
   }
 
   render() {
@@ -32,8 +28,7 @@ class ProfileContainer extends React.Component {
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
-    user: state.userReducer.user,
-    socket: state.userReducer.socket
+    user: state.userReducer.user
   }
 }
 

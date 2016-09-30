@@ -1,8 +1,5 @@
 import React from 'react'
 import { render } from 'react-dom'
-import { connect } from 'react-redux'
-import io from 'socket.io-client'
-import * as userActions from '../Redux/userReducer'
 
 class ChatMVPContainer extends React.Component {
 
@@ -10,14 +7,10 @@ class ChatMVPContainer extends React.Component {
     super(props);
   }
 
-  componentWillUnmount() {
-    var track = window.stream.getTracks()[0];  // if only one media track
-    track.stop();
-  }
-
   componentDidMount() {
+     'use strict';
+     var socket = io();
 
-     var socket = this.props.socket
      var isChannelReady = false;
      var isInitiator = false;
      var isStarted = false;
@@ -42,10 +35,9 @@ class ChatMVPContainer extends React.Component {
 
      /////////////////////////////////////////////
 
-     var room = this.props.user;
+     var room = 'fo';
      // Could prompt for room name:
      // room = prompt('Enter room name:');
-     console.log('this room', room)
 
      if (room !== '') {
        socket.emit('create or join', room);
@@ -124,7 +116,6 @@ class ChatMVPContainer extends React.Component {
      });
 
      function gotStream(stream) {
-       window.stream = stream;
        console.log('Adding local stream.');
        localVideo.src = window.URL.createObjectURL(stream);
        localStream = stream;
@@ -390,14 +381,4 @@ class ChatMVPContainer extends React.Component {
 
 };
 
-
-function mapStateToProps(state) {
-  return {
-    isLoggedIn: state.userReducer.isLoggedIn,
-    user: state.userReducer.user,
-    room: state.userReducer.room,
-    socket: state.userReducer.socket
-  }
-}
-
-export default connect(mapStateToProps)(ChatMVPContainer);
+export default ChatMVPContainer;
