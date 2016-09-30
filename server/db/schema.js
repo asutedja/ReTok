@@ -247,9 +247,42 @@ var Query = new GraphQLObjectType({
 					username: {type: new GraphQLNonNull(GraphQLString)}
 				},
 				resolve (root, args) {
+					var friends = [];
+					var myself;
 					return Db.User.findAll({where: args})
 					.then(function(user){
-						return Db.Friendship.findAll({where: {userOne: user[0].id}, include: [FriendTwo]});
+						myself = user;
+						// return Db.User.findAll(
+						// 	{
+						// 		include: [Db.FriendTwo],
+						// 	}
+						// );
+						return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`password`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`emoji`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`chatCount`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
+					})
+					.then(function(response){	
+						if(response.length > 0) {
+							response[0].forEach(function(friend){
+								friends.push(friend);
+							});
+						}
+						return friends;
+					})
+					.then(function(nothing){
+						// 	return Db.Friendship.findAll(
+						// 		{
+						// 			include: [Db.FriendOne],
+						// 			where: {userTwo: myself[0].id}
+						// 		}
+						// 	)
+						return Db.sequelize.query("SELECT `FriendOne`.`id` , `FriendOne`.`username`, `FriendOne`.`password`, `FriendOne`.`firstName`, `FriendOne`.`lastName`, `FriendOne`.`email`, `FriendOne`.`dob`, `FriendOne`.`gender`, `FriendOne`.`profilePic`, `FriendOne`.`coin`, `FriendOne`.`emoji`, `FriendOne`.`online`, `FriendOne`.`createdAt`, `FriendOne`.`updatedAt`, `FriendOne.Friendship`.`relationship`, `FriendOne.Friendship`.`chatCount`, `FriendOne.Friendship`.`createdAt`, `FriendOne.Friendship`.`updatedAt`, `FriendOne.Friendship`.`userOne`, `FriendOne.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendOne.Friendship` INNER JOIN `Users` AS `FriendOne` ON `FriendOne`.`id` = `FriendOne.Friendship`.`userOne`) ON `User`.`id` = `FriendOne.Friendship`.`userTwo` WHERE `FriendOne.Friendship`.`userTwo` ="+myself[0].id+";");
+					})
+					.then(function(response){	
+						if(response.length > 0) {
+							response[0].forEach(function(friend){
+								friends.push(friend);
+							});
+						}
+						return friends;
 					})
 					.catch(function(err){
 						console.log("There is an error: ", err);
