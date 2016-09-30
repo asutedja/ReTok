@@ -10,6 +10,7 @@ var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 
+
 var bodyParser = require('body-parser');
 
 var cors = require('cors');
@@ -105,6 +106,7 @@ app.use('/graphql', GraphHTTP({
 // }) ,function(req, res) {
 //   var userID = req.session.passport.user;
 //   console.log('checking my request over here -------->', req.session.passport.user);
+
 
 //   User.findAll({where:{id: userID}}).then(function(user) {
 //     console.log('confirming i have user information', user);

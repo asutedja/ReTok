@@ -37,17 +37,21 @@ Chat.sync();
 //friendship model stores all friendships and related information
 var Friendship = sequelize.define('Friendship', {
 
+
 	// id: {
  //    type: Sequelize.INTEGER,
  //    primaryKey: true,
  //    autoIncrement: true
 	// },
+
 	relationship: Sequelize.INTEGER,
 	chatCount: Sequelize.INTEGER
 
 });
+
 module.exports.FriendTwo = User.belongsToMany(User, {as: 'FriendTwo', through: 'Friendship', foreignKey: 'userOne', otherKey: 'userTwo'});
 module.exports.FriendOne = User.belongsToMany(User, {as: 'FriendOne', through: 'Friendship', foreignKey: 'userTwo', otherKey: 'userOne'});
+
 
 Friendship.sync();
 

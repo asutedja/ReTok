@@ -247,6 +247,7 @@ var Query = new GraphQLObjectType({
 					username: {type: new GraphQLNonNull(GraphQLString)}
 				},
 				resolve (root, args) {
+
 					var friends = [];
 					var myself;
 					return Db.User.findAll({where: args})
