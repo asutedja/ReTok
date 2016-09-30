@@ -9,7 +9,10 @@ var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
+
+
 var bodyParser = require('body-parser');
+
 var cors = require('cors');
 require('./auth/auth');
 
@@ -24,11 +27,13 @@ var httpsServer = https.createServer(credentials, app);
 var os = require('os');
 var io = require('socket.io')(httpsServer);
 
+
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
 app.use(passport.initialize());
 app.use(passport.session());
+
 app.use(cors());
 
 
@@ -63,6 +68,7 @@ app.use('/graphql', GraphHTTP({
 //   var userID = req.session.passport.user;
 //   console.log('checking my request over here -------->', req.session.passport.user);
 
+
 //   User.findAll({where:{id: userID}}).then(function(user) {
 //     console.log('confirming i have user information', user);
 //     res.status(200).send(user);
@@ -74,6 +80,7 @@ app.post('/login', passport.authenticate('local', {
  // successRedirect: '/',
  failureRedirect: '/',
 }) ,function(req, res) {
+
  var userID = req.session.passport.user;
  console.log('checking my request over here -------->', req.session);
  var returnedData = {};
@@ -86,15 +93,6 @@ app.post('/login', passport.authenticate('local', {
      res.status(200).send(returnedData);
    });
  });
-});
-
-
-
-
-
-app.get('/logout', function (req, res){
-  req.logout();
-  res.redirect('/');
 });
 
 io.sockets.on('connection', function(socket) {
@@ -168,6 +166,15 @@ io.sockets.on('connection', function(socket) {
     console.log('received bye');
   });
 
+
+	res.status(200).send('welcome');
+	// res.redirect('/profile/' + req.user.username);
+
+});
+
+app.get('/logout', function (req, res){
+	req.logout();
+	res.redirect('/');
 });
 
 http.listen(port, function(data) {

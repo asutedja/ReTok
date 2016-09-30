@@ -17,16 +17,7 @@ var User = sequelize.define('User', {
 	profilePic: Sequelize.STRING,
 	coin: Sequelize.INTEGER,
 	emoji: Sequelize.STRING,
-
-});
-
-//friendship model stores all friendships and related information
-var Friendship = sequelize.define('Friendship', {
-
-	userOne: Sequelize.INTEGER,
-	userTwo: Sequelize.INTEGER,
-	relationship: Sequelize.INTEGER,
-	chatCount: Sequelize.INTEGER
+	online: Sequelize.BOOLEAN
 
 });
 
@@ -41,8 +32,28 @@ var Chat = sequelize.define('Chat', {
 });
 
 User.sync();
-Friendship.sync();
 Chat.sync();
+
+//friendship model stores all friendships and related information
+var Friendship = sequelize.define('Friendship', {
+
+
+	// id: {
+ //    type: Sequelize.INTEGER,
+ //    primaryKey: true,
+ //    autoIncrement: true
+	// },
+
+	relationship: Sequelize.INTEGER,
+	chatCount: Sequelize.INTEGER
+
+});
+
+module.exports.FriendTwo = User.belongsToMany(User, {as: 'FriendTwo', through: 'Friendship', foreignKey: 'userOne', otherKey: 'userTwo'});
+module.exports.FriendOne = User.belongsToMany(User, {as: 'FriendOne', through: 'Friendship', foreignKey: 'userTwo', otherKey: 'userOne'});
+
+
+Friendship.sync();
 
 module.exports.sequelize = sequelize;
 module.exports.User = User;

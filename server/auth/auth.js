@@ -20,10 +20,12 @@ passport.use(new LocalStrategy(
 ));
 
 passport.serializeUser(function(user, done) {
+
 	done(null, user[0].id);
 });
 
 passport.deserializeUser(function(id, done) {
+
 	User.findAll({where: {id: id}})
 	.then(function(user) {
 		done(null, user);
