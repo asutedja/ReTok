@@ -213,7 +213,7 @@ var Query = new GraphQLObjectType({
 					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
-					return Db.User.findAll({where: args});
+					return Db.User.findAll({where: args, attributes: ['username', 'firstName', 'lastName', 'email', 'dob', 'gender', 'profilePic', 'coin', 'emoji', 'online']});
 				}
 			},
 			friendships: {

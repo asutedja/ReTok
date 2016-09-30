@@ -86,8 +86,6 @@ class LoggedOutNavContainer extends React.Component {
         })
       }
     });
-
-
   }
  
   render() {

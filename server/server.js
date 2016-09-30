@@ -84,20 +84,21 @@ app.post('/login', passport.authenticate('local', {
 
  var userID = req.session.passport.user;
  console.log('checking my request over here -------->', req.session);
- var returnedData = {};
+ // var returnedData = {};
+ // User.findAll({where:{id: userID}}).then(function(user) {
+ //   console.log('confirming i have user information', user);
+ //   returnedData.user = user;
+ //   Friendship.findAll({where: {$or:[{userOne: userID}, {userTwo: userID}]}}).then(function(friendship) {
+ //     returnedData.friendship = friendship;
+ //     console.log('checking my returned data from server --->', returnedData);
+ //     res.status(200).send(returnedData);
+ //   });
  User.findAll({where:{id: userID}}).then(function(user) {
-   console.log('confirming i have user information', user);
-   returnedData.user = user;
-   Friendship.findAll({where: {$or:[{userOne: userID}, {userTwo: userID}]}}).then(function(friendship) {
-     returnedData.friendship = friendship;
-     console.log('checking my returned data from server --->', returnedData);
-     res.status(200).send(returnedData);
-   });
+    res.status(200).send(user);
  });
 });
 
 io.sockets.on('connection', function(socket) {
-
 
   socket.on('login', function(user) {
     sockets[user.username] = socket.id; 

@@ -78,6 +78,7 @@ class LoggedInNavContainer extends React.Component {
            document.getElementById('chat').style.background = "rgb(255,145,0)";
        }
     })
+
     this.setState({
       toggle: toggling
     })
