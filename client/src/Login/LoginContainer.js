@@ -9,6 +9,9 @@ import * as userActions from '../Redux/userReducer'
 class LoginContainer extends React.Component {
 	constructor(props, context) {
 		super(props, context);
+		this.state = {
+			exist: false
+		}
 	}
 
 	signUp(user, password, firstName, lastName, email) {
@@ -22,7 +25,7 @@ class LoginContainer extends React.Component {
 				headers: myHeaders,
 				body: `mutation
 					{
-						addUser(username: \"${user}\" password: \"${password}\" firstName: \"${firstName}\" lastName: \"${lastName}\" email: \"${email}\" )
+						addUser(username: \"${user}\" password: \"${password}\" firstName: \"${firstName}\" lastName: \"${lastName}\" email: \"${email}\")
 						{
 									username
 									password
@@ -44,7 +47,7 @@ class LoginContainer extends React.Component {
 						})
 					} else {
 						this.props.dispatch(userActions.userAuth(data));
-						console.log('go to proile')
+						console.log('go to profile')
 						this.context.router.push('/profile')
 					}
 				})
@@ -62,6 +65,7 @@ class LoginContainer extends React.Component {
 
 		return(
 			<div>
+			{this.state.exist ? <h1>User already exists</h1> : null}
 				<SignUpForm signUp={this.signUp.bind(this)}/>
 			</div>
 			)

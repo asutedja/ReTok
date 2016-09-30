@@ -9,7 +9,7 @@ var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var bodyparser = require('body-parser');
+var bodyParser = require('body-parser');
 var cors = require('cors');
 require('./auth/auth');
 
@@ -34,6 +34,9 @@ app.use(cors());
 
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
+
+app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
+app.use(/\/((?!graphql).)*/, bodyParser.json());
 
 // app.use(bodyparser.json());
 

@@ -25,10 +25,9 @@ class LoggedOutNavContainer extends React.Component {
     axios.post('/login', userInfo)
     .then((res)=>{
       console.log('what is my res data for loggin in???',res.data);
-
       console.log('checking router', this.context.router);
       if (res.data.user[0].username) {
-        this.props.dispatch(userActions.updateUser(res.data.user));
+        this.props.dispatch(userActions.updateUser(res.data.user[0]));
         this.props.dispatch(userActions.userAuth());
         this.context.router.push('/profile');
       } else {
