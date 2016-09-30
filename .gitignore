@@ -8,4 +8,4 @@ server/db/.DS_Store
 client/src/Test
 server/key.pem
 server/cert.pem
-
+server/db/AWSconfig/keys.js
