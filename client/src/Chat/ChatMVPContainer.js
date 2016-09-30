@@ -10,6 +10,11 @@ class ChatMVPContainer extends React.Component {
     super(props);
   }
 
+  componentWillUnmount() {
+    var track = window.stream.getTracks()[0];  // if only one media track
+    track.stop();
+  }
+
   componentDidMount() {
 
      var socket = this.props.socket
@@ -37,10 +42,10 @@ class ChatMVPContainer extends React.Component {
 
      /////////////////////////////////////////////
 
-     var room = this.props.room;
+     var room = this.props.user;
      // Could prompt for room name:
      // room = prompt('Enter room name:');
-     console.log('this room', this.props.room)
+     console.log('this room', room)
 
      if (room !== '') {
        socket.emit('create or join', room);
@@ -119,6 +124,7 @@ class ChatMVPContainer extends React.Component {
      });
 
      function gotStream(stream) {
+       window.stream = stream;
        console.log('Adding local stream.');
        localVideo.src = window.URL.createObjectURL(stream);
        localStream = stream;

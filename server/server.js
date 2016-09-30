@@ -5,11 +5,13 @@ var User = require('./db/db').User;
 var Friendship = require('./db/db').Friendship;
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
+
+
 var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-var bodyparser = require('body-parser');
+var bodyParser = require('body-parser');
 var cors = require('cors');
 require('./auth/auth');
 
@@ -17,10 +19,22 @@ var sockets = {};
 
 var fs = require('fs');
 var https = require('https');
-var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
-var certificate = fs.readFileSync(__dirname + '/cert.pem', 'utf8');
-var credentials = {key: privateKey, cert: certificate};
-var httpsServer = https.createServer(credentials, app);
+// var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
+// var certificate = fs.readFileSync(__dirname + '/cert.pem', 'utf8');
+// var credentials = {key: privateKey, cert: certificate};
+
+var sslOptions = {
+  key: fs.readFileSync(__dirname + '/key.pem', 'utf8'),
+  cert: fs.readFileSync(__dirname + '/cert.pem', 'utf8'),
+  requestCert: true,
+  //ca: fs.readFileSync('/etc/ssl/certs/ca.crt'),
+  rejectUnauthorized: false 
+};
+
+app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
+app.use(/\/((?!graphql).)*/, bodyParser.json());
+
+var httpsServer = https.createServer(sslOptions,app)//https.createServer(credentials, app);
 
 
 var os = require('os');
@@ -89,8 +103,6 @@ app.post('/login', passport.authenticate('local', {
 
 
 
-
-
 app.get('/logout', function (req, res){
   req.logout();
   res.redirect('/');
@@ -101,6 +113,7 @@ io.sockets.on('connection', function(socket) {
 
   socket.on('login', function(user) {
     sockets[user] = socket.id; 
+    socket.join(user);
   })
 
   socket.on('calling', function(info) {
@@ -116,35 +129,32 @@ io.sockets.on('connection', function(socket) {
   }
 
   console.log('socket connected')
-  log('I have connected' + socket);
+  log('I have connected');
 
   socket.on('message', function(message) {
     log('Client said: ', message);
     // for a real app, would be room-only (not broadcast)
-    console.log(message);
     socket.broadcast.emit('message', message);
   });
 
   socket.on('create or join', function(room) {
     log('Received request to create or join room ' + room);
 
-    var numClients = Object.keys(io.sockets.sockets).length;
+    var numClients = Object.keys(io.sockets.adapter.rooms[room]).length;
     log('Room ' + room + ' now has ' + numClients + ' client(s)');
 
-    if (numClients === 1) {
-      socket.join(room);
-      log('Client ID ' + socket.id + ' created room ' + room);
-      socket.emit('created', room, socket.id);
+    // if (numClients === 1) {
+    //   socket.join(room);
+    //   log('Client ID ' + socket.id + ' created room ' + room);
+    //   socket.emit('created', room, socket.id);
 
-    } else if (numClients >= 2) {
+    // } else 
+    if (numClients === 1) {
       log('Client ID ' + socket.id + ' joined room ' + room);
       io.sockets.in(room).emit('join', room);
       socket.join(room);
       socket.emit('joined', room, socket.id);
       io.sockets.in(room).emit('ready');
-    } else if(numClients > 2) {
-    	var user = io.sockets.adapter.rooms[room];
-    	console.log(user, 'number of users', user.length);
     } else { // max two clients
       socket.emit('full', room);
     }
@@ -167,19 +177,26 @@ io.sockets.on('connection', function(socket) {
 
   socket.on('disconnect', function() {
     //If this breaks, change it
+    log('socked disconnected')
+    console.log('socket disconnected')
+
     for( var key in sockets) {
       if(sockets[key] === socket.id) {
         delete sockets[key];
       }
     }
+
+
   })
 
 });
 
-http.listen(port, function(data) {
-  console.log('listening on ' + port);
+// http.listen(port, function(data) {
+//   console.log('listening on ' + port);
 
-});
+// });
 
-
-httpsServer.listen(8443);
+//httpsServer.listen(8443);
+httpsServer.listen(8443, function(){
+   console.log("Express server listening on port ")
+ })

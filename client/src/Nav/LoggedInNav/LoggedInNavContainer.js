@@ -4,7 +4,6 @@ import SignInNav from './SignInNav'
 import axios from 'axios'
 import { connect } from 'react-redux'
 import { Router, Route, IndexRoute, Link } from 'react-router'
-import { connect } from 'react-redux'
 import io from 'socket.io-client'
 import * as userActions from '../../Redux/userReducer'
 
@@ -12,8 +11,10 @@ import * as userActions from '../../Redux/userReducer'
 class LoggedInNavContainer extends React.Component {
   constructor(props, context) {
       super(props, context);
+      //states are used to control when to show chat button on client to allow them to enter a chat together
       this.state = {
-        toggle: null
+        toggle: null,
+        hide: false
       }
   } 
 
@@ -34,8 +35,20 @@ class LoggedInNavContainer extends React.Component {
   }
     
   
+  logout() {
+    var socket = this.props.socket;
+    axios.get('/logout');
+    this.props.dispatch(userActions.toggleLogIn(false));
+    this.props.dispatch(userActions.sendSocket(null))
+    socket.disconnect()
+    this.context.router.push('/')
+  }
 
   invitation() {
+
+    this.setState({
+      hide:true
+    })
     var toggling = setInterval(function() {
       var background = document.getElementById('chat').style.backgroundColor;
        if (background == "rgb(255, 145, 0)") {
@@ -44,6 +57,7 @@ class LoggedInNavContainer extends React.Component {
            document.getElementById('chat').style.background = "rgb(255,145,0)";
        }
     })
+
 
     this.setState({
       toggle: toggling
@@ -111,7 +125,7 @@ class LoggedInNavContainer extends React.Component {
   render() {
     return(
       <div>
-        <LoggedInNav accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)}/>
+        <LoggedInNav hide={this.state.hide} logout= {this.logout.bind(this)} accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)}/>
       </div>
       )
   }

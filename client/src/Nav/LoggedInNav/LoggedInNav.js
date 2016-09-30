@@ -12,10 +12,14 @@ const LoggedInNav = (props) => {
           search ReTok!
         </button>
       </form>
-      <Link id="chat" onClick={props.accept} to="/chat">Chat</Link>
+      {props.hide ? <Link id="chat" onClick={props.accept} to="/chat">Chat</Link> : null}
       <Link to="/store">Store</Link>
+<<<<<<< 67d3187b3a249a68169a0c847b09c55c020d3e4a
       <Link to="/upload">Upload</Link>
       <Link to="/logout">Logout</Link>
+=======
+      <Link onClick={props.logout}>Logout</Link>
+>>>>>>> create sockets for video chat
     </div>
   )
 }
