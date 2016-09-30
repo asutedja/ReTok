@@ -22,13 +22,6 @@ export function userUnauth () {
   }
 }
 
-// export function fetchUserSuccess (user) {
-//   return {
-//     type: 'FETCHING_USER_SUCCESS',
-//     user,
-//   }
-// }
-
 export function updateUser (user) {
   return {
     type: 'UPDATE_USER',
@@ -92,7 +85,7 @@ export default function userReducer (state = userInitialState, action) {
     case 'USER_UNAUTH' : {
       return {
         ...state,
-         isLoggedIn: true,
+         isLoggedIn: false,
          user: {},
          userID: ''
        }

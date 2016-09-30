@@ -40,7 +40,8 @@ class LoginContainer extends React.Component {
 					console.log('what is my data',data);
 					this.props.dispatch(userActions.userAuth(data));
 					console.log('checking router', this.context.router);
-					this.context.router.push('/profile')
+					this.context.router.push('/profile');
+					
 					})
 			})
 

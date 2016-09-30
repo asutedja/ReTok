@@ -5,7 +5,7 @@ import Routes from './Routes.js'
 import { createStore, combineReducers } from 'redux'
 import { Provider }from 'react-redux'
 import userReducer from './Redux/userReducer'
-
+import uploadReducer from './Redux/uploadReducer'
 // import {tester} from 'graphql-tester';
 
   // render(
@@ -14,7 +14,8 @@ import userReducer from './Redux/userReducer'
 
 
   const reducers = combineReducers({
-    userReducer
+    userReducer,
+    uploadReducer,
   })
 
   // Create store that houses state-tree of app
