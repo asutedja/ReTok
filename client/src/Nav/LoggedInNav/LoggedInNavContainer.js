@@ -40,7 +40,28 @@ class LoggedInNavContainer extends React.Component {
     axios.get('/logout');
     this.props.dispatch(userActions.toggleLogIn(false));
     this.props.dispatch(userActions.sendSocket(null))
+
     socket.disconnect()
+    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+    let options = {
+
+      method: 'POST',
+      headers: myHeaders,
+      body: `mutation
+        {
+          updateUser(username:"${this.props.user.username}" online: false) 
+          {
+            username
+            online
+          }
+        }`
+    };
+    fetch('/graphql', options).then((res) =>{
+      return res.json().then((data) => {
+          console.log(data);
+        })
+    })
+    .catch((error) => console.log(error))
     this.context.router.push('/')
   }
 
@@ -57,8 +78,6 @@ class LoggedInNavContainer extends React.Component {
            document.getElementById('chat').style.background = "rgb(255,145,0)";
        }
     })
-
-
     this.setState({
       toggle: toggling
     })
@@ -69,6 +88,10 @@ class LoggedInNavContainer extends React.Component {
   accept() {
     clearInterval(this.state.toggle);
     document.getElementById('chat').style.background = "#4d4d4d";
+    this.setState({
+      hide:true
+    })
+    this.context.router.push('/chat')
   }
 
 
@@ -136,6 +159,7 @@ function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
     search: state.userReducer.search,
+    user: state.userReducer.user,
     room: state.userReducer.room,
     socket: state.userReducer.socket
   }
