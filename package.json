@@ -37,6 +37,7 @@
     "react": "^15.3.2",
     "react-bootstrap": "^0.30.3",
     "react-dom": "^15.3.2",
+    "react-emojione": "^2.0.0",
     "react-hot-loader": "^3.0.0-beta.5",
     "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
@@ -65,12 +66,9 @@
     "webpack-preset": "^0.2.0",
     "webpack-preset-babel": "^0.2.0",
     "webpack-preset-babel-stage-1": "^0.2.0",
-    "chai": "^3.5.0",
     "chai-as-promised": "^5.3.0",
-    "graphql-tester": "0.0.4",
-    "mocha": "^3.0.2"
+    "graphql-tester": "0.0.4"
   },
-
   "scripts": {
     "dev": "./node_modules/.bin/webpack -d -w --progress --colors",
     "start": "node ./server/server.js",
