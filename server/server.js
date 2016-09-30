@@ -12,6 +12,7 @@ var LocalStrategy = require('passport-local').Strategy;
 
 
 var bodyParser = require('body-parser');
+var sockets = {};
 
 var cors = require('cors');
 require('./auth/auth');
@@ -22,7 +23,7 @@ var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
 var certificate = fs.readFileSync(__dirname + '/cert.pem', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 var httpsServer = https.createServer(credentials, app);
-var sockets = {};
+
 
 var os = require('os');
 var io = require('socket.io')(httpsServer);
@@ -78,7 +79,7 @@ app.use('/graphql', GraphHTTP({
 
 app.post('/login', passport.authenticate('local', {
  // successRedirect: '/',
- failureRedirect: '/',
+ //failureRedirect: '/',
 }) ,function(req, res) {
 
  var userID = req.session.passport.user;
@@ -97,7 +98,7 @@ app.post('/login', passport.authenticate('local', {
 
 io.sockets.on('connection', function(socket) {
 
-  console.log('socket connected');
+
   socket.on('login', function(user) {
     sockets[user.username] = socket.id; 
     socket.join(user);
@@ -162,12 +163,17 @@ io.sockets.on('connection', function(socket) {
     }
   });
 
+  socket.on('disconnect', function() {
+    for(var key in sockets) {
+      if (sockets[key] === socket.id) {
+        delete sockets[key];
+      }
+    }
+
+  }) 
+
   socket.on('bye', function(){
     console.log('received bye');
-  });
-
-  socket.on('disconnect', function() {
-    console.log('socket disconnected ---->');
   });
 
 
@@ -175,9 +181,6 @@ io.sockets.on('connection', function(socket) {
 
 app.get('/logout', function (req, res){
 	req.logout();
-	res.redirect('/');
-
-
 });
 
 http.listen(port, function(data) {

@@ -34,7 +34,9 @@ class LoggedOutNavContainer extends React.Component {
           headers: myHeaders,
           body: `
             {
-              findFriends(username: \"${username}\")
+              b: updateUser(username: \"${username}\" online: true)    
+              
+              a: findFriends(username: \"${username}\")
               {
                     username
                     password
