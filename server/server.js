@@ -35,6 +35,9 @@ app.use(cors());
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
 
+app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
+app.use(/\/((?!graphql).)*/, bodyParser.json());
+
 // app.use(bodyparser.json());
 
 app.use('/graphql', GraphHTTP({
@@ -95,6 +98,18 @@ app.get('/logout', function (req, res){
 });
 
 io.sockets.on('connection', function(socket) {
+
+
+  socket.on('login', function(user) {
+    sockets[user.username] = socket.id; 
+    socket.join(user);
+  })
+
+  socket.on('calling', function(info) {
+      var id = sockets[info.user];
+      io.socket.connected[id].emit('invite',room)    
+  })
+
 
   // convenience function to log server messages on the client
   function log() {

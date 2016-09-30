@@ -15,7 +15,7 @@ const LoggedInNav = (props) => {
       <Link to="/chat">Chat</Link>
       <Link to="/store">Store</Link>
       <Link to="/upload">Upload</Link>
-      <Link to="/logout">Logout</Link>
+      <Link onClick={props.logout}>Logout</Link>
     </div>
   )
 }
