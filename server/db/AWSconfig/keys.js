@@ -1,4 +1,0 @@
-module.exports = {
-    AWS_ACCESS_KEY_ID: 'AKIAIP4OF5IU72S5QT7A',
-    AWS_SECRET_ACCESS_KEY: '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'
-};
