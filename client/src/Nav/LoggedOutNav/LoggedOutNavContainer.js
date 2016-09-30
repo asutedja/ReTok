@@ -34,10 +34,9 @@ class LoggedOutNavContainer extends React.Component {
           method: 'POST',
           headers: myHeaders,
           body: `
-            {
-              b: updateUser(username: \"${username}\" online: true)    
+            { 
               
-              a: findFriends(username: \"${username}\")
+              findFriends(username: \"${username}\")
               {
                     username
                     password
@@ -58,11 +57,29 @@ class LoggedOutNavContainer extends React.Component {
             this.props.dispatch(userActions.updateFriends(friends));
             this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
             this.props.dispatch(userActions.updateFriendCount(friends.length));
-            this.context.router.push('/profile');
+            console.log('user name',username);
+            let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+            let options = {
+
+              method: 'POST',
+              headers: myHeaders,
+              body: `
+                  mutation {
+                  updateUser(username: \"${username}\" online: true)  {
+                    username
+                  }
+                  }
+                  `
+
+            };
+            fetch('/graphql', options).then((res) =>{
+              return res.json().then((data) => {
+              console.log('going to profile')
+              this.context.router.push('/profile');
           })
         })
-
-
+        })
+        })
       } else {
         this.setState({
           exist:true
