@@ -209,7 +209,8 @@ var Query = new GraphQLObjectType({
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
 					coin: {type: GraphQLInt},
-					emoji: {type: GraphQLString}
+					emoji: {type: GraphQLString},
+					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
 					return Db.User.findAll({where: args});
@@ -249,7 +250,13 @@ var Query = new GraphQLObjectType({
 				resolve (root, args) {
 					return Db.User.findAll({where: args})
 					.then(function(user){
-						return Db.Friendship.findAll({where: {userOne: user[0].id}, include: [FriendTwo]});
+						// console.log('user: ', user);
+						return Db.User.findAll({
+							where: {id: user[0].id}, 
+							include: [Db.Friend]
+						}).then(function(friends) {
+							return friends[0].Friend;
+						});
 					})
 					.catch(function(err){
 						console.log("There is an error: ", err);
@@ -331,9 +338,15 @@ var Mutation = new GraphQLObjectType({
 					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
 					.then(function(users){
 
-						return Db.Friendship.create({
-							userOne: users[0].id,
-							userTwo: users[1].id,
+						Db.Friendship.create({
+							UserId: users[0].id,
+							FriendId: users[1].id,
+							relationship: 1,
+							chatCount: 0
+						});
+						Db.Friendship.create({
+							UserId: users[1].id,
+							FriendId: users[0].id,
 							relationship: 1,
 							chatCount: 0
 						});
