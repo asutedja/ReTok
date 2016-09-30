@@ -164,13 +164,13 @@ export default function userReducer (state = userInitialState, action) {
       }
     }
 
+
     case 'UPDATE_FRIEND_COUNT' : {
       return {
         ...state,
         friendCount: action.count,
       }
     }
-    
 
     case 'CREATE_ROOM' : {
       return {

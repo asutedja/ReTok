@@ -79,6 +79,7 @@ class LoggedInNavContainer extends React.Component {
        }
     })
 
+
     this.setState({
       toggle: toggling
     })
