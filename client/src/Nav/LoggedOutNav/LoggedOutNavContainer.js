@@ -23,9 +23,43 @@ class LoggedOutNavContainer extends React.Component {
       console.log('what is my res data for loggin in???',res.data);
       console.log('checking router', this.context.router);
       if (res.data.user[0].username) {
+
         this.props.dispatch(userActions.updateUser(res.data.user[0]));
         this.props.dispatch(userActions.userAuth());
-        this.context.router.push('/profile');
+
+        let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+        let options = {
+
+          method: 'POST',
+          headers: myHeaders,
+          body: `
+            {
+              findFriends(username: \"${username}\")
+              {
+                    username
+                    password
+                    profilePic
+                    firstName
+                    lastName
+                    email
+                    online
+                  }
+            }`
+
+        };
+        fetch('/graphql', options).then((res) =>{
+          return res.json().then((data) => {
+            console.log('checking my friends data',data.data.findFriends);
+            var friends = data.data.findFriends;
+            var onlineFriends = friends.filter(friend => friend.online = true);
+            this.props.dispatch(userActions.updateFriends(friends));
+            this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
+            this.props.dispatch(userActions.updateFriendCount(friends.length));
+            this.context.router.push('/profile');
+          })
+        })
+
+
       } else {
         this.setState({
           exist:true
@@ -33,23 +67,7 @@ class LoggedOutNavContainer extends React.Component {
       }
     });
 
-    // axios.post("https://10.8.24.3:8443/login?username="+username+"&password="+password)
-    //   .then((res)=>{
-    //     console.log('what is my res data for loggin in???',res.data);
 
-    //     console.log('checking router', this.context.router);
-    //     if (res.data[0].username) {
-    //       this.props.dispatch(userActions.updateUser(res.data[0]));
-    //       this.props.dispatch(userActions.userAuth(res.data));
-    //       this.context.router.push('/profile');
-    //     } else {
-    //       this.setState({
-    //         exist:true
-    //       })
-    //     }
-    //   });
-    //when we see confirmation of user, move user to their profile page
-    //browserHistory.push('/' + user);
   }
  
   render() {

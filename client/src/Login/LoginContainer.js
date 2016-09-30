@@ -13,6 +13,7 @@ class LoginContainer extends React.Component {
 
 	signUp(user, password, firstName, lastName, email) {
 		console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
+		var userInfo = {username: user, password: password};
 
 
 			let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
@@ -44,8 +45,16 @@ class LoginContainer extends React.Component {
 						})
 					} else {
 						this.props.dispatch(userActions.userAuth(data));
-						console.log('go to profile')
-						this.context.router.push('/profile')
+
+						console.log('checking my data ------>', data);
+						// console.log('checking router', this.context.router);
+						// this.context.router.push('/profile');
+						axios.post('/login', userInfo)
+							.then((res) => {
+								console.log('checking my data', res.data);
+								this.props.dispatch(userActions.updateUser(res.data.user[0]));
+								this.context.router.push('/upload');
+							});
 					}
 				})
 			})

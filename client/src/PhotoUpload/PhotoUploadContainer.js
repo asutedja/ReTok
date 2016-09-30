@@ -66,6 +66,7 @@ function mapStateToProps(state){
     file: state.uploadReducer.file,
     isLoggedIn: state.userReducer.isLoggedIn,
     user: state.userReducer.user,
+    friendCount: state.userReducer.friendCount
   }
 }
 
