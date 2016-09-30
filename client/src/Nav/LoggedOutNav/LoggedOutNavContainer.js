@@ -9,7 +9,9 @@ import * as userActions from '../../Redux/userReducer'
 class LoggedOutNavContainer extends React.Component {
     constructor(props, context) {
       super(props, context);
-
+      this.state = {
+        exist: false
+      }
     } 
 
 
@@ -23,10 +25,9 @@ class LoggedOutNavContainer extends React.Component {
       console.log('what is my res data for loggin in???',res.data);
       console.log('checking router', this.context.router);
       if (res.data.user[0].username) {
-
+        //TODO: FIgure out what server gives for emojis
         this.props.dispatch(userActions.updateUser(res.data.user[0]));
         this.props.dispatch(userActions.userAuth());
-
         let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
         let options = {
 
@@ -75,7 +76,7 @@ class LoggedOutNavContainer extends React.Component {
   render() {
     return(
       <div>
-        <LoggedOutNav loggingIn = {this.loggingIn.bind(this)}/>
+        <LoggedOutNav loggingIn = {this.loggingIn.bind(this)} exist={this.state.exist}/>
       </div>
       )
   }

@@ -115,7 +115,7 @@ class ChatMVPContainer extends React.Component {
      console.log(navigator.mediaDevices);
 
      navigator.mediaDevices.getUserMedia({
-       audio: false,
+       audio: true,
        video: true
      })
      .then(gotStream)
