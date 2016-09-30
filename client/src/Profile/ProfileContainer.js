@@ -21,7 +21,7 @@ class ProfileContainer extends React.Component {
   render() {
     return (
       <div>
-        <Profile user = {this.props.user}/>
+        <Profile user = {this.props.user}     friendCount={this.props.friendCount}/>
         {this.props.children}
       </div>
     )
@@ -33,7 +33,8 @@ function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
     user: state.userReducer.user,
-    socket: state.userReducer.socket
+    socket: state.userReducer.socket,
+    friendCount: state.userReducer.friendCount
   }
 }
 

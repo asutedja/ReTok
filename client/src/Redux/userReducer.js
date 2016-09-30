@@ -43,6 +43,13 @@ export function updateOnlineFriends (onlineFriends) {
   }
 }
 
+export function updateFriendCount (count) {
+  return {
+    type: 'UPDATE_FRIEND_COUNT',
+    count,
+  }
+}
+
 
 export function updateSearch (search) {
   return {
@@ -79,6 +86,7 @@ const userInitialState = {
   user: {username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: ''},
   friends: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}],
   onlineFriends: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}],
+  friendCount: 0,
   isLoggedIn: false,
   error: '',
   emojis: [],
@@ -155,6 +163,14 @@ export default function userReducer (state = userInitialState, action) {
         emojis: action.emojis,
       }
     }
+
+    case 'UPDATE_FRIEND_COUNT' : {
+      return {
+        ...state,
+        friendCount: action.count,
+      }
+    }
+    
 
     case 'CREATE_ROOM' : {
       return {

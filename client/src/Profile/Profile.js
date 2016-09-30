@@ -25,7 +25,7 @@ const Profile = (props) => {
             <span><b>User Name:</b>{props.user.username}</span>
           </Row>
           <Row className ="show-grid profileRow">
-            <span><b>Friends Count:</b>1</span>
+            <span><b>Friends Count:</b>{props.friendCount}</span>
           </Row>
         </Col>
       </Row>

@@ -166,9 +166,10 @@ io.sockets.on('connection', function(socket) {
     console.log('received bye');
   });
 
+  socket.on('disconnect', function() {
+    console.log('socket disconnected ---->');
+  });
 
-	res.status(200).send('welcome');
-	// res.redirect('/profile/' + req.user.username);
 
 });
 
@@ -176,9 +177,6 @@ app.get('/logout', function (req, res){
 	req.logout();
 	res.redirect('/');
 
-  socket.on('disconnect', function() {
-    console.log('socket disconnected ---->');
-  });
 
 });
 
