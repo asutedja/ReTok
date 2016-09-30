@@ -315,21 +315,28 @@ var Mutation = new GraphQLObjectType({
 					emoji: {type: GraphQLString}
 				},
 				resolve (root, args) {
-					return Auth.hashPwAsync(args.password)
-					.then(function (hashed) {
-						return Db.User.create({
-							username: args.username,
-							password: hashed,
-							firstName: args.firstName,
-							lastName: args.lastName,
-							email: args.email,
-							dob: args.dob,
-							gender: args.gender,
-							profilePic: args.profilePic,
-							coin: 0,
-							emoji: 'test-emoji',
-							online: true
-						});
+					return Db.User.findAll({where: {username: args.username}})
+					.then(function (user) {
+						if (user.length > 0) {
+							return;
+						} else {
+							return Auth.hashPwAsync(args.password)
+							.then(function (hashed) {
+								return Db.User.create({
+									username: args.username,
+									password: hashed,
+									firstName: args.firstName,
+									lastName: args.lastName,
+									email: args.email,
+									dob: args.dob,
+									gender: args.gender,
+									profilePic: args.profilePic,
+									coin: 0,
+									emoji: 'test-emoji',
+									online: true
+								});
+							})
+						}
 					})
 					.catch(function (err) {
 						console.log("There is an error: ", err);
