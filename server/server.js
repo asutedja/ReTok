@@ -22,7 +22,7 @@ var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
 var certificate = fs.readFileSync(__dirname + '/cert.pem', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 var httpsServer = https.createServer(credentials, app);
-
+var sockets = {};
 
 var os = require('os');
 var io = require('socket.io')(httpsServer);
@@ -97,7 +97,7 @@ app.post('/login', passport.authenticate('local', {
 
 io.sockets.on('connection', function(socket) {
 
-
+  console.log('socket connected');
   socket.on('login', function(user) {
     sockets[user.username] = socket.id; 
     socket.join(user);
@@ -175,6 +175,11 @@ io.sockets.on('connection', function(socket) {
 app.get('/logout', function (req, res){
 	req.logout();
 	res.redirect('/');
+
+  socket.on('disconnect', function() {
+    console.log('socket disconnected ---->');
+  });
+
 });
 
 http.listen(port, function(data) {
