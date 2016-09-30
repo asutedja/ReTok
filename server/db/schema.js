@@ -387,7 +387,7 @@ var Mutation = new GraphQLObjectType({
 					})	
 					.then(function(friendship) {
 						console.log("Friendship---", friendship)
-						Db.Friendship.update({relationship: 1}, {where: {id: friendship[0].id}});
+						Db.Friendship.update({relationship: 0}, {where: {id: friendship[0].id}});
 					})
 					.catch(function(err){
 						console.log('There is an error: ', err);
