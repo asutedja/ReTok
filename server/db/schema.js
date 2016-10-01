@@ -209,10 +209,11 @@ var Query = new GraphQLObjectType({
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
 					coin: {type: GraphQLInt},
-					emoji: {type: GraphQLString}
+					emoji: {type: GraphQLString},
+					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
-					return Db.User.findAll({where: args});
+					return Db.User.findAll({where: args, attributes: ['username', 'firstName', 'lastName', 'email', 'dob', 'gender', 'profilePic', 'coin', 'emoji', 'online']});
 				}
 			},
 			friendships: {
@@ -372,9 +373,9 @@ var Mutation = new GraphQLObjectType({
 					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
 					.then(function(users){
 
-						return Db.Friendship.create({
-							userOne: users[0].id,
-							userTwo: users[1].id,
+						Db.Friendship.create({
+							UserId: users[0].id,
+							FriendId: users[1].id,
 							relationship: 1,
 							chatCount: 0
 						});
@@ -415,7 +416,7 @@ var Mutation = new GraphQLObjectType({
 					})	
 					.then(function(friendship) {
 						console.log("Friendship---", friendship)
-						Db.Friendship.update({relationship: 1}, {where: {id: friendship[0].id}});
+						Db.Friendship.update({relationship: 0}, {where: {id: friendship[0].id}});
 					})
 					.catch(function(err){
 						console.log('There is an error: ', err);
