@@ -47,6 +47,9 @@ class LoggedOutNavContainer extends React.Component {
                     email
                     online
                     coin
+                    textChatCount
+                    videoChatCount
+                    lastChatTime
 
                   }
             }`

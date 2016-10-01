@@ -33116,7 +33116,7 @@ var LoggedOutNavContainer = function (_React$Component) {
 
             method: 'POST',
             headers: myHeaders,
-            body: '\n            {  \n              findFriends(username: "' + username + '")\n              {\n                    username\n                    password\n                    profilePic\n                    firstName\n                    lastName\n                    email\n                    online\n                    coin\n\n                  }\n            }'
+            body: '\n            {  \n              findFriends(username: "' + username + '")\n              {\n                    username\n                    password\n                    profilePic\n                    firstName\n                    lastName\n                    email\n                    online\n                    coin\n                    textChatCount\n                    videoChatCount\n                    lastChatTime\n\n                  }\n            }'
           };
           fetch('/graphql', options).then(function (res) {
             return res.json().then(function (data) {
