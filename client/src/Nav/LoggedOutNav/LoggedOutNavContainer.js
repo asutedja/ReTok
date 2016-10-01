@@ -24,9 +24,9 @@ class LoggedOutNavContainer extends React.Component {
     .then((res)=>{
       console.log('what is my res data for loggin in???',res.data);
       console.log('checking router', this.context.router);
-      if (res.data.user[0].username) {
+      if (res.data[0].username) {
         //TODO: FIgure out what server gives for emojis
-        this.props.dispatch(userActions.updateUser(res.data.user[0]));
+        this.props.dispatch(userActions.updateUser(res.data[0]));
         this.props.dispatch(userActions.userAuth());
         let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
         let options = {
@@ -53,25 +53,27 @@ class LoggedOutNavContainer extends React.Component {
           return res.json().then((data) => {
             console.log('checking my friends data',data.data.findFriends);
             var friends = data.data.findFriends;
-            var onlineFriends = friends.filter(friend => friend.online = true);
-            this.props.dispatch(userActions.updateFriends(friends));
-            this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
-            this.props.dispatch(userActions.updateFriendCount(friends.length));
-            console.log('user name',username);
-            let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-            let options = {
+            if(friends) {
+              var onlineFriends = friends.filter(friend => friend.online = true);
+              this.props.dispatch(userActions.updateFriends(friends));
+              this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
+              this.props.dispatch(userActions.updateFriendCount(friends.length));
+              console.log('user name',username);
+              let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+              let options = {
 
-              method: 'POST',
-              headers: myHeaders,
-              body: `
-                  mutation {
-                  updateUser(username: \"${username}\" online: true)  {
-                    username
-                  }
-                  }
-                  `
-
-            };
+                method: 'POST',
+                headers: myHeaders,
+                body: `
+                    mutation {
+                    updateUser(username: \"${username}\" online: true)  {
+                      username
+                    }
+                    }
+                    `
+              };
+              
+            }
             fetch('/graphql', options).then((res) =>{
               return res.json().then((data) => {
               console.log('going to profile')

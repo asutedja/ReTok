@@ -23,11 +23,13 @@ class LoggedInNavContainer extends React.Component {
     var socket = io();
     console.log('socket' , socket)
     this.props.dispatch(userActions.sendSocket(socket));
+    this.props.dispatch(userActions.createRoom(this.props.user.username))
 
-    socket.on('invite', function(room) {
+    socket.on('invite', function(caller) {
       this.invitation();
-      this.props.dispatch(userActions.createRoom(room));
-      console.log(room)
+      console.log('This should be Andrew', caller.caller)
+
+      this.props.dispatch(userActions.createRoom(caller.caller));
       //peer should have room info
 
     }.bind(this))
@@ -103,7 +105,7 @@ class LoggedInNavContainer extends React.Component {
     if (query.indexOf(' ') !== -1) {
       query = query.split(' ')[0];
     }
-
+    console.log('IAM SEARCHING FOR', query)
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
 
@@ -128,6 +130,7 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
+        console.log('THIS DATA GETS SLICED', data)
         var searchresult = data.data.users.slice();
         console.log('what is my data from my search bar', searchresult);
 

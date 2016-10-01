@@ -101,13 +101,16 @@ app.post('/login', passport.authenticate('local', {
 io.sockets.on('connection', function(socket) {
 
   socket.on('login', function(user) {
-    sockets[user.username] = socket.id; 
+    sockets[user] = socket.id; 
+    log('this is the room you are in: ', user)
+    console.log('ROOM NAME IS', user)
     socket.join(user);
   })
 
   socket.on('calling', function(info) {
       var id = sockets[info.user];
-      io.socket.connected[id].emit('invite',room)    
+      console.log('person calling', info);
+      io.sockets.connected[id].emit('invite',info)    
   })
 
 
@@ -131,22 +134,20 @@ io.sockets.on('connection', function(socket) {
   socket.on('create or join', function(room) {
     log('Received request to create or join room ' + room);
 
-    var numClients = Object.keys(io.sockets.sockets).length;
+    var numClients = Object.keys(io.sockets.adapter.rooms[room]).length;
     log('Room ' + room + ' now has ' + numClients + ' client(s)');
-
-    if (numClients === 1) {
-      socket.join(room);
+    socket.emit('created', room, socket.id);
+    if (numClients === 2 && sockets[room] !== socket.id) {
       log('Client ID ' + socket.id + ' created room ' + room);
-      socket.emit('created', room, socket.id);
-
-    } else if (numClients >= 2) {
-      log('Client ID ' + socket.id + ' joined room ' + room);
       io.sockets.in(room).emit('join', room);
       socket.join(room);
       socket.emit('joined', room, socket.id);
       io.sockets.in(room).emit('ready');
+
+    } else if (numClients >= 2) {
+      log('Client ID ' + socket.id + ' joined room ' + room);
+      socket.join(room);
     } else if(numClients > 2) {
-    	var user = io.sockets.adapter.rooms[room];
     	console.log(user, 'number of users', user.length);
     } else { // max two clients
       socket.emit('full', room);
