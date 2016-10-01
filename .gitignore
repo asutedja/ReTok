@@ -9,3 +9,4 @@ client/src/Test
 server/key.pem
 server/cert.pem
 server/db/AWSconfig/keys.js
+npm-debug.log
