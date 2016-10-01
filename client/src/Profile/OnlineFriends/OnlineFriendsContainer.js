@@ -16,13 +16,11 @@ class OnlineFriendsContainer extends React.Component {
   }
 
   videoChat(friend) {
-    console.log('i hit video chat for this friend', friend);
-    var room = this.props.user + friend
-    this.props.dispatch(userActions.createRoom(room));
-    this.context.router.push('/chat')
+    console.log('i hit video chat for this friend', friend.username);
     var socket = this.props.socket;
-    var info = {user: friend, room:room}
+    var info = {user: friend.username, caller: this.props.user.username}
     socket.emit('calling', info);
+    this.context.router.push('/chat')
 
 
   }

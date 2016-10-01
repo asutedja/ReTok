@@ -11,7 +11,7 @@ const OnlineFriends = (props) => {
     }
   return(
       <div className = "oneFriend" style={divStyle}>
-        <button className="videoButton" onClick={(e)=>{e.preventDefault;props.videoChat();}}>Video Chat</button>
+        <button className="videoButton" onClick={(e)=>{e.preventDefault;props.videoChat(props.friend);}}>Video Chat</button>
         <button className="chatButton">Chat</button>
           <div className="oneFriendWrapper">
           </div>

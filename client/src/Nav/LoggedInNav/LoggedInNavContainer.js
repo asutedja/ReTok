@@ -23,11 +23,13 @@ class LoggedInNavContainer extends React.Component {
     var socket = io();
     console.log('socket' , socket)
     this.props.dispatch(userActions.sendSocket(socket));
+    this.props.dispatch(userActions.createRoom(this.props.user.username))
 
-    socket.on('invite', function(room) {
+    socket.on('invite', function(caller) {
       this.invitation();
-      this.props.dispatch(userActions.createRoom(room));
-      console.log(room)
+      console.log('This should be Andrew', caller.caller)
+
+      this.props.dispatch(userActions.createRoom(caller.caller));
       //peer should have room info
 
     }.bind(this))

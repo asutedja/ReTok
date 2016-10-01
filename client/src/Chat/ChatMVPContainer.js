@@ -42,14 +42,14 @@ class ChatMVPContainer extends React.Component {
 
      /////////////////////////////////////////////
 
-     var room = this.props.user;
+     var room = this.props.room;
      // Could prompt for room name:
      // room = prompt('Enter room name:');
      console.log('this room', room)
 
      if (room !== '') {
-       socket.emit('create or join', room);
        console.log('Attempted to create or  join room', room);
+       socket.emit('create or join', room);
      }
 
      socket.on('created', function(room) {
@@ -92,6 +92,7 @@ class ChatMVPContainer extends React.Component {
          if (!isInitiator && !isStarted) {
            maybeStart();
          }
+         console.log('offering message', message)
          pc.setRemoteDescription(new RTCSessionDescription(message));
          doAnswer();
        } else if (message.type === 'answer' && isStarted) {
