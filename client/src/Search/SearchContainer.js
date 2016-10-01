@@ -65,6 +65,11 @@ class SearchContainer extends React.Component {
                 console.log('checking data after fetching', data);
                 var userCopy = Object.assign({}, this.props.user, {coin: updatedCoin});
                 this.props.dispatch(userActions.updateUser(userCopy));
+                var friendsCopy = this.props.friends.slice();
+                friendsCopy.push(friend);
+                this.props.dispatch(userActions.updateFriends(friendsCopy));
+                var friendCountPlusOne = this.props.friendCount + 1;
+                this.props.dispatch(userActions.updateFriendCount(friendCountPlusOne));
                 console.log('checking my user data to see successful dispatch', this.props.user);
           })
         })
@@ -89,7 +94,9 @@ class SearchContainer extends React.Component {
 function mapStateToProps(state) {
   return {
     user: state.userReducer.user,
-    search: state.userReducer.search
+    search: state.userReducer.search,
+    friends: state.userReducer.friends,
+    friendCount: state.userReducer.friendCount
   }
 }
 

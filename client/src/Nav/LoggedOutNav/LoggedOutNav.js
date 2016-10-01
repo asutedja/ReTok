@@ -9,7 +9,7 @@ const LoggedOutNav = (props) => {
       {props.exist ? <div>Wrong username or password</div> : null}
       <form id= "loginForm" onSubmit={(event)=>{event.preventDefault(); props.loggingIn(document.getElementById('usernameLogIn').value, document.getElementById('passwordLogIn').value);}}>
         <input id ="usernameLogIn" className="NavInputForm" placeholder="username"/>
-        <input id= "passwordLogIn" className="NavInputForm" placeholder="password"/>
+        <input id= "passwordLogIn" type="password" className="NavInputForm" placeholder="password"/>
         <button className = "loginButton">
           Log In!
         </button>

@@ -49,6 +49,11 @@ export function updateFriendCount (count) {
     count,
   }
 }
+export function increaseFriendCount() {
+  return {
+    type: 'INCREASE_FRIEND_COUNT',
+  }
+}
 
 
 export function updateSearch (search) {
@@ -169,6 +174,13 @@ export default function userReducer (state = userInitialState, action) {
       return {
         ...state,
         friendCount: action.count,
+      }
+    }
+
+    case 'INCREASE_FRIEND_COUNT' : {
+      return {
+        ...state,
+        friendCount: state.friendCount++,
       }
     }
 

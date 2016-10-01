@@ -2031,6 +2031,7 @@ exports.updateUser = updateUser;
 exports.updateFriends = updateFriends;
 exports.updateOnlineFriends = updateOnlineFriends;
 exports.updateFriendCount = updateFriendCount;
+exports.increaseFriendCount = increaseFriendCount;
 exports.updateSearch = updateSearch;
 exports.updateEmojis = updateEmojis;
 exports.createRoom = createRoom;
@@ -2085,6 +2086,11 @@ function updateFriendCount(count) {
   return {
     type: 'UPDATE_FRIEND_COUNT',
     count: count
+  };
+}
+function increaseFriendCount() {
+  return {
+    type: 'INCREASE_FRIEND_COUNT'
   };
 }
 
@@ -2209,6 +2215,13 @@ function userReducer() {
         });
       }
 
+    case 'INCREASE_FRIEND_COUNT':
+      {
+        return _extends({}, state, {
+          friendCount: state.friendCount++
+        });
+      }
+
     case 'CREATE_ROOM':
       {
         return _extends({}, state, {
@@ -2248,6 +2261,8 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(updateOnlineFriends, 'updateOnlineFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateFriendCount, 'updateFriendCount', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(increaseFriendCount, 'increaseFriendCount', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateSearch, 'updateSearch', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
@@ -11652,7 +11667,7 @@ var LoginContainer = function (_React$Component) {
 							exist: true
 						});
 					} else {
-						_this2.props.dispatch(userActions.userAuth(data));
+						// this.props.dispatch(userActions.userAuth(data));
 
 						console.log('checking my data ------>', data);
 						// console.log('checking router', this.context.router);
@@ -32580,7 +32595,7 @@ var SignUpForm = function SignUpForm(props) {
         'Sign Up Here'
       ),
       _react2.default.createElement('input', { id: 'newUser', className: 'signUpInput', type: 'type/submit', placeholder: 'Username' }),
-      _react2.default.createElement('input', { id: 'newPassword', className: 'signUpInput', type: 'type/submit', placeholder: 'Password' }),
+      _react2.default.createElement('input', { id: 'newPassword', className: 'signUpInput', type: 'password', placeholder: 'Password' }),
       _react2.default.createElement('input', { id: 'firstName', className: 'signUpInput', type: 'type/submit', placeholder: 'First Names' }),
       _react2.default.createElement('input', { id: 'lastName', className: 'signUpInput', type: 'type/submit', placeholder: 'Last Name' }),
       _react2.default.createElement('input', { id: 'email', className: 'signUpInput', type: 'type/submit', placeholder: 'Email' }),
@@ -33011,7 +33026,7 @@ var LoggedOutNav = function LoggedOutNav(props) {
           event.preventDefault();props.loggingIn(document.getElementById('usernameLogIn').value, document.getElementById('passwordLogIn').value);
         } },
       _react2.default.createElement('input', { id: 'usernameLogIn', className: 'NavInputForm', placeholder: 'username' }),
-      _react2.default.createElement('input', { id: 'passwordLogIn', className: 'NavInputForm', placeholder: 'password' }),
+      _react2.default.createElement('input', { id: 'passwordLogIn', type: 'password', className: 'NavInputForm', placeholder: 'password' }),
       _react2.default.createElement(
         'button',
         { className: 'loginButton' },
@@ -33353,6 +33368,7 @@ var PhotoUploadContainer = function (_React$Component) {
 
         context.props.dispatch(userActions.updateUser(res.data[0]));
         console.log('checking my user now', _this3.props.user);
+        _this3.props.dispatch(userActions.userAuth());
 
         context.context.router.push('/profile');
       });
@@ -33931,7 +33947,6 @@ var ProfileContainer = function (_React$Component) {
     value: function componentWillMount() {
       console.log('checking my props', this.props.user.username);
       var socket = this.props.socket;
-
       socket.emit('login', this.props.user.username);
     }
   }, {
@@ -34336,6 +34351,11 @@ var SearchContainer = function (_React$Component) {
               console.log('checking data after fetching', data);
               var userCopy = Object.assign({}, _this2.props.user, { coin: updatedCoin });
               _this2.props.dispatch(userActions.updateUser(userCopy));
+              var friendsCopy = _this2.props.friends.slice();
+              friendsCopy.push(friend);
+              _this2.props.dispatch(userActions.updateFriends(friendsCopy));
+              var friendCountPlusOne = _this2.props.friendCount + 1;
+              _this2.props.dispatch(userActions.updateFriendCount(friendCountPlusOne));
               console.log('checking my user data to see successful dispatch', _this2.props.user);
             });
           });
@@ -34363,7 +34383,9 @@ var SearchContainer = function (_React$Component) {
 function mapStateToProps(state) {
   return {
     user: state.userReducer.user,
-    search: state.userReducer.search
+    search: state.userReducer.search,
+    friends: state.userReducer.friends,
+    friendCount: state.userReducer.friendCount
   };
 }
 
