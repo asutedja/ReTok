@@ -27,9 +27,8 @@ class LoggedOutNavContainer extends React.Component {
       console.log('checking router', this.context.router);
       if (res.data[0].username) {
         //TODO: FIgure out what server gives for emojis
+        userData = res.data[0];
 
-        this.props.dispatch(userActions.updateUser(res.data[0]));
-        this.props.dispatch(userActions.userAuth());
 
         let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
         let options = {
@@ -60,12 +59,14 @@ class LoggedOutNavContainer extends React.Component {
               var updatedCoin = userData.coin + 20;
               userData.coin = updatedCoin;
               var onlineFriends = friends.filter(friend => friend.online = true);
+              // this.props.dispatch(userActions.updateUser(userData));
+              // this.props.dispatch(userActions.userAuth());
               this.props.dispatch(userActions.updateFriends(friends));
               this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
               this.props.dispatch(userActions.updateFriendCount(friends.length));
               console.log('user name',username);
               let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-              let options = {
+              let optionsTwo = {
 
                 method: 'POST',
                 headers: myHeaders,
@@ -74,44 +75,29 @@ class LoggedOutNavContainer extends React.Component {
                     updateUser(username: \"${username}\" coin:${updatedCoin} online: true)  {
                       username
                     }
+
                     }
                     `
               };
+            
+
+                  fetch('/graphql', optionsTwo).then((res) =>{
+                    return res.json().then((data) => {
+                      console.log('checking data after fetching', data);
+                      this.props.dispatch(userActions.updateUser(userData));
+                      this.props.dispatch(userActions.userAuth());
+                      console.log('going to profile')
+                      this.context.router.push('/profile');
+                })
+              })
+
+
+
+
               
             }
 
-            // var updatedCoin = userData.coin + 20;
-            // userData.coin = updatedCoin;
-            // var onlineFriends = friends.filter(friend => friend.online = true);
-            // this.props.dispatch(userActions.updateFriends(friends));
-            // this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
-            // this.props.dispatch(userActions.updateFriendCount(friends.length));
-            // console.log('user name',username);
 
-            // let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-            // let options = {
-
-            //   method: 'POST',
-            //   headers: myHeaders,
-            //   body: `
-            //       mutation {
-            //       updateUser(username: \"${username}\" coin:${updatedCoin} online: true)  {
-            //         username
-            //       }
-            //       }
-            //       `
-
-            // };
-// >>>>>>> Adds currency implementation
-            fetch('/graphql', options).then((res) =>{
-              return res.json().then((data) => {
-                console.log('checking data after fetching', data);
-                this.props.dispatch(userActions.updateUser(userData));
-                this.props.dispatch(userActions.userAuth());
-                console.log('going to profile')
-                this.context.router.push('/profile');
-          })
-        })
         })
         })
       } else {
