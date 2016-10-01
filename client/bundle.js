@@ -275,35 +275,35 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(process, 'process', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(process, 'process', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(cachedSetTimeout, 'cachedSetTimeout', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(cachedSetTimeout, 'cachedSetTimeout', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(cachedClearTimeout, 'cachedClearTimeout', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(cachedClearTimeout, 'cachedClearTimeout', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(defaultSetTimout, 'defaultSetTimout', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(defaultSetTimout, 'defaultSetTimout', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(defaultClearTimeout, 'defaultClearTimeout', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(defaultClearTimeout, 'defaultClearTimeout', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(runTimeout, 'runTimeout', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(runTimeout, 'runTimeout', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(runClearTimeout, 'runClearTimeout', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(runClearTimeout, 'runClearTimeout', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(queue, 'queue', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(queue, 'queue', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(draining, 'draining', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(draining, 'draining', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(currentQueue, 'currentQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(currentQueue, 'currentQueue', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(queueIndex, 'queueIndex', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(queueIndex, 'queueIndex', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(cleanUpNextTick, 'cleanUpNextTick', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(cleanUpNextTick, 'cleanUpNextTick', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(drainQueue, 'drainQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(drainQueue, 'drainQueue', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(Item, 'Item', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(Item, 'Item', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 
-    __REACT_HOT_LOADER__.register(noop, 'noop', '/Users/Michael/HR/Thesis/ReTok/node_modules/process/browser.js');
+    __REACT_HOT_LOADER__.register(noop, 'noop', '/Users/Rob/Desktop/ReTok/node_modules/process/browser.js');
 }();
 
 ;
@@ -379,13 +379,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_setPrototypeOf2, "_setPrototypeOf2", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/inherits.js");
+  __REACT_HOT_LOADER__.register(_setPrototypeOf2, "_setPrototypeOf2", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/inherits.js");
 
-  __REACT_HOT_LOADER__.register(_create2, "_create2", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/inherits.js");
+  __REACT_HOT_LOADER__.register(_create2, "_create2", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/inherits.js");
 
-  __REACT_HOT_LOADER__.register(_typeof3, "_typeof3", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/inherits.js");
+  __REACT_HOT_LOADER__.register(_typeof3, "_typeof3", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/inherits.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/inherits.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/inherits.js");
 }();
 
 ;
@@ -421,9 +421,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_typeof3, "_typeof3", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
+  __REACT_HOT_LOADER__.register(_typeof3, "_typeof3", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/possibleConstructorReturn.js");
 }();
 
 ;
@@ -465,9 +465,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_assign2, "_assign2", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/extends.js");
+  __REACT_HOT_LOADER__.register(_assign2, "_assign2", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/extends.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/extends.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/extends.js");
 }();
 
 ;
@@ -796,29 +796,29 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(curry, 'curry', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(curry, 'curry', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(prefix, 'prefix', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(prefix, 'prefix', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(bsClass, 'bsClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(bsClass, 'bsClass', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(bsStyles, 'bsStyles', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(bsStyles, 'bsStyles', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(bsSizes, 'bsSizes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(bsSizes, 'bsSizes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(getClassSet, 'getClassSet', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(getClassSet, 'getClassSet', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(getBsProps, 'getBsProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(getBsProps, 'getBsProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(isBsProp, 'isBsProp', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(isBsProp, 'isBsProp', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(splitBsProps, 'splitBsProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(splitBsProps, 'splitBsProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(splitBsPropsAndOmit, 'splitBsPropsAndOmit', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(splitBsPropsAndOmit, 'splitBsPropsAndOmit', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(addStyle, 'addStyle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(addStyle, 'addStyle', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 
-  __REACT_HOT_LOADER__.register(_curry, '_curry', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
+  __REACT_HOT_LOADER__.register(_curry, '_curry', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/bootstrapUtils.js');
 }();
 
 ;
@@ -885,7 +885,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(invariant, 'invariant', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/invariant.js');
+  __REACT_HOT_LOADER__.register(invariant, 'invariant', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/invariant.js');
 }();
 
 ;
@@ -969,7 +969,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/warning.js');
+  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/warning.js');
 }();
 
 ;
@@ -1026,7 +1026,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reactProdInvariant, 'reactProdInvariant', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/reactProdInvariant.js');
+  __REACT_HOT_LOADER__.register(reactProdInvariant, 'reactProdInvariant', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/reactProdInvariant.js');
 }();
 
 ;
@@ -1101,15 +1101,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/elementType.js");
+  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/elementType.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/elementType.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/elementType.js");
 
-  __REACT_HOT_LOADER__.register(_createChainableTypeChecker2, "_createChainableTypeChecker2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/elementType.js");
+  __REACT_HOT_LOADER__.register(_createChainableTypeChecker2, "_createChainableTypeChecker2", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/elementType.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/elementType.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/elementType.js");
 
-  __REACT_HOT_LOADER__.register(elementType, "elementType", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/elementType.js");
+  __REACT_HOT_LOADER__.register(elementType, "elementType", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/elementType.js");
 }();
 
 ;
@@ -1209,13 +1209,13 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/object-assign/index.js');
+	__REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/object-assign/index.js');
 
-	__REACT_HOT_LOADER__.register(propIsEnumerable, 'propIsEnumerable', '/Users/Michael/HR/Thesis/ReTok/node_modules/object-assign/index.js');
+	__REACT_HOT_LOADER__.register(propIsEnumerable, 'propIsEnumerable', '/Users/Rob/Desktop/ReTok/node_modules/object-assign/index.js');
 
-	__REACT_HOT_LOADER__.register(toObject, 'toObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/object-assign/index.js');
+	__REACT_HOT_LOADER__.register(toObject, 'toObject', '/Users/Rob/Desktop/ReTok/node_modules/object-assign/index.js');
 
-	__REACT_HOT_LOADER__.register(shouldUseNative, 'shouldUseNative', '/Users/Michael/HR/Thesis/ReTok/node_modules/object-assign/index.js');
+	__REACT_HOT_LOADER__.register(shouldUseNative, 'shouldUseNative', '/Users/Rob/Desktop/ReTok/node_modules/object-assign/index.js');
 }();
 
 ;
@@ -1420,27 +1420,27 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ATTR_NAME, 'ATTR_NAME', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(ATTR_NAME, 'ATTR_NAME', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(Flags, 'Flags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(Flags, 'Flags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(internalInstanceKey, 'internalInstanceKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(internalInstanceKey, 'internalInstanceKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(getRenderedHostOrTextFromComponent, 'getRenderedHostOrTextFromComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(getRenderedHostOrTextFromComponent, 'getRenderedHostOrTextFromComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(precacheNode, 'precacheNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(precacheNode, 'precacheNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(uncacheNode, 'uncacheNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(uncacheNode, 'uncacheNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(precacheChildNodes, 'precacheChildNodes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(precacheChildNodes, 'precacheChildNodes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(getClosestInstanceFromNode, 'getClosestInstanceFromNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(getClosestInstanceFromNode, 'getClosestInstanceFromNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(getInstanceFromNode, 'getInstanceFromNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(getInstanceFromNode, 'getInstanceFromNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(getNodeFromInstance, 'getNodeFromInstance', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(getNodeFromInstance, 'getNodeFromInstance', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMComponentTree, 'ReactDOMComponentTree', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+  __REACT_HOT_LOADER__.register(ReactDOMComponentTree, 'ReactDOMComponentTree', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
 }();
 
 ;
@@ -1506,7 +1506,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(invariant, 'invariant', '/Users/Michael/HR/Thesis/ReTok/node_modules/invariant/browser.js');
+  __REACT_HOT_LOADER__.register(invariant, 'invariant', '/Users/Rob/Desktop/ReTok/node_modules/invariant/browser.js');
 }();
 
 ;
@@ -1682,49 +1682,49 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_Router3, '_Router3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_Router3, '_Router3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_Link3, '_Link3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_Link3, '_Link3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_IndexLink3, '_IndexLink3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_IndexLink3, '_IndexLink3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_withRouter3, '_withRouter3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_withRouter3, '_withRouter3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_IndexRedirect3, '_IndexRedirect3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_IndexRedirect3, '_IndexRedirect3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_IndexRoute3, '_IndexRoute3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_IndexRoute3, '_IndexRoute3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_Redirect3, '_Redirect3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_Redirect3, '_Redirect3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_Route3, '_Route3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_Route3, '_Route3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_History3, '_History3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_History3, '_History3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_Lifecycle3, '_Lifecycle3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_Lifecycle3, '_Lifecycle3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_RouteContext3, '_RouteContext3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_RouteContext3, '_RouteContext3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_useRoutes3, '_useRoutes3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_useRoutes3, '_useRoutes3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_RouterContext3, '_RouterContext3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_RouterContext3, '_RouterContext3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_RoutingContext3, '_RoutingContext3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_RoutingContext3, '_RoutingContext3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_PropTypes3, '_PropTypes3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_PropTypes3, '_PropTypes3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_match3, '_match3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_match3, '_match3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_useRouterHistory3, '_useRouterHistory3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_useRouterHistory3, '_useRouterHistory3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_applyRouterMiddleware3, '_applyRouterMiddleware3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_applyRouterMiddleware3, '_applyRouterMiddleware3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_browserHistory3, '_browserHistory3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_browserHistory3, '_browserHistory3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_hashHistory3, '_hashHistory3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_hashHistory3, '_hashHistory3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_createMemoryHistory3, '_createMemoryHistory3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_createMemoryHistory3, '_createMemoryHistory3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/index.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/index.js');
 }();
 
 ;
@@ -1776,9 +1776,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/ExecutionEnvironment.js');
+  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/ExecutionEnvironment.js');
 
-  __REACT_HOT_LOADER__.register(ExecutionEnvironment, 'ExecutionEnvironment', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/ExecutionEnvironment.js');
+  __REACT_HOT_LOADER__.register(ExecutionEnvironment, 'ExecutionEnvironment', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/ExecutionEnvironment.js');
 }();
 
 ;
@@ -1833,15 +1833,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/routerWarning.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/routerWarning.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/routerWarning.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/routerWarning.js');
 
-  __REACT_HOT_LOADER__.register(warned, 'warned', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/routerWarning.js');
+  __REACT_HOT_LOADER__.register(warned, 'warned', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/routerWarning.js');
 
-  __REACT_HOT_LOADER__.register(routerWarning, 'routerWarning', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/routerWarning.js');
+  __REACT_HOT_LOADER__.register(routerWarning, 'routerWarning', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/routerWarning.js');
 
-  __REACT_HOT_LOADER__.register(_resetWarned, '_resetWarned', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/routerWarning.js');
+  __REACT_HOT_LOADER__.register(_resetWarned, '_resetWarned', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/routerWarning.js');
 }();
 
 ;
@@ -1901,9 +1901,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/createChainedFunction.js');
+  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/createChainedFunction.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/createChainedFunction.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/createChainedFunction.js');
 }();
 
 ;
@@ -1944,7 +1944,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(g, "g", "/Users/Michael/HR/Thesis/ReTok/node_modules/webpack/buildin/global.js");
+	__REACT_HOT_LOADER__.register(g, "g", "/Users/Rob/Desktop/ReTok/node_modules/webpack/buildin/global.js");
 }();
 
 ;
@@ -1998,15 +1998,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Size, 'Size', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
+  __REACT_HOT_LOADER__.register(Size, 'Size', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
 
-  __REACT_HOT_LOADER__.register(SIZE_MAP, 'SIZE_MAP', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
+  __REACT_HOT_LOADER__.register(SIZE_MAP, 'SIZE_MAP', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
 
-  __REACT_HOT_LOADER__.register(DEVICE_SIZES, 'DEVICE_SIZES', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
+  __REACT_HOT_LOADER__.register(DEVICE_SIZES, 'DEVICE_SIZES', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
 
-  __REACT_HOT_LOADER__.register(State, 'State', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
+  __REACT_HOT_LOADER__.register(State, 'State', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
 
-  __REACT_HOT_LOADER__.register(Style, 'Style', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
+  __REACT_HOT_LOADER__.register(Style, 'Style', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/StyleConfig.js');
 }();
 
 ;
@@ -2120,8 +2120,8 @@ function sendSocket(socket) {
 var userInitialState = {
   userID: '',
   user: { username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: '' },
-  friends: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
-  onlineFriends: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
+  friends: [],
+  onlineFriends: [],
   friendCount: 0,
   isLoggedIn: false,
   error: '',
@@ -2235,31 +2235,31 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(userAuth, 'userAuth', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(userAuth, 'userAuth', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(toggleLogIn, 'toggleLogIn', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(toggleLogIn, 'toggleLogIn', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(userUnauth, 'userUnauth', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(userUnauth, 'userUnauth', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(updateUser, 'updateUser', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(updateUser, 'updateUser', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(updateFriends, 'updateFriends', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(updateFriends, 'updateFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(updateOnlineFriends, 'updateOnlineFriends', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(updateOnlineFriends, 'updateOnlineFriends', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(updateFriendCount, 'updateFriendCount', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(updateFriendCount, 'updateFriendCount', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(updateSearch, 'updateSearch', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(updateSearch, 'updateSearch', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(updateEmojis, 'updateEmojis', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(updateEmojis, 'updateEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(createRoom, 'createRoom', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(createRoom, 'createRoom', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(sendSocket, 'sendSocket', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(sendSocket, 'sendSocket', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(userReducer, 'userReducer', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(userReducer, 'userReducer', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
-  __REACT_HOT_LOADER__.register(userInitialState, 'userInitialState', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/userReducer.js');
+  __REACT_HOT_LOADER__.register(userInitialState, 'userInitialState', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 }();
 
 ;
@@ -2470,23 +2470,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(map, 'map', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(map, 'map', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(forEach, 'forEach', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(forEach, 'forEach', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(count, 'count', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(count, 'count', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(filter, 'filter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(filter, 'filter', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(find, 'find', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(find, 'find', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(every, 'every', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(every, 'every', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(some, 'some', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(some, 'some', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 }();
 
 ;
@@ -2522,11 +2522,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_Provider2, '_Provider2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/index.js');
+  __REACT_HOT_LOADER__.register(_Provider2, '_Provider2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_connect2, '_connect2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/index.js');
+  __REACT_HOT_LOADER__.register(_connect2, '_connect2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/index.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/index.js');
 }();
 
 ;
@@ -2840,45 +2840,45 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isArray, 'isArray', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isArray, 'isArray', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isArrayBuffer, 'isArrayBuffer', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isArrayBuffer, 'isArrayBuffer', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isFormData, 'isFormData', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isFormData, 'isFormData', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isArrayBufferView, 'isArrayBufferView', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isArrayBufferView, 'isArrayBufferView', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isString, 'isString', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isString, 'isString', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isNumber, 'isNumber', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isNumber, 'isNumber', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isUndefined, 'isUndefined', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isUndefined, 'isUndefined', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isObject, 'isObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isObject, 'isObject', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isDate, 'isDate', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isDate, 'isDate', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isFile, 'isFile', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isFile, 'isFile', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isBlob, 'isBlob', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isBlob, 'isBlob', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isFunction, 'isFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isFunction, 'isFunction', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isStream, 'isStream', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isStream, 'isStream', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isURLSearchParams, 'isURLSearchParams', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isURLSearchParams, 'isURLSearchParams', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(trim, 'trim', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(trim, 'trim', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(isStandardBrowserEnv, 'isStandardBrowserEnv', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(isStandardBrowserEnv, 'isStandardBrowserEnv', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(forEach, 'forEach', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(forEach, 'forEach', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(merge, 'merge', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(merge, 'merge', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 
-  __REACT_HOT_LOADER__.register(extend, 'extend', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/utils.js');
+  __REACT_HOT_LOADER__.register(extend, 'extend', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/utils.js');
 }();
 
 ;
@@ -2916,7 +2916,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debugTool, 'debugTool', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInstrumentation.js');
+  __REACT_HOT_LOADER__.register(debugTool, 'debugTool', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInstrumentation.js');
 }();
 
 ;
@@ -2987,7 +2987,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Michael/HR/Thesis/ReTok/node_modules/warning/browser.js');
+  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Rob/Desktop/ReTok/node_modules/warning/browser.js');
 }();
 
 ;
@@ -3043,9 +3043,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(makeEmptyFunction, "makeEmptyFunction", "/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/emptyFunction.js");
+  __REACT_HOT_LOADER__.register(makeEmptyFunction, "makeEmptyFunction", "/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/emptyFunction.js");
 
-  __REACT_HOT_LOADER__.register(emptyFunction, "emptyFunction", "/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/emptyFunction.js");
+  __REACT_HOT_LOADER__.register(emptyFunction, "emptyFunction", "/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/emptyFunction.js");
 }();
 
 ;
@@ -3405,47 +3405,47 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isNative, 'isNative', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(isNative, 'isNative', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(canUseCollections, 'canUseCollections', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(canUseCollections, 'canUseCollections', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(itemMap, 'itemMap', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(itemMap, 'itemMap', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(rootIDSet, 'rootIDSet', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(rootIDSet, 'rootIDSet', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(itemByKey, 'itemByKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(itemByKey, 'itemByKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(rootByKey, 'rootByKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(rootByKey, 'rootByKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(unmountedIDs, 'unmountedIDs', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(unmountedIDs, 'unmountedIDs', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(getKeyFromID, 'getKeyFromID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(getKeyFromID, 'getKeyFromID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(getIDFromKey, 'getIDFromKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(getIDFromKey, 'getIDFromKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(get, 'get', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(get, 'get', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(remove, 'remove', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(remove, 'remove', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(create, 'create', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(create, 'create', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(addRoot, 'addRoot', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(addRoot, 'addRoot', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(removeRoot, 'removeRoot', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(removeRoot, 'removeRoot', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(getRegisteredIDs, 'getRegisteredIDs', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(getRegisteredIDs, 'getRegisteredIDs', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(getRootIDs, 'getRootIDs', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(getRootIDs, 'getRootIDs', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(purgeDeep, 'purgeDeep', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(purgeDeep, 'purgeDeep', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(describeComponentFrame, 'describeComponentFrame', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(describeComponentFrame, 'describeComponentFrame', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(_getDisplayName, 'getDisplayName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(_getDisplayName, 'getDisplayName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(describeID, 'describeID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(describeID, 'describeID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 
-  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
+  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentTreeHook.js');
 }();
 
 ;
@@ -3813,25 +3813,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(REACT_ELEMENT_TYPE, 'REACT_ELEMENT_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(REACT_ELEMENT_TYPE, 'REACT_ELEMENT_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(RESERVED_PROPS, 'RESERVED_PROPS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(RESERVED_PROPS, 'RESERVED_PROPS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(specialPropKeyWarningShown, 'specialPropKeyWarningShown', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(specialPropKeyWarningShown, 'specialPropKeyWarningShown', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(specialPropRefWarningShown, 'specialPropRefWarningShown', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(specialPropRefWarningShown, 'specialPropRefWarningShown', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(hasValidRef, 'hasValidRef', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(hasValidRef, 'hasValidRef', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(hasValidKey, 'hasValidKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(hasValidKey, 'hasValidKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(defineKeyPropWarningGetter, 'defineKeyPropWarningGetter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(defineKeyPropWarningGetter, 'defineKeyPropWarningGetter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(defineRefPropWarningGetter, 'defineRefPropWarningGetter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(defineRefPropWarningGetter, 'defineRefPropWarningGetter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 
-  __REACT_HOT_LOADER__.register(ReactElement, 'ReactElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElement.js');
+  __REACT_HOT_LOADER__.register(ReactElement, 'ReactElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElement.js');
 }();
 
 ;
@@ -3854,7 +3854,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(core, 'core', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_core.js');
+  __REACT_HOT_LOADER__.register(core, 'core', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_core.js');
 }();
 
 ;
@@ -3883,13 +3883,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_wks.js');
+  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_wks.js');
 
-  __REACT_HOT_LOADER__.register(USE_SYMBOL, 'USE_SYMBOL', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_wks.js');
+  __REACT_HOT_LOADER__.register(USE_SYMBOL, 'USE_SYMBOL', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_wks.js');
 
-  __REACT_HOT_LOADER__.register($exports, '$exports', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_wks.js');
+  __REACT_HOT_LOADER__.register($exports, '$exports', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_wks.js');
 
-  __REACT_HOT_LOADER__.register(_Symbol, '_Symbol', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_wks.js');
+  __REACT_HOT_LOADER__.register(_Symbol, '_Symbol', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_wks.js');
 }();
 
 ;
@@ -3959,7 +3959,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/node_modules/warning/browser.js');
+  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Rob/Desktop/ReTok/node_modules/history/node_modules/warning/browser.js');
 }();
 
 ;
@@ -4105,15 +4105,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
 
-  __REACT_HOT_LOADER__.register(isTrivialHref, 'isTrivialHref', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
+  __REACT_HOT_LOADER__.register(isTrivialHref, 'isTrivialHref', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
 
-  __REACT_HOT_LOADER__.register(SafeAnchor, 'SafeAnchor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
+  __REACT_HOT_LOADER__.register(SafeAnchor, 'SafeAnchor', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SafeAnchor.js');
 }();
 
 ;
@@ -4381,41 +4381,41 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(dirtyComponents, 'dirtyComponents', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(dirtyComponents, 'dirtyComponents', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(updateBatchNumber, 'updateBatchNumber', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(updateBatchNumber, 'updateBatchNumber', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(asapCallbackQueue, 'asapCallbackQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(asapCallbackQueue, 'asapCallbackQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(asapEnqueued, 'asapEnqueued', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(asapEnqueued, 'asapEnqueued', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(batchingStrategy, 'batchingStrategy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(batchingStrategy, 'batchingStrategy', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(ensureInjected, 'ensureInjected', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(ensureInjected, 'ensureInjected', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(NESTED_UPDATES, 'NESTED_UPDATES', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(NESTED_UPDATES, 'NESTED_UPDATES', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(UPDATE_QUEUEING, 'UPDATE_QUEUEING', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(UPDATE_QUEUEING, 'UPDATE_QUEUEING', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(ReactUpdatesFlushTransaction, 'ReactUpdatesFlushTransaction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(ReactUpdatesFlushTransaction, 'ReactUpdatesFlushTransaction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(batchedUpdates, 'batchedUpdates', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(batchedUpdates, 'batchedUpdates', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(mountOrderComparator, 'mountOrderComparator', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(mountOrderComparator, 'mountOrderComparator', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(runBatchedUpdates, 'runBatchedUpdates', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(runBatchedUpdates, 'runBatchedUpdates', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(flushBatchedUpdates, 'flushBatchedUpdates', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(flushBatchedUpdates, 'flushBatchedUpdates', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(enqueueUpdate, 'enqueueUpdate', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(enqueueUpdate, 'enqueueUpdate', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(asap, 'asap', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(asap, 'asap', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(ReactUpdatesInjection, 'ReactUpdatesInjection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(ReactUpdatesInjection, 'ReactUpdatesInjection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 
-  __REACT_HOT_LOADER__.register(ReactUpdates, 'ReactUpdates', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdates.js');
+  __REACT_HOT_LOADER__.register(ReactUpdates, 'ReactUpdates', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdates.js');
 }();
 
 ;
@@ -4586,17 +4586,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(useColors, 'useColors', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/browser.js');
+  __REACT_HOT_LOADER__.register(useColors, 'useColors', '/Users/Rob/Desktop/ReTok/node_modules/debug/browser.js');
 
-  __REACT_HOT_LOADER__.register(formatArgs, 'formatArgs', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/browser.js');
+  __REACT_HOT_LOADER__.register(formatArgs, 'formatArgs', '/Users/Rob/Desktop/ReTok/node_modules/debug/browser.js');
 
-  __REACT_HOT_LOADER__.register(log, 'log', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/browser.js');
+  __REACT_HOT_LOADER__.register(log, 'log', '/Users/Rob/Desktop/ReTok/node_modules/debug/browser.js');
 
-  __REACT_HOT_LOADER__.register(save, 'save', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/browser.js');
+  __REACT_HOT_LOADER__.register(save, 'save', '/Users/Rob/Desktop/ReTok/node_modules/debug/browser.js');
 
-  __REACT_HOT_LOADER__.register(load, 'load', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/browser.js');
+  __REACT_HOT_LOADER__.register(load, 'load', '/Users/Rob/Desktop/ReTok/node_modules/debug/browser.js');
 
-  __REACT_HOT_LOADER__.register(localstorage, 'localstorage', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/browser.js');
+  __REACT_HOT_LOADER__.register(localstorage, 'localstorage', '/Users/Rob/Desktop/ReTok/node_modules/debug/browser.js');
 }();
 
 ;
@@ -4710,11 +4710,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PropagationPhases, 'PropagationPhases', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventConstants.js');
+  __REACT_HOT_LOADER__.register(PropagationPhases, 'PropagationPhases', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventConstants.js');
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventConstants.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventConstants.js');
 
-  __REACT_HOT_LOADER__.register(EventConstants, 'EventConstants', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventConstants.js');
+  __REACT_HOT_LOADER__.register(EventConstants, 'EventConstants', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventConstants.js');
 }();
 
 ;
@@ -4762,7 +4762,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactCurrentOwner, 'ReactCurrentOwner', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCurrentOwner.js');
+  __REACT_HOT_LOADER__.register(ReactCurrentOwner, 'ReactCurrentOwner', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCurrentOwner.js');
 }();
 
 ;
@@ -5047,17 +5047,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(didWarnForAddedNewProperty, 'didWarnForAddedNewProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticEvent.js');
+  __REACT_HOT_LOADER__.register(didWarnForAddedNewProperty, 'didWarnForAddedNewProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticEvent.js');
 
-  __REACT_HOT_LOADER__.register(isProxySupported, 'isProxySupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticEvent.js');
+  __REACT_HOT_LOADER__.register(isProxySupported, 'isProxySupported', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticEvent.js');
 
-  __REACT_HOT_LOADER__.register(shouldBeReleasedProperties, 'shouldBeReleasedProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticEvent.js');
+  __REACT_HOT_LOADER__.register(shouldBeReleasedProperties, 'shouldBeReleasedProperties', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticEvent.js');
 
-  __REACT_HOT_LOADER__.register(EventInterface, 'EventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticEvent.js');
+  __REACT_HOT_LOADER__.register(EventInterface, 'EventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticEvent, 'SyntheticEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticEvent, 'SyntheticEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticEvent.js');
 
-  __REACT_HOT_LOADER__.register(getPooledWarningPropertyDefinition, 'getPooledWarningPropertyDefinition', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticEvent.js');
+  __REACT_HOT_LOADER__.register(getPooledWarningPropertyDefinition, 'getPooledWarningPropertyDefinition', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticEvent.js');
 }();
 
 ;
@@ -5143,9 +5143,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_export.js');
+  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_export.js');
 
-  __REACT_HOT_LOADER__.register($export, '$export', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_export.js');
+  __REACT_HOT_LOADER__.register($export, '$export', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_export.js');
 }();
 
 ;
@@ -5168,7 +5168,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(global, 'global', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_global.js');
+  __REACT_HOT_LOADER__.register(global, 'global', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_global.js');
 }();
 
 ;
@@ -5243,7 +5243,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(keyOf, "keyOf", "/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/keyOf.js");
+  __REACT_HOT_LOADER__.register(keyOf, "keyOf", "/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/keyOf.js");
 }();
 
 ;
@@ -5363,23 +5363,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(isValidChild, 'isValidChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(isValidChild, 'isValidChild', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(isReactChildren, 'isReactChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(isReactChildren, 'isReactChildren', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(createRoute, 'createRoute', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(createRoute, 'createRoute', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(createRouteFromReactElement, 'createRouteFromReactElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(createRouteFromReactElement, 'createRouteFromReactElement', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(createRoutesFromReactChildren, 'createRoutesFromReactChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(createRoutesFromReactChildren, 'createRoutesFromReactChildren', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 
-  __REACT_HOT_LOADER__.register(createRoutes, 'createRoutes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteUtils.js');
+  __REACT_HOT_LOADER__.register(createRoutes, 'createRoutes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteUtils.js');
 }();
 
 ;
@@ -5517,25 +5517,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(oneArgumentPooler, 'oneArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(oneArgumentPooler, 'oneArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(twoArgumentPooler, 'twoArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(twoArgumentPooler, 'twoArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(threeArgumentPooler, 'threeArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(threeArgumentPooler, 'threeArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(fourArgumentPooler, 'fourArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(fourArgumentPooler, 'fourArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(fiveArgumentPooler, 'fiveArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(fiveArgumentPooler, 'fiveArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(standardReleaser, 'standardReleaser', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(standardReleaser, 'standardReleaser', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(DEFAULT_POOL_SIZE, 'DEFAULT_POOL_SIZE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(DEFAULT_POOL_SIZE, 'DEFAULT_POOL_SIZE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(DEFAULT_POOLER, 'DEFAULT_POOLER', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(DEFAULT_POOLER, 'DEFAULT_POOLER', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(addPoolingTo, 'addPoolingTo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(addPoolingTo, 'addPoolingTo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 
-  __REACT_HOT_LOADER__.register(PooledClass, 'PooledClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/PooledClass.js');
+  __REACT_HOT_LOADER__.register(PooledClass, 'PooledClass', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/PooledClass.js');
 }();
 
 ;
@@ -5559,7 +5559,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasOwnProperty, "hasOwnProperty", "/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_has.js");
+  __REACT_HOT_LOADER__.register(hasOwnProperty, "hasOwnProperty", "/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_has.js");
 }();
 
 ;
@@ -5594,7 +5594,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(dP, 'dP', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-dp.js');
+  __REACT_HOT_LOADER__.register(dP, 'dP', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-dp.js');
 }();
 
 ;
@@ -5678,13 +5678,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/PathUtils.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/PathUtils.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/PathUtils.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/PathUtils.js');
 
-  __REACT_HOT_LOADER__.register(extractPath, 'extractPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/PathUtils.js');
+  __REACT_HOT_LOADER__.register(extractPath, 'extractPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/PathUtils.js');
 
-  __REACT_HOT_LOADER__.register(parsePath, 'parsePath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/PathUtils.js');
+  __REACT_HOT_LOADER__.register(parsePath, 'parsePath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/PathUtils.js');
 }();
 
 ;
@@ -5734,31 +5734,31 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(arrayOf, 'arrayOf', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(arrayOf, 'arrayOf', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(oneOfType, 'oneOfType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(oneOfType, 'oneOfType', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(element, 'element', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(element, 'element', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(shape, 'shape', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(shape, 'shape', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(falsy, 'falsy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(falsy, 'falsy', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(history, 'history', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(history, 'history', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(component, 'component', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(component, 'component', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(components, 'components', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(components, 'components', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(route, 'route', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(route, 'route', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
+  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/InternalPropTypes.js');
 }();
 
 ;
@@ -5981,13 +5981,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(checkMask, 'checkMask', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMProperty.js');
+  __REACT_HOT_LOADER__.register(checkMask, 'checkMask', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMProperty.js');
 
-  __REACT_HOT_LOADER__.register(DOMPropertyInjection, 'DOMPropertyInjection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMProperty.js');
+  __REACT_HOT_LOADER__.register(DOMPropertyInjection, 'DOMPropertyInjection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMProperty.js');
 
-  __REACT_HOT_LOADER__.register(ATTRIBUTE_NAME_START_CHAR, 'ATTRIBUTE_NAME_START_CHAR', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMProperty.js');
+  __REACT_HOT_LOADER__.register(ATTRIBUTE_NAME_START_CHAR, 'ATTRIBUTE_NAME_START_CHAR', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMProperty.js');
 
-  __REACT_HOT_LOADER__.register(DOMProperty, 'DOMProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMProperty.js');
+  __REACT_HOT_LOADER__.register(DOMProperty, 'DOMProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMProperty.js');
 }();
 
 ;
@@ -6127,7 +6127,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ownerDocument, "ownerDocument", "/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/ownerDocument.js");
+  __REACT_HOT_LOADER__.register(ownerDocument, "ownerDocument", "/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/ownerDocument.js");
 }();
 
 ;
@@ -6737,27 +6737,27 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isAndroid, 'isAndroid', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(isAndroid, 'isAndroid', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(isPhantomJS, 'isPhantomJS', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(isPhantomJS, 'isPhantomJS', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(dontSendBlobs, 'dontSendBlobs', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(dontSendBlobs, 'dontSendBlobs', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(packets, 'packets', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(packets, 'packets', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(packetslist, 'packetslist', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(packetslist, 'packetslist', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(err, 'err', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(err, 'err', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(encodeBase64Object, 'encodeBase64Object', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(encodeBase64Object, 'encodeBase64Object', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(encodeArrayBuffer, 'encodeArrayBuffer', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(encodeArrayBuffer, 'encodeArrayBuffer', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(encodeBlobAsArrayBuffer, 'encodeBlobAsArrayBuffer', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(encodeBlobAsArrayBuffer, 'encodeBlobAsArrayBuffer', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(encodeBlob, 'encodeBlob', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(encodeBlob, 'encodeBlob', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 
-  __REACT_HOT_LOADER__.register(map, 'map', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/lib/browser.js');
+  __REACT_HOT_LOADER__.register(map, 'map', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/lib/browser.js');
 }();
 
 ;
@@ -6806,11 +6806,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PUSH, 'PUSH', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/Actions.js');
+  __REACT_HOT_LOADER__.register(PUSH, 'PUSH', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/Actions.js');
 
-  __REACT_HOT_LOADER__.register(REPLACE, 'REPLACE', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/Actions.js');
+  __REACT_HOT_LOADER__.register(REPLACE, 'REPLACE', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/Actions.js');
 
-  __REACT_HOT_LOADER__.register(POP, 'POP', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/Actions.js');
+  __REACT_HOT_LOADER__.register(POP, 'POP', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/Actions.js');
 }();
 
 ;
@@ -7040,25 +7040,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(escapeRegExp, 'escapeRegExp', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(escapeRegExp, 'escapeRegExp', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(_compilePattern, '_compilePattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(_compilePattern, '_compilePattern', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(CompiledPatternsCache, 'CompiledPatternsCache', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(CompiledPatternsCache, 'CompiledPatternsCache', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(compilePattern, 'compilePattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(compilePattern, 'compilePattern', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(matchPattern, 'matchPattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(matchPattern, 'matchPattern', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(getParamNames, 'getParamNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(getParamNames, 'getParamNames', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(getParams, 'getParams', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(getParams, 'getParams', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 
-  __REACT_HOT_LOADER__.register(formatPattern, 'formatPattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PatternUtils.js');
+  __REACT_HOT_LOADER__.register(formatPattern, 'formatPattern', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PatternUtils.js');
 }();
 
 ;
@@ -7194,27 +7194,27 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ELEMENT_NODE_TYPE, 'ELEMENT_NODE_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(ELEMENT_NODE_TYPE, 'ELEMENT_NODE_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(DOCUMENT_FRAGMENT_NODE_TYPE, 'DOCUMENT_FRAGMENT_NODE_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(DOCUMENT_FRAGMENT_NODE_TYPE, 'DOCUMENT_FRAGMENT_NODE_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(enableLazy, 'enableLazy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(enableLazy, 'enableLazy', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(insertTreeChildren, 'insertTreeChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(insertTreeChildren, 'insertTreeChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(insertTreeBefore, 'insertTreeBefore', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(insertTreeBefore, 'insertTreeBefore', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(replaceChildWithTree, 'replaceChildWithTree', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(replaceChildWithTree, 'replaceChildWithTree', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(queueChild, 'queueChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(queueChild, 'queueChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(queueHTML, 'queueHTML', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(queueHTML, 'queueHTML', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(queueText, 'queueText', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(queueText, 'queueText', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 
-  __REACT_HOT_LOADER__.register(DOMLazyTree, 'DOMLazyTree', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMLazyTree.js');
+  __REACT_HOT_LOADER__.register(DOMLazyTree, 'DOMLazyTree', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMLazyTree.js');
 }();
 
 ;
@@ -7399,9 +7399,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(attachRefs, 'attachRefs', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconciler.js');
+  __REACT_HOT_LOADER__.register(attachRefs, 'attachRefs', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconciler.js');
 
-  __REACT_HOT_LOADER__.register(ReactReconciler, 'ReactReconciler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconciler.js');
+  __REACT_HOT_LOADER__.register(ReactReconciler, 'ReactReconciler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconciler.js');
 }();
 
 ;
@@ -7547,7 +7547,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(contains, 'contains', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/contains.js');
+  __REACT_HOT_LOADER__.register(contains, 'contains', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/contains.js');
 }();
 
 ;
@@ -7583,7 +7583,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(emptyObject, 'emptyObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/emptyObject.js');
+  __REACT_HOT_LOADER__.register(emptyObject, 'emptyObject', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/emptyObject.js');
 }();
 
 ;
@@ -7737,13 +7737,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Button.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Button.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Button.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Button.js');
 
-  __REACT_HOT_LOADER__.register(Button, 'Button', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Button.js');
+  __REACT_HOT_LOADER__.register(Button, 'Button', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Button.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Button.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Button.js');
 }();
 
 ;
@@ -7783,11 +7783,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_reactDom2, '_reactDom2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/ownerDocument.js');
+  __REACT_HOT_LOADER__.register(_reactDom2, '_reactDom2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/ownerDocument.js');
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/ownerDocument.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/ownerDocument.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/ownerDocument.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/ownerDocument.js');
 }();
 
 ;
@@ -8057,19 +8057,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(listenerBank, 'listenerBank', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(listenerBank, 'listenerBank', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 
-  __REACT_HOT_LOADER__.register(eventQueue, 'eventQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(eventQueue, 'eventQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatchesAndRelease, 'executeDispatchesAndRelease', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(executeDispatchesAndRelease, 'executeDispatchesAndRelease', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatchesAndReleaseSimulated, 'executeDispatchesAndReleaseSimulated', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(executeDispatchesAndReleaseSimulated, 'executeDispatchesAndReleaseSimulated', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatchesAndReleaseTopLevel, 'executeDispatchesAndReleaseTopLevel', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(executeDispatchesAndReleaseTopLevel, 'executeDispatchesAndReleaseTopLevel', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 
-  __REACT_HOT_LOADER__.register(getDictionaryKey, 'getDictionaryKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(getDictionaryKey, 'getDictionaryKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 
-  __REACT_HOT_LOADER__.register(EventPluginHub, 'EventPluginHub', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginHub.js');
+  __REACT_HOT_LOADER__.register(EventPluginHub, 'EventPluginHub', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginHub.js');
 }();
 
 ;
@@ -8224,31 +8224,31 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PropagationPhases, 'PropagationPhases', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(PropagationPhases, 'PropagationPhases', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(getListener, 'getListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(getListener, 'getListener', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(listenerAtPhase, 'listenerAtPhase', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(listenerAtPhase, 'listenerAtPhase', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateDirectionalDispatches, 'accumulateDirectionalDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateDirectionalDispatches, 'accumulateDirectionalDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatchesSingle, 'accumulateTwoPhaseDispatchesSingle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatchesSingle, 'accumulateTwoPhaseDispatchesSingle', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatchesSingleSkipTarget, 'accumulateTwoPhaseDispatchesSingleSkipTarget', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatchesSingleSkipTarget, 'accumulateTwoPhaseDispatchesSingleSkipTarget', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateDispatches, 'accumulateDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateDispatches, 'accumulateDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateDirectDispatchesSingle, 'accumulateDirectDispatchesSingle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateDirectDispatchesSingle, 'accumulateDirectDispatchesSingle', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatches, 'accumulateTwoPhaseDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatches, 'accumulateTwoPhaseDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatchesSkipTarget, 'accumulateTwoPhaseDispatchesSkipTarget', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateTwoPhaseDispatchesSkipTarget, 'accumulateTwoPhaseDispatchesSkipTarget', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateEnterLeaveDispatches, 'accumulateEnterLeaveDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateEnterLeaveDispatches, 'accumulateEnterLeaveDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(accumulateDirectDispatches, 'accumulateDirectDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(accumulateDirectDispatches, 'accumulateDirectDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 
-  __REACT_HOT_LOADER__.register(EventPropagators, 'EventPropagators', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPropagators.js');
+  __REACT_HOT_LOADER__.register(EventPropagators, 'EventPropagators', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPropagators.js');
 }();
 
 ;
@@ -8314,7 +8314,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactInstanceMap, 'ReactInstanceMap', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInstanceMap.js');
+  __REACT_HOT_LOADER__.register(ReactInstanceMap, 'ReactInstanceMap', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInstanceMap.js');
 }();
 
 ;
@@ -8390,9 +8390,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(UIEventInterface, 'UIEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticUIEvent.js');
+  __REACT_HOT_LOADER__.register(UIEventInterface, 'UIEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticUIEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticUIEvent, 'SyntheticUIEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticUIEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticUIEvent, 'SyntheticUIEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticUIEvent.js');
 }();
 
 ;
@@ -8642,9 +8642,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Mixin, 'Mixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/Transaction.js');
+  __REACT_HOT_LOADER__.register(Mixin, 'Mixin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/Transaction.js');
 
-  __REACT_HOT_LOADER__.register(Transaction, 'Transaction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/Transaction.js');
+  __REACT_HOT_LOADER__.register(Transaction, 'Transaction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/Transaction.js');
 }();
 
 ;
@@ -8848,9 +8848,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Emitter, "Emitter", "/Users/Michael/HR/Thesis/ReTok/node_modules/component-emitter/index.js");
+  __REACT_HOT_LOADER__.register(Emitter, "Emitter", "/Users/Rob/Desktop/ReTok/node_modules/component-emitter/index.js");
 
-  __REACT_HOT_LOADER__.register(mixin, "mixin", "/Users/Michael/HR/Thesis/ReTok/node_modules/component-emitter/index.js");
+  __REACT_HOT_LOADER__.register(mixin, "mixin", "/Users/Rob/Desktop/ReTok/node_modules/component-emitter/index.js");
 }();
 
 ;
@@ -8897,9 +8897,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(id, 'id', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_uid.js');
+  __REACT_HOT_LOADER__.register(id, 'id', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_uid.js');
 
-  __REACT_HOT_LOADER__.register(px, 'px', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_uid.js');
+  __REACT_HOT_LOADER__.register(px, 'px', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_uid.js');
 }();
 
 ;
@@ -8960,7 +8960,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/index.js');
+  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/style/index.js');
 }();
 
 ;
@@ -9074,7 +9074,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(keyMirror, 'keyMirror', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/keyMirror.js');
+  __REACT_HOT_LOADER__.register(keyMirror, 'keyMirror', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/keyMirror.js');
 }();
 
 ;
@@ -9097,7 +9097,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/ExecutionEnvironment.js');
+  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/ExecutionEnvironment.js');
 }();
 
 ;
@@ -9302,25 +9302,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(_runTransitionHook2, '_runTransitionHook2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(_runTransitionHook2, '_runTransitionHook2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(_deprecate2, '_deprecate2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(_deprecate2, '_deprecate2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(SEARCH_BASE_KEY, 'SEARCH_BASE_KEY', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(SEARCH_BASE_KEY, 'SEARCH_BASE_KEY', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(defaultStringifyQuery, 'defaultStringifyQuery', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(defaultStringifyQuery, 'defaultStringifyQuery', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(defaultParseQueryString, 'defaultParseQueryString', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(defaultParseQueryString, 'defaultParseQueryString', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(isNestedObject, 'isNestedObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(isNestedObject, 'isNestedObject', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 
-  __REACT_HOT_LOADER__.register(useQueries, 'useQueries', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useQueries.js');
+  __REACT_HOT_LOADER__.register(useQueries, 'useQueries', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useQueries.js');
 }();
 
 ;
@@ -9741,19 +9741,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TOGGLE_ROLE, 'TOGGLE_ROLE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(TOGGLE_ROLE, 'TOGGLE_ROLE', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 
-  __REACT_HOT_LOADER__.register(MENU_ROLE, 'MENU_ROLE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(MENU_ROLE, 'MENU_ROLE', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 
-  __REACT_HOT_LOADER__.register(Dropdown, 'Dropdown', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(Dropdown, 'Dropdown', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 
-  __REACT_HOT_LOADER__.register(UncontrolledDropdown, 'UncontrolledDropdown', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(UncontrolledDropdown, 'UncontrolledDropdown', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Dropdown.js');
 }();
 
 ;
@@ -9889,13 +9889,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Fade.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Fade.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Fade.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Fade.js');
 
-  __REACT_HOT_LOADER__.register(Fade, 'Fade', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Fade.js');
+  __REACT_HOT_LOADER__.register(Fade, 'Fade', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Fade.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Fade.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Fade.js');
 }();
 
 ;
@@ -9944,7 +9944,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(splitComponentProps, "splitComponentProps", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/splitComponentProps.js");
+  __REACT_HOT_LOADER__.register(splitComponentProps, "splitComponentProps", "/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/splitComponentProps.js");
 }();
 
 ;
@@ -10002,11 +10002,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_createChainableTypeChecker2, '_createChainableTypeChecker2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/all.js');
+  __REACT_HOT_LOADER__.register(_createChainableTypeChecker2, '_createChainableTypeChecker2', '/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/all.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/all.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/all.js');
 
-  __REACT_HOT_LOADER__.register(all, 'all', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/all.js');
+  __REACT_HOT_LOADER__.register(all, 'all', '/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/all.js');
 }();
 
 ;
@@ -10043,7 +10043,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isRequiredForA11y, 'isRequiredForA11y', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/isRequiredForA11y.js');
+  __REACT_HOT_LOADER__.register(isRequiredForA11y, 'isRequiredForA11y', '/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/isRequiredForA11y.js');
 }();
 
 ;
@@ -10100,7 +10100,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createChainableTypeChecker, 'createChainableTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/utils/createChainableTypeChecker.js');
+  __REACT_HOT_LOADER__.register(createChainableTypeChecker, 'createChainableTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/utils/createChainableTypeChecker.js');
 }();
 
 ;
@@ -10287,31 +10287,31 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_invariant2, "_invariant2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_invariant2, "_invariant2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_deprecateObjectProperties2, "_deprecateObjectProperties2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_deprecateObjectProperties2, "_deprecateObjectProperties2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_getRouteParams2, "_getRouteParams2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_getRouteParams2, "_getRouteParams2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, "_routerWarning2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_routerWarning2, "_routerWarning2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(_React$PropTypes, "_React$PropTypes", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(_React$PropTypes, "_React$PropTypes", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(array, "array", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(array, "array", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(func, "func", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(func, "func", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(object, "object", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(object, "object", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 
-  __REACT_HOT_LOADER__.register(RouterContext, "RouterContext", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterContext.js");
+  __REACT_HOT_LOADER__.register(RouterContext, "RouterContext", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterContext.js");
 }();
 
 ;
@@ -10406,13 +10406,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
 
-  __REACT_HOT_LOADER__.register(canUseMembrane, 'canUseMembrane', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
+  __REACT_HOT_LOADER__.register(canUseMembrane, 'canUseMembrane', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
 
-  __REACT_HOT_LOADER__.register(deprecateObjectProperties, 'deprecateObjectProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
+  __REACT_HOT_LOADER__.register(deprecateObjectProperties, 'deprecateObjectProperties', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/deprecateObjectProperties.js');
 }();
 
 ;
@@ -10480,9 +10480,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(disableableMouseListenerNames, 'disableableMouseListenerNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DisabledInputUtils.js');
+  __REACT_HOT_LOADER__.register(disableableMouseListenerNames, 'disableableMouseListenerNames', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DisabledInputUtils.js');
 
-  __REACT_HOT_LOADER__.register(DisabledInputUtils, 'DisabledInputUtils', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DisabledInputUtils.js');
+  __REACT_HOT_LOADER__.register(DisabledInputUtils, 'DisabledInputUtils', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DisabledInputUtils.js');
 }();
 
 ;
@@ -10746,17 +10746,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(EventPluginOrder, 'EventPluginOrder', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginRegistry.js');
+  __REACT_HOT_LOADER__.register(EventPluginOrder, 'EventPluginOrder', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginRegistry.js');
 
-  __REACT_HOT_LOADER__.register(namesToPlugins, 'namesToPlugins', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginRegistry.js');
+  __REACT_HOT_LOADER__.register(namesToPlugins, 'namesToPlugins', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginRegistry.js');
 
-  __REACT_HOT_LOADER__.register(recomputePluginOrdering, 'recomputePluginOrdering', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginRegistry.js');
+  __REACT_HOT_LOADER__.register(recomputePluginOrdering, 'recomputePluginOrdering', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginRegistry.js');
 
-  __REACT_HOT_LOADER__.register(publishEventForPlugin, 'publishEventForPlugin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginRegistry.js');
+  __REACT_HOT_LOADER__.register(publishEventForPlugin, 'publishEventForPlugin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginRegistry.js');
 
-  __REACT_HOT_LOADER__.register(publishRegistrationName, 'publishRegistrationName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginRegistry.js');
+  __REACT_HOT_LOADER__.register(publishRegistrationName, 'publishRegistrationName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginRegistry.js');
 
-  __REACT_HOT_LOADER__.register(EventPluginRegistry, 'EventPluginRegistry', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginRegistry.js');
+  __REACT_HOT_LOADER__.register(EventPluginRegistry, 'EventPluginRegistry', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginRegistry.js');
 }();
 
 ;
@@ -11104,21 +11104,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasEventPageXY, 'hasEventPageXY', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(hasEventPageXY, 'hasEventPageXY', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(alreadyListeningTo, 'alreadyListeningTo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(alreadyListeningTo, 'alreadyListeningTo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(isMonitoringScrollValue, 'isMonitoringScrollValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(isMonitoringScrollValue, 'isMonitoringScrollValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(reactTopListenersCounter, 'reactTopListenersCounter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(reactTopListenersCounter, 'reactTopListenersCounter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(topEventMapping, 'topEventMapping', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(topEventMapping, 'topEventMapping', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(topListenersIDKey, 'topListenersIDKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(topListenersIDKey, 'topListenersIDKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(getListeningForDocument, 'getListeningForDocument', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(getListeningForDocument, 'getListeningForDocument', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 
-  __REACT_HOT_LOADER__.register(ReactBrowserEventEmitter, 'ReactBrowserEventEmitter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
+  __REACT_HOT_LOADER__.register(ReactBrowserEventEmitter, 'ReactBrowserEventEmitter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactBrowserEventEmitter.js');
 }();
 
 ;
@@ -11157,7 +11157,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactPropTypeLocations, 'ReactPropTypeLocations', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypeLocations.js');
+  __REACT_HOT_LOADER__.register(ReactPropTypeLocations, 'ReactPropTypeLocations', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypeLocations.js');
 }();
 
 ;
@@ -11246,9 +11246,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MouseEventInterface, 'MouseEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticMouseEvent.js');
+  __REACT_HOT_LOADER__.register(MouseEventInterface, 'MouseEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticMouseEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticMouseEvent, 'SyntheticMouseEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticMouseEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticMouseEvent, 'SyntheticMouseEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticMouseEvent.js');
 }();
 
 ;
@@ -11388,11 +11388,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(matchHtmlRegExp, 'matchHtmlRegExp', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/escapeTextContentForBrowser.js');
+  __REACT_HOT_LOADER__.register(matchHtmlRegExp, 'matchHtmlRegExp', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/escapeTextContentForBrowser.js');
 
-  __REACT_HOT_LOADER__.register(escapeHtml, 'escapeHtml', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/escapeTextContentForBrowser.js');
+  __REACT_HOT_LOADER__.register(escapeHtml, 'escapeHtml', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/escapeTextContentForBrowser.js');
 
-  __REACT_HOT_LOADER__.register(escapeTextContentForBrowser, 'escapeTextContentForBrowser', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/escapeTextContentForBrowser.js');
+  __REACT_HOT_LOADER__.register(escapeTextContentForBrowser, 'escapeTextContentForBrowser', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/escapeTextContentForBrowser.js');
 }();
 
 ;
@@ -11507,15 +11507,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(WHITESPACE_TEST, 'WHITESPACE_TEST', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+  __REACT_HOT_LOADER__.register(WHITESPACE_TEST, 'WHITESPACE_TEST', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/setInnerHTML.js');
 
-  __REACT_HOT_LOADER__.register(NONVISIBLE_TEST, 'NONVISIBLE_TEST', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+  __REACT_HOT_LOADER__.register(NONVISIBLE_TEST, 'NONVISIBLE_TEST', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/setInnerHTML.js');
 
-  __REACT_HOT_LOADER__.register(reusableSVGContainer, 'reusableSVGContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+  __REACT_HOT_LOADER__.register(reusableSVGContainer, 'reusableSVGContainer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/setInnerHTML.js');
 
-  __REACT_HOT_LOADER__.register(setInnerHTML, 'setInnerHTML', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+  __REACT_HOT_LOADER__.register(setInnerHTML, 'setInnerHTML', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/setInnerHTML.js');
 
-  __REACT_HOT_LOADER__.register(testElement, 'testElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+  __REACT_HOT_LOADER__.register(testElement, 'testElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/setInnerHTML.js');
 }();
 
 ;
@@ -11565,13 +11565,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_createUncontrollable2, '_createUncontrollable2', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/index.js');
+  __REACT_HOT_LOADER__.register(_createUncontrollable2, '_createUncontrollable2', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/index.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/index.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/index.js');
 
-  __REACT_HOT_LOADER__.register(mixin, 'mixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/index.js');
+  __REACT_HOT_LOADER__.register(mixin, 'mixin', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/index.js');
 
-  __REACT_HOT_LOADER__.register(set, 'set', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/index.js');
+  __REACT_HOT_LOADER__.register(set, 'set', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/index.js');
 }();
 
 ;
@@ -11701,11 +11701,11 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/LoginContainer.js');
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Login/LoginContainer.js');
 
-	__REACT_HOT_LOADER__.register(LoginContainer, 'LoginContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/LoginContainer.js');
+	__REACT_HOT_LOADER__.register(LoginContainer, 'LoginContainer', '/Users/Rob/Desktop/ReTok/client/src/Login/LoginContainer.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/LoginContainer.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Login/LoginContainer.js');
 }();
 
 ;
@@ -11751,13 +11751,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_iterator2, "_iterator2", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/typeof.js");
+  __REACT_HOT_LOADER__.register(_iterator2, "_iterator2", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/typeof.js");
 
-  __REACT_HOT_LOADER__.register(_symbol2, "_symbol2", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/typeof.js");
+  __REACT_HOT_LOADER__.register(_symbol2, "_symbol2", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/typeof.js");
 
-  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/typeof.js");
+  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/typeof.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/babel-runtime/helpers/typeof.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/babel-runtime/helpers/typeof.js");
 }();
 
 ;
@@ -11781,7 +11781,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(toString, "toString", "/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_cof.js");
+  __REACT_HOT_LOADER__.register(toString, "toString", "/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_cof.js");
 }();
 
 ;
@@ -11941,13 +11941,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-create.js');
+  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-create.js');
 
-  __REACT_HOT_LOADER__.register(Empty, 'Empty', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-create.js');
+  __REACT_HOT_LOADER__.register(Empty, 'Empty', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-create.js');
 
-  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-create.js');
+  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-create.js');
 
-  __REACT_HOT_LOADER__.register(_createDict, 'createDict', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-create.js');
+  __REACT_HOT_LOADER__.register(_createDict, 'createDict', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-create.js');
 }();
 
 ;
@@ -11991,9 +11991,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(def, 'def', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_set-to-string-tag.js');
+  __REACT_HOT_LOADER__.register(def, 'def', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_set-to-string-tag.js');
 
-  __REACT_HOT_LOADER__.register(TAG, 'TAG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_set-to-string-tag.js');
+  __REACT_HOT_LOADER__.register(TAG, 'TAG', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_set-to-string-tag.js');
 }();
 
 ;
@@ -12017,7 +12017,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(shared, 'shared', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_shared-key.js');
+  __REACT_HOT_LOADER__.register(shared, 'shared', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_shared-key.js');
 }();
 
 ;
@@ -12042,9 +12042,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SHARED, 'SHARED', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_shared.js');
+  __REACT_HOT_LOADER__.register(SHARED, 'SHARED', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_shared.js');
 
-  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_shared.js');
+  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_shared.js');
 }();
 
 ;
@@ -12069,9 +12069,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ceil, "ceil", "/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-integer.js");
+  __REACT_HOT_LOADER__.register(ceil, "ceil", "/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_to-integer.js");
 
-  __REACT_HOT_LOADER__.register(floor, "floor", "/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-integer.js");
+  __REACT_HOT_LOADER__.register(floor, "floor", "/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_to-integer.js");
 }();
 
 ;
@@ -12150,7 +12150,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(defineProperty, 'defineProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_wks-define.js');
+  __REACT_HOT_LOADER__.register(defineProperty, 'defineProperty', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_wks-define.js');
 }();
 
 ;
@@ -12202,7 +12202,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(on, 'on', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/events/on.js');
+  __REACT_HOT_LOADER__.register(on, 'on', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/events/on.js');
 }();
 
 ;
@@ -12376,7 +12376,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Transport, 'Transport', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transport.js');
+  __REACT_HOT_LOADER__.register(Transport, 'Transport', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transport.js');
 }();
 
 ;
@@ -12514,11 +12514,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/shallowEqual.js');
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/shallowEqual.js');
 
-  __REACT_HOT_LOADER__.register(is, 'is', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/shallowEqual.js');
+  __REACT_HOT_LOADER__.register(is, 'is', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/shallowEqual.js');
 
-  __REACT_HOT_LOADER__.register(shallowEqual, 'shallowEqual', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/shallowEqual.js');
+  __REACT_HOT_LOADER__.register(shallowEqual, 'shallowEqual', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/shallowEqual.js');
 }();
 
 ;
@@ -12610,23 +12610,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(addEventListener, 'addEventListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(addEventListener, 'addEventListener', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(removeEventListener, 'removeEventListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(removeEventListener, 'removeEventListener', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(getHashPath, 'getHashPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(getHashPath, 'getHashPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(replaceHashPath, 'replaceHashPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(replaceHashPath, 'replaceHashPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(getWindowPath, 'getWindowPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(getWindowPath, 'getWindowPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(go, 'go', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(go, 'go', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(getUserConfirmation, 'getUserConfirmation', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(getUserConfirmation, 'getUserConfirmation', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(supportsHistory, 'supportsHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(supportsHistory, 'supportsHistory', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 
-  __REACT_HOT_LOADER__.register(supportsGoWithoutReloadUsingHash, 'supportsGoWithoutReloadUsingHash', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMUtils.js');
+  __REACT_HOT_LOADER__.register(supportsGoWithoutReloadUsingHash, 'supportsGoWithoutReloadUsingHash', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMUtils.js');
 }();
 
 ;
@@ -12664,11 +12664,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/deprecate.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/deprecate.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/deprecate.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/deprecate.js');
 
-  __REACT_HOT_LOADER__.register(deprecate, 'deprecate', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/deprecate.js');
+  __REACT_HOT_LOADER__.register(deprecate, 'deprecate', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/deprecate.js');
 }();
 
 ;
@@ -12712,11 +12712,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/runTransitionHook.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/runTransitionHook.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/runTransitionHook.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/runTransitionHook.js');
 
-  __REACT_HOT_LOADER__.register(runTransitionHook, 'runTransitionHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/runTransitionHook.js');
+  __REACT_HOT_LOADER__.register(runTransitionHook, 'runTransitionHook', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/runTransitionHook.js');
 }();
 
 ;
@@ -12883,15 +12883,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(codes, 'codes', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+  __REACT_HOT_LOADER__.register(codes, 'codes', '/Users/Rob/Desktop/ReTok/node_modules/keycode/index.js');
 
-  __REACT_HOT_LOADER__.register(aliases, 'aliases', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+  __REACT_HOT_LOADER__.register(aliases, 'aliases', '/Users/Rob/Desktop/ReTok/node_modules/keycode/index.js');
 
-  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Rob/Desktop/ReTok/node_modules/keycode/index.js');
 
-  __REACT_HOT_LOADER__.register(names, 'names', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+  __REACT_HOT_LOADER__.register(names, 'names', '/Users/Rob/Desktop/ReTok/node_modules/keycode/index.js');
 
-  __REACT_HOT_LOADER__.register(alias, 'alias', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+  __REACT_HOT_LOADER__.register(alias, 'alias', '/Users/Rob/Desktop/ReTok/node_modules/keycode/index.js');
 }();
 
 ;
@@ -13220,19 +13220,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MARGINS, 'MARGINS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(MARGINS, 'MARGINS', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 
-  __REACT_HOT_LOADER__.register(triggerBrowserReflow, 'triggerBrowserReflow', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(triggerBrowserReflow, 'triggerBrowserReflow', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 
-  __REACT_HOT_LOADER__.register(getDimensionValue, 'getDimensionValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(getDimensionValue, 'getDimensionValue', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 
-  __REACT_HOT_LOADER__.register(Collapse, 'Collapse', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(Collapse, 'Collapse', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Collapse.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Collapse.js');
 }();
 
 ;
@@ -13332,11 +13332,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Glyphicon.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Glyphicon.js');
 
-  __REACT_HOT_LOADER__.register(Glyphicon, 'Glyphicon', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Glyphicon.js');
+  __REACT_HOT_LOADER__.register(Glyphicon, 'Glyphicon', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Glyphicon.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Glyphicon.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Glyphicon.js');
 }();
 
 ;
@@ -13471,13 +13471,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Media.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Media.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Media.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Media.js');
 
-  __REACT_HOT_LOADER__.register(Media, 'Media', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Media.js');
+  __REACT_HOT_LOADER__.register(Media, 'Media', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Media.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Media.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Media.js');
 }();
 
 ;
@@ -13647,19 +13647,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TAB, 'TAB', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(TAB, 'TAB', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 
-  __REACT_HOT_LOADER__.register(PANE, 'PANE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(PANE, 'PANE', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 
-  __REACT_HOT_LOADER__.register(idPropType, 'idPropType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(idPropType, 'idPropType', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 
-  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 
-  __REACT_HOT_LOADER__.register(TabContainer, 'TabContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(TabContainer, 'TabContainer', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContainer.js');
 }();
 
 ;
@@ -13885,17 +13885,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContent.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContent.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContent.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContent.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContent.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContent.js');
 
-  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContent.js');
+  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContent.js');
 
-  __REACT_HOT_LOADER__.register(TabContent, 'TabContent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContent.js');
+  __REACT_HOT_LOADER__.register(TabContent, 'TabContent', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContent.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabContent.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabContent.js');
 }();
 
 ;
@@ -13972,21 +13972,21 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(_slicedToArray, "_slicedToArray", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(_slicedToArray, "_slicedToArray", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(_emojiData2, "_emojiData2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(_emojiData2, "_emojiData2", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(unicodes, "unicodes", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(unicodes, "unicodes", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(codepointToShort, "codepointToShort", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(codepointToShort, "codepointToShort", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(shortToCodepoint, "shortToCodepoint", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(shortToCodepoint, "shortToCodepoint", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(codepointToUnicode, "codepointToUnicode", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(codepointToUnicode, "codepointToUnicode", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 
-    __REACT_HOT_LOADER__.register(unicodeToCodepoint, "unicodeToCodepoint", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
+    __REACT_HOT_LOADER__.register(unicodeToCodepoint, "unicodeToCodepoint", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/utils/emoji-format-conversion.js");
 }();
 
 ;
@@ -14023,11 +14023,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_reactDom2, '_reactDom2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/getContainer.js');
+  __REACT_HOT_LOADER__.register(_reactDom2, '_reactDom2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/getContainer.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/getContainer.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/getContainer.js');
 
-  __REACT_HOT_LOADER__.register(getContainer, 'getContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/getContainer.js');
+  __REACT_HOT_LOADER__.register(getContainer, 'getContainer', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/getContainer.js');
 }();
 
 ;
@@ -14084,15 +14084,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
+  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
 
-  __REACT_HOT_LOADER__.register(_createChainableTypeChecker2, "_createChainableTypeChecker2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
+  __REACT_HOT_LOADER__.register(_createChainableTypeChecker2, "_createChainableTypeChecker2", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
 
-  __REACT_HOT_LOADER__.register(validate, "validate", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
+  __REACT_HOT_LOADER__.register(validate, "validate", "/Users/Rob/Desktop/ReTok/node_modules/react-prop-types/lib/componentOrElement.js");
 }();
 
 ;
@@ -14197,9 +14197,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(loopAsync, "loopAsync", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/AsyncUtils.js");
+  __REACT_HOT_LOADER__.register(loopAsync, "loopAsync", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/AsyncUtils.js");
 
-  __REACT_HOT_LOADER__.register(mapAsync, "mapAsync", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/AsyncUtils.js");
+  __REACT_HOT_LOADER__.register(mapAsync, "mapAsync", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/AsyncUtils.js");
 }();
 
 ;
@@ -14329,45 +14329,45 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_deprecateObjectProperties2, '_deprecateObjectProperties2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(_deprecateObjectProperties2, '_deprecateObjectProperties2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(InternalPropTypes, 'InternalPropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(InternalPropTypes, 'InternalPropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireWildcard, '_interopRequireWildcard', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(_interopRequireWildcard, '_interopRequireWildcard', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(shape, 'shape', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(shape, 'shape', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(routerShape, 'routerShape', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(routerShape, 'routerShape', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(locationShape, 'locationShape', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(locationShape, 'locationShape', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(falsy, 'falsy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(falsy, 'falsy', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(history, 'history', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(history, 'history', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(location, 'location', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(location, 'location', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(component, 'component', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(component, 'component', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(components, 'components', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(components, 'components', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(route, 'route', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(route, 'route', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(routes, 'routes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(router, 'router', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(router, 'router', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(defaultExport, 'defaultExport', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/PropTypes.js');
+  __REACT_HOT_LOADER__.register(defaultExport, 'defaultExport', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/PropTypes.js');
 }();
 
 ;
@@ -14696,23 +14696,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(_computeChangedRoutes3, '_computeChangedRoutes3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_computeChangedRoutes3, '_computeChangedRoutes3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(_isActive3, '_isActive3', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_isActive3, '_isActive3', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(_getComponents2, '_getComponents2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_getComponents2, '_getComponents2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(_matchRoutes2, '_matchRoutes2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_matchRoutes2, '_matchRoutes2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(hasAnyProperties, 'hasAnyProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(hasAnyProperties, 'hasAnyProperties', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 
-  __REACT_HOT_LOADER__.register(createTransitionManager, 'createTransitionManager', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createTransitionManager.js');
+  __REACT_HOT_LOADER__.register(createTransitionManager, 'createTransitionManager', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createTransitionManager.js');
 }();
 
 ;
@@ -14924,25 +14924,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getNodeAfter, 'getNodeAfter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(getNodeAfter, 'getNodeAfter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(insertChildAt, 'insertChildAt', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(insertChildAt, 'insertChildAt', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(insertLazyTreeChildAt, 'insertLazyTreeChildAt', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(insertLazyTreeChildAt, 'insertLazyTreeChildAt', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(moveChild, 'moveChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(moveChild, 'moveChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(removeChild, 'removeChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(removeChild, 'removeChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(moveDelimitedText, 'moveDelimitedText', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(moveDelimitedText, 'moveDelimitedText', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(removeDelimitedText, 'removeDelimitedText', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(removeDelimitedText, 'removeDelimitedText', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(replaceDelimitedText, 'replaceDelimitedText', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(replaceDelimitedText, 'replaceDelimitedText', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(dangerouslyReplaceNodeWithMarkup, 'dangerouslyReplaceNodeWithMarkup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(dangerouslyReplaceNodeWithMarkup, 'dangerouslyReplaceNodeWithMarkup', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 
-  __REACT_HOT_LOADER__.register(DOMChildrenOperations, 'DOMChildrenOperations', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
+  __REACT_HOT_LOADER__.register(DOMChildrenOperations, 'DOMChildrenOperations', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMChildrenOperations.js');
 }();
 
 ;
@@ -14980,7 +14980,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DOMNamespaces, 'DOMNamespaces', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMNamespaces.js');
+  __REACT_HOT_LOADER__.register(DOMNamespaces, 'DOMNamespaces', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMNamespaces.js');
 }();
 
 ;
@@ -15226,35 +15226,35 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ComponentTree, 'ComponentTree', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(ComponentTree, 'ComponentTree', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(TreeTraversal, 'TreeTraversal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(TreeTraversal, 'TreeTraversal', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(injection, 'injection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(injection, 'injection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(isEndish, 'isEndish', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(isEndish, 'isEndish', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(isMoveish, 'isMoveish', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(isMoveish, 'isMoveish', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(isStartish, 'isStartish', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(isStartish, 'isStartish', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(validateEventDispatches, 'validateEventDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(validateEventDispatches, 'validateEventDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatch, 'executeDispatch', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(executeDispatch, 'executeDispatch', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatchesInOrder, 'executeDispatchesInOrder', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(executeDispatchesInOrder, 'executeDispatchesInOrder', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatchesInOrderStopAtTrueImpl, 'executeDispatchesInOrderStopAtTrueImpl', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(executeDispatchesInOrderStopAtTrueImpl, 'executeDispatchesInOrderStopAtTrueImpl', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(executeDispatchesInOrderStopAtTrue, 'executeDispatchesInOrderStopAtTrue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(executeDispatchesInOrderStopAtTrue, 'executeDispatchesInOrderStopAtTrue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(executeDirectDispatch, 'executeDirectDispatch', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(executeDirectDispatch, 'executeDirectDispatch', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(hasDispatches, 'hasDispatches', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(hasDispatches, 'hasDispatches', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 
-  __REACT_HOT_LOADER__.register(EventPluginUtils, 'EventPluginUtils', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EventPluginUtils.js');
+  __REACT_HOT_LOADER__.register(EventPluginUtils, 'EventPluginUtils', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EventPluginUtils.js');
 }();
 
 ;
@@ -15331,11 +15331,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(escape, 'escape', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/KeyEscapeUtils.js');
+  __REACT_HOT_LOADER__.register(escape, 'escape', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/KeyEscapeUtils.js');
 
-  __REACT_HOT_LOADER__.register(unescape, 'unescape', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/KeyEscapeUtils.js');
+  __REACT_HOT_LOADER__.register(unescape, 'unescape', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/KeyEscapeUtils.js');
 
-  __REACT_HOT_LOADER__.register(KeyEscapeUtils, 'KeyEscapeUtils', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/KeyEscapeUtils.js');
+  __REACT_HOT_LOADER__.register(KeyEscapeUtils, 'KeyEscapeUtils', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/KeyEscapeUtils.js');
 }();
 
 ;
@@ -15488,21 +15488,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasReadOnlyValue, 'hasReadOnlyValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(hasReadOnlyValue, 'hasReadOnlyValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(_assertSingleLink, '_assertSingleLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(_assertSingleLink, '_assertSingleLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(_assertValueLink, '_assertValueLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(_assertValueLink, '_assertValueLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(_assertCheckedLink, '_assertCheckedLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(_assertCheckedLink, '_assertCheckedLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(loggedTypeFailures, 'loggedTypeFailures', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(loggedTypeFailures, 'loggedTypeFailures', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 
-  __REACT_HOT_LOADER__.register(LinkedValueUtils, 'LinkedValueUtils', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/LinkedValueUtils.js');
+  __REACT_HOT_LOADER__.register(LinkedValueUtils, 'LinkedValueUtils', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/LinkedValueUtils.js');
 }();
 
 ;
@@ -15640,13 +15640,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactComponent, 'ReactComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponent.js');
+  __REACT_HOT_LOADER__.register(ReactComponent, 'ReactComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(deprecatedAPIs, 'deprecatedAPIs', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponent.js');
+  __REACT_HOT_LOADER__.register(deprecatedAPIs, 'deprecatedAPIs', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(defineDeprecationWarning, 'defineDeprecationWarning', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponent.js');
+  __REACT_HOT_LOADER__.register(defineDeprecationWarning, 'defineDeprecationWarning', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(fnName, 'fnName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponent.js');
+  __REACT_HOT_LOADER__.register(fnName, 'fnName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponent.js');
 }();
 
 ;
@@ -15709,9 +15709,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(injected, 'injected', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentEnvironment.js');
+  __REACT_HOT_LOADER__.register(injected, 'injected', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentEnvironment.js');
 
-  __REACT_HOT_LOADER__.register(ReactComponentEnvironment, 'ReactComponentEnvironment', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentEnvironment.js');
+  __REACT_HOT_LOADER__.register(ReactComponentEnvironment, 'ReactComponentEnvironment', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentEnvironment.js');
 }();
 
 ;
@@ -15805,13 +15805,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(caughtError, 'caughtError', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactErrorUtils.js');
+  __REACT_HOT_LOADER__.register(caughtError, 'caughtError', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactErrorUtils.js');
 
-  __REACT_HOT_LOADER__.register(invokeGuardedCallback, 'invokeGuardedCallback', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactErrorUtils.js');
+  __REACT_HOT_LOADER__.register(invokeGuardedCallback, 'invokeGuardedCallback', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactErrorUtils.js');
 
-  __REACT_HOT_LOADER__.register(ReactErrorUtils, 'ReactErrorUtils', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactErrorUtils.js');
+  __REACT_HOT_LOADER__.register(ReactErrorUtils, 'ReactErrorUtils', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactErrorUtils.js');
 
-  __REACT_HOT_LOADER__.register(fakeNode, 'fakeNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactErrorUtils.js');
+  __REACT_HOT_LOADER__.register(fakeNode, 'fakeNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactErrorUtils.js');
 }();
 
 ;
@@ -15925,9 +15925,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warnNoop, 'warnNoop', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactNoopUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(warnNoop, 'warnNoop', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactNoopUpdateQueue.js');
 
-  __REACT_HOT_LOADER__.register(ReactNoopUpdateQueue, 'ReactNoopUpdateQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactNoopUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(ReactNoopUpdateQueue, 'ReactNoopUpdateQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactNoopUpdateQueue.js');
 }();
 
 ;
@@ -15969,7 +15969,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactPropTypeLocationNames, 'ReactPropTypeLocationNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypeLocationNames.js');
+  __REACT_HOT_LOADER__.register(ReactPropTypeLocationNames, 'ReactPropTypeLocationNames', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypeLocationNames.js');
 }();
 
 ;
@@ -16003,7 +16003,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactPropTypesSecret, 'ReactPropTypesSecret', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypesSecret.js');
+  __REACT_HOT_LOADER__.register(ReactPropTypesSecret, 'ReactPropTypesSecret', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypesSecret.js');
 }();
 
 ;
@@ -16248,13 +16248,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(enqueueUpdate, 'enqueueUpdate', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(enqueueUpdate, 'enqueueUpdate', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
 
-  __REACT_HOT_LOADER__.register(formatUnexpectedArgument, 'formatUnexpectedArgument', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(formatUnexpectedArgument, 'formatUnexpectedArgument', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
 
-  __REACT_HOT_LOADER__.register(getInternalInstanceReadyForUpdate, 'getInternalInstanceReadyForUpdate', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(getInternalInstanceReadyForUpdate, 'getInternalInstanceReadyForUpdate', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
 
-  __REACT_HOT_LOADER__.register(ReactUpdateQueue, 'ReactUpdateQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(ReactUpdateQueue, 'ReactUpdateQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactUpdateQueue.js');
 }();
 
 ;
@@ -16296,7 +16296,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(canDefineProperty, 'canDefineProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/canDefineProperty.js');
+  __REACT_HOT_LOADER__.register(canDefineProperty, 'canDefineProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/canDefineProperty.js');
 }();
 
 ;
@@ -16346,7 +16346,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createMicrosoftUnsafeLocalFunction, 'createMicrosoftUnsafeLocalFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/createMicrosoftUnsafeLocalFunction.js');
+  __REACT_HOT_LOADER__.register(createMicrosoftUnsafeLocalFunction, 'createMicrosoftUnsafeLocalFunction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/createMicrosoftUnsafeLocalFunction.js');
 }();
 
 ;
@@ -16413,7 +16413,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getEventCharCode, 'getEventCharCode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventCharCode.js');
+  __REACT_HOT_LOADER__.register(getEventCharCode, 'getEventCharCode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventCharCode.js');
 }();
 
 ;
@@ -16473,11 +16473,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(modifierKeyToProp, 'modifierKeyToProp', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventModifierState.js');
+  __REACT_HOT_LOADER__.register(modifierKeyToProp, 'modifierKeyToProp', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventModifierState.js');
 
-  __REACT_HOT_LOADER__.register(modifierStateGetter, 'modifierStateGetter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventModifierState.js');
+  __REACT_HOT_LOADER__.register(modifierStateGetter, 'modifierStateGetter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventModifierState.js');
 
-  __REACT_HOT_LOADER__.register(getEventModifierState, 'getEventModifierState', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventModifierState.js');
+  __REACT_HOT_LOADER__.register(getEventModifierState, 'getEventModifierState', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventModifierState.js');
 }();
 
 ;
@@ -16529,7 +16529,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getEventTarget, 'getEventTarget', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventTarget.js');
+  __REACT_HOT_LOADER__.register(getEventTarget, 'getEventTarget', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventTarget.js');
 }();
 
 ;
@@ -16587,11 +16587,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ITERATOR_SYMBOL, 'ITERATOR_SYMBOL', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getIteratorFn.js');
+  __REACT_HOT_LOADER__.register(ITERATOR_SYMBOL, 'ITERATOR_SYMBOL', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getIteratorFn.js');
 
-  __REACT_HOT_LOADER__.register(FAUX_ITERATOR_SYMBOL, 'FAUX_ITERATOR_SYMBOL', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getIteratorFn.js');
+  __REACT_HOT_LOADER__.register(FAUX_ITERATOR_SYMBOL, 'FAUX_ITERATOR_SYMBOL', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getIteratorFn.js');
 
-  __REACT_HOT_LOADER__.register(getIteratorFn, 'getIteratorFn', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getIteratorFn.js');
+  __REACT_HOT_LOADER__.register(getIteratorFn, 'getIteratorFn', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getIteratorFn.js');
 }();
 
 ;
@@ -16668,9 +16668,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(useHasFeature, 'useHasFeature', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/isEventSupported.js');
+  __REACT_HOT_LOADER__.register(useHasFeature, 'useHasFeature', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/isEventSupported.js');
 
-  __REACT_HOT_LOADER__.register(isEventSupported, 'isEventSupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/isEventSupported.js');
+  __REACT_HOT_LOADER__.register(isEventSupported, 'isEventSupported', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/isEventSupported.js');
 }();
 
 ;
@@ -16731,7 +16731,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(shouldUpdateReactComponent, 'shouldUpdateReactComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/shouldUpdateReactComponent.js');
+  __REACT_HOT_LOADER__.register(shouldUpdateReactComponent, 'shouldUpdateReactComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/shouldUpdateReactComponent.js');
 }();
 
 ;
@@ -16917,17 +16917,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SEPARATOR, 'SEPARATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/traverseAllChildren.js');
+  __REACT_HOT_LOADER__.register(SEPARATOR, 'SEPARATOR', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/traverseAllChildren.js');
 
-  __REACT_HOT_LOADER__.register(SUBSEPARATOR, 'SUBSEPARATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/traverseAllChildren.js');
+  __REACT_HOT_LOADER__.register(SUBSEPARATOR, 'SUBSEPARATOR', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/traverseAllChildren.js');
 
-  __REACT_HOT_LOADER__.register(didWarnAboutMaps, 'didWarnAboutMaps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/traverseAllChildren.js');
+  __REACT_HOT_LOADER__.register(didWarnAboutMaps, 'didWarnAboutMaps', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/traverseAllChildren.js');
 
-  __REACT_HOT_LOADER__.register(getComponentKey, 'getComponentKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/traverseAllChildren.js');
+  __REACT_HOT_LOADER__.register(getComponentKey, 'getComponentKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/traverseAllChildren.js');
 
-  __REACT_HOT_LOADER__.register(traverseAllChildrenImpl, 'traverseAllChildrenImpl', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/traverseAllChildren.js');
+  __REACT_HOT_LOADER__.register(traverseAllChildrenImpl, 'traverseAllChildrenImpl', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/traverseAllChildren.js');
 
-  __REACT_HOT_LOADER__.register(traverseAllChildren, 'traverseAllChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/traverseAllChildren.js');
+  __REACT_HOT_LOADER__.register(traverseAllChildren, 'traverseAllChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/traverseAllChildren.js');
 }();
 
 ;
@@ -17327,27 +17327,27 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(validateDOMNesting, 'validateDOMNesting', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(validateDOMNesting, 'validateDOMNesting', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(specialTags, 'specialTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(specialTags, 'specialTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(inScopeTags, 'inScopeTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(inScopeTags, 'inScopeTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(buttonScopeTags, 'buttonScopeTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(buttonScopeTags, 'buttonScopeTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(impliedEndTags, 'impliedEndTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(impliedEndTags, 'impliedEndTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(emptyAncestorInfo, 'emptyAncestorInfo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(emptyAncestorInfo, 'emptyAncestorInfo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(updatedAncestorInfo, 'updatedAncestorInfo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(updatedAncestorInfo, 'updatedAncestorInfo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(isTagValidWithParent, 'isTagValidWithParent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(isTagValidWithParent, 'isTagValidWithParent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(findInvalidAncestorForTag, 'findInvalidAncestorForTag', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(findInvalidAncestorForTag, 'findInvalidAncestorForTag', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(findOwnerStack, 'findOwnerStack', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(findOwnerStack, 'findOwnerStack', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 
-  __REACT_HOT_LOADER__.register(didWarn, 'didWarn', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/validateDOMNesting.js');
+  __REACT_HOT_LOADER__.register(didWarn, 'didWarn', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/validateDOMNesting.js');
 }();
 
 ;
@@ -17459,11 +17459,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/index.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(cache, 'cache', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/index.js');
+  __REACT_HOT_LOADER__.register(cache, 'cache', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/index.js');
 
-  __REACT_HOT_LOADER__.register(lookup, 'lookup', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/index.js');
+  __REACT_HOT_LOADER__.register(lookup, 'lookup', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/index.js');
 }();
 
 ;
@@ -17875,21 +17875,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(Encoder, 'Encoder', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(Encoder, 'Encoder', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(encodeAsString, 'encodeAsString', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(encodeAsString, 'encodeAsString', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(encodeAsBinary, 'encodeAsBinary', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(encodeAsBinary, 'encodeAsBinary', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(Decoder, 'Decoder', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(Decoder, 'Decoder', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(decodeString, 'decodeString', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(decodeString, 'decodeString', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(BinaryReconstructor, 'BinaryReconstructor', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(BinaryReconstructor, 'BinaryReconstructor', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 
-  __REACT_HOT_LOADER__.register(error, 'error', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/index.js');
+  __REACT_HOT_LOADER__.register(error, 'error', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/index.js');
 }();
 
 ;
@@ -17953,11 +17953,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(handleImageChange, 'handleImageChange', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/uploadReducer.js');
+  __REACT_HOT_LOADER__.register(handleImageChange, 'handleImageChange', '/Users/Rob/Desktop/ReTok/client/src/Redux/uploadReducer.js');
 
-  __REACT_HOT_LOADER__.register(uploadReducer, 'uploadReducer', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/uploadReducer.js');
+  __REACT_HOT_LOADER__.register(uploadReducer, 'uploadReducer', '/Users/Rob/Desktop/ReTok/client/src/Redux/uploadReducer.js');
 
-  __REACT_HOT_LOADER__.register(imageUploadInitialState, 'imageUploadInitialState', '/Users/Michael/HR/Thesis/ReTok/client/src/Redux/uploadReducer.js');
+  __REACT_HOT_LOADER__.register(imageUploadInitialState, 'imageUploadInitialState', '/Users/Rob/Desktop/ReTok/client/src/Redux/uploadReducer.js');
 }();
 
 ;
@@ -18130,7 +18130,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(btoa, 'btoa', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/adapters/xhr.js');
+  __REACT_HOT_LOADER__.register(btoa, 'btoa', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/adapters/xhr.js');
 }();
 
 ;
@@ -18267,7 +18267,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(slice, 'slice', '/Users/Michael/HR/Thesis/ReTok/node_modules/component-bind/index.js');
+  __REACT_HOT_LOADER__.register(slice, 'slice', '/Users/Rob/Desktop/ReTok/node_modules/component-bind/index.js');
 }();
 
 ;
@@ -18294,9 +18294,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(document, 'document', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_dom-create.js');
+  __REACT_HOT_LOADER__.register(document, 'document', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_dom-create.js');
 
-  __REACT_HOT_LOADER__.register(is, 'is', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_dom-create.js');
+  __REACT_HOT_LOADER__.register(is, 'is', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_dom-create.js');
 }();
 
 ;
@@ -18443,17 +18443,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-define.js');
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-define.js');
 
-  __REACT_HOT_LOADER__.register(BUGGY, 'BUGGY', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-define.js');
+  __REACT_HOT_LOADER__.register(BUGGY, 'BUGGY', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-define.js');
 
-  __REACT_HOT_LOADER__.register(FF_ITERATOR, 'FF_ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-define.js');
+  __REACT_HOT_LOADER__.register(FF_ITERATOR, 'FF_ITERATOR', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-define.js');
 
-  __REACT_HOT_LOADER__.register(KEYS, 'KEYS', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-define.js');
+  __REACT_HOT_LOADER__.register(KEYS, 'KEYS', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-define.js');
 
-  __REACT_HOT_LOADER__.register(VALUES, 'VALUES', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-define.js');
+  __REACT_HOT_LOADER__.register(VALUES, 'VALUES', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-define.js');
 
-  __REACT_HOT_LOADER__.register(returnThis, 'returnThis', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-define.js');
+  __REACT_HOT_LOADER__.register(returnThis, 'returnThis', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-define.js');
 }();
 
 ;
@@ -18488,7 +18488,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(gOPD, 'gOPD', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopd.js');
+  __REACT_HOT_LOADER__.register(gOPD, 'gOPD', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gopd.js');
 }();
 
 ;
@@ -18514,7 +18514,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hiddenKeys, 'hiddenKeys', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn.js');
+  __REACT_HOT_LOADER__.register(hiddenKeys, 'hiddenKeys', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gopn.js');
 }();
 
 ;
@@ -18552,9 +18552,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(arrayIndexOf, 'arrayIndexOf', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-keys-internal.js');
+  __REACT_HOT_LOADER__.register(arrayIndexOf, 'arrayIndexOf', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-keys-internal.js');
 
-  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-keys-internal.js');
+  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-keys-internal.js');
 }();
 
 ;
@@ -18591,7 +18591,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isEnum, 'isEnum', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-to-array.js');
+  __REACT_HOT_LOADER__.register(isEnum, 'isEnum', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-to-array.js');
 }();
 
 ;
@@ -18634,7 +18634,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(min, 'min', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-length.js');
+  __REACT_HOT_LOADER__.register(min, 'min', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_to-length.js');
 }();
 
 ;
@@ -18669,7 +18669,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register($at, '$at', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.string.iterator.js');
+  __REACT_HOT_LOADER__.register($at, '$at', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.string.iterator.js');
 }();
 
 ;
@@ -18710,9 +18710,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/activeElement.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/activeElement.js');
 
-  __REACT_HOT_LOADER__.register(activeElement, 'activeElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/activeElement.js');
+  __REACT_HOT_LOADER__.register(activeElement, 'activeElement', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/activeElement.js');
 }();
 
 ;
@@ -18767,7 +18767,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(off, 'off', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/events/off.js');
+  __REACT_HOT_LOADER__.register(off, 'off', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/events/off.js');
 }();
 
 ;
@@ -18870,7 +18870,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/camelizeStyle.js');
+  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/util/camelizeStyle.js');
 }();
 
 ;
@@ -18912,7 +18912,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(size, 'size', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/scrollbarSize.js');
+  __REACT_HOT_LOADER__.register(size, 'size', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/util/scrollbarSize.js');
 }();
 
 ;
@@ -18984,7 +18984,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(polling, 'polling', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/index.js');
+  __REACT_HOT_LOADER__.register(polling, 'polling', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/index.js');
 }();
 
 ;
@@ -19250,11 +19250,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling.js');
 
-  __REACT_HOT_LOADER__.register(hasXHR2, 'hasXHR2', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling.js');
+  __REACT_HOT_LOADER__.register(hasXHR2, 'hasXHR2', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling.js');
 
-  __REACT_HOT_LOADER__.register(Polling, 'Polling', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling.js');
+  __REACT_HOT_LOADER__.register(Polling, 'Polling', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling.js');
 }();
 
 ;
@@ -19354,7 +19354,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(EventListener, 'EventListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/EventListener.js');
+  __REACT_HOT_LOADER__.register(EventListener, 'EventListener', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/EventListener.js');
 }();
 
 ;
@@ -19398,7 +19398,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(focusNode, 'focusNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/focusNode.js');
+  __REACT_HOT_LOADER__.register(focusNode, 'focusNode', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/focusNode.js');
 }();
 
 ;
@@ -19450,7 +19450,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getActiveElement, 'getActiveElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getActiveElement.js');
+  __REACT_HOT_LOADER__.register(getActiveElement, 'getActiveElement', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getActiveElement.js');
 }();
 
 ;
@@ -19542,21 +19542,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(KeyPrefix, 'KeyPrefix', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(KeyPrefix, 'KeyPrefix', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(QuotaExceededErrors, 'QuotaExceededErrors', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(QuotaExceededErrors, 'QuotaExceededErrors', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(SecurityError, 'SecurityError', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(SecurityError, 'SecurityError', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(createKey, 'createKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(createKey, 'createKey', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(saveState, 'saveState', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(saveState, 'saveState', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 
-  __REACT_HOT_LOADER__.register(readState, 'readState', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/DOMStateStorage.js');
+  __REACT_HOT_LOADER__.register(readState, 'readState', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/DOMStateStorage.js');
 }();
 
 ;
@@ -19624,15 +19624,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createDOMHistory.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createDOMHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createDOMHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createDOMHistory.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createDOMHistory.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createDOMHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createHistory2, '_createHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createDOMHistory.js');
+  __REACT_HOT_LOADER__.register(_createHistory2, '_createHistory2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createDOMHistory.js');
 
-  __REACT_HOT_LOADER__.register(createDOMHistory, 'createDOMHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createDOMHistory.js');
+  __REACT_HOT_LOADER__.register(createDOMHistory, 'createDOMHistory', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createDOMHistory.js');
 }();
 
 ;
@@ -19906,29 +19906,29 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createDOMHistory2, '_createDOMHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(_createDOMHistory2, '_createDOMHistory2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(isAbsolutePath, 'isAbsolutePath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(isAbsolutePath, 'isAbsolutePath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(ensureSlash, 'ensureSlash', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(ensureSlash, 'ensureSlash', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(addQueryStringValueToPath, 'addQueryStringValueToPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(addQueryStringValueToPath, 'addQueryStringValueToPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(stripQueryStringValueFromPath, 'stripQueryStringValueFromPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(stripQueryStringValueFromPath, 'stripQueryStringValueFromPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(getQueryStringValueFromPath, 'getQueryStringValueFromPath', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(getQueryStringValueFromPath, 'getQueryStringValueFromPath', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(DefaultQueryKey, 'DefaultQueryKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(DefaultQueryKey, 'DefaultQueryKey', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 
-  __REACT_HOT_LOADER__.register(createHashHistory, 'createHashHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHashHistory.js');
+  __REACT_HOT_LOADER__.register(createHashHistory, 'createHashHistory', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHashHistory.js');
 }();
 
 ;
@@ -20246,27 +20246,27 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(_deepEqual2, '_deepEqual2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_deepEqual2, '_deepEqual2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createLocation3, '_createLocation3', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_createLocation3, '_createLocation3', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(_runTransitionHook2, '_runTransitionHook2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_runTransitionHook2, '_runTransitionHook2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(_deprecate2, '_deprecate2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(_deprecate2, '_deprecate2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(createRandomKey, 'createRandomKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(createRandomKey, 'createRandomKey', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(locationsAreEqual, 'locationsAreEqual', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(locationsAreEqual, 'locationsAreEqual', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(DefaultKeyLength, 'DefaultKeyLength', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(DefaultKeyLength, 'DefaultKeyLength', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 
-  __REACT_HOT_LOADER__.register(createHistory, 'createHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createHistory.js');
+  __REACT_HOT_LOADER__.register(createHistory, 'createHistory', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createHistory.js');
 }();
 
 ;
@@ -20452,17 +20452,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useBasename.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useBasename.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useBasename.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useBasename.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useBasename.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useBasename.js');
 
-  __REACT_HOT_LOADER__.register(_runTransitionHook2, '_runTransitionHook2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useBasename.js');
+  __REACT_HOT_LOADER__.register(_runTransitionHook2, '_runTransitionHook2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useBasename.js');
 
-  __REACT_HOT_LOADER__.register(_deprecate2, '_deprecate2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useBasename.js');
+  __REACT_HOT_LOADER__.register(_deprecate2, '_deprecate2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useBasename.js');
 
-  __REACT_HOT_LOADER__.register(useBasename, 'useBasename', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/useBasename.js');
+  __REACT_HOT_LOADER__.register(useBasename, 'useBasename', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/useBasename.js');
 }();
 
 ;
@@ -20529,11 +20529,11 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(REACT_STATICS, 'REACT_STATICS', '/Users/Michael/HR/Thesis/ReTok/node_modules/hoist-non-react-statics/index.js');
+    __REACT_HOT_LOADER__.register(REACT_STATICS, 'REACT_STATICS', '/Users/Rob/Desktop/ReTok/node_modules/hoist-non-react-statics/index.js');
 
-    __REACT_HOT_LOADER__.register(KNOWN_STATICS, 'KNOWN_STATICS', '/Users/Michael/HR/Thesis/ReTok/node_modules/hoist-non-react-statics/index.js');
+    __REACT_HOT_LOADER__.register(KNOWN_STATICS, 'KNOWN_STATICS', '/Users/Rob/Desktop/ReTok/node_modules/hoist-non-react-statics/index.js');
 
-    __REACT_HOT_LOADER__.register(isGetOwnPropertySymbolsAvailable, 'isGetOwnPropertySymbolsAvailable', '/Users/Michael/HR/Thesis/ReTok/node_modules/hoist-non-react-statics/index.js');
+    __REACT_HOT_LOADER__.register(isGetOwnPropertySymbolsAvailable, 'isGetOwnPropertySymbolsAvailable', '/Users/Rob/Desktop/ReTok/node_modules/hoist-non-react-statics/index.js');
 }();
 
 ;
@@ -20561,7 +20561,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(indexOf, "indexOf", "/Users/Michael/HR/Thesis/ReTok/node_modules/indexof/index.js");
+  __REACT_HOT_LOADER__.register(indexOf, "indexOf", "/Users/Rob/Desktop/ReTok/node_modules/indexof/index.js");
 }();
 
 ;
@@ -20659,23 +20659,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(objectTag, 'objectTag', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectTag, 'objectTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(funcProto, 'funcProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(funcProto, 'funcProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(objectProto, 'objectProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectProto, 'objectProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(funcToString, 'funcToString', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(funcToString, 'funcToString', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(objectCtorString, 'objectCtorString', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectCtorString, 'objectCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(objectToString, 'objectToString', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectToString, 'objectToString', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(isPlainObject, 'isPlainObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(isPlainObject, 'isPlainObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isPlainObject.js');
 }();
 
 ;
@@ -20731,9 +20731,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(re, 're', '/Users/Michael/HR/Thesis/ReTok/node_modules/parseuri/index.js');
+    __REACT_HOT_LOADER__.register(re, 're', '/Users/Rob/Desktop/ReTok/node_modules/parseuri/index.js');
 
-    __REACT_HOT_LOADER__.register(parts, 'parts', '/Users/Michael/HR/Thesis/ReTok/node_modules/parseuri/index.js');
+    __REACT_HOT_LOADER__.register(parts, 'parts', '/Users/Rob/Desktop/ReTok/node_modules/parseuri/index.js');
 }();
 
 ;
@@ -20848,13 +20848,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
 
-  __REACT_HOT_LOADER__.register(BreadcrumbItem, 'BreadcrumbItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
+  __REACT_HOT_LOADER__.register(BreadcrumbItem, 'BreadcrumbItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/BreadcrumbItem.js');
 }();
 
 ;
@@ -20979,13 +20979,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
 
-  __REACT_HOT_LOADER__.register(ButtonGroup, 'ButtonGroup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
+  __REACT_HOT_LOADER__.register(ButtonGroup, 'ButtonGroup', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ButtonGroup.js');
 }();
 
 ;
@@ -21167,13 +21167,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
 
-  __REACT_HOT_LOADER__.register(CarouselItem, 'CarouselItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
+  __REACT_HOT_LOADER__.register(CarouselItem, 'CarouselItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselItem.js');
 }();
 
 ;
@@ -21296,13 +21296,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
 
-  __REACT_HOT_LOADER__.register(DropdownToggle, 'DropdownToggle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
+  __REACT_HOT_LOADER__.register(DropdownToggle, 'DropdownToggle', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownToggle.js');
 }();
 
 ;
@@ -21417,13 +21417,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Grid.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Grid.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Grid.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Grid.js');
 
-  __REACT_HOT_LOADER__.register(Grid, 'Grid', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Grid.js');
+  __REACT_HOT_LOADER__.register(Grid, 'Grid', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Grid.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Grid.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Grid.js');
 }();
 
 ;
@@ -21570,13 +21570,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
 
-  __REACT_HOT_LOADER__.register(ListGroupItem, 'ListGroupItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
+  __REACT_HOT_LOADER__.register(ListGroupItem, 'ListGroupItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroupItem.js');
 }();
 
 ;
@@ -21664,9 +21664,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ModalBody, 'ModalBody', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalBody.js');
+  __REACT_HOT_LOADER__.register(ModalBody, 'ModalBody', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalBody.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalBody.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalBody.js');
 }();
 
 ;
@@ -21754,9 +21754,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ModalFooter, 'ModalFooter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalFooter.js');
+  __REACT_HOT_LOADER__.register(ModalFooter, 'ModalFooter', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalFooter.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalFooter.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalFooter.js');
 }();
 
 ;
@@ -21897,15 +21897,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
 
-  __REACT_HOT_LOADER__.register(ModalHeader, 'ModalHeader', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
+  __REACT_HOT_LOADER__.register(ModalHeader, 'ModalHeader', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalHeader.js');
 }();
 
 ;
@@ -21993,9 +21993,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ModalTitle, 'ModalTitle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalTitle.js');
+  __REACT_HOT_LOADER__.register(ModalTitle, 'ModalTitle', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalTitle.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalTitle.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalTitle.js');
 }();
 
 ;
@@ -22412,15 +22412,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Nav.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Nav.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Nav.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Nav.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Nav.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Nav.js');
 
-  __REACT_HOT_LOADER__.register(Nav, 'Nav', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Nav.js');
+  __REACT_HOT_LOADER__.register(Nav, 'Nav', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Nav.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Nav.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Nav.js');
 }();
 
 ;
@@ -22562,13 +22562,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavItem.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavItem.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavItem.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavItem.js');
 
-  __REACT_HOT_LOADER__.register(NavItem, 'NavItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavItem.js');
+  __REACT_HOT_LOADER__.register(NavItem, 'NavItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavItem.js');
 }();
 
 ;
@@ -22665,11 +22665,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarBrand.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarBrand.js');
 
-  __REACT_HOT_LOADER__.register(NavbarBrand, 'NavbarBrand', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarBrand.js');
+  __REACT_HOT_LOADER__.register(NavbarBrand, 'NavbarBrand', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarBrand.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarBrand.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarBrand.js');
 }();
 
 ;
@@ -22833,13 +22833,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Overlay.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Overlay.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Overlay.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Overlay.js');
 
-  __REACT_HOT_LOADER__.register(Overlay, 'Overlay', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Overlay.js');
+  __REACT_HOT_LOADER__.register(Overlay, 'Overlay', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Overlay.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Overlay.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Overlay.js');
 }();
 
 ;
@@ -22977,13 +22977,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
 
-  __REACT_HOT_LOADER__.register(PagerItem, 'PagerItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
+  __REACT_HOT_LOADER__.register(PagerItem, 'PagerItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PagerItem.js');
 }();
 
 ;
@@ -23148,13 +23148,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
 
-  __REACT_HOT_LOADER__.register(PanelGroup, 'PanelGroup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
+  __REACT_HOT_LOADER__.register(PanelGroup, 'PanelGroup', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PanelGroup.js');
 }();
 
 ;
@@ -23480,15 +23480,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabPane.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabPane.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabPane.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabPane.js');
 
-  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabPane.js');
+  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabPane.js');
 
-  __REACT_HOT_LOADER__.register(TabPane, 'TabPane', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabPane.js');
+  __REACT_HOT_LOADER__.register(TabPane, 'TabPane', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabPane.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/TabPane.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/TabPane.js');
 }();
 
 ;
@@ -23515,7 +23515,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(capitalize, "capitalize", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/capitalize.js");
+  __REACT_HOT_LOADER__.register(capitalize, "capitalize", "/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/capitalize.js");
 }();
 
 ;
@@ -23655,19 +23655,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 
-  __REACT_HOT_LOADER__.register(_reactDom2, '_reactDom2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(_reactDom2, '_reactDom2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 
-  __REACT_HOT_LOADER__.register(_componentOrElement2, '_componentOrElement2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(_componentOrElement2, '_componentOrElement2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 
-  __REACT_HOT_LOADER__.register(_getContainer2, '_getContainer2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(_getContainer2, '_getContainer2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 
-  __REACT_HOT_LOADER__.register(Portal, 'Portal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Portal.js');
+  __REACT_HOT_LOADER__.register(Portal, 'Portal', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Portal.js');
 }();
 
 ;
@@ -23914,39 +23914,39 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_reactDom2, "_reactDom2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_reactDom2, "_reactDom2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_addEventListener2, "_addEventListener2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_addEventListener2, "_addEventListener2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_createChainedFunction2, "_createChainedFunction2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_createChainedFunction2, "_createChainedFunction2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, "_ownerDocument2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_ownerDocument2, "_ownerDocument2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_defineProperty, "_defineProperty", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_defineProperty, "_defineProperty", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(CLICK_WAS_INSIDE, "CLICK_WAS_INSIDE", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(CLICK_WAS_INSIDE, "CLICK_WAS_INSIDE", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(counter, "counter", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(counter, "counter", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(isLeftClickEvent, "isLeftClickEvent", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(isLeftClickEvent, "isLeftClickEvent", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(isModifiedEvent, "isModifiedEvent", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(isModifiedEvent, "isModifiedEvent", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(getSuppressRootClose, "getSuppressRootClose", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(getSuppressRootClose, "getSuppressRootClose", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 
-  __REACT_HOT_LOADER__.register(RootCloseWrapper, "RootCloseWrapper", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
+  __REACT_HOT_LOADER__.register(RootCloseWrapper, "RootCloseWrapper", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/RootCloseWrapper.js");
 }();
 
 ;
@@ -24362,45 +24362,45 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_reactDom2, "_reactDom2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_reactDom2, "_reactDom2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_properties2, "_properties2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_properties2, "_properties2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_on2, "_on2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_on2, "_on2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_classnames2, "_classnames2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_classnames2, "_classnames2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, "_objectWithoutProperties", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, "_objectWithoutProperties", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(transitionEndEvent, "transitionEndEvent", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(transitionEndEvent, "transitionEndEvent", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(UNMOUNTED, "UNMOUNTED", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(UNMOUNTED, "UNMOUNTED", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(EXITED, "EXITED", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(EXITED, "EXITED", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(ENTERING, "ENTERING", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(ENTERING, "ENTERING", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(ENTERED, "ENTERED", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(ENTERED, "ENTERED", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(EXITING, "EXITING", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(EXITING, "EXITING", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(Transition, "Transition", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(Transition, "Transition", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 
-  __REACT_HOT_LOADER__.register(noop, "noop", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Transition.js");
+  __REACT_HOT_LOADER__.register(noop, "noop", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Transition.js");
 }();
 
 ;
@@ -24445,11 +24445,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_on2, '_on2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/addEventListener.js');
+  __REACT_HOT_LOADER__.register(_on2, '_on2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/addEventListener.js');
 
-  __REACT_HOT_LOADER__.register(_off2, '_off2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/addEventListener.js');
+  __REACT_HOT_LOADER__.register(_off2, '_off2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/addEventListener.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/addEventListener.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/addEventListener.js');
 }();
 
 ;
@@ -24509,17 +24509,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_isWindow2, '_isWindow2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
+  __REACT_HOT_LOADER__.register(_isWindow2, '_isWindow2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
 
-  __REACT_HOT_LOADER__.register(isBody, 'isBody', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
+  __REACT_HOT_LOADER__.register(isBody, 'isBody', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
 
-  __REACT_HOT_LOADER__.register(bodyIsOverflowing, 'bodyIsOverflowing', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
+  __REACT_HOT_LOADER__.register(bodyIsOverflowing, 'bodyIsOverflowing', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
 
-  __REACT_HOT_LOADER__.register(isOverflowing, 'isOverflowing', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
+  __REACT_HOT_LOADER__.register(isOverflowing, 'isOverflowing', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/isOverflowing.js');
 }();
 
 ;
@@ -24586,7 +24586,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/utils/warning.js');
+  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/utils/warning.js');
 }();
 
 ;
@@ -24790,39 +24790,39 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(bool, 'bool', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(bool, 'bool', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(oneOfType, 'oneOfType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(oneOfType, 'oneOfType', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(isLeftClickEvent, 'isLeftClickEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(isLeftClickEvent, 'isLeftClickEvent', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(isModifiedEvent, 'isModifiedEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(isModifiedEvent, 'isModifiedEvent', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(isEmptyObject, 'isEmptyObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(isEmptyObject, 'isEmptyObject', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(createLocationDescriptor, 'createLocationDescriptor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(createLocationDescriptor, 'createLocationDescriptor', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 
-  __REACT_HOT_LOADER__.register(Link, 'Link', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Link.js');
+  __REACT_HOT_LOADER__.register(Link, 'Link', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Link.js');
 }();
 
 ;
@@ -24942,19 +24942,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 
-  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 
-  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 
-  __REACT_HOT_LOADER__.register(Redirect, 'Redirect', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Redirect.js');
+  __REACT_HOT_LOADER__.register(Redirect, 'Redirect', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Redirect.js');
 }();
 
 ;
@@ -25014,15 +25014,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterUtils.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterUtils.js');
 
-  __REACT_HOT_LOADER__.register(_deprecateObjectProperties2, '_deprecateObjectProperties2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterUtils.js');
+  __REACT_HOT_LOADER__.register(_deprecateObjectProperties2, '_deprecateObjectProperties2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterUtils.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterUtils.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterUtils.js');
 
-  __REACT_HOT_LOADER__.register(createRouterObject, 'createRouterObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterUtils.js');
+  __REACT_HOT_LOADER__.register(createRouterObject, 'createRouterObject', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterUtils.js');
 
-  __REACT_HOT_LOADER__.register(createRoutingHistory, 'createRoutingHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouterUtils.js');
+  __REACT_HOT_LOADER__.register(createRoutingHistory, 'createRoutingHistory', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouterUtils.js');
 }();
 
 ;
@@ -25074,15 +25074,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_useBasename2, '_useBasename2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_useBasename2, '_useBasename2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createMemoryHistory2, '_createMemoryHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_createMemoryHistory2, '_createMemoryHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(createMemoryHistory, 'createMemoryHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(createMemoryHistory, 'createMemoryHistory', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createMemoryHistory.js');
 }();
 
 ;
@@ -25120,11 +25120,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_useRouterHistory2, '_useRouterHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createRouterHistory.js');
+  __REACT_HOT_LOADER__.register(_useRouterHistory2, '_useRouterHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createRouterHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createRouterHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createRouterHistory.js');
 
-  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/createRouterHistory.js');
+  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/createRouterHistory.js');
 }();
 
 ;
@@ -25200,13 +25200,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
 
-  __REACT_HOT_LOADER__.register(makeStateWithLocation, 'makeStateWithLocation', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
+  __REACT_HOT_LOADER__.register(makeStateWithLocation, 'makeStateWithLocation', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/makeStateWithLocation.js');
 }();
 
 ;
@@ -25249,13 +25249,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRouterHistory.js');
+  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRouterHistory.js');
 
-  __REACT_HOT_LOADER__.register(_useBasename2, '_useBasename2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRouterHistory.js');
+  __REACT_HOT_LOADER__.register(_useBasename2, '_useBasename2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRouterHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRouterHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRouterHistory.js');
 
-  __REACT_HOT_LOADER__.register(useRouterHistory, 'useRouterHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRouterHistory.js');
+  __REACT_HOT_LOADER__.register(useRouterHistory, 'useRouterHistory', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRouterHistory.js');
 }();
 
 ;
@@ -25420,15 +25420,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isUnitlessNumber, 'isUnitlessNumber', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSProperty.js');
+  __REACT_HOT_LOADER__.register(isUnitlessNumber, 'isUnitlessNumber', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSProperty.js');
 
-  __REACT_HOT_LOADER__.register(prefixKey, 'prefixKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSProperty.js');
+  __REACT_HOT_LOADER__.register(prefixKey, 'prefixKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSProperty.js');
 
-  __REACT_HOT_LOADER__.register(prefixes, 'prefixes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSProperty.js');
+  __REACT_HOT_LOADER__.register(prefixes, 'prefixes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSProperty.js');
 
-  __REACT_HOT_LOADER__.register(shorthandPropertyExpansions, 'shorthandPropertyExpansions', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSProperty.js');
+  __REACT_HOT_LOADER__.register(shorthandPropertyExpansions, 'shorthandPropertyExpansions', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSProperty.js');
 
-  __REACT_HOT_LOADER__.register(CSSProperty, 'CSSProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSProperty.js');
+  __REACT_HOT_LOADER__.register(CSSProperty, 'CSSProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSProperty.js');
 }();
 
 ;
@@ -25551,7 +25551,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CallbackQueue, 'CallbackQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CallbackQueue.js');
+  __REACT_HOT_LOADER__.register(CallbackQueue, 'CallbackQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CallbackQueue.js');
 }();
 
 ;
@@ -25790,17 +25790,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(VALID_ATTRIBUTE_NAME_REGEX, 'VALID_ATTRIBUTE_NAME_REGEX', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(VALID_ATTRIBUTE_NAME_REGEX, 'VALID_ATTRIBUTE_NAME_REGEX', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(illegalAttributeNameCache, 'illegalAttributeNameCache', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(illegalAttributeNameCache, 'illegalAttributeNameCache', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(validatedAttributeNameCache, 'validatedAttributeNameCache', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(validatedAttributeNameCache, 'validatedAttributeNameCache', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(isAttributeNameSafe, 'isAttributeNameSafe', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(isAttributeNameSafe, 'isAttributeNameSafe', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(shouldIgnoreValue, 'shouldIgnoreValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(shouldIgnoreValue, 'shouldIgnoreValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(DOMPropertyOperations, 'DOMPropertyOperations', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(DOMPropertyOperations, 'DOMPropertyOperations', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DOMPropertyOperations.js');
 }();
 
 ;
@@ -26008,35 +26008,35 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(twoArgumentPooler, 'twoArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(twoArgumentPooler, 'twoArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(fourArgumentPooler, 'fourArgumentPooler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(fourArgumentPooler, 'fourArgumentPooler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(userProvidedKeyEscapeRegex, 'userProvidedKeyEscapeRegex', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(userProvidedKeyEscapeRegex, 'userProvidedKeyEscapeRegex', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(escapeUserProvidedKey, 'escapeUserProvidedKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(escapeUserProvidedKey, 'escapeUserProvidedKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(ForEachBookKeeping, 'ForEachBookKeeping', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(ForEachBookKeeping, 'ForEachBookKeeping', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(forEachSingleChild, 'forEachSingleChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(forEachSingleChild, 'forEachSingleChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(forEachChildren, 'forEachChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(forEachChildren, 'forEachChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(MapBookKeeping, 'MapBookKeeping', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(MapBookKeeping, 'MapBookKeeping', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(mapSingleChildIntoContext, 'mapSingleChildIntoContext', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(mapSingleChildIntoContext, 'mapSingleChildIntoContext', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(mapIntoWithKeyPrefixInternal, 'mapIntoWithKeyPrefixInternal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(mapIntoWithKeyPrefixInternal, 'mapIntoWithKeyPrefixInternal', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(mapChildren, 'mapChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(mapChildren, 'mapChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(forEachSingleChildDummy, 'forEachSingleChildDummy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(forEachSingleChildDummy, 'forEachSingleChildDummy', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(countChildren, 'countChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(countChildren, 'countChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 
-  __REACT_HOT_LOADER__.register(ReactChildren, 'ReactChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildren.js');
+  __REACT_HOT_LOADER__.register(ReactChildren, 'ReactChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildren.js');
 }();
 
 ;
@@ -26787,39 +26787,39 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MIXINS_KEY, 'MIXINS_KEY', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(MIXINS_KEY, 'MIXINS_KEY', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(SpecPolicy, 'SpecPolicy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(SpecPolicy, 'SpecPolicy', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(injectedMixins, 'injectedMixins', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(injectedMixins, 'injectedMixins', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(ReactClassInterface, 'ReactClassInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(ReactClassInterface, 'ReactClassInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(RESERVED_SPEC_KEYS, 'RESERVED_SPEC_KEYS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(RESERVED_SPEC_KEYS, 'RESERVED_SPEC_KEYS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(validateTypeDef, 'validateTypeDef', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(validateTypeDef, 'validateTypeDef', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(validateMethodOverride, 'validateMethodOverride', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(validateMethodOverride, 'validateMethodOverride', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(mixSpecIntoComponent, 'mixSpecIntoComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(mixSpecIntoComponent, 'mixSpecIntoComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(mixStaticSpecIntoComponent, 'mixStaticSpecIntoComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(mixStaticSpecIntoComponent, 'mixStaticSpecIntoComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(mergeIntoWithNoDuplicateKeys, 'mergeIntoWithNoDuplicateKeys', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(mergeIntoWithNoDuplicateKeys, 'mergeIntoWithNoDuplicateKeys', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(createMergedResultFunction, 'createMergedResultFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(createMergedResultFunction, 'createMergedResultFunction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(bindAutoBindMethod, 'bindAutoBindMethod', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(bindAutoBindMethod, 'bindAutoBindMethod', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(bindAutoBindMethods, 'bindAutoBindMethods', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(bindAutoBindMethods, 'bindAutoBindMethods', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(ReactClassMixin, 'ReactClassMixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(ReactClassMixin, 'ReactClassMixin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(ReactClassComponent, 'ReactClassComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(ReactClassComponent, 'ReactClassComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 
-  __REACT_HOT_LOADER__.register(ReactClass, 'ReactClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactClass.js');
+  __REACT_HOT_LOADER__.register(ReactClass, 'ReactClass', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactClass.js');
 }();
 
 ;
@@ -26855,7 +26855,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOMComponentFlags, 'ReactDOMComponentFlags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentFlags.js');
+  __REACT_HOT_LOADER__.register(ReactDOMComponentFlags, 'ReactDOMComponentFlags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponentFlags.js');
 }();
 
 ;
@@ -27073,23 +27073,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(didWarnValueLink, 'didWarnValueLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(didWarnValueLink, 'didWarnValueLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(didWarnValueDefaultValue, 'didWarnValueDefaultValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(didWarnValueDefaultValue, 'didWarnValueDefaultValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(updateOptionsIfPendingUpdateAndMounted, 'updateOptionsIfPendingUpdateAndMounted', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(updateOptionsIfPendingUpdateAndMounted, 'updateOptionsIfPendingUpdateAndMounted', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(valuePropNames, 'valuePropNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(valuePropNames, 'valuePropNames', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(checkSelectPropTypes, 'checkSelectPropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(checkSelectPropTypes, 'checkSelectPropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(updateOptions, 'updateOptions', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(updateOptions, 'updateOptions', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMSelect, 'ReactDOMSelect', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(ReactDOMSelect, 'ReactDOMSelect', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 
-  __REACT_HOT_LOADER__.register(_handleChange, '_handleChange', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelect.js');
+  __REACT_HOT_LOADER__.register(_handleChange, '_handleChange', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelect.js');
 }();
 
 ;
@@ -27337,19 +27337,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 
-  __REACT_HOT_LOADER__.register(ownerHasKeyUseWarning, 'ownerHasKeyUseWarning', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(ownerHasKeyUseWarning, 'ownerHasKeyUseWarning', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 
-  __REACT_HOT_LOADER__.register(getCurrentComponentErrorInfo, 'getCurrentComponentErrorInfo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(getCurrentComponentErrorInfo, 'getCurrentComponentErrorInfo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 
-  __REACT_HOT_LOADER__.register(validateExplicitKey, 'validateExplicitKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(validateExplicitKey, 'validateExplicitKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 
-  __REACT_HOT_LOADER__.register(validateChildKeys, 'validateChildKeys', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(validateChildKeys, 'validateChildKeys', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 
-  __REACT_HOT_LOADER__.register(validatePropTypes, 'validatePropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(validatePropTypes, 'validatePropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 
-  __REACT_HOT_LOADER__.register(ReactElementValidator, 'ReactElementValidator', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactElementValidator.js');
+  __REACT_HOT_LOADER__.register(ReactElementValidator, 'ReactElementValidator', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactElementValidator.js');
 }();
 
 ;
@@ -27397,11 +27397,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(emptyComponentFactory, 'emptyComponentFactory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEmptyComponent.js');
+  __REACT_HOT_LOADER__.register(emptyComponentFactory, 'emptyComponentFactory', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEmptyComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactEmptyComponentInjection, 'ReactEmptyComponentInjection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEmptyComponent.js');
+  __REACT_HOT_LOADER__.register(ReactEmptyComponentInjection, 'ReactEmptyComponentInjection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEmptyComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactEmptyComponent, 'ReactEmptyComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEmptyComponent.js');
+  __REACT_HOT_LOADER__.register(ReactEmptyComponent, 'ReactEmptyComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEmptyComponent.js');
 }();
 
 ;
@@ -27440,7 +27440,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactFeatureFlags, 'ReactFeatureFlags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactFeatureFlags.js');
+  __REACT_HOT_LOADER__.register(ReactFeatureFlags, 'ReactFeatureFlags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactFeatureFlags.js');
 }();
 
 ;
@@ -27533,21 +27533,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(genericComponentClass, 'genericComponentClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(genericComponentClass, 'genericComponentClass', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(tagToComponentClass, 'tagToComponentClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(tagToComponentClass, 'tagToComponentClass', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(textComponentClass, 'textComponentClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(textComponentClass, 'textComponentClass', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactHostComponentInjection, 'ReactHostComponentInjection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(ReactHostComponentInjection, 'ReactHostComponentInjection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(createInternalComponent, 'createInternalComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(createInternalComponent, 'createInternalComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(createInstanceForText, 'createInstanceForText', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(createInstanceForText, 'createInstanceForText', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(isTextComponent, 'isTextComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(isTextComponent, 'isTextComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactHostComponent, 'ReactHostComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostComponent.js');
+  __REACT_HOT_LOADER__.register(ReactHostComponent, 'ReactHostComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostComponent.js');
 }();
 
 ;
@@ -27689,9 +27689,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isInDocument, 'isInDocument', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInputSelection.js');
+  __REACT_HOT_LOADER__.register(isInDocument, 'isInDocument', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInputSelection.js');
 
-  __REACT_HOT_LOADER__.register(ReactInputSelection, 'ReactInputSelection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInputSelection.js');
+  __REACT_HOT_LOADER__.register(ReactInputSelection, 'ReactInputSelection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInputSelection.js');
 }();
 
 ;
@@ -28242,47 +28242,47 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ATTR_NAME, 'ATTR_NAME', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(ATTR_NAME, 'ATTR_NAME', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(ROOT_ATTR_NAME, 'ROOT_ATTR_NAME', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(ROOT_ATTR_NAME, 'ROOT_ATTR_NAME', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(ELEMENT_NODE_TYPE, 'ELEMENT_NODE_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(ELEMENT_NODE_TYPE, 'ELEMENT_NODE_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(DOC_NODE_TYPE, 'DOC_NODE_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(DOC_NODE_TYPE, 'DOC_NODE_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(DOCUMENT_FRAGMENT_NODE_TYPE, 'DOCUMENT_FRAGMENT_NODE_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(DOCUMENT_FRAGMENT_NODE_TYPE, 'DOCUMENT_FRAGMENT_NODE_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(instancesByReactRootID, 'instancesByReactRootID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(instancesByReactRootID, 'instancesByReactRootID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(firstDifferenceIndex, 'firstDifferenceIndex', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(firstDifferenceIndex, 'firstDifferenceIndex', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(getReactRootElementInContainer, 'getReactRootElementInContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(getReactRootElementInContainer, 'getReactRootElementInContainer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(internalGetID, 'internalGetID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(internalGetID, 'internalGetID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(mountComponentIntoNode, 'mountComponentIntoNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(mountComponentIntoNode, 'mountComponentIntoNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(batchedMountComponentIntoNode, 'batchedMountComponentIntoNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(batchedMountComponentIntoNode, 'batchedMountComponentIntoNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(unmountComponentFromNode, 'unmountComponentFromNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(unmountComponentFromNode, 'unmountComponentFromNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(hasNonRootReactChild, 'hasNonRootReactChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(hasNonRootReactChild, 'hasNonRootReactChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(nodeIsRenderedByOtherInstance, 'nodeIsRenderedByOtherInstance', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(nodeIsRenderedByOtherInstance, 'nodeIsRenderedByOtherInstance', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(isValidContainer, 'isValidContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(isValidContainer, 'isValidContainer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(isReactNode, 'isReactNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(isReactNode, 'isReactNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(getHostRootInstanceInContainer, 'getHostRootInstanceInContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(getHostRootInstanceInContainer, 'getHostRootInstanceInContainer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(getTopLevelWrapperInContainer, 'getTopLevelWrapperInContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(getTopLevelWrapperInContainer, 'getTopLevelWrapperInContainer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(topLevelRootCounter, 'topLevelRootCounter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(topLevelRootCounter, 'topLevelRootCounter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(TopLevelWrapper, 'TopLevelWrapper', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(TopLevelWrapper, 'TopLevelWrapper', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 
-  __REACT_HOT_LOADER__.register(ReactMount, 'ReactMount', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMount.js');
+  __REACT_HOT_LOADER__.register(ReactMount, 'ReactMount', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMount.js');
 }();
 
 ;
@@ -28332,7 +28332,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactMultiChildUpdateTypes, 'ReactMultiChildUpdateTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChildUpdateTypes.js');
+  __REACT_HOT_LOADER__.register(ReactMultiChildUpdateTypes, 'ReactMultiChildUpdateTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChildUpdateTypes.js');
 }();
 
 ;
@@ -28389,7 +28389,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactNodeTypes, 'ReactNodeTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactNodeTypes.js');
+  __REACT_HOT_LOADER__.register(ReactNodeTypes, 'ReactNodeTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactNodeTypes.js');
 }();
 
 ;
@@ -28840,45 +28840,45 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ANONYMOUS, 'ANONYMOUS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(ANONYMOUS, 'ANONYMOUS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(ReactPropTypes, 'ReactPropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(ReactPropTypes, 'ReactPropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(is, 'is', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(is, 'is', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(PropTypeError, 'PropTypeError', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(PropTypeError, 'PropTypeError', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createChainableTypeChecker, 'createChainableTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createChainableTypeChecker, 'createChainableTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createPrimitiveTypeChecker, 'createPrimitiveTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createPrimitiveTypeChecker, 'createPrimitiveTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createAnyTypeChecker, 'createAnyTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createAnyTypeChecker, 'createAnyTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createArrayOfTypeChecker, 'createArrayOfTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createArrayOfTypeChecker, 'createArrayOfTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createElementTypeChecker, 'createElementTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createElementTypeChecker, 'createElementTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createInstanceTypeChecker, 'createInstanceTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createInstanceTypeChecker, 'createInstanceTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createEnumTypeChecker, 'createEnumTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createEnumTypeChecker, 'createEnumTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createObjectOfTypeChecker, 'createObjectOfTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createObjectOfTypeChecker, 'createObjectOfTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createUnionTypeChecker, 'createUnionTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createUnionTypeChecker, 'createUnionTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createNodeChecker, 'createNodeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createNodeChecker, 'createNodeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(createShapeTypeChecker, 'createShapeTypeChecker', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(createShapeTypeChecker, 'createShapeTypeChecker', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(isNode, 'isNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(isNode, 'isNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(isSymbol, 'isSymbol', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(isSymbol, 'isSymbol', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(getPropType, 'getPropType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(getPropType, 'getPropType', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(getPreciseType, 'getPreciseType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(getPreciseType, 'getPreciseType', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 
-  __REACT_HOT_LOADER__.register(getClassName, 'getClassName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPropTypes.js');
+  __REACT_HOT_LOADER__.register(getClassName, 'getClassName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPropTypes.js');
 }();
 
 ;
@@ -28952,7 +28952,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ViewportMetrics, 'ViewportMetrics', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ViewportMetrics.js');
+  __REACT_HOT_LOADER__.register(ViewportMetrics, 'ViewportMetrics', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ViewportMetrics.js');
 }();
 
 ;
@@ -29027,7 +29027,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(accumulateInto, 'accumulateInto', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/accumulateInto.js');
+  __REACT_HOT_LOADER__.register(accumulateInto, 'accumulateInto', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/accumulateInto.js');
 }();
 
 ;
@@ -29134,11 +29134,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/checkReactTypeSpec.js');
+  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/checkReactTypeSpec.js');
 
-  __REACT_HOT_LOADER__.register(loggedTypeFailures, 'loggedTypeFailures', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/checkReactTypeSpec.js');
+  __REACT_HOT_LOADER__.register(loggedTypeFailures, 'loggedTypeFailures', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/checkReactTypeSpec.js');
 
-  __REACT_HOT_LOADER__.register(checkReactTypeSpec, 'checkReactTypeSpec', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/checkReactTypeSpec.js');
+  __REACT_HOT_LOADER__.register(checkReactTypeSpec, 'checkReactTypeSpec', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/checkReactTypeSpec.js');
 }();
 
 ;
@@ -29187,7 +29187,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(forEachAccumulated, 'forEachAccumulated', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/forEachAccumulated.js');
+  __REACT_HOT_LOADER__.register(forEachAccumulated, 'forEachAccumulated', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/forEachAccumulated.js');
 }();
 
 ;
@@ -29234,7 +29234,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getHostComponentFromComposite, 'getHostComponentFromComposite', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getHostComponentFromComposite.js');
+  __REACT_HOT_LOADER__.register(getHostComponentFromComposite, 'getHostComponentFromComposite', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getHostComponentFromComposite.js');
 }();
 
 ;
@@ -29284,9 +29284,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(contentKey, 'contentKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getTextContentAccessor.js');
+  __REACT_HOT_LOADER__.register(contentKey, 'contentKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getTextContentAccessor.js');
 
-  __REACT_HOT_LOADER__.register(getTextContentAccessor, 'getTextContentAccessor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getTextContentAccessor.js');
+  __REACT_HOT_LOADER__.register(getTextContentAccessor, 'getTextContentAccessor', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getTextContentAccessor.js');
 }();
 
 ;
@@ -29424,15 +29424,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactCompositeComponentWrapper, 'ReactCompositeComponentWrapper', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/instantiateReactComponent.js');
+  __REACT_HOT_LOADER__.register(ReactCompositeComponentWrapper, 'ReactCompositeComponentWrapper', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/instantiateReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/instantiateReactComponent.js');
+  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/instantiateReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(isInternalComponentType, 'isInternalComponentType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/instantiateReactComponent.js');
+  __REACT_HOT_LOADER__.register(isInternalComponentType, 'isInternalComponentType', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/instantiateReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(nextDebugID, 'nextDebugID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/instantiateReactComponent.js');
+  __REACT_HOT_LOADER__.register(nextDebugID, 'nextDebugID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/instantiateReactComponent.js');
 
-  __REACT_HOT_LOADER__.register(instantiateReactComponent, 'instantiateReactComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/instantiateReactComponent.js');
+  __REACT_HOT_LOADER__.register(instantiateReactComponent, 'instantiateReactComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/instantiateReactComponent.js');
 }();
 
 ;
@@ -29501,9 +29501,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(supportedInputTypes, 'supportedInputTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/isTextInputElement.js');
+  __REACT_HOT_LOADER__.register(supportedInputTypes, 'supportedInputTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/isTextInputElement.js');
 
-  __REACT_HOT_LOADER__.register(isTextInputElement, 'isTextInputElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/isTextInputElement.js');
+  __REACT_HOT_LOADER__.register(isTextInputElement, 'isTextInputElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/isTextInputElement.js');
 }();
 
 ;
@@ -29568,7 +29568,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(setTextContent, 'setTextContent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setTextContent.js');
+  __REACT_HOT_LOADER__.register(setTextContent, 'setTextContent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/setTextContent.js');
 }();
 
 ;
@@ -29625,7 +29625,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(compose, "compose", "/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/compose.js");
+  __REACT_HOT_LOADER__.register(compose, "compose", "/Users/Rob/Desktop/ReTok/node_modules/redux/es/compose.js");
 }();
 
 ;
@@ -29908,9 +29908,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ActionTypes, 'ActionTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/createStore.js');
+  __REACT_HOT_LOADER__.register(ActionTypes, 'ActionTypes', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/createStore.js');
 
-  __REACT_HOT_LOADER__.register(createStore, 'createStore', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/createStore.js');
+  __REACT_HOT_LOADER__.register(createStore, 'createStore', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/createStore.js');
 }();
 
 ;
@@ -29975,7 +29975,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isCrushed, 'isCrushed', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/index.js');
+  __REACT_HOT_LOADER__.register(isCrushed, 'isCrushed', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/index.js');
 }();
 
 ;
@@ -30020,7 +30020,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/utils/warning.js');
+  __REACT_HOT_LOADER__.register(warning, 'warning', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/utils/warning.js');
 }();
 
 ;
@@ -30595,11 +30595,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/manager.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/manager.js');
 
-  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/manager.js');
+  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/manager.js');
 
-  __REACT_HOT_LOADER__.register(Manager, 'Manager', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/manager.js');
+  __REACT_HOT_LOADER__.register(Manager, 'Manager', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/manager.js');
 }();
 
 ;
@@ -30641,7 +30641,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(on, "on", "/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/on.js");
+  __REACT_HOT_LOADER__.register(on, "on", "/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/on.js");
 }();
 
 ;
@@ -31067,13 +31067,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/socket.js');
 
-  __REACT_HOT_LOADER__.register(events, 'events', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(events, 'events', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/socket.js');
 
-  __REACT_HOT_LOADER__.register(emit, 'emit', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(emit, 'emit', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/socket.js');
 
-  __REACT_HOT_LOADER__.register(Socket, 'Socket', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(Socket, 'Socket', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/socket.js');
 }();
 
 ;
@@ -31247,9 +31247,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Emitter, 'Emitter', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/node_modules/component-emitter/index.js');
+  __REACT_HOT_LOADER__.register(Emitter, 'Emitter', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/node_modules/component-emitter/index.js');
 
-  __REACT_HOT_LOADER__.register(mixin, 'mixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/node_modules/component-emitter/index.js');
+  __REACT_HOT_LOADER__.register(mixin, 'mixin', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/node_modules/component-emitter/index.js');
 }();
 
 ;
@@ -31279,7 +31279,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isBuf, "isBuf", "/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-parser/is-buffer.js");
+  __REACT_HOT_LOADER__.register(isBuf, "isBuf", "/Users/Rob/Desktop/ReTok/node_modules/socket.io-parser/is-buffer.js");
 }();
 
 ;
@@ -31426,23 +31426,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(alphabet, 'alphabet', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(alphabet, 'alphabet', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(length, 'length', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(length, 'length', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(map, 'map', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(map, 'map', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(seed, 'seed', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(seed, 'seed', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(prev, 'prev', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(prev, 'prev', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(encode, 'encode', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(encode, 'encode', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(decode, 'decode', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(decode, 'decode', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 
-  __REACT_HOT_LOADER__.register(yeast, 'yeast', '/Users/Michael/HR/Thesis/ReTok/node_modules/yeast/index.js');
+  __REACT_HOT_LOADER__.register(yeast, 'yeast', '/Users/Rob/Desktop/ReTok/node_modules/yeast/index.js');
 }();
 
 ;
@@ -31512,9 +31512,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/Users/Michael/HR/Thesis/ReTok/client/src/App.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/Users/Rob/Desktop/ReTok/client/src/App.js');
 
-  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Michael/HR/Thesis/ReTok/client/src/App.js');
+  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Rob/Desktop/ReTok/client/src/App.js');
 }();
 
 ;
@@ -31964,9 +31964,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ChatContainer, 'ChatContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatContainer.js');
+  __REACT_HOT_LOADER__.register(ChatContainer, 'ChatContainer', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatContainer.js');
 }();
 
 ;
@@ -32421,11 +32421,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatMVPContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatMVPContainer.js');
 
-  __REACT_HOT_LOADER__.register(ChatMVPContainer, 'ChatMVPContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatMVPContainer.js');
+  __REACT_HOT_LOADER__.register(ChatMVPContainer, 'ChatMVPContainer', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatMVPContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatMVPContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Chat/ChatMVPContainer.js');
 }();
 
 ;
@@ -32535,11 +32535,11 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Home/HomeContainer.js');
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Home/HomeContainer.js');
 
-	__REACT_HOT_LOADER__.register(HomeContainer, 'HomeContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Home/HomeContainer.js');
+	__REACT_HOT_LOADER__.register(HomeContainer, 'HomeContainer', '/Users/Rob/Desktop/ReTok/client/src/Home/HomeContainer.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Home/HomeContainer.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Home/HomeContainer.js');
 }();
 
 ;
@@ -32598,9 +32598,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/SignUpForm.js');
+  __REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Rob/Desktop/ReTok/client/src/Login/SignUpForm.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/SignUpForm.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Login/SignUpForm.js');
 }();
 
 ;
@@ -32665,6 +32665,17 @@ var LoggedInNav = function LoggedInNav(props) {
       _reactRouter.Link,
       { onClick: props.logout },
       'Logout'
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      _react2.default.createElement(
+        'b',
+        null,
+        'Coins:'
+      ),
+      ' ',
+      props.coin
     )
   );
 };
@@ -32678,9 +32689,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(LoggedInNav, 'LoggedInNav', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+  __REACT_HOT_LOADER__.register(LoggedInNav, 'LoggedInNav', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
 }();
 
 ;
@@ -32865,7 +32876,7 @@ var LoggedInNavContainer = function (_React$Component) {
       return _react2.default.createElement(
         'div',
         null,
-        _react2.default.createElement(_LoggedInNav2.default, { hide: this.state.hide, logout: this.logout.bind(this), accept: this.accept.bind(this), searchReTok: this.searchReTok.bind(this) })
+        _react2.default.createElement(_LoggedInNav2.default, { hide: this.state.hide, logout: this.logout.bind(this), accept: this.accept.bind(this), searchReTok: this.searchReTok.bind(this), coin: this.props.user.coin })
       );
     }
   }]);
@@ -32897,11 +32908,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 
-  __REACT_HOT_LOADER__.register(LoggedInNavContainer, 'LoggedInNavContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+  __REACT_HOT_LOADER__.register(LoggedInNavContainer, 'LoggedInNavContainer', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 }();
 
 ;
@@ -32953,9 +32964,9 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(SignInNav, 'SignInNav', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+	__REACT_HOT_LOADER__.register(SignInNav, 'SignInNav', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
 }();
 
 ;
@@ -33019,9 +33030,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(LoggedOutNav, 'LoggedOutNav', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+  __REACT_HOT_LOADER__.register(LoggedOutNav, 'LoggedOutNav', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
 }();
 
 ;
@@ -33090,53 +33101,59 @@ var LoggedOutNavContainer = function (_React$Component) {
 
       console.log('User ', username, ' Password ', password);
       //Create logic for checking user and password
-      var userInfo = { username: username, password: password };
+      var userInput = { username: username, password: password };
+      var userData;
 
-      _axios2.default.post('/login', userInfo).then(function (res) {
+      _axios2.default.post('/login', userInput).then(function (res) {
         console.log('what is my res data for loggin in???', res.data);
         console.log('checking router', _this2.context.router);
         if (res.data[0].username) {
-          (function () {
-            //TODO: FIgure out what server gives for emojis
-            _this2.props.dispatch(userActions.updateUser(res.data[0]));
-            _this2.props.dispatch(userActions.userAuth());
-            var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
-            var options = {
+          //TODO: FIgure out what server gives for emojis
+          userData = res.data[0];
 
-              method: 'POST',
-              headers: myHeaders,
-              body: '\n            { \n              \n              findFriends(username: "' + username + '")\n              {\n                    username\n                    password\n                    profilePic\n                    firstName\n                    lastName\n                    email\n                    online\n                  }\n            }'
+          var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+          var options = {
 
-            };
-            fetch('/graphql', options).then(function (res) {
-              return res.json().then(function (data) {
-                console.log('checking my friends data', data.data.findFriends);
-                var friends = data.data.findFriends;
-                if (friends) {
-                  var onlineFriends = friends.filter(function (friend) {
-                    return friend.online = true;
-                  });
-                  _this2.props.dispatch(userActions.updateFriends(friends));
-                  _this2.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
-                  _this2.props.dispatch(userActions.updateFriendCount(friends.length));
-                  console.log('user name', username);
-                  var _myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
-                  var _options = {
+            method: 'POST',
+            headers: myHeaders,
+            body: '\n            {  \n              findFriends(username: "' + username + '")\n              {\n                    username\n                    password\n                    profilePic\n                    firstName\n                    lastName\n                    email\n                    online\n                    coin\n                    textChatCount\n                    videoChatCount\n                    lastChatTime\n\n                  }\n            }'
+          };
+          fetch('/graphql', options).then(function (res) {
+            return res.json().then(function (data) {
+              console.log('checking my friends data', data.data.findFriends);
+              var friends = data.data.findFriends;
 
-                    method: 'POST',
-                    headers: _myHeaders,
-                    body: '\n                    mutation {\n                    updateUser(username: "' + username + '" online: true)  {\n                      username\n                    }\n                    }\n                    '
-                  };
-                }
-                fetch('/graphql', options).then(function (res) {
+              if (friends) {
+                var updatedCoin = userData.coin + 20;
+                userData.coin = updatedCoin;
+                var onlineFriends = friends.filter(function (friend) {
+                  return friend.online = true;
+                });
+
+                _this2.props.dispatch(userActions.updateFriends(friends));
+                _this2.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
+                _this2.props.dispatch(userActions.updateFriendCount(friends.length));
+                console.log('user name', username);
+                var _myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+                var optionsTwo = {
+
+                  method: 'POST',
+                  headers: _myHeaders,
+                  body: '\n                    mutation {\n                    updateUser(username: "' + username + '" coin:' + updatedCoin + ' online: true)  {\n                      username\n                    }\n\n                    }\n                    '
+                };
+
+                fetch('/graphql', optionsTwo).then(function (res) {
                   return res.json().then(function (data) {
+                    console.log('checking data after fetching', data);
+                    _this2.props.dispatch(userActions.updateUser(userData));
+                    _this2.props.dispatch(userActions.userAuth());
                     console.log('going to profile');
                     _this2.context.router.push('/profile');
                   });
                 });
-              });
+              }
             });
-          })();
+          });
         } else {
           _this2.setState({
             exist: true
@@ -33178,11 +33195,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
 
-  __REACT_HOT_LOADER__.register(LoggedOutNavContainer, 'LoggedOutNavContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+  __REACT_HOT_LOADER__.register(LoggedOutNavContainer, 'LoggedOutNavContainer', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
 }();
 
 ;
@@ -33235,9 +33252,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PhotoUpload, "PhotoUpload", "/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUpload.js");
+  __REACT_HOT_LOADER__.register(PhotoUpload, "PhotoUpload", "/Users/Rob/Desktop/ReTok/client/src/PhotoUpload/PhotoUpload.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUpload.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Rob/Desktop/ReTok/client/src/PhotoUpload/PhotoUpload.js");
 }();
 
 ;
@@ -33379,11 +33396,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
 
-  __REACT_HOT_LOADER__.register(PhotoUploadContainer, 'PhotoUploadContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+  __REACT_HOT_LOADER__.register(PhotoUploadContainer, 'PhotoUploadContainer', '/Users/Rob/Desktop/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
 }();
 
 ;
@@ -33436,9 +33453,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AllFriends, 'AllFriends', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriends.js');
+  __REACT_HOT_LOADER__.register(AllFriends, 'AllFriends', '/Users/Rob/Desktop/ReTok/client/src/Profile/AllFriends/AllFriends.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriends.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/AllFriends/AllFriends.js');
 }();
 
 ;
@@ -33533,11 +33550,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
 
-  __REACT_HOT_LOADER__.register(AllFriendsContainer, 'AllFriendsContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+  __REACT_HOT_LOADER__.register(AllFriendsContainer, 'AllFriendsContainer', '/Users/Rob/Desktop/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
 }();
 
 ;
@@ -33597,9 +33614,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(OnlineFriends, 'OnlineFriends', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriends.js');
+  __REACT_HOT_LOADER__.register(OnlineFriends, 'OnlineFriends', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriends.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriends.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriends.js');
 }();
 
 ;
@@ -33709,11 +33726,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
 
-  __REACT_HOT_LOADER__.register(OnlineFriendsContainer, 'OnlineFriendsContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+  __REACT_HOT_LOADER__.register(OnlineFriendsContainer, 'OnlineFriendsContainer', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
 }();
 
 ;
@@ -33848,9 +33865,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Profile, 'Profile', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Profile.js');
+  __REACT_HOT_LOADER__.register(Profile, 'Profile', '/Users/Rob/Desktop/ReTok/client/src/Profile/Profile.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Profile.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/Profile.js');
 }();
 
 ;
@@ -33958,11 +33975,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/ProfileContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Profile/ProfileContainer.js');
 
-  __REACT_HOT_LOADER__.register(ProfileContainer, 'ProfileContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/ProfileContainer.js');
+  __REACT_HOT_LOADER__.register(ProfileContainer, 'ProfileContainer', '/Users/Rob/Desktop/ReTok/client/src/Profile/ProfileContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/ProfileContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/ProfileContainer.js');
 }();
 
 ;
@@ -34047,11 +34064,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
 
-  __REACT_HOT_LOADER__.register(SuggestedContainer, 'SuggestedContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
+  __REACT_HOT_LOADER__.register(SuggestedContainer, 'SuggestedContainer', '/Users/Rob/Desktop/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
 }();
 
 ;
@@ -34151,9 +34168,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Routes, 'Routes', '/Users/Michael/HR/Thesis/ReTok/client/src/Routes.js');
+  __REACT_HOT_LOADER__.register(Routes, 'Routes', '/Users/Rob/Desktop/ReTok/client/src/Routes.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Routes.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Routes.js');
 }();
 
 ;
@@ -34223,9 +34240,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Search, 'Search', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/Search.js');
+  __REACT_HOT_LOADER__.register(Search, 'Search', '/Users/Rob/Desktop/ReTok/client/src/Search/Search.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/Search.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Search/Search.js');
 }();
 
 ;
@@ -34286,6 +34303,8 @@ var SearchContainer = function (_React$Component) {
   }, {
     key: 'addFriend',
     value: function addFriend(friend) {
+      var _this2 = this;
+
       console.log('i tried to add this friend', friend);
       console.log('im checking my own user info', this.props.user);
 
@@ -34303,19 +34322,36 @@ var SearchContainer = function (_React$Component) {
           // this.props.dispatch(userActions.userAuth(data));
           // console.log('checking router', this.context.router);
           // this.context.router.push('/profile')
+          var updatedCoin = _this2.props.user.coin + 50;
+
+          var options = {
+
+            method: 'POST',
+            headers: myHeaders,
+            body: '\n                  mutation {\n                  updateUser(username: "' + _this2.props.user.username + '" coin:' + updatedCoin + ')  {\n                    username\n                  }\n                  }\n                  '
+
+          };
+          fetch('/graphql', options).then(function (res) {
+            return res.json().then(function (data) {
+              console.log('checking data after fetching', data);
+              var userCopy = Object.assign({}, _this2.props.user, { coin: updatedCoin });
+              _this2.props.dispatch(userActions.updateUser(userCopy));
+              console.log('checking my user data to see successful dispatch', _this2.props.user);
+            });
+          });
         });
       });
     }
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
 
       return _react2.default.createElement(
         'div',
         null,
         this.props.search.map(function (item, index) {
-          return _react2.default.createElement(_Search2.default, { key: index, friend: item, addFriend: _this2.addFriend.bind(_this2) });
+          return _react2.default.createElement(_Search2.default, { key: index, friend: item, addFriend: _this3.addFriend.bind(_this3) });
         })
       );
     }
@@ -34345,11 +34381,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/SearchContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Search/SearchContainer.js');
 
-  __REACT_HOT_LOADER__.register(SearchContainer, 'SearchContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/SearchContainer.js');
+  __REACT_HOT_LOADER__.register(SearchContainer, 'SearchContainer', '/Users/Rob/Desktop/ReTok/client/src/Search/SearchContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/SearchContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Search/SearchContainer.js');
 }();
 
 ;
@@ -34431,11 +34467,11 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreContainer.js');
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreContainer.js');
 
-	__REACT_HOT_LOADER__.register(StoreContainer, 'StoreContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreContainer.js');
+	__REACT_HOT_LOADER__.register(StoreContainer, 'StoreContainer', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreContainer.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreContainer.js');
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreContainer.js');
 }();
 
 ;
@@ -34482,9 +34518,9 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(after, 'after', '/Users/Michael/HR/Thesis/ReTok/node_modules/after/index.js');
+    __REACT_HOT_LOADER__.register(after, 'after', '/Users/Rob/Desktop/ReTok/node_modules/after/index.js');
 
-    __REACT_HOT_LOADER__.register(noop, 'noop', '/Users/Michael/HR/Thesis/ReTok/node_modules/after/index.js');
+    __REACT_HOT_LOADER__.register(noop, 'noop', '/Users/Rob/Desktop/ReTok/node_modules/after/index.js');
 }();
 
 ;
@@ -34601,9 +34637,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createInstance, 'createInstance', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/axios.js');
+  __REACT_HOT_LOADER__.register(createInstance, 'createInstance', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/axios.js');
 
-  __REACT_HOT_LOADER__.register(axios, 'axios', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/axios.js');
+  __REACT_HOT_LOADER__.register(axios, 'axios', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/axios.js');
 }();
 
 ;
@@ -34705,7 +34741,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Axios, 'Axios', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/core/Axios.js');
+  __REACT_HOT_LOADER__.register(Axios, 'Axios', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/core/Axios.js');
 }();
 
 ;
@@ -34774,7 +34810,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(InterceptorManager, 'InterceptorManager', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/core/InterceptorManager.js');
+  __REACT_HOT_LOADER__.register(InterceptorManager, 'InterceptorManager', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/core/InterceptorManager.js');
 }();
 
 ;
@@ -35034,11 +35070,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PROTECTION_PREFIX, 'PROTECTION_PREFIX', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/defaults.js');
+  __REACT_HOT_LOADER__.register(PROTECTION_PREFIX, 'PROTECTION_PREFIX', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/defaults.js');
 
-  __REACT_HOT_LOADER__.register(DEFAULT_CONTENT_TYPE, 'DEFAULT_CONTENT_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/defaults.js');
+  __REACT_HOT_LOADER__.register(DEFAULT_CONTENT_TYPE, 'DEFAULT_CONTENT_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/defaults.js');
 
-  __REACT_HOT_LOADER__.register(setContentTypeIfUnset, 'setContentTypeIfUnset', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/defaults.js');
+  __REACT_HOT_LOADER__.register(setContentTypeIfUnset, 'setContentTypeIfUnset', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/defaults.js');
 }();
 
 ;
@@ -35090,11 +35126,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(chars, 'chars', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/btoa.js');
+  __REACT_HOT_LOADER__.register(chars, 'chars', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/helpers/btoa.js');
 
-  __REACT_HOT_LOADER__.register(E, 'E', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/btoa.js');
+  __REACT_HOT_LOADER__.register(E, 'E', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/helpers/btoa.js');
 
-  __REACT_HOT_LOADER__.register(btoa, 'btoa', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/btoa.js');
+  __REACT_HOT_LOADER__.register(btoa, 'btoa', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/helpers/btoa.js');
 }();
 
 ;
@@ -35172,7 +35208,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(encode, 'encode', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/buildURL.js');
+  __REACT_HOT_LOADER__.register(encode, 'encode', '/Users/Rob/Desktop/ReTok/node_modules/axios/lib/helpers/buildURL.js');
 }();
 
 ;
@@ -35693,7 +35729,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Backoff, "Backoff", "/Users/Michael/HR/Thesis/ReTok/node_modules/backo2/index.js");
+  __REACT_HOT_LOADER__.register(Backoff, "Backoff", "/Users/Rob/Desktop/ReTok/node_modules/backo2/index.js");
 }();
 
 ;
@@ -35886,19 +35922,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(BlobBuilder, 'BlobBuilder', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(BlobBuilder, 'BlobBuilder', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 
-  __REACT_HOT_LOADER__.register(blobSupported, 'blobSupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(blobSupported, 'blobSupported', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 
-  __REACT_HOT_LOADER__.register(blobSupportsArrayBufferView, 'blobSupportsArrayBufferView', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(blobSupportsArrayBufferView, 'blobSupportsArrayBufferView', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 
-  __REACT_HOT_LOADER__.register(blobBuilderSupported, 'blobBuilderSupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(blobBuilderSupported, 'blobBuilderSupported', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 
-  __REACT_HOT_LOADER__.register(mapArrayBufferViews, 'mapArrayBufferViews', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(mapArrayBufferViews, 'mapArrayBufferViews', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 
-  __REACT_HOT_LOADER__.register(BlobBuilderConstructor, 'BlobBuilderConstructor', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(BlobBuilderConstructor, 'BlobBuilderConstructor', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 
-  __REACT_HOT_LOADER__.register(BlobConstructor, 'BlobConstructor', '/Users/Michael/HR/Thesis/ReTok/node_modules/blob/index.js');
+  __REACT_HOT_LOADER__.register(BlobConstructor, 'BlobConstructor', '/Users/Rob/Desktop/ReTok/node_modules/blob/index.js');
 }();
 
 ;
@@ -35962,7 +35998,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register($Object, '$Object', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/fn/object/create.js');
+  __REACT_HOT_LOADER__.register($Object, '$Object', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/fn/object/create.js');
 }();
 
 ;
@@ -36185,11 +36221,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TAG, 'TAG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_classof.js');
+  __REACT_HOT_LOADER__.register(TAG, 'TAG', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_classof.js');
 
-  __REACT_HOT_LOADER__.register(ARG, 'ARG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_classof.js');
+  __REACT_HOT_LOADER__.register(ARG, 'ARG', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_classof.js');
 
-  __REACT_HOT_LOADER__.register(tryGet, 'tryGet', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_classof.js');
+  __REACT_HOT_LOADER__.register(tryGet, 'tryGet', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_classof.js');
 }();
 
 ;
@@ -36291,9 +36327,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
 
-  __REACT_HOT_LOADER__.register(ArrayProto, 'ArrayProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
+  __REACT_HOT_LOADER__.register(ArrayProto, 'ArrayProto', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
 }();
 
 ;
@@ -36377,7 +36413,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(IteratorPrototype, 'IteratorPrototype', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-create.js');
+  __REACT_HOT_LOADER__.register(IteratorPrototype, 'IteratorPrototype', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-create.js');
 }();
 
 ;
@@ -36425,11 +36461,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
 
-  __REACT_HOT_LOADER__.register(SAFE_CLOSING, 'SAFE_CLOSING', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
+  __REACT_HOT_LOADER__.register(SAFE_CLOSING, 'SAFE_CLOSING', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
 
-  __REACT_HOT_LOADER__.register(riter, 'riter', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
+  __REACT_HOT_LOADER__.register(riter, 'riter', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
 }();
 
 ;
@@ -36552,25 +36588,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(META, 'META', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(META, 'META', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(setDesc, 'setDesc', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(setDesc, 'setDesc', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(id, 'id', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(id, 'id', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(isExtensible, 'isExtensible', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(isExtensible, 'isExtensible', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(FREEZE, 'FREEZE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(FREEZE, 'FREEZE', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(setMeta, 'setMeta', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(setMeta, 'setMeta', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(fastKey, 'fastKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(fastKey, 'fastKey', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(getWeak, 'getWeak', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(getWeak, 'getWeak', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(onFreeze, 'onFreeze', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(onFreeze, 'onFreeze', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 
-  __REACT_HOT_LOADER__.register(meta, 'meta', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+  __REACT_HOT_LOADER__.register(meta, 'meta', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_meta.js');
 }();
 
 ;
@@ -36626,7 +36662,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register($assign, '$assign', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-assign.js');
+  __REACT_HOT_LOADER__.register($assign, '$assign', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-assign.js');
 }();
 
 ;
@@ -36696,13 +36732,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(gOPN, 'gOPN', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+  __REACT_HOT_LOADER__.register(gOPN, 'gOPN', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
 
-  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
 
-  __REACT_HOT_LOADER__.register(windowNames, 'windowNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+  __REACT_HOT_LOADER__.register(windowNames, 'windowNames', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
 
-  __REACT_HOT_LOADER__.register(getWindowNames, 'getWindowNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+  __REACT_HOT_LOADER__.register(getWindowNames, 'getWindowNames', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
 }();
 
 ;
@@ -36734,9 +36770,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
+  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
 
-  __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
+  __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
 }();
 
 ;
@@ -36781,7 +36817,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(check, 'check', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_set-proto.js');
+  __REACT_HOT_LOADER__.register(check, 'check', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_set-proto.js');
 }();
 
 ;
@@ -36840,9 +36876,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(max, 'max', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-index.js');
+  __REACT_HOT_LOADER__.register(max, 'max', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_to-index.js');
 
-  __REACT_HOT_LOADER__.register(min, 'min', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-index.js');
+  __REACT_HOT_LOADER__.register(min, 'min', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/_to-index.js');
 }();
 
 ;
@@ -36867,7 +36903,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/core.get-iterator-method.js');
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/core.get-iterator-method.js');
 }();
 
 ;
@@ -37314,65 +37350,65 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(META, 'META', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(META, 'META', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(gOPD, 'gOPD', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(gOPD, 'gOPD', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(dP, 'dP', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(dP, 'dP', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(gOPN, 'gOPN', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(gOPN, 'gOPN', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($Symbol, '$Symbol', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($Symbol, '$Symbol', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($JSON, '$JSON', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($JSON, '$JSON', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(_stringify, '_stringify', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(_stringify, '_stringify', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(HIDDEN, 'HIDDEN', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(HIDDEN, 'HIDDEN', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(TO_PRIMITIVE, 'TO_PRIMITIVE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(TO_PRIMITIVE, 'TO_PRIMITIVE', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(isEnum, 'isEnum', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(isEnum, 'isEnum', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(SymbolRegistry, 'SymbolRegistry', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(SymbolRegistry, 'SymbolRegistry', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(AllSymbols, 'AllSymbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(AllSymbols, 'AllSymbols', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(OPSymbols, 'OPSymbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(OPSymbols, 'OPSymbols', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(USE_NATIVE, 'USE_NATIVE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(USE_NATIVE, 'USE_NATIVE', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(QObject, 'QObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(QObject, 'QObject', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(setter, 'setter', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(setter, 'setter', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(setSymbolDesc, 'setSymbolDesc', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(setSymbolDesc, 'setSymbolDesc', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(wrap, 'wrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(wrap, 'wrap', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(isSymbol, 'isSymbol', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(isSymbol, 'isSymbol', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($defineProperty, '$defineProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($defineProperty, '$defineProperty', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($defineProperties, '$defineProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($defineProperties, '$defineProperties', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($create, '$create', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($create, '$create', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($propertyIsEnumerable, '$propertyIsEnumerable', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($propertyIsEnumerable, '$propertyIsEnumerable', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($getOwnPropertyDescriptor, '$getOwnPropertyDescriptor', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($getOwnPropertyDescriptor, '$getOwnPropertyDescriptor', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($getOwnPropertyNames, '$getOwnPropertyNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($getOwnPropertyNames, '$getOwnPropertyNames', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register($getOwnPropertySymbols, '$getOwnPropertySymbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register($getOwnPropertySymbols, '$getOwnPropertySymbols', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(symbols, 'symbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(symbols, 'symbols', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 
-  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
 }();
 
 ;
@@ -37400,7 +37436,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register($entries, '$entries', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es7.object.entries.js');
+  __REACT_HOT_LOADER__.register($entries, '$entries', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es7.object.entries.js');
 }();
 
 ;
@@ -37428,7 +37464,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register($values, '$values', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es7.object.values.js');
+  __REACT_HOT_LOADER__.register($values, '$values', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/es7.object.values.js');
 }();
 
 ;
@@ -37496,17 +37532,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TO_STRING_TAG, 'TO_STRING_TAG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+  __REACT_HOT_LOADER__.register(TO_STRING_TAG, 'TO_STRING_TAG', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
 
-  __REACT_HOT_LOADER__.register(collections, 'collections', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+  __REACT_HOT_LOADER__.register(collections, 'collections', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
 
-  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
 
-  __REACT_HOT_LOADER__.register(NAME, 'NAME', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+  __REACT_HOT_LOADER__.register(NAME, 'NAME', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
 
-  __REACT_HOT_LOADER__.register(Collection, 'Collection', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+  __REACT_HOT_LOADER__.register(Collection, 'Collection', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
 
-  __REACT_HOT_LOADER__.register(proto, 'proto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+  __REACT_HOT_LOADER__.register(proto, 'proto', '/Users/Rob/Desktop/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
 }();
 
 ;
@@ -37720,21 +37756,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(prevColor, 'prevColor', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(prevColor, 'prevColor', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(prevTime, 'prevTime', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(prevTime, 'prevTime', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(selectColor, 'selectColor', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(selectColor, 'selectColor', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(enable, 'enable', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(enable, 'enable', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(disable, 'disable', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(disable, 'disable', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(enabled, 'enabled', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(enabled, 'enabled', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 
-  __REACT_HOT_LOADER__.register(coerce, 'coerce', '/Users/Michael/HR/Thesis/ReTok/node_modules/debug/debug.js');
+  __REACT_HOT_LOADER__.register(coerce, 'coerce', '/Users/Rob/Desktop/ReTok/node_modules/debug/debug.js');
 }();
 
 ;
@@ -37846,15 +37882,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(pSlice, 'pSlice', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+  __REACT_HOT_LOADER__.register(pSlice, 'pSlice', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/index.js');
 
-  __REACT_HOT_LOADER__.register(deepEqual, 'deepEqual', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+  __REACT_HOT_LOADER__.register(deepEqual, 'deepEqual', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/index.js');
 
-  __REACT_HOT_LOADER__.register(isUndefinedOrNull, 'isUndefinedOrNull', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+  __REACT_HOT_LOADER__.register(isUndefinedOrNull, 'isUndefinedOrNull', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/index.js');
 
-  __REACT_HOT_LOADER__.register(isBuffer, 'isBuffer', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+  __REACT_HOT_LOADER__.register(isBuffer, 'isBuffer', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/index.js');
 
-  __REACT_HOT_LOADER__.register(objEquiv, 'objEquiv', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+  __REACT_HOT_LOADER__.register(objEquiv, 'objEquiv', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/index.js');
 }();
 
 ;
@@ -37890,11 +37926,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(supportsArgumentsClass, 'supportsArgumentsClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+  __REACT_HOT_LOADER__.register(supportsArgumentsClass, 'supportsArgumentsClass', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/lib/is_arguments.js');
 
-  __REACT_HOT_LOADER__.register(supported, 'supported', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+  __REACT_HOT_LOADER__.register(supported, 'supported', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/lib/is_arguments.js');
 
-  __REACT_HOT_LOADER__.register(unsupported, 'unsupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+  __REACT_HOT_LOADER__.register(unsupported, 'unsupported', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/lib/is_arguments.js');
 }();
 
 ;
@@ -37922,7 +37958,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(shim, 'shim', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/keys.js');
+  __REACT_HOT_LOADER__.register(shim, 'shim', '/Users/Rob/Desktop/ReTok/node_modules/deep-equal/lib/keys.js');
 }();
 
 ;
@@ -38087,13 +38123,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/offsetParent.js');
 
-  __REACT_HOT_LOADER__.register(_style2, '_style2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+  __REACT_HOT_LOADER__.register(_style2, '_style2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/offsetParent.js');
 
-  __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+  __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/offsetParent.js');
 
-  __REACT_HOT_LOADER__.register(offsetParent, 'offsetParent', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+  __REACT_HOT_LOADER__.register(offsetParent, 'offsetParent', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/offsetParent.js');
 }();
 
 ;
@@ -38167,19 +38203,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_offset2, '_offset2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(_offset2, '_offset2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 
-  __REACT_HOT_LOADER__.register(_offsetParent2, '_offsetParent2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(_offsetParent2, '_offsetParent2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 
-  __REACT_HOT_LOADER__.register(_scrollTop2, '_scrollTop2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(_scrollTop2, '_scrollTop2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 
-  __REACT_HOT_LOADER__.register(_scrollLeft2, '_scrollLeft2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(_scrollLeft2, '_scrollLeft2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 
-  __REACT_HOT_LOADER__.register(_style2, '_style2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(_style2, '_style2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 
-  __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 
-  __REACT_HOT_LOADER__.register(position, 'position', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+  __REACT_HOT_LOADER__.register(position, 'position', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/position.js');
 }();
 
 ;
@@ -38224,9 +38260,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(simpleSelectorRE, 'simpleSelectorRE', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
+  __REACT_HOT_LOADER__.register(simpleSelectorRE, 'simpleSelectorRE', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
 
-  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
+  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
 }();
 
 ;
@@ -38317,11 +38353,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_utilCamelizeStyle2, '_utilCamelizeStyle2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+  __REACT_HOT_LOADER__.register(_utilCamelizeStyle2, '_utilCamelizeStyle2', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
 
-  __REACT_HOT_LOADER__.register(rposition, 'rposition', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+  __REACT_HOT_LOADER__.register(rposition, 'rposition', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
 
-  __REACT_HOT_LOADER__.register(rnumnonpx, 'rnumnonpx', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+  __REACT_HOT_LOADER__.register(rnumnonpx, 'rnumnonpx', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
 }();
 
 ;
@@ -38414,21 +38450,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(transform, 'transform', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(transform, 'transform', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(transition, 'transition', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(transition, 'transition', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(transitionTiming, 'transitionTiming', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(transitionTiming, 'transitionTiming', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(transitionDuration, 'transitionDuration', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(transitionDuration, 'transitionDuration', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(transitionProperty, 'transitionProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(transitionProperty, 'transitionProperty', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(transitionDelay, 'transitionDelay', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(transitionDelay, 'transitionDelay', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 
-  __REACT_HOT_LOADER__.register(getTransitionProperties, 'getTransitionProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+  __REACT_HOT_LOADER__.register(getTransitionProperties, 'getTransitionProperties', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/transition/properties.js');
 }();
 
 ;
@@ -38454,7 +38490,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(rHyphen, "rHyphen", "/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/camelize.js");
+  __REACT_HOT_LOADER__.register(rHyphen, "rHyphen", "/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/util/camelize.js");
 }();
 
 ;
@@ -38478,7 +38514,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(rUpper, 'rUpper', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/hyphenate.js');
+  __REACT_HOT_LOADER__.register(rUpper, 'rUpper', '/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/util/hyphenate.js');
 }();
 
 ;
@@ -38509,7 +38545,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(msPattern, "msPattern", "/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/hyphenateStyle.js");
+  __REACT_HOT_LOADER__.register(msPattern, "msPattern", "/Users/Rob/Desktop/ReTok/node_modules/dom-helpers/util/hyphenateStyle.js");
 }();
 
 ;
@@ -39291,13 +39327,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/socket.js');
 
-  __REACT_HOT_LOADER__.register(noop, 'noop', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(noop, 'noop', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/socket.js');
 
-  __REACT_HOT_LOADER__.register(Socket, 'Socket', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(Socket, 'Socket', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/socket.js');
 
-  __REACT_HOT_LOADER__.register(clone, 'clone', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/socket.js');
+  __REACT_HOT_LOADER__.register(clone, 'clone', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/socket.js');
 }();
 
 ;
@@ -39553,17 +39589,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(rNewline, 'rNewline', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+  __REACT_HOT_LOADER__.register(rNewline, 'rNewline', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
 
-  __REACT_HOT_LOADER__.register(rEscapedNewline, 'rEscapedNewline', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+  __REACT_HOT_LOADER__.register(rEscapedNewline, 'rEscapedNewline', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
 
-  __REACT_HOT_LOADER__.register(callbacks, 'callbacks', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+  __REACT_HOT_LOADER__.register(callbacks, 'callbacks', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
 
-  __REACT_HOT_LOADER__.register(index, 'index', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+  __REACT_HOT_LOADER__.register(index, 'index', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
 
-  __REACT_HOT_LOADER__.register(empty, 'empty', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+  __REACT_HOT_LOADER__.register(empty, 'empty', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
 
-  __REACT_HOT_LOADER__.register(JSONPPolling, 'JSONPPolling', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
+  __REACT_HOT_LOADER__.register(JSONPPolling, 'JSONPPolling', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-jsonp.js');
 }();
 
 ;
@@ -39994,15 +40030,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
 
-  __REACT_HOT_LOADER__.register(empty, 'empty', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+  __REACT_HOT_LOADER__.register(empty, 'empty', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
 
-  __REACT_HOT_LOADER__.register(XHR, 'XHR', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+  __REACT_HOT_LOADER__.register(XHR, 'XHR', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
 
-  __REACT_HOT_LOADER__.register(Request, 'Request', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+  __REACT_HOT_LOADER__.register(Request, 'Request', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
 
-  __REACT_HOT_LOADER__.register(unloadHandler, 'unloadHandler', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
+  __REACT_HOT_LOADER__.register(unloadHandler, 'unloadHandler', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/polling-xhr.js');
 }();
 
 ;
@@ -40308,13 +40344,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
 
-  __REACT_HOT_LOADER__.register(BrowserWebSocket, 'BrowserWebSocket', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
+  __REACT_HOT_LOADER__.register(BrowserWebSocket, 'BrowserWebSocket', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
 
-  __REACT_HOT_LOADER__.register(WebSocket, 'WebSocket', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
+  __REACT_HOT_LOADER__.register(WebSocket, 'WebSocket', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
 
-  __REACT_HOT_LOADER__.register(WS, 'WS', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
+  __REACT_HOT_LOADER__.register(WS, 'WS', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-client/lib/transports/websocket.js');
 }();
 
 ;
@@ -40424,7 +40460,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasBinary, 'hasBinary', '/Users/Michael/HR/Thesis/ReTok/node_modules/engine.io-parser/node_modules/has-binary/index.js');
+  __REACT_HOT_LOADER__.register(hasBinary, 'hasBinary', '/Users/Rob/Desktop/ReTok/node_modules/engine.io-parser/node_modules/has-binary/index.js');
 }();
 
 ;
@@ -40493,9 +40529,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_hyphenPattern, "_hyphenPattern", "/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/camelize.js");
+  __REACT_HOT_LOADER__.register(_hyphenPattern, "_hyphenPattern", "/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/camelize.js");
 
-  __REACT_HOT_LOADER__.register(camelize, "camelize", "/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/camelize.js");
+  __REACT_HOT_LOADER__.register(camelize, "camelize", "/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/camelize.js");
 }();
 
 ;
@@ -40551,9 +40587,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/camelizeStyleName.js');
+  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/camelizeStyleName.js');
 
-  __REACT_HOT_LOADER__.register(camelizeStyleName, 'camelizeStyleName', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/camelizeStyleName.js');
+  __REACT_HOT_LOADER__.register(camelizeStyleName, 'camelizeStyleName', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/camelizeStyleName.js');
 }();
 
 ;
@@ -40609,7 +40645,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(containsNode, 'containsNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/containsNode.js');
+  __REACT_HOT_LOADER__.register(containsNode, 'containsNode', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/containsNode.js');
 }();
 
 ;
@@ -40754,11 +40790,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createArrayFromMixed.js');
+  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createArrayFromMixed.js');
 
-  __REACT_HOT_LOADER__.register(hasArrayNature, 'hasArrayNature', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createArrayFromMixed.js');
+  __REACT_HOT_LOADER__.register(hasArrayNature, 'hasArrayNature', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createArrayFromMixed.js');
 
-  __REACT_HOT_LOADER__.register(createArrayFromMixed, 'createArrayFromMixed', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createArrayFromMixed.js');
+  __REACT_HOT_LOADER__.register(createArrayFromMixed, 'createArrayFromMixed', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createArrayFromMixed.js');
 }();
 
 ;
@@ -40859,13 +40895,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(dummyNode, 'dummyNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
+  __REACT_HOT_LOADER__.register(dummyNode, 'dummyNode', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
 
-  __REACT_HOT_LOADER__.register(nodeNamePattern, 'nodeNamePattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
+  __REACT_HOT_LOADER__.register(nodeNamePattern, 'nodeNamePattern', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
 
-  __REACT_HOT_LOADER__.register(getNodeName, 'getNodeName', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
+  __REACT_HOT_LOADER__.register(getNodeName, 'getNodeName', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
 
-  __REACT_HOT_LOADER__.register(createNodesFromMarkup, 'createNodesFromMarkup', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
+  __REACT_HOT_LOADER__.register(createNodesFromMarkup, 'createNodesFromMarkup', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/createNodesFromMarkup.js');
 }();
 
 ;
@@ -40977,23 +41013,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(dummyNode, 'dummyNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(dummyNode, 'dummyNode', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(shouldWrap, 'shouldWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(shouldWrap, 'shouldWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(selectWrap, 'selectWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(selectWrap, 'selectWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(tableWrap, 'tableWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(tableWrap, 'tableWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(trWrap, 'trWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(trWrap, 'trWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(svgWrap, 'svgWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(svgWrap, 'svgWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(markupWrap, 'markupWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(markupWrap, 'markupWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(svgElements, 'svgElements', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(svgElements, 'svgElements', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 
-  __REACT_HOT_LOADER__.register(getMarkupWrap, 'getMarkupWrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
+  __REACT_HOT_LOADER__.register(getMarkupWrap, 'getMarkupWrap', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getMarkupWrap.js');
 }();
 
 ;
@@ -41049,7 +41085,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getUnboundedScrollPosition, 'getUnboundedScrollPosition', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/getUnboundedScrollPosition.js');
+  __REACT_HOT_LOADER__.register(getUnboundedScrollPosition, 'getUnboundedScrollPosition', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/getUnboundedScrollPosition.js');
 }();
 
 ;
@@ -41098,9 +41134,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_uppercasePattern, '_uppercasePattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/hyphenate.js');
+  __REACT_HOT_LOADER__.register(_uppercasePattern, '_uppercasePattern', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/hyphenate.js');
 
-  __REACT_HOT_LOADER__.register(hyphenate, 'hyphenate', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/hyphenate.js');
+  __REACT_HOT_LOADER__.register(hyphenate, 'hyphenate', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/hyphenate.js');
 }();
 
 ;
@@ -41155,9 +41191,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/hyphenateStyleName.js');
+  __REACT_HOT_LOADER__.register(msPattern, 'msPattern', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/hyphenateStyleName.js');
 
-  __REACT_HOT_LOADER__.register(hyphenateStyleName, 'hyphenateStyleName', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/hyphenateStyleName.js');
+  __REACT_HOT_LOADER__.register(hyphenateStyleName, 'hyphenateStyleName', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/hyphenateStyleName.js');
 }();
 
 ;
@@ -41199,7 +41235,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isNode, 'isNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/isNode.js');
+  __REACT_HOT_LOADER__.register(isNode, 'isNode', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/isNode.js');
 }();
 
 ;
@@ -41240,7 +41276,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isTextNode, 'isTextNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/isTextNode.js');
+  __REACT_HOT_LOADER__.register(isTextNode, 'isTextNode', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/isTextNode.js');
 }();
 
 ;
@@ -41286,7 +41322,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(memoizeStringOnly, 'memoizeStringOnly', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/memoizeStringOnly.js');
+  __REACT_HOT_LOADER__.register(memoizeStringOnly, 'memoizeStringOnly', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/memoizeStringOnly.js');
 }();
 
 ;
@@ -41325,7 +41361,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(performance, 'performance', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/performance.js');
+  __REACT_HOT_LOADER__.register(performance, 'performance', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/performance.js');
 }();
 
 ;
@@ -41375,7 +41411,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(performanceNow, 'performanceNow', '/Users/Michael/HR/Thesis/ReTok/node_modules/fbjs/lib/performanceNow.js');
+  __REACT_HOT_LOADER__.register(performanceNow, 'performanceNow', '/Users/Rob/Desktop/ReTok/node_modules/fbjs/lib/performanceNow.js');
 }();
 
 ;
@@ -41450,7 +41486,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hasBinary, 'hasBinary', '/Users/Michael/HR/Thesis/ReTok/node_modules/has-binary/index.js');
+  __REACT_HOT_LOADER__.register(hasBinary, 'hasBinary', '/Users/Rob/Desktop/ReTok/node_modules/has-binary/index.js');
 }();
 
 ;
@@ -41578,9 +41614,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_slice, "_slice", "/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/AsyncUtils.js");
+  __REACT_HOT_LOADER__.register(_slice, "_slice", "/Users/Rob/Desktop/ReTok/node_modules/history/lib/AsyncUtils.js");
 
-  __REACT_HOT_LOADER__.register(loopAsync, "loopAsync", "/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/AsyncUtils.js");
+  __REACT_HOT_LOADER__.register(loopAsync, "loopAsync", "/Users/Rob/Desktop/ReTok/node_modules/history/lib/AsyncUtils.js");
 }();
 
 ;
@@ -41787,15 +41823,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createBrowserHistory.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createBrowserHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createBrowserHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createBrowserHistory.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createBrowserHistory.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createBrowserHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createDOMHistory2, '_createDOMHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createBrowserHistory.js');
+  __REACT_HOT_LOADER__.register(_createDOMHistory2, '_createDOMHistory2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createBrowserHistory.js');
 
-  __REACT_HOT_LOADER__.register(createBrowserHistory, 'createBrowserHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createBrowserHistory.js');
+  __REACT_HOT_LOADER__.register(createBrowserHistory, 'createBrowserHistory', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createBrowserHistory.js');
 }();
 
 ;
@@ -41876,13 +41912,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createLocation.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createLocation.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createLocation.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createLocation.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createLocation.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createLocation.js');
 
-  __REACT_HOT_LOADER__.register(createLocation, 'createLocation', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createLocation.js');
+  __REACT_HOT_LOADER__.register(createLocation, 'createLocation', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createLocation.js');
 }();
 
 ;
@@ -42066,19 +42102,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createHistory2, '_createHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(_createHistory2, '_createHistory2', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(createStateStorage, 'createStateStorage', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(createStateStorage, 'createStateStorage', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 
-  __REACT_HOT_LOADER__.register(createMemoryHistory, 'createMemoryHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/history/lib/createMemoryHistory.js');
+  __REACT_HOT_LOADER__.register(createMemoryHistory, 'createMemoryHistory', '/Users/Rob/Desktop/ReTok/node_modules/history/lib/createMemoryHistory.js');
 }();
 
 ;
@@ -43056,9 +43092,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getPrototype, 'getPrototype', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/_getPrototype.js');
+  __REACT_HOT_LOADER__.register(getPrototype, 'getPrototype', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/_getPrototype.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/_getPrototype.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/_getPrototype.js');
 }();
 
 ;
@@ -43096,9 +43132,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(overArg, "overArg", "/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/_overArg.js");
+  __REACT_HOT_LOADER__.register(overArg, "overArg", "/Users/Rob/Desktop/ReTok/node_modules/lodash-es/_overArg.js");
 
-  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/_overArg.js");
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Rob/Desktop/ReTok/node_modules/lodash-es/_overArg.js");
 }();
 
 ;
@@ -43153,9 +43189,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isObjectLike, 'isObjectLike', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isObjectLike.js');
+  __REACT_HOT_LOADER__.register(isObjectLike, 'isObjectLike', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isObjectLike.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/lodash-es/isObjectLike.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/lodash-es/isObjectLike.js');
 }();
 
 ;
@@ -43293,23 +43329,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(s, 's', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(s, 's', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(m, 'm', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(m, 'm', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(h, 'h', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(h, 'h', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(d, 'd', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(d, 'd', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(y, 'y', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(y, 'y', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(parse, 'parse', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(parse, 'parse', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(short, 'short', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(short, 'short', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(long, 'long', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(long, 'long', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 
-  __REACT_HOT_LOADER__.register(plural, 'plural', '/Users/Michael/HR/Thesis/ReTok/node_modules/ms/index.js');
+  __REACT_HOT_LOADER__.register(plural, 'plural', '/Users/Rob/Desktop/ReTok/node_modules/ms/index.js');
 }();
 
 ;
@@ -43358,17 +43394,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(rvalidchars, 'rvalidchars', '/Users/Michael/HR/Thesis/ReTok/node_modules/parsejson/index.js');
+  __REACT_HOT_LOADER__.register(rvalidchars, 'rvalidchars', '/Users/Rob/Desktop/ReTok/node_modules/parsejson/index.js');
 
-  __REACT_HOT_LOADER__.register(rvalidescape, 'rvalidescape', '/Users/Michael/HR/Thesis/ReTok/node_modules/parsejson/index.js');
+  __REACT_HOT_LOADER__.register(rvalidescape, 'rvalidescape', '/Users/Rob/Desktop/ReTok/node_modules/parsejson/index.js');
 
-  __REACT_HOT_LOADER__.register(rvalidtokens, 'rvalidtokens', '/Users/Michael/HR/Thesis/ReTok/node_modules/parsejson/index.js');
+  __REACT_HOT_LOADER__.register(rvalidtokens, 'rvalidtokens', '/Users/Rob/Desktop/ReTok/node_modules/parsejson/index.js');
 
-  __REACT_HOT_LOADER__.register(rvalidbraces, 'rvalidbraces', '/Users/Michael/HR/Thesis/ReTok/node_modules/parsejson/index.js');
+  __REACT_HOT_LOADER__.register(rvalidbraces, 'rvalidbraces', '/Users/Rob/Desktop/ReTok/node_modules/parsejson/index.js');
 
-  __REACT_HOT_LOADER__.register(rtrimLeft, 'rtrimLeft', '/Users/Michael/HR/Thesis/ReTok/node_modules/parsejson/index.js');
+  __REACT_HOT_LOADER__.register(rtrimLeft, 'rtrimLeft', '/Users/Rob/Desktop/ReTok/node_modules/parsejson/index.js');
 
-  __REACT_HOT_LOADER__.register(rtrimRight, 'rtrimRight', '/Users/Michael/HR/Thesis/ReTok/node_modules/parsejson/index.js');
+  __REACT_HOT_LOADER__.register(rtrimRight, 'rtrimRight', '/Users/Rob/Desktop/ReTok/node_modules/parsejson/index.js');
 }();
 
 ;
@@ -43518,9 +43554,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Accordion, 'Accordion', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Accordion.js');
+  __REACT_HOT_LOADER__.register(Accordion, 'Accordion', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Accordion.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Accordion.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Accordion.js');
 }();
 
 ;
@@ -43651,13 +43687,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Alert.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Alert.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Alert.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Alert.js');
 
-  __REACT_HOT_LOADER__.register(Alert, 'Alert', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Alert.js');
+  __REACT_HOT_LOADER__.register(Alert, 'Alert', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Alert.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Alert.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Alert.js');
 }();
 
 ;
@@ -43781,13 +43817,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Badge.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Badge.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Badge.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Badge.js');
 
-  __REACT_HOT_LOADER__.register(Badge, 'Badge', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Badge.js');
+  __REACT_HOT_LOADER__.register(Badge, 'Badge', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Badge.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Badge.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Badge.js');
 }();
 
 ;
@@ -43883,9 +43919,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Breadcrumb, 'Breadcrumb', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Breadcrumb.js');
+  __REACT_HOT_LOADER__.register(Breadcrumb, 'Breadcrumb', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Breadcrumb.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Breadcrumb.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Breadcrumb.js');
 }();
 
 ;
@@ -43978,9 +44014,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ButtonToolbar, 'ButtonToolbar', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ButtonToolbar.js');
+  __REACT_HOT_LOADER__.register(ButtonToolbar, 'ButtonToolbar', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ButtonToolbar.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ButtonToolbar.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ButtonToolbar.js');
 }();
 
 ;
@@ -44387,13 +44423,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Carousel.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Carousel.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Carousel.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Carousel.js');
 
-  __REACT_HOT_LOADER__.register(Carousel, 'Carousel', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Carousel.js');
+  __REACT_HOT_LOADER__.register(Carousel, 'Carousel', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Carousel.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Carousel.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Carousel.js');
 }();
 
 ;
@@ -44497,13 +44533,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
 
-  __REACT_HOT_LOADER__.register(CarouselCaption, 'CarouselCaption', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
+  __REACT_HOT_LOADER__.register(CarouselCaption, 'CarouselCaption', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/CarouselCaption.js');
 }();
 
 ;
@@ -44647,13 +44683,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
 
-  __REACT_HOT_LOADER__.register(Checkbox, 'Checkbox', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
+  __REACT_HOT_LOADER__.register(Checkbox, 'Checkbox', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Checkbox.js');
 }();
 
 ;
@@ -44806,13 +44842,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
 
-  __REACT_HOT_LOADER__.register(Clearfix, 'Clearfix', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
+  __REACT_HOT_LOADER__.register(Clearfix, 'Clearfix', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Clearfix.js');
 }();
 
 ;
@@ -45103,13 +45139,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Col.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Col.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Col.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Col.js');
 
-  __REACT_HOT_LOADER__.register(Col, 'Col', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Col.js');
+  __REACT_HOT_LOADER__.register(Col, 'Col', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Col.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Col.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Col.js');
 }();
 
 ;
@@ -45232,15 +45268,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
 
-  __REACT_HOT_LOADER__.register(ControlLabel, 'ControlLabel', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
+  __REACT_HOT_LOADER__.register(ControlLabel, 'ControlLabel', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ControlLabel.js');
 }();
 
 ;
@@ -45352,11 +45388,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownButton.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownButton.js');
 
-  __REACT_HOT_LOADER__.register(DropdownButton, 'DropdownButton', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownButton.js');
+  __REACT_HOT_LOADER__.register(DropdownButton, 'DropdownButton', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownButton.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownButton.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownButton.js');
 }();
 
 ;
@@ -45571,13 +45607,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
 
-  __REACT_HOT_LOADER__.register(DropdownMenu, 'DropdownMenu', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
+  __REACT_HOT_LOADER__.register(DropdownMenu, 'DropdownMenu', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/DropdownMenu.js');
 }();
 
 ;
@@ -45693,13 +45729,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Form.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Form.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Form.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Form.js');
 
-  __REACT_HOT_LOADER__.register(Form, 'Form', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Form.js');
+  __REACT_HOT_LOADER__.register(Form, 'Form', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Form.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Form.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Form.js');
 }();
 
 ;
@@ -45845,15 +45881,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControl.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControl.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControl.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControl.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControl.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControl.js');
 
-  __REACT_HOT_LOADER__.register(FormControl, 'FormControl', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControl.js');
+  __REACT_HOT_LOADER__.register(FormControl, 'FormControl', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControl.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControl.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControl.js');
 }();
 
 ;
@@ -45988,13 +46024,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
 
-  __REACT_HOT_LOADER__.register(FormControlFeedback, 'FormControlFeedback', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
+  __REACT_HOT_LOADER__.register(FormControlFeedback, 'FormControlFeedback', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlFeedback.js');
 }();
 
 ;
@@ -46098,13 +46134,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
 
-  __REACT_HOT_LOADER__.register(FormControlStatic, 'FormControlStatic', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
+  __REACT_HOT_LOADER__.register(FormControlStatic, 'FormControlStatic', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormControlStatic.js');
 }();
 
 ;
@@ -46241,13 +46277,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
 
-  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
+  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
 
-  __REACT_HOT_LOADER__.register(FormGroup, 'FormGroup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
+  __REACT_HOT_LOADER__.register(FormGroup, 'FormGroup', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/FormGroup.js');
 }();
 
 ;
@@ -46335,9 +46371,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(HelpBlock, 'HelpBlock', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/HelpBlock.js');
+  __REACT_HOT_LOADER__.register(HelpBlock, 'HelpBlock', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/HelpBlock.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/HelpBlock.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/HelpBlock.js');
 }();
 
 ;
@@ -46463,13 +46499,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Image.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Image.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Image.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Image.js');
 
-  __REACT_HOT_LOADER__.register(Image, 'Image', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Image.js');
+  __REACT_HOT_LOADER__.register(Image, 'Image', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Image.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Image.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Image.js');
 }();
 
 ;
@@ -46570,9 +46606,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(InputGroup, 'InputGroup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/InputGroup.js');
+  __REACT_HOT_LOADER__.register(InputGroup, 'InputGroup', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/InputGroup.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/InputGroup.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/InputGroup.js');
 }();
 
 ;
@@ -46660,9 +46696,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(InputGroupAddon, 'InputGroupAddon', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/InputGroupAddon.js');
+  __REACT_HOT_LOADER__.register(InputGroupAddon, 'InputGroupAddon', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/InputGroupAddon.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/InputGroupAddon.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/InputGroupAddon.js');
 }();
 
 ;
@@ -46750,9 +46786,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(InputGroupButton, 'InputGroupButton', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/InputGroupButton.js');
+  __REACT_HOT_LOADER__.register(InputGroupButton, 'InputGroupButton', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/InputGroupButton.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/InputGroupButton.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/InputGroupButton.js');
 }();
 
 ;
@@ -46856,13 +46892,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
 
-  __REACT_HOT_LOADER__.register(Jumbotron, 'Jumbotron', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
+  __REACT_HOT_LOADER__.register(Jumbotron, 'Jumbotron', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Jumbotron.js');
 }();
 
 ;
@@ -46977,9 +47013,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Label, 'Label', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Label.js');
+  __REACT_HOT_LOADER__.register(Label, 'Label', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Label.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Label.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Label.js');
 }();
 
 ;
@@ -47115,13 +47151,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
 
-  __REACT_HOT_LOADER__.register(getDefaultComponent, 'getDefaultComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
+  __REACT_HOT_LOADER__.register(getDefaultComponent, 'getDefaultComponent', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
 
-  __REACT_HOT_LOADER__.register(ListGroup, 'ListGroup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
+  __REACT_HOT_LOADER__.register(ListGroup, 'ListGroup', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ListGroup.js');
 }();
 
 ;
@@ -47225,13 +47261,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
 
-  __REACT_HOT_LOADER__.register(MediaBody, 'MediaBody', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
+  __REACT_HOT_LOADER__.register(MediaBody, 'MediaBody', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaBody.js');
 }();
 
 ;
@@ -47335,13 +47371,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
 
-  __REACT_HOT_LOADER__.register(MediaHeading, 'MediaHeading', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
+  __REACT_HOT_LOADER__.register(MediaHeading, 'MediaHeading', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaHeading.js');
 }();
 
 ;
@@ -47448,11 +47484,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaLeft.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaLeft.js');
 
-  __REACT_HOT_LOADER__.register(MediaLeft, 'MediaLeft', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaLeft.js');
+  __REACT_HOT_LOADER__.register(MediaLeft, 'MediaLeft', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaLeft.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaLeft.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaLeft.js');
 }();
 
 ;
@@ -47540,9 +47576,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MediaList, 'MediaList', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaList.js');
+  __REACT_HOT_LOADER__.register(MediaList, 'MediaList', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaList.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaList.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaList.js');
 }();
 
 ;
@@ -47630,9 +47666,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MediaListItem, 'MediaListItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaListItem.js');
+  __REACT_HOT_LOADER__.register(MediaListItem, 'MediaListItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaListItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaListItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaListItem.js');
 }();
 
 ;
@@ -47739,11 +47775,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaRight.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaRight.js');
 
-  __REACT_HOT_LOADER__.register(MediaRight, 'MediaRight', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaRight.js');
+  __REACT_HOT_LOADER__.register(MediaRight, 'MediaRight', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaRight.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MediaRight.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MediaRight.js');
 }();
 
 ;
@@ -47955,13 +47991,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
 
-  __REACT_HOT_LOADER__.register(MenuItem, 'MenuItem', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
+  __REACT_HOT_LOADER__.register(MenuItem, 'MenuItem', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/MenuItem.js');
 }();
 
 ;
@@ -48318,15 +48354,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Modal.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Modal.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Modal.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Modal.js');
 
-  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Modal.js');
+  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Modal.js');
 
-  __REACT_HOT_LOADER__.register(Modal, 'Modal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Modal.js');
+  __REACT_HOT_LOADER__.register(Modal, 'Modal', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Modal.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Modal.js');
 }();
 
 ;
@@ -48437,11 +48473,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalDialog.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalDialog.js');
 
-  __REACT_HOT_LOADER__.register(ModalDialog, 'ModalDialog', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalDialog.js');
+  __REACT_HOT_LOADER__.register(ModalDialog, 'ModalDialog', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalDialog.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ModalDialog.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ModalDialog.js');
 }();
 
 ;
@@ -48590,11 +48626,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavDropdown.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavDropdown.js');
 
-  __REACT_HOT_LOADER__.register(NavDropdown, 'NavDropdown', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavDropdown.js');
+  __REACT_HOT_LOADER__.register(NavDropdown, 'NavDropdown', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavDropdown.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavDropdown.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavDropdown.js');
 }();
 
 ;
@@ -48883,19 +48919,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 
-  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(childContextTypes, 'childContextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 
-  __REACT_HOT_LOADER__.register(Navbar, 'Navbar', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(Navbar, 'Navbar', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 
-  __REACT_HOT_LOADER__.register(UncontrollableNavbar, 'UncontrollableNavbar', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(UncontrollableNavbar, 'UncontrollableNavbar', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 
-  __REACT_HOT_LOADER__.register(createSimpleWrapper, 'createSimpleWrapper', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(createSimpleWrapper, 'createSimpleWrapper', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Navbar.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Navbar.js');
 }();
 
 ;
@@ -48986,11 +49022,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarCollapse.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarCollapse.js');
 
-  __REACT_HOT_LOADER__.register(NavbarCollapse, 'NavbarCollapse', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarCollapse.js');
+  __REACT_HOT_LOADER__.register(NavbarCollapse, 'NavbarCollapse', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarCollapse.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarCollapse.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarCollapse.js');
 }();
 
 ;
@@ -49080,11 +49116,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarHeader.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarHeader.js');
 
-  __REACT_HOT_LOADER__.register(NavbarHeader, 'NavbarHeader', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarHeader.js');
+  __REACT_HOT_LOADER__.register(NavbarHeader, 'NavbarHeader', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarHeader.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarHeader.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarHeader.js');
 }();
 
 ;
@@ -49200,13 +49236,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
 
-  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
+  __REACT_HOT_LOADER__.register(contextTypes, 'contextTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
 
-  __REACT_HOT_LOADER__.register(NavbarToggle, 'NavbarToggle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
+  __REACT_HOT_LOADER__.register(NavbarToggle, 'NavbarToggle', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/NavbarToggle.js');
 }();
 
 ;
@@ -49567,17 +49603,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isOneOf, 'isOneOf', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
+  __REACT_HOT_LOADER__.register(isOneOf, 'isOneOf', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
 
-  __REACT_HOT_LOADER__.register(triggerType, 'triggerType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
+  __REACT_HOT_LOADER__.register(triggerType, 'triggerType', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
 
-  __REACT_HOT_LOADER__.register(OverlayTrigger, 'OverlayTrigger', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
+  __REACT_HOT_LOADER__.register(OverlayTrigger, 'OverlayTrigger', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/OverlayTrigger.js');
 }();
 
 ;
@@ -49667,9 +49703,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(PageHeader, 'PageHeader', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PageHeader.js');
+  __REACT_HOT_LOADER__.register(PageHeader, 'PageHeader', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PageHeader.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PageHeader.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PageHeader.js');
 }();
 
 ;
@@ -49705,7 +49741,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PageItem.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PageItem.js');
 }();
 
 ;
@@ -49819,11 +49855,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pager.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pager.js');
 
-  __REACT_HOT_LOADER__.register(Pager, 'Pager', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pager.js');
+  __REACT_HOT_LOADER__.register(Pager, 'Pager', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pager.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pager.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pager.js');
 }();
 
 ;
@@ -50077,13 +50113,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pagination.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pagination.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pagination.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pagination.js');
 
-  __REACT_HOT_LOADER__.register(Pagination, 'Pagination', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pagination.js');
+  __REACT_HOT_LOADER__.register(Pagination, 'Pagination', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pagination.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Pagination.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Pagination.js');
 }();
 
 ;
@@ -50230,13 +50266,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
 
-  __REACT_HOT_LOADER__.register(PaginationButton, 'PaginationButton', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
+  __REACT_HOT_LOADER__.register(PaginationButton, 'PaginationButton', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/PaginationButton.js');
 }();
 
 ;
@@ -50487,13 +50523,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Panel.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Panel.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Panel.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Panel.js');
 
-  __REACT_HOT_LOADER__.register(Panel, 'Panel', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Panel.js');
+  __REACT_HOT_LOADER__.register(Panel, 'Panel', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Panel.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Panel.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Panel.js');
 }();
 
 ;
@@ -50652,13 +50688,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Popover.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Popover.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Popover.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Popover.js');
 
-  __REACT_HOT_LOADER__.register(Popover, 'Popover', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Popover.js');
+  __REACT_HOT_LOADER__.register(Popover, 'Popover', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Popover.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Popover.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Popover.js');
 }();
 
 ;
@@ -50868,19 +50904,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ROUND_PRECISION, 'ROUND_PRECISION', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(ROUND_PRECISION, 'ROUND_PRECISION', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 
-  __REACT_HOT_LOADER__.register(onlyProgressBar, 'onlyProgressBar', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(onlyProgressBar, 'onlyProgressBar', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 
-  __REACT_HOT_LOADER__.register(getPercentage, 'getPercentage', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(getPercentage, 'getPercentage', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 
-  __REACT_HOT_LOADER__.register(ProgressBar, 'ProgressBar', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(ProgressBar, 'ProgressBar', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ProgressBar.js');
 }();
 
 ;
@@ -51024,13 +51060,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Radio.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Radio.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Radio.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Radio.js');
 
-  __REACT_HOT_LOADER__.register(Radio, 'Radio', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Radio.js');
+  __REACT_HOT_LOADER__.register(Radio, 'Radio', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Radio.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Radio.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Radio.js');
 }();
 
 ;
@@ -51156,13 +51192,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
 
-  __REACT_HOT_LOADER__.register(ResponsiveEmbed, 'ResponsiveEmbed', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
+  __REACT_HOT_LOADER__.register(ResponsiveEmbed, 'ResponsiveEmbed', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/ResponsiveEmbed.js');
 }();
 
 ;
@@ -51267,13 +51303,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Row.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Row.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Row.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Row.js');
 
-  __REACT_HOT_LOADER__.register(Row, 'Row', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Row.js');
+  __REACT_HOT_LOADER__.register(Row, 'Row', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Row.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Row.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Row.js');
 }();
 
 ;
@@ -51408,11 +51444,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SplitButton.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SplitButton.js');
 
-  __REACT_HOT_LOADER__.register(SplitButton, 'SplitButton', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SplitButton.js');
+  __REACT_HOT_LOADER__.register(SplitButton, 'SplitButton', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SplitButton.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SplitButton.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SplitButton.js');
 }();
 
 ;
@@ -51484,9 +51520,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SplitToggle, 'SplitToggle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SplitToggle.js');
+  __REACT_HOT_LOADER__.register(SplitToggle, 'SplitToggle', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SplitToggle.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/SplitToggle.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/SplitToggle.js');
 }();
 
 ;
@@ -51586,11 +51622,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tab.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tab.js');
 
-  __REACT_HOT_LOADER__.register(Tab, 'Tab', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tab.js');
+  __REACT_HOT_LOADER__.register(Tab, 'Tab', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tab.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tab.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tab.js');
 }();
 
 ;
@@ -51710,13 +51746,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Table.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Table.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Table.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Table.js');
 
-  __REACT_HOT_LOADER__.register(Table, 'Table', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Table.js');
+  __REACT_HOT_LOADER__.register(Table, 'Table', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Table.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Table.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Table.js');
 }();
 
 ;
@@ -51919,17 +51955,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TabContainer, 'TabContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tabs.js');
+  __REACT_HOT_LOADER__.register(TabContainer, 'TabContainer', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tabs.js');
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tabs.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tabs.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tabs.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tabs.js');
 
-  __REACT_HOT_LOADER__.register(getDefaultActiveKey, 'getDefaultActiveKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tabs.js');
+  __REACT_HOT_LOADER__.register(getDefaultActiveKey, 'getDefaultActiveKey', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tabs.js');
 
-  __REACT_HOT_LOADER__.register(Tabs, 'Tabs', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tabs.js');
+  __REACT_HOT_LOADER__.register(Tabs, 'Tabs', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tabs.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tabs.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tabs.js');
 }();
 
 ;
@@ -52033,11 +52069,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Thumbnail.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Thumbnail.js');
 
-  __REACT_HOT_LOADER__.register(Thumbnail, 'Thumbnail', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Thumbnail.js');
+  __REACT_HOT_LOADER__.register(Thumbnail, 'Thumbnail', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Thumbnail.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Thumbnail.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Thumbnail.js');
 }();
 
 ;
@@ -52189,13 +52225,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
+  __REACT_HOT_LOADER__.register(propTypes, 'propTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
 
-  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
+  __REACT_HOT_LOADER__.register(defaultProps, 'defaultProps', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
 
-  __REACT_HOT_LOADER__.register(Tooltip, 'Tooltip', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
+  __REACT_HOT_LOADER__.register(Tooltip, 'Tooltip', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Tooltip.js');
 }();
 
 ;
@@ -52285,9 +52321,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Well, 'Well', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Well.js');
+  __REACT_HOT_LOADER__.register(Well, 'Well', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Well.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/Well.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/Well.js');
 }();
 
 ;
@@ -52738,9 +52774,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(requiredRoles, 'requiredRoles', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/PropTypes.js');
+  __REACT_HOT_LOADER__.register(requiredRoles, 'requiredRoles', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/PropTypes.js');
 
-  __REACT_HOT_LOADER__.register(exclusiveRoles, 'exclusiveRoles', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/PropTypes.js');
+  __REACT_HOT_LOADER__.register(exclusiveRoles, 'exclusiveRoles', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/PropTypes.js');
 }();
 
 ;
@@ -52872,21 +52908,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(canUseDOM, 'canUseDOM', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(EVENT_NAME_MAP, 'EVENT_NAME_MAP', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(EVENT_NAME_MAP, 'EVENT_NAME_MAP', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(endEvents, 'endEvents', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(endEvents, 'endEvents', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(detectEvents, 'detectEvents', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(detectEvents, 'detectEvents', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(addEventListener, 'addEventListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(addEventListener, 'addEventListener', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(removeEventListener, 'removeEventListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(removeEventListener, 'removeEventListener', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(ReactTransitionEvents, 'ReactTransitionEvents', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(ReactTransitionEvents, 'ReactTransitionEvents', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/TransitionEvents.js');
 }();
 
 ;
@@ -52992,13 +53028,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(warned, 'warned', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
+  __REACT_HOT_LOADER__.register(warned, 'warned', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
 
-  __REACT_HOT_LOADER__.register(deprecationWarning, 'deprecationWarning', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
+  __REACT_HOT_LOADER__.register(deprecationWarning, 'deprecationWarning', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
 
-  __REACT_HOT_LOADER__.register(_resetWarned, '_resetWarned', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
+  __REACT_HOT_LOADER__.register(_resetWarned, '_resetWarned', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/node_modules/react-bootstrap/es/utils/deprecationWarning.js');
 }();
 
 ;
@@ -53354,35 +53390,35 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(_slicedToArray, "_slicedToArray", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(_slicedToArray, "_slicedToArray", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(_asciiToUnicode2, "_asciiToUnicode2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(_asciiToUnicode2, "_asciiToUnicode2", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(_rendererFactory2, "_rendererFactory2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(_rendererFactory2, "_rendererFactory2", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(asciiToUnicodeCache, "asciiToUnicodeCache", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(asciiToUnicodeCache, "asciiToUnicodeCache", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(asciiRegExpToUnicode, "asciiRegExpToUnicode", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(asciiRegExpToUnicode, "asciiRegExpToUnicode", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(asciiRegexStr, "asciiRegexStr", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(asciiRegexStr, "asciiRegexStr", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(convertAsciiToUnicodeOrNull, "convertAsciiToUnicodeOrNull", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(convertAsciiToUnicodeOrNull, "convertAsciiToUnicodeOrNull", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(RE_SHORTNAMES_UNICODES, "RE_SHORTNAMES_UNICODES", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(RE_SHORTNAMES_UNICODES, "RE_SHORTNAMES_UNICODES", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(RE_SHORTNAMES_UNICODES_ASCII, "RE_SHORTNAMES_UNICODES_ASCII", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(RE_SHORTNAMES_UNICODES_ASCII, "RE_SHORTNAMES_UNICODES_ASCII", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(startsWithSpace, "startsWithSpace", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(startsWithSpace, "startsWithSpace", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(endsWithSpace, "endsWithSpace", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(endsWithSpace, "endsWithSpace", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(shouldConvertAscii, "shouldConvertAscii", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(shouldConvertAscii, "shouldConvertAscii", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 
-    __REACT_HOT_LOADER__.register(emojify, "emojify", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+    __REACT_HOT_LOADER__.register(emojify, "emojify", "/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/react-emojione.js");
 }();
 
 ;
@@ -53445,15 +53481,15 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
+    __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
 
-    __REACT_HOT_LOADER__.register(_emojioneSprite2, '_emojioneSprite2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
+    __REACT_HOT_LOADER__.register(_emojioneSprite2, '_emojioneSprite2', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
 
-    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
 
-    __REACT_HOT_LOADER__.register(Emoji, 'Emoji', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
+    __REACT_HOT_LOADER__.register(Emoji, 'Emoji', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
 
-    __REACT_HOT_LOADER__.register(getRenderer, 'getRenderer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
+    __REACT_HOT_LOADER__.register(getRenderer, 'getRenderer', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/emoji-renderer.js');
 }();
 
 ;
@@ -53499,15 +53535,15 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(_emojiRenderer2, '_emojiRenderer2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
+    __REACT_HOT_LOADER__.register(_emojiRenderer2, '_emojiRenderer2', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
 
-    __REACT_HOT_LOADER__.register(_unicodeRenderer2, '_unicodeRenderer2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
+    __REACT_HOT_LOADER__.register(_unicodeRenderer2, '_unicodeRenderer2', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
 
-    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
 
-    __REACT_HOT_LOADER__.register(rendererForOutputFormat, 'rendererForOutputFormat', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
+    __REACT_HOT_LOADER__.register(rendererForOutputFormat, 'rendererForOutputFormat', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
 
-    __REACT_HOT_LOADER__.register(getRenderer, 'getRenderer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
+    __REACT_HOT_LOADER__.register(getRenderer, 'getRenderer', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/renderer-factory.js');
 }();
 
 ;
@@ -53539,7 +53575,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getRenderer, 'getRenderer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/renderers/unicode-renderer.js');
+  __REACT_HOT_LOADER__.register(getRenderer, 'getRenderer', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/renderers/unicode-renderer.js');
 }();
 
 ;
@@ -54885,13 +54921,13 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(_emojioneSpritePositions2, '_emojioneSpritePositions2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
+    __REACT_HOT_LOADER__.register(_emojioneSpritePositions2, '_emojioneSpritePositions2', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
 
-    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
 
-    __REACT_HOT_LOADER__.register(defaults, 'defaults', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
+    __REACT_HOT_LOADER__.register(defaults, 'defaults', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
 
-    __REACT_HOT_LOADER__.register(sprite, 'sprite', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
+    __REACT_HOT_LOADER__.register(sprite, 'sprite', '/Users/Rob/Desktop/ReTok/node_modules/react-emojione/lib/styles/emojione-sprite.js');
 }();
 
 ;
@@ -55388,39 +55424,39 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_componentOrElement2, '_componentOrElement2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_componentOrElement2, '_componentOrElement2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_elementType2, '_elementType2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_elementType2, '_elementType2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_Portal2, '_Portal2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_Portal2, '_Portal2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_ModalManager2, '_ModalManager2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_ModalManager2, '_ModalManager2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_addEventListener2, '_addEventListener2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_addEventListener2, '_addEventListener2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_addFocusListener2, '_addFocusListener2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_addFocusListener2, '_addFocusListener2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_inDOM2, '_inDOM2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_inDOM2, '_inDOM2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_activeElement2, '_activeElement2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_activeElement2, '_activeElement2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_contains2, '_contains2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_contains2, '_contains2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_getContainer2, '_getContainer2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_getContainer2, '_getContainer2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(modalManager, 'modalManager', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(modalManager, 'modalManager', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 
-  __REACT_HOT_LOADER__.register(Modal, 'Modal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Modal.js');
+  __REACT_HOT_LOADER__.register(Modal, 'Modal', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Modal.js');
 }();
 
 ;
@@ -55616,25 +55652,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(_style2, "_style2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_style2, "_style2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(_class2, "_class2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_class2, "_class2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(_scrollbarSize2, "_scrollbarSize2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_scrollbarSize2, "_scrollbarSize2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(_isOverflowing2, "_isOverflowing2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_isOverflowing2, "_isOverflowing2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(findIndexOf, "findIndexOf", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(findIndexOf, "findIndexOf", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(findContainer, "findContainer", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(findContainer, "findContainer", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 
-  __REACT_HOT_LOADER__.register(ModalManager, "ModalManager", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/ModalManager.js");
+  __REACT_HOT_LOADER__.register(ModalManager, "ModalManager", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/ModalManager.js");
 }();
 
 ;
@@ -55898,31 +55934,31 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_Portal2, "_Portal2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_Portal2, "_Portal2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_Position2, "_Position2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_Position2, "_Position2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_RootCloseWrapper2, "_RootCloseWrapper2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_RootCloseWrapper2, "_RootCloseWrapper2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_elementType2, "_elementType2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_elementType2, "_elementType2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, "_objectWithoutProperties", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, "_objectWithoutProperties", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 
-  __REACT_HOT_LOADER__.register(Overlay, "Overlay", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Overlay.js");
+  __REACT_HOT_LOADER__.register(Overlay, "Overlay", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Overlay.js");
 }();
 
 ;
@@ -56186,35 +56222,35 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_createClass, "_createClass", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_classnames2, "_classnames2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_classnames2, "_classnames2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_react2, "_react2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_reactDom2, "_reactDom2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_reactDom2, "_reactDom2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_componentOrElement2, "_componentOrElement2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_componentOrElement2, "_componentOrElement2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_calculatePosition2, "_calculatePosition2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_calculatePosition2, "_calculatePosition2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_getContainer2, "_getContainer2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_getContainer2, "_getContainer2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, "_ownerDocument2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_ownerDocument2, "_ownerDocument2", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, "_objectWithoutProperties", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, "_objectWithoutProperties", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_classCallCheck, "_classCallCheck", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, "_possibleConstructorReturn", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(_inherits, "_inherits", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 
-  __REACT_HOT_LOADER__.register(Position, "Position", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/Position.js");
+  __REACT_HOT_LOADER__.register(Position, "Position", "/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/Position.js");
 }();
 
 ;
@@ -56262,7 +56298,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(addFocusListener, 'addFocusListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/addFocusListener.js');
+  __REACT_HOT_LOADER__.register(addFocusListener, 'addFocusListener', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/addFocusListener.js');
 }();
 
 ;
@@ -56409,23 +56445,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_offset2, '_offset2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(_offset2, '_offset2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(_position2, '_position2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(_position2, '_position2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(_scrollTop2, '_scrollTop2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(_scrollTop2, '_scrollTop2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(getContainerDimensions, 'getContainerDimensions', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(getContainerDimensions, 'getContainerDimensions', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(getTopDelta, 'getTopDelta', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(getTopDelta, 'getTopDelta', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(getLeftDelta, 'getLeftDelta', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(getLeftDelta, 'getLeftDelta', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
-  __REACT_HOT_LOADER__.register(calculatePosition, 'calculatePosition', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+  __REACT_HOT_LOADER__.register(calculatePosition, 'calculatePosition', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 }();
 
 ;
@@ -56485,7 +56521,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/createChainedFunction.js');
+  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/createChainedFunction.js');
 }();
 
 ;
@@ -56551,17 +56587,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(BLACKLIST, 'BLACKLIST', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
+  __REACT_HOT_LOADER__.register(BLACKLIST, 'BLACKLIST', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
 
-  __REACT_HOT_LOADER__.register(isHidable, 'isHidable', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
+  __REACT_HOT_LOADER__.register(isHidable, 'isHidable', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
 
-  __REACT_HOT_LOADER__.register(siblings, 'siblings', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
+  __REACT_HOT_LOADER__.register(siblings, 'siblings', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
 
-  __REACT_HOT_LOADER__.register(ariaHidden, 'ariaHidden', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
+  __REACT_HOT_LOADER__.register(ariaHidden, 'ariaHidden', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
 
-  __REACT_HOT_LOADER__.register(hideSiblings, 'hideSiblings', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
+  __REACT_HOT_LOADER__.register(hideSiblings, 'hideSiblings', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
 
-  __REACT_HOT_LOADER__.register(showSiblings, 'showSiblings', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
+  __REACT_HOT_LOADER__.register(showSiblings, 'showSiblings', '/Users/Rob/Desktop/ReTok/node_modules/react-overlays/lib/utils/manageAriaHidden.js');
 }();
 
 ;
@@ -56672,23 +56708,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_storeShape2, '_storeShape2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(_storeShape2, '_storeShape2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, '_possibleConstructorReturn', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, '_possibleConstructorReturn', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(_inherits, '_inherits', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(_inherits, '_inherits', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(didWarnAboutReceivingStore, 'didWarnAboutReceivingStore', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(didWarnAboutReceivingStore, 'didWarnAboutReceivingStore', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(warnAboutReceivingStore, 'warnAboutReceivingStore', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(warnAboutReceivingStore, 'warnAboutReceivingStore', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 
-  __REACT_HOT_LOADER__.register(Provider, 'Provider', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/Provider.js');
+  __REACT_HOT_LOADER__.register(Provider, 'Provider', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/Provider.js');
 }();
 
 ;
@@ -57123,45 +57159,45 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_storeShape2, '_storeShape2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_storeShape2, '_storeShape2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_shallowEqual2, '_shallowEqual2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_shallowEqual2, '_shallowEqual2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_wrapActionCreators2, '_wrapActionCreators2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_wrapActionCreators2, '_wrapActionCreators2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_warning2, '_warning2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_isPlainObject2, '_isPlainObject2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_isPlainObject2, '_isPlainObject2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_hoistNonReactStatics2, '_hoistNonReactStatics2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_hoistNonReactStatics2, '_hoistNonReactStatics2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, '_possibleConstructorReturn', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_possibleConstructorReturn, '_possibleConstructorReturn', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(_inherits, '_inherits', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(_inherits, '_inherits', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(defaultMapStateToProps, 'defaultMapStateToProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(defaultMapStateToProps, 'defaultMapStateToProps', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(defaultMapDispatchToProps, 'defaultMapDispatchToProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(defaultMapDispatchToProps, 'defaultMapDispatchToProps', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(defaultMergeProps, 'defaultMergeProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(defaultMergeProps, 'defaultMergeProps', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(getDisplayName, 'getDisplayName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(getDisplayName, 'getDisplayName', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(errorObject, 'errorObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(errorObject, 'errorObject', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(tryCatch, 'tryCatch', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(tryCatch, 'tryCatch', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(nextVersion, 'nextVersion', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(nextVersion, 'nextVersion', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 
-  __REACT_HOT_LOADER__.register(connect, 'connect', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/components/connect.js');
+  __REACT_HOT_LOADER__.register(connect, 'connect', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/components/connect.js');
 }();
 
 ;
@@ -57205,7 +57241,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(shallowEqual, "shallowEqual", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/utils/shallowEqual.js");
+  __REACT_HOT_LOADER__.register(shallowEqual, "shallowEqual", "/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/utils/shallowEqual.js");
 }();
 
 ;
@@ -57234,7 +57270,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(wrapActionCreators, 'wrapActionCreators', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/lib/utils/wrapActionCreators.js');
+  __REACT_HOT_LOADER__.register(wrapActionCreators, 'wrapActionCreators', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/utils/wrapActionCreators.js');
 }();
 
 ;
@@ -57259,7 +57295,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getPrototype, 'getPrototype', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/_getPrototype.js');
+  __REACT_HOT_LOADER__.register(getPrototype, 'getPrototype', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/_getPrototype.js');
 }();
 
 ;
@@ -57293,7 +57329,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(overArg, "overArg", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/_overArg.js");
+  __REACT_HOT_LOADER__.register(overArg, "overArg", "/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/_overArg.js");
 }();
 
 ;
@@ -57343,7 +57379,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isObjectLike, 'isObjectLike', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isObjectLike.js');
+  __REACT_HOT_LOADER__.register(isObjectLike, 'isObjectLike', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isObjectLike.js');
 }();
 
 ;
@@ -57429,21 +57465,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(objectTag, 'objectTag', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectTag, 'objectTag', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(funcProto, 'funcProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(funcProto, 'funcProto', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(objectProto, 'objectProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectProto, 'objectProto', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(funcToString, 'funcToString', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(funcToString, 'funcToString', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(objectCtorString, 'objectCtorString', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectCtorString, 'objectCtorString', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(objectToString, 'objectToString', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(objectToString, 'objectToString', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 
-  __REACT_HOT_LOADER__.register(isPlainObject, 'isPlainObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
+  __REACT_HOT_LOADER__.register(isPlainObject, 'isPlainObject', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/node_modules/lodash/isPlainObject.js');
 }();
 
 ;
@@ -57491,11 +57527,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/History.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/History.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/History.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/History.js');
 
-  __REACT_HOT_LOADER__.register(History, 'History', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/History.js');
+  __REACT_HOT_LOADER__.register(History, 'History', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/History.js');
 }();
 
 ;
@@ -57551,15 +57587,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexLink.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexLink.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexLink.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexLink.js');
 
-  __REACT_HOT_LOADER__.register(_Link2, '_Link2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexLink.js');
+  __REACT_HOT_LOADER__.register(_Link2, '_Link2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexLink.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexLink.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexLink.js');
 
-  __REACT_HOT_LOADER__.register(IndexLink, 'IndexLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexLink.js');
+  __REACT_HOT_LOADER__.register(IndexLink, 'IndexLink', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexLink.js');
 }();
 
 ;
@@ -57640,23 +57676,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(_Redirect2, '_Redirect2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(_Redirect2, '_Redirect2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 
-  __REACT_HOT_LOADER__.register(IndexRedirect, 'IndexRedirect', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRedirect.js');
+  __REACT_HOT_LOADER__.register(IndexRedirect, 'IndexRedirect', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRedirect.js');
 }();
 
 ;
@@ -57735,17 +57771,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRoute.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRoute.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRoute.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRoute.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRoute.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRoute.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRoute.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRoute.js');
 
-  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRoute.js');
+  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRoute.js');
 
-  __REACT_HOT_LOADER__.register(IndexRoute, 'IndexRoute', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/IndexRoute.js');
+  __REACT_HOT_LOADER__.register(IndexRoute, 'IndexRoute', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/IndexRoute.js');
 }();
 
 ;
@@ -57833,17 +57869,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Lifecycle.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Lifecycle.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Lifecycle.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Lifecycle.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Lifecycle.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Lifecycle.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Lifecycle.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Lifecycle.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Lifecycle.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Lifecycle.js');
 
-  __REACT_HOT_LOADER__.register(Lifecycle, 'Lifecycle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Lifecycle.js');
+  __REACT_HOT_LOADER__.register(Lifecycle, 'Lifecycle', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Lifecycle.js');
 }();
 
 ;
@@ -57919,19 +57955,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 
-  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 
-  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(string, 'string', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 
-  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 
-  __REACT_HOT_LOADER__.register(Route, 'Route', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Route.js');
+  __REACT_HOT_LOADER__.register(Route, 'Route', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Route.js');
 }();
 
 ;
@@ -57996,15 +58032,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteContext.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteContext.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteContext.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteContext.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteContext.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteContext.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteContext.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteContext.js');
 
-  __REACT_HOT_LOADER__.register(RouteContext, 'RouteContext', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RouteContext.js');
+  __REACT_HOT_LOADER__.register(RouteContext, 'RouteContext', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RouteContext.js');
 }();
 
 ;
@@ -58255,37 +58291,37 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_createHashHistory2, '_createHashHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_createHashHistory2, '_createHashHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_createTransitionManager2, '_createTransitionManager2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_createTransitionManager2, '_createTransitionManager2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_RouterContext2, '_RouterContext2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_RouterContext2, '_RouterContext2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(isDeprecatedHistory, 'isDeprecatedHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(isDeprecatedHistory, 'isDeprecatedHistory', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(isUnsupportedHistory, 'isUnsupportedHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(isUnsupportedHistory, 'isUnsupportedHistory', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(_React$PropTypes, '_React$PropTypes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(func, 'func', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(object, 'object', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 
-  __REACT_HOT_LOADER__.register(Router, 'Router', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/Router.js');
+  __REACT_HOT_LOADER__.register(Router, 'Router', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/Router.js');
 }();
 
 ;
@@ -58335,15 +58371,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RoutingContext.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RoutingContext.js');
 
-  __REACT_HOT_LOADER__.register(_RouterContext2, '_RouterContext2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RoutingContext.js');
+  __REACT_HOT_LOADER__.register(_RouterContext2, '_RouterContext2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RoutingContext.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RoutingContext.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RoutingContext.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RoutingContext.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RoutingContext.js');
 
-  __REACT_HOT_LOADER__.register(RoutingContext, 'RoutingContext', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/RoutingContext.js');
+  __REACT_HOT_LOADER__.register(RoutingContext, 'RoutingContext', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/RoutingContext.js');
 }();
 
 ;
@@ -58485,23 +58521,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(createTransitionHook, 'createTransitionHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(createTransitionHook, 'createTransitionHook', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(getEnterHooks, 'getEnterHooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(getEnterHooks, 'getEnterHooks', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(getChangeHooks, 'getChangeHooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(getChangeHooks, 'getChangeHooks', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(runTransitionHooks, 'runTransitionHooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(runTransitionHooks, 'runTransitionHooks', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(runEnterHooks, 'runEnterHooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(runEnterHooks, 'runEnterHooks', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(runChangeHooks, 'runChangeHooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(runChangeHooks, 'runChangeHooks', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 
-  __REACT_HOT_LOADER__.register(runLeaveHooks, 'runLeaveHooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/TransitionUtils.js');
+  __REACT_HOT_LOADER__.register(runLeaveHooks, 'runLeaveHooks', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/TransitionUtils.js');
 }();
 
 ;
@@ -58586,15 +58622,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
 
-  __REACT_HOT_LOADER__.register(_RouterContext2, '_RouterContext2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
+  __REACT_HOT_LOADER__.register(_RouterContext2, '_RouterContext2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/applyRouterMiddleware.js');
 }();
 
 ;
@@ -58630,11 +58666,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_createBrowserHistory2, '_createBrowserHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/browserHistory.js');
+  __REACT_HOT_LOADER__.register(_createBrowserHistory2, '_createBrowserHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/browserHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createRouterHistory2, '_createRouterHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/browserHistory.js');
+  __REACT_HOT_LOADER__.register(_createRouterHistory2, '_createRouterHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/browserHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/browserHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/browserHistory.js');
 }();
 
 ;
@@ -58728,9 +58764,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(routeParamsChanged, 'routeParamsChanged', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/computeChangedRoutes.js');
+  __REACT_HOT_LOADER__.register(routeParamsChanged, 'routeParamsChanged', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/computeChangedRoutes.js');
 
-  __REACT_HOT_LOADER__.register(computeChangedRoutes, 'computeChangedRoutes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/computeChangedRoutes.js');
+  __REACT_HOT_LOADER__.register(computeChangedRoutes, 'computeChangedRoutes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/computeChangedRoutes.js');
 }();
 
 ;
@@ -58795,13 +58831,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_makeStateWithLocation2, '_makeStateWithLocation2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/getComponents.js');
+  __REACT_HOT_LOADER__.register(_makeStateWithLocation2, '_makeStateWithLocation2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/getComponents.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/getComponents.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/getComponents.js');
 
-  __REACT_HOT_LOADER__.register(getComponentsForRoute, 'getComponentsForRoute', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/getComponents.js');
+  __REACT_HOT_LOADER__.register(getComponentsForRoute, 'getComponentsForRoute', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/getComponents.js');
 
-  __REACT_HOT_LOADER__.register(getComponents, 'getComponents', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/getComponents.js');
+  __REACT_HOT_LOADER__.register(getComponents, 'getComponents', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/getComponents.js');
 }();
 
 ;
@@ -58844,7 +58880,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getRouteParams, 'getRouteParams', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/getRouteParams.js');
+  __REACT_HOT_LOADER__.register(getRouteParams, 'getRouteParams', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/getRouteParams.js');
 }();
 
 ;
@@ -58879,11 +58915,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_createHashHistory2, '_createHashHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/hashHistory.js');
+  __REACT_HOT_LOADER__.register(_createHashHistory2, '_createHashHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/hashHistory.js');
 
-  __REACT_HOT_LOADER__.register(_createRouterHistory2, '_createRouterHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/hashHistory.js');
+  __REACT_HOT_LOADER__.register(_createRouterHistory2, '_createRouterHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/hashHistory.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/hashHistory.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/hashHistory.js');
 }();
 
 ;
@@ -59058,17 +59094,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/isActive.js");
+  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/isActive.js");
 
-  __REACT_HOT_LOADER__.register(deepEqual, "deepEqual", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/isActive.js");
+  __REACT_HOT_LOADER__.register(deepEqual, "deepEqual", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/isActive.js");
 
-  __REACT_HOT_LOADER__.register(pathIsActive, "pathIsActive", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/isActive.js");
+  __REACT_HOT_LOADER__.register(pathIsActive, "pathIsActive", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/isActive.js");
 
-  __REACT_HOT_LOADER__.register(routeIsActive, "routeIsActive", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/isActive.js");
+  __REACT_HOT_LOADER__.register(routeIsActive, "routeIsActive", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/isActive.js");
 
-  __REACT_HOT_LOADER__.register(queryIsActive, "queryIsActive", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/isActive.js");
+  __REACT_HOT_LOADER__.register(queryIsActive, "queryIsActive", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/isActive.js");
 
-  __REACT_HOT_LOADER__.register(isActive, "isActive", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/isActive.js");
+  __REACT_HOT_LOADER__.register(isActive, "isActive", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/isActive.js");
 }();
 
 ;
@@ -59182,19 +59218,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 
-  __REACT_HOT_LOADER__.register(_createMemoryHistory2, '_createMemoryHistory2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(_createMemoryHistory2, '_createMemoryHistory2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 
-  __REACT_HOT_LOADER__.register(_createTransitionManager2, '_createTransitionManager2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(_createTransitionManager2, '_createTransitionManager2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 
-  __REACT_HOT_LOADER__.register(match, 'match', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/match.js');
+  __REACT_HOT_LOADER__.register(match, 'match', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/match.js');
 }();
 
 ;
@@ -59479,27 +59515,27 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(_extends, "_extends", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(_typeof, "_typeof", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(_makeStateWithLocation2, "_makeStateWithLocation2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(_makeStateWithLocation2, "_makeStateWithLocation2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, "_routerWarning2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(_routerWarning2, "_routerWarning2", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(getChildRoutes, "getChildRoutes", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(getChildRoutes, "getChildRoutes", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(getIndexRoute, "getIndexRoute", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(getIndexRoute, "getIndexRoute", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(assignParams, "assignParams", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(assignParams, "assignParams", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(createParams, "createParams", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(createParams, "createParams", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(matchRouteDeep, "matchRouteDeep", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(matchRouteDeep, "matchRouteDeep", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 
-  __REACT_HOT_LOADER__.register(matchRoutes, "matchRoutes", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/matchRoutes.js");
+  __REACT_HOT_LOADER__.register(matchRoutes, "matchRoutes", "/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/matchRoutes.js");
 }();
 
 ;
@@ -59582,19 +59618,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 
-  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(_useQueries2, '_useQueries2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 
-  __REACT_HOT_LOADER__.register(_createTransitionManager2, '_createTransitionManager2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(_createTransitionManager2, '_createTransitionManager2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 
-  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(_routerWarning2, '_routerWarning2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 
-  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(_objectWithoutProperties, '_objectWithoutProperties', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 
-  __REACT_HOT_LOADER__.register(useRoutes, 'useRoutes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/useRoutes.js');
+  __REACT_HOT_LOADER__.register(useRoutes, 'useRoutes', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/useRoutes.js');
 }();
 
 ;
@@ -59686,19 +59722,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 
-  __REACT_HOT_LOADER__.register(_hoistNonReactStatics2, '_hoistNonReactStatics2', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(_hoistNonReactStatics2, '_hoistNonReactStatics2', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 
-  __REACT_HOT_LOADER__.register(getDisplayName, 'getDisplayName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(getDisplayName, 'getDisplayName', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 
-  __REACT_HOT_LOADER__.register(withRouter, 'withRouter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-router/lib/withRouter.js');
+  __REACT_HOT_LOADER__.register(withRouter, 'withRouter', '/Users/Rob/Desktop/ReTok/node_modules/react-router/lib/withRouter.js');
 }();
 
 ;
@@ -59740,7 +59776,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AutoFocusUtils, 'AutoFocusUtils', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/AutoFocusUtils.js');
+  __REACT_HOT_LOADER__.register(AutoFocusUtils, 'AutoFocusUtils', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/AutoFocusUtils.js');
 }();
 
 ;
@@ -60149,51 +60185,51 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(END_KEYCODES, 'END_KEYCODES', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(END_KEYCODES, 'END_KEYCODES', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(START_KEYCODE, 'START_KEYCODE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(START_KEYCODE, 'START_KEYCODE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(canUseCompositionEvent, 'canUseCompositionEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(canUseCompositionEvent, 'canUseCompositionEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(documentMode, 'documentMode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(documentMode, 'documentMode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(canUseTextInputEvent, 'canUseTextInputEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(canUseTextInputEvent, 'canUseTextInputEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(useFallbackCompositionData, 'useFallbackCompositionData', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(useFallbackCompositionData, 'useFallbackCompositionData', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(isPresto, 'isPresto', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(isPresto, 'isPresto', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(SPACEBAR_CODE, 'SPACEBAR_CODE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(SPACEBAR_CODE, 'SPACEBAR_CODE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(SPACEBAR_CHAR, 'SPACEBAR_CHAR', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(SPACEBAR_CHAR, 'SPACEBAR_CHAR', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(hasSpaceKeypress, 'hasSpaceKeypress', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(hasSpaceKeypress, 'hasSpaceKeypress', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(isKeypressCommand, 'isKeypressCommand', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(isKeypressCommand, 'isKeypressCommand', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getCompositionEventType, 'getCompositionEventType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getCompositionEventType, 'getCompositionEventType', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(isFallbackCompositionStart, 'isFallbackCompositionStart', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(isFallbackCompositionStart, 'isFallbackCompositionStart', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(isFallbackCompositionEnd, 'isFallbackCompositionEnd', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(isFallbackCompositionEnd, 'isFallbackCompositionEnd', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getDataFromCustomEvent, 'getDataFromCustomEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getDataFromCustomEvent, 'getDataFromCustomEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(currentComposition, 'currentComposition', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(currentComposition, 'currentComposition', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(extractCompositionEvent, 'extractCompositionEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(extractCompositionEvent, 'extractCompositionEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getNativeBeforeInputChars, 'getNativeBeforeInputChars', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getNativeBeforeInputChars, 'getNativeBeforeInputChars', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getFallbackBeforeInputChars, 'getFallbackBeforeInputChars', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getFallbackBeforeInputChars, 'getFallbackBeforeInputChars', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(extractBeforeInputEvent, 'extractBeforeInputEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(extractBeforeInputEvent, 'extractBeforeInputEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(BeforeInputEventPlugin, 'BeforeInputEventPlugin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
+  __REACT_HOT_LOADER__.register(BeforeInputEventPlugin, 'BeforeInputEventPlugin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/BeforeInputEventPlugin.js');
 }();
 
 ;
@@ -60415,37 +60451,37 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(processStyleName, 'processStyleName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(processStyleName, 'processStyleName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(hasShorthandPropertyBug, 'hasShorthandPropertyBug', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(hasShorthandPropertyBug, 'hasShorthandPropertyBug', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(styleFloatAccessor, 'styleFloatAccessor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(styleFloatAccessor, 'styleFloatAccessor', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(tempStyle, 'tempStyle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(tempStyle, 'tempStyle', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(badVendoredStyleNamePattern, 'badVendoredStyleNamePattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(badVendoredStyleNamePattern, 'badVendoredStyleNamePattern', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(badStyleValueWithSemicolonPattern, 'badStyleValueWithSemicolonPattern', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(badStyleValueWithSemicolonPattern, 'badStyleValueWithSemicolonPattern', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnedStyleNames, 'warnedStyleNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnedStyleNames, 'warnedStyleNames', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnedStyleValues, 'warnedStyleValues', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnedStyleValues, 'warnedStyleValues', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnedForNaNValue, 'warnedForNaNValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnedForNaNValue, 'warnedForNaNValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnHyphenatedStyleName, 'warnHyphenatedStyleName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnHyphenatedStyleName, 'warnHyphenatedStyleName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnBadVendoredStyleName, 'warnBadVendoredStyleName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnBadVendoredStyleName, 'warnBadVendoredStyleName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnStyleValueWithSemicolon, 'warnStyleValueWithSemicolon', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnStyleValueWithSemicolon, 'warnStyleValueWithSemicolon', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnStyleValueIsNaN, 'warnStyleValueIsNaN', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnStyleValueIsNaN, 'warnStyleValueIsNaN', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(checkRenderMessage, 'checkRenderMessage', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(checkRenderMessage, 'checkRenderMessage', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(warnValidStyle, 'warnValidStyle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(warnValidStyle, 'warnValidStyle', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 
-  __REACT_HOT_LOADER__.register(CSSPropertyOperations, 'CSSPropertyOperations', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
+  __REACT_HOT_LOADER__.register(CSSPropertyOperations, 'CSSPropertyOperations', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/CSSPropertyOperations.js');
 }();
 
 ;
@@ -60788,55 +60824,55 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(activeElement, 'activeElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(activeElement, 'activeElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(activeElementInst, 'activeElementInst', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(activeElementInst, 'activeElementInst', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(activeElementValue, 'activeElementValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(activeElementValue, 'activeElementValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(activeElementValueProp, 'activeElementValueProp', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(activeElementValueProp, 'activeElementValueProp', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(shouldUseChangeEvent, 'shouldUseChangeEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(shouldUseChangeEvent, 'shouldUseChangeEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(doesChangeEventBubble, 'doesChangeEventBubble', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(doesChangeEventBubble, 'doesChangeEventBubble', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(manualDispatchChangeEvent, 'manualDispatchChangeEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(manualDispatchChangeEvent, 'manualDispatchChangeEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(runEventInBatch, 'runEventInBatch', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(runEventInBatch, 'runEventInBatch', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(startWatchingForChangeEventIE8, 'startWatchingForChangeEventIE8', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(startWatchingForChangeEventIE8, 'startWatchingForChangeEventIE8', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(stopWatchingForChangeEventIE8, 'stopWatchingForChangeEventIE8', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(stopWatchingForChangeEventIE8, 'stopWatchingForChangeEventIE8', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getTargetInstForChangeEvent, 'getTargetInstForChangeEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getTargetInstForChangeEvent, 'getTargetInstForChangeEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(handleEventsForChangeEventIE8, 'handleEventsForChangeEventIE8', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(handleEventsForChangeEventIE8, 'handleEventsForChangeEventIE8', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(isInputEventSupported, 'isInputEventSupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(isInputEventSupported, 'isInputEventSupported', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(newValueProp, 'newValueProp', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(newValueProp, 'newValueProp', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(startWatchingForValueChange, 'startWatchingForValueChange', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(startWatchingForValueChange, 'startWatchingForValueChange', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(stopWatchingForValueChange, 'stopWatchingForValueChange', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(stopWatchingForValueChange, 'stopWatchingForValueChange', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(handlePropertyChange, 'handlePropertyChange', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(handlePropertyChange, 'handlePropertyChange', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getTargetInstForInputEvent, 'getTargetInstForInputEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getTargetInstForInputEvent, 'getTargetInstForInputEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(handleEventsForInputEventIE, 'handleEventsForInputEventIE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(handleEventsForInputEventIE, 'handleEventsForInputEventIE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getTargetInstForInputEventIE, 'getTargetInstForInputEventIE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getTargetInstForInputEventIE, 'getTargetInstForInputEventIE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(shouldUseClickEvent, 'shouldUseClickEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(shouldUseClickEvent, 'shouldUseClickEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getTargetInstForClickEvent, 'getTargetInstForClickEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getTargetInstForClickEvent, 'getTargetInstForClickEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(ChangeEventPlugin, 'ChangeEventPlugin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
+  __REACT_HOT_LOADER__.register(ChangeEventPlugin, 'ChangeEventPlugin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ChangeEventPlugin.js');
 }();
 
 ;
@@ -60901,7 +60937,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Danger, 'Danger', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/Danger.js');
+  __REACT_HOT_LOADER__.register(Danger, 'Danger', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/Danger.js');
 }();
 
 ;
@@ -60946,7 +60982,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DefaultEventPluginOrder, 'DefaultEventPluginOrder', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/DefaultEventPluginOrder.js');
+  __REACT_HOT_LOADER__.register(DefaultEventPluginOrder, 'DefaultEventPluginOrder', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/DefaultEventPluginOrder.js');
 }();
 
 ;
@@ -61068,11 +61104,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EnterLeaveEventPlugin.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EnterLeaveEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EnterLeaveEventPlugin.js');
+  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EnterLeaveEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(EnterLeaveEventPlugin, 'EnterLeaveEventPlugin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/EnterLeaveEventPlugin.js');
+  __REACT_HOT_LOADER__.register(EnterLeaveEventPlugin, 'EnterLeaveEventPlugin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/EnterLeaveEventPlugin.js');
 }();
 
 ;
@@ -61184,7 +61220,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(FallbackCompositionState, 'FallbackCompositionState', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/FallbackCompositionState.js');
+  __REACT_HOT_LOADER__.register(FallbackCompositionState, 'FallbackCompositionState', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/FallbackCompositionState.js');
 }();
 
 ;
@@ -61413,17 +61449,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MUST_USE_PROPERTY, 'MUST_USE_PROPERTY', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(MUST_USE_PROPERTY, 'MUST_USE_PROPERTY', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(HAS_BOOLEAN_VALUE, 'HAS_BOOLEAN_VALUE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(HAS_BOOLEAN_VALUE, 'HAS_BOOLEAN_VALUE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(HAS_NUMERIC_VALUE, 'HAS_NUMERIC_VALUE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(HAS_NUMERIC_VALUE, 'HAS_NUMERIC_VALUE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(HAS_POSITIVE_NUMERIC_VALUE, 'HAS_POSITIVE_NUMERIC_VALUE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(HAS_POSITIVE_NUMERIC_VALUE, 'HAS_POSITIVE_NUMERIC_VALUE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(HAS_OVERLOADED_BOOLEAN_VALUE, 'HAS_OVERLOADED_BOOLEAN_VALUE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(HAS_OVERLOADED_BOOLEAN_VALUE, 'HAS_OVERLOADED_BOOLEAN_VALUE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(HTMLDOMPropertyConfig, 'HTMLDOMPropertyConfig', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(HTMLDOMPropertyConfig, 'HTMLDOMPropertyConfig', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/HTMLDOMPropertyConfig.js');
 }();
 
 ;
@@ -61529,17 +61565,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createElement, 'createElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/React.js');
+  __REACT_HOT_LOADER__.register(createElement, 'createElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/React.js');
 
-  __REACT_HOT_LOADER__.register(createFactory, 'createFactory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/React.js');
+  __REACT_HOT_LOADER__.register(createFactory, 'createFactory', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/React.js');
 
-  __REACT_HOT_LOADER__.register(cloneElement, 'cloneElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/React.js');
+  __REACT_HOT_LOADER__.register(cloneElement, 'cloneElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/React.js');
 
-  __REACT_HOT_LOADER__.register(__spread, '__spread', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/React.js');
+  __REACT_HOT_LOADER__.register(__spread, '__spread', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/React.js');
 
-  __REACT_HOT_LOADER__.register(warned, 'warned', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/React.js');
+  __REACT_HOT_LOADER__.register(warned, 'warned', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/React.js');
 
-  __REACT_HOT_LOADER__.register(React, 'React', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/React.js');
+  __REACT_HOT_LOADER__.register(React, 'React', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/React.js');
 }();
 
 ;
@@ -61711,11 +61747,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildReconciler.js');
+  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildReconciler.js');
 
-  __REACT_HOT_LOADER__.register(instantiateChild, 'instantiateChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildReconciler.js');
+  __REACT_HOT_LOADER__.register(instantiateChild, 'instantiateChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildReconciler.js');
 
-  __REACT_HOT_LOADER__.register(ReactChildReconciler, 'ReactChildReconciler', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildReconciler.js');
+  __REACT_HOT_LOADER__.register(ReactChildReconciler, 'ReactChildReconciler', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildReconciler.js');
 }();
 
 ;
@@ -61787,9 +61823,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(handleElement, 'handleElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildrenMutationWarningHook.js');
+  __REACT_HOT_LOADER__.register(handleElement, 'handleElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildrenMutationWarningHook.js');
 
-  __REACT_HOT_LOADER__.register(ReactChildrenMutationWarningHook, 'ReactChildrenMutationWarningHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactChildrenMutationWarningHook.js');
+  __REACT_HOT_LOADER__.register(ReactChildrenMutationWarningHook, 'ReactChildrenMutationWarningHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactChildrenMutationWarningHook.js');
 }();
 
 ;
@@ -61837,7 +61873,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactComponentBrowserEnvironment, 'ReactComponentBrowserEnvironment', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactComponentBrowserEnvironment.js');
+  __REACT_HOT_LOADER__.register(ReactComponentBrowserEnvironment, 'ReactComponentBrowserEnvironment', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactComponentBrowserEnvironment.js');
 }();
 
 ;
@@ -62760,23 +62796,23 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CompositeTypes, 'CompositeTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(CompositeTypes, 'CompositeTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(StatelessComponent, 'StatelessComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(StatelessComponent, 'StatelessComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(warnIfInvalidElement, 'warnIfInvalidElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(warnIfInvalidElement, 'warnIfInvalidElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(shouldConstruct, 'shouldConstruct', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(shouldConstruct, 'shouldConstruct', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(isPureComponent, 'isPureComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(isPureComponent, 'isPureComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(measureLifeCyclePerf, 'measureLifeCyclePerf', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(measureLifeCyclePerf, 'measureLifeCyclePerf', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(nextMountID, 'nextMountID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(nextMountID, 'nextMountID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactCompositeComponentMixin, 'ReactCompositeComponentMixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(ReactCompositeComponentMixin, 'ReactCompositeComponentMixin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactCompositeComponent, 'ReactCompositeComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
+  __REACT_HOT_LOADER__.register(ReactCompositeComponent, 'ReactCompositeComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactCompositeComponent.js');
 }();
 
 ;
@@ -62904,17 +62940,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOM, 'ReactDOM', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOM.js');
+  __REACT_HOT_LOADER__.register(ReactDOM, 'ReactDOM', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOM.js');
 
-  __REACT_HOT_LOADER__.register(showFileUrlMessage, 'showFileUrlMessage', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOM.js');
+  __REACT_HOT_LOADER__.register(showFileUrlMessage, 'showFileUrlMessage', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOM.js');
 
-  __REACT_HOT_LOADER__.register(testFunc, 'testFunc', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOM.js');
+  __REACT_HOT_LOADER__.register(testFunc, 'testFunc', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOM.js');
 
-  __REACT_HOT_LOADER__.register(ieCompatibilityMode, 'ieCompatibilityMode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOM.js');
+  __REACT_HOT_LOADER__.register(ieCompatibilityMode, 'ieCompatibilityMode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOM.js');
 
-  __REACT_HOT_LOADER__.register(expectedFeatures, 'expectedFeatures', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOM.js');
+  __REACT_HOT_LOADER__.register(expectedFeatures, 'expectedFeatures', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOM.js');
 
-  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOM.js');
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOM.js');
 }();
 
 ;
@@ -62956,7 +62992,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOMButton, 'ReactDOMButton', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMButton.js');
+  __REACT_HOT_LOADER__.register(ReactDOMButton, 'ReactDOMButton', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMButton.js');
 }();
 
 ;
@@ -63981,73 +64017,73 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(Flags, 'Flags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(Flags, 'Flags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(deleteListener, 'deleteListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(deleteListener, 'deleteListener', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(getNode, 'getNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(getNode, 'getNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(listenTo, 'listenTo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(listenTo, 'listenTo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(registrationNameModules, 'registrationNameModules', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(registrationNameModules, 'registrationNameModules', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(CONTENT_TYPES, 'CONTENT_TYPES', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(CONTENT_TYPES, 'CONTENT_TYPES', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(STYLE, 'STYLE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(STYLE, 'STYLE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(HTML, 'HTML', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(HTML, 'HTML', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(RESERVED_PROPS, 'RESERVED_PROPS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(RESERVED_PROPS, 'RESERVED_PROPS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(DOC_FRAGMENT_TYPE, 'DOC_FRAGMENT_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(DOC_FRAGMENT_TYPE, 'DOC_FRAGMENT_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(getDeclarationErrorAddendum, 'getDeclarationErrorAddendum', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(friendlyStringify, 'friendlyStringify', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(friendlyStringify, 'friendlyStringify', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(styleMutationWarning, 'styleMutationWarning', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(styleMutationWarning, 'styleMutationWarning', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(checkAndWarnForMutatedStyle, 'checkAndWarnForMutatedStyle', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(checkAndWarnForMutatedStyle, 'checkAndWarnForMutatedStyle', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(assertValidProps, 'assertValidProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(assertValidProps, 'assertValidProps', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(enqueuePutListener, 'enqueuePutListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(enqueuePutListener, 'enqueuePutListener', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(putListener, 'putListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(putListener, 'putListener', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(inputPostMount, 'inputPostMount', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(inputPostMount, 'inputPostMount', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(textareaPostMount, 'textareaPostMount', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(textareaPostMount, 'textareaPostMount', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(optionPostMount, 'optionPostMount', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(optionPostMount, 'optionPostMount', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(setAndValidateContentChildDev, 'setAndValidateContentChildDev', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(setAndValidateContentChildDev, 'setAndValidateContentChildDev', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(mediaEvents, 'mediaEvents', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(mediaEvents, 'mediaEvents', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(trapBubbledEventsLocal, 'trapBubbledEventsLocal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(trapBubbledEventsLocal, 'trapBubbledEventsLocal', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(postUpdateSelectWrapper, 'postUpdateSelectWrapper', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(postUpdateSelectWrapper, 'postUpdateSelectWrapper', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(omittedCloseTags, 'omittedCloseTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(omittedCloseTags, 'omittedCloseTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(newlineEatingTags, 'newlineEatingTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(newlineEatingTags, 'newlineEatingTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(voidElementTags, 'voidElementTags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(voidElementTags, 'voidElementTags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(VALID_TAG_REGEX, 'VALID_TAG_REGEX', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(VALID_TAG_REGEX, 'VALID_TAG_REGEX', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(validatedTagCache, 'validatedTagCache', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(validatedTagCache, 'validatedTagCache', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(validateDangerousTag, 'validateDangerousTag', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(validateDangerousTag, 'validateDangerousTag', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(isCustomComponent, 'isCustomComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(isCustomComponent, 'isCustomComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(globalIdCounter, 'globalIdCounter', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(globalIdCounter, 'globalIdCounter', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMComponent, 'ReactDOMComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponent.js');
+  __REACT_HOT_LOADER__.register(ReactDOMComponent, 'ReactDOMComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMComponent.js');
 }();
 
 ;
@@ -64098,9 +64134,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DOC_NODE_TYPE, 'DOC_NODE_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMContainerInfo.js');
+  __REACT_HOT_LOADER__.register(DOC_NODE_TYPE, 'DOC_NODE_TYPE', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMContainerInfo.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMContainerInfo, 'ReactDOMContainerInfo', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMContainerInfo.js');
+  __REACT_HOT_LOADER__.register(ReactDOMContainerInfo, 'ReactDOMContainerInfo', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMContainerInfo.js');
 }();
 
 ;
@@ -64178,7 +64214,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOMEmptyComponent, 'ReactDOMEmptyComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMEmptyComponent.js');
+  __REACT_HOT_LOADER__.register(ReactDOMEmptyComponent, 'ReactDOMEmptyComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMEmptyComponent.js');
 }();
 
 ;
@@ -64365,9 +64401,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(createDOMFactory, 'createDOMFactory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMFactories.js');
+  __REACT_HOT_LOADER__.register(createDOMFactory, 'createDOMFactory', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMFactories.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMFactories, 'ReactDOMFactories', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMFactories.js');
+  __REACT_HOT_LOADER__.register(ReactDOMFactories, 'ReactDOMFactories', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMFactories.js');
 }();
 
 ;
@@ -64403,7 +64439,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOMFeatureFlags, 'ReactDOMFeatureFlags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMFeatureFlags.js');
+  __REACT_HOT_LOADER__.register(ReactDOMFeatureFlags, 'ReactDOMFeatureFlags', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMFeatureFlags.js');
 }();
 
 ;
@@ -64454,7 +64490,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOMIDOperations, 'ReactDOMIDOperations', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMIDOperations.js');
+  __REACT_HOT_LOADER__.register(ReactDOMIDOperations, 'ReactDOMIDOperations', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMIDOperations.js');
 }();
 
 ;
@@ -64740,25 +64776,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(didWarnValueLink, 'didWarnValueLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(didWarnValueLink, 'didWarnValueLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(didWarnCheckedLink, 'didWarnCheckedLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(didWarnCheckedLink, 'didWarnCheckedLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(didWarnValueDefaultValue, 'didWarnValueDefaultValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(didWarnValueDefaultValue, 'didWarnValueDefaultValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(didWarnCheckedDefaultChecked, 'didWarnCheckedDefaultChecked', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(didWarnCheckedDefaultChecked, 'didWarnCheckedDefaultChecked', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(didWarnControlledToUncontrolled, 'didWarnControlledToUncontrolled', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(didWarnControlledToUncontrolled, 'didWarnControlledToUncontrolled', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(didWarnUncontrolledToControlled, 'didWarnUncontrolledToControlled', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(didWarnUncontrolledToControlled, 'didWarnUncontrolledToControlled', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(forceUpdateIfMounted, 'forceUpdateIfMounted', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(forceUpdateIfMounted, 'forceUpdateIfMounted', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(isControlled, 'isControlled', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(isControlled, 'isControlled', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMInput, 'ReactDOMInput', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(ReactDOMInput, 'ReactDOMInput', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 
-  __REACT_HOT_LOADER__.register(_handleChange, '_handleChange', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMInput.js');
+  __REACT_HOT_LOADER__.register(_handleChange, '_handleChange', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMInput.js');
 }();
 
 ;
@@ -64819,11 +64855,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(didWarnValueNull, 'didWarnValueNull', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMNullInputValuePropHook.js');
+  __REACT_HOT_LOADER__.register(didWarnValueNull, 'didWarnValueNull', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMNullInputValuePropHook.js');
 
-  __REACT_HOT_LOADER__.register(handleElement, 'handleElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMNullInputValuePropHook.js');
+  __REACT_HOT_LOADER__.register(handleElement, 'handleElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMNullInputValuePropHook.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMNullInputValuePropHook, 'ReactDOMNullInputValuePropHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMNullInputValuePropHook.js');
+  __REACT_HOT_LOADER__.register(ReactDOMNullInputValuePropHook, 'ReactDOMNullInputValuePropHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMNullInputValuePropHook.js');
 }();
 
 ;
@@ -64964,11 +65000,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(didWarnInvalidOptionChildren, 'didWarnInvalidOptionChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMOption.js');
+  __REACT_HOT_LOADER__.register(didWarnInvalidOptionChildren, 'didWarnInvalidOptionChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMOption.js');
 
-  __REACT_HOT_LOADER__.register(flattenChildren, 'flattenChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMOption.js');
+  __REACT_HOT_LOADER__.register(flattenChildren, 'flattenChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMOption.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMOption, 'ReactDOMOption', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMOption.js');
+  __REACT_HOT_LOADER__.register(ReactDOMOption, 'ReactDOMOption', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMOption.js');
 }();
 
 ;
@@ -65198,19 +65234,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isCollapsed, 'isCollapsed', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(isCollapsed, 'isCollapsed', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 
-  __REACT_HOT_LOADER__.register(getIEOffsets, 'getIEOffsets', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(getIEOffsets, 'getIEOffsets', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 
-  __REACT_HOT_LOADER__.register(getModernOffsets, 'getModernOffsets', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(getModernOffsets, 'getModernOffsets', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 
-  __REACT_HOT_LOADER__.register(setIEOffsets, 'setIEOffsets', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(setIEOffsets, 'setIEOffsets', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 
-  __REACT_HOT_LOADER__.register(setModernOffsets, 'setModernOffsets', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(setModernOffsets, 'setModernOffsets', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 
-  __REACT_HOT_LOADER__.register(useIEOffsets, 'useIEOffsets', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(useIEOffsets, 'useIEOffsets', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMSelection, 'ReactDOMSelection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMSelection.js');
+  __REACT_HOT_LOADER__.register(ReactDOMSelection, 'ReactDOMSelection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMSelection.js');
 }();
 
 ;
@@ -65391,7 +65427,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactDOMTextComponent, 'ReactDOMTextComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTextComponent.js');
+  __REACT_HOT_LOADER__.register(ReactDOMTextComponent, 'ReactDOMTextComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTextComponent.js');
 }();
 
 ;
@@ -65564,15 +65600,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(didWarnValueLink, 'didWarnValueLink', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
+  __REACT_HOT_LOADER__.register(didWarnValueLink, 'didWarnValueLink', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
 
-  __REACT_HOT_LOADER__.register(didWarnValDefaultVal, 'didWarnValDefaultVal', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
+  __REACT_HOT_LOADER__.register(didWarnValDefaultVal, 'didWarnValDefaultVal', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
 
-  __REACT_HOT_LOADER__.register(forceUpdateIfMounted, 'forceUpdateIfMounted', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
+  __REACT_HOT_LOADER__.register(forceUpdateIfMounted, 'forceUpdateIfMounted', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMTextarea, 'ReactDOMTextarea', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
+  __REACT_HOT_LOADER__.register(ReactDOMTextarea, 'ReactDOMTextarea', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
 
-  __REACT_HOT_LOADER__.register(_handleChange, '_handleChange', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
+  __REACT_HOT_LOADER__.register(_handleChange, '_handleChange', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTextarea.js');
 }();
 
 ;
@@ -65726,15 +65762,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getLowestCommonAncestor, 'getLowestCommonAncestor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
+  __REACT_HOT_LOADER__.register(getLowestCommonAncestor, 'getLowestCommonAncestor', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
 
-  __REACT_HOT_LOADER__.register(isAncestor, 'isAncestor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
+  __REACT_HOT_LOADER__.register(isAncestor, 'isAncestor', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
 
-  __REACT_HOT_LOADER__.register(getParentInstance, 'getParentInstance', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
+  __REACT_HOT_LOADER__.register(getParentInstance, 'getParentInstance', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
 
-  __REACT_HOT_LOADER__.register(traverseTwoPhase, 'traverseTwoPhase', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
+  __REACT_HOT_LOADER__.register(traverseTwoPhase, 'traverseTwoPhase', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
 
-  __REACT_HOT_LOADER__.register(traverseEnterLeave, 'traverseEnterLeave', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
+  __REACT_HOT_LOADER__.register(traverseEnterLeave, 'traverseEnterLeave', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMTreeTraversal.js');
 }();
 
 ;
@@ -65864,17 +65900,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reactProps, 'reactProps', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
+  __REACT_HOT_LOADER__.register(reactProps, 'reactProps', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
 
-  __REACT_HOT_LOADER__.register(warnedProperties, 'warnedProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
+  __REACT_HOT_LOADER__.register(warnedProperties, 'warnedProperties', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
 
-  __REACT_HOT_LOADER__.register(validateProperty, 'validateProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
+  __REACT_HOT_LOADER__.register(validateProperty, 'validateProperty', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
 
-  __REACT_HOT_LOADER__.register(warnUnknownProperties, 'warnUnknownProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
+  __REACT_HOT_LOADER__.register(warnUnknownProperties, 'warnUnknownProperties', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
 
-  __REACT_HOT_LOADER__.register(handleElement, 'handleElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
+  __REACT_HOT_LOADER__.register(handleElement, 'handleElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
 
-  __REACT_HOT_LOADER__.register(ReactDOMUnknownPropertyHook, 'ReactDOMUnknownPropertyHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
+  __REACT_HOT_LOADER__.register(ReactDOMUnknownPropertyHook, 'ReactDOMUnknownPropertyHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDOMUnknownPropertyHook.js');
 }();
 
 ;
@@ -66193,55 +66229,55 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(hooks, 'hooks', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(hooks, 'hooks', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(didHookThrowForEvent, 'didHookThrowForEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(didHookThrowForEvent, 'didHookThrowForEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(callHook, 'callHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(callHook, 'callHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(emitEvent, 'emitEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(emitEvent, 'emitEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(_isProfiling, 'isProfiling', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(_isProfiling, 'isProfiling', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(flushHistory, 'flushHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(flushHistory, 'flushHistory', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(lifeCycleTimerStack, 'lifeCycleTimerStack', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(lifeCycleTimerStack, 'lifeCycleTimerStack', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentFlushNesting, 'currentFlushNesting', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentFlushNesting, 'currentFlushNesting', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentFlushMeasurements, 'currentFlushMeasurements', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentFlushMeasurements, 'currentFlushMeasurements', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentFlushStartTime, 'currentFlushStartTime', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentFlushStartTime, 'currentFlushStartTime', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentTimerDebugID, 'currentTimerDebugID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentTimerDebugID, 'currentTimerDebugID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentTimerStartTime, 'currentTimerStartTime', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentTimerStartTime, 'currentTimerStartTime', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentTimerNestedFlushDuration, 'currentTimerNestedFlushDuration', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentTimerNestedFlushDuration, 'currentTimerNestedFlushDuration', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(currentTimerType, 'currentTimerType', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(currentTimerType, 'currentTimerType', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(lifeCycleTimerHasWarned, 'lifeCycleTimerHasWarned', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(lifeCycleTimerHasWarned, 'lifeCycleTimerHasWarned', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(clearHistory, 'clearHistory', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(clearHistory, 'clearHistory', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(getTreeSnapshot, 'getTreeSnapshot', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(getTreeSnapshot, 'getTreeSnapshot', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(resetMeasurements, 'resetMeasurements', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(resetMeasurements, 'resetMeasurements', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(checkDebugID, 'checkDebugID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(checkDebugID, 'checkDebugID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(beginLifeCycleTimer, 'beginLifeCycleTimer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(beginLifeCycleTimer, 'beginLifeCycleTimer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(endLifeCycleTimer, 'endLifeCycleTimer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(endLifeCycleTimer, 'endLifeCycleTimer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(pauseCurrentLifeCycleTimer, 'pauseCurrentLifeCycleTimer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(pauseCurrentLifeCycleTimer, 'pauseCurrentLifeCycleTimer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(resumeCurrentLifeCycleTimer, 'resumeCurrentLifeCycleTimer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(resumeCurrentLifeCycleTimer, 'resumeCurrentLifeCycleTimer', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(ReactDebugTool, 'ReactDebugTool', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(ReactDebugTool, 'ReactDebugTool', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 
-  __REACT_HOT_LOADER__.register(url, 'url', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDebugTool.js');
+  __REACT_HOT_LOADER__.register(url, 'url', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDebugTool.js');
 }();
 
 ;
@@ -66327,17 +66363,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(RESET_BATCHED_UPDATES, 'RESET_BATCHED_UPDATES', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
+  __REACT_HOT_LOADER__.register(RESET_BATCHED_UPDATES, 'RESET_BATCHED_UPDATES', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
 
-  __REACT_HOT_LOADER__.register(FLUSH_BATCHED_UPDATES, 'FLUSH_BATCHED_UPDATES', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
+  __REACT_HOT_LOADER__.register(FLUSH_BATCHED_UPDATES, 'FLUSH_BATCHED_UPDATES', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
 
-  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
+  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
 
-  __REACT_HOT_LOADER__.register(ReactDefaultBatchingStrategyTransaction, 'ReactDefaultBatchingStrategyTransaction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
+  __REACT_HOT_LOADER__.register(ReactDefaultBatchingStrategyTransaction, 'ReactDefaultBatchingStrategyTransaction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
 
-  __REACT_HOT_LOADER__.register(transaction, 'transaction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
+  __REACT_HOT_LOADER__.register(transaction, 'transaction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
 
-  __REACT_HOT_LOADER__.register(ReactDefaultBatchingStrategy, 'ReactDefaultBatchingStrategy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
+  __REACT_HOT_LOADER__.register(ReactDefaultBatchingStrategy, 'ReactDefaultBatchingStrategy', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultBatchingStrategy.js');
 }();
 
 ;
@@ -66438,9 +66474,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(alreadyInjected, 'alreadyInjected', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultInjection.js');
+  __REACT_HOT_LOADER__.register(alreadyInjected, 'alreadyInjected', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultInjection.js');
 
-  __REACT_HOT_LOADER__.register(inject, 'inject', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDefaultInjection.js');
+  __REACT_HOT_LOADER__.register(inject, 'inject', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactDefaultInjection.js');
 }();
 
 ;
@@ -66490,9 +66526,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(runEventQueueInBatch, 'runEventQueueInBatch', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventEmitterMixin.js');
+  __REACT_HOT_LOADER__.register(runEventQueueInBatch, 'runEventQueueInBatch', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventEmitterMixin.js');
 
-  __REACT_HOT_LOADER__.register(ReactEventEmitterMixin, 'ReactEventEmitterMixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventEmitterMixin.js');
+  __REACT_HOT_LOADER__.register(ReactEventEmitterMixin, 'ReactEventEmitterMixin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventEmitterMixin.js');
 }();
 
 ;
@@ -66666,15 +66702,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(findParent, 'findParent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventListener.js');
+  __REACT_HOT_LOADER__.register(findParent, 'findParent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventListener.js');
 
-  __REACT_HOT_LOADER__.register(TopLevelCallbackBookKeeping, 'TopLevelCallbackBookKeeping', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventListener.js');
+  __REACT_HOT_LOADER__.register(TopLevelCallbackBookKeeping, 'TopLevelCallbackBookKeeping', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventListener.js');
 
-  __REACT_HOT_LOADER__.register(handleTopLevelImpl, 'handleTopLevelImpl', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventListener.js');
+  __REACT_HOT_LOADER__.register(handleTopLevelImpl, 'handleTopLevelImpl', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventListener.js');
 
-  __REACT_HOT_LOADER__.register(scrollValueMonitor, 'scrollValueMonitor', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventListener.js');
+  __REACT_HOT_LOADER__.register(scrollValueMonitor, 'scrollValueMonitor', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventListener.js');
 
-  __REACT_HOT_LOADER__.register(ReactEventListener, 'ReactEventListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactEventListener.js');
+  __REACT_HOT_LOADER__.register(ReactEventListener, 'ReactEventListener', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactEventListener.js');
 }();
 
 ;
@@ -66728,9 +66764,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(history, 'history', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostOperationHistoryHook.js');
+  __REACT_HOT_LOADER__.register(history, 'history', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostOperationHistoryHook.js');
 
-  __REACT_HOT_LOADER__.register(ReactHostOperationHistoryHook, 'ReactHostOperationHistoryHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactHostOperationHistoryHook.js');
+  __REACT_HOT_LOADER__.register(ReactHostOperationHistoryHook, 'ReactHostOperationHistoryHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactHostOperationHistoryHook.js');
 }();
 
 ;
@@ -66783,7 +66819,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactInjection, 'ReactInjection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInjection.js');
+  __REACT_HOT_LOADER__.register(ReactInjection, 'ReactInjection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInjection.js');
 }();
 
 ;
@@ -66836,11 +66872,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(processingChildContext, 'processingChildContext', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInvalidSetStateWarningHook.js');
+  __REACT_HOT_LOADER__.register(processingChildContext, 'processingChildContext', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInvalidSetStateWarningHook.js');
 
-  __REACT_HOT_LOADER__.register(warnInvalidSetState, 'warnInvalidSetState', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInvalidSetStateWarningHook.js');
+  __REACT_HOT_LOADER__.register(warnInvalidSetState, 'warnInvalidSetState', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInvalidSetStateWarningHook.js');
 
-  __REACT_HOT_LOADER__.register(ReactInvalidSetStateWarningHook, 'ReactInvalidSetStateWarningHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactInvalidSetStateWarningHook.js');
+  __REACT_HOT_LOADER__.register(ReactInvalidSetStateWarningHook, 'ReactInvalidSetStateWarningHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactInvalidSetStateWarningHook.js');
 }();
 
 ;
@@ -66908,11 +66944,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TAG_END, 'TAG_END', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMarkupChecksum.js');
+  __REACT_HOT_LOADER__.register(TAG_END, 'TAG_END', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMarkupChecksum.js');
 
-  __REACT_HOT_LOADER__.register(COMMENT_START, 'COMMENT_START', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMarkupChecksum.js');
+  __REACT_HOT_LOADER__.register(COMMENT_START, 'COMMENT_START', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMarkupChecksum.js');
 
-  __REACT_HOT_LOADER__.register(ReactMarkupChecksum, 'ReactMarkupChecksum', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMarkupChecksum.js');
+  __REACT_HOT_LOADER__.register(ReactMarkupChecksum, 'ReactMarkupChecksum', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMarkupChecksum.js');
 }();
 
 ;
@@ -67380,25 +67416,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(makeInsertMarkup, 'makeInsertMarkup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(makeInsertMarkup, 'makeInsertMarkup', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(makeMove, 'makeMove', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(makeMove, 'makeMove', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(makeRemove, 'makeRemove', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(makeRemove, 'makeRemove', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(makeSetMarkup, 'makeSetMarkup', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(makeSetMarkup, 'makeSetMarkup', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(makeTextContent, 'makeTextContent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(makeTextContent, 'makeTextContent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(enqueue, 'enqueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(enqueue, 'enqueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(processQueue, 'processQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(processQueue, 'processQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(setChildrenForInstrumentation, 'setChildrenForInstrumentation', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(setChildrenForInstrumentation, 'setChildrenForInstrumentation', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(getDebugID, 'getDebugID', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(getDebugID, 'getDebugID', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 
-  __REACT_HOT_LOADER__.register(ReactMultiChild, 'ReactMultiChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactMultiChild.js');
+  __REACT_HOT_LOADER__.register(ReactMultiChild, 'ReactMultiChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactMultiChild.js');
 }();
 
 ;
@@ -67510,7 +67546,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactOwner, 'ReactOwner', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactOwner.js');
+  __REACT_HOT_LOADER__.register(ReactOwner, 'ReactOwner', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactOwner.js');
 }();
 
 ;
@@ -67570,9 +67606,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactPureComponent, 'ReactPureComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPureComponent.js');
+  __REACT_HOT_LOADER__.register(ReactPureComponent, 'ReactPureComponent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPureComponent.js');
 
-  __REACT_HOT_LOADER__.register(ComponentDummy, 'ComponentDummy', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactPureComponent.js');
+  __REACT_HOT_LOADER__.register(ComponentDummy, 'ComponentDummy', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactPureComponent.js');
 }();
 
 ;
@@ -67767,17 +67803,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SELECTION_RESTORATION, 'SELECTION_RESTORATION', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
+  __REACT_HOT_LOADER__.register(SELECTION_RESTORATION, 'SELECTION_RESTORATION', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
 
-  __REACT_HOT_LOADER__.register(EVENT_SUPPRESSION, 'EVENT_SUPPRESSION', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
+  __REACT_HOT_LOADER__.register(EVENT_SUPPRESSION, 'EVENT_SUPPRESSION', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
 
-  __REACT_HOT_LOADER__.register(ON_DOM_READY_QUEUEING, 'ON_DOM_READY_QUEUEING', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
+  __REACT_HOT_LOADER__.register(ON_DOM_READY_QUEUEING, 'ON_DOM_READY_QUEUEING', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
 
-  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
+  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
 
-  __REACT_HOT_LOADER__.register(ReactReconcileTransaction, 'ReactReconcileTransaction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
+  __REACT_HOT_LOADER__.register(ReactReconcileTransaction, 'ReactReconcileTransaction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
 
-  __REACT_HOT_LOADER__.register(Mixin, 'Mixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
+  __REACT_HOT_LOADER__.register(Mixin, 'Mixin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactReconcileTransaction.js');
 }();
 
 ;
@@ -67875,11 +67911,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactRef, 'ReactRef', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactRef.js');
+  __REACT_HOT_LOADER__.register(ReactRef, 'ReactRef', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactRef.js');
 
-  __REACT_HOT_LOADER__.register(attachRef, 'attachRef', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactRef.js');
+  __REACT_HOT_LOADER__.register(attachRef, 'attachRef', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactRef.js');
 
-  __REACT_HOT_LOADER__.register(detachRef, 'detachRef', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactRef.js');
+  __REACT_HOT_LOADER__.register(detachRef, 'detachRef', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactRef.js');
 }();
 
 ;
@@ -67986,13 +68022,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
+  __REACT_HOT_LOADER__.register(TRANSACTION_WRAPPERS, 'TRANSACTION_WRAPPERS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
 
-  __REACT_HOT_LOADER__.register(noopCallbackQueue, 'noopCallbackQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
+  __REACT_HOT_LOADER__.register(noopCallbackQueue, 'noopCallbackQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
 
-  __REACT_HOT_LOADER__.register(ReactServerRenderingTransaction, 'ReactServerRenderingTransaction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
+  __REACT_HOT_LOADER__.register(ReactServerRenderingTransaction, 'ReactServerRenderingTransaction', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
 
-  __REACT_HOT_LOADER__.register(Mixin, 'Mixin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
+  __REACT_HOT_LOADER__.register(Mixin, 'Mixin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerRenderingTransaction.js');
 }();
 
 ;
@@ -68150,11 +68186,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(_classCallCheck, '_classCallCheck', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerUpdateQueue.js');
 
-  __REACT_HOT_LOADER__.register(warnNoop, 'warnNoop', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(warnNoop, 'warnNoop', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerUpdateQueue.js');
 
-  __REACT_HOT_LOADER__.register(ReactServerUpdateQueue, 'ReactServerUpdateQueue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactServerUpdateQueue.js');
+  __REACT_HOT_LOADER__.register(ReactServerUpdateQueue, 'ReactServerUpdateQueue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/ReactServerUpdateQueue.js');
 }();
 
 ;
@@ -68474,11 +68510,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(NS, 'NS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SVGDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(NS, 'NS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SVGDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(ATTRS, 'ATTRS', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SVGDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(ATTRS, 'ATTRS', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SVGDOMPropertyConfig.js');
 
-  __REACT_HOT_LOADER__.register(SVGDOMPropertyConfig, 'SVGDOMPropertyConfig', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SVGDOMPropertyConfig.js');
+  __REACT_HOT_LOADER__.register(SVGDOMPropertyConfig, 'SVGDOMPropertyConfig', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SVGDOMPropertyConfig.js');
 }();
 
 ;
@@ -68691,29 +68727,29 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(skipSelectionChangeEvent, 'skipSelectionChangeEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(skipSelectionChangeEvent, 'skipSelectionChangeEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(activeElement, 'activeElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(activeElement, 'activeElement', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(activeElementInst, 'activeElementInst', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(activeElementInst, 'activeElementInst', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(lastSelection, 'lastSelection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(lastSelection, 'lastSelection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(mouseDown, 'mouseDown', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(mouseDown, 'mouseDown', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(hasListener, 'hasListener', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(hasListener, 'hasListener', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(ON_SELECT_KEY, 'ON_SELECT_KEY', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(ON_SELECT_KEY, 'ON_SELECT_KEY', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getSelection, 'getSelection', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getSelection, 'getSelection', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(constructSelectEvent, 'constructSelectEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(constructSelectEvent, 'constructSelectEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(SelectEventPlugin, 'SelectEventPlugin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SelectEventPlugin.js');
+  __REACT_HOT_LOADER__.register(SelectEventPlugin, 'SelectEventPlugin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SelectEventPlugin.js');
 }();
 
 ;
@@ -69365,21 +69401,21 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(topLevelTypes, 'topLevelTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(eventTypes, 'eventTypes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(topLevelEventsToDispatchConfig, 'topLevelEventsToDispatchConfig', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(topLevelEventsToDispatchConfig, 'topLevelEventsToDispatchConfig', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(type, 'type', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(type, 'type', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(ON_CLICK_KEY, 'ON_CLICK_KEY', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(ON_CLICK_KEY, 'ON_CLICK_KEY', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(onClickListeners, 'onClickListeners', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(onClickListeners, 'onClickListeners', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(getDictionaryKey, 'getDictionaryKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(getDictionaryKey, 'getDictionaryKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 
-  __REACT_HOT_LOADER__.register(SimpleEventPlugin, 'SimpleEventPlugin', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
+  __REACT_HOT_LOADER__.register(SimpleEventPlugin, 'SimpleEventPlugin', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SimpleEventPlugin.js');
 }();
 
 ;
@@ -69436,9 +69472,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(AnimationEventInterface, 'AnimationEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticAnimationEvent.js');
+  __REACT_HOT_LOADER__.register(AnimationEventInterface, 'AnimationEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticAnimationEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticAnimationEvent, 'SyntheticAnimationEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticAnimationEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticAnimationEvent, 'SyntheticAnimationEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticAnimationEvent.js');
 }();
 
 ;
@@ -69493,9 +69529,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ClipboardEventInterface, 'ClipboardEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticClipboardEvent.js');
+  __REACT_HOT_LOADER__.register(ClipboardEventInterface, 'ClipboardEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticClipboardEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticClipboardEvent, 'SyntheticClipboardEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticClipboardEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticClipboardEvent, 'SyntheticClipboardEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticClipboardEvent.js');
 }();
 
 ;
@@ -69548,9 +69584,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(CompositionEventInterface, 'CompositionEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticCompositionEvent.js');
+  __REACT_HOT_LOADER__.register(CompositionEventInterface, 'CompositionEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticCompositionEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticCompositionEvent, 'SyntheticCompositionEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticCompositionEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticCompositionEvent, 'SyntheticCompositionEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticCompositionEvent.js');
 }();
 
 ;
@@ -69603,9 +69639,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(DragEventInterface, 'DragEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticDragEvent.js');
+  __REACT_HOT_LOADER__.register(DragEventInterface, 'DragEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticDragEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticDragEvent, 'SyntheticDragEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticDragEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticDragEvent, 'SyntheticDragEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticDragEvent.js');
 }();
 
 ;
@@ -69658,9 +69694,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(FocusEventInterface, 'FocusEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticFocusEvent.js');
+  __REACT_HOT_LOADER__.register(FocusEventInterface, 'FocusEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticFocusEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticFocusEvent, 'SyntheticFocusEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticFocusEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticFocusEvent, 'SyntheticFocusEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticFocusEvent.js');
 }();
 
 ;
@@ -69714,9 +69750,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(InputEventInterface, 'InputEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticInputEvent.js');
+  __REACT_HOT_LOADER__.register(InputEventInterface, 'InputEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticInputEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticInputEvent, 'SyntheticInputEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticInputEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticInputEvent, 'SyntheticInputEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticInputEvent.js');
 }();
 
 ;
@@ -69817,9 +69853,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(KeyboardEventInterface, 'KeyboardEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticKeyboardEvent.js');
+  __REACT_HOT_LOADER__.register(KeyboardEventInterface, 'KeyboardEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticKeyboardEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticKeyboardEvent, 'SyntheticKeyboardEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticKeyboardEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticKeyboardEvent, 'SyntheticKeyboardEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticKeyboardEvent.js');
 }();
 
 ;
@@ -69881,9 +69917,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TouchEventInterface, 'TouchEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticTouchEvent.js');
+  __REACT_HOT_LOADER__.register(TouchEventInterface, 'TouchEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticTouchEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticTouchEvent, 'SyntheticTouchEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticTouchEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticTouchEvent, 'SyntheticTouchEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticTouchEvent.js');
 }();
 
 ;
@@ -69939,9 +69975,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(TransitionEventInterface, 'TransitionEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticTransitionEvent.js');
+  __REACT_HOT_LOADER__.register(TransitionEventInterface, 'TransitionEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticTransitionEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticTransitionEvent, 'SyntheticTransitionEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticTransitionEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticTransitionEvent, 'SyntheticTransitionEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticTransitionEvent.js');
 }();
 
 ;
@@ -70012,9 +70048,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(WheelEventInterface, 'WheelEventInterface', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticWheelEvent.js');
+  __REACT_HOT_LOADER__.register(WheelEventInterface, 'WheelEventInterface', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticWheelEvent.js');
 
-  __REACT_HOT_LOADER__.register(SyntheticWheelEvent, 'SyntheticWheelEvent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/SyntheticWheelEvent.js');
+  __REACT_HOT_LOADER__.register(SyntheticWheelEvent, 'SyntheticWheelEvent', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/SyntheticWheelEvent.js');
 }();
 
 ;
@@ -70075,9 +70111,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(MOD, 'MOD', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/adler32.js');
+  __REACT_HOT_LOADER__.register(MOD, 'MOD', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/adler32.js');
 
-  __REACT_HOT_LOADER__.register(adler32, 'adler32', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/adler32.js');
+  __REACT_HOT_LOADER__.register(adler32, 'adler32', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/adler32.js');
 }();
 
 ;
@@ -70173,11 +70209,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(isUnitlessNumber, 'isUnitlessNumber', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/dangerousStyleValue.js');
+  __REACT_HOT_LOADER__.register(isUnitlessNumber, 'isUnitlessNumber', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/dangerousStyleValue.js');
 
-  __REACT_HOT_LOADER__.register(styleWarnings, 'styleWarnings', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/dangerousStyleValue.js');
+  __REACT_HOT_LOADER__.register(styleWarnings, 'styleWarnings', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/dangerousStyleValue.js');
 
-  __REACT_HOT_LOADER__.register(dangerousStyleValue, 'dangerousStyleValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/dangerousStyleValue.js');
+  __REACT_HOT_LOADER__.register(dangerousStyleValue, 'dangerousStyleValue', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/dangerousStyleValue.js');
 }();
 
 ;
@@ -70255,7 +70291,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(findDOMNode, 'findDOMNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/findDOMNode.js');
+  __REACT_HOT_LOADER__.register(findDOMNode, 'findDOMNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/findDOMNode.js');
 }();
 
 ;
@@ -70351,11 +70387,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/flattenChildren.js');
+  __REACT_HOT_LOADER__.register(ReactComponentTreeHook, 'ReactComponentTreeHook', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/flattenChildren.js');
 
-  __REACT_HOT_LOADER__.register(flattenSingleChildIntoContext, 'flattenSingleChildIntoContext', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/flattenChildren.js');
+  __REACT_HOT_LOADER__.register(flattenSingleChildIntoContext, 'flattenSingleChildIntoContext', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/flattenChildren.js');
 
-  __REACT_HOT_LOADER__.register(flattenChildren, 'flattenChildren', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/flattenChildren.js');
+  __REACT_HOT_LOADER__.register(flattenChildren, 'flattenChildren', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/flattenChildren.js');
 }();
 
 ;
@@ -70475,11 +70511,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(normalizeKey, 'normalizeKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventKey.js');
+  __REACT_HOT_LOADER__.register(normalizeKey, 'normalizeKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventKey.js');
 
-  __REACT_HOT_LOADER__.register(translateToKey, 'translateToKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventKey.js');
+  __REACT_HOT_LOADER__.register(translateToKey, 'translateToKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventKey.js');
 
-  __REACT_HOT_LOADER__.register(getEventKey, 'getEventKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getEventKey.js');
+  __REACT_HOT_LOADER__.register(getEventKey, 'getEventKey', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getEventKey.js');
 }();
 
 ;
@@ -70570,11 +70606,11 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getLeafNode, 'getLeafNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getNodeForCharacterOffset.js');
+  __REACT_HOT_LOADER__.register(getLeafNode, 'getLeafNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getNodeForCharacterOffset.js');
 
-  __REACT_HOT_LOADER__.register(getSiblingNode, 'getSiblingNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getNodeForCharacterOffset.js');
+  __REACT_HOT_LOADER__.register(getSiblingNode, 'getSiblingNode', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getNodeForCharacterOffset.js');
 
-  __REACT_HOT_LOADER__.register(getNodeForCharacterOffset, 'getNodeForCharacterOffset', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getNodeForCharacterOffset.js');
+  __REACT_HOT_LOADER__.register(getNodeForCharacterOffset, 'getNodeForCharacterOffset', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getNodeForCharacterOffset.js');
 }();
 
 ;
@@ -70692,15 +70728,15 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(makePrefixMap, 'makePrefixMap', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
+  __REACT_HOT_LOADER__.register(makePrefixMap, 'makePrefixMap', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
 
-  __REACT_HOT_LOADER__.register(vendorPrefixes, 'vendorPrefixes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
+  __REACT_HOT_LOADER__.register(vendorPrefixes, 'vendorPrefixes', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
 
-  __REACT_HOT_LOADER__.register(prefixedEventNames, 'prefixedEventNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
+  __REACT_HOT_LOADER__.register(prefixedEventNames, 'prefixedEventNames', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
 
-  __REACT_HOT_LOADER__.register(style, 'style', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
+  __REACT_HOT_LOADER__.register(style, 'style', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
 
-  __REACT_HOT_LOADER__.register(getVendorPrefixedEventName, 'getVendorPrefixedEventName', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
+  __REACT_HOT_LOADER__.register(getVendorPrefixedEventName, 'getVendorPrefixedEventName', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/getVendorPrefixedEventName.js');
 }();
 
 ;
@@ -70755,7 +70791,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(onlyChild, 'onlyChild', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/onlyChild.js');
+  __REACT_HOT_LOADER__.register(onlyChild, 'onlyChild', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/onlyChild.js');
 }();
 
 ;
@@ -70799,7 +70835,7 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(quoteAttributeValueForBrowser, 'quoteAttributeValueForBrowser', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/quoteAttributeValueForBrowser.js');
+  __REACT_HOT_LOADER__.register(quoteAttributeValueForBrowser, 'quoteAttributeValueForBrowser', '/Users/Rob/Desktop/ReTok/node_modules/react/lib/quoteAttributeValueForBrowser.js');
 }();
 
 ;
@@ -70914,9 +70950,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/applyMiddleware.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/applyMiddleware.js');
 
-  __REACT_HOT_LOADER__.register(applyMiddleware, 'applyMiddleware', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/applyMiddleware.js');
+  __REACT_HOT_LOADER__.register(applyMiddleware, 'applyMiddleware', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/applyMiddleware.js');
 }();
 
 ;
@@ -70989,9 +71025,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(bindActionCreator, 'bindActionCreator', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/bindActionCreators.js');
+  __REACT_HOT_LOADER__.register(bindActionCreator, 'bindActionCreator', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/bindActionCreators.js');
 
-  __REACT_HOT_LOADER__.register(bindActionCreators, 'bindActionCreators', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/bindActionCreators.js');
+  __REACT_HOT_LOADER__.register(bindActionCreators, 'bindActionCreators', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/bindActionCreators.js');
 }();
 
 ;
@@ -71152,13 +71188,13 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(getUndefinedStateErrorMessage, 'getUndefinedStateErrorMessage', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/combineReducers.js');
+  __REACT_HOT_LOADER__.register(getUndefinedStateErrorMessage, 'getUndefinedStateErrorMessage', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/combineReducers.js');
 
-  __REACT_HOT_LOADER__.register(getUnexpectedStateShapeWarningMessage, 'getUnexpectedStateShapeWarningMessage', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/combineReducers.js');
+  __REACT_HOT_LOADER__.register(getUnexpectedStateShapeWarningMessage, 'getUnexpectedStateShapeWarningMessage', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/combineReducers.js');
 
-  __REACT_HOT_LOADER__.register(assertReducerSanity, 'assertReducerSanity', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/combineReducers.js');
+  __REACT_HOT_LOADER__.register(assertReducerSanity, 'assertReducerSanity', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/combineReducers.js');
 
-  __REACT_HOT_LOADER__.register(combineReducers, 'combineReducers', '/Users/Michael/HR/Thesis/ReTok/node_modules/redux/es/combineReducers.js');
+  __REACT_HOT_LOADER__.register(combineReducers, 'combineReducers', '/Users/Rob/Desktop/ReTok/node_modules/redux/es/combineReducers.js');
 }();
 
 ;
@@ -71252,9 +71288,9 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/url.js');
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/url.js');
 
-  __REACT_HOT_LOADER__.register(url, 'url', '/Users/Michael/HR/Thesis/ReTok/node_modules/socket.io-client/lib/url.js');
+  __REACT_HOT_LOADER__.register(url, 'url', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/url.js');
 }();
 
 ;
@@ -71498,13 +71534,13 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(_ponyfill2, '_ponyfill2', '/Users/Michael/HR/Thesis/ReTok/node_modules/symbol-observable/lib/index.js');
+	__REACT_HOT_LOADER__.register(_ponyfill2, '_ponyfill2', '/Users/Rob/Desktop/ReTok/node_modules/symbol-observable/lib/index.js');
 
-	__REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/symbol-observable/lib/index.js');
+	__REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/symbol-observable/lib/index.js');
 
-	__REACT_HOT_LOADER__.register(root, 'root', '/Users/Michael/HR/Thesis/ReTok/node_modules/symbol-observable/lib/index.js');
+	__REACT_HOT_LOADER__.register(root, 'root', '/Users/Rob/Desktop/ReTok/node_modules/symbol-observable/lib/index.js');
 
-	__REACT_HOT_LOADER__.register(result, 'result', '/Users/Michael/HR/Thesis/ReTok/node_modules/symbol-observable/lib/index.js');
+	__REACT_HOT_LOADER__.register(result, 'result', '/Users/Rob/Desktop/ReTok/node_modules/symbol-observable/lib/index.js');
 }();
 
 ;
@@ -71545,7 +71581,7 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(symbolObservablePonyfill, 'symbolObservablePonyfill', '/Users/Michael/HR/Thesis/ReTok/node_modules/symbol-observable/lib/ponyfill.js');
+	__REACT_HOT_LOADER__.register(symbolObservablePonyfill, 'symbolObservablePonyfill', '/Users/Rob/Desktop/ReTok/node_modules/symbol-observable/lib/ponyfill.js');
 }();
 
 ;
@@ -71577,7 +71613,7 @@ var _temp = function () {
         return;
     }
 
-    __REACT_HOT_LOADER__.register(toArray, "toArray", "/Users/Michael/HR/Thesis/ReTok/node_modules/to-array/index.js");
+    __REACT_HOT_LOADER__.register(toArray, "toArray", "/Users/Rob/Desktop/ReTok/node_modules/to-array/index.js");
 }();
 
 ;
@@ -71777,19 +71813,19 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 
-  __REACT_HOT_LOADER__.register(utils, 'utils', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(utils, 'utils', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireWildcard, '_interopRequireWildcard', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(_interopRequireWildcard, '_interopRequireWildcard', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 
-  __REACT_HOT_LOADER__.register(createUncontrollable, 'createUncontrollable', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/createUncontrollable.js');
+  __REACT_HOT_LOADER__.register(createUncontrollable, 'createUncontrollable', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/createUncontrollable.js');
 }();
 
 ;
@@ -71924,37 +71960,37 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(_react2, '_react2', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(_invariant2, '_invariant2', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(readOnlyPropType, 'readOnlyPropType', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(readOnlyPropType, 'readOnlyPropType', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(uncontrolledPropTypes, 'uncontrolledPropTypes', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(uncontrolledPropTypes, 'uncontrolledPropTypes', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(version, 'version', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(version, 'version', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(getType, 'getType', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(getType, 'getType', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(getValue, 'getValue', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(getValue, 'getValue', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(isProp, 'isProp', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(isProp, 'isProp', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(getLinkName, 'getLinkName', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(getLinkName, 'getLinkName', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(defaultKey, 'defaultKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(defaultKey, 'defaultKey', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(chain, 'chain', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(chain, 'chain', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(transform, 'transform', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(transform, 'transform', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(each, 'each', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(each, 'each', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 
-  __REACT_HOT_LOADER__.register(isReactComponent, 'isReactComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/uncontrollable/utils.js');
+  __REACT_HOT_LOADER__.register(isReactComponent, 'isReactComponent', '/Users/Rob/Desktop/ReTok/node_modules/uncontrollable/utils.js');
 }();
 
 ;

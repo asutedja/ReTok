@@ -18,7 +18,7 @@ class StoreContainer extends React.Component {
 				// 	for(var key in emojis) {
 				// 		if(emojis[key]) {
 	   //    				<Item item={emojify(key)}/>			
-				// 		}
+				// 		}   
 				// 	}	
 				// }
 			}
