@@ -47,6 +47,7 @@ class LoggedOutNavContainer extends React.Component {
                     email
                     online
                     coin
+
                   }
             }`
         };
@@ -59,8 +60,7 @@ class LoggedOutNavContainer extends React.Component {
               var updatedCoin = userData.coin + 20;
               userData.coin = updatedCoin;
               var onlineFriends = friends.filter(friend => friend.online = true);
-              // this.props.dispatch(userActions.updateUser(userData));
-              // this.props.dispatch(userActions.userAuth());
+
               this.props.dispatch(userActions.updateFriends(friends));
               this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
               this.props.dispatch(userActions.updateFriendCount(friends.length));
