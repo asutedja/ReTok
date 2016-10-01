@@ -153,7 +153,7 @@ class LoggedInNavContainer extends React.Component {
   render() {
     return(
       <div>
-        <LoggedInNav hide={this.state.hide} logout= {this.logout.bind(this)} accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)}/>
+        <LoggedInNav hide={this.state.hide} logout= {this.logout.bind(this)} accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)} coin={this.props.user.coin}/>
       </div>
       )
   }

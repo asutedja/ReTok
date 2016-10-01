@@ -16,8 +16,10 @@ const LoggedInNav = (props) => {
       <Link to="/store">Store</Link>
       <Link to="/upload">Upload</Link>
       <Link onClick={props.logout}>Logout</Link>
+      <span><b>Coins:</b> {props.coin}</span>
     </div>
   )
 }
+
 
 export default LoggedInNav
