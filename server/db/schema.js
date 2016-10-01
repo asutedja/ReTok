@@ -82,6 +82,27 @@ var User = new GraphQLObjectType({
 				resolve (user) {
 					return user.online;
 				}
+			},
+			//ONLY FOR FINDFRIENDS QUERY
+			videoChatCount: {
+				type: GraphQLInt,
+				resolve (user) {
+					return user.videoChatCount;
+				}
+			},
+			//ONLY FOR FINDFRIENDS QUERY			
+			textChatCount: {
+				type: GraphQLInt,
+				resolve (user) {
+					return user.textChatCount;
+				}
+			},
+			//ONLY FOR FINDFRIENDS QUERY			
+			lastChatTime: {
+				type: GraphQLDate,
+				resolve (user) {
+					return user.lastChatTime;
+				}
 			}
 		}
 	}
@@ -263,6 +284,7 @@ var Query = new GraphQLObjectType({
 								friends.push(friend);
 							});
 						}
+						console.log("friends: ", friends)
 						return friends;
 					})
 					.catch(function(err){

@@ -32,11 +32,11 @@ class SearchContainer extends React.Component {
                 userOne
                 userTwo
                 relationship
-                chatCount
+                videoChatCount
+                textChatCount
+                lastChatTime
               }
         }`
-
-
 
     };
     fetch('/graphql', options).then((res) =>{
