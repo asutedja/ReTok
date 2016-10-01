@@ -9,19 +9,89 @@ class StoreContainer extends React.Component {
 	constructor(props) {
 		super(props)
 	}
+
+	componentWillMount() {
+		// var emojis = this.props.emojis.slice();
+		// var userEmojis = this.props.userEmojis.slice();
+
+		// for (var i = 0; i < emojis.length; i++) {
+		// 		var storeEmoji = JSON.stringify(emojis[i]);
+		// 	for (var j = 0; j < userEmojis.length; j++) {
+		// 		var userEmoji = JSON.stringify(userEmojis[j]);
+		// 		if (userEmoji === storeEmoji) {
+		// 			emojis[i]['purchased'] = true;
+		// 		}
+		// 	}
+		// }
+		// this.props.dispatch(userActions.updateEmojis(emojis));
+		let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+		let options = {
+
+		  method: 'POST',
+		  headers: myHeaders,
+		  body: `
+		    {  
+		      getOtherEmoji(username: \"${this.props.user.username}\")
+		      {
+		      	emoji
+		      	price
+		          }
+		    }`
+		};
+
+		    fetch('/graphql', options).then((res) =>{
+		      return res.json().then((data) => {
+		        console.log('checking Store emoji data after fetching', data);
+		        this.props.dispatch(userActions.updateStoreEmojis(data));
+		  		})
+				})
+		
+
+	}
+
+
+	// buyEmoji(emoji) {
+	// 	var emojiCost = emoji.cost;
+	// 	var userCoinTotal = this.props.user.coin;
+
+	// 	if (emojiCost > userCoinTotal) {
+	// 		alert('you dont have enough coins to buy this emoji');
+	// 	} else {
+	// 		userCoinTotal = userCoinTotal - emojiCost;
+
+	// 		    let options = {
+
+	// 		      method: 'POST',
+	// 		      headers: myHeaders,
+	// 		      body: `
+	// 		          mutation {
+	// 		          updateUser(username: \"${this.props.user.username}\" coin:${userCoinTotal} emoji:${emoji})  {
+	// 		            username
+	// 		          }
+	// 		          }
+	// 		          `
+
+	// 		    };
+	// 		    fetch('/graphql', options).then((res) =>{
+	// 		      return res.json().then((data) => {
+	// 		        console.log('checking data after fetching', data);
+	// 		        var userCopy = Object.assign({}, this.props.user, {coin: updatedCoin, emoji: emoji});
+	// 		        this.props.dispatch(userActions.updateUser(userCopy));
+			       
+	// 		        console.log('checking my user data to see successful dispatch', this.props.user);
+	// 		  })
+	// 		})
+
+	// 	}
+	// }
 	//TODO: Finish Store:
 	render() {
 		return (
 			<div>
-			{ 
-				// () =>  {
-				// 	for(var key in emojis) {
-				// 		if(emojis[key]) {
-	   //    				<Item item={emojify(key)}/>			
-				// 		}   
-				// 	}	
-				// }
-			}
+				<div className= "profileNav">
+					<Link to="/store">Buy Emojis</Link>
+					<Link to="/userinventory">Emojis I Own</Link>
+				</div>
 			</div>
 			)
 	}
@@ -30,7 +100,9 @@ class StoreContainer extends React.Component {
 function mapStateToProps(state) {
   return {
   		//TODO: Configure server and database to know what kind of object I get back for emojis
-  	 emojis: state.userReducer.emojis
+  	 emojis: state.userReducer.emojis,
+  	 user: state.userReducer.user,
+  	 userEmojis: state.userReducer.userEmojis,
   }
 }
 

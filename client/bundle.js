@@ -2034,6 +2034,8 @@ exports.updateFriendCount = updateFriendCount;
 exports.increaseFriendCount = increaseFriendCount;
 exports.updateSearch = updateSearch;
 exports.updateEmojis = updateEmojis;
+exports.updateStoreEmojis = updateStoreEmojis;
+exports.updateUserEmojis = updateUserEmojis;
 exports.createRoom = createRoom;
 exports.sendSocket = sendSocket;
 exports.default = userReducer;
@@ -2101,10 +2103,24 @@ function updateSearch(search) {
   };
 }
 
-function updateEmojis(emoji) {
+function updateEmojis(emojis) {
   return {
     type: 'UPDATE_EMOJIS',
     emojis: emojis
+  };
+}
+
+function updateStoreEmojis(storeEmojis) {
+  return {
+    type: 'UPDATE_STORE_EMOJIS',
+    storeEmojis: storeEmojis
+  };
+}
+
+function updateUserEmojis(userEmojis) {
+  return {
+    type: 'UPDATE_USER_EMOJIS',
+    userEmojis: userEmojis
   };
 }
 
@@ -2132,6 +2148,8 @@ var userInitialState = {
   isLoggedIn: false,
   error: '',
   emojis: [],
+  storeEmojis: [],
+  userEmojis: [],
   search: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
   room: '',
   socket: null
@@ -2208,6 +2226,20 @@ function userReducer() {
         });
       }
 
+    case 'UPDATE_STORE_EMOJIS':
+      {
+        return _extends({}, state, {
+          emojis: action.storeEmojis
+        });
+      }
+
+    case 'UPDATE_USER_EMOJIS':
+      {
+        return _extends({}, state, {
+          emojis: action.userEmojis
+        });
+      }
+
     case 'UPDATE_FRIEND_COUNT':
       {
         return _extends({}, state, {
@@ -2267,6 +2299,10 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(updateSearch, 'updateSearch', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateEmojis, 'updateEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(updateStoreEmojis, 'updateStoreEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(updateUserEmojis, 'updateUserEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(createRoom, 'createRoom', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
@@ -34139,6 +34175,14 @@ var _StoreContainer = __webpack_require__(297);
 
 var _StoreContainer2 = _interopRequireDefault(_StoreContainer);
 
+var _StoreEmojisContainer = __webpack_require__(618);
+
+var _StoreEmojisContainer2 = _interopRequireDefault(_StoreEmojisContainer);
+
+var _StoreUserEmojisContainer = __webpack_require__(621);
+
+var _StoreUserEmojisContainer2 = _interopRequireDefault(_StoreUserEmojisContainer);
+
 var _ChatContainer = __webpack_require__(276);
 
 var _ChatContainer2 = _interopRequireDefault(_ChatContainer);
@@ -34167,7 +34211,12 @@ var Routes = _react2.default.createElement(
       _react2.default.createElement(_reactRouter.Route, { path: '/online', component: _OnlineFriendsContainer2.default }),
       _react2.default.createElement(_reactRouter.Route, { path: '/suggested', component: _SuggestedContainer2.default })
     ),
-    _react2.default.createElement(_reactRouter.Route, { path: '/store', component: _StoreContainer2.default }),
+    _react2.default.createElement(
+      _reactRouter.Route,
+      { path: '/store', component: _StoreContainer2.default },
+      _react2.default.createElement(_reactRouter.IndexRoute, { component: _StoreEmojisContainer2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/userinventory', component: _StoreUserEmojisContainer2.default })
+    ),
     _react2.default.createElement(_reactRouter.Route, { path: '/search', component: _SearchContainer2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: '/chat', component: _ChatMVPContainer2.default }),
     _react2.default.createElement(_reactRouter.Route, { path: '/upload', component: _PhotoUploadContainer2.default })
@@ -34459,13 +34508,98 @@ var StoreContainer = function (_React$Component) {
 
 		return _possibleConstructorReturn(this, (StoreContainer.__proto__ || Object.getPrototypeOf(StoreContainer)).call(this, props));
 	}
-	//TODO: Finish Store:
-
 
 	_createClass(StoreContainer, [{
+		key: 'componentWillMount',
+		value: function componentWillMount() {
+			var _this2 = this;
+
+			// var emojis = this.props.emojis.slice();
+			// var userEmojis = this.props.userEmojis.slice();
+
+			// for (var i = 0; i < emojis.length; i++) {
+			// 		var storeEmoji = JSON.stringify(emojis[i]);
+			// 	for (var j = 0; j < userEmojis.length; j++) {
+			// 		var userEmoji = JSON.stringify(userEmojis[j]);
+			// 		if (userEmoji === storeEmoji) {
+			// 			emojis[i]['purchased'] = true;
+			// 		}
+			// 	}
+			// }
+			// this.props.dispatch(userActions.updateEmojis(emojis));
+			var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+			var options = {
+
+				method: 'POST',
+				headers: myHeaders,
+				body: '\n\t\t    {  \n\t\t      getOtherEmoji(username: "' + this.props.user.username + '")\n\t\t      {\n\t\t      \temoji\n\t\t      \tprice\n\t\t          }\n\t\t    }'
+			};
+
+			fetch('/graphql', options).then(function (res) {
+				return res.json().then(function (data) {
+					console.log('checking Store emoji data after fetching', data);
+					_this2.props.dispatch(userActions.updateStoreEmojis(data));
+				});
+			});
+		}
+
+		// buyEmoji(emoji) {
+		// 	var emojiCost = emoji.cost;
+		// 	var userCoinTotal = this.props.user.coin;
+
+		// 	if (emojiCost > userCoinTotal) {
+		// 		alert('you dont have enough coins to buy this emoji');
+		// 	} else {
+		// 		userCoinTotal = userCoinTotal - emojiCost;
+
+		// 		    let options = {
+
+		// 		      method: 'POST',
+		// 		      headers: myHeaders,
+		// 		      body: `
+		// 		          mutation {
+		// 		          updateUser(username: \"${this.props.user.username}\" coin:${userCoinTotal} emoji:${emoji})  {
+		// 		            username
+		// 		          }
+		// 		          }
+		// 		          `
+
+		// 		    };
+		// 		    fetch('/graphql', options).then((res) =>{
+		// 		      return res.json().then((data) => {
+		// 		        console.log('checking data after fetching', data);
+		// 		        var userCopy = Object.assign({}, this.props.user, {coin: updatedCoin, emoji: emoji});
+		// 		        this.props.dispatch(userActions.updateUser(userCopy));
+
+		// 		        console.log('checking my user data to see successful dispatch', this.props.user);
+		// 		  })
+		// 		})
+
+		// 	}
+		// }
+		//TODO: Finish Store:
+
+	}, {
 		key: 'render',
 		value: function render() {
-			return _react2.default.createElement('div', null);
+			return _react2.default.createElement(
+				'div',
+				null,
+				_react2.default.createElement(
+					'div',
+					{ className: 'profileNav' },
+					_react2.default.createElement(
+						_reactRouter.Link,
+						{ to: '/store' },
+						'Buy Emojis'
+					),
+					_react2.default.createElement(
+						_reactRouter.Link,
+						{ to: '/userinventory' },
+						'Emojis I Own'
+					)
+				)
+			);
 		}
 	}]);
 
@@ -34475,7 +34609,9 @@ var StoreContainer = function (_React$Component) {
 function mapStateToProps(state) {
 	return {
 		//TODO: Configure server and database to know what kind of object I get back for emojis
-		emojis: state.userReducer.emojis
+		emojis: state.userReducer.emojis,
+		user: state.userReducer.user,
+		userEmojis: state.userReducer.userEmojis
 	};
 }
 
@@ -72290,6 +72426,352 @@ var _temp = function () {
 
 module.exports = __webpack_require__(275);
 
+
+/***/ },
+/* 618 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(25);
+
+var _userReducer = __webpack_require__(23);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _reactEmojione = __webpack_require__(491);
+
+var _StoreEmoji = __webpack_require__(623);
+
+var _StoreEmoji2 = _interopRequireDefault(_StoreEmoji);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var StoreEmojisContainer = function (_React$Component) {
+  _inherits(StoreEmojisContainer, _React$Component);
+
+  function StoreEmojisContainer(props) {
+    _classCallCheck(this, StoreEmojisContainer);
+
+    return _possibleConstructorReturn(this, (StoreEmojisContainer.__proto__ || Object.getPrototypeOf(StoreEmojisContainer)).call(this, props));
+  }
+
+  _createClass(StoreEmojisContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      console.log('i hit all friends container', this.props.friends);
+    }
+  }, {
+    key: 'buyEmoji',
+    value: function buyEmoji(emoji, key) {
+      var _this2 = this;
+
+      var emojiCost = emoji.cost;
+      var userCoinTotal = this.props.user.coin;
+      var storeEmojisCopy = this.props.storeEmojis.slice();
+      var userEmojis = this.props.userEmojis.slice();
+
+      if (emojiCost > userCoinTotal) {
+        alert('you dont have enough coins to buy this emoji');
+      } else {
+        userCoinTotal = userCoinTotal - emojiCost;
+
+        var options = {
+
+          method: 'POST',
+          headers: myHeaders,
+          body: '\n                mutation {\n                updateEmojiUser(username: "' + this.props.user.username + '" emoji:' + emoji.emoji + ')  {\n                  \n                }\n                }\n                '
+
+        };
+        fetch('/graphql', options).then(function (res) {
+          return res.json().then(function (data) {
+            console.log('checking data after fetching', data);
+            var userCopy = Object.assign({}, _this2.props.user, { coin: updatedCoin, emoji: emoji });
+            _this2.props.dispatch(userActions.updateUser(userCopy));
+
+            var boughtEmoji = storeEmojisCopy.splice(key, 1);
+            userEmojis.push(boughtEmoji);
+
+            _this2.props.dispatch(userActions.updateStoreEmojis(storeEmojisCopy));
+            _this2.props.dispatch(userActions.updateUserEmojis(userEmojis));
+
+            console.log('checking my user data to see successful dispatch', _this2.props.user);
+          });
+        });
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this3 = this;
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        this.props.storeEmojis.map(function (item, index) {
+          return _react2.default.createElement(_StoreEmoji2.default, { key: index, emoji: item, buyEmoji: _this3.props.buyEmoji.bind(_this3) });
+        })
+      );
+    }
+  }]);
+
+  return StoreEmojisContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    storeEmojis: state.userReducer.storeEmojis,
+    userEmojis: state.userReducer.userEmojis,
+    user: state.userReducer.user
+
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(StoreEmojisContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(StoreEmojisContainer, 'StoreEmojisContainer', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+}();
+
+;
+
+/***/ },
+/* 619 */,
+/* 620 */,
+/* 621 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(25);
+
+var _userReducer = __webpack_require__(23);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _reactEmojione = __webpack_require__(491);
+
+var _StoreUserEmoji = __webpack_require__(622);
+
+var _StoreUserEmoji2 = _interopRequireDefault(_StoreUserEmoji);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var StoreUserEmojisContainer = function (_React$Component) {
+  _inherits(StoreUserEmojisContainer, _React$Component);
+
+  function StoreUserEmojisContainer(props) {
+    _classCallCheck(this, StoreUserEmojisContainer);
+
+    return _possibleConstructorReturn(this, (StoreUserEmojisContainer.__proto__ || Object.getPrototypeOf(StoreUserEmojisContainer)).call(this, props));
+  }
+
+  _createClass(StoreUserEmojisContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {}
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        this.props.userEmojis.map(function (item, index) {
+          return _react2.default.createElement(_StoreUserEmoji2.default, { key: index, emoji: item });
+        })
+      );
+    }
+  }]);
+
+  return StoreUserEmojisContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    userEmojis: state.userReducer.userEmojis,
+    user: state.userReducer.user
+
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(StoreUserEmojisContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(StoreUserEmojisContainer, 'StoreUserEmojisContainer', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
+}();
+
+;
+
+/***/ },
+/* 622 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactEmojione = __webpack_require__(491);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var StoreUserEmoji = function StoreUserEmoji(props) {
+  //inline CSS-style. fills the entire AllFriends div with photo
+  // const divStyle = {
+  //   backgroundImage: 'url(' +props.friend.profilePic+ ')',
+  //   backgroundPosition:'center',
+  //   backgroundSize: 'cover',
+  //   backgroundRepeat: 'no-repeat'
+  // }
+  return _react2.default.createElement(
+    'div',
+    null,
+    (0, _reactEmojione.emojify)(props.emoji.emoji)
+  );
+};
+
+var _default = StoreUserEmoji;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(StoreUserEmoji, 'StoreUserEmoji', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmoji.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmoji.js');
+}();
+
+;
+
+/***/ },
+/* 623 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactEmojione = __webpack_require__(491);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var StoreEmoji = function StoreEmoji(props) {
+  //inline CSS-style. fills the entire AllFriends div with photo
+  // const divStyle = {
+  //   backgroundImage: 'url(' +props.friend.profilePic+ ')',
+  //   backgroundPosition:'center',
+  //   backgroundSize: 'cover',
+  //   backgroundRepeat: 'no-repeat'
+  // }
+  return _react2.default.createElement(
+    'div',
+    null,
+    (0, _reactEmojione.emojify)(props.emoji.emoji),
+    _react2.default.createElement(
+      'button',
+      { onClick: function onClick(e) {
+          e.preventDefault();props.buyEmoji(props.emoji, props.key);
+        } },
+      'Buy Emoji'
+    )
+  );
+};
+
+var _default = StoreEmoji;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(StoreEmoji, 'StoreEmoji', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreEmojis/StoreEmoji.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/Store/StoreEmojis/StoreEmoji.js');
+}();
+
+;
 
 /***/ }
 /******/ ]);
