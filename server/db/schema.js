@@ -1,17 +1,3 @@
-// import {
-// 	GraphQLObjectType,
-//  	GraphQLString,
-//  	GraphQLInt,
-// 	GraphQLSchema,
-// 	GraphQLList,
-// 	GraphQLNonNull
-// } from 'graphql';
-
-// //import date type separately
-// import GraphQLDate from 'graphql-date';
-
-// import Db from './db';
-
 var GraphQLDate = require('graphql-date');
 var GraphQLObjectType = require('graphql').GraphQLObjectType;
 var GraphQLString = require('graphql').GraphQLString;
