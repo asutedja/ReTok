@@ -44,7 +44,7 @@ class LoginContainer extends React.Component {
 							exist: true
 						})
 					} else {
-						this.props.dispatch(userActions.userAuth(data));
+						// this.props.dispatch(userActions.userAuth(data));
 
 						console.log('checking my data ------>', data);
 						// console.log('checking router', this.context.router);

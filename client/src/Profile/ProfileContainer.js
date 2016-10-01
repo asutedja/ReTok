@@ -14,7 +14,6 @@ class ProfileContainer extends React.Component {
   componentWillMount() {
     console.log('checking my props', this.props.user.username);
     var socket = this.props.socket
-
     socket.emit('login', this.props.user.username)
   }
 
