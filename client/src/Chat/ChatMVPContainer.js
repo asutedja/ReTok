@@ -11,8 +11,10 @@ class ChatMVPContainer extends React.Component {
   }
 
   componentWillUnmount() {
-    var track = window.stream.getTracks()[0];  // if only one media track
-    track.stop();
+    var track = window.stream.getTracks();  // if only one media track
+    track.forEach(function(media) {
+      media.stop();
+    })
   }
 
   componentDidMount() {
@@ -25,6 +27,7 @@ class ChatMVPContainer extends React.Component {
      var pc;
      var remoteStream;
      var turnReady;
+     var sentCall = false;
 
      var pcConfig = {
        'iceServers': [{
@@ -43,11 +46,14 @@ class ChatMVPContainer extends React.Component {
      /////////////////////////////////////////////
 
      var room = this.props.room;
+     if(this.props.room === this.props.user.username) {
+       isInitiator = true;
+     }
      // Could prompt for room name:
      // room = prompt('Enter room name:');
      console.log('this room', room)
 
-     if (room !== '') {
+     if (room !== '' && room !== this.props.user.username) {
        console.log('Attempted to create or  join room', room);
        socket.emit('create or join', room);
      }
@@ -62,8 +68,9 @@ class ChatMVPContainer extends React.Component {
      });
 
      socket.on('join', function (room){
-       console.log('Another peer made a request to join room ' + room);
-       console.log('This peer is the initiator of room ' + room + '!');
+       // console.log('Another peer made a request to join room ' + room);
+       // console.log('This peer is the initiator of room ' + room + '!');
+       console.log('Both peers are ready in room ' + room + '!')
        isChannelReady = true;
      });
 
@@ -95,7 +102,8 @@ class ChatMVPContainer extends React.Component {
          console.log('offering message', message)
          pc.setRemoteDescription(new RTCSessionDescription(message));
          doAnswer();
-       } else if (message.type === 'answer' && isStarted) {
+       } else if (sentCall) {
+        console.log('THIS IS THE LAST THING----------->')
          pc.setRemoteDescription(new RTCSessionDescription(message));
        } else if (message.type === 'candidate' && isStarted) {
          var candidate = new RTCIceCandidate({
@@ -125,10 +133,10 @@ class ChatMVPContainer extends React.Component {
      });
 
      function gotStream(stream) {
-       window.stream = stream;
        console.log('Adding local stream.');
        localVideo.src = window.URL.createObjectURL(stream);
        localStream = stream;
+       window.stream = localStream;
        sendMessage('got user media');
        if (isInitiator) {
          maybeStart();
@@ -185,10 +193,13 @@ class ChatMVPContainer extends React.Component {
        console.log('icecandidate event: ', event);
        if (event.candidate) {
          sendMessage({
-           type: 'candidate',
-           label: event.candidate.sdpMLineIndex,
-           id: event.candidate.sdpMid,
-           candidate: event.candidate.candidate
+           sessionDescription: {
+             type: 'candidate',
+             label: event.candidate.sdpMLineIndex,
+             id: event.candidate.sdpMid,
+             candidate: event.candidate.candidate
+           },
+           room: room
          });
        } else {
         
@@ -208,24 +219,39 @@ class ChatMVPContainer extends React.Component {
      }
 
      function doCall() {
-       console.log('Sending offer to peer');
+       console.log('Sending offer to peer----------------------------<');
+       sentCall = true;
        pc.createOffer(setLocalAndSendMessage, handleCreateOfferError);
      }
 
      function doAnswer() {
-       console.log('Sending answer to peer.');
+       console.log('Sending answer to peer.------------------------->');
        pc.createAnswer().then(
-         setLocalAndSendMessage,
+         setLocalAndSendMessageAnswer,
          onCreateSessionDescriptionError
        );
      }
 
      function setLocalAndSendMessage(sessionDescription) {
        // Set Opus as the preferred codec in SDP if Opus is present.
-       //  sessionDescription.sdp = preferOpus(sessionDescription.sdp);
+       //sessionDescription.sdp = preferOpus(sessionDescription.sdp);
+
        pc.setLocalDescription(sessionDescription);
        console.log('setLocalAndSendMessage sending message', sessionDescription);
-       sendMessage(sessionDescription);
+       var wrapper = {sessionDescription:sessionDescription, room: room}
+       sendMessage(wrapper);
+     }
+
+     function setLocalAndSendMessageAnswer(sessionDescription) {
+       // Set Opus as the preferred codec in SDP if Opus is present.
+       //sessionDescription.sdp = preferOpus(sessionDescription.sdp);
+
+       pc.setLocalDescription(sessionDescription);
+       console.log('setLocalAndSendMessage sending message', sessionDescription);
+       sessionDescription['answer'] = true;
+       console.log('this is the answer to the call', sessionDescription, ' ------------------------>')
+       var wrapper = {sessionDescription:sessionDescription, room: room}
+       sendMessage(wrapper);
      }
 
      function onCreateSessionDescriptionError(error) {
@@ -268,6 +294,7 @@ class ChatMVPContainer extends React.Component {
      }
 
      function handleRemoteStreamRemoved(event) {
+       remoteStream.close()
        console.log('Remote stream removed. Event: ', event);
      }
 
@@ -285,8 +312,9 @@ class ChatMVPContainer extends React.Component {
 
      function stop() {
        isStarted = false;
-       // isAudioMuted = false;
-       // isVideoMuted = false;
+       isAudioMuted = false;
+       isVideoMuted = false;
+       remoteStream.close();
        pc.close();
        pc = null;
      }

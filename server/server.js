@@ -103,6 +103,7 @@ io.sockets.on('connection', function(socket) {
   socket.on('login', function(user) {
     sockets[user] = socket.id; 
     log('this is the room you are in: ', user)
+    socket.name = user;
     console.log('ROOM NAME IS', user)
     socket.join(user);
   })
@@ -128,6 +129,9 @@ io.sockets.on('connection', function(socket) {
   socket.on('message', function(message) {
     log('Client said: ', message);
     // for a real app, would be room-only (not broadcast)
+    if(message.room) {
+      io.to(message.room).emit('message', message.sessionDescription);  
+    }
     socket.broadcast.emit('message', message);
   });
 
@@ -136,19 +140,13 @@ io.sockets.on('connection', function(socket) {
 
     var numClients = Object.keys(io.sockets.adapter.rooms[room]).length;
     log('Room ' + room + ' now has ' + numClients + ' client(s)');
-    socket.emit('created', room, socket.id);
+    //socket.emit('created', room, socket.id);
     if (numClients === 2 && sockets[room] !== socket.id) {
       log('Client ID ' + socket.id + ' created room ' + room);
-      io.sockets.in(room).emit('join', room);
       socket.join(room);
-      socket.emit('joined', room, socket.id);
+      io.sockets.in(room).emit('join', room);
       io.sockets.in(room).emit('ready');
 
-    } else if (numClients >= 2) {
-      log('Client ID ' + socket.id + ' joined room ' + room);
-      socket.join(room);
-    } else if(numClients > 2) {
-    	console.log(user, 'number of users', user.length);
     } else { // max two clients
       socket.emit('full', room);
     }
@@ -164,6 +162,18 @@ io.sockets.on('connection', function(socket) {
       });
     }
   });
+
+  //Socket for updating profile with online/offline and new friends
+  socket.on('updateFriends', function(friends) {
+    var updateUsers = [];
+    console.log('updating from server--------------------------------------------------------------')
+    friends.forEach(function(friend) {
+      var id = sockets[friend.username]
+      if(sockets[friend.username]) {
+        io.sockets.connected[id].emit('update')    
+      }
+    })
+  })
 
   socket.on('disconnect', function() {
     for(var key in sockets) {

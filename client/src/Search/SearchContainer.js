@@ -15,6 +15,7 @@ class SearchContainer extends React.Component {
   }
 
   addFriend(friend) {
+    var socket = this.props.socket;
     console.log('i tried to add this friend', friend);
     console.log('im checking my own user info', this.props.user);
 
@@ -77,7 +78,7 @@ class SearchContainer extends React.Component {
 
         })
     })
-
+    socket.emit('updateFriends',this.props.friends);
 
   }
 
@@ -96,7 +97,8 @@ function mapStateToProps(state) {
     user: state.userReducer.user,
     search: state.userReducer.search,
     friends: state.userReducer.friends,
-    friendCount: state.userReducer.friendCount
+    friendCount: state.userReducer.friendCount,
+    socket: state.userReducer.socket
   }
 }
 
