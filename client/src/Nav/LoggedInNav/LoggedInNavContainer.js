@@ -105,7 +105,7 @@ class LoggedInNavContainer extends React.Component {
     if (query.indexOf(' ') !== -1) {
       query = query.split(' ')[0];
     }
-
+    console.log('IAM SEARCHING FOR', query)
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
 
@@ -130,6 +130,7 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
+        console.log('THIS DATA GETS SLICED', data)
         var searchresult = data.data.users.slice();
         console.log('what is my data from my search bar', searchresult);
 

@@ -52,7 +52,7 @@ class LoginContainer extends React.Component {
 						axios.post('/login', userInfo)
 							.then((res) => {
 								console.log('checking my data', res.data);
-								this.props.dispatch(userActions.updateUser(res.data.user[0]));
+								this.props.dispatch(userActions.updateUser(res.data[0]));
 								this.context.router.push('/upload');
 							});
 					}
