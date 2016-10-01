@@ -416,9 +416,57 @@ var Mutation = new GraphQLObjectType({
 					});
 				}
 			},
+			addChat: {
+				type: Chat,
+				args: {
+					sender: {type: new GraphQLNonNull(GraphQLString)},
+					receiver: {type: new GraphQLNonNull(GraphQLString)},
+					text: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve(root, args) {
+					var time = new Date();
+					Db.Chat.create({
+						sender: args.sender,
+						receiver: args.receiver,
+						text: args.text,
+						time: time
+					}).catch(function(err) {
+						console.log('Error when adding chat: ', err);
+					});
+				} 
+			},
+			deleteChat: {
+				type: Chat,
+				args: {
+					sender: {type: new GraphQLNonNull(GraphQLString)},
+					receiver: {type: new GraphQLNonNull(GraphQLString)},
+				},
+				resolve(root, args) {
+					Db.Chat.findAll({
+						where: {
+							$or: [{$and: [{sender: args.sender}, {receiver: args.receiver}]}, {$and: [{sender: args.receiver}, {receiver: args.sender}]}
+							]
+						}
+					}).then(function(chats) {
+						var time = new Date();
+						var deleteThreshold = 10;
+						if (chats.length > deleteThreshold) {
+							var chatsLeft = chats.length;
+							chats.forEach(function(chat, idx) {
+								if (chatsLeft - idx > deleteThreshold) {
+									chat.destroy();
+								}
+							});
+						}
+						return;
+					}).catch(function(err) {
+						console.log('Error when adding chat: ', err);
+					});
+				}
+			}
 		}
 	}
-		//TODO: addChat, delateChat
+		//TODO: addChat, deleteChat
 });
 
 var Schema = new GraphQLSchema({
