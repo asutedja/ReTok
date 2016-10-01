@@ -379,12 +379,6 @@ var Mutation = new GraphQLObjectType({
 							relationship: 1,
 							chatCount: 0
 						});
-						Db.Friendship.create({
-							UserId: users[1].id,
-							FriendId: users[0].id,
-							relationship: 1,
-							chatCount: 0
-						});
 					})
 					.catch(function(err){
 						console.log('There is an error: ', err);
