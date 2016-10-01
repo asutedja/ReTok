@@ -83,21 +83,21 @@ var User = new GraphQLObjectType({
 					return user.online;
 				}
 			},
-			//ONLY FOR FINDFRIENDS EUQRY
+			//ONLY FOR FINDFRIENDS QUERY
 			videoChatCount: {
 				type: GraphQLInt,
 				resolve (user) {
 					return user.videoChatCount;
 				}
 			},
-			//ONLY FOR FINDFRIENDS EUQRY			
+			//ONLY FOR FINDFRIENDS QUERY			
 			textChatCount: {
 				type: GraphQLInt,
 				resolve (user) {
 					return user.textChatCount;
 				}
 			},
-			//ONLY FOR FINDFRIENDS EUQRY			
+			//ONLY FOR FINDFRIENDS QUERY			
 			lastChatTime: {
 				type: GraphQLDate,
 				resolve (user) {
