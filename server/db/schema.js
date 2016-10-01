@@ -176,6 +176,54 @@ var Chat = new GraphQLObjectType({
 
 });
 
+var Emoji = new GraphQLObjectType({
+	name: 'Emoji',
+	description: 'emoji store',
+	fields: () => {
+		return {
+			id: {
+				type: GraphQLInt,
+				resolve (emoji) {
+					return emoji.id;
+				}
+			},
+			emoji: {
+				type: GraphQLString,
+				resolve (emoji) {
+					return emoji.emoji;
+				}
+			},
+			price: {
+				type: GraphQLInt,
+				resolve (emoji) {
+					return emoji.price;
+				}
+			}
+		}
+	}
+});
+
+var emoji_user = new GraphQLObjectType({
+	name: 'emoji_user',
+	description: 'join table for emoji and user',
+	fields: () => {
+		return {
+			UserId: {
+				type: GraphQLInt,
+				resolve(emoUser) {
+					return emoUser.UserId;
+				}
+			},
+			EmojiId: {
+				type: GraphQLInt,
+				resolve(emoUser) {
+					return emoUser.EmojiId;
+				}
+			}
+		}
+	}
+});
+
 var Query = new GraphQLObjectType({
 
 	name: 'Query',
@@ -268,6 +316,38 @@ var Query = new GraphQLObjectType({
 					.catch(function(err){
 						console.log("There is an error: ", err);
 					});
+				}
+			},
+			getEmoji: {
+				type: new GraphQLList(Emoji),
+				args: {
+					username: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve (root, args) {
+					return Db.User.findAll({
+						where: args,
+						include: [Db.Emoji]
+					}).then(function(users) {
+						return users[0].Emojis;
+					})
+				}
+			},
+			getOtherEmoji: {
+				type: new GraphQLList(Emoji),
+				args: {
+					username: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve (root, args) {
+					return Db.User.findAll({
+						where: args,
+						include: [Db.Emoji]
+					}).then(function(users) {
+						var emojiIdArray = [];
+						users[0].Emojis.forEach(function(emoji) {
+							emojiIdArray.push(emoji.id);
+						});
+						return Db.Emoji.findAll({where: {$not: [{id: emojiIdArray}]}});
+					})
 				}
 			}
 		}
@@ -462,6 +542,42 @@ var Mutation = new GraphQLObjectType({
 					}).catch(function(err) {
 						console.log('Error when adding chat: ', err);
 					});
+				}
+			},
+			addEmoji: {
+				type: Emoji,
+				args: {
+					emoji: {type: new GraphQLNonNull(GraphQLString)},
+					price: {type: new GraphQLNonNull(GraphQLInt)}
+				},
+				resolve(root, args) {
+					var time = new Date();
+					return Db.Emoji.create(args).catch(function(err) {
+						console.log('Error when adding chat: ', err);
+					});
+				} 
+			},
+			updateEmojiUser: {
+				type: emoji_user,
+				args: {
+					username: {type: new GraphQLNonNull(GraphQLString)},
+					emoji: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve(root, args) {
+					var updates = {};
+					return Db.User.findAll({where: {username: args.username}})
+					.then(function(user) {
+						updates.UserId = user[0].id;
+						return Db.Emoji.findAll({where: {emoji: args.emoji}})
+						.then(function(emoji) {
+							updates.EmojiId = emoji[0].id;
+							return Db.emoji_user.create(updates)
+							.catch(function(err) {
+								console.log('error when updating emoji_user: ', err);
+							})
+						})
+					})
+
 				}
 			}
 		}
