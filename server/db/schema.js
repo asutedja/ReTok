@@ -77,12 +77,6 @@ var User = new GraphQLObjectType({
 					return user.coin;
 				}
 			},
-			emoji: {
-				type: GraphQLString,
-				resolve (user) {
-					return user.emoji;
-				}
-			},
 			online: {
 				type: GraphQLBoolean,
 				resolve (user) {
@@ -100,12 +94,6 @@ var Friendship = new GraphQLObjectType({
 	description: 'all unique friendships',
 	fields: () => {
 		return {
-			id: {
-				type: GraphQLInt,
-				resolve (friendship) {
-					return friendship.id;
-				}
-			},
 			userOne: {
 				type: GraphQLInt,
 				resolve (friendship) {
@@ -124,10 +112,22 @@ var Friendship = new GraphQLObjectType({
 					return friendship.relationship;
 				}
 			},
-			chatCount: {
+			textChatCount: {
 				type: GraphQLInt,
 				resolve (friendship) {
-					return friendship.chatCount;
+					return friendship.textChatCount;
+				}
+			},
+			videoChatCount: {
+				type: GraphQLInt,
+				resolve (friendship) {
+					return friendship.videoChatCount;
+				}
+			},
+			lastChatTime: {
+				type: GraphQLDate,
+				resolve (friendship) {
+					return friendship.lastChatTime;
 				}
 			}
 		}
@@ -147,16 +147,16 @@ var Chat = new GraphQLObjectType({
 				return chat.id;
 			}
 		},
-		friendshipID: {
-			type: GraphQLInt,
+		sender: {
+			type: GraphQLString,
 			resolve (chat) {
-				return chat.friendshipID;
+				return chat.sender;
 			}
 		},
-		senderID: {
-			type: GraphQLInt,
+		receiver: {
+			type: GraphQLString,
 			resolve (chat) {
-				return chat.senderID;
+				return chat.receiver;
 			}
 		},
 		text: {
@@ -195,21 +195,21 @@ var Query = new GraphQLObjectType({
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
 					coin: {type: GraphQLInt},
-					emoji: {type: GraphQLString},
 					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
-					return Db.User.findAll({where: args, attributes: ['username', 'firstName', 'lastName', 'email', 'dob', 'gender', 'profilePic', 'coin', 'emoji', 'online']});
+					return Db.User.findAll({where: args, attributes: ['id', 'username', 'firstName', 'lastName', 'email', 'dob', 'gender', 'profilePic', 'coin','online']});
 				}
 			},
 			friendships: {
 				type: new GraphQLList(Friendship),
 				args: {
-					id: {type: GraphQLInt},
 					userOne: {type: GraphQLInt},
 					userTwo: {type: GraphQLInt},
 					relationship: {type: GraphQLInt},
-					chatCount: {type: GraphQLInt}
+					textChatCount: {type: GraphQLInt},
+					videoChatCount: {type: GraphQLInt},
+					lastChatTime: {type: GraphQLDate}
 				},
 				resolve (root, args) {
 					return Db.Friendship.findAll({where: args});
@@ -219,8 +219,8 @@ var Query = new GraphQLObjectType({
 				type: new GraphQLList(Chat),
 				args: {
 					id: {type: GraphQLInt},
-					friendshipID: {type: GraphQLInt},
-					senderID: {type: GraphQLInt},
+					sender: {type: GraphQLString},
+					receiver: {type: GraphQLString},
 					text: {type: GraphQLString},
 					time: {type: GraphQLDate}
 				},
@@ -240,12 +240,7 @@ var Query = new GraphQLObjectType({
 					return Db.User.findAll({where: args})
 					.then(function(user){
 						myself = user;
-						// return Db.User.findAll(
-						// 	{
-						// 		include: [Db.FriendTwo],
-						// 	}
-						// );
-						return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`password`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`emoji`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`chatCount`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
+						return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`chatCount`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
 					})
 					.then(function(response){	
 						if(response.length > 0) {
@@ -256,13 +251,7 @@ var Query = new GraphQLObjectType({
 						return friends;
 					})
 					.then(function(nothing){
-						// 	return Db.Friendship.findAll(
-						// 		{
-						// 			include: [Db.FriendOne],
-						// 			where: {userTwo: myself[0].id}
-						// 		}
-						// 	)
-						return Db.sequelize.query("SELECT `FriendOne`.`id` , `FriendOne`.`username`, `FriendOne`.`password`, `FriendOne`.`firstName`, `FriendOne`.`lastName`, `FriendOne`.`email`, `FriendOne`.`dob`, `FriendOne`.`gender`, `FriendOne`.`profilePic`, `FriendOne`.`coin`, `FriendOne`.`emoji`, `FriendOne`.`online`, `FriendOne`.`createdAt`, `FriendOne`.`updatedAt`, `FriendOne.Friendship`.`relationship`, `FriendOne.Friendship`.`chatCount`, `FriendOne.Friendship`.`createdAt`, `FriendOne.Friendship`.`updatedAt`, `FriendOne.Friendship`.`userOne`, `FriendOne.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendOne.Friendship` INNER JOIN `Users` AS `FriendOne` ON `FriendOne`.`id` = `FriendOne.Friendship`.`userOne`) ON `User`.`id` = `FriendOne.Friendship`.`userTwo` WHERE `FriendOne.Friendship`.`userTwo` ="+myself[0].id+";");
+						return Db.sequelize.query("SELECT `FriendOne`.`id` , `FriendOne`.`username`,`FriendOne`.`firstName`, `FriendOne`.`lastName`, `FriendOne`.`email`, `FriendOne`.`dob`, `FriendOne`.`gender`, `FriendOne`.`profilePic`, `FriendOne`.`coin`, `FriendOne`.`online`, `FriendOne`.`createdAt`, `FriendOne`.`updatedAt`, `FriendOne.Friendship`.`relationship`, `FriendOne.Friendship`.`chatCount`, `FriendOne.Friendship`.`createdAt`, `FriendOne.Friendship`.`updatedAt`, `FriendOne.Friendship`.`userOne`, `FriendOne.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendOne.Friendship` INNER JOIN `Users` AS `FriendOne` ON `FriendOne`.`id` = `FriendOne.Friendship`.`userOne`) ON `User`.`id` = `FriendOne.Friendship`.`userTwo` WHERE `FriendOne.Friendship`.`userTwo` ="+myself[0].id+";");
 					})
 					.then(function(response){	
 						if(response.length > 0) {
@@ -298,8 +287,6 @@ var Mutation = new GraphQLObjectType({
 					dob: {type: GraphQLDate},
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
-					coin: {type: GraphQLInt},
-					emoji: {type: GraphQLString}
 				},
 				resolve (root, args) {
 					return Db.User.findAll({where: {username: args.username}})
@@ -318,8 +305,7 @@ var Mutation = new GraphQLObjectType({
 									dob: args.dob,
 									gender: args.gender,
 									profilePic: args.profilePic,
-									coin: 0,
-									emoji: 'test-emoji',
+									coin: 500,
 									online: true
 								});
 							})
@@ -342,7 +328,6 @@ var Mutation = new GraphQLObjectType({
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
 					coin: {type: GraphQLInt},
-					emoji: {type: GraphQLString},
 					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
@@ -358,12 +343,12 @@ var Mutation = new GraphQLObjectType({
 				resolve (root, args) {
 					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
 					.then(function(users){
-
-						Db.Friendship.create({
-							UserId: users[0].id,
-							FriendId: users[1].id,
+						return Db.Friendship.create({
+							userOne: users[0].id,
+							userTwo: users[1].id,
 							relationship: 1,
-							chatCount: 0
+							textChatCount: 0,
+							videoChatCount: 0,
 						});
 					})
 					.catch(function(err){
@@ -376,11 +361,11 @@ var Mutation = new GraphQLObjectType({
 				args: {
 					userOne: {type: new GraphQLNonNull(GraphQLString)},
 					userTwo: {type: new GraphQLNonNull(GraphQLString)},
+					item: {type: GraphQLInt}
 				},
 				resolve (root, args) {
 					return Db.User.findAll({where: {$or: [{username: args.userOne}, {username: args.userTwo}]}})
 					.then(function(users){
-						console.log("users0id---", users[0].id);
 						return Db.Friendship.findAll({
 							where: {
 								$or: [
@@ -401,8 +386,25 @@ var Mutation = new GraphQLObjectType({
 						})
 					})	
 					.then(function(friendship) {
-						console.log("Friendship---", friendship)
-						Db.Friendship.update({relationship: 0}, {where: {id: friendship[0].id}});
+
+						var updatedArgs = {lastChatTime: new Date()};
+
+						if (friendship.length === 0) {
+							return;
+						}
+
+						if (args.item === 1) {
+							updatedArgs['videoChatCount'] = friendship[0].videoChatCount + 1;
+						} else if (args.item === 2) {
+							updatedArgs['textChatCount'] = friendship[0].textChatCount + 1;
+						} else {
+							return;
+						}
+						
+						return Db.Friendship.update(updatedArgs,{
+								where: {$and: [{userOne: friendship[0].userOne}, {userTwo: friendship[0].userTwo}]}
+							});
+
 					})
 					.catch(function(err){
 						console.log('There is an error: ', err);
