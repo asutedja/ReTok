@@ -62,6 +62,7 @@ class StoreEmojisContainer extends React.Component {
   render() {
     return (
       <div>
+      {emojify(':wink:')}
       {this.props.storeEmojis.map((item, index) => <StoreEmoji key={index} emoji={item} buyEmoji={this.buyEmoji.bind(this)}/>)}
       </div>
       )

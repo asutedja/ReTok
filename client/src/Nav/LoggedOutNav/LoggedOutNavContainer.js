@@ -16,92 +16,68 @@ class LoggedOutNavContainer extends React.Component {
 
 
   loggingIn(username, password) {
+
     console.log('User ',username, ' Password ', password);
     //Create logic for checking user and password
-    var userInput = {username: username, password: password};
-    var userData;
+    var userInfo = {username: username, password: password};
 
-    axios.post('/login', userInput)
+    axios.post('/login', userInfo)
     .then((res)=>{
       console.log('what is my res data for loggin in???',res.data);
       console.log('checking router', this.context.router);
       if (res.data[0].username) {
         //TODO: FIgure out what server gives for emojis
-        userData = res.data[0];
-
-
+        this.props.dispatch(userActions.updateUser(res.data[0]));
+        this.props.dispatch(userActions.userAuth());
         let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-        let options = {
+        let options1 = {
 
           method: 'POST',
           headers: myHeaders,
           body: `
-            {  
-              findFriends(username: \"${username}\")
-              {
-                    username
-                    password
-                    profilePic
-                    firstName
-                    lastName
-                    email
-                    online
-                    coin
-                    textChatCount
-                    videoChatCount
-                    lastChatTime
-
-                  }
-            }`
+              mutation {
+              updateUser(username: \"${username}\" online: true)  {
+                username
+              }
+              }
+              `
         };
-        fetch('/graphql', options).then((res) =>{
-          return res.json().then((data) => {
-            console.log('checking my friends data',data.data.findFriends);
-            var friends = data.data.findFriends;
+        fetch('/graphql', options1).then((res) =>{
+          let myHeader = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+          let options = {
 
-            if(friends) {
-              var updatedCoin = userData.coin + 20;
-              userData.coin = updatedCoin;
-              var onlineFriends = friends.filter(friend => friend.online = true);
-
-              this.props.dispatch(userActions.updateFriends(friends));
-              this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
-              this.props.dispatch(userActions.updateFriendCount(friends.length));
-              console.log('user name',username);
-              let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-              let optionsTwo = {
-
-                method: 'POST',
-                headers: myHeaders,
-                body: `
-                    mutation {
-                    updateUser(username: \"${username}\" coin:${updatedCoin} online: true)  {
+            method: 'POST',
+            headers: myHeader,
+            body: `
+              { 
+                
+                findFriends(username: \"${username}\")
+                {
                       username
+                      password
+                      profilePic
+                      firstName
+                      lastName
+                      email
+                      online
                     }
+              }`
 
-                    }
-                    `
-              };
-            
-
-                  fetch('/graphql', optionsTwo).then((res) =>{
-                    return res.json().then((data) => {
-                      console.log('checking data after fetching', data);
-                      this.props.dispatch(userActions.updateUser(userData));
-                      this.props.dispatch(userActions.userAuth());
-                      console.log('going to profile')
-                      this.context.router.push('/profile');
-                })
-              })
-
-
-
-
-              
-            }
-
-
-        })
+          };
+          fetch('/graphql', options).then((res) =>{
+            return res.json().then((data) => {
+              console.log('checking my friends data',data.data.findFriends);
+              var friends = data.data.findFriends;
+              if(friends) {
+                var onlineFriends = friends.filter(friend => friend.online === true);
+                this.props.dispatch(userActions.updateFriends(friends));
+                this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
+                this.props.dispatch(userActions.updateFriendCount(friends.length));
+                console.log('user name',username);
+              }
+              this.context.router.push('/profile');
+            })
+          })
         })
       } else {
         this.setState({
@@ -114,7 +90,7 @@ class LoggedOutNavContainer extends React.Component {
   render() {
     return(
       <div>
-        <LoggedOutNav loggingIn={this.loggingIn.bind(this)} exist={this.state.exist}/>
+        <LoggedOutNav loggingIn = {this.loggingIn.bind(this)} exist={this.state.exist}/>
       </div>
       )
   }
@@ -124,7 +100,7 @@ class LoggedOutNavContainer extends React.Component {
 
 function mapStateToProps(state) {
   return {
-    isLoggedIn: state.userReducer.isLoggedIn
+    isLoggedIn: state.userReducer.isLoggedIn,
   }
 }
 

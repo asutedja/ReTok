@@ -11,6 +11,7 @@ const StoreEmoji = (props) => {
     // }
   return(
     <div>
+      hi
       {emojify(props.emoji.emoji)}
       <button onClick={(e)=>{e.preventDefault(); props.buyEmoji(props.emoji, props.key)}}>Buy Emoji</button>
     </div>

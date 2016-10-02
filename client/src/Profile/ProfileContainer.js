@@ -15,6 +15,44 @@ class ProfileContainer extends React.Component {
     console.log('checking my props', this.props.user.username);
     var socket = this.props.socket
     socket.emit('login', this.props.user.username)
+    var username = this.props.user.username
+    //Logic to update users friends as they login/logout and add new friends
+    socket.on('update', function() {
+      console.log('updating', username);
+      let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+      let options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: `
+          { 
+            
+            findFriends(username: \"${username}\")
+            {
+                  username
+                  password
+                  profilePic
+                  firstName
+                  lastName
+                  email
+                  online
+                }
+          }`
+
+      };
+      fetch('/graphql', options).then((res) =>{
+        return res.json().then((data) => {
+          console.log('checking my friends data',data.data.findFriends);
+          var friends = data.data.findFriends;
+          if(friends) {
+            var onlineFriends = friends.filter(friend => friend.online === true);
+            this.props.dispatch(userActions.updateFriends(friends.slice()));
+            this.props.dispatch(userActions.updateOnlineFriends(onlineFriends.slice()));
+            this.props.dispatch(userActions.updateFriendCount(friends.length));
+          }
+        })
+      })
+    }.bind(this))
   }
 
   render() {

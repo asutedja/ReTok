@@ -20,10 +20,12 @@ class LoggedInNavContainer extends React.Component {
 
   componentWillMount() {
 
-    var socket = io();
+    var socket = this.props.socket || io();
     console.log('socket' , socket)
     this.props.dispatch(userActions.sendSocket(socket));
     this.props.dispatch(userActions.createRoom(this.props.user.username))
+    var friends = this.props.friends;
+    socket.emit('updateFriends', friends);
 
     socket.on('invite', function(caller) {
       this.invitation();
@@ -33,6 +35,7 @@ class LoggedInNavContainer extends React.Component {
       //peer should have room info
 
     }.bind(this))
+    
 
   }
     
@@ -41,9 +44,7 @@ class LoggedInNavContainer extends React.Component {
     var socket = this.props.socket;
     axios.get('/logout');
     this.props.dispatch(userActions.toggleLogIn(false));
-    this.props.dispatch(userActions.sendSocket(null))
 
-    socket.disconnect()
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
 
@@ -64,6 +65,9 @@ class LoggedInNavContainer extends React.Component {
         })
     })
     .catch((error) => console.log(error))
+    socket.emit('updateFriends', this.props.friends);
+    socket.disconnect()
+    this.props.dispatch(userActions.sendSocket(null))
     this.context.router.push('/')
   }
 
@@ -153,7 +157,7 @@ class LoggedInNavContainer extends React.Component {
   render() {
     return(
       <div>
-        <LoggedInNav hide={this.state.hide} logout= {this.logout.bind(this)} accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)} coin={this.props.user.coin}/>
+        <LoggedInNav coin={this.props.user.coin}hide={this.state.hide} logout= {this.logout.bind(this)} accept={this.accept.bind(this)} searchReTok={this.searchReTok.bind(this)}/>
       </div>
       )
   }
@@ -166,7 +170,8 @@ function mapStateToProps(state) {
     search: state.userReducer.search,
     user: state.userReducer.user,
     room: state.userReducer.room,
-    socket: state.userReducer.socket
+    socket: state.userReducer.socket,
+    friends: state.userReducer.friends
   }
 }
 
