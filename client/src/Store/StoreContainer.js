@@ -11,6 +11,7 @@ class StoreContainer extends React.Component {
 	}
 
 	componentWillMount() {
+
 		// var emojis = this.props.emojis.slice();
 		// var userEmojis = this.props.userEmojis.slice();
 
@@ -41,8 +42,9 @@ class StoreContainer extends React.Component {
 
 		    fetch('/graphql', options).then((res) =>{
 		      return res.json().then((data) => {
-		        console.log('checking Store emoji data after fetching', data);
-		        this.props.dispatch(userActions.updateStoreEmojis(data));
+		        console.log('checking Store emoji data after fetching', data.data.getOtherEmoji);
+		        this.props.dispatch(userActions.updateStoreEmojis(data.data.getOtherEmoji));
+		        console.log('i hit StoreEmojisContainer', this.props.storeEmojis);
 		  		})
 				})
 		
@@ -92,6 +94,7 @@ class StoreContainer extends React.Component {
 					<Link to="/store">Buy Emojis</Link>
 					<Link to="/userinventory">Emojis I Own</Link>
 				</div>
+				{this.props.children}
 			</div>
 			)
 	}
@@ -103,6 +106,7 @@ function mapStateToProps(state) {
   	 emojis: state.userReducer.emojis,
   	 user: state.userReducer.user,
   	 userEmojis: state.userReducer.userEmojis,
+  	 storeEmojis: state.userReducer.storeEmojis,
   }
 }
 

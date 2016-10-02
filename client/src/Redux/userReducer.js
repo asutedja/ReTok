@@ -187,14 +187,14 @@ export default function userReducer (state = userInitialState, action) {
     case 'UPDATE_STORE_EMOJIS' : {
       return {
         ...state,
-        emojis: action.storeEmojis,
+        storeEmojis: action.storeEmojis,
       }
     }
 
     case 'UPDATE_USER_EMOJIS' : {
       return {
         ...state,
-        emojis: action.userEmojis,
+        userEmojis: action.userEmojis,
       }
     }
 

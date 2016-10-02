@@ -2229,14 +2229,14 @@ function userReducer() {
     case 'UPDATE_STORE_EMOJIS':
       {
         return _extends({}, state, {
-          emojis: action.storeEmojis
+          storeEmojis: action.storeEmojis
         });
       }
 
     case 'UPDATE_USER_EMOJIS':
       {
         return _extends({}, state, {
-          emojis: action.userEmojis
+          userEmojis: action.userEmojis
         });
       }
 
@@ -34537,8 +34537,9 @@ var StoreContainer = function (_React$Component) {
 
 			fetch('/graphql', options).then(function (res) {
 				return res.json().then(function (data) {
-					console.log('checking Store emoji data after fetching', data);
-					_this2.props.dispatch(userActions.updateStoreEmojis(data));
+					console.log('checking Store emoji data after fetching', data.data.getOtherEmoji);
+					_this2.props.dispatch(userActions.updateStoreEmojis(data.data.getOtherEmoji));
+					console.log('i hit StoreEmojisContainer', _this2.props.storeEmojis);
 				});
 			});
 		}
@@ -34598,7 +34599,8 @@ var StoreContainer = function (_React$Component) {
 						{ to: '/userinventory' },
 						'Emojis I Own'
 					)
-				)
+				),
+				this.props.children
 			);
 		}
 	}]);
@@ -34611,7 +34613,8 @@ function mapStateToProps(state) {
 		//TODO: Configure server and database to know what kind of object I get back for emojis
 		emojis: state.userReducer.emojis,
 		user: state.userReducer.user,
-		userEmojis: state.userReducer.userEmojis
+		userEmojis: state.userReducer.userEmojis,
+		storeEmojis: state.userReducer.storeEmojis
 	};
 }
 
@@ -72480,7 +72483,7 @@ var StoreEmojisContainer = function (_React$Component) {
   _createClass(StoreEmojisContainer, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
-      console.log('i hit all friends container', this.props.friends);
+      console.log('i hit StoreEmojisContainer', this.props.storeEmojis);
     }
   }, {
     key: 'buyEmoji',
@@ -72530,7 +72533,7 @@ var StoreEmojisContainer = function (_React$Component) {
         'div',
         null,
         this.props.storeEmojis.map(function (item, index) {
-          return _react2.default.createElement(_StoreEmoji2.default, { key: index, emoji: item, buyEmoji: _this3.props.buyEmoji.bind(_this3) });
+          return _react2.default.createElement(_StoreEmoji2.default, { key: index, emoji: item, buyEmoji: _this3.buyEmoji.bind(_this3) });
         })
       );
     }

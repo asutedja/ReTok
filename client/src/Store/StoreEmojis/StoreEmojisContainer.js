@@ -11,7 +11,7 @@ class StoreEmojisContainer extends React.Component {
   }
 
   componentWillMount() {
-    console.log('i hit all friends container', this.props.friends);
+    console.log('i hit StoreEmojisContainer', this.props.storeEmojis);
   }
 
   buyEmoji(emoji, key) {
@@ -62,7 +62,7 @@ class StoreEmojisContainer extends React.Component {
   render() {
     return (
       <div>
-      {this.props.storeEmojis.map((item, index) => <StoreEmoji key={index} emoji={item} buyEmoji={this.props.buyEmoji.bind(this)}/>)}
+      {this.props.storeEmojis.map((item, index) => <StoreEmoji key={index} emoji={item} buyEmoji={this.buyEmoji.bind(this)}/>)}
       </div>
       )
   }
