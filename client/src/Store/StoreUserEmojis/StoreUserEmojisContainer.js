@@ -11,7 +11,7 @@ class StoreUserEmojisContainer extends React.Component {
   }
 
   componentWillMount() {
-
+    console.log('hit the store user emoji container');
   }
 
 

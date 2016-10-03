@@ -4,7 +4,6 @@ import {emojify} from 'react-emojione'
 const StoreEmoji = (props) => {
 
   return(
-    <div>
       <div className="oneEmoji">
         <div className="emojiWrapper">
           {emojify(props.emoji.emoji, {output: 'unicode'})}
@@ -13,7 +12,7 @@ const StoreEmoji = (props) => {
         <button className="storeButton" onClick={(e)=>{e.preventDefault(); props.buyEmoji(props.emoji, props.index)}}>Buy Emoji</button>
       </div>
       </div>
-    </div>
+
     )
 }
 
