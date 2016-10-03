@@ -12,7 +12,7 @@ const Profile = (props) => {
     <Grid>
       <Row className = "show-grid" id ="userProfileContainer">
         <div>
-          <Col sm={4}><img id = "profilePhoto" src={props.user.profilePic ? props.user.profilePic : ""}/></Col>
+          <Col sm={4}><img id = "profilePhoto" src={props.user.profilePic ? props.user.profilePic : "http://cdn.curvve.com/wp-content/uploads/2013/10/anonymous_user_profile.jpg"}/></Col>
         </div>
         <Col sm={8}>
         <Row className ="show-grid profileRow">
@@ -30,9 +30,9 @@ const Profile = (props) => {
         </Col>
       </Row>
       <div className= "profileNav">
-      <Link to="/profile">All Friends</Link>
-      <Link to="/online">Online</Link>
-      <Link to="/suggested">You Should Talk to...</Link>
+      <Link to="/profile" className="subNavLinks">All Friends</Link>
+      <Link to="/online" className="subNavLinks">Online</Link>
+      <Link to="/suggested" className="subNavLinks">You Should Talk to...</Link>
       </div>
 
 

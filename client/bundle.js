@@ -33735,11 +33735,6 @@ var AllFriends = function AllFriends(props) {
   return _react2.default.createElement(
     'div',
     { className: 'oneFriend', style: divStyle },
-    _react2.default.createElement(
-      'span',
-      null,
-      props.friend.username
-    ),
     _react2.default.createElement('div', { className: 'oneFriendWrapper' })
   );
 };
@@ -34070,7 +34065,7 @@ var Profile = function Profile(props) {
         _react2.default.createElement(
           _reactBootstrap.Col,
           { sm: 4 },
-          _react2.default.createElement('img', { id: 'profilePhoto', src: props.user.profilePic ? props.user.profilePic : "" })
+          _react2.default.createElement('img', { id: 'profilePhoto', src: props.user.profilePic ? props.user.profilePic : "http://cdn.curvve.com/wp-content/uploads/2013/10/anonymous_user_profile.jpg" })
         )
       ),
       _react2.default.createElement(
@@ -34139,17 +34134,17 @@ var Profile = function Profile(props) {
       { className: 'profileNav' },
       _react2.default.createElement(
         _reactRouter.Link,
-        { to: '/profile' },
+        { to: '/profile', className: 'subNavLinks' },
         'All Friends'
       ),
       _react2.default.createElement(
         _reactRouter.Link,
-        { to: '/online' },
+        { to: '/online', className: 'subNavLinks' },
         'Online'
       ),
       _react2.default.createElement(
         _reactRouter.Link,
-        { to: '/suggested' },
+        { to: '/suggested', className: 'subNavLinks' },
         'You Should Talk to...'
       )
     )
@@ -34683,7 +34678,7 @@ var SearchContainer = function (_React$Component) {
               _this2.props.dispatch(userActions.updateFriends(friendsCopy));
               var friendCountPlusOne = _this2.props.friendCount + 1;
               _this2.props.dispatch(userActions.updateFriendCount(friendCountPlusOne));
-              console.log('checking my user data to see successful dispatch', _this2.props.user);
+              console.log('checking my user data to see successful dispatch', _this2.props.user, _this2.props.friends);
             });
           });
         });
@@ -34850,12 +34845,12 @@ var StoreContainer = function (_React$Component) {
 										{ className: 'profileNav' },
 										_react2.default.createElement(
 												_reactRouter.Link,
-												{ to: '/store' },
+												{ to: '/store', className: 'subNavLinks' },
 												'Buy Emojis'
 										),
 										_react2.default.createElement(
 												_reactRouter.Link,
-												{ to: '/userinventory' },
+												{ to: '/userinventory', className: 'subNavLinks' },
 												'Emojis I Own'
 										)
 								),
@@ -34919,7 +34914,7 @@ var StoreEmoji = function StoreEmoji(props) {
 
   return _react2.default.createElement(
     'div',
-    { className: 'oneEmoji' },
+    { className: 'oneEmoji hvr-bob' },
     _react2.default.createElement(
       'div',
       { className: 'emojiWrapper' },
@@ -35138,7 +35133,7 @@ var StoreUserEmoji = function StoreUserEmoji(props) {
 
   return _react2.default.createElement(
     'div',
-    { className: 'oneEmoji' },
+    { className: 'oneEmoji hvr-bob' },
     _react2.default.createElement(
       'div',
       { className: 'emojiWrapper' },
