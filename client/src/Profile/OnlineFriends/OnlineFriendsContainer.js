@@ -23,7 +23,7 @@ class OnlineFriendsContainer extends React.Component {
     this.context.router.push('/chat')
 
 
-  }
+  } 
 
   render() {
     return (
