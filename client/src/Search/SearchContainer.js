@@ -71,7 +71,7 @@ class SearchContainer extends React.Component {
                 this.props.dispatch(userActions.updateFriends(friendsCopy));
                 var friendCountPlusOne = this.props.friendCount + 1;
                 this.props.dispatch(userActions.updateFriendCount(friendCountPlusOne));
-                console.log('checking my user data to see successful dispatch', this.props.user);
+                console.log('checking my user data to see successful dispatch', this.props.user, this.props.friends);
           })
         })
 

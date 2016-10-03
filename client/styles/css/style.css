@@ -4,7 +4,8 @@
   font-weight: 100; }
 
 body {
-  background-color: #cccccc; }
+  background-color: #f2f2f2;
+  color: #737373; }
 
 .mainNav {
   position: absolute;
@@ -149,7 +150,7 @@ video {
 .NavInputForm {
   border-radius: 4px;
   border: 1px solid #8c8c8c;
-  color: black; }
+  color: #333333; }
 
 .loginButton {
   border: 1px solid #15aeec;
@@ -319,3 +320,6 @@ video {
 .storeButtonWrapper {
   display: flex;
   justify-content: center; }
+
+.subNavLinks {
+  color: #737373 !important; }

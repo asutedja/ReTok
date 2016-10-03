@@ -10,11 +10,11 @@ const AllFriends = (props) => {
       backgroundRepeat: 'no-repeat'
     }
   return(
-    <div className = "oneFriend" style={divStyle}>
-      <span>{props.friend.username}</span>
-        <div className="oneFriendWrapper">
-        </div>
-    </div>
+      <div className = "oneFriend" style={divStyle}>
+    
+          <div className="oneFriendWrapper">
+          </div>
+      </div>
     )
 }
 

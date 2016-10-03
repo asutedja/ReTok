@@ -6,10 +6,11 @@
 }
 
 
-$primaryColor: #cccccc;
+$primaryColor: #f2f2f2;
 
 body {
   background-color: $primaryColor;
+  color: #737373;
 }
 
 .mainNav {
@@ -176,7 +177,7 @@ video {
 .NavInputForm{
 border-radius: 4px;
 border: 1px solid #8c8c8c;
-color:black;
+color:#333333;
 }
 
 .loginButton{
@@ -357,6 +358,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .storeButtonWrapper{
   display: flex;
   justify-content: center;
+}
+
+.subNavLinks{
+ color: #737373 !important; 
 }
 
 
