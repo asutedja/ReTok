@@ -11,15 +11,14 @@ class StoreUserEmojisContainer extends React.Component {
   }
 
   componentWillMount() {
-
+    console.log('hit the store user emoji container');
   }
 
 
   render() {
     return (
       <div>
-      hi
-      {this.props.userEmojis.map((item, index) => <StoreUserEmoji key={index} emoji={item}/>)}
+      {this.props.userEmojis.map((item, index) => <StoreUserEmoji key={index} index={index} emoji={item}/>)}
       </div>
       )
   }
