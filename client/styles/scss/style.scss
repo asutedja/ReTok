@@ -364,4 +364,149 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
  color: #737373 !important; 
 }
 
+.chatFriendsList{
+border: 1px solid #404040;
+border-radius: 5px;
+margin-top: 5px;
+background-color: #404040;
+color: white !important;
+display: flex;
+position: fixed;
+flex-flow: column;
+height: 500px;
+padding-left: 2%;
+padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width:250px;
+}
+
+.chatFriendListEntry{
+margin-left:2%;
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #404040;
+  border-radius: 10px;
+}
+
+.chatFriendsListEntry:hover {
+  background-color: #595959;
+
+}
+
+.chatFriendListSelected {
+  background-color: #595959;
+}
+
+
+.chatWindow{
+border: 1px solid white;
+border-radius: 5px;
+margin-top: 5px;
+background-color: white;
+color: #404040 !important;
+display: flex;
+position: relative;
+left: 30%;
+flex-flow: column;
+height: 420px;
+  padding-left: 2%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width:60%;
+}
+
+.chatInputWindow{
+border: 1px solid white;
+border-radius: 5px;
+margin-top: 5px;
+background-color: white;
+color: #404040 !important;
+display: flex;
+position: relative;
+left: 30%;
+
+height: 50px;
+  padding-left: 2%;
+  padding-right: 1%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width:60%;
+}
+#chatInput{
+align-items: center;
+  width: 90%;
+}
+
+.textChatButton {
+  display:inline;
+  float: right;
+
+  margin-left: 2%;
+ border: 1px solid #15aeec;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ font-size: 12px;
+ font-family: Roboto, arial, helvetica, sans-serif;
+
+ text-decoration: none;
+ text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.3);
+ font-weight: 200;
+ color: #FFFFFF;
+ background-color: #49c0f0;
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#49c0f0), to(#2CAFE3));
+ background-image: -webkit-linear-gradient(top, #3d9de9, #0674cc);
+ background-image: -moz-linear-gradient(top, #3d9de9, #0674cc);
+ background-image: -ms-linear-gradient(top, #3d9de9, #0674cc);
+ background-image: -o-linear-gradient(top, #3d9de9, #0674cc);
+ background-image: linear-gradient(to bottom, #3d9de9, #0674cc);
+ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#49c0f0, endColorstr=#0674cc); 
+}
+
+.textChatButton:hover  {
+border: 1px solid #1090c3;
+background-color: #1ab0ec;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#1ab0ec), to(#1a92c2));
+background-image: -webkit-linear-gradient(top, #1ab0ec, #3f9feb);
+background-image: -moz-linear-gradient(top, #1ab0ec, #3f9feb);
+background-image: -ms-linear-gradient(top, #1ab0ec, #3f9feb);
+background-image: -o-linear-gradient(top, #1ab0ec, #3f9feb);
+background-image: linear-gradient(to bottom, #1ab0ec, #3f9feb);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#1ab0ec, endColorstr=#3f9feb); 
+}
+
+#chatInputField{
+  border-radius: 10px;
+  width: 80%;
+  height: 30px;
+}
+
+#oneChatMessage{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.emojiChatContainer{
+  margin-top: -1%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 90%;
+}
+
+.oneEmojiChat{
+  margin: 2%;
+}
+
+.emojiChatWrapper {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+
+
 

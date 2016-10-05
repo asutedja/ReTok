@@ -13,6 +13,7 @@ import StoreEmojisContainer from './Store/StoreEmojis/StoreEmojisContainer.js'
 import StoreUserEmojisContainer from './Store/StoreUserEmojis/StoreUserEmojisContainer.js'
 import ChatContainer from './Chat/ChatContainer.js'
 import ChatMVPContainer from './Chat/ChatMVPContainer.js'
+import TextChatContainer from './TextChat/TextChatContainer.js'
 import SearchContainer from './Search/SearchContainer.js'
 
 var Routes = (
@@ -30,6 +31,7 @@ var Routes = (
         </Route>
       <Route path="/search" component={SearchContainer}/>
       <Route path="/chat" component={ChatMVPContainer}/>
+      <Route path="/text" component={TextChatContainer}/>
       <Route path="/upload" component={PhotoUploadContainer}/>
     </Route>
   </Router>

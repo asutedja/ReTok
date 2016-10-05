@@ -14,7 +14,7 @@ const LoggedInNav = (props) => {
       </form>
       {props.hide ? <Link id="chat" onClick={props.accept} to="/chat">Chat</Link> : null}
       <Link to="/store">Store</Link>
-      <Link to="/upload">Upload</Link>
+      <Link to="/text">Text</Link>
       <Link onClick={props.logout}>Logout</Link>
       <span><b>Coins:</b> {props.coin}</span>
     </div>
