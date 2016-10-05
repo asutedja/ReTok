@@ -100,6 +100,26 @@ app.post('/login', passport.authenticate('local', {
 
 io.sockets.on('connection', function(socket) {
 
+  socket.on('textmessagemount', function() {
+    console.log('i hit the textmessagemount.');
+  });
+
+  socket.on('textmessagesent', function(message, room) {
+    console.log('textmessagesent on server side --->', message, room);
+    // socket.broadcast('textmessagereceived', message);
+    io.sockets.in(room).emit('textmessagereceived', message);
+  });
+
+  socket.on('joinRoom', function(room, oldRoom) {
+    console.log('joinRoom on server side --->', room);
+    // socket.broadcast('textmessagereceived', message);
+    socket.join(room);
+    socket.leave(oldRoom);
+
+    io.sockets.in(room).emit('joinRoomSuccess', room);
+  });
+
+
   socket.on('login', function(user) {
     sockets[user] = socket.id; 
     log('this is the room you are in: ', user)
