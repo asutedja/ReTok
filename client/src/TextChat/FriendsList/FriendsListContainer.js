@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
 import io from 'socket.io-client'
 import FriendsListEntry from './FriendsListEntry'
-// import FriendsListEntry from './FriendsListEntry.js'
 import * as userActions from '../../Redux/userReducer'
 
 class FriendsListContainer extends React.Component {

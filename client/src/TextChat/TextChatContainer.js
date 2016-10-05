@@ -40,7 +40,18 @@ class TextChatContainer extends React.Component {
       console.log('i hit joinRoomSuccess', room);
       context.props.dispatch(userActions.createRoom(room));
       console.log('i successfuly dispatched CreateRoom', context.props.room);
+      context.setState({
+        chat: []
+      })
     })
+  }
+
+  componentWillUnmount() {
+    console.log('hit componentDidUnMount');
+    var socket = this.props.socket;
+    var room = this.props.room;
+
+    socket.emit('leavetextchatview', room, this.props.user.username);
   }
 
   sendChat(message) {

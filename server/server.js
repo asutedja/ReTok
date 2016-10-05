@@ -113,7 +113,7 @@ io.sockets.on('connection', function(socket) {
 
   socket.on('joinRoom', function(room, oldRoom, username) {
     console.log('joinRoom on server side --->', room);
-    
+
     // socket.broadcast('textmessagereceived', message);
     if (oldRoom !== username) {
       socket.leave(oldRoom);
@@ -127,7 +127,18 @@ io.sockets.on('connection', function(socket) {
     io.sockets.in(room).emit('joinRoomSuccess', room);
   });
 
+
   console.log('Socket Connected =-------==============')
+
+
+  socket.on('leavetextchatview', function(room, username) {
+    console.log('hit leavetextchatview');
+    if (room !== username) {
+      socket.leave(room);
+      console.log('view dismounted. leaving room -->', room);
+    }
+
+  });
 
 
   socket.on('login', function(user) {
