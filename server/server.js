@@ -113,8 +113,10 @@ io.sockets.on('connection', function(socket) {
   socket.on('joinRoom', function(room, oldRoom) {
     console.log('joinRoom on server side --->', room);
     // socket.broadcast('textmessagereceived', message);
-    socket.join(room);
     socket.leave(oldRoom);
+    socket.join(room);
+    console.log('joinRoom on server side now --->', room);
+
 
     io.sockets.in(room).emit('joinRoomSuccess', room);
   });
