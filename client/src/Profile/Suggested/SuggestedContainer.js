@@ -12,7 +12,7 @@ class SuggestedContainer extends React.Component {
   }
 
   componentWillMount() {
-    console.log('i hit this component for suggestedFriends')
+    console.log('i hit this component for suggestedFriends');
   }
 
   videoChat(friend) {
