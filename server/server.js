@@ -110,10 +110,15 @@ io.sockets.on('connection', function(socket) {
     io.sockets.in(room).emit('textmessagereceived', message);
   });
 
-  socket.on('joinRoom', function(room, oldRoom) {
+  socket.on('joinRoom', function(room, oldRoom, username) {
     console.log('joinRoom on server side --->', room);
+    
     // socket.broadcast('textmessagereceived', message);
-    socket.leave(oldRoom);
+    if (oldRoom !== username) {
+      socket.leave(oldRoom);
+      console.log('leaving room', oldRoom);
+    }
+
     socket.join(room);
     console.log('joinRoom on server side now --->', room);
 

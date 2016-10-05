@@ -18,7 +18,11 @@ class FriendsListContainer extends React.Component {
     var roomName = [[this.props.user.username], [friend.username]].sort().join('');
     console.log('checking roomName', roomName);
 
-    this.props.socket.emit('joinRoom', roomName, currentRoom);
+    if ( roomName === currentRoom) {
+      console.log('room names are the same');
+      return;
+    } else {
+    this.props.socket.emit('joinRoom', roomName, currentRoom, this.props.user.username);}
 
   }
 
