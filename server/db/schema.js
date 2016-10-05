@@ -360,21 +360,21 @@ var Query = new GraphQLObjectType({
 					username: {type: new GraphQLNonNull(GraphQLString)}
 				},
 				resolve (root, args) {
-				                    return Db.User.findAll({
-				                        where: args,
-				                        include: [Db.Emoji]
-				                    }).then(function(users) {
-				                        var emojiIdArray = [];
-				                        if (users[0].Emojis.length > 0) {
-				                            users[0].Emojis.forEach(function(emoji) {
-				                                emojiIdArray.push(emoji.id);    
-				                            });
-				                            return Db.Emoji.findAll({where: {$not: [{id: emojiIdArray}]}});
-				                        } else {
-				                            return Db.Emoji.findAll();
-				                        }
-				                    });
-				                }
+          return Db.User.findAll({
+            where: args,
+            include: [Db.Emoji]
+          }).then(function(users) {
+            var emojiIdArray = [];
+            if (users[0].Emojis.length > 0) {
+              users[0].Emojis.forEach(function(emoji) {
+                emojiIdArray.push(emoji.id);    
+              });
+              return Db.Emoji.findAll({where: {$not: [{id: emojiIdArray}]}});
+            } else {
+              return Db.Emoji.findAll();
+            }
+          });
+        }
 			}
 		};
 	}
