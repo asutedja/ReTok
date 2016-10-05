@@ -96,6 +96,10 @@ class LoggedOutNavContainer extends React.Component {
                 this.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends));
                 this.props.dispatch(userActions.updateFriendCount(friends.length));
                 console.log('user name',username);
+              } else {
+                this.props.dispatch(userActions.updateFriends([]));
+                this.props.dispatch(userActions.updateOnlineFriends([]));
+                this.props.dispatch(userActions.updateFriendCount(0));
               }
               this.context.router.push('/profile');
             })

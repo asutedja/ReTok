@@ -22,7 +22,7 @@ class StoreEmojisContainer extends React.Component {
     var userEmojis = this.props.userEmojis.slice();
 
     if (emojiCost > userCoinTotal) {
-      alert('you dont have enough coins to buy this emoji');
+      alert('You dont have enough coins to buy this emoji');
     } else {
       let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
       userCoinTotal = userCoinTotal - emojiCost;

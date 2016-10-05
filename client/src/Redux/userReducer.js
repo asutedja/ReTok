@@ -105,6 +105,13 @@ export function sendSocket(socket) {
   }
 }
 
+export function sendMultiConnection(connection) {
+  return {
+    type: 'SEND_MULTICONNECTION',
+    connection
+  }
+}
+
 // ----- SET USER REDUCER INITIAL STATE ------ //
 const userInitialState = {
   userID: '',
@@ -120,7 +127,8 @@ const userInitialState = {
   userEmojis: [],
   search: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}],
   room: '',
-  socket: null
+  socket: null,
+  connection: null
 
 }
 
@@ -238,6 +246,13 @@ export default function userReducer (state = userInitialState, action) {
       return {
         ...state,
         socket: action.socket
+      }
+    }
+
+    case 'SEND_MULTICONNECTION' : {
+      return {
+        ...state,
+        connection: action.connection
       }
     }
 
