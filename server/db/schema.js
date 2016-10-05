@@ -568,7 +568,7 @@ var Mutation = new GraphQLObjectType({
 					}).catch(function(err) {
 						console.log('Error when adding chat: ', err);
 					});
-				}€
+				}
 			},
 			addEmoji: {
 				type: Emoji,
