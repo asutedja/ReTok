@@ -44,7 +44,7 @@ class MultiChatContainer extends React.Component {
 
      var room = this.props.room;
      //Ensures caller opens the room first, before callees come in.
-     connecttion.openOrJoin(room);
+     connection.openOrJoin(room);
 
       document.getElementById('input-text-chat').onkeyup = function(e) {
         if (e.keyCode != 13) return;

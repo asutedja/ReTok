@@ -31,8 +31,8 @@ var Routes = (
         <Route path='/userinventory' component={StoreUserEmojisContainer}/>
         </Route>
       <Route path="/search" component={SearchContainer}/>
-      <Route path="/text" component={TextChatContainer}/>
       <Route path="/chat" component={MultiChatContainer}/>
+      <Route path="/text" component={TextChatContainer}/>
       <Route path="/upload" component={PhotoUploadContainer}/>
     </Route>
   </Router>
