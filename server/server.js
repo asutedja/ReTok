@@ -24,9 +24,10 @@ var certificate = fs.readFileSync(__dirname + '/cert.pem', 'utf8');
 var credentials = {key: privateKey, cert: certificate};
 var httpsServer = https.createServer(credentials, app);
 
-
+//Signaling server for MultiRTCConnection Library
 var os = require('os');
 var io = require('socket.io')(httpsServer);
+require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 
 
 app.use(express.static('client'));
@@ -126,6 +127,8 @@ io.sockets.on('connection', function(socket) {
     io.sockets.in(room).emit('joinRoomSuccess', room);
   });
 
+  console.log('Socket Connected =-------==============')
+
 
   socket.on('login', function(user) {
     sockets[user] = socket.id; 
@@ -179,6 +182,13 @@ io.sockets.on('connection', function(socket) {
     }
   });
 
+  // socket.on('leaveVideo', function(user) {
+  //   if(user.room !== user.name){
+  //     socket.leave[user.room];
+      
+  //   }
+  // })
+
   socket.on('ipaddr', function() {
     var ifaces = os.networkInterfaces();
     for (var dev in ifaces) {
@@ -205,8 +215,9 @@ io.sockets.on('connection', function(socket) {
   socket.on('disconnect', function() {
     for(var key in sockets) {
       if (sockets[key] === socket.id) {
-        delete sockets[key];
+        sockets[key] = null;
       }
+
     }
 
   }) 

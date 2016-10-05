@@ -19,11 +19,12 @@ class LoggedInNavContainer extends React.Component {
 
   componentWillMount() {
 
-    var socket = this.props.socket || io();
+    var socket = io();
     console.log('socket' , socket)
     this.props.dispatch(userActions.sendSocket(socket));
     this.props.dispatch(userActions.createRoom(this.props.user.username))
     var friends = this.props.friends;
+    console.log(friends)
     socket.emit('updateFriends', friends);
 
     socket.on('invite', function(caller) {
@@ -31,6 +32,7 @@ class LoggedInNavContainer extends React.Component {
       console.log('This should be Andrew', caller.caller)
 
       this.props.dispatch(userActions.createRoom(caller.caller));
+
       //peer should have room info
 
     }.bind(this))
@@ -96,7 +98,7 @@ class LoggedInNavContainer extends React.Component {
     clearInterval(this.state.toggle);
     document.getElementById('chat').style.background = "#4d4d4d";
     this.setState({
-      hide:true
+      hide:false
     })
     this.context.router.push('/chat')
   }
