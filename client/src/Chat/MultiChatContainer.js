@@ -26,7 +26,7 @@ class MultiChatContainer extends React.Component {
 
   componentDidMount() {
 
-    var connection = new RTCMultiConnection(room);
+    var connection = new RTCMultiConnection();
     window.connection = connection;
     // connection.userid = this.props.user;
      connection.session = {
@@ -44,12 +44,7 @@ class MultiChatContainer extends React.Component {
 
      var room = this.props.room;
      //Ensures caller opens the room first, before callees come in.
-     if(this.props.room === this.props.user.username) {
-      console.log('opening')
-       connection.open(room);
-     } else {
-      connection.join(room);
-     }
+     connecttion.openOrJoin(room);
 
       document.getElementById('input-text-chat').onkeyup = function(e) {
         if (e.keyCode != 13) return;
@@ -97,11 +92,10 @@ class MultiChatContainer extends React.Component {
       };
 
       connection.onEntireSessionClosed = function(event) {
+          connection.leave();
           connection.attachStreams.forEach(function(stream) {
               stream.stop();
           });
-          connection.leave();
-          connection.close();
           var info = {name:this.props.user, room:this.props.room};
           this.props.socket.emit('leavingVideo', info);
           console.log('Connection should be closed!')
