@@ -17,10 +17,10 @@ class ProfileContainer extends React.Component {
     var num = 0;
     if (friends.length <= 5) {
       num = friends.length;
-    } else if (friends.length <= 20 && friends.length > 10) {
-      num = 5;
+    } else if (friends.length <= 20 && friends.length > 5) {
+      num = Math.min(5, friends.length);
     } else {
-      num = 10;
+      num = Math.min(10, friends.length);
     }
     for (var i = 0; i < num; i++) {
       rankedFriends.push(friends[i]);

@@ -20,7 +20,7 @@ class SuggestedContainer extends React.Component {
     var socket = this.props.socket;
     var info = {user: friend.username, caller: this.props.user.username}
     socket.emit('calling', info);
-    this.context.router.push('/chat')
+    this.context.router.push('/chat');
 
 
   }
