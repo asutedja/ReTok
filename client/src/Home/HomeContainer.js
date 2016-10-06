@@ -13,10 +13,6 @@ class HomeContainer extends React.Component {
 		super(props);
 	}
 
-	componentWillUnmount() {
-		
-	}
-
 	render() {
 		return (
 			<div>
@@ -35,7 +31,8 @@ class HomeContainer extends React.Component {
 function mapStateToProps(state){
   console.log(state, 'mapStateToProps state')
   return {
-    isLoggedIn: state.userReducer.isLoggedIn //<=== shouldnt have to do this...? 
+    isLoggedIn: state.userReducer.isLoggedIn, //<=== shouldnt have to do this...?
+    socket: state.userReducer.socket 
   }
 }
 

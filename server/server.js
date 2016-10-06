@@ -221,7 +221,10 @@ io.sockets.on('connection', function(socket) {
     console.log('socket disconnected')
     for(var key in sockets) {
       if (sockets[key] === socket.id) {
-        sockets[key] = null;
+        User.update({online: false}, {where: {username: key}}).then(function() {
+          sockets[key] = null;
+        })
+
       }
     }
 

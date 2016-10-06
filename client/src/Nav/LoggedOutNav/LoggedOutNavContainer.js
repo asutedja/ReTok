@@ -110,7 +110,11 @@ class LoggedOutNavContainer extends React.Component {
           exist:true
         })
       }
-    });
+    }).catch(function(error) {
+      this.setState({
+        exist:true
+      })
+    }.bind(this));
   }
  
   render() {
