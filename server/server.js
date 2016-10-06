@@ -193,12 +193,6 @@ io.sockets.on('connection', function(socket) {
     }
   });
 
-  // socket.on('leaveVideo', function(user) {
-  //   if(user.room !== user.name){
-  //     socket.leave[user.room];
-      
-  //   }
-  // })
 
   socket.on('ipaddr', function() {
     var ifaces = os.networkInterfaces();
@@ -224,11 +218,11 @@ io.sockets.on('connection', function(socket) {
   })
 
   socket.on('disconnect', function() {
+    console.log('socket disconnected')
     for(var key in sockets) {
       if (sockets[key] === socket.id) {
         sockets[key] = null;
       }
-
     }
 
   }) 

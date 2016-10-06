@@ -119,13 +119,6 @@ export function sendSocket(socket) {
   }
 }
 
-export function sendMultiConnection(connection) {
-  return {
-    type: 'SEND_MULTICONNECTION',
-    connection
-  }
-}
-
 // ----- SET USER REDUCER INITIAL STATE ------ //
 const userInitialState = {
   userID: '',
@@ -279,12 +272,6 @@ export default function userReducer (state = userInitialState, action) {
       }
     }
 
-    case 'SEND_MULTICONNECTION' : {
-      return {
-        ...state,
-        connection: action.connection
-      }
-    }
 
     default : 
       return state
