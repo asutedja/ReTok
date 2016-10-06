@@ -5,7 +5,7 @@ import { Router, Route, IndexRoute, Link } from 'react-router'
 import { connect } from 'react-redux'
 import Profile from './Profile.js'
 import * as userActions from '../Redux/userReducer'
-import friendScoreCalculator from '../friendTierCalculator'
+import friendTierCalculator from '../friendTierCalculator.js'
 
 
 class ProfileContainer extends React.Component {
@@ -66,7 +66,7 @@ class ProfileContainer extends React.Component {
           var friends = data.data.findFriends;
           // friendRanking() added score to each friend
           if(friends) {
-            friendScoreCalculator(friends);
+            friendTierCalculator(friends);
             var onlineFriends = friends.filter(friend => friend.online === true);
             var suggestedFriends = this.tierRanking(onlineFriends.slice().sort((friend0, friend1) => {return friend1.score - friend0.score}));
             this.props.dispatch(userActions.updateFriends(friends.slice()));

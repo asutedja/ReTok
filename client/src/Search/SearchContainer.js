@@ -19,8 +19,6 @@ class SearchContainer extends React.Component {
     console.log('i tried to add this friend', friend);
     console.log('im checking my own user info', this.props.user);
 
-
-
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
 
@@ -73,6 +71,7 @@ class SearchContainer extends React.Component {
                 this.props.dispatch(userActions.updateFriendCount(friendCountPlusOne));
                 console.log('checking my user data to see successful dispatch', this.props.user, this.props.friends);
                 socket.emit('updateFriends',this.props.friends);
+                socket.emit('updateFriends', [this.props.user]);
           })
         })
 
