@@ -20,9 +20,8 @@ var User = sequelize.define('User', {
 
 // chat model stores all chat histories
 var Chat = sequelize.define('Chat', {
-	sender: Sequelize.STRING,
-	receiver: Sequelize.STRING,
-	text: Sequelize.STRING,
+	room: Sequelize.STRING,
+	text: Sequelize.TEXT('long'),
 	time: Sequelize.DATE
 });
 

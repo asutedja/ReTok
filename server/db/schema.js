@@ -168,16 +168,10 @@ var Chat = new GraphQLObjectType({
 				return chat.id;
 			}
 		},
-		sender: {
+		room: {
 			type: GraphQLString,
 			resolve (chat) {
-				return chat.sender;
-			}
-		},
-		receiver: {
-			type: GraphQLString,
-			resolve (chat) {
-				return chat.receiver;
+				return chat.room;
 			}
 		},
 		text: {
@@ -288,8 +282,7 @@ var Query = new GraphQLObjectType({
 				type: new GraphQLList(Chat),
 				args: {
 					id: {type: GraphQLInt},
-					sender: {type: GraphQLString},
-					receiver: {type: GraphQLString},
+					room: {type: GraphQLString},
 					text: {type: GraphQLString},
 					time: {type: GraphQLDate}
 				},
@@ -525,18 +518,26 @@ var Mutation = new GraphQLObjectType({
 			addChat: {
 				type: Chat,
 				args: {
-					sender: {type: new GraphQLNonNull(GraphQLString)},
-					receiver: {type: new GraphQLNonNull(GraphQLString)},
+					room: {type: new GraphQLNonNull(GraphQLString)},
 					text: {type: new GraphQLNonNull(GraphQLString)}
 				},
 				resolve(root, args) {
 					var time = new Date();
-					Db.Chat.create({
-						sender: args.sender,
-						receiver: args.receiver,
-						text: args.text,
-						time: time
-					}).catch(function(err) {
+					Db.Chat.findOrCreate({where: {room: args.room}})
+					.then(function(chat, created) {
+						console.log('chat: ', chat[0].text);
+						if (chat[0].text) {
+							var text = chat[0].text + args.text;
+						} else {
+							var text = args.text;
+						}
+						Db.Chat.update({text: text, time: time}, {where: {room: args.room}})
+					})
+					// Db.Chat.create({
+					// 	room: args.room,
+					// 	text: args.text,
+					// 	time: time
+					.catch(function(err) {
 						console.log('Error when adding chat: ', err);
 					});
 				} 
@@ -544,27 +545,29 @@ var Mutation = new GraphQLObjectType({
 			deleteChat: {
 				type: Chat,
 				args: {
-					sender: {type: new GraphQLNonNull(GraphQLString)},
-					receiver: {type: new GraphQLNonNull(GraphQLString)},
+					room: {type: new GraphQLNonNull(GraphQLString)},
 				},
 				resolve(root, args) {
-					Db.Chat.findAll({
-						where: {
-							$or: [{$and: [{sender: args.sender}, {receiver: args.receiver}]}, {$and: [{sender: args.receiver}, {receiver: args.sender}]}
-							]
-						}
-					}).then(function(chats) {
-						var time = new Date();
-						var deleteThreshold = 10;
-						if (chats.length > deleteThreshold) {
-							var chatsLeft = chats.length;
-							chats.forEach(function(chat, idx) {
-								if (chatsLeft - idx > deleteThreshold) {
-									chat.destroy();
-								}
-							});
-						}
-						return;
+					// Db.Chat.findAll({
+					// 	where: {
+					// 		$or: [{$and: [{sender: args.sender}, {receiver: args.receiver}]}, {$and: [{sender: args.receiver}, {receiver: args.sender}]}
+					// 		]
+					// 	}
+					// }).then(function(chats) {
+					// 	var time = new Date();
+					// 	var deleteThreshold = 10;
+					// 	if (chats.length > deleteThreshold) {
+					// 		var chatsLeft = chats.length;
+					// 		chats.forEach(function(chat, idx) {
+					// 			if (chatsLeft - idx > deleteThreshold) {
+					// 				chat.destroy();
+					// 			}
+					// 		});
+					// 	}
+					// 	return;
+					return Db.Chat.destroy({where: args})
+					.then(function(chat) {
+						return chat;
 					}).catch(function(err) {
 						console.log('Error when adding chat: ', err);
 					});
@@ -603,7 +606,6 @@ var Mutation = new GraphQLObjectType({
 							})
 						})
 					})
-
 				}
 			}
 		}
