@@ -91,6 +91,7 @@ class LoggedOutNavContainer extends React.Component {
                 var onlineFriends = friends.filter(friend => friend.online === true);
                 var suggestedFriends = this.tierRanking(onlineFriends.slice().sort((friend0, friend1) => {return friend1.score - friend0.score}));
                 // console.log('suggested friends: ', suggestedFriends);
+                
                 this.props.dispatch(userActions.updateFriends(friends));
                 this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
                 this.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends));
