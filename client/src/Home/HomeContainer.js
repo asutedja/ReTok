@@ -13,6 +13,10 @@ class HomeContainer extends React.Component {
 		super(props);
 	}
 
+	componentWillUnmount() {
+		
+	}
+
 	render() {
 		return (
 			<div>
