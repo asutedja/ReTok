@@ -42,7 +42,7 @@ class FriendsListContainer extends React.Component {
     return (
 
       <div>
-        {this.props.friends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
+        {this.props.friends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
       </div>
       )
 
@@ -57,7 +57,9 @@ function mapStateToProps(state) {
     user: state.userReducer.user,
     room: state.userReducer.room,
     socket: state.userReducer.socket,
-    friends: state.userReducer.friends
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat
   }
 }
 

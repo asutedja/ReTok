@@ -1755,6 +1755,8 @@ exports.updateSearch = updateSearch;
 exports.updateEmojis = updateEmojis;
 exports.updateStoreEmojis = updateStoreEmojis;
 exports.updateUserEmojis = updateUserEmojis;
+exports.updateChatLog = updateChatLog;
+exports.updateCurrentChat = updateCurrentChat;
 exports.createRoom = createRoom;
 exports.sendSocket = sendSocket;
 exports.sendMultiConnection = sendMultiConnection;
@@ -1851,6 +1853,20 @@ function updateUserEmojis(userEmojis) {
   };
 }
 
+function updateChatLog(chatLog) {
+  return {
+    type: 'UPDATE_CHAT_LOG',
+    chatLog: chatLog
+  };
+}
+
+function updateCurrentChat(currentChat) {
+  return {
+    type: 'UPDATE_CURRENT_CHAT',
+    currentChat: currentChat
+  };
+}
+
 function createRoom(room) {
   return {
     type: 'CREATE_ROOM',
@@ -1883,6 +1899,8 @@ var userInitialState = {
   isLoggedIn: false,
   error: '',
   emojis: [],
+  chatLog: {},
+  currentChat: [],
   storeEmojis: [],
   userEmojis: [],
   search: [{ username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016' }, { username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016' }, { username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016' }],
@@ -1997,6 +2015,20 @@ function userReducer() {
         });
       }
 
+    case 'UPDATE_CHAT_LOG':
+      {
+        return _extends({}, state, {
+          chatLog: action.chatLog
+        });
+      }
+
+    case 'UPDATE_CURRENT_CHAT':
+      {
+        return _extends({}, state, {
+          currentChat: action.currentChat
+        });
+      }
+
     case 'CREATE_ROOM':
       {
         return _extends({}, state, {
@@ -2055,6 +2087,10 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(updateStoreEmojis, 'updateStoreEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(updateUserEmojis, 'updateUserEmojis', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(updateChatLog, 'updateChatLog', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
+
+  __REACT_HOT_LOADER__.register(updateCurrentChat, 'updateCurrentChat', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
   __REACT_HOT_LOADER__.register(createRoom, 'createRoom', '/Users/Rob/Desktop/ReTok/client/src/Redux/userReducer.js');
 
@@ -35890,7 +35926,7 @@ var FriendsListContainer = function (_React$Component) {
         'div',
         null,
         this.props.friends.map(function (item, index) {
-          return _react2.default.createElement(_FriendsListEntry2.default, { key: index, friend: item, joinRoom: _this2.joinRoom.bind(_this2), addHighlightClass: _this2.addHighlightClass.bind(_this2) });
+          return _react2.default.createElement(_FriendsListEntry2.default, { key: index, friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
         })
       );
     }
@@ -35906,7 +35942,9 @@ function mapStateToProps(state) {
     user: state.userReducer.user,
     room: state.userReducer.room,
     socket: state.userReducer.socket,
-    friends: state.userReducer.friends
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat
   };
 }
 
@@ -36086,49 +36124,94 @@ var TextChatContainer = function (_React$Component) {
   function TextChatContainer(props) {
     _classCallCheck(this, TextChatContainer);
 
-    var _this = _possibleConstructorReturn(this, (TextChatContainer.__proto__ || Object.getPrototypeOf(TextChatContainer)).call(this, props));
-
-    _this.state = {
-      chat: []
-    };
-    return _this;
+    return _possibleConstructorReturn(this, (TextChatContainer.__proto__ || Object.getPrototypeOf(TextChatContainer)).call(this, props));
   }
 
   _createClass(TextChatContainer, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      this.props.dispatch(userActions.createRoom(''));
+      console.log('checking current chat --->', this.props.currentChat);
+      console.log('checking  chatlog on mount --->', this.props.chatLog);
+
       var context = this;
       var socket = this.props.socket;
-      console.log('what is my room', this.props.room);
-      console.log('what is socket', this.props.socket);
-      socket.emit('textmessagemount');
+
+      var chatLogCopy = Object.assign({}, this.props.chatLog);
+      // chatLogCopy[this.props.room] = this.props.currentChat;
+
+      // console.log('chat room copy', chatLogCopy);
+
+      // this.props.dispatch(userActions.updateChatLog(chatLogCopy));
+
 
       socket.on('textmessagereceived', function (message) {
-        console.log('i hit textmessagereceived on client side');
-        var chat = context.state.chat;
+
+        var chat = context.props.currentChat.slice();
         chat.push(message);
-        context.setState({
-          chat: chat
-        });
+
+        context.props.dispatch(userActions.updateCurrentChat(chat));
+
+        var logCopy = Object.assign({}, context.props.chatLog);
+
+        logCopy[context.props.room] = chat;
+
+        context.props.dispatch(userActions.updateChatLog(logCopy));
+
+        // console.log('checking my dispatch textmessagereceived', logCopy);
       });
 
       socket.on('joinRoomSuccess', function (room) {
-        console.log('i hit joinRoomSuccess', room);
+        console.log('checking joinroom success chatlog', context.props.chatLog);
+        // console.log('i hit joinRoomSuccess', room);
+
+        // console.log('i hit joinRoomSuccess.. checking old room', context.props.room);
+        var oldRoom = context.props.room;
+
+        var chatLogCopy = Object.assign({}, context.props.chatLog);
+        console.log('check chatlog before', chatLogCopy);
+        chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
+        console.log('check chatlog after', chatLogCopy);
+
         context.props.dispatch(userActions.createRoom(room));
-        console.log('i successfuly dispatched CreateRoom', context.props.room);
-        context.setState({
-          chat: []
-        });
+        // console.log('i successfuly dispatched CreateRoom', context.props.room);
+        console.log('checking joinroom success chatlog a bit later', context.props.chatLog);
+
+        if (!chatLogCopy.hasOwnProperty(room)) {
+          console.log('i hit the falsy value for hasOwnProperty');
+          chatLogCopy[room] = [];
+          context.props.dispatch(userActions.updateChatLog(chatLogCopy));
+          console.log('checking chatLog --->', context.props.chatLog);
+          context.props.dispatch(userActions.updateCurrentChat([]));
+        } else {
+          console.log('i hit the truthy value for hasOwnProperty');
+          context.props.dispatch(userActions.updateChatLog(chatLogCopy));
+          context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
+          console.log('checking chatLog --->', context.props.chatLog);
+        }
       });
     }
   }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
-      console.log('hit componentDidUnMount');
       var socket = this.props.socket;
-      var room = this.props.room;
+      var clearChat = [];
+      // console.log('checking current chat over here', this.props.currentChat);
+      // var chatLogCopy = Object.assign({}, this.props.chatLog);
+      // chatLogCopy[this.props.room] = this.props.currentChat;
 
-      socket.emit('leavetextchatview', room, this.props.user.username);
+      // console.log('chat room copy', chatLogCopy);
+
+      // this.props.dispatch(userActions.updateChatLog(chatLogCopy));
+
+      // console.log('checking my componentWillUnMount chatLogCopy', this.props.chatLogCopy);
+
+      this.props.dispatch(userActions.updateCurrentChat(clearChat));
+
+      // console.log('i hit componentWillUnMount check current chat', this.props.currentChat);
+      // console.log('i hit componentWillUnMount, check chatlog', this.props.chatLog);
+      socket.removeAllListeners("joinRoomSuccess");
+      socket.removeAllListeners("textmessagereceived");
     }
   }, {
     key: 'sendChat',
@@ -36143,7 +36226,7 @@ var TextChatContainer = function (_React$Component) {
       var _this2 = this;
 
       var context = this;
-      var chat = context.state.chat.map(function (message) {
+      var chat = context.props.currentChat.map(function (message) {
         return _react2.default.createElement(
           'div',
           { className: 'oneChatMessage' },
@@ -36215,7 +36298,9 @@ function mapStateToProps(state) {
     user: state.userReducer.user,
     room: state.userReducer.room,
     socket: state.userReducer.socket,
-    friends: state.userReducer.friends
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat
   };
 }
 
