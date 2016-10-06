@@ -79,10 +79,15 @@ class ProfileContainer extends React.Component {
     }.bind(this))
   }
 
+  goToUploadView() {
+    console.log('hit goToUploadView');
+    this.context.router.push('/upload');
+  }
+
   render() {
     return (
       <div>
-        <Profile user = {this.props.user}     friendCount={this.props.friendCount}/>
+        <Profile user = {this.props.user} friendCount={this.props.friendCount} goToUploadView={this.goToUploadView.bind(this)}/>
         {this.props.children}
       </div>
     )

@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
 import io from 'socket.io-client'
 import FriendsListEntry from './FriendsListEntry'
-// import FriendsListEntry from './FriendsListEntry.js'
 import * as userActions from '../../Redux/userReducer'
 
 class FriendsListContainer extends React.Component {
@@ -43,7 +42,7 @@ class FriendsListContainer extends React.Component {
     return (
 
       <div>
-        {this.props.friends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
+        {this.props.friends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
       </div>
       )
 
@@ -58,7 +57,9 @@ function mapStateToProps(state) {
     user: state.userReducer.user,
     room: state.userReducer.room,
     socket: state.userReducer.socket,
-    friends: state.userReducer.friends
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat
   }
 }
 
