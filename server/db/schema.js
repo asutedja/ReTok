@@ -290,6 +290,17 @@ var Query = new GraphQLObjectType({
 					return Db.Chat.findAll({where: args});
 				}
 			},
+			findChats: {
+				type: new GraphQLList(Chat),
+				args: {
+					id: {type: GraphQLInt},
+					user: {type: GraphQLString}
+				},
+				resolve (root, args) {
+					// console.log('args.user: ', args.user);
+					return Db.Chat.findAll({where: {room: {$like: '%,' + args.user + ',%'}}});
+				}
+			},
 			findFriends: {
 				type: new GraphQLList(User),
 				args: {
@@ -525,7 +536,6 @@ var Mutation = new GraphQLObjectType({
 					var time = new Date();
 					Db.Chat.findOrCreate({where: {room: args.room}})
 					.then(function(chat, created) {
-						console.log('chat: ', chat[0].text);
 						if (chat[0].text) {
 							var text = chat[0].text + args.text;
 						} else {
