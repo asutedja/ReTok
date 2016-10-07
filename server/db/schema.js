@@ -8,8 +8,20 @@ var GraphQLNonNull = require('graphql').GraphQLNonNull;
 var GraphQLBoolean = require('graphql').GraphQLBoolean;
 
 var Db = require('./db');
-
 var Auth = require('../auth/auth');
+
+var Promise = require('bluebird');
+var redis = require('redis');
+var client = redis.createClient();
+client.on("error", function (err) {
+    console.log("Error " + err);
+});
+Promise.promisifyAll(redis.RedisClient.prototype);
+Promise.promisifyAll(redis.Multi.prototype);
+
+var archiveCode = '#^';
+var redisLimit = 50;
+var redisArchive = 30;
 
 var User = new GraphQLObjectType({
 
@@ -298,7 +310,32 @@ var Query = new GraphQLObjectType({
 				},
 				resolve (root, args) {
 					// console.log('args.user: ', args.user);
-					return Db.Chat.findAll({where: {room: {$like: '%,' + args.user + ',%'}}});
+					return Db.Chat.findAll({where: {room: {$like: '%,' + args.user + ',%'}}})
+				}
+			},
+			findChatsRedis: {
+				type: new GraphQLList(Chat),
+				args: {
+					user: {type: GraphQLString}
+				},
+				resolve (root, args) {
+
+					var result = [];
+					return client.keysAsync('*' + args.user + '*')
+					.then(function(response){
+						result = response.map(function(room){
+							return client.lrangeAsync(room, 0, -1)
+							.then(function(text){
+								var joinedText = text.join(archiveCode);
+								var obj = {
+									room: room,
+									text: joinedText
+								};
+								return obj;
+							});
+						});
+						return result;
+					});
 				}
 			},
 			findFriends: {
@@ -537,7 +574,7 @@ var Mutation = new GraphQLObjectType({
 					Db.Chat.findOrCreate({where: {room: args.room}})
 					.then(function(chat, created) {
 						if (chat[0].text) {
-							var text = chat[0].text + args.text;
+							var text = chat[0].text + archiveCode + args.text;
 						} else {
 							var text = args.text;
 						}
@@ -549,6 +586,44 @@ var Mutation = new GraphQLObjectType({
 					// 	time: time
 					.catch(function(err) {
 						console.log('Error when adding chat: ', err);
+					});
+				} 
+			},
+			addChatRedis: {
+				type: Chat,
+				args: {
+					room: {type: new GraphQLNonNull(GraphQLString)},
+					text: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve(root, args) {
+					client.rpush(args.room, args.text, function(err, response){
+						if (err) {
+							console.log('Error when adding chat: ', err);
+						} else {
+							if (response > redisLimit) {
+								client.lrange(args.room, 0, redisArchive, function(err, response) {
+									if (err) {
+										console.log('Error when querying chat: ', err);
+									} else {
+										client.ltrim(args.room, redisArchive - redisLimit, -1);
+										var joinedResponse = response.join(archiveCode);
+										var time = new Date();
+										Db.Chat.findOrCreate({where: {room: args.room}})
+										.then(function(chat, created) {
+											if (chat[0].text) {
+												var text = chat[0].text + archiveCode + joinedResponse;
+											} else {
+												var text = joinedResponse;
+											}
+											Db.Chat.update({text: text, time: time}, {where: {room: args.room}})
+										})
+										.catch(function(err) {
+											console.log('Error when adding chat: ', err);
+										});
+									}
+								});
+							}
+						}
 					});
 				} 
 			},
@@ -620,7 +695,6 @@ var Mutation = new GraphQLObjectType({
 			}
 		}
 	}
-		//TODO: addChat, deleteChat
 });
 
 var Schema = new GraphQLSchema({
