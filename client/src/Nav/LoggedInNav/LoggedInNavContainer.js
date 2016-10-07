@@ -5,7 +5,7 @@ import axios from 'axios'
 import { connect } from 'react-redux'
 import { Router, Route, IndexRoute, Link } from 'react-router'
 import * as userActions from '../../Redux/userReducer'
-import friendTierCalculator from '../../friendTierCalculator.js'
+import updateHelper from '../../updateHelper.js'
 
 
 class LoggedInNavContainer extends React.Component {
@@ -18,20 +18,9 @@ class LoggedInNavContainer extends React.Component {
       }
   } 
 
-  tierRanking(friends) {
-    var rankedFriends = [];
-    var num = 0;
-    if (friends.length <= 5) {
-      num = friends.length;
-    } else if (friends.length <= 20 && friends.length > 5) {
-      num = Math.min(5, friends.length);
-    } else {
-      num = Math.min(10, friends.length);
-    }
-    for (var i = 0; i < num; i++) {
-      rankedFriends.push(friends[i]);
-    }
-    return rankedFriends;
+  componentWillUnmount() {
+    var socket = this.props.socket;
+    socket.emit('updateFriends', this.props.friends);
   }
 
   componentWillMount() {
@@ -41,62 +30,13 @@ class LoggedInNavContainer extends React.Component {
     this.props.dispatch(userActions.sendSocket(socket));
     this.props.dispatch(userActions.createRoom(this.props.user.username))
     var friends = this.props.friends;
-    console.log(friends)
     socket.emit('updateFriends', friends);
-
     socket.on('invite', function(caller) {
       this.invitation();
-      console.log('This should be Andrew', caller.caller)
-
       this.props.dispatch(userActions.createRoom(caller.caller));
-
-      //peer should have room info
-
     }.bind(this))
-
-    socket.on('update', function() {
-      let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-      let options = {
-
-        method: 'POST',
-        headers: myHeaders,
-        body: `
-          { 
-            
-            findFriends(username: \"${this.props.user.username}\")
-            {
-                  username
-                  profilePic
-                  firstName
-                  lastName
-                  email
-                  online
-                  videoChatCount
-                  textChatCount
-                  lastChatTime
-                }
-          }`
-
-      };
-      fetch('/graphql', options).then((res) =>{
-        return res.json().then((data) => {
-          console.log('checking my friends data',data.data.findFriends);
-          var friends = data.data.findFriends;
-          // friendRanking() added score to each friend
-          if(friends) {
-            friendTierCalculator(friends);
-            var onlineFriends = friends.filter(friend => friend.online === true);
-            var suggestedFriends = this.tierRanking(onlineFriends.slice().sort((friend0, friend1) => {return friend1.score - friend0.score}));
-            this.props.dispatch(userActions.updateFriends(friends.slice()));
-            this.props.dispatch(userActions.updateOnlineFriends(onlineFriends.slice()));
-            this.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends.slice()));
-            this.props.dispatch(userActions.updateFriendCount(friends.length));
-          }
-        })
-      })
-    }.bind(this))
-    
-
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this);
   }
     
   
@@ -121,7 +61,7 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-          console.log(data);
+          // console.log(data);
         })
     })
     .catch((error) => console.log(error))
@@ -132,7 +72,6 @@ class LoggedInNavContainer extends React.Component {
   }
 
   invitation() {
-
     this.setState({
       hide:true
     })
@@ -144,13 +83,9 @@ class LoggedInNavContainer extends React.Component {
            document.getElementById('chat').style.background = "rgb(255,145,0)";
        }
     })
-
-
     this.setState({
       toggle: toggling
     })
-
-    console.log('inviting')
   }
 
   accept() {
@@ -194,23 +129,14 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        console.log('THIS DATA GETS SLICED', data)
+        //console.log('THIS DATA GETS SLICED', data)
         var searchresult = data.data.users.slice();
-        console.log('what is my data from my search bar', searchresult);
-
+        //console.log('what is my data from my search bar', searchresult);
         this.props.dispatch(userActions.updateSearch(searchresult));
-        console.log('checking router', this.context.router);
+        //console.log('checking router', this.context.router);
         this.context.router.push('/search')
         })
     })
-
-
-
-
-
-    // console.log(username);
-    // this.props.dispatch(userActions.updateSearch(username));
-    // this.context.router.push('/search');
   }
 
  

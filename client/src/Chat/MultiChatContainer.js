@@ -5,11 +5,21 @@ import io from 'socket.io-client'
 import * as userActions from '../Redux/userReducer'
 import OnlineFriends from '../Profile/OnlineFriends/OnlineFriends.js'
 import friendTierCalculator from '../friendTierCalculator.js'
+import updateHelper from '../updateHelper.js'
+import EmojiChatContainer from '../TextChat/EmojiChatContainer/EmojiChatContainer.js'
+import { Scrollbars } from 'react-custom-scrollbars';
+
 
 class MultiChatContainer extends React.Component {
 
   constructor(props, context) {
     super(props, context);
+  }
+
+  componentWillMount() {
+    var socket = this.props.socket;
+    socket.on('update',()=> updateHelper(this))
+    updateHelper(this)
   }
 
   componentWillUnmount() {
@@ -62,9 +72,13 @@ class MultiChatContainer extends React.Component {
       this.value = '';
      };
     
+
     var chatContainer = document.querySelector('.chat-output');
     
     var appendDIV = (event) => {
+      if(typeof event.data === 'object') {
+        console.log('Does this work?')
+      }
       var div = document.createElement('div');
       div.innerHTML = event.data || event;
       chatContainer.insertBefore(div, chatContainer.firstChild);
@@ -76,6 +90,7 @@ class MultiChatContainer extends React.Component {
     connection.onmessage = appendDIV;
 
     connection.onstream = function(event) {
+      console.log('This is the event' , event);
       var name = this.props.user
       var width = parseInt(connection.videosContainer.clientWidth / 2) - 20;
       var mediaElement = getMediaElement(event.mediaElement, {
@@ -89,6 +104,7 @@ class MultiChatContainer extends React.Component {
           mediaElement.media.play();
       }, 5000);
       mediaElement.id = event.streamid;
+      mediaElement.setAttribute('id', event.userid)
     }.bind(this);
 
     connection.onstreamended = function(event) {
@@ -112,16 +128,28 @@ class MultiChatContainer extends React.Component {
 
   } 
 
+        // <div>
+        // <Scrollbars style={{ height: 50 }}>
+        //   <EmojiChatContainer/>
+        // </Scrollbars>
+        // </div>
 
   render() {
     return (
       <div id='webRTC'>
         <h1>Tok</h1>
 
+
         <div id='chatContainer'>
         <div id="file-container"></div>
-        <div className="chat-output"></div>
+    
+        <div>
+        <Scrollbars style={{ height: 100 }}>
+            <div className="chat-output"></div>
+        </Scrollbars>
         </div>
+        </div>
+
 
         <input type="text" id="input-text-chat" placeholder="Enter Text Chat"/>
 

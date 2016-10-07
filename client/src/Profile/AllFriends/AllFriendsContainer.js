@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import * as userActions from '../../Redux/userReducer'
 import AllFriends from './AllFriends.js'
+import updateHelper from '../../updateHelper.js'
 
 
 class AllFriendsContainer extends React.Component {
@@ -11,7 +12,11 @@ class AllFriendsContainer extends React.Component {
   }
 
   componentWillMount() {
+    var socket = this.props.socket
     console.log('i hit all friends container', this.props.friends);
+    // socket.on('update', () => updateHelper(this))
+    // updateHelper(this);
+
   }
 
   render() {
@@ -28,7 +33,8 @@ function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
     user: state.userReducer.user,
-    friends: state.userReducer.friends
+    friends: state.userReducer.friends,
+    socket: state.userReducer.socket
   }
 }
 
