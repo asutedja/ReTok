@@ -110,7 +110,7 @@ io.sockets.on('connection', function(socket) {
     io.sockets.in(room).emit('textmessagereceived', message);
   });
 
-  socket.on('joinRoom', function(room, oldRoom, username) {
+  socket.on('joinRoom', function(room, oldRoom, username, friend) {
     console.log('joinRoom on server side --->', room);
 
     // socket.broadcast('textmessagereceived', message);
@@ -123,7 +123,7 @@ io.sockets.on('connection', function(socket) {
     console.log('joinRoom on server side now --->', room);
 
 
-    io.sockets.in(room).emit('joinRoomSuccess', room);
+    io.sockets.in(room).emit('joinRoomSuccess', room, friend);
   });
 
 

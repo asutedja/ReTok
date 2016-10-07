@@ -14,14 +14,21 @@ class FriendsListContainer extends React.Component {
 
   joinRoom(friend) {
     var currentRoom = this.props.room;
-    var roomName = [[this.props.user.username], [friend.username]].sort().join('');
-    console.log('checking roomName', roomName);
+    var roomNameSort = [[this.props.user.username], [friend.username]].sort();
+
+    var roomName=',';
+
+    for (var i = 0; i < roomNameSort.length; i++) {
+      roomName+= roomNameSort[i] +",";
+    }
+
+    console.log('checking roomName --->', roomName);
 
     if ( roomName === currentRoom) {
-      console.log('room names are the same');
+      console.log('room names are the same. return.');
       return;
     } else {
-    this.props.socket.emit('joinRoom', roomName, currentRoom, this.props.user.username);}
+    this.props.socket.emit('joinRoom', roomName, currentRoom, this.props.user.username, friend);}
 
   }
 
