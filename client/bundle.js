@@ -36318,6 +36318,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(0);
@@ -36370,7 +36372,8 @@ var TextChatContainer = function (_React$Component) {
 
     _this.state = {
       chatSelected: false,
-      currentFriend: null
+      currentFriend: null,
+      newChatHistoryLog: {}
     };
 
     return _this;
@@ -36379,11 +36382,36 @@ var TextChatContainer = function (_React$Component) {
   _createClass(TextChatContainer, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
+      console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
+      var context = this;
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n           {\n          findChats(user: "' + this.props.user.username + '")  {\n            room\n            text\n          }\n          }\n          '
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          var findChatsData = data.data.findChats;
+          // console.log('checking data after fetching', findChatsData);
+          var newChatLog = {};
+
+          for (var i = 0; i < findChatsData.length; i++) {
+            // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
+            newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('$#%!$?!*&&*###@@');
+          }
+          context.props.dispatch(userActions.updateChatLog(newChatLog));
+          console.log('checking my chat log on will mount after fetching', context.props.chatLog);
+        });
+      });
+
       this.props.dispatch(userActions.createRoom(''));
       console.log('checking current chat --->', this.props.currentChat);
       console.log('checking  chatlog on mount --->', this.props.chatLog);
 
-      var context = this;
       var socket = this.props.socket;
 
       var chatLogCopy = Object.assign({}, this.props.chatLog);
@@ -36400,6 +36428,16 @@ var TextChatContainer = function (_React$Component) {
         logCopy[context.props.room] = chat;
 
         context.props.dispatch(userActions.updateChatLog(logCopy));
+
+        var logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
+
+        logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
+
+        logComponentCopy[context.props.room].push(message);
+
+        context.setState({
+          newChatHistoryLog: logComponentCopy
+        });
       });
 
       socket.on('joinRoomSuccess', function (room, friend) {
@@ -36437,6 +36475,8 @@ var TextChatContainer = function (_React$Component) {
   }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
+      var _this2 = this;
+
       var socket = this.props.socket;
       var clearChat = [];
 
@@ -36455,10 +36495,55 @@ var TextChatContainer = function (_React$Component) {
       };
       fetch('/graphql', options).then(function (res) {
         return res.json().then(function (data) {
-          console.log('checking data after fetching', data);
+          console.log('checking data after fetching unmounting', data);
+
+          var chatLog = _this2.state.newChatHistoryLog;
+          // var chatLog = this.props.chatLog;
+
+          for (var room in chatLog) {
+            console.log('checking typeOf chatlogRoom -->', chatLog[room], _typeof(chatLog[room]));
+            var chatMessagesStringified = chatLog[room].join('$#%!$?!*&&*###@@');
+
+            console.log('checking room  in loop -->', room);
+            console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified === 'undefined' ? 'undefined' : _typeof(chatMessagesStringified));
+            var chatOptions = {
+              method: 'POST',
+              headers: myHeaders,
+              body: '\n                mutation {\n                addChat(room: "' + room + '" text: "' + chatMessagesStringified + '")  {\n                  id\n                }\n                }\n                '
+            };
+            fetch('/graphql', chatOptions).then(function (res) {
+              return res.json().then(function (data) {
+                console.log('sending chat to server', data);
+              });
+            });
+          }
         });
       });
 
+      // var chatLog = this.props.chatLog;
+
+      // for (var room in chatLog) {
+      //   var chatMessagesStringified = JSON.stringify(chatLog[room]);
+      //   console.log('checking room  in loop -->', room);
+      //   console.log('checking messages in loops -->', chatMessagesStringified);
+      //   let chatOptions = {
+      //     method: 'POST',
+      //     headers: myHeaders,
+      //     body: `
+      //         mutation {
+      //         addChat(room: \"${room}\" text:\"${chatMessagesStringified}\")  {
+
+      //         }
+      //         }
+      //         `
+      //   };
+      //   fetch('/graphql', chatOptions).then((res) =>{
+      //     return res.json().then((data) => {
+      //       console.log('sending chat to server', data);
+      //     })
+      //   })
+
+      // }
       //PSEUDOCODE
       //loop through chatLog
       //fire off graphql query for every Room in chatLog
@@ -36483,7 +36568,7 @@ var TextChatContainer = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
 
       var context = this;
       var chat = context.props.currentChat.map(function (message) {
@@ -36514,7 +36599,7 @@ var TextChatContainer = function (_React$Component) {
             _react2.default.createElement(
               'form',
               { id: 'chatInput', onSubmit: function onSubmit(e) {
-                  e.preventDefault();_this2.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
+                  e.preventDefault();_this3.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
                 } },
               _react2.default.createElement('input', { id: 'chatInputField' }),
               _react2.default.createElement(

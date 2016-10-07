@@ -15,17 +15,58 @@ class TextChatContainer extends React.Component {
     super(props);
     this.state = {
       chatSelected: false,
-      currentFriend: null
+      currentFriend: null,
+      newChatHistoryLog: {} 
     }
 
   }
 
   componentWillMount() {
+    console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
+    var context = this;
+
+    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+    let options = {
+
+      method: 'POST',
+      headers: myHeaders,
+      body: `
+           {
+          findChats(user: \"${this.props.user.username}\")  {
+            room
+            text
+          }
+          }
+          `
+
+    };
+    fetch('/graphql', options).then((res) =>{
+      return res.json().then((data) => {
+        var findChatsData = data.data.findChats;
+        // console.log('checking data after fetching', findChatsData);
+        var newChatLog = {};
+
+        for (var i = 0; i < findChatsData.length; i++) {
+          // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
+          newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('$#%!$?!*&&*###@@');
+        }
+        context.props.dispatch(userActions.updateChatLog(newChatLog));
+        console.log('checking my chat log on will mount after fetching', context.props.chatLog);
+
+      })
+    })
+
+
+
+
+
+
+
     this.props.dispatch(userActions.createRoom(''));
     console.log('checking current chat --->', this.props.currentChat);
     console.log('checking  chatlog on mount --->', this.props.chatLog);
 
-    var context = this;
+
     var socket = this.props.socket;
 
     var chatLogCopy = Object.assign({}, this.props.chatLog);
@@ -45,6 +86,17 @@ class TextChatContainer extends React.Component {
       logCopy[context.props.room] = chat;
 
       context.props.dispatch(userActions.updateChatLog(logCopy));
+
+
+      var logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
+
+      logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
+
+      logComponentCopy[context.props.room].push(message);
+
+      context.setState({
+        newChatHistoryLog: logComponentCopy
+      })
 
   
     });
@@ -86,6 +138,11 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
+
+
+
+
+
     var socket = this.props.socket;
     var clearChat = [];
 
@@ -111,11 +168,65 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        console.log('checking data after fetching', data);
+        console.log('checking data after fetching unmounting', data);
+
+        var chatLog = this.state.newChatHistoryLog;
+        // var chatLog = this.props.chatLog;
+
+        for (var room in chatLog) {
+          console.log('checking typeOf chatlogRoom -->', chatLog[room], typeof chatLog[room]);
+          var chatMessagesStringified = chatLog[room].join('$#%!$?!*&&*###@@');
+
+          console.log('checking room  in loop -->', room);
+          console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified);
+          let chatOptions = {
+            method: 'POST',
+            headers: myHeaders,
+            body: `
+                mutation {
+                addChat(room: \"${room}\" text: \"${chatMessagesStringified}\")  {
+                  id
+                }
+                }
+                `
+          };
+          fetch('/graphql', chatOptions).then((res) =>{
+            return res.json().then((data) => {
+              console.log('sending chat to server', data);
+            })
+          })
+
+        }
+
+
+
       })
     })
 
+    // var chatLog = this.props.chatLog;
 
+    // for (var room in chatLog) {
+    //   var chatMessagesStringified = JSON.stringify(chatLog[room]);
+    //   console.log('checking room  in loop -->', room);
+    //   console.log('checking messages in loops -->', chatMessagesStringified);
+    //   let chatOptions = {
+    //     method: 'POST',
+    //     headers: myHeaders,
+    //     body: `
+    //         mutation {
+    //         addChat(room: \"${room}\" text:\"${chatMessagesStringified}\")  {
+              
+    //         }
+    //         }
+    //         `
+    //   };
+    //   fetch('/graphql', chatOptions).then((res) =>{
+    //     return res.json().then((data) => {
+    //       console.log('sending chat to server', data);
+    //     })
+    //   })
+
+    // }
     //PSEUDOCODE
     //loop through chatLog
     //fire off graphql query for every Room in chatLog
