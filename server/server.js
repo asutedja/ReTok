@@ -9,7 +9,6 @@ var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
- 
 
 var bodyParser = require('body-parser');
 var sockets = {};
@@ -36,7 +35,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.use(cors());
-
 
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
@@ -236,6 +234,8 @@ io.sockets.on('connection', function(socket) {
 app.get('/logout', function (req, res){
 	req.logout();
 });
+
+
 
 http.listen(port, function(data) {
   console.log('listening on ' + port);
