@@ -2,13 +2,7 @@
 //CHANGE PASSWORD IN SETTINGS.JS IF NEEDED
 var Sequelize = require('sequelize');
 var userinfo = require('../../settings.js');
-var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password, {
-  dialectOptions: {
-  	 'dialect': 'mysql',
-    'charset': 'utf8mb4',
-    
-  }
-});
+var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
 
 //define user model
 var User = sequelize.define('User', {
