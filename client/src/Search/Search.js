@@ -12,9 +12,9 @@ const Search = (props) => {
   return(
       <div className = "oneFriend" style={divStyle}>
         <button className="AddFriend" onClick={(e)=>{e.preventDefault;props.addFriend(props.friend);}}>Add Friend</button>
-        <span>{props.friend.firstName}</span>
-        <span>{props.friend.lastName}</span>
-        <span>{props.friend.username}</span>
+        <span> {props.friend.firstName} </span>
+        <span> {props.friend.lastName} </span>
+        <span> {props.friend.username} </span>
           <div className="oneFriendWrapper">
           </div>
       </div>

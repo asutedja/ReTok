@@ -16,6 +16,7 @@ var User = sequelize.define('User', {
 	profilePic: Sequelize.STRING,
 	coin: Sequelize.INTEGER,
 	online: Sequelize.BOOLEAN
+
 });
 
 // chat model stores all chat histories

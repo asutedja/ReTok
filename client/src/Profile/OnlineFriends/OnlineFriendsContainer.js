@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import OnlineFriends from './OnlineFriends.js'
 import * as userActions from '../../Redux/userReducer'
+import updateHelper from '../../updateHelper.js'
 
 
 class OnlineFriendsContainer extends React.Component {
@@ -13,6 +14,10 @@ class OnlineFriendsContainer extends React.Component {
 
   componentWillMount() {
     console.log('i hit this component for onlinefriends')
+    var socket = this.props.socket;
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this);
+
   }
 
   videoChat(friend) {

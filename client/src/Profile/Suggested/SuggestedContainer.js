@@ -4,6 +4,7 @@ import { connect } from 'react-redux'
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import SuggestedFriends from './SuggestedFriends.js'
 import * as userActions from '../../Redux/userReducer'
+import updateHelper from '../../updateHelper.js'
 
 
 class SuggestedContainer extends React.Component {
@@ -12,7 +13,11 @@ class SuggestedContainer extends React.Component {
   }
 
   componentWillMount() {
+    var socket = this.props.socket
     console.log('i hit this component for suggestedFriends');
+    // socket.on('update', () => updateHelper(this))
+    // updateHelper(this);
+
   }
 
   videoChat(friend) {

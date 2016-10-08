@@ -84,24 +84,26 @@ class LoggedOutNavContainer extends React.Component {
           };
           fetch('/graphql', options).then((res) =>{
             return res.json().then((data) => {
-              console.log('checking my friends data',data.data.findFriends);
+              console.log('from loggedout: checking my friends data',data.data.findFriends);
               var friends = data.data.findFriends;
               if(friends) {
                 friendScoreCalculator(friends);
                 var onlineFriends = friends.filter(friend => friend.online === true);
                 var suggestedFriends = this.tierRanking(onlineFriends.slice().sort((friend0, friend1) => {return friend1.score - friend0.score}));
                 // console.log('suggested friends: ', suggestedFriends);
+
                 this.props.dispatch(userActions.updateFriends(friends));
                 this.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
                 this.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends));
                 this.props.dispatch(userActions.updateFriendCount(friends.length));
                 console.log('user name',username);
+                this.context.router.push('/profile');
               } else {
                 this.props.dispatch(userActions.updateFriends([]));
                 this.props.dispatch(userActions.updateOnlineFriends([]));
                 this.props.dispatch(userActions.updateFriendCount(0));
+                this.context.router.push('/profile');
               }
-              this.context.router.push('/profile');
             })
           })
         })

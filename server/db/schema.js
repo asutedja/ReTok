@@ -6,6 +6,7 @@ var GraphQLSchema = require('graphql').GraphQLSchema;
 var GraphQLList = require('graphql').GraphQLList;
 var GraphQLNonNull = require('graphql').GraphQLNonNull;
 var GraphQLBoolean = require('graphql').GraphQLBoolean;
+var Sequelize = require('sequelize');
 
 var Db = require('./db');
 var Auth = require('../auth/auth');

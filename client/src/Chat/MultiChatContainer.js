@@ -4,11 +4,22 @@ import { connect } from 'react-redux'
 import io from 'socket.io-client'
 import * as userActions from '../Redux/userReducer'
 import OnlineFriends from '../Profile/OnlineFriends/OnlineFriends.js'
+import friendTierCalculator from '../friendTierCalculator.js'
+import updateHelper from '../updateHelper.js'
+import EmojiChatContainer from '../TextChat/EmojiChatContainer/EmojiChatContainer.js'
+import { Scrollbars } from 'react-custom-scrollbars';
+
 
 class MultiChatContainer extends React.Component {
 
   constructor(props, context) {
     super(props, context);
+  }
+
+  componentWillMount() {
+    var socket = this.props.socket;
+    socket.on('update',()=> updateHelper(this))
+    updateHelper(this)
   }
 
   componentWillUnmount() {
@@ -22,52 +33,7 @@ class MultiChatContainer extends React.Component {
     });
   }
 
-  componentWillMount() {
-    var socket = this.props.socket;
-    socket.on('update', function() {
-      console.log('updating', username);
-      let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-      let options = {
-
-        method: 'POST',
-        headers: myHeaders,
-        body: `
-          { 
-            
-            findFriends(username: \"${username}\")
-            {
-                  username
-                  profilePic
-                  firstName
-                  lastName
-                  email
-                  online
-                  videoChatCount
-                  textChatCount
-                  lastChatTime
-                }
-          }`
-
-      };
-      fetch('/graphql', options).then((res) =>{
-        return res.json().then((data) => {
-          console.log('checking my friends data',data.data.findFriends);
-          var friends = data.data.findFriends;
-          // friendRanking() added score to each friend
-          if(friends) {
-            friendScoreCalculator(friends);
-            var onlineFriends = friends.filter(friend => friend.online === true);
-            var suggestedFriends = this.tierRanking(onlineFriends.slice().sort((friend0, friend1) => {return friend1.score - friend0.score}));
-            this.props.dispatch(userActions.updateFriends(friends.slice()));
-            this.props.dispatch(userActions.updateOnlineFriends(onlineFriends.slice()));
-            this.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends.slice()));
-            this.props.dispatch(userActions.updateFriendCount(friends.length));
-          }
-        })
-      })
-    }.bind(this))
-
-  }
+  
 
   componentDidMount() {
     var connection = new RTCMultiConnection();
@@ -87,8 +53,10 @@ class MultiChatContainer extends React.Component {
      };
      var socket = this.props.socket
 
+     connection.socketMessageEvent = 'all-the-things';
 
      var room = this.props.room;
+     var user = this.props.user.username;
      //Ensures caller opens the room first, before callees come in.
      connection.openOrJoin(room);
 
@@ -97,14 +65,20 @@ class MultiChatContainer extends React.Component {
       // removing trailing/leading whitespace
       this.value = this.value.replace(/^\s+|\s+$/g, '');
       if (!this.value.length) return;
-      connection.send(this.value);
-      appendDIV(this.value);
+      connection.getAllParticipants().forEach(function(uid) {
+          connection.send(user + ': ' + this.value,uid);
+      }.bind(this));
+      appendDIV(user + ': ' + this.value);
       this.value = '';
      };
     
+
     var chatContainer = document.querySelector('.chat-output');
     
     var appendDIV = (event) => {
+      if(typeof event.data === 'object') {
+        console.log('Does this work?')
+      }
       var div = document.createElement('div');
       div.innerHTML = event.data || event;
       chatContainer.insertBefore(div, chatContainer.firstChild);
@@ -113,8 +87,10 @@ class MultiChatContainer extends React.Component {
       document.getElementById('input-text-chat').focus();
    }
 
+    connection.onmessage = appendDIV;
 
     connection.onstream = function(event) {
+      console.log('This is the event' , event);
       var name = this.props.user
       var width = parseInt(connection.videosContainer.clientWidth / 2) - 20;
       var mediaElement = getMediaElement(event.mediaElement, {
@@ -128,6 +104,7 @@ class MultiChatContainer extends React.Component {
           mediaElement.media.play();
       }, 5000);
       mediaElement.id = event.streamid;
+      mediaElement.setAttribute('id', event.userid)
     }.bind(this);
 
     connection.onstreamended = function(event) {
@@ -151,15 +128,28 @@ class MultiChatContainer extends React.Component {
 
   } 
 
+        // <div>
+        // <Scrollbars style={{ height: 50 }}>
+        //   <EmojiChatContainer/>
+        // </Scrollbars>
+        // </div>
 
   render() {
     return (
       <div id='webRTC'>
         <h1>Tok</h1>
 
+
         <div id='chatContainer'>
-        <div className="chat-output"></div>
+        <div id="file-container"></div>
+    
+        <div>
+        <Scrollbars style={{ height: 100 }}>
+            <div className="chat-output"></div>
+        </Scrollbars>
         </div>
+        </div>
+
 
         <input type="text" id="input-text-chat" placeholder="Enter Text Chat"/>
 

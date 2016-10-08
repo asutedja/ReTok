@@ -7,13 +7,14 @@ const AllFriends = (props) => {
       backgroundImage: 'url(' +props.friend.profilePic+ ')',
       backgroundPosition:'center',
       backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat'
+      backgroundRepeat: 'no-repeat',
+
     }
   return(
       <div className = "oneFriend" style={divStyle}>
-    
           <div className="oneFriendWrapper">
           </div>
+          <p style={{'color': 'black', 'position': 'absolute', 'zAxis': -1}}>{props.friend.username}</p>
       </div>
     )
 }

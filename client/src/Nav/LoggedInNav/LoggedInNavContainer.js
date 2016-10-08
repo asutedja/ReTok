@@ -5,6 +5,7 @@ import axios from 'axios'
 import { connect } from 'react-redux'
 import { Router, Route, IndexRoute, Link } from 'react-router'
 import * as userActions from '../../Redux/userReducer'
+import updateHelper from '../../updateHelper.js'
 
 
 class LoggedInNavContainer extends React.Component {
@@ -17,6 +18,11 @@ class LoggedInNavContainer extends React.Component {
       }
   } 
 
+  componentWillUnmount() {
+    var socket = this.props.socket;
+    socket.emit('updateFriends', this.props.friends);
+  }
+
   componentWillMount() {
 
     var socket = io();
@@ -24,20 +30,13 @@ class LoggedInNavContainer extends React.Component {
     this.props.dispatch(userActions.sendSocket(socket));
     this.props.dispatch(userActions.createRoom(this.props.user.username))
     var friends = this.props.friends;
-    console.log(friends)
     socket.emit('updateFriends', friends);
-
     socket.on('invite', function(caller) {
       this.invitation();
-      console.log('This should be Andrew', caller.caller)
-
       this.props.dispatch(userActions.createRoom(caller.caller));
-
-      //peer should have room info
-
     }.bind(this))
-    
-
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this);
   }
     
   
@@ -62,7 +61,7 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-          console.log(data);
+          // console.log(data);
         })
     })
     .catch((error) => console.log(error))
@@ -73,7 +72,6 @@ class LoggedInNavContainer extends React.Component {
   }
 
   invitation() {
-
     this.setState({
       hide:true
     })
@@ -85,13 +83,9 @@ class LoggedInNavContainer extends React.Component {
            document.getElementById('chat').style.background = "rgb(255,145,0)";
        }
     })
-
-
     this.setState({
       toggle: toggling
     })
-
-    console.log('inviting')
   }
 
   accept() {
@@ -135,23 +129,14 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        console.log('THIS DATA GETS SLICED', data)
+        //console.log('THIS DATA GETS SLICED', data)
         var searchresult = data.data.users.slice();
-        console.log('what is my data from my search bar', searchresult);
-
+        //console.log('what is my data from my search bar', searchresult);
         this.props.dispatch(userActions.updateSearch(searchresult));
-        console.log('checking router', this.context.router);
+        //console.log('checking router', this.context.router);
         this.context.router.push('/search')
         })
     })
-
-
-
-
-
-    // console.log(username);
-    // this.props.dispatch(userActions.updateSearch(username));
-    // this.context.router.push('/search');
   }
 
  

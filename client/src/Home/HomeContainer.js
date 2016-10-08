@@ -33,7 +33,6 @@ class HomeContainer extends React.Component {
 // notice how althouth the state tree contains all the different states of our entire app,
 // we are only interested in extracting the state that this component will use/need
 function mapStateToProps(state){
-  console.log(state, 'mapStateToProps state')
   return {
     isLoggedIn: state.userReducer.isLoggedIn //<=== shouldnt have to do this...? 
   }
