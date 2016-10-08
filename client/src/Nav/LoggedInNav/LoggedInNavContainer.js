@@ -1,6 +1,5 @@
 import React, { PropTypes } from 'react'
 import LoggedInNav from './LoggedInNav'
-import SignInNav from './SignInNav'
 import axios from 'axios'
 import { connect } from 'react-redux'
 import { Router, Route, IndexRoute, Link } from 'react-router'
