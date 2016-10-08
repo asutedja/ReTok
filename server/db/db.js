@@ -2,8 +2,13 @@
 //CHANGE PASSWORD IN SETTINGS.JS IF NEEDED
 var Sequelize = require('sequelize');
 var userinfo = require('../../settings.js');
-var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password, {define: {charset: 'utf8mb4', collate: 'utf8mb4_unicode_ci'}});
 
+//var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
+var sequelize = new Sequelize(userinfo.connectionString, {  
+  dialectOptions: {
+    'SSL_VERIFY_SERVER_CERT': __dirname + '/amazon-rds-ca-cert.pem'
+  }
+});
 //define user model
 var User = sequelize.define('User', {
 	username: Sequelize.STRING,

@@ -78,6 +78,7 @@
     "webpack-preset": "^0.2.0",
     "webpack-preset-babel": "^0.2.0",
     "webpack-preset-babel-stage-1": "^0.2.0"
+
   },
   "scripts": {
     "dev": "./node_modules/.bin/webpack -d -w --progress --colors",
