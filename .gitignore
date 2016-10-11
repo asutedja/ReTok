@@ -11,3 +11,4 @@ server/cert.pem
 server/db/AWSconfig/keys.js
 npm-debug.log
 dump.rdb
+.DS_Store
