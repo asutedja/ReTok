@@ -48,7 +48,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChats(user: \"${this.props.user.username}\")  {
+          findChatsRedis(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -186,7 +186,6 @@ class TextChatContainer extends React.Component {
   handleWindowClose(){
       alert("Alerted Browser Close");
   }
-
   sendChat(message) {
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
@@ -195,8 +194,6 @@ class TextChatContainer extends React.Component {
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
     const emojiEscapedString = encodeURI(unicodeToShort(message));
-
-    console.log('check encoded URI string', emojiEscapedString);
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let chatOptions = {
       method: 'POST',
@@ -214,7 +211,6 @@ class TextChatContainer extends React.Component {
         console.log('sending chat to Redis');
       })
     })
-
   }
 
 
