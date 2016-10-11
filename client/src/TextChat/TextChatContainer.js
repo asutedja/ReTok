@@ -54,7 +54,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChatsRedis(user: \"${this.props.user.username}\")  {
+          findChats(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -158,6 +158,11 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
+
+
+
+
+
     var socket = this.props.socket;
     var clearChat = [];
 
@@ -244,12 +249,10 @@ class TextChatContainer extends React.Component {
     this.props.dispatch(userActions.createRoom(this.props.user.username));
   }
 
-
   goToUploadView() {
 
     this.context.router.push('/upload');
   }
-
 
   render() {
 
