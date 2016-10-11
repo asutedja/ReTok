@@ -54,7 +54,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChats(user: \"${this.props.user.username}\")  {
+          findChatsRedis(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -158,11 +158,6 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
-
-
-
-
-
     var socket = this.props.socket;
     var clearChat = [];
 
@@ -233,6 +228,7 @@ class TextChatContainer extends React.Component {
 
   }
 
+
   goToProfile() {
     this.setState({
       chatSelected: false,
@@ -265,6 +261,7 @@ class TextChatContainer extends React.Component {
 
 
     var context = this;
+
     var chat = context.props.currentChat.map((message) => <div><div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div></div>);
 
 
