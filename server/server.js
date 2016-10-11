@@ -31,10 +31,6 @@ require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 var cookieParser = require('cookie-parser');
 
 app.use(cookieParser());
-<<<<<<< HEAD
-=======
-app.use(checkSession);
->>>>>>> ready to implement securing routes
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
@@ -67,6 +63,7 @@ app.use('/graphql', GraphHTTP({
 }));
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
   var userID = req.session.passport.user;
 =======
@@ -94,6 +91,13 @@ app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
 //   });
 
 // });
+=======
+app.get('/*', function(req, res) {
+  console.log('*********************** default route ***********************');
+  res.redirect('/');
+  // res.send('yo');
+})
+>>>>>>> backup for session
 
 app.post('/login', passport.authenticate('local', {
  // successRedirect: '/',
