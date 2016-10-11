@@ -29,7 +29,6 @@ var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 var cookieParser = require('cookie-parser');
 
-app.use(cookieParser());
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
