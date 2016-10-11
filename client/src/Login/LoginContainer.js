@@ -9,6 +9,10 @@ import * as userActions from '../Redux/userReducer'
 class LoginContainer extends React.Component {
 	constructor(props, context) {
 		super(props, context);
+		this.state = {
+			exist: false,
+			comma: false
+		}
 	}
 
 	componentWillMount() {
@@ -58,7 +62,7 @@ class LoginContainer extends React.Component {
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
 					console.log(data);
-					if(data === null) {
+					if(data.data.addUser === null) {
 						this.setState({
 							exist: true
 						})
@@ -77,17 +81,21 @@ class LoginContainer extends React.Component {
 					}
 				})
 			})
+		} else {
+			this.setState({
+				comma: true
+			})
+		}
 
 
 
 	}
 
-
 	render() {
 
 		return(
 			<div>
-				<SignUpForm signUp={this.signUp.bind(this)}/>
+				<SignUpForm comma={this.state.comma} exist={this.state.exist} signUp={this.signUp.bind(this)}/>
 			</div>
 			)
 	}
@@ -104,4 +112,3 @@ LoginContainer.contextTypes = {
 }
 
 export default connect(mapStateToProps)(LoginContainer)
-
