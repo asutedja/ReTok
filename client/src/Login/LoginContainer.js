@@ -63,7 +63,7 @@ class LoginContainer extends React.Component {
 							.then((res) => {
 								console.log('checking my data', res.data);
 								this.props.dispatch(userActions.updateUser(res.data[0]));
-								this.context.router.push('/upload');
+								this.context.router.push('/profile');
 							});
 					}
 				})
