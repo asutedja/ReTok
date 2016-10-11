@@ -32285,27 +32285,14 @@ var _uploadReducer2 = _interopRequireDefault(_uploadReducer);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import {tester} from 'graphql-tester';
-
-// render(
-//   Routes, document.getElementById('app')
-// );
-
-
 var reducers = (0, _redux.combineReducers)({
   userReducer: _userReducer2.default,
   uploadReducer: _uploadReducer2.default
 });
 
-// Create store that houses state-tree of app
-// Can be modified by dispatching actions on above reducers
-// (see 'redux/' for actions)
 var store = (0, _redux.createStore)(reducers);
 
-(0, _reactDom.render)(
-// Provider will make the Redux-Store (state tree) accessible to ALL components. 
-//(React specific helper module for simplifying redux!)
-_react2.default.createElement(
+(0, _reactDom.render)(_react2.default.createElement(
   _reactRedux.Provider,
   { store: store },
   _Routes2.default
