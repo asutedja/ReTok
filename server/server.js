@@ -7,6 +7,11 @@ var Schema = require('./db/schema');
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
+<<<<<<< cfd7e6426c36d153d987e20bcc7ed3439aace1af
+=======
+var Schema = require('./db/Schema');
+var checkSession = require('./auth/session');
+>>>>>>> ready to implement securing routes
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
@@ -29,6 +34,8 @@ var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 var cookieParser = require('cookie-parser');
 
+app.use(cookieParser());
+app.use(checkSession);
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
