@@ -20,7 +20,7 @@ class LoginContainer extends React.Component {
 			exist: false,
 			comma: false
 		})
-		if(!user.includes(',' && !user.includes(':') && !user.includes('^') && !user.includes('#'))) {
+		if(!user.includes(',') && !user.includes(':') && !user.includes('^') && !user.includes('#')) {
 
 			console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
 			var userInfo = {username: user, password: password};
