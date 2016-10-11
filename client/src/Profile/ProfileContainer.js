@@ -22,6 +22,7 @@ class ProfileContainer extends React.Component {
     //Logic to update users friends as they login/logout and add new friends
     // socket.on('update', () => updateHelper(this))
     // updateHelper(this);
+
   }
 
   goToUploadView() {
