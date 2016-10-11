@@ -31,7 +31,6 @@ require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 var cookieParser = require('cookie-parser');
 
 app.use(cookieParser());
-app.use(checkSession);
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
@@ -46,7 +45,16 @@ require('./db/uploadPhoto')(app);
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
 
-// app.use(bodyparser.json());
+app.get('/auth', function(req, res) {
+  console.log('req.cookies @ auth: ', req.cookies);
+  console.log('req.session @ auth: ', req.session);
+  var authUser = true;
+  if (req.session.passport === undefined) {
+    res.send(!authUser);
+  } else {
+    res.send(authUser);
+  }
+});
 
 app.use('/graphql', GraphHTTP({
   schema: Schema,
@@ -54,20 +62,8 @@ app.use('/graphql', GraphHTTP({
   graphiql: true
 }));
 
-app.get('/*', function(req, res) {
-  console.log('*********************** default route ***********************');
-  res.redirect('/');
-  // res.send('yo');
-})
-
-app.post('/login', passport.authenticate('local', {
- // successRedirect: '/',
- //failureRedirect: '/',
-}) ,function(req, res) {
-  console.log('this is cookie: ', req.session);
+app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
   var userID = req.session.passport.user;
-  console.log('checking my request over here -------->', req.session);
-
   User.findAll({where:{id: userID}}).then(function(user) {
     var user0 = user[0];
     var resUser = [{
@@ -254,10 +250,13 @@ io.sockets.on('connection', function(socket) {
 });
 
 app.get('/logout', function (req, res){
+  req.session.destroy();
 	req.logout();
 });
 
-
+app.get('*', function(req, res) {
+  res.redirect('/');
+})
 
 http.listen(port, function(data) {
   console.log('listening on ' + port);
