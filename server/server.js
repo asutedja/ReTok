@@ -7,6 +7,7 @@ var Schema = require('./db/schema');
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
+var Schema = require('./db/schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
@@ -59,44 +60,8 @@ app.use('/graphql', GraphHTTP({
   graphiql: true
 }));
 
-<<<<<<< 0c320f4ae08dc7a920ee0a7d1521bb00ffa2fa8c
 app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
   var userID = req.session.passport.user;
-=======
-// app.use(function(req, res, next) {
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//     next();
-// });
-
-// app.post('/test', function(req, res) {
-// 	console.log('checking req body', req.body);
-// });
-
-// app.post('/login', passport.authenticate('local', {
-//   // successRedirect: '/',
-//   failureRedirect: '/',
-// }) ,function(req, res) {
-//   var userID = req.session.passport.user;
-//   console.log('checking my request over here -------->', req.session.passport.user);
-
-
-//   User.findAll({where:{id: userID}}).then(function(user) {
-//     console.log('confirming i have user information', user);
-//     res.status(200).send(user);
-//   });
-
-// });
-
-app.post('/login', passport.authenticate('local', {
- // successRedirect: '/',
- //failureRedirect: '/',
-}) ,function(req, res) {
-  console.log('this is cookie: ', req.session);
-  var userID = req.session.passport.user;
-  console.log('checking my request over here -------->', req.session);
-
->>>>>>> ready to implement securing routes
   User.findAll({where:{id: userID}}).then(function(user) {
     var user0 = user[0];
     var resUser = [{
