@@ -36,6 +36,7 @@ var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
+
 app.use('/graphql', GraphHTTP({
   schema: Schema,
   pretty: true,

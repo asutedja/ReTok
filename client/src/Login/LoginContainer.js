@@ -113,7 +113,3 @@ LoginContainer.contextTypes = {
 }
 
 export default connect(mapStateToProps)(LoginContainer)
-<<<<<<< 495c04ccde05d9a939adcc6ec639088644c35174
-
-=======
->>>>>>> Add default user profile picture
