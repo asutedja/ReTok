@@ -80,7 +80,7 @@ class LoginContainer extends React.Component {
 							.then((res) => {
 								console.log('checking my data', res.data);
 								this.props.dispatch(userActions.updateUser(res.data[0]));
-								this.context.router.push('/upload');
+								this.context.router.push('/profile');
 							});
 					}
 				})
@@ -115,8 +115,4 @@ LoginContainer.contextTypes = {
   router: PropTypes.object.isRequired
 }
 
-<<<<<<< 55fbc8caa6ff0e4611dbbecf36d277b810fa6386
 export default connect(mapStateToProps)(LoginContainer)
-=======
-export default connect(mapStateToProps)(LoginContainer)
->>>>>>> rebase
