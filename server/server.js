@@ -8,6 +8,7 @@ var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
 var Schema = require('./db/schema');
+var checkSession = require('./auth/session');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
