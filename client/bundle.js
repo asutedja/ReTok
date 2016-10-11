@@ -35347,7 +35347,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var Routes = _react2.default.createElement(
   _reactRouter.Router,
-  { history: _reactRouter.browserHistory },
+  { history: _reactRouter.hashHistory },
   _react2.default.createElement(
     _reactRouter.Route,
     { path: '/', component: _HomeContainer2.default },
