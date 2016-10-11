@@ -89,6 +89,14 @@ app.post('/login', passport.authenticate('local', {
 
 io.sockets.on('connection', function(socket) {
 
+  socket.on('login', function(user) {
+    sockets[user] = socket.id; 
+    log('this is the room you are in: ', user)
+    socket.name = user;
+    console.log('ROOM NAME IS', user)
+    socket.join(user);
+  })
+
   socket.on('textmessagemount', function() {
     console.log('i hit the textmessagemount.');
   });
@@ -129,13 +137,6 @@ io.sockets.on('connection', function(socket) {
   });
 
 
-  socket.on('login', function(user) {
-    sockets[user] = socket.id; 
-    log('this is the room you are in: ', user)
-    socket.name = user;
-    console.log('ROOM NAME IS', user)
-    socket.join(user);
-  })
 
   socket.on('calling', function(info) {
       var id = sockets[info.user];
@@ -210,17 +211,18 @@ io.sockets.on('connection', function(socket) {
     User.update({online: false}, {where: {username: socket.name}});
     var myself;
     var friends = [];
-    //query for updating user's friends of online status broken, only gets some, not all, friends.
     Db.User.findAll({where: {username: socket.name}})
       .then(function(user){
-        myself = user;
-        return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
+        if(user) {
+          myself = user;
+          return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
+        }
       })
       .then((response) => {
-        console.log('I get a response', response)
         if(response.length > 0) {
           response[0].forEach(function(friend){
             friends.push(friend);
+            
           });
         }
       })
@@ -228,6 +230,7 @@ io.sockets.on('connection', function(socket) {
         return Db.sequelize.query("SELECT `FriendOne`.`id` , `FriendOne`.`username`, `FriendOne`.`firstName`, `FriendOne`.`lastName`, `FriendOne`.`email`, `FriendOne`.`dob`, `FriendOne`.`gender`, `FriendOne`.`profilePic`, `FriendOne`.`coin`, `FriendOne`.`online`, `FriendOne`.`createdAt`, `FriendOne`.`updatedAt`, `FriendOne.Friendship`.`relationship`, `FriendOne.Friendship`.`textChatCount`, `FriendOne.Friendship`.`videoChatCount`, `FriendOne.Friendship`.`lastChatTime`, `FriendOne.Friendship`.`createdAt`, `FriendOne.Friendship`.`updatedAt`, `FriendOne.Friendship`.`userOne`, `FriendOne.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendOne.Friendship` INNER JOIN `Users` AS `FriendOne` ON `FriendOne`.`id` = `FriendOne.Friendship`.`userOne`) ON `User`.`id` = `FriendOne.Friendship`.`userTwo` WHERE `FriendOne.Friendship`.`userTwo` ="+myself[0].id+";");
       })
       .then(function(response){ 
+        sockets[socket.name] = null;
         if(response.length > 0) {
           response[0].forEach(function(friend){
             friends.push(friend);
@@ -235,8 +238,8 @@ io.sockets.on('connection', function(socket) {
         }
         friends.forEach(function(friend) {
           var id = sockets[friend.username]
-          if(sockets[friend.username]) {
-            console.log('updating everyone')
+          if(id !== null && id !== undefined) {
+            console.log('updating', friend.username);
             io.sockets.connected[id].emit('update')    
           }
         })
