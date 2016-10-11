@@ -30,7 +30,6 @@ require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 var cookieParser = require('cookie-parser');
 
 app.use(cookieParser());
-app.use(checkSession);
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
@@ -240,6 +239,5 @@ app.get('/logout', function (req, res){
 app.get('*', function(req, res) {
   res.redirect('/');
 })
-
 
 httpsServer.listen(8443);
