@@ -28,6 +28,7 @@ class LoginContainer extends React.Component {
 		    	context.props.dispatch(userActions.userUnauth());
 		    }
 		  })
+
 	}
 
 	signUp(user, password, firstName, lastName, email) {
@@ -112,3 +113,4 @@ LoginContainer.contextTypes = {
 }
 
 export default connect(mapStateToProps)(LoginContainer)
+
