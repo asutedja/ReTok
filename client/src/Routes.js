@@ -18,7 +18,7 @@ import SearchContainer from './Search/SearchContainer.js'
 import MultiChatContainer from './Chat/MultiChatContainer.js'
 
 var Routes = (
-  <Router history={browserHistory}>
+  <Router history={hashHistory}>
     <Route path="/" component={HomeContainer}>
       <IndexRoute component={LoginContainer}/>
       <Route path="/profile" component={ProfileContainer}>
