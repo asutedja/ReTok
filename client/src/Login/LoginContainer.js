@@ -9,10 +9,6 @@ import * as userActions from '../Redux/userReducer'
 class LoginContainer extends React.Component {
 	constructor(props, context) {
 		super(props, context);
-		this.state = {
-			exist: false,
-			comma: false
-		}
 	}
 
 	componentWillMount() {
@@ -39,7 +35,6 @@ class LoginContainer extends React.Component {
 		if(!user.includes(',') && !user.includes(':') && !user.includes('^') && !user.includes('#')) {
 			console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
 			var userInfo = {username: user, password: password};
-
 			let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
 			let options = {
 
@@ -63,7 +58,7 @@ class LoginContainer extends React.Component {
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
 					console.log(data);
-					if(data.data.addUser === null) {
+					if(data === null) {
 						this.setState({
 							exist: true
 						})
@@ -77,26 +72,22 @@ class LoginContainer extends React.Component {
 							.then((res) => {
 								console.log('checking my data', res.data);
 								this.props.dispatch(userActions.updateUser(res.data[0]));
-								this.context.router.push('/profile');
+								this.context.router.push('/upload');
 							});
 					}
 				})
 			})
-		} else {
-			this.setState({
-				comma: true
-			})
-		}
 
 
 
 	}
 
+
 	render() {
 
 		return(
 			<div>
-				<SignUpForm comma={this.state.comma} exist={this.state.exist} signUp={this.signUp.bind(this)}/>
+				<SignUpForm signUp={this.signUp.bind(this)}/>
 			</div>
 			)
 	}

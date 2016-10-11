@@ -23,9 +23,6 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
-
-
-
     var context = this;
     axios.get('/auth')
       .then(function(res) {
@@ -51,7 +48,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChatsRedis(user: \"${this.props.user.username}\")  {
+          findChats(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -189,13 +186,8 @@ class TextChatContainer extends React.Component {
   handleWindowClose(){
       alert("Alerted Browser Close");
   }
+
   sendChat(message) {
-
-
-
-
-
-
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
     this.props.dispatch(userActions.updateUser(userCopy));
