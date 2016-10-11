@@ -32,7 +32,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChats(user: \"${this.props.user.username}\")  {
+          findChatsRedis(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -42,7 +42,7 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        var findChatsData = data.data.findChats;
+        var findChatsData = data.data.findChatsRedis;
         // console.log('checking data after fetching', findChatsData);
         var newChatLog = {};
 
@@ -138,11 +138,6 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
-
-
-
-
-
     var socket = this.props.socket;
     var clearChat = [];
 
@@ -168,35 +163,38 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        console.log('checking data after fetching unmounting', data);
 
-        var chatLog = this.state.newChatHistoryLog;
-        // var chatLog = this.props.chatLog;
+        console.log('unmounting');
 
-        for (var room in chatLog) {
-          console.log('checking typeOf chatlogRoom -->', chatLog[room], typeof chatLog[room]);
-          var chatMessagesStringified = chatLog[room].join('$#%!$?!*&&*###@@');
+        // var chatLog = this.state.newChatHistoryLog;
+        // // var chatLog = this.props.chatLog;
 
-          console.log('checking room  in loop -->', room);
-          console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified);
-          let chatOptions = {
-            method: 'POST',
-            headers: myHeaders,
-            body: `
-                mutation {
-                addChat(room: \"${room}\" text: \"${chatMessagesStringified}\")  {
-                  id
-                }
-                }
-                `
-          };
-          fetch('/graphql', chatOptions).then((res) =>{
-            return res.json().then((data) => {
-              console.log('sending chat to server', data);
-            })
-          })
+        // for (var room in chatLog) {
+        //   console.log('checking typeOf chatlogRoom -->', chatLog[room], typeof chatLog[room]);
+        //   var chatMessagesStringified = chatLog[room].join('');
+        //   var emojiEscapedString = unicodeToShort(chatMessagesStringified);
 
-        }
+        //   console.log('checking room  in loop -->', room);
+        //   console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified);
+        //   console.log('emoji escape', emojiEscapedString);
+        //   let chatOptions = {
+        //     method: 'POST',
+        //     headers: myHeaders,
+        //     body: `
+        //         mutation {
+        //         addChat(room: \"${room}\" text: \"${emojiEscapedString}\")  {
+        //           id
+        //         }
+        //         }
+        //         `
+        //   };
+        //   fetch('/graphql', chatOptions).then((res) =>{
+        //     return res.json().then((data) => {
+        //       console.log('sending chat to server', data);
+        //     })
+        //   })
+
+        // }
 
 
 
@@ -238,7 +236,6 @@ class TextChatContainer extends React.Component {
   handleWindowClose(){
       alert("Alerted Browser Close");
   }
-
   sendChat(message) {
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
@@ -246,12 +243,26 @@ class TextChatContainer extends React.Component {
     console.log('i am receiving a message', message);
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
+    const emojiEscapedString = unicodeToShort(message);
+    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+    let chatOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: `
+          mutation {
+          addChatRedis(room: \"${this.props.room}\" text: \"${emojiEscapedString}\")  {
+            room
+          }
+          }
+          `
+    };
+    fetch('/graphql', chatOptions).then((res) =>{
+      return res.json().then((data) => {
+        console.log('sending chat to Redis');
+      })
+    })
 
   }
-
-
-
-
   render() {
 
 
