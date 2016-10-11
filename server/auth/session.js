@@ -10,6 +10,10 @@ Promise.promisifyAll(redis.Multi.prototype);
 var checkSession = function(req, res, next) {
 	// console.log('########## here\'s req.cookie from client: ', req.cookies.localUserId + ' ##########'); //localUserId, connect.sid
 	console.log('req.cookies from session middleware: ', req.cookies);
+	// if (req.cookies['connect.sid'] === undefined) {
+	// 	res.redirect('/')
+	// }
+	res.redirect('/somewhere');
 
 	next();
 };

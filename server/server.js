@@ -54,30 +54,11 @@ app.use('/graphql', GraphHTTP({
   graphiql: true
 }));
 
-// app.use(function(req, res, next) {
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//     next();
-// });
-
-// app.post('/test', function(req, res) {
-// 	console.log('checking req body', req.body);
-// });
-
-// app.post('/login', passport.authenticate('local', {
-//   // successRedirect: '/',
-//   failureRedirect: '/',
-// }) ,function(req, res) {
-//   var userID = req.session.passport.user;
-//   console.log('checking my request over here -------->', req.session.passport.user);
-
-
-//   User.findAll({where:{id: userID}}).then(function(user) {
-//     console.log('confirming i have user information', user);
-//     res.status(200).send(user);
-//   });
-
-// });
+app.get('/*', function(req, res) {
+  console.log('*********************** default route ***********************');
+  res.redirect('/');
+  // res.send('yo');
+})
 
 app.post('/login', passport.authenticate('local', {
  // successRedirect: '/',
