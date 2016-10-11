@@ -50,7 +50,7 @@ class TextChatContainer extends React.Component {
 
         for (var i = 0; i < findChatsData.length; i++) {
           // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
-          newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('$#%!$?!*&&*###@@');
+          newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('#^');
         }
         context.props.dispatch(userActions.updateChatLog(newChatLog));
         console.log('checking my chat log on will mount after fetching', context.props.chatLog);
