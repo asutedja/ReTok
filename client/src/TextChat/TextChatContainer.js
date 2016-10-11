@@ -46,7 +46,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChatsRedis(user: \"${this.props.user.username}\")  {
+          findChats(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -56,7 +56,7 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        var findChatsData = data.data.findChatsRedis;
+        var findChatsData = data.data.findChats;
         // console.log('checking data after fetching', findChatsData);
         var newChatLog = {};
 
@@ -147,6 +147,11 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
+
+
+
+
+
     var socket = this.props.socket;
     var clearChat = [];
 
@@ -173,6 +178,7 @@ class TextChatContainer extends React.Component {
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
         console.log('unmounting');
+
       })
     })
 
@@ -181,6 +187,7 @@ class TextChatContainer extends React.Component {
   handleWindowClose(){
       alert("Alerted Browser Close");
   }
+
   sendChat(message) {
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
@@ -188,24 +195,6 @@ class TextChatContainer extends React.Component {
     console.log('i am receiving a message', message);
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
-    const emojiEscapedString = unicodeToShort(message);
-    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-    let chatOptions = {
-      method: 'POST',
-      headers: myHeaders,
-      body: `
-          mutation {
-          addChatRedis(room: \"${this.props.room}\" text: \"${emojiEscapedString}\")  {
-            room
-          }
-          }
-          `
-    };
-    fetch('/graphql', chatOptions).then((res) =>{
-      return res.json().then((data) => {
-        console.log('sending chat to Redis');
-      })
-    })
 
   }
 
@@ -224,8 +213,7 @@ class TextChatContainer extends React.Component {
     socket.emit('leavetextchatview', this.props.room, this.props.user.username);
     this.props.dispatch(userActions.createRoom(this.props.user.username));
   }
-
-
+  
   render() {
 
     const divStyle = {
