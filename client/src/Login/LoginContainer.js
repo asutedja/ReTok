@@ -9,11 +9,21 @@ import * as userActions from '../Redux/userReducer'
 class LoginContainer extends React.Component {
 	constructor(props, context) {
 		super(props, context);
+		this.state = {
+			exist: false,
+			comma: false
+		}
 	}
 
 	signUp(user, password, firstName, lastName, email) {
-		console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
-		var userInfo = {username: user, password: password};
+		this.setState({
+			exist: false,
+			comma: false
+		})
+		if(!user.includes(',') && !user.includes(':')) {
+
+			console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
+			var userInfo = {username: user, password: password};
 
 
 			let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
@@ -39,7 +49,7 @@ class LoginContainer extends React.Component {
 			fetch('/graphql', options).then((res) =>{
 				return res.json().then((data) => {
 					console.log(data);
-					if(data === null) {
+					if(data.data.addUser === null) {
 						this.setState({
 							exist: true
 						})
@@ -58,17 +68,21 @@ class LoginContainer extends React.Component {
 					}
 				})
 			})
+		} else {
+			this.setState({
+				comma: true
+			})
+		}
 
 
 
 	}
 
-
 	render() {
 
 		return(
 			<div>
-				<SignUpForm signUp={this.signUp.bind(this)}/>
+				<SignUpForm comma={this.state.comma} exist={this.state.exist} signUp={this.signUp.bind(this)}/>
 			</div>
 			)
 	}
@@ -85,5 +99,3 @@ LoginContainer.contextTypes = {
 }
 
 export default connect(mapStateToProps)(LoginContainer)
-
-
