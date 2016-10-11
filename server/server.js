@@ -7,9 +7,9 @@ var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
 var Schema = require('./db/Schema');
+var checkSession = require('./auth/session');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
-
 var bodyParser = require('body-parser');
 var sockets = {};
 
@@ -27,13 +27,16 @@ var httpsServer = https.createServer(credentials, app);
 var os = require('os');
 var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
+var cookieParser = require('cookie-parser');
 
+app.use(cookieParser());
+app.use(checkSession);
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
-app.use(session({secret: 'lets ReTok'}));
+app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
+
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use(cors());
 
 var uploadPhoto = ('./db/uploadPhoto');
@@ -79,20 +82,26 @@ app.post('/login', passport.authenticate('local', {
  // successRedirect: '/',
  //failureRedirect: '/',
 }) ,function(req, res) {
+  console.log('this is cookie: ', req.session);
+  var userID = req.session.passport.user;
+  console.log('checking my request over here -------->', req.session);
 
- var userID = req.session.passport.user;
- console.log('checking my request over here -------->', req.session);
- // var returnedData = {};
- // User.findAll({where:{id: userID}}).then(function(user) {
- //   console.log('confirming i have user information', user);
- //   returnedData.user = user;
- //   Friendship.findAll({where: {$or:[{userOne: userID}, {userTwo: userID}]}}).then(function(friendship) {
- //     returnedData.friendship = friendship;
- //     console.log('checking my returned data from server --->', returnedData);
- //     res.status(200).send(returnedData);
- //   });
- User.findAll({where:{id: userID}}).then(function(user) {
-    res.status(200).send(user);
+  User.findAll({where:{id: userID}}).then(function(user) {
+    var user0 = user[0];
+    var resUser = [{
+      id: user0.id,
+      username: user0.username,
+      profilePic: user0.profilePic,
+      online: user0.online,
+      firstName: user0.firstName,
+      lastName: user0.lastName,
+      email: user0.email,
+      dob: user0.dob,
+      coin: user0.coin,
+      gender: user0.gender
+    }];
+    res.cookie('userID', userID);
+    res.status(200).send(resUser);
  });
 });
 
