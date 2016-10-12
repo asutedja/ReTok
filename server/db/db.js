@@ -3,6 +3,7 @@
 var Sequelize = require('sequelize');
 var userinfo = require('../../settings.js');
 //var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
+//tetstetetetsts
 var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password, {
 host: userinfo.connectionString,
 port: 3306,
