@@ -261,7 +261,6 @@ class TextChatContainer extends React.Component {
 
 
     var context = this;
-
     var chat = context.props.currentChat.map((message) => <div><div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div></div>);
 
 
