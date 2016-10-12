@@ -8,10 +8,7 @@ Promise.promisifyAll(redis.RedisClient.prototype);
 Promise.promisifyAll(redis.Multi.prototype);
 
 var checkSession = function(req, res, next) {
-	// console.log('########## here\'s req.cookie from client: ', req.cookies.localUserId + ' ##########'); //localUserId, connect.sid
-	// console.log('req.cookies from session middleware: ', req.cookies);
-	// console.log('req.url from session middleware: ', req.url);
-	// console.log('req.server from session middleware: ', req.method);
+
 	var authUser = true;
 	if (req.method === 'POST' || req.url === 'graphql' || req.url === 'logout') {
 		next();
