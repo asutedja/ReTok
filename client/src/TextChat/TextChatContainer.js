@@ -37,13 +37,10 @@ class TextChatContainer extends React.Component {
         }
       })
 
-
     var socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
-    var username = this.props.user.username
-
-    
+    var username = this.props.user.username    
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
     var context = this;
 

@@ -15,11 +15,13 @@ class ProfileContainer extends React.Component {
   }
 
   componentWillMount() {
+    var context = this;
     axios.get('/auth')
       .then(function(res) {
-        console.log(res.data);
+        console.log('checking auth res data',res.data);
         if(!res.data) {
-          this.context.router.push('/');
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
         }
       })
 
@@ -49,7 +51,6 @@ class ProfileContainer extends React.Component {
   }
 }
 
-//testing1234
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,

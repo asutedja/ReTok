@@ -226,7 +226,6 @@ export default function userReducer (state = userInitialState, action) {
     state = {...state, room: action.room};
     break;
 
-
     case 'SEND_SOCKET' : 
     state = {...state, socket: action.socket};
     break;
