@@ -1,3 +1,4 @@
+// graphQL objects
 var GraphQLDate = require('graphql-date');
 var GraphQLObjectType = require('graphql').GraphQLObjectType;
 var GraphQLString = require('graphql').GraphQLString;
@@ -10,22 +11,9 @@ var Sequelize = require('sequelize');
 
 var Db = require('./db');
 var Auth = require('../auth/auth');
-
-var Promise = require('bluebird');
-var redis = require('redis');
-var client = redis.createClient();
-client.on("error", function (err) {
-    console.log("Error " + err);
-});
-Promise.promisifyAll(redis.RedisClient.prototype);
-Promise.promisifyAll(redis.Multi.prototype);
-
-var archiveCode = '#^';
-var redisLimit = 50;
-var redisArchive = 30;
+var Redis = require('./redis');
 
 var User = new GraphQLObjectType({
-
 	name: 'User',
 	description: 'User table',
 	fields: () => {
@@ -119,11 +107,9 @@ var User = new GraphQLObjectType({
 			}
 		}
 	}
-
 });
 
 var Friendship = new GraphQLObjectType({
-
 	name: 'Friendship',
 	description: 'all unique friendships',
 	fields: () => {
@@ -166,42 +152,39 @@ var Friendship = new GraphQLObjectType({
 			}
 		}
 	}
-
 });
 
 var Chat = new GraphQLObjectType({
-
 	name: 'Chat',
 	description: 'chat history log',
 	fields: () => {
-	return {
-		id: {
-			type: GraphQLInt,
-			resolve (chat) {
-				return chat.id;
-			}
-		},
-		room: {
-			type: GraphQLString,
-			resolve (chat) {
-				return chat.room;
-			}
-		},
-		text: {
-			type: GraphQLString,
-			resolve (chat) {
-				return chat.text;
-			}
-		},
-		time: {
-			type: GraphQLDate,
-			resolve (chat) {
-				return chat.time;
+		return {
+			id: {
+				type: GraphQLInt,
+				resolve (chat) {
+					return chat.id;
+				}
+			},
+			room: {
+				type: GraphQLString,
+				resolve (chat) {
+					return chat.room;
+				}
+			},
+			text: {
+				type: GraphQLString,
+				resolve (chat) {
+					return chat.text;
+				}
+			},
+			time: {
+				type: GraphQLDate,
+				resolve (chat) {
+					return chat.time;
+				}
 			}
 		}
 	}
-	}
-
 });
 
 var Emoji = new GraphQLObjectType({
@@ -253,7 +236,6 @@ var emoji_user = new GraphQLObjectType({
 });
 
 var Query = new GraphQLObjectType({
-
 	name: 'Query',
 	description: 'Root query object',
 	fields: () => {
@@ -319,7 +301,6 @@ var Query = new GraphQLObjectType({
 					user: {type: GraphQLString}
 				},
 				resolve (root, args) {
-					// console.log('args.user: ', args.user);
 					return Db.Chat.findAll({where: {room: {$like: '%,' + args.user + ',%'}}})
 				}
 			},
@@ -329,14 +310,13 @@ var Query = new GraphQLObjectType({
 					user: {type: GraphQLString}
 				},
 				resolve (root, args) {
-
 					var result = [];
-					return client.keysAsync('*' + args.user + '*')
+					return Redis.client.keysAsync('*' + args.user + '*')
 					.then(function(response){
 						result = response.map(function(room){
-							return client.lrangeAsync(room, 0, -1)
+							return Redis.client.lrangeAsync(room, 0, -1)
 							.then(function(text){
-								var joinedText = text.join(archiveCode);
+								var joinedText = text.join(Redis.archiveCode);
 								var obj = {
 									room: room,
 									text: joinedText
@@ -360,9 +340,7 @@ var Query = new GraphQLObjectType({
 					return Db.User.findAll({where: args})
 					.then(function(user){
 						myself = user;
-
 						return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
-
 					})
 					.then(function(response){	
 						if(response.length > 0) {
@@ -373,9 +351,7 @@ var Query = new GraphQLObjectType({
 						return friends;
 					})
 					.then(function(nothing){
-
 						return Db.sequelize.query("SELECT `FriendOne`.`id` , `FriendOne`.`username`, `FriendOne`.`firstName`, `FriendOne`.`lastName`, `FriendOne`.`email`, `FriendOne`.`dob`, `FriendOne`.`gender`, `FriendOne`.`profilePic`, `FriendOne`.`coin`, `FriendOne`.`online`, `FriendOne`.`createdAt`, `FriendOne`.`updatedAt`, `FriendOne.Friendship`.`relationship`, `FriendOne.Friendship`.`textChatCount`, `FriendOne.Friendship`.`videoChatCount`, `FriendOne.Friendship`.`lastChatTime`, `FriendOne.Friendship`.`createdAt`, `FriendOne.Friendship`.`updatedAt`, `FriendOne.Friendship`.`userOne`, `FriendOne.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendOne.Friendship` INNER JOIN `Users` AS `FriendOne` ON `FriendOne`.`id` = `FriendOne.Friendship`.`userOne`) ON `User`.`id` = `FriendOne.Friendship`.`userTwo` WHERE `FriendOne.Friendship`.`userTwo` ="+myself[0].id+";");
-
 					})
 					.then(function(response){	
 						if(response.length > 0) {
@@ -450,6 +426,7 @@ var Mutation = new GraphQLObjectType({
 					profilePic: {type: GraphQLString},
 				},
 				resolve (root, args) {
+					var responseObj = {};
 					return Db.User.findAll({where: {username: args.username}})
 					.then(function (user) {
 						if (user.length > 0) {
@@ -469,6 +446,16 @@ var Mutation = new GraphQLObjectType({
 									coin: 500,
 									online: true
 								});
+							})
+							.then(function (user) {
+								responseObj = user;
+								return Db.emoji_user.create({
+									UserId: user.id,
+									EmojiId: 1
+								})
+							})
+							.then(function (emoji_user) {
+								return responseObj;
 							})
 						}
 					})
@@ -554,7 +541,6 @@ var Mutation = new GraphQLObjectType({
 						if (friendship.length === 0) {
 							return;
 						}
-
 						if (args.item === 1) {
 							updatedArgs['videoChatCount'] = friendship[0].videoChatCount + 1;
 						} else if (args.item === 2) {
@@ -562,43 +548,37 @@ var Mutation = new GraphQLObjectType({
 						} else {
 							return;
 						}
-						
 						return Db.Friendship.update(updatedArgs,{
 								where: {$and: [{userOne: friendship[0].userOne}, {userTwo: friendship[0].userTwo}]}
 							});
-
 					})
 					.catch(function(err){
 						console.log('There is an error: ', err);
 					});
 				}
 			},
-			addChat: {
-				type: Chat,
-				args: {
-					room: {type: new GraphQLNonNull(GraphQLString)},
-					text: {type: new GraphQLNonNull(GraphQLString)}
-				},
-				resolve(root, args) {
-					var time = new Date();
-					Db.Chat.findOrCreate({where: {room: args.room}})
-					.then(function(chat, created) {
-						if (chat[0].text) {
-							var text = chat[0].text + archiveCode + args.text;
-						} else {
-							var text = args.text;
-						}
-						Db.Chat.update({text: text, time: time}, {where: {room: args.room}})
-					})
-					// Db.Chat.create({
-					// 	room: args.room,
-					// 	text: args.text,
-					// 	time: time
-					.catch(function(err) {
-						console.log('Error when adding chat: ', err);
-					});
-				} 
-			},
+			// addChat: {
+			// 	type: Chat,
+			// 	args: {
+			// 		room: {type: new GraphQLNonNull(GraphQLString)},
+			// 		text: {type: new GraphQLNonNull(GraphQLString)}
+			// 	},
+			// 	resolve(root, args) {
+			// 		var time = new Date();
+			// 		Db.Chat.findOrCreate({where: {room: args.room}})
+			// 		.then(function(chat, created) {
+			// 			if (chat[0].text) {
+			// 				var text = chat[0].text + Redis.archiveCode + args.text;
+			// 			} else {
+			// 				var text = args.text;
+			// 			}
+			// 			Db.Chat.update({text: text, time: time}, {where: {room: args.room}})
+			// 		})
+			// 		.catch(function(err) {
+			// 			console.log('Error when adding chat: ', err);
+			// 		});
+			// 	} 
+			// },
 			addChatRedis: {
 				type: Chat,
 				args: {
@@ -606,22 +586,22 @@ var Mutation = new GraphQLObjectType({
 					text: {type: new GraphQLNonNull(GraphQLString)}
 				},
 				resolve(root, args) {
-					client.rpush(args.room, args.text, function(err, response){
+					Redis.client.rpush(args.room, args.text, function(err, response){
 						if (err) {
 							console.log('Error when adding chat: ', err);
 						} else {
-							if (response > redisLimit) {
-								client.lrange(args.room, 0, redisArchive, function(err, response) {
+							if (response > Redis.redisLimit) {
+								Redis.client.lrange(args.room, 0, Redis.redisArchive, function(err, response) {
 									if (err) {
 										console.log('Error when querying chat: ', err);
 									} else {
-										client.ltrim(args.room, redisArchive - redisLimit, -1);
-										var joinedResponse = response.join(archiveCode);
+										Redis.client.ltrim(args.room, Redis.redisArchive - Redis.redisLimit, -1);
+										var joinedResponse = response.join(Redis.archiveCode);
 										var time = new Date();
 										Db.Chat.findOrCreate({where: {room: args.room}})
 										.then(function(chat, created) {
 											if (chat[0].text) {
-												var text = chat[0].text + archiveCode + joinedResponse;
+												var text = chat[0].text + Redis.archiveCode + joinedResponse;
 											} else {
 												var text = joinedResponse;
 											}
@@ -643,23 +623,6 @@ var Mutation = new GraphQLObjectType({
 					room: {type: new GraphQLNonNull(GraphQLString)},
 				},
 				resolve(root, args) {
-					// Db.Chat.findAll({
-					// 	where: {
-					// 		$or: [{$and: [{sender: args.sender}, {receiver: args.receiver}]}, {$and: [{sender: args.receiver}, {receiver: args.sender}]}
-					// 		]
-					// 	}
-					// }).then(function(chats) {
-					// 	var time = new Date();
-					// 	var deleteThreshold = 10;
-					// 	if (chats.length > deleteThreshold) {
-					// 		var chatsLeft = chats.length;
-					// 		chats.forEach(function(chat, idx) {
-					// 			if (chatsLeft - idx > deleteThreshold) {
-					// 				chat.destroy();
-					// 			}
-					// 		});
-					// 	}
-					// 	return;
 					return Db.Chat.destroy({where: args})
 					.then(function(chat) {
 						return chat;

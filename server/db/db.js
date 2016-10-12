@@ -16,24 +16,20 @@ var User = sequelize.define('User', {
 	profilePic: Sequelize.STRING,
 	coin: Sequelize.INTEGER,
 	online: Sequelize.BOOLEAN
-
 });
-
 // chat model stores all chat histories
 var Chat = sequelize.define('Chat', {
 	room: Sequelize.STRING,
 	text: Sequelize.TEXT('long'),
 	time: Sequelize.DATE
 });
-
-// placeholder for emoji table...
+// emoji table...
 var Emoji = sequelize.define('Emoji', {
 	emoji: Sequelize.STRING,
 	price: Sequelize.INTEGER
 });
 
 var emoji_user = sequelize.define('emoji_user', {
-
 });
 
 Emoji.belongsToMany(User, {through: 'emoji_user'});
@@ -63,5 +59,3 @@ module.exports.Friendship = Friendship;
 module.exports.Chat = Chat;
 module.exports.emoji_user = emoji_user;
 module.exports.Emoji = Emoji;
-
-

@@ -3,10 +3,10 @@ var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
 var Friendship = require('./db/db').Friendship;
+var Schema = require('./db/schema');
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
-var Schema = require('./db/Schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
@@ -41,16 +41,10 @@ app.use(cors());
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
 
-// app.get('*', function (request, response){
-//   response.sendFile(__dirname + '/../client/index.html');
-// });
-
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
 
 app.get('/auth', function(req, res) {
-  console.log('req.cookies @ auth: ', req.cookies);
-  console.log('req.session @ auth: ', req.session);
   var authUser = true;
   if (req.session.passport === undefined) {
     res.send(!authUser);
@@ -94,7 +88,7 @@ io.sockets.on('connection', function(socket) {
     socket.name = user;
     console.log('ROOM NAME IS', user)
     socket.join(user);
-  })
+  });
 
   socket.on('textmessagemount', function() {
     console.log('i hit the textmessagemount.');
@@ -108,23 +102,15 @@ io.sockets.on('connection', function(socket) {
 
   socket.on('joinRoom', function(room, oldRoom, username, friend) {
     console.log('joinRoom on server side --->', room);
-
     // socket.broadcast('textmessagereceived', message);
     if (oldRoom !== username) {
       socket.leave(oldRoom);
       console.log('leaving room', oldRoom);
     }
-
     socket.join(room);
     console.log('joinRoom on server side now --->', room);
-
-
     io.sockets.in(room).emit('joinRoomSuccess', room, friend);
   });
-
-
-  console.log('Socket Connected =-------==============')
-
 
   socket.on('leavetextchatview', function(room, username) {
     console.log('hit leavetextchatview');
@@ -132,18 +118,13 @@ io.sockets.on('connection', function(socket) {
       socket.leave(room);
       console.log('view dismounted. leaving room -->', room);
     }
-
   });
-
-
 
   socket.on('calling', function(info) {
       var id = sockets[info.user];
       console.log('person calling', info);
       io.sockets.connected[id].emit('invite',info)    
   })
-
-
   // convenience function to log server messages on the client
   function log() {
     var array = ['Message from server:'];
@@ -175,12 +156,10 @@ io.sockets.on('connection', function(socket) {
       socket.join(room);
       io.sockets.in(room).emit('join', room);
       io.sockets.in(room).emit('ready');
-
     } else { // max two clients
       socket.emit('full', room);
     }
   });
-
 
   socket.on('ipaddr', function() {
     var ifaces = os.networkInterfaces();
@@ -195,7 +174,6 @@ io.sockets.on('connection', function(socket) {
 
   //Socket for updating profile with online/offline and new friends
   socket.on('updateFriends', function(friends) {
-    console.log('updating from server--------------------------------------------------------------')
     friends.forEach(function(friend) {
       var id = sockets[friend.username]
       if(sockets[friend.username]) {
@@ -220,8 +198,7 @@ io.sockets.on('connection', function(socket) {
       .then((response) => {
         if(response.length > 0) {
           response[0].forEach(function(friend){
-            friends.push(friend);
-            
+            friends.push(friend); 
           });
         }
       })
@@ -244,11 +221,9 @@ io.sockets.on('connection', function(socket) {
         })
       })
   }) 
-
   socket.on('bye', function(){
     console.log('received bye');
   });
-
 
 });
 
@@ -263,7 +238,6 @@ app.get('*', function(req, res) {
 
 http.listen(port, function(data) {
   console.log('listening on ' + port);
-
 });
 
 
