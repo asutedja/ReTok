@@ -113,27 +113,21 @@ class LoggedInNavContainer extends React.Component {
       body: `
         {
 
-          users(firstName: \"${query}\")
+          search(name: \"${query}\")
               {
                id
                username
-               password
                firstName
                lastName
                email   
                profilePic
               }
         }`
-
-
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        //console.log('THIS DATA GETS SLICED', data)
-        var searchresult = data.data.users.slice();
-        //console.log('what is my data from my search bar', searchresult);
+        var searchresult = data.data.search.slice();
         this.props.dispatch(userActions.updateSearch(searchresult));
-        //console.log('checking router', this.context.router);
         this.context.router.push('/search')
         })
     })
