@@ -3,7 +3,6 @@
 var Sequelize = require('sequelize');
 var userinfo = require('../../settings.js');
 var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password, {define: {charset: 'utf8mb4', collate: 'utf8mb4_unicode_ci'}});
-
 //define user model
 var User = sequelize.define('User', {
 	username: Sequelize.STRING,
