@@ -48,6 +48,11 @@
 =======
     "redux-localstorage": "^0.4.1",
     "redux-persist": "^4.0.0-alpha6",
+<<<<<<< d7ebd7406ca6f53f71395629b2e9c3fc656b839f
+>>>>>>> rebase
+=======
+    "redux-storage": "^4.1.1",
+    "redux-storage-engine-localstorage": "^1.1.2",
 >>>>>>> rebase
     "rtcmulticonnection-v3": "^3.3.8",
     "sass-loader": "^4.0.2",

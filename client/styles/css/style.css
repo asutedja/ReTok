@@ -429,7 +429,13 @@ video {
   width: 80%;
   height: 30px; }
 
-#oneChatMessage {
+.oneChatMessage {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 1%;
+  background-color: #4d94ff;
+  color: white;
   text-decoration: none;
   list-style-type: none; }
 
