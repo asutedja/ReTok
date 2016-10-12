@@ -27,7 +27,10 @@ class LoginContainer extends React.Component {
 		    }
 		  })
 
+<<<<<<< 1d3561be50cd4c1bd83ad5a0716a997f3cbd6ed9
 
+=======
+>>>>>>> Persists state of refresh
 	}
 
 	signUp(user, password, firstName, lastName, email) {
