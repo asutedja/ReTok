@@ -5,7 +5,6 @@ var session = require('express-session');
 var bcrypt = require('bcrypt');
 var Promise = require('bluebird');
 
-
 passport.use(new LocalStrategy(
 	function(username, password, done) {
 		console.log('what is username and password??', username, password);
