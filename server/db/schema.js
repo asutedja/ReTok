@@ -277,6 +277,15 @@ var Query = new GraphQLObjectType({
 					return Db.User.findAll({where: args, attributes: ['id', 'username', 'firstName', 'lastName', 'email', 'dob', 'gender', 'profilePic', 'coin','online']});
 				}
 			},
+			search: {
+				type: new GraphQLList(User),
+				args: {
+					name: {type: new GraphQLNonNull(GraphQLString)}
+				},
+				resolve (root, args) {
+					return Db.User.findAll({where: {$or: [{firstName: args.name}, {lastName: args.name}, {username: args.name}]}})
+				}
+			},
 			friendships: {
 				type: new GraphQLList(Friendship),
 				args: {
