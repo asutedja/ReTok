@@ -333,25 +333,49 @@ video {
   display: flex;
   position: fixed;
   flex-flow: column;
+  align-items: center;
   height: 500px;
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
   width: 250px; }
 
-.chatFriendListEntry {
-  margin-left: 2%;
-  padding-top: 2%;
-  padding-bottom: 2%;
-  background-color: #404040;
-  border-radius: 10px; }
+.chatFriendsHeader {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  padding-top: 5px;
+  padding-botton: 5px; }
+
+.chatFriendsListEntry {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  padding-top: 5px;
+  padding-botton: 5px; }
 
 .chatFriendsListEntry:hover {
-  background-color: #595959; }
+  background-color: #595959;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px; }
 
 .chatFriendListSelected {
-  background-color: #595959; }
+  background-color: #a6a6a6 !important;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px; }
+
+.oneFriendChatImage {
+  display: block;
+  border-radius: 3px;
+  border: 1px solid white;
+  width: 10%;
+  margin: 1.655%;
+  margin-right: 5%; }
+
+.oneFriendChatImageWrapper {
+  width: 0;
+  padding-bottom: 100%;
+  overflow: hidden; }
 
 .chatWindow {
   border: 1px solid white;
@@ -429,7 +453,13 @@ video {
   width: 80%;
   height: 30px; }
 
-#oneChatMessage {
+.oneChatMessage {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 1%;
+  background-color: #4d94ff;
+  color: white;
   text-decoration: none;
   list-style-type: none; }
 

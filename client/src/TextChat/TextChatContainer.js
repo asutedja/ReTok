@@ -8,6 +8,7 @@ import FriendsListContainer from './FriendsList/FriendsListContainer.js'
 import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
 import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
+import axios from 'axios'
 
 import * as userActions from '../Redux/userReducer'
 
@@ -24,6 +25,19 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    var context = this;
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      })
+
+    
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
     var context = this;
 
@@ -168,36 +182,6 @@ class TextChatContainer extends React.Component {
 
         console.log('unmounting');
 
-        // var chatLog = this.state.newChatHistoryLog;
-        // // var chatLog = this.props.chatLog;
-
-        // for (var room in chatLog) {
-        //   console.log('checking typeOf chatlogRoom -->', chatLog[room], typeof chatLog[room]);
-        //   var chatMessagesStringified = chatLog[room].join('');
-        //   var emojiEscapedString = unicodeToShort(chatMessagesStringified);
-
-        //   console.log('checking room  in loop -->', room);
-        //   console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified);
-        //   console.log('emoji escape', emojiEscapedString);
-        //   let chatOptions = {
-        //     method: 'POST',
-        //     headers: myHeaders,
-        //     body: `
-        //         mutation {
-        //         addChat(room: \"${room}\" text: \"${emojiEscapedString}\")  {
-        //           id
-        //         }
-        //         }
-        //         `
-        //   };
-        //   fetch('/graphql', chatOptions).then((res) =>{
-        //     return res.json().then((data) => {
-        //       console.log('sending chat to server', data);
-        //     })
-        //   })
-
-        // }
-
 
 
       })
@@ -269,7 +253,7 @@ class TextChatContainer extends React.Component {
 
 
     var context = this;
-    var chat = context.props.currentChat.map((message) => <div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div>);
+    var chat = context.props.currentChat.map((message) => <div><div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div></div>);
 
 
     var chatInputWindow;

@@ -41,6 +41,10 @@ app.use(cors());
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
 
+// app.get('*', function (request, response){
+//   response.sendFile(__dirname + '/../client/index.html');
+// });
+
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
 

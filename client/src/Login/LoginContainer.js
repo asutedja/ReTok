@@ -15,6 +15,20 @@ class LoginContainer extends React.Component {
 		}
 	}
 
+	componentWillMount() {
+		var context = this;
+		axios.get('/auth')
+		  .then(function(res) {
+		    console.log('checking auth res data',res.data);
+
+		    if(res.data) {
+		    	console.log('go through to auth')
+		      context.context.router.push('/profile');
+		    }
+		  })
+
+	}
+
 	signUp(user, password, firstName, lastName, email) {
 		this.setState({
 			exist: false,

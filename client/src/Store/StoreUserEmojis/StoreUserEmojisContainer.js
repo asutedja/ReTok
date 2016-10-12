@@ -4,6 +4,8 @@ import { connect } from 'react-redux'
 import * as userActions from '../../Redux/userReducer'
 import {emojify} from 'react-emojione';
 import StoreUserEmoji from './StoreUserEmoji.js'
+import axios from 'axios'
+
 
 class StoreUserEmojisContainer extends React.Component {
   constructor(props) {
@@ -11,6 +13,16 @@ class StoreUserEmojisContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          this.context.router.push('/');
+        }
+      })
+    
     console.log('hit the store user emoji container');
   }
 
