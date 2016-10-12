@@ -5,6 +5,7 @@ import { Router, Route, IndexRoute, Link } from 'react-router'
 import { connect } from 'react-redux'
 import Profile from './Profile.js'
 import * as userActions from '../Redux/userReducer'
+import axios from 'axios';
 import updateHelper from '../updateHelper.js'
 
 
@@ -14,6 +15,16 @@ class ProfileContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    axios.get('/auth')
+      .then(function(res) {
+        console.log(res.data);
+
+        if(!res.data) {
+          this.context.router.push('/');
+        }
+      })
+
     console.log('checking my props', this.props.user.username);
     var socket = this.props.socket
     socket.emit('login', this.props.user.username)

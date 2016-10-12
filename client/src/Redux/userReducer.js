@@ -120,6 +120,41 @@ export function sendSocket(socket) {
 }
 
 // ----- SET USER REDUCER INITIAL STATE ------ //
+
+
+// let persist = (key, value) => localStorage.setItem(key, value);
+
+// let restore = key => localStorage.getItem(key);
+
+// let restoreDefault = (key, def) => {
+//   let stored = restore(key);
+//   console.log('checking stored', stored);
+//   return stored != null
+//     ? JSON.parse(stored)
+//     :def
+// };
+
+// const userInitialState = restoreDefault('client', {
+//   userID: '',
+//   user: {username: '', password: '', firstName: '', lastName: '', email: '', dob: '', profilePic: '', coin: 0, emoji: ''},
+//   friends: [],
+//   onlineFriends: [],
+//   suggestedFriends: [],
+//   friendCount: 0,
+//   isLoggedIn: false,
+//   error: '',
+//   emojis: [],
+//   chatLog: {},
+//   currentChat: [],
+//   storeEmojis: [],
+//   userEmojis: [],
+//   search: [],
+//   room: '',
+//   socket: null,
+//   connection: null
+
+// });
+
 const userInitialState = {
   userID: '',
   user: {username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: ''},
@@ -141,7 +176,7 @@ const userInitialState = {
 
 }
 
-// ------------ USER REDUCER -----------------//
+// // ------------ USER REDUCER -----------------//
 export default function userReducer (state = userInitialState, action) {
   switch(action.type){
     case 'USER_AUTH' :  {
@@ -274,7 +309,93 @@ export default function userReducer (state = userInitialState, action) {
 
 
     default : 
+
       return state
 
     }
   }
+
+  
+
+
+// export default function userReducer (state = userInitialState, action) {
+//   switch(action.type) {
+//     case 'USER_AUTH' :
+//     state = {...state, isLoggedIn: true};
+//     break;
+
+//     case 'USER_UNAUTH' : 
+//     state = {...state, isLoggedIn: false, user: {}, userID: ''};
+//     break;
+
+//     case 'TOGGLE_LOGIN' : 
+//     state = {...state, isLoggedIn: action.isLoggedIn};
+//     break;
+
+//     case 'FETCHING_USER_INFO' :
+//     state = {...state, isFetching: true};
+//     break;
+
+//     case 'UPDATE_USER' :
+//     state = {...state, user: action.user};
+//     break;
+
+//     case 'UPDATE_FRIENDS' :
+//     state = {...state, friends: action.friends};
+//     break;
+
+//     case 'UPDATE_ONLINE_FRIENDS' : 
+//     state = {...state, onlineFriends: action.onlineFriends};
+//     break;
+
+//     case 'UPDATE_SUGGESTED_FRIENDS' : 
+//     state = {...state, suggestedFriends: action.suggestedFriends};
+//     break;
+
+//     case 'UPDATE_SEARCH' : 
+//     state = {...state, search: action.search};
+//     break;
+
+
+//     case 'UPDATE_EMOJIS' :
+//     state = {...state, emojis: action.emojis};
+//     break;
+
+//     case 'UPDATE_STORE_EMOJIS' :
+//     state = {...state, storeEmojis: action.storeEmojis};
+//     break;
+
+//     case 'UPDATE_USER_EMOJIS' :
+//     state = {...state, userEmojis: action.userEmojis};
+//     break;
+
+//     case 'UPDATE_FRIEND_COUNT' : 
+//     state = {...state, friendCount: action.count};
+//     break;
+
+//     case 'INCREASE_FRIEND_COUNT' : 
+//     state = {...state, friendCount: state.friendCount++};
+//     break;
+
+//     case 'UPDATE_CHAT_LOG' : 
+//     state = {...state, chatLog: action.chatLog};
+//     break;
+
+//     case 'UPDATE_CURRENT_CHAT' : 
+//     state = {...state, currentChat: action.currentChat};
+//     break;
+
+//     case 'CREATE_ROOM' : 
+//     state = {...state, room: action.room};
+//     break;
+
+
+//     case 'SEND_SOCKET' : 
+//     state = {...state, socket: action.socket};
+//     break;
+//   }
+//   console.log('checking state in reducer', state);
+//   persist('client', JSON.stringify(state));
+//   return state;
+// };
+

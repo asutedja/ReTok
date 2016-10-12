@@ -1589,6 +1589,41 @@ function sendSocket(socket) {
 }
 
 // ----- SET USER REDUCER INITIAL STATE ------ //
+
+
+// let persist = (key, value) => localStorage.setItem(key, value);
+
+// let restore = key => localStorage.getItem(key);
+
+// let restoreDefault = (key, def) => {
+//   let stored = restore(key);
+//   console.log('checking stored', stored);
+//   return stored != null
+//     ? JSON.parse(stored)
+//     :def
+// };
+
+// const userInitialState = restoreDefault('client', {
+//   userID: '',
+//   user: {username: '', password: '', firstName: '', lastName: '', email: '', dob: '', profilePic: '', coin: 0, emoji: ''},
+//   friends: [],
+//   onlineFriends: [],
+//   suggestedFriends: [],
+//   friendCount: 0,
+//   isLoggedIn: false,
+//   error: '',
+//   emojis: [],
+//   chatLog: {},
+//   currentChat: [],
+//   storeEmojis: [],
+//   userEmojis: [],
+//   search: [],
+//   room: '',
+//   socket: null,
+//   connection: null
+
+// });
+
 var userInitialState = {
   userID: '',
   user: { username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: '' },
@@ -1610,7 +1645,7 @@ var userInitialState = {
 
 };
 
-// ------------ USER REDUCER -----------------//
+// // ------------ USER REDUCER -----------------//
 function userReducer() {
   var state = arguments.length <= 0 || arguments[0] === undefined ? userInitialState : arguments[0];
   var action = arguments[1];
@@ -1744,10 +1779,93 @@ function userReducer() {
       }
 
     default:
+
       return state;
 
   }
 }
+
+// export default function userReducer (state = userInitialState, action) {
+//   switch(action.type) {
+//     case 'USER_AUTH' :
+//     state = {...state, isLoggedIn: true};
+//     break;
+
+//     case 'USER_UNAUTH' : 
+//     state = {...state, isLoggedIn: false, user: {}, userID: ''};
+//     break;
+
+//     case 'TOGGLE_LOGIN' : 
+//     state = {...state, isLoggedIn: action.isLoggedIn};
+//     break;
+
+//     case 'FETCHING_USER_INFO' :
+//     state = {...state, isFetching: true};
+//     break;
+
+//     case 'UPDATE_USER' :
+//     state = {...state, user: action.user};
+//     break;
+
+//     case 'UPDATE_FRIENDS' :
+//     state = {...state, friends: action.friends};
+//     break;
+
+//     case 'UPDATE_ONLINE_FRIENDS' : 
+//     state = {...state, onlineFriends: action.onlineFriends};
+//     break;
+
+//     case 'UPDATE_SUGGESTED_FRIENDS' : 
+//     state = {...state, suggestedFriends: action.suggestedFriends};
+//     break;
+
+//     case 'UPDATE_SEARCH' : 
+//     state = {...state, search: action.search};
+//     break;
+
+
+//     case 'UPDATE_EMOJIS' :
+//     state = {...state, emojis: action.emojis};
+//     break;
+
+//     case 'UPDATE_STORE_EMOJIS' :
+//     state = {...state, storeEmojis: action.storeEmojis};
+//     break;
+
+//     case 'UPDATE_USER_EMOJIS' :
+//     state = {...state, userEmojis: action.userEmojis};
+//     break;
+
+//     case 'UPDATE_FRIEND_COUNT' : 
+//     state = {...state, friendCount: action.count};
+//     break;
+
+//     case 'INCREASE_FRIEND_COUNT' : 
+//     state = {...state, friendCount: state.friendCount++};
+//     break;
+
+//     case 'UPDATE_CHAT_LOG' : 
+//     state = {...state, chatLog: action.chatLog};
+//     break;
+
+//     case 'UPDATE_CURRENT_CHAT' : 
+//     state = {...state, currentChat: action.currentChat};
+//     break;
+
+//     case 'CREATE_ROOM' : 
+//     state = {...state, room: action.room};
+//     break;
+
+
+//     case 'SEND_SOCKET' : 
+//     state = {...state, socket: action.socket};
+//     break;
+//   }
+//   console.log('checking state in reducer', state);
+//   persist('client', JSON.stringify(state));
+//   return state;
+// };
+
 ;
 
 var _temp = function () {
@@ -32283,14 +32401,40 @@ var _uploadReducer = __webpack_require__(171);
 
 var _uploadReducer2 = _interopRequireDefault(_uploadReducer);
 
+var _reduxStorage = __webpack_require__(820);
+
+var storage = _interopRequireWildcard(_reduxStorage);
+
+var _reduxStorageEngineLocalstorage = __webpack_require__(822);
+
+var _reduxStorageEngineLocalstorage2 = _interopRequireDefault(_reduxStorageEngineLocalstorage);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var reducers = (0, _redux.combineReducers)({
+var reducers = storage.reducer((0, _redux.combineReducers)({
   userReducer: _userReducer2.default,
   uploadReducer: _uploadReducer2.default
-});
+}));
 
-var store = (0, _redux.createStore)(reducers);
+var engine = (0, _reduxStorageEngineLocalstorage2.default)('my-save-key');
+var middleware = storage.createMiddleware(engine);
+
+var createStoreWithMiddleware = (0, _redux.applyMiddleware)(middleware)(_redux.createStore);
+
+var store = createStoreWithMiddleware(reducers);
+
+var load = storage.createLoader(engine);
+load(store);
+
+// Notice that our load function will return a promise that can also be used 
+// to respond to the restore event. 
+load(store).then(function (newState) {
+  return console.log('Loaded state:', newState);
+}).catch(function () {
+  return console.log('Failed to load previous state');
+});
 
 (0, _reactDom.render)(_react2.default.createElement(
   _reactRedux.Provider,
@@ -32306,7 +32450,15 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(reducers, 'reducers', '/Users/Rob/Desktop/ReTok/client/src/App.js');
 
+  __REACT_HOT_LOADER__.register(engine, 'engine', '/Users/Rob/Desktop/ReTok/client/src/App.js');
+
+  __REACT_HOT_LOADER__.register(middleware, 'middleware', '/Users/Rob/Desktop/ReTok/client/src/App.js');
+
+  __REACT_HOT_LOADER__.register(createStoreWithMiddleware, 'createStoreWithMiddleware', '/Users/Rob/Desktop/ReTok/client/src/App.js');
+
   __REACT_HOT_LOADER__.register(store, 'store', '/Users/Rob/Desktop/ReTok/client/src/App.js');
+
+  __REACT_HOT_LOADER__.register(load, 'load', '/Users/Rob/Desktop/ReTok/client/src/App.js');
 }();
 
 ;
@@ -34988,6 +35140,10 @@ var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
+var _axios = __webpack_require__(81);
+
+var _axios2 = _interopRequireDefault(_axios);
+
 var _updateHelper = __webpack_require__(53);
 
 var _updateHelper2 = _interopRequireDefault(_updateHelper);
@@ -35014,6 +35170,15 @@ var ProfileContainer = function (_React$Component) {
   _createClass(ProfileContainer, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
+
+      _axios2.default.get('/auth').then(function (res) {
+        console.log(res.data);
+
+        if (!res.data) {
+          this.context.router.push('/');
+        }
+      });
+
       console.log('checking my props', this.props.user.username);
       var socket = this.props.socket;
       socket.emit('login', this.props.user.username);
@@ -36620,37 +36785,6 @@ var TextChatContainer = function (_React$Component) {
         return res.json().then(function (data) {
 
           console.log('unmounting');
-
-          // var chatLog = this.state.newChatHistoryLog;
-          // // var chatLog = this.props.chatLog;
-
-          // for (var room in chatLog) {
-          //   console.log('checking typeOf chatlogRoom -->', chatLog[room], typeof chatLog[room]);
-          //   var chatMessagesStringified = chatLog[room].join('');
-          //   var emojiEscapedString = unicodeToShort(chatMessagesStringified);
-
-          //   console.log('checking room  in loop -->', room);
-          //   console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified);
-          //   console.log('emoji escape', emojiEscapedString);
-          //   let chatOptions = {
-          //     method: 'POST',
-          //     headers: myHeaders,
-          //     body: `
-          //         mutation {
-          //         addChat(room: \"${room}\" text: \"${emojiEscapedString}\")  {
-          //           id
-          //         }
-          //         }
-          //         `
-          //   };
-          //   fetch('/graphql', chatOptions).then((res) =>{
-          //     return res.json().then((data) => {
-          //       console.log('sending chat to server', data);
-          //     })
-          //   })
-
-          // }
-
         });
       });
 
@@ -36720,8 +36854,12 @@ var TextChatContainer = function (_React$Component) {
       var chat = context.props.currentChat.map(function (message) {
         return _react2.default.createElement(
           'div',
-          { className: 'oneChatMessage' },
-          (0, _shortToUnicode2.default)(message, context.props.userEmojis, context.props.user.username)
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'oneChatMessage' },
+            (0, _shortToUnicode2.default)(message, context.props.userEmojis, context.props.user.username)
+          )
         );
       });
 
@@ -76137,6 +76275,3582 @@ var _temp = function () {
 	__REACT_HOT_LOADER__.register(unicodeToShort, 'unicodeToShort', '/Users/Rob/Desktop/ReTok/client/unicodeToShort.js');
 
 	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/unicodeToShort.js');
+}();
+
+;
+
+/***/ },
+/* 804 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var LOAD = exports.LOAD = 'REDUX_STORAGE_LOAD';
+var SAVE = exports.SAVE = 'REDUX_STORAGE_SAVE';
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(LOAD, 'LOAD', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/constants.js');
+
+  __REACT_HOT_LOADER__.register(SAVE, 'SAVE', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/constants.js');
+}();
+
+;
+
+/***/ },
+/* 805 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+/**
+ * lodash 3.0.2 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modern modularize exports="npm" -o ./`
+ * Copyright 2012-2015 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2015 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+/**
+ * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+ * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(1);
+ * // => false
+ */
+function isObject(value) {
+  // Avoid a V8 JIT bug in Chrome 19-20.
+  // See https://code.google.com/p/v8/issues/detail?id=2291 for more details.
+  var type = typeof value === 'undefined' ? 'undefined' : _typeof(value);
+  return !!value && (type == 'object' || type == 'function');
+}
+
+module.exports = isObject;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(isObject, 'isObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isobject/index.js');
+}();
+
+;
+
+/***/ },
+/* 806 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = handleAction;
+function isFunction(val) {
+  return typeof val === 'function';
+}
+
+function handleAction(type, reducers, defaultState) {
+  var typeValue = isFunction(type) ? type.toString() : type;
+
+  return function () {
+    var state = arguments.length <= 0 || arguments[0] === undefined ? defaultState : arguments[0];
+    var action = arguments[1];
+
+    // If action type does not match, return previous state
+    if (action.type !== typeValue) return state;
+
+    var handlerKey = action.error === true ? 'throw' : 'next';
+
+    // If function is passed instead of map, use as reducer
+    if (isFunction(reducers)) {
+      reducers.next = reducers.throw = reducers;
+    }
+
+    // Otherwise, assume an action map was passed
+    var reducer = reducers[handlerKey];
+
+    return isFunction(reducer) ? reducer(state, action) : state;
+  };
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(isFunction, 'isFunction', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleAction.js');
+
+  __REACT_HOT_LOADER__.register(handleAction, 'handleAction', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleAction.js');
+}();
+
+;
+
+/***/ },
+/* 807 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.save = exports.load = undefined;
+
+var _reduxActions = __webpack_require__(816);
+
+var _constants = __webpack_require__(804);
+
+var constants = _interopRequireWildcard(_constants);
+
+function _interopRequireWildcard(obj) {
+  if (obj && obj.__esModule) {
+    return obj;
+  } else {
+    var newObj = {};if (obj != null) {
+      for (var key in obj) {
+        if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key];
+      }
+    }newObj['default'] = obj;return newObj;
+  }
+}
+
+var load = exports.load = (0, _reduxActions.createAction)(constants.LOAD);
+var save = exports.save = (0, _reduxActions.createAction)(constants.SAVE);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(constants, 'constants', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/actions.js');
+
+  __REACT_HOT_LOADER__.register(_interopRequireWildcard, '_interopRequireWildcard', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/actions.js');
+
+  __REACT_HOT_LOADER__.register(load, 'load', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/actions.js');
+
+  __REACT_HOT_LOADER__.register(save, 'save', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/actions.js');
+}();
+
+;
+
+/***/ },
+/* 808 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _actions = __webpack_require__(807);
+
+exports['default'] = function (engine) {
+    return function (store) {
+        var dispatchLoad = function dispatchLoad(state) {
+            return store.dispatch((0, _actions.load)(state));
+        };
+        return engine.load().then(function (newState) {
+            dispatchLoad(newState);
+            return newState;
+        });
+    };
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+}();
+
+;
+
+/***/ },
+/* 809 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _lodash = __webpack_require__(811);
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+var _lodash3 = __webpack_require__(805);
+
+var _lodash4 = _interopRequireDefault(_lodash3);
+
+var _actions = __webpack_require__(807);
+
+var _constants = __webpack_require__(804);
+
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : { 'default': obj };
+}
+
+function _toConsumableArray(arr) {
+    if (Array.isArray(arr)) {
+        for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
+            arr2[i] = arr[i];
+        }return arr2;
+    } else {
+        return Array.from(arr);
+    }
+}
+
+function swallow() {}
+
+function warnAboutConfusingFiltering(blacklist, whitelist) {
+    blacklist.filter(function (item) {
+        return whitelist.indexOf(item) !== -1;
+    }).forEach(function (item) {
+        console.warn( // eslint-disable-line no-console
+        '[redux-storage] Action ' + item + ' is on BOTH black- and whitelist.' + ' This is most likely a mistake!');
+    });
+}
+
+function isValidAction(action) {
+    var isFunc = (0, _lodash2['default'])(action);
+    var isObj = (0, _lodash4['default'])(action);
+    var hasType = isObj && action.hasOwnProperty('type');
+
+    if (!isFunc && isObj && hasType) {
+        return true;
+    }
+
+    if (process.env.NODE_ENV !== 'production') {
+        if (isFunc) {
+            console.warn( // eslint-disable-line no-console
+            '[redux-storage] ACTION IGNORED! Actions should be objects' + ' with a type property but received a function! Your' + ' function resolving middleware (e.g. redux-thunk) must be' + ' placed BEFORE redux-storage!');
+        } else if (!isObj) {
+            console.warn( // eslint-disable-line no-console
+            '[redux-storage] ACTION IGNORED! Actions should be objects' + (' with a type property but received: ' + action));
+        } else if (!hasType) {
+            console.warn( // eslint-disable-line no-console
+            '[redux-storage] ACTION IGNORED! Action objects should have' + ' a type property.');
+        }
+    }
+
+    return false;
+}
+
+function handleWhitelist(action, actionWhitelist) {
+    if (Array.isArray(actionWhitelist)) {
+        return actionWhitelist.length === 0 ? true // Don't filter if the whitelist is empty
+        : actionWhitelist.indexOf(action.type) !== -1;
+    }
+
+    // actionWhitelist is a function that returns true or false
+    return actionWhitelist(action);
+}
+
+exports['default'] = function (engine) {
+    var actionBlacklist = arguments.length <= 1 || arguments[1] === undefined ? [] : arguments[1];
+    var actionWhitelist = arguments.length <= 2 || arguments[2] === undefined ? [] : arguments[2];
+
+    // Also don't save if we process our own actions
+    var blacklistedActions = [].concat(_toConsumableArray(actionBlacklist), [_constants.LOAD, _constants.SAVE]);
+
+    if (process.env.NODE_ENV !== 'production' && Array.isArray(actionWhitelist)) {
+        warnAboutConfusingFiltering(actionBlacklist, actionWhitelist);
+    }
+
+    return function (_ref) {
+        var dispatch = _ref.dispatch;
+        var getState = _ref.getState;
+
+        return function (next) {
+            return function (action) {
+                var result = next(action);
+
+                if (!isValidAction(action)) {
+                    return result;
+                }
+
+                var isOnBlacklist = blacklistedActions.indexOf(action.type) !== -1;
+                var isOnWhitelist = handleWhitelist(action, actionWhitelist);
+
+                // Skip blacklisted actions
+                if (!isOnBlacklist && isOnWhitelist) {
+                    (function () {
+                        var saveState = getState();
+                        var saveAction = (0, _actions.save)(saveState);
+
+                        if (process.env.NODE_ENV !== 'production') {
+                            if (!saveAction.meta) {
+                                saveAction.meta = {};
+                            }
+                            saveAction.meta.origin = action;
+                        }
+
+                        var dispatchSave = function dispatchSave() {
+                            return dispatch(saveAction);
+                        };
+                        engine.save(saveState).then(dispatchSave)['catch'](swallow);
+                    })();
+                }
+
+                return result;
+            };
+        };
+    };
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(_lodash2, '_lodash2', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(_lodash4, '_lodash4', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(_toConsumableArray, '_toConsumableArray', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(swallow, 'swallow', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(warnAboutConfusingFiltering, 'warnAboutConfusingFiltering', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(isValidAction, 'isValidAction', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+
+    __REACT_HOT_LOADER__.register(handleWhitelist, 'handleWhitelist', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/createMiddleware.js');
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 810 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _reduxStorageMergerSimple = __webpack_require__(818);
+
+var _reduxStorageMergerSimple2 = _interopRequireDefault(_reduxStorageMergerSimple);
+
+var _constants = __webpack_require__(804);
+
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : { 'default': obj };
+}
+
+exports['default'] = function (reducer) {
+    var merger = arguments.length <= 1 || arguments[1] === undefined ? _reduxStorageMergerSimple2['default'] : arguments[1];
+
+    return function (state, action) {
+        return reducer(action.type === _constants.LOAD ? merger(state, action.payload) : state, action);
+    };
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(_reduxStorageMergerSimple2, '_reduxStorageMergerSimple2', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/reducer.js');
+
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/reducer.js');
+}();
+
+;
+
+/***/ },
+/* 811 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+/**
+ * lodash 3.0.8 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+/** `Object#toString` result references. */
+var funcTag = '[object Function]',
+    genTag = '[object GeneratorFunction]';
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the [`toStringTag`](http://ecma-international.org/ecma-262/6.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/**
+ * Checks if `value` is classified as a `Function` object.
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isFunction(_);
+ * // => true
+ *
+ * _.isFunction(/abc/);
+ * // => false
+ */
+function isFunction(value) {
+  // The use of `Object#toString` avoids issues with the `typeof` operator
+  // in Safari 8 which returns 'object' for typed array constructors, and
+  // PhantomJS 1.9 which returns 'function' for `NodeList` instances.
+  var tag = isObject(value) ? objectToString.call(value) : '';
+  return tag == funcTag || tag == genTag;
+}
+
+/**
+ * Checks if `value` is the [language type](https://es5.github.io/#x8) of `Object`.
+ * (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value === 'undefined' ? 'undefined' : _typeof(value);
+  return !!value && (type == 'object' || type == 'function');
+}
+
+module.exports = isFunction;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(funcTag, 'funcTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isfunction/index.js');
+
+  __REACT_HOT_LOADER__.register(genTag, 'genTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isfunction/index.js');
+
+  __REACT_HOT_LOADER__.register(objectProto, 'objectProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isfunction/index.js');
+
+  __REACT_HOT_LOADER__.register(objectToString, 'objectToString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isfunction/index.js');
+
+  __REACT_HOT_LOADER__.register(isFunction, 'isFunction', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isfunction/index.js');
+
+  __REACT_HOT_LOADER__.register(isObject, 'isObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.isfunction/index.js');
+}();
+
+;
+
+/***/ },
+/* 812 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(global, module) {'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the size to enable large array optimizations. */
+var LARGE_ARRAY_SIZE = 200;
+
+/** Used to stand-in for `undefined` hash values. */
+var HASH_UNDEFINED = '__lodash_hash_undefined__';
+
+/** Used as references for various `Number` constants. */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    boolTag = '[object Boolean]',
+    dateTag = '[object Date]',
+    errorTag = '[object Error]',
+    funcTag = '[object Function]',
+    genTag = '[object GeneratorFunction]',
+    mapTag = '[object Map]',
+    numberTag = '[object Number]',
+    objectTag = '[object Object]',
+    promiseTag = '[object Promise]',
+    regexpTag = '[object RegExp]',
+    setTag = '[object Set]',
+    stringTag = '[object String]',
+    symbolTag = '[object Symbol]',
+    weakMapTag = '[object WeakMap]';
+
+var arrayBufferTag = '[object ArrayBuffer]',
+    dataViewTag = '[object DataView]',
+    float32Tag = '[object Float32Array]',
+    float64Tag = '[object Float64Array]',
+    int8Tag = '[object Int8Array]',
+    int16Tag = '[object Int16Array]',
+    int32Tag = '[object Int32Array]',
+    uint8Tag = '[object Uint8Array]',
+    uint8ClampedTag = '[object Uint8ClampedArray]',
+    uint16Tag = '[object Uint16Array]',
+    uint32Tag = '[object Uint32Array]';
+
+/**
+ * Used to match `RegExp`
+ * [syntax characters](http://ecma-international.org/ecma-262/7.0/#sec-patterns).
+ */
+var reRegExpChar = /[\\^$.*+?()[\]{}|]/g;
+
+/** Used to match `RegExp` flags from their coerced string values. */
+var reFlags = /\w*$/;
+
+/** Used to detect host constructors (Safari). */
+var reIsHostCtor = /^\[object .+?Constructor\]$/;
+
+/** Used to detect unsigned integer values. */
+var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+/** Used to identify `toStringTag` values of typed arrays. */
+var typedArrayTags = {};
+typedArrayTags[float32Tag] = typedArrayTags[float64Tag] = typedArrayTags[int8Tag] = typedArrayTags[int16Tag] = typedArrayTags[int32Tag] = typedArrayTags[uint8Tag] = typedArrayTags[uint8ClampedTag] = typedArrayTags[uint16Tag] = typedArrayTags[uint32Tag] = true;
+typedArrayTags[argsTag] = typedArrayTags[arrayTag] = typedArrayTags[arrayBufferTag] = typedArrayTags[boolTag] = typedArrayTags[dataViewTag] = typedArrayTags[dateTag] = typedArrayTags[errorTag] = typedArrayTags[funcTag] = typedArrayTags[mapTag] = typedArrayTags[numberTag] = typedArrayTags[objectTag] = typedArrayTags[regexpTag] = typedArrayTags[setTag] = typedArrayTags[stringTag] = typedArrayTags[weakMapTag] = false;
+
+/** Used to identify `toStringTag` values supported by `_.clone`. */
+var cloneableTags = {};
+cloneableTags[argsTag] = cloneableTags[arrayTag] = cloneableTags[arrayBufferTag] = cloneableTags[dataViewTag] = cloneableTags[boolTag] = cloneableTags[dateTag] = cloneableTags[float32Tag] = cloneableTags[float64Tag] = cloneableTags[int8Tag] = cloneableTags[int16Tag] = cloneableTags[int32Tag] = cloneableTags[mapTag] = cloneableTags[numberTag] = cloneableTags[objectTag] = cloneableTags[regexpTag] = cloneableTags[setTag] = cloneableTags[stringTag] = cloneableTags[symbolTag] = cloneableTags[uint8Tag] = cloneableTags[uint8ClampedTag] = cloneableTags[uint16Tag] = cloneableTags[uint32Tag] = true;
+cloneableTags[errorTag] = cloneableTags[funcTag] = cloneableTags[weakMapTag] = false;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = (typeof global === 'undefined' ? 'undefined' : _typeof(global)) == 'object' && global && global.Object === Object && global;
+
+/** Detect free variable `self`. */
+var freeSelf = (typeof self === 'undefined' ? 'undefined' : _typeof(self)) == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Detect free variable `exports`. */
+var freeExports = ( false ? 'undefined' : _typeof(exports)) == 'object' && exports && !exports.nodeType && exports;
+
+/** Detect free variable `module`. */
+var freeModule = freeExports && ( false ? 'undefined' : _typeof(module)) == 'object' && module && !module.nodeType && module;
+
+/** Detect the popular CommonJS extension `module.exports`. */
+var moduleExports = freeModule && freeModule.exports === freeExports;
+
+/** Detect free variable `process` from Node.js. */
+var freeProcess = moduleExports && freeGlobal.process;
+
+/** Used to access faster Node.js helpers. */
+var nodeUtil = function () {
+  try {
+    return freeProcess && freeProcess.binding('util');
+  } catch (e) {}
+}();
+
+/* Node.js helper references. */
+var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
+
+/**
+ * Adds the key-value `pair` to `map`.
+ *
+ * @private
+ * @param {Object} map The map to modify.
+ * @param {Array} pair The key-value pair to add.
+ * @returns {Object} Returns `map`.
+ */
+function addMapEntry(map, pair) {
+  // Don't return `map.set` because it's not chainable in IE 11.
+  map.set(pair[0], pair[1]);
+  return map;
+}
+
+/**
+ * Adds `value` to `set`.
+ *
+ * @private
+ * @param {Object} set The set to modify.
+ * @param {*} value The value to add.
+ * @returns {Object} Returns `set`.
+ */
+function addSetEntry(set, value) {
+  // Don't return `set.add` because it's not chainable in IE 11.
+  set.add(value);
+  return set;
+}
+
+/**
+ * A faster alternative to `Function#apply`, this function invokes `func`
+ * with the `this` binding of `thisArg` and the arguments of `args`.
+ *
+ * @private
+ * @param {Function} func The function to invoke.
+ * @param {*} thisArg The `this` binding of `func`.
+ * @param {Array} args The arguments to invoke `func` with.
+ * @returns {*} Returns the result of `func`.
+ */
+function apply(func, thisArg, args) {
+  switch (args.length) {
+    case 0:
+      return func.call(thisArg);
+    case 1:
+      return func.call(thisArg, args[0]);
+    case 2:
+      return func.call(thisArg, args[0], args[1]);
+    case 3:
+      return func.call(thisArg, args[0], args[1], args[2]);
+  }
+  return func.apply(thisArg, args);
+}
+
+/**
+ * A specialized version of `_.forEach` for arrays without support for
+ * iteratee shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns `array`.
+ */
+function arrayEach(array, iteratee) {
+  var index = -1,
+      length = array ? array.length : 0;
+
+  while (++index < length) {
+    if (iteratee(array[index], index, array) === false) {
+      break;
+    }
+  }
+  return array;
+}
+
+/**
+ * Appends the elements of `values` to `array`.
+ *
+ * @private
+ * @param {Array} array The array to modify.
+ * @param {Array} values The values to append.
+ * @returns {Array} Returns `array`.
+ */
+function arrayPush(array, values) {
+  var index = -1,
+      length = values.length,
+      offset = array.length;
+
+  while (++index < length) {
+    array[offset + index] = values[index];
+  }
+  return array;
+}
+
+/**
+ * A specialized version of `_.reduce` for arrays without support for
+ * iteratee shorthands.
+ *
+ * @private
+ * @param {Array} [array] The array to iterate over.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @param {*} [accumulator] The initial value.
+ * @param {boolean} [initAccum] Specify using the first element of `array` as
+ *  the initial value.
+ * @returns {*} Returns the accumulated value.
+ */
+function arrayReduce(array, iteratee, accumulator, initAccum) {
+  var index = -1,
+      length = array ? array.length : 0;
+
+  if (initAccum && length) {
+    accumulator = array[++index];
+  }
+  while (++index < length) {
+    accumulator = iteratee(accumulator, array[index], index, array);
+  }
+  return accumulator;
+}
+
+/**
+ * The base implementation of `_.times` without support for iteratee shorthands
+ * or max array length checks.
+ *
+ * @private
+ * @param {number} n The number of times to invoke `iteratee`.
+ * @param {Function} iteratee The function invoked per iteration.
+ * @returns {Array} Returns the array of results.
+ */
+function baseTimes(n, iteratee) {
+  var index = -1,
+      result = Array(n);
+
+  while (++index < n) {
+    result[index] = iteratee(index);
+  }
+  return result;
+}
+
+/**
+ * The base implementation of `_.unary` without support for storing metadata.
+ *
+ * @private
+ * @param {Function} func The function to cap arguments for.
+ * @returns {Function} Returns the new capped function.
+ */
+function baseUnary(func) {
+  return function (value) {
+    return func(value);
+  };
+}
+
+/**
+ * Gets the value at `key` of `object`.
+ *
+ * @private
+ * @param {Object} [object] The object to query.
+ * @param {string} key The key of the property to get.
+ * @returns {*} Returns the property value.
+ */
+function getValue(object, key) {
+  return object == null ? undefined : object[key];
+}
+
+/**
+ * Checks if `value` is a host object in IE < 9.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a host object, else `false`.
+ */
+function isHostObject(value) {
+  // Many host objects are `Object` objects that can coerce to strings
+  // despite having improperly defined `toString` methods.
+  var result = false;
+  if (value != null && typeof value.toString != 'function') {
+    try {
+      result = !!(value + '');
+    } catch (e) {}
+  }
+  return result;
+}
+
+/**
+ * Converts `map` to its key-value pairs.
+ *
+ * @private
+ * @param {Object} map The map to convert.
+ * @returns {Array} Returns the key-value pairs.
+ */
+function mapToArray(map) {
+  var index = -1,
+      result = Array(map.size);
+
+  map.forEach(function (value, key) {
+    result[++index] = [key, value];
+  });
+  return result;
+}
+
+/**
+ * Creates a unary function that invokes `func` with its argument transformed.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {Function} transform The argument transform.
+ * @returns {Function} Returns the new function.
+ */
+function overArg(func, transform) {
+  return function (arg) {
+    return func(transform(arg));
+  };
+}
+
+/**
+ * Converts `set` to an array of its values.
+ *
+ * @private
+ * @param {Object} set The set to convert.
+ * @returns {Array} Returns the values.
+ */
+function setToArray(set) {
+  var index = -1,
+      result = Array(set.size);
+
+  set.forEach(function (value) {
+    result[++index] = value;
+  });
+  return result;
+}
+
+/** Used for built-in method references. */
+var arrayProto = Array.prototype,
+    funcProto = Function.prototype,
+    objectProto = Object.prototype;
+
+/** Used to detect overreaching core-js shims. */
+var coreJsData = root['__core-js_shared__'];
+
+/** Used to detect methods masquerading as native. */
+var maskSrcKey = function () {
+  var uid = /[^.]+$/.exec(coreJsData && coreJsData.keys && coreJsData.keys.IE_PROTO || '');
+  return uid ? 'Symbol(src)_1.' + uid : '';
+}();
+
+/** Used to resolve the decompiled source of functions. */
+var funcToString = funcProto.toString;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Used to infer the `Object` constructor. */
+var objectCtorString = funcToString.call(Object);
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/** Used to detect if a method is native. */
+var reIsNative = RegExp('^' + funcToString.call(hasOwnProperty).replace(reRegExpChar, '\\$&').replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g, '$1.*?') + '$');
+
+/** Built-in value references. */
+var Buffer = moduleExports ? root.Buffer : undefined,
+    _Symbol = root.Symbol,
+    Uint8Array = root.Uint8Array,
+    getPrototype = overArg(Object.getPrototypeOf, Object),
+    objectCreate = Object.create,
+    propertyIsEnumerable = objectProto.propertyIsEnumerable,
+    splice = arrayProto.splice;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeGetSymbols = Object.getOwnPropertySymbols,
+    nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined,
+    nativeKeys = overArg(Object.keys, Object),
+    nativeMax = Math.max;
+
+/* Built-in method references that are verified to be native. */
+var DataView = getNative(root, 'DataView'),
+    Map = getNative(root, 'Map'),
+    Promise = getNative(root, 'Promise'),
+    Set = getNative(root, 'Set'),
+    WeakMap = getNative(root, 'WeakMap'),
+    nativeCreate = getNative(Object, 'create');
+
+/** Used to detect maps, sets, and weakmaps. */
+var dataViewCtorString = toSource(DataView),
+    mapCtorString = toSource(Map),
+    promiseCtorString = toSource(Promise),
+    setCtorString = toSource(Set),
+    weakMapCtorString = toSource(WeakMap);
+
+/** Used to convert symbols to primitives and strings. */
+var symbolProto = _Symbol ? _Symbol.prototype : undefined,
+    symbolValueOf = symbolProto ? symbolProto.valueOf : undefined;
+
+/**
+ * Creates a hash object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Hash(entries) {
+  var index = -1,
+      length = entries ? entries.length : 0;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the hash.
+ *
+ * @private
+ * @name clear
+ * @memberOf Hash
+ */
+function hashClear() {
+  this.__data__ = nativeCreate ? nativeCreate(null) : {};
+}
+
+/**
+ * Removes `key` and its value from the hash.
+ *
+ * @private
+ * @name delete
+ * @memberOf Hash
+ * @param {Object} hash The hash to modify.
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function hashDelete(key) {
+  return this.has(key) && delete this.__data__[key];
+}
+
+/**
+ * Gets the hash value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Hash
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function hashGet(key) {
+  var data = this.__data__;
+  if (nativeCreate) {
+    var result = data[key];
+    return result === HASH_UNDEFINED ? undefined : result;
+  }
+  return hasOwnProperty.call(data, key) ? data[key] : undefined;
+}
+
+/**
+ * Checks if a hash value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Hash
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function hashHas(key) {
+  var data = this.__data__;
+  return nativeCreate ? data[key] !== undefined : hasOwnProperty.call(data, key);
+}
+
+/**
+ * Sets the hash `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Hash
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the hash instance.
+ */
+function hashSet(key, value) {
+  var data = this.__data__;
+  data[key] = nativeCreate && value === undefined ? HASH_UNDEFINED : value;
+  return this;
+}
+
+// Add methods to `Hash`.
+Hash.prototype.clear = hashClear;
+Hash.prototype['delete'] = hashDelete;
+Hash.prototype.get = hashGet;
+Hash.prototype.has = hashHas;
+Hash.prototype.set = hashSet;
+
+/**
+ * Creates an list cache object.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function ListCache(entries) {
+  var index = -1,
+      length = entries ? entries.length : 0;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the list cache.
+ *
+ * @private
+ * @name clear
+ * @memberOf ListCache
+ */
+function listCacheClear() {
+  this.__data__ = [];
+}
+
+/**
+ * Removes `key` and its value from the list cache.
+ *
+ * @private
+ * @name delete
+ * @memberOf ListCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function listCacheDelete(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    return false;
+  }
+  var lastIndex = data.length - 1;
+  if (index == lastIndex) {
+    data.pop();
+  } else {
+    splice.call(data, index, 1);
+  }
+  return true;
+}
+
+/**
+ * Gets the list cache value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf ListCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function listCacheGet(key) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  return index < 0 ? undefined : data[index][1];
+}
+
+/**
+ * Checks if a list cache value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf ListCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function listCacheHas(key) {
+  return assocIndexOf(this.__data__, key) > -1;
+}
+
+/**
+ * Sets the list cache `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf ListCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the list cache instance.
+ */
+function listCacheSet(key, value) {
+  var data = this.__data__,
+      index = assocIndexOf(data, key);
+
+  if (index < 0) {
+    data.push([key, value]);
+  } else {
+    data[index][1] = value;
+  }
+  return this;
+}
+
+// Add methods to `ListCache`.
+ListCache.prototype.clear = listCacheClear;
+ListCache.prototype['delete'] = listCacheDelete;
+ListCache.prototype.get = listCacheGet;
+ListCache.prototype.has = listCacheHas;
+ListCache.prototype.set = listCacheSet;
+
+/**
+ * Creates a map cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function MapCache(entries) {
+  var index = -1,
+      length = entries ? entries.length : 0;
+
+  this.clear();
+  while (++index < length) {
+    var entry = entries[index];
+    this.set(entry[0], entry[1]);
+  }
+}
+
+/**
+ * Removes all key-value entries from the map.
+ *
+ * @private
+ * @name clear
+ * @memberOf MapCache
+ */
+function mapCacheClear() {
+  this.__data__ = {
+    'hash': new Hash(),
+    'map': new (Map || ListCache)(),
+    'string': new Hash()
+  };
+}
+
+/**
+ * Removes `key` and its value from the map.
+ *
+ * @private
+ * @name delete
+ * @memberOf MapCache
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function mapCacheDelete(key) {
+  return getMapData(this, key)['delete'](key);
+}
+
+/**
+ * Gets the map value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf MapCache
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function mapCacheGet(key) {
+  return getMapData(this, key).get(key);
+}
+
+/**
+ * Checks if a map value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf MapCache
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function mapCacheHas(key) {
+  return getMapData(this, key).has(key);
+}
+
+/**
+ * Sets the map `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf MapCache
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the map cache instance.
+ */
+function mapCacheSet(key, value) {
+  getMapData(this, key).set(key, value);
+  return this;
+}
+
+// Add methods to `MapCache`.
+MapCache.prototype.clear = mapCacheClear;
+MapCache.prototype['delete'] = mapCacheDelete;
+MapCache.prototype.get = mapCacheGet;
+MapCache.prototype.has = mapCacheHas;
+MapCache.prototype.set = mapCacheSet;
+
+/**
+ * Creates a stack cache object to store key-value pairs.
+ *
+ * @private
+ * @constructor
+ * @param {Array} [entries] The key-value pairs to cache.
+ */
+function Stack(entries) {
+  this.__data__ = new ListCache(entries);
+}
+
+/**
+ * Removes all key-value entries from the stack.
+ *
+ * @private
+ * @name clear
+ * @memberOf Stack
+ */
+function stackClear() {
+  this.__data__ = new ListCache();
+}
+
+/**
+ * Removes `key` and its value from the stack.
+ *
+ * @private
+ * @name delete
+ * @memberOf Stack
+ * @param {string} key The key of the value to remove.
+ * @returns {boolean} Returns `true` if the entry was removed, else `false`.
+ */
+function stackDelete(key) {
+  return this.__data__['delete'](key);
+}
+
+/**
+ * Gets the stack value for `key`.
+ *
+ * @private
+ * @name get
+ * @memberOf Stack
+ * @param {string} key The key of the value to get.
+ * @returns {*} Returns the entry value.
+ */
+function stackGet(key) {
+  return this.__data__.get(key);
+}
+
+/**
+ * Checks if a stack value for `key` exists.
+ *
+ * @private
+ * @name has
+ * @memberOf Stack
+ * @param {string} key The key of the entry to check.
+ * @returns {boolean} Returns `true` if an entry for `key` exists, else `false`.
+ */
+function stackHas(key) {
+  return this.__data__.has(key);
+}
+
+/**
+ * Sets the stack `key` to `value`.
+ *
+ * @private
+ * @name set
+ * @memberOf Stack
+ * @param {string} key The key of the value to set.
+ * @param {*} value The value to set.
+ * @returns {Object} Returns the stack cache instance.
+ */
+function stackSet(key, value) {
+  var cache = this.__data__;
+  if (cache instanceof ListCache) {
+    var pairs = cache.__data__;
+    if (!Map || pairs.length < LARGE_ARRAY_SIZE - 1) {
+      pairs.push([key, value]);
+      return this;
+    }
+    cache = this.__data__ = new MapCache(pairs);
+  }
+  cache.set(key, value);
+  return this;
+}
+
+// Add methods to `Stack`.
+Stack.prototype.clear = stackClear;
+Stack.prototype['delete'] = stackDelete;
+Stack.prototype.get = stackGet;
+Stack.prototype.has = stackHas;
+Stack.prototype.set = stackSet;
+
+/**
+ * Creates an array of the enumerable property names of the array-like `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @param {boolean} inherited Specify returning inherited property names.
+ * @returns {Array} Returns the array of property names.
+ */
+function arrayLikeKeys(value, inherited) {
+  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
+  // Safari 9 makes `arguments.length` enumerable in strict mode.
+  var result = isArray(value) || isArguments(value) ? baseTimes(value.length, String) : [];
+
+  var length = result.length,
+      skipIndexes = !!length;
+
+  for (var key in value) {
+    if ((inherited || hasOwnProperty.call(value, key)) && !(skipIndexes && (key == 'length' || isIndex(key, length)))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * This function is like `assignValue` except that it doesn't assign
+ * `undefined` values.
+ *
+ * @private
+ * @param {Object} object The object to modify.
+ * @param {string} key The key of the property to assign.
+ * @param {*} value The value to assign.
+ */
+function assignMergeValue(object, key, value) {
+  if (value !== undefined && !eq(object[key], value) || typeof key == 'number' && value === undefined && !(key in object)) {
+    object[key] = value;
+  }
+}
+
+/**
+ * Assigns `value` to `key` of `object` if the existing value is not equivalent
+ * using [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * for equality comparisons.
+ *
+ * @private
+ * @param {Object} object The object to modify.
+ * @param {string} key The key of the property to assign.
+ * @param {*} value The value to assign.
+ */
+function assignValue(object, key, value) {
+  var objValue = object[key];
+  if (!(hasOwnProperty.call(object, key) && eq(objValue, value)) || value === undefined && !(key in object)) {
+    object[key] = value;
+  }
+}
+
+/**
+ * Gets the index at which the `key` is found in `array` of key-value pairs.
+ *
+ * @private
+ * @param {Array} array The array to inspect.
+ * @param {*} key The key to search for.
+ * @returns {number} Returns the index of the matched value, else `-1`.
+ */
+function assocIndexOf(array, key) {
+  var length = array.length;
+  while (length--) {
+    if (eq(array[length][0], key)) {
+      return length;
+    }
+  }
+  return -1;
+}
+
+/**
+ * The base implementation of `_.assign` without support for multiple sources
+ * or `customizer` functions.
+ *
+ * @private
+ * @param {Object} object The destination object.
+ * @param {Object} source The source object.
+ * @returns {Object} Returns `object`.
+ */
+function baseAssign(object, source) {
+  return object && copyObject(source, keys(source), object);
+}
+
+/**
+ * The base implementation of `_.clone` and `_.cloneDeep` which tracks
+ * traversed objects.
+ *
+ * @private
+ * @param {*} value The value to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @param {boolean} [isFull] Specify a clone including symbols.
+ * @param {Function} [customizer] The function to customize cloning.
+ * @param {string} [key] The key of `value`.
+ * @param {Object} [object] The parent object of `value`.
+ * @param {Object} [stack] Tracks traversed objects and their clone counterparts.
+ * @returns {*} Returns the cloned value.
+ */
+function baseClone(value, isDeep, isFull, customizer, key, object, stack) {
+  var result;
+  if (customizer) {
+    result = object ? customizer(value, key, object, stack) : customizer(value);
+  }
+  if (result !== undefined) {
+    return result;
+  }
+  if (!isObject(value)) {
+    return value;
+  }
+  var isArr = isArray(value);
+  if (isArr) {
+    result = initCloneArray(value);
+    if (!isDeep) {
+      return copyArray(value, result);
+    }
+  } else {
+    var tag = getTag(value),
+        isFunc = tag == funcTag || tag == genTag;
+
+    if (isBuffer(value)) {
+      return cloneBuffer(value, isDeep);
+    }
+    if (tag == objectTag || tag == argsTag || isFunc && !object) {
+      if (isHostObject(value)) {
+        return object ? value : {};
+      }
+      result = initCloneObject(isFunc ? {} : value);
+      if (!isDeep) {
+        return copySymbols(value, baseAssign(result, value));
+      }
+    } else {
+      if (!cloneableTags[tag]) {
+        return object ? value : {};
+      }
+      result = initCloneByTag(value, tag, baseClone, isDeep);
+    }
+  }
+  // Check for circular references and return its corresponding clone.
+  stack || (stack = new Stack());
+  var stacked = stack.get(value);
+  if (stacked) {
+    return stacked;
+  }
+  stack.set(value, result);
+
+  if (!isArr) {
+    var props = isFull ? getAllKeys(value) : keys(value);
+  }
+  arrayEach(props || value, function (subValue, key) {
+    if (props) {
+      key = subValue;
+      subValue = value[key];
+    }
+    // Recursively populate clone (susceptible to call stack limits).
+    assignValue(result, key, baseClone(subValue, isDeep, isFull, customizer, key, value, stack));
+  });
+  return result;
+}
+
+/**
+ * The base implementation of `_.create` without support for assigning
+ * properties to the created object.
+ *
+ * @private
+ * @param {Object} prototype The object to inherit from.
+ * @returns {Object} Returns the new object.
+ */
+function baseCreate(proto) {
+  return isObject(proto) ? objectCreate(proto) : {};
+}
+
+/**
+ * The base implementation of `getAllKeys` and `getAllKeysIn` which uses
+ * `keysFunc` and `symbolsFunc` to get the enumerable property names and
+ * symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {Function} keysFunc The function to get the keys of `object`.
+ * @param {Function} symbolsFunc The function to get the symbols of `object`.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function baseGetAllKeys(object, keysFunc, symbolsFunc) {
+  var result = keysFunc(object);
+  return isArray(object) ? result : arrayPush(result, symbolsFunc(object));
+}
+
+/**
+ * The base implementation of `getTag`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+function baseGetTag(value) {
+  return objectToString.call(value);
+}
+
+/**
+ * The base implementation of `_.isNative` without bad shim checks.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a native function,
+ *  else `false`.
+ */
+function baseIsNative(value) {
+  if (!isObject(value) || isMasked(value)) {
+    return false;
+  }
+  var pattern = isFunction(value) || isHostObject(value) ? reIsNative : reIsHostCtor;
+  return pattern.test(toSource(value));
+}
+
+/**
+ * The base implementation of `_.isTypedArray` without Node.js optimizations.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ */
+function baseIsTypedArray(value) {
+  return isObjectLike(value) && isLength(value.length) && !!typedArrayTags[objectToString.call(value)];
+}
+
+/**
+ * The base implementation of `_.keys` which doesn't treat sparse arrays as dense.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function baseKeys(object) {
+  if (!isPrototype(object)) {
+    return nativeKeys(object);
+  }
+  var result = [];
+  for (var key in Object(object)) {
+    if (hasOwnProperty.call(object, key) && key != 'constructor') {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * The base implementation of `_.keysIn` which doesn't treat sparse arrays as dense.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function baseKeysIn(object) {
+  if (!isObject(object)) {
+    return nativeKeysIn(object);
+  }
+  var isProto = isPrototype(object),
+      result = [];
+
+  for (var key in object) {
+    if (!(key == 'constructor' && (isProto || !hasOwnProperty.call(object, key)))) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * The base implementation of `_.merge` without support for multiple sources.
+ *
+ * @private
+ * @param {Object} object The destination object.
+ * @param {Object} source The source object.
+ * @param {number} srcIndex The index of `source`.
+ * @param {Function} [customizer] The function to customize merged values.
+ * @param {Object} [stack] Tracks traversed source values and their merged
+ *  counterparts.
+ */
+function baseMerge(object, source, srcIndex, customizer, stack) {
+  if (object === source) {
+    return;
+  }
+  if (!(isArray(source) || isTypedArray(source))) {
+    var props = baseKeysIn(source);
+  }
+  arrayEach(props || source, function (srcValue, key) {
+    if (props) {
+      key = srcValue;
+      srcValue = source[key];
+    }
+    if (isObject(srcValue)) {
+      stack || (stack = new Stack());
+      baseMergeDeep(object, source, key, srcIndex, baseMerge, customizer, stack);
+    } else {
+      var newValue = customizer ? customizer(object[key], srcValue, key + '', object, source, stack) : undefined;
+
+      if (newValue === undefined) {
+        newValue = srcValue;
+      }
+      assignMergeValue(object, key, newValue);
+    }
+  });
+}
+
+/**
+ * A specialized version of `baseMerge` for arrays and objects which performs
+ * deep merges and tracks traversed objects enabling objects with circular
+ * references to be merged.
+ *
+ * @private
+ * @param {Object} object The destination object.
+ * @param {Object} source The source object.
+ * @param {string} key The key of the value to merge.
+ * @param {number} srcIndex The index of `source`.
+ * @param {Function} mergeFunc The function to merge values.
+ * @param {Function} [customizer] The function to customize assigned values.
+ * @param {Object} [stack] Tracks traversed source values and their merged
+ *  counterparts.
+ */
+function baseMergeDeep(object, source, key, srcIndex, mergeFunc, customizer, stack) {
+  var objValue = object[key],
+      srcValue = source[key],
+      stacked = stack.get(srcValue);
+
+  if (stacked) {
+    assignMergeValue(object, key, stacked);
+    return;
+  }
+  var newValue = customizer ? customizer(objValue, srcValue, key + '', object, source, stack) : undefined;
+
+  var isCommon = newValue === undefined;
+
+  if (isCommon) {
+    newValue = srcValue;
+    if (isArray(srcValue) || isTypedArray(srcValue)) {
+      if (isArray(objValue)) {
+        newValue = objValue;
+      } else if (isArrayLikeObject(objValue)) {
+        newValue = copyArray(objValue);
+      } else {
+        isCommon = false;
+        newValue = baseClone(srcValue, true);
+      }
+    } else if (isPlainObject(srcValue) || isArguments(srcValue)) {
+      if (isArguments(objValue)) {
+        newValue = toPlainObject(objValue);
+      } else if (!isObject(objValue) || srcIndex && isFunction(objValue)) {
+        isCommon = false;
+        newValue = baseClone(srcValue, true);
+      } else {
+        newValue = objValue;
+      }
+    } else {
+      isCommon = false;
+    }
+  }
+  if (isCommon) {
+    // Recursively merge objects and arrays (susceptible to call stack limits).
+    stack.set(srcValue, newValue);
+    mergeFunc(newValue, srcValue, srcIndex, customizer, stack);
+    stack['delete'](srcValue);
+  }
+  assignMergeValue(object, key, newValue);
+}
+
+/**
+ * The base implementation of `_.rest` which doesn't validate or coerce arguments.
+ *
+ * @private
+ * @param {Function} func The function to apply a rest parameter to.
+ * @param {number} [start=func.length-1] The start position of the rest parameter.
+ * @returns {Function} Returns the new function.
+ */
+function baseRest(func, start) {
+  start = nativeMax(start === undefined ? func.length - 1 : start, 0);
+  return function () {
+    var args = arguments,
+        index = -1,
+        length = nativeMax(args.length - start, 0),
+        array = Array(length);
+
+    while (++index < length) {
+      array[index] = args[start + index];
+    }
+    index = -1;
+    var otherArgs = Array(start + 1);
+    while (++index < start) {
+      otherArgs[index] = args[index];
+    }
+    otherArgs[start] = array;
+    return apply(func, this, otherArgs);
+  };
+}
+
+/**
+ * Creates a clone of  `buffer`.
+ *
+ * @private
+ * @param {Buffer} buffer The buffer to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Buffer} Returns the cloned buffer.
+ */
+function cloneBuffer(buffer, isDeep) {
+  if (isDeep) {
+    return buffer.slice();
+  }
+  var result = new buffer.constructor(buffer.length);
+  buffer.copy(result);
+  return result;
+}
+
+/**
+ * Creates a clone of `arrayBuffer`.
+ *
+ * @private
+ * @param {ArrayBuffer} arrayBuffer The array buffer to clone.
+ * @returns {ArrayBuffer} Returns the cloned array buffer.
+ */
+function cloneArrayBuffer(arrayBuffer) {
+  var result = new arrayBuffer.constructor(arrayBuffer.byteLength);
+  new Uint8Array(result).set(new Uint8Array(arrayBuffer));
+  return result;
+}
+
+/**
+ * Creates a clone of `dataView`.
+ *
+ * @private
+ * @param {Object} dataView The data view to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the cloned data view.
+ */
+function cloneDataView(dataView, isDeep) {
+  var buffer = isDeep ? cloneArrayBuffer(dataView.buffer) : dataView.buffer;
+  return new dataView.constructor(buffer, dataView.byteOffset, dataView.byteLength);
+}
+
+/**
+ * Creates a clone of `map`.
+ *
+ * @private
+ * @param {Object} map The map to clone.
+ * @param {Function} cloneFunc The function to clone values.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the cloned map.
+ */
+function cloneMap(map, isDeep, cloneFunc) {
+  var array = isDeep ? cloneFunc(mapToArray(map), true) : mapToArray(map);
+  return arrayReduce(array, addMapEntry, new map.constructor());
+}
+
+/**
+ * Creates a clone of `regexp`.
+ *
+ * @private
+ * @param {Object} regexp The regexp to clone.
+ * @returns {Object} Returns the cloned regexp.
+ */
+function cloneRegExp(regexp) {
+  var result = new regexp.constructor(regexp.source, reFlags.exec(regexp));
+  result.lastIndex = regexp.lastIndex;
+  return result;
+}
+
+/**
+ * Creates a clone of `set`.
+ *
+ * @private
+ * @param {Object} set The set to clone.
+ * @param {Function} cloneFunc The function to clone values.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the cloned set.
+ */
+function cloneSet(set, isDeep, cloneFunc) {
+  var array = isDeep ? cloneFunc(setToArray(set), true) : setToArray(set);
+  return arrayReduce(array, addSetEntry, new set.constructor());
+}
+
+/**
+ * Creates a clone of the `symbol` object.
+ *
+ * @private
+ * @param {Object} symbol The symbol object to clone.
+ * @returns {Object} Returns the cloned symbol object.
+ */
+function cloneSymbol(symbol) {
+  return symbolValueOf ? Object(symbolValueOf.call(symbol)) : {};
+}
+
+/**
+ * Creates a clone of `typedArray`.
+ *
+ * @private
+ * @param {Object} typedArray The typed array to clone.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the cloned typed array.
+ */
+function cloneTypedArray(typedArray, isDeep) {
+  var buffer = isDeep ? cloneArrayBuffer(typedArray.buffer) : typedArray.buffer;
+  return new typedArray.constructor(buffer, typedArray.byteOffset, typedArray.length);
+}
+
+/**
+ * Copies the values of `source` to `array`.
+ *
+ * @private
+ * @param {Array} source The array to copy values from.
+ * @param {Array} [array=[]] The array to copy values to.
+ * @returns {Array} Returns `array`.
+ */
+function copyArray(source, array) {
+  var index = -1,
+      length = source.length;
+
+  array || (array = Array(length));
+  while (++index < length) {
+    array[index] = source[index];
+  }
+  return array;
+}
+
+/**
+ * Copies properties of `source` to `object`.
+ *
+ * @private
+ * @param {Object} source The object to copy properties from.
+ * @param {Array} props The property identifiers to copy.
+ * @param {Object} [object={}] The object to copy properties to.
+ * @param {Function} [customizer] The function to customize copied values.
+ * @returns {Object} Returns `object`.
+ */
+function copyObject(source, props, object, customizer) {
+  object || (object = {});
+
+  var index = -1,
+      length = props.length;
+
+  while (++index < length) {
+    var key = props[index];
+
+    var newValue = customizer ? customizer(object[key], source[key], key, object, source) : undefined;
+
+    assignValue(object, key, newValue === undefined ? source[key] : newValue);
+  }
+  return object;
+}
+
+/**
+ * Copies own symbol properties of `source` to `object`.
+ *
+ * @private
+ * @param {Object} source The object to copy symbols from.
+ * @param {Object} [object={}] The object to copy symbols to.
+ * @returns {Object} Returns `object`.
+ */
+function copySymbols(source, object) {
+  return copyObject(source, getSymbols(source), object);
+}
+
+/**
+ * Creates a function like `_.assign`.
+ *
+ * @private
+ * @param {Function} assigner The function to assign values.
+ * @returns {Function} Returns the new assigner function.
+ */
+function createAssigner(assigner) {
+  return baseRest(function (object, sources) {
+    var index = -1,
+        length = sources.length,
+        customizer = length > 1 ? sources[length - 1] : undefined,
+        guard = length > 2 ? sources[2] : undefined;
+
+    customizer = assigner.length > 3 && typeof customizer == 'function' ? (length--, customizer) : undefined;
+
+    if (guard && isIterateeCall(sources[0], sources[1], guard)) {
+      customizer = length < 3 ? undefined : customizer;
+      length = 1;
+    }
+    object = Object(object);
+    while (++index < length) {
+      var source = sources[index];
+      if (source) {
+        assigner(object, source, index, customizer);
+      }
+    }
+    return object;
+  });
+}
+
+/**
+ * Creates an array of own enumerable property names and symbols of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names and symbols.
+ */
+function getAllKeys(object) {
+  return baseGetAllKeys(object, keys, getSymbols);
+}
+
+/**
+ * Gets the data for `map`.
+ *
+ * @private
+ * @param {Object} map The map to query.
+ * @param {string} key The reference key.
+ * @returns {*} Returns the map data.
+ */
+function getMapData(map, key) {
+  var data = map.__data__;
+  return isKeyable(key) ? data[typeof key == 'string' ? 'string' : 'hash'] : data.map;
+}
+
+/**
+ * Gets the native function at `key` of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @param {string} key The key of the method to get.
+ * @returns {*} Returns the function if it's native, else `undefined`.
+ */
+function getNative(object, key) {
+  var value = getValue(object, key);
+  return baseIsNative(value) ? value : undefined;
+}
+
+/**
+ * Creates an array of the own enumerable symbol properties of `object`.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of symbols.
+ */
+var getSymbols = nativeGetSymbols ? overArg(nativeGetSymbols, Object) : stubArray;
+
+/**
+ * Gets the `toStringTag` of `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+var getTag = baseGetTag;
+
+// Fallback for data views, maps, sets, and weak maps in IE 11,
+// for data views in Edge < 14, and promises in Node.js.
+if (DataView && getTag(new DataView(new ArrayBuffer(1))) != dataViewTag || Map && getTag(new Map()) != mapTag || Promise && getTag(Promise.resolve()) != promiseTag || Set && getTag(new Set()) != setTag || WeakMap && getTag(new WeakMap()) != weakMapTag) {
+  getTag = function getTag(value) {
+    var result = objectToString.call(value),
+        Ctor = result == objectTag ? value.constructor : undefined,
+        ctorString = Ctor ? toSource(Ctor) : undefined;
+
+    if (ctorString) {
+      switch (ctorString) {
+        case dataViewCtorString:
+          return dataViewTag;
+        case mapCtorString:
+          return mapTag;
+        case promiseCtorString:
+          return promiseTag;
+        case setCtorString:
+          return setTag;
+        case weakMapCtorString:
+          return weakMapTag;
+      }
+    }
+    return result;
+  };
+}
+
+/**
+ * Initializes an array clone.
+ *
+ * @private
+ * @param {Array} array The array to clone.
+ * @returns {Array} Returns the initialized clone.
+ */
+function initCloneArray(array) {
+  var length = array.length,
+      result = array.constructor(length);
+
+  // Add properties assigned by `RegExp#exec`.
+  if (length && typeof array[0] == 'string' && hasOwnProperty.call(array, 'index')) {
+    result.index = array.index;
+    result.input = array.input;
+  }
+  return result;
+}
+
+/**
+ * Initializes an object clone.
+ *
+ * @private
+ * @param {Object} object The object to clone.
+ * @returns {Object} Returns the initialized clone.
+ */
+function initCloneObject(object) {
+  return typeof object.constructor == 'function' && !isPrototype(object) ? baseCreate(getPrototype(object)) : {};
+}
+
+/**
+ * Initializes an object clone based on its `toStringTag`.
+ *
+ * **Note:** This function only supports cloning values with tags of
+ * `Boolean`, `Date`, `Error`, `Number`, `RegExp`, or `String`.
+ *
+ * @private
+ * @param {Object} object The object to clone.
+ * @param {string} tag The `toStringTag` of the object to clone.
+ * @param {Function} cloneFunc The function to clone values.
+ * @param {boolean} [isDeep] Specify a deep clone.
+ * @returns {Object} Returns the initialized clone.
+ */
+function initCloneByTag(object, tag, cloneFunc, isDeep) {
+  var Ctor = object.constructor;
+  switch (tag) {
+    case arrayBufferTag:
+      return cloneArrayBuffer(object);
+
+    case boolTag:
+    case dateTag:
+      return new Ctor(+object);
+
+    case dataViewTag:
+      return cloneDataView(object, isDeep);
+
+    case float32Tag:case float64Tag:
+    case int8Tag:case int16Tag:case int32Tag:
+    case uint8Tag:case uint8ClampedTag:case uint16Tag:case uint32Tag:
+      return cloneTypedArray(object, isDeep);
+
+    case mapTag:
+      return cloneMap(object, isDeep, cloneFunc);
+
+    case numberTag:
+    case stringTag:
+      return new Ctor(object);
+
+    case regexpTag:
+      return cloneRegExp(object);
+
+    case setTag:
+      return cloneSet(object, isDeep, cloneFunc);
+
+    case symbolTag:
+      return cloneSymbol(object);
+  }
+}
+
+/**
+ * Checks if `value` is a valid array-like index.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+ * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ */
+function isIndex(value, length) {
+  length = length == null ? MAX_SAFE_INTEGER : length;
+  return !!length && (typeof value == 'number' || reIsUint.test(value)) && value > -1 && value % 1 == 0 && value < length;
+}
+
+/**
+ * Checks if the given arguments are from an iteratee call.
+ *
+ * @private
+ * @param {*} value The potential iteratee value argument.
+ * @param {*} index The potential iteratee index or key argument.
+ * @param {*} object The potential iteratee object argument.
+ * @returns {boolean} Returns `true` if the arguments are from an iteratee call,
+ *  else `false`.
+ */
+function isIterateeCall(value, index, object) {
+  if (!isObject(object)) {
+    return false;
+  }
+  var type = typeof index === 'undefined' ? 'undefined' : _typeof(index);
+  if (type == 'number' ? isArrayLike(object) && isIndex(index, object.length) : type == 'string' && index in object) {
+    return eq(object[index], value);
+  }
+  return false;
+}
+
+/**
+ * Checks if `value` is suitable for use as unique object key.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is suitable, else `false`.
+ */
+function isKeyable(value) {
+  var type = typeof value === 'undefined' ? 'undefined' : _typeof(value);
+  return type == 'string' || type == 'number' || type == 'symbol' || type == 'boolean' ? value !== '__proto__' : value === null;
+}
+
+/**
+ * Checks if `func` has its source masked.
+ *
+ * @private
+ * @param {Function} func The function to check.
+ * @returns {boolean} Returns `true` if `func` is masked, else `false`.
+ */
+function isMasked(func) {
+  return !!maskSrcKey && maskSrcKey in func;
+}
+
+/**
+ * Checks if `value` is likely a prototype object.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a prototype, else `false`.
+ */
+function isPrototype(value) {
+  var Ctor = value && value.constructor,
+      proto = typeof Ctor == 'function' && Ctor.prototype || objectProto;
+
+  return value === proto;
+}
+
+/**
+ * This function is like
+ * [`Object.keys`](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+ * except that it includes inherited enumerable properties.
+ *
+ * @private
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ */
+function nativeKeysIn(object) {
+  var result = [];
+  if (object != null) {
+    for (var key in Object(object)) {
+      result.push(key);
+    }
+  }
+  return result;
+}
+
+/**
+ * Converts `func` to its source code.
+ *
+ * @private
+ * @param {Function} func The function to process.
+ * @returns {string} Returns the source code.
+ */
+function toSource(func) {
+  if (func != null) {
+    try {
+      return funcToString.call(func);
+    } catch (e) {}
+    try {
+      return func + '';
+    } catch (e) {}
+  }
+  return '';
+}
+
+/**
+ * Performs a
+ * [`SameValueZero`](http://ecma-international.org/ecma-262/7.0/#sec-samevaluezero)
+ * comparison between two values to determine if they are equivalent.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to compare.
+ * @param {*} other The other value to compare.
+ * @returns {boolean} Returns `true` if the values are equivalent, else `false`.
+ * @example
+ *
+ * var object = { 'a': 1 };
+ * var other = { 'a': 1 };
+ *
+ * _.eq(object, object);
+ * // => true
+ *
+ * _.eq(object, other);
+ * // => false
+ *
+ * _.eq('a', 'a');
+ * // => true
+ *
+ * _.eq('a', Object('a'));
+ * // => false
+ *
+ * _.eq(NaN, NaN);
+ * // => true
+ */
+function eq(value, other) {
+  return value === other || value !== value && other !== other;
+}
+
+/**
+ * Checks if `value` is likely an `arguments` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArguments(function() { return arguments; }());
+ * // => true
+ *
+ * _.isArguments([1, 2, 3]);
+ * // => false
+ */
+function isArguments(value) {
+  // Safari 8.1 makes `arguments.callee` enumerable in strict mode.
+  return isArrayLikeObject(value) && hasOwnProperty.call(value, 'callee') && (!propertyIsEnumerable.call(value, 'callee') || objectToString.call(value) == argsTag);
+}
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an array, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+/**
+ * Checks if `value` is array-like. A value is considered array-like if it's
+ * not a function and has a `value.length` that's an integer greater than or
+ * equal to `0` and less than or equal to `Number.MAX_SAFE_INTEGER`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is array-like, else `false`.
+ * @example
+ *
+ * _.isArrayLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isArrayLike(document.body.children);
+ * // => true
+ *
+ * _.isArrayLike('abc');
+ * // => true
+ *
+ * _.isArrayLike(_.noop);
+ * // => false
+ */
+function isArrayLike(value) {
+  return value != null && isLength(value.length) && !isFunction(value);
+}
+
+/**
+ * This method is like `_.isArrayLike` except that it also checks if `value`
+ * is an object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an array-like object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArrayLikeObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isArrayLikeObject(document.body.children);
+ * // => true
+ *
+ * _.isArrayLikeObject('abc');
+ * // => false
+ *
+ * _.isArrayLikeObject(_.noop);
+ * // => false
+ */
+function isArrayLikeObject(value) {
+  return isObjectLike(value) && isArrayLike(value);
+}
+
+/**
+ * Checks if `value` is a buffer.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.3.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a buffer, else `false`.
+ * @example
+ *
+ * _.isBuffer(new Buffer(2));
+ * // => true
+ *
+ * _.isBuffer(new Uint8Array(2));
+ * // => false
+ */
+var isBuffer = nativeIsBuffer || stubFalse;
+
+/**
+ * Checks if `value` is classified as a `Function` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a function, else `false`.
+ * @example
+ *
+ * _.isFunction(_);
+ * // => true
+ *
+ * _.isFunction(/abc/);
+ * // => false
+ */
+function isFunction(value) {
+  // The use of `Object#toString` avoids issues with the `typeof` operator
+  // in Safari 8-9 which returns 'object' for typed array and other constructors.
+  var tag = isObject(value) ? objectToString.call(value) : '';
+  return tag == funcTag || tag == genTag;
+}
+
+/**
+ * Checks if `value` is a valid array-like length.
+ *
+ * **Note:** This method is loosely based on
+ * [`ToLength`](http://ecma-international.org/ecma-262/7.0/#sec-tolength).
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a valid length, else `false`.
+ * @example
+ *
+ * _.isLength(3);
+ * // => true
+ *
+ * _.isLength(Number.MIN_VALUE);
+ * // => false
+ *
+ * _.isLength(Infinity);
+ * // => false
+ *
+ * _.isLength('3');
+ * // => false
+ */
+function isLength(value) {
+  return typeof value == 'number' && value > -1 && value % 1 == 0 && value <= MAX_SAFE_INTEGER;
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value === 'undefined' ? 'undefined' : _typeof(value);
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && (typeof value === 'undefined' ? 'undefined' : _typeof(value)) == 'object';
+}
+
+/**
+ * Checks if `value` is a plain object, that is, an object created by the
+ * `Object` constructor or one with a `[[Prototype]]` of `null`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.8.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a plain object, else `false`.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ * }
+ *
+ * _.isPlainObject(new Foo);
+ * // => false
+ *
+ * _.isPlainObject([1, 2, 3]);
+ * // => false
+ *
+ * _.isPlainObject({ 'x': 0, 'y': 0 });
+ * // => true
+ *
+ * _.isPlainObject(Object.create(null));
+ * // => true
+ */
+function isPlainObject(value) {
+  if (!isObjectLike(value) || objectToString.call(value) != objectTag || isHostObject(value)) {
+    return false;
+  }
+  var proto = getPrototype(value);
+  if (proto === null) {
+    return true;
+  }
+  var Ctor = hasOwnProperty.call(proto, 'constructor') && proto.constructor;
+  return typeof Ctor == 'function' && Ctor instanceof Ctor && funcToString.call(Ctor) == objectCtorString;
+}
+
+/**
+ * Checks if `value` is classified as a typed array.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a typed array, else `false`.
+ * @example
+ *
+ * _.isTypedArray(new Uint8Array);
+ * // => true
+ *
+ * _.isTypedArray([]);
+ * // => false
+ */
+var isTypedArray = nodeIsTypedArray ? baseUnary(nodeIsTypedArray) : baseIsTypedArray;
+
+/**
+ * Converts `value` to a plain object flattening inherited enumerable string
+ * keyed properties of `value` to own properties of the plain object.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Lang
+ * @param {*} value The value to convert.
+ * @returns {Object} Returns the converted plain object.
+ * @example
+ *
+ * function Foo() {
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.assign({ 'a': 1 }, new Foo);
+ * // => { 'a': 1, 'b': 2 }
+ *
+ * _.assign({ 'a': 1 }, _.toPlainObject(new Foo));
+ * // => { 'a': 1, 'b': 2, 'c': 3 }
+ */
+function toPlainObject(value) {
+  return copyObject(value, keysIn(value));
+}
+
+/**
+ * Creates an array of the own enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects. See the
+ * [ES spec](http://ecma-international.org/ecma-262/7.0/#sec-object.keys)
+ * for more details.
+ *
+ * @static
+ * @since 0.1.0
+ * @memberOf _
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keys(new Foo);
+ * // => ['a', 'b'] (iteration order is not guaranteed)
+ *
+ * _.keys('hi');
+ * // => ['0', '1']
+ */
+function keys(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object) : baseKeys(object);
+}
+
+/**
+ * Creates an array of the own and inherited enumerable property names of `object`.
+ *
+ * **Note:** Non-object values are coerced to objects.
+ *
+ * @static
+ * @memberOf _
+ * @since 3.0.0
+ * @category Object
+ * @param {Object} object The object to query.
+ * @returns {Array} Returns the array of property names.
+ * @example
+ *
+ * function Foo() {
+ *   this.a = 1;
+ *   this.b = 2;
+ * }
+ *
+ * Foo.prototype.c = 3;
+ *
+ * _.keysIn(new Foo);
+ * // => ['a', 'b', 'c'] (iteration order is not guaranteed)
+ */
+function keysIn(object) {
+  return isArrayLike(object) ? arrayLikeKeys(object, true) : baseKeysIn(object);
+}
+
+/**
+ * This method is like `_.assign` except that it recursively merges own and
+ * inherited enumerable string keyed properties of source objects into the
+ * destination object. Source properties that resolve to `undefined` are
+ * skipped if a destination value exists. Array and plain object properties
+ * are merged recursively. Other objects and value types are overridden by
+ * assignment. Source objects are applied from left to right. Subsequent
+ * sources overwrite property assignments of previous sources.
+ *
+ * **Note:** This method mutates `object`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.5.0
+ * @category Object
+ * @param {Object} object The destination object.
+ * @param {...Object} [sources] The source objects.
+ * @returns {Object} Returns `object`.
+ * @example
+ *
+ * var object = {
+ *   'a': [{ 'b': 2 }, { 'd': 4 }]
+ * };
+ *
+ * var other = {
+ *   'a': [{ 'c': 3 }, { 'e': 5 }]
+ * };
+ *
+ * _.merge(object, other);
+ * // => { 'a': [{ 'b': 2, 'c': 3 }, { 'd': 4, 'e': 5 }] }
+ */
+var merge = createAssigner(function (object, source, srcIndex) {
+  baseMerge(object, source, srcIndex);
+});
+
+/**
+ * This method returns a new empty array.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.13.0
+ * @category Util
+ * @returns {Array} Returns the new empty array.
+ * @example
+ *
+ * var arrays = _.times(2, _.stubArray);
+ *
+ * console.log(arrays);
+ * // => [[], []]
+ *
+ * console.log(arrays[0] === arrays[1]);
+ * // => false
+ */
+function stubArray() {
+  return [];
+}
+
+/**
+ * This method returns `false`.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.13.0
+ * @category Util
+ * @returns {boolean} Returns `false`.
+ * @example
+ *
+ * _.times(2, _.stubFalse);
+ * // => [false, false]
+ */
+function stubFalse() {
+  return false;
+}
+
+module.exports = merge;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(LARGE_ARRAY_SIZE, 'LARGE_ARRAY_SIZE', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(HASH_UNDEFINED, 'HASH_UNDEFINED', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(MAX_SAFE_INTEGER, 'MAX_SAFE_INTEGER', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(argsTag, 'argsTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayTag, 'arrayTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(boolTag, 'boolTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(dateTag, 'dateTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(errorTag, 'errorTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(funcTag, 'funcTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(genTag, 'genTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapTag, 'mapTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(numberTag, 'numberTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(objectTag, 'objectTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(promiseTag, 'promiseTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(regexpTag, 'regexpTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(setTag, 'setTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stringTag, 'stringTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(symbolTag, 'symbolTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(weakMapTag, 'weakMapTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayBufferTag, 'arrayBufferTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(dataViewTag, 'dataViewTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(float32Tag, 'float32Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(float64Tag, 'float64Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(int8Tag, 'int8Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(int16Tag, 'int16Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(int32Tag, 'int32Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(uint8Tag, 'uint8Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(uint8ClampedTag, 'uint8ClampedTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(uint16Tag, 'uint16Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(uint32Tag, 'uint32Tag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(reRegExpChar, 'reRegExpChar', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(reFlags, 'reFlags', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(reIsHostCtor, 'reIsHostCtor', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(reIsUint, 'reIsUint', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(typedArrayTags, 'typedArrayTags', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneableTags, 'cloneableTags', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(freeGlobal, 'freeGlobal', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(freeSelf, 'freeSelf', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(root, 'root', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(freeExports, 'freeExports', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(freeModule, 'freeModule', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(moduleExports, 'moduleExports', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(freeProcess, 'freeProcess', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nodeUtil, 'nodeUtil', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nodeIsTypedArray, 'nodeIsTypedArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(addMapEntry, 'addMapEntry', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(addSetEntry, 'addSetEntry', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(apply, 'apply', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayEach, 'arrayEach', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayPush, 'arrayPush', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayReduce, 'arrayReduce', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseTimes, 'baseTimes', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseUnary, 'baseUnary', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getValue, 'getValue', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isHostObject, 'isHostObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapToArray, 'mapToArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(overArg, 'overArg', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(setToArray, 'setToArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayProto, 'arrayProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(funcProto, 'funcProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(objectProto, 'objectProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(coreJsData, 'coreJsData', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(maskSrcKey, 'maskSrcKey', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(funcToString, 'funcToString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(hasOwnProperty, 'hasOwnProperty', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(objectCtorString, 'objectCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(objectToString, 'objectToString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(reIsNative, 'reIsNative', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Buffer, 'Buffer', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Uint8Array, 'Uint8Array', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getPrototype, 'getPrototype', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(objectCreate, 'objectCreate', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(propertyIsEnumerable, 'propertyIsEnumerable', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(splice, 'splice', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nativeGetSymbols, 'nativeGetSymbols', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nativeIsBuffer, 'nativeIsBuffer', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nativeKeys, 'nativeKeys', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nativeMax, 'nativeMax', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(DataView, 'DataView', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Map, 'Map', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Promise, 'Promise', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Set, 'Set', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(WeakMap, 'WeakMap', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nativeCreate, 'nativeCreate', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(dataViewCtorString, 'dataViewCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapCtorString, 'mapCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(promiseCtorString, 'promiseCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(setCtorString, 'setCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(weakMapCtorString, 'weakMapCtorString', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(symbolProto, 'symbolProto', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(symbolValueOf, 'symbolValueOf', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Hash, 'Hash', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(hashClear, 'hashClear', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(hashDelete, 'hashDelete', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(hashGet, 'hashGet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(hashHas, 'hashHas', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(hashSet, 'hashSet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(ListCache, 'ListCache', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(listCacheClear, 'listCacheClear', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(listCacheDelete, 'listCacheDelete', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(listCacheGet, 'listCacheGet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(listCacheHas, 'listCacheHas', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(listCacheSet, 'listCacheSet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(MapCache, 'MapCache', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapCacheClear, 'mapCacheClear', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapCacheDelete, 'mapCacheDelete', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapCacheGet, 'mapCacheGet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapCacheHas, 'mapCacheHas', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(mapCacheSet, 'mapCacheSet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(Stack, 'Stack', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stackClear, 'stackClear', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stackDelete, 'stackDelete', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stackGet, 'stackGet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stackHas, 'stackHas', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stackSet, 'stackSet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(arrayLikeKeys, 'arrayLikeKeys', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(assignMergeValue, 'assignMergeValue', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(assignValue, 'assignValue', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(assocIndexOf, 'assocIndexOf', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseAssign, 'baseAssign', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseClone, 'baseClone', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseCreate, 'baseCreate', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseGetAllKeys, 'baseGetAllKeys', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseGetTag, 'baseGetTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseIsNative, 'baseIsNative', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseIsTypedArray, 'baseIsTypedArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseKeys, 'baseKeys', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseKeysIn, 'baseKeysIn', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseMerge, 'baseMerge', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseMergeDeep, 'baseMergeDeep', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(baseRest, 'baseRest', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneBuffer, 'cloneBuffer', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneArrayBuffer, 'cloneArrayBuffer', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneDataView, 'cloneDataView', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneMap, 'cloneMap', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneRegExp, 'cloneRegExp', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneSet, 'cloneSet', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneSymbol, 'cloneSymbol', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(cloneTypedArray, 'cloneTypedArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(copyArray, 'copyArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(copyObject, 'copyObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(copySymbols, 'copySymbols', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(createAssigner, 'createAssigner', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getAllKeys, 'getAllKeys', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getMapData, 'getMapData', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getNative, 'getNative', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getSymbols, 'getSymbols', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(getTag, 'getTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(initCloneArray, 'initCloneArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(initCloneObject, 'initCloneObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(initCloneByTag, 'initCloneByTag', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isIndex, 'isIndex', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isIterateeCall, 'isIterateeCall', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isKeyable, 'isKeyable', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isMasked, 'isMasked', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isPrototype, 'isPrototype', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(nativeKeysIn, 'nativeKeysIn', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(toSource, 'toSource', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(eq, 'eq', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isArguments, 'isArguments', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isArray, 'isArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isArrayLike, 'isArrayLike', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isArrayLikeObject, 'isArrayLikeObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isBuffer, 'isBuffer', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isFunction, 'isFunction', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isLength, 'isLength', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isObject, 'isObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isObjectLike, 'isObjectLike', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isPlainObject, 'isPlainObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(isTypedArray, 'isTypedArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(toPlainObject, 'toPlainObject', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(keys, 'keys', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(keysIn, 'keysIn', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(merge, 'merge', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stubArray, 'stubArray', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(stubFalse, 'stubFalse', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+
+  __REACT_HOT_LOADER__.register(_Symbol, '_Symbol', '/Users/Rob/Desktop/ReTok/node_modules/lodash.merge/index.js');
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22), __webpack_require__(280)(module)))
+
+/***/ },
+/* 813 */
+/***/ function(module, exports) {
+
+"use strict";
+"use strict";
+
+exports.__esModule = true;
+exports["default"] = reduceReducers;
+
+function reduceReducers() {
+  for (var _len = arguments.length, reducers = Array(_len), _key = 0; _key < _len; _key++) {
+    reducers[_key] = arguments[_key];
+  }
+
+  return function (previous, current) {
+    return reducers.reduce(function (p, r) {
+      return r(p, current);
+    }, previous);
+  };
+}
+
+module.exports = exports["default"];
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(reduceReducers, "reduceReducers", "/Users/Rob/Desktop/ReTok/node_modules/reduce-reducers/lib/index.js");
+}();
+
+;
+
+/***/ },
+/* 814 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = createAction;
+function identity(t) {
+  return t;
+}
+
+function createAction(type, actionCreator, metaCreator) {
+  var finalActionCreator = typeof actionCreator === 'function' ? actionCreator : identity;
+
+  var actionHandler = function actionHandler() {
+    var hasError = (arguments.length <= 0 ? undefined : arguments[0]) instanceof Error;
+
+    var action = {
+      type: type
+    };
+
+    var payload = hasError ? arguments.length <= 0 ? undefined : arguments[0] : finalActionCreator.apply(undefined, arguments);
+    if (!(payload === null || payload === undefined)) {
+      action.payload = payload;
+    }
+
+    if (hasError) {
+      // Handle FSA errors where the payload is an Error object. Set error.
+      action.error = true;
+    }
+
+    if (typeof metaCreator === 'function') {
+      action.meta = metaCreator.apply(undefined, arguments);
+    }
+
+    return action;
+  };
+
+  actionHandler.toString = function () {
+    return type;
+  };
+
+  return actionHandler;
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(identity, 'identity', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/createAction.js');
+
+  __REACT_HOT_LOADER__.register(createAction, 'createAction', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/createAction.js');
+}();
+
+;
+
+/***/ },
+/* 815 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = handleActions;
+
+var _handleAction = __webpack_require__(806);
+
+var _handleAction2 = _interopRequireDefault(_handleAction);
+
+var _ownKeys = __webpack_require__(817);
+
+var _ownKeys2 = _interopRequireDefault(_ownKeys);
+
+var _reduceReducers = __webpack_require__(813);
+
+var _reduceReducers2 = _interopRequireDefault(_reduceReducers);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+function _toConsumableArray(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) {
+      arr2[i] = arr[i];
+    }return arr2;
+  } else {
+    return Array.from(arr);
+  }
+}
+
+function handleActions(handlers, defaultState) {
+  var reducers = (0, _ownKeys2.default)(handlers).map(function (type) {
+    return (0, _handleAction2.default)(type, handlers[type]);
+  });
+  var reducer = _reduceReducers2.default.apply(undefined, _toConsumableArray(reducers));
+
+  return typeof defaultState !== 'undefined' ? function () {
+    var state = arguments.length <= 0 || arguments[0] === undefined ? defaultState : arguments[0];
+    var action = arguments[1];
+    return reducer(state, action);
+  } : reducer;
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_handleAction2, '_handleAction2', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleActions.js');
+
+  __REACT_HOT_LOADER__.register(_ownKeys2, '_ownKeys2', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleActions.js');
+
+  __REACT_HOT_LOADER__.register(_reduceReducers2, '_reduceReducers2', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleActions.js');
+
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleActions.js');
+
+  __REACT_HOT_LOADER__.register(_toConsumableArray, '_toConsumableArray', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleActions.js');
+
+  __REACT_HOT_LOADER__.register(handleActions, 'handleActions', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/handleActions.js');
+}();
+
+;
+
+/***/ },
+/* 816 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.handleActions = exports.handleAction = exports.createAction = undefined;
+
+var _createAction = __webpack_require__(814);
+
+var _createAction2 = _interopRequireDefault(_createAction);
+
+var _handleAction = __webpack_require__(806);
+
+var _handleAction2 = _interopRequireDefault(_handleAction);
+
+var _handleActions = __webpack_require__(815);
+
+var _handleActions2 = _interopRequireDefault(_handleActions);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { default: obj };
+}
+
+exports.createAction = _createAction2.default;
+exports.handleAction = _handleAction2.default;
+exports.handleActions = _handleActions2.default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_createAction2, '_createAction2', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(_handleAction2, '_handleAction2', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(_handleActions2, '_handleActions2', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/index.js');
+}();
+
+;
+
+/***/ },
+/* 817 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = ownKeys;
+function ownKeys(object) {
+  if (typeof Reflect !== 'undefined' && typeof Reflect.ownKeys === 'function') {
+    return Reflect.ownKeys(object);
+  }
+
+  var keys = Object.getOwnPropertyNames(object);
+
+  if (typeof Object.getOwnPropertySymbols === 'function') {
+    keys = keys.concat(Object.getOwnPropertySymbols(object));
+  }
+
+  return keys;
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ownKeys, 'ownKeys', '/Users/Rob/Desktop/ReTok/node_modules/redux-actions/lib/ownKeys.js');
+}();
+
+;
+
+/***/ },
+/* 818 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+        var source = arguments[i];for (var key in source) {
+            if (Object.prototype.hasOwnProperty.call(source, key)) {
+                target[key] = source[key];
+            }
+        }
+    }return target;
+};
+
+var _lodash = __webpack_require__(819);
+
+var _lodash2 = _interopRequireDefault(_lodash);
+
+var _lodash3 = __webpack_require__(805);
+
+var _lodash4 = _interopRequireDefault(_lodash3);
+
+var _lodash5 = __webpack_require__(812);
+
+var _lodash6 = _interopRequireDefault(_lodash5);
+
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : { 'default': obj };
+}
+
+exports['default'] = function (oldState, newState) {
+    var result = _extends({}, oldState);
+
+    for (var key in newState) {
+        if (!newState.hasOwnProperty(key)) {
+            continue;
+        }
+        var value = newState[key];
+
+        // Assign if we don't need to merge at all
+        if (!result.hasOwnProperty(key)) {
+            result[key] = (0, _lodash4['default'])(value) && !(0, _lodash2['default'])(value) ? (0, _lodash6['default'])({}, value) : value;
+            continue;
+        }
+
+        var oldValue = result[key];
+
+        if ((0, _lodash4['default'])(value) && !(0, _lodash2['default'])(value)) {
+            result[key] = (0, _lodash6['default'])({}, oldValue, value);
+        } else {
+            result[key] = value;
+        }
+    }
+
+    return result;
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage-merger-simple/build/index.js');
+
+    __REACT_HOT_LOADER__.register(_lodash2, '_lodash2', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage-merger-simple/build/index.js');
+
+    __REACT_HOT_LOADER__.register(_lodash4, '_lodash4', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage-merger-simple/build/index.js');
+
+    __REACT_HOT_LOADER__.register(_lodash6, '_lodash6', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage-merger-simple/build/index.js');
+
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage-merger-simple/build/index.js');
+}();
+
+;
+
+/***/ },
+/* 819 */
+/***/ function(module, exports) {
+
+"use strict";
+"use strict";
+
+/**
+ * lodash 4.0.0 (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright 2012-2016 The Dojo Foundation <http://dojofoundation.org/>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright 2009-2016 Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ * Available under MIT license <https://lodash.com/license>
+ */
+
+/**
+ * Checks if `value` is classified as an `Array` object.
+ *
+ * @static
+ * @memberOf _
+ * @type Function
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is correctly classified, else `false`.
+ * @example
+ *
+ * _.isArray([1, 2, 3]);
+ * // => true
+ *
+ * _.isArray(document.body.children);
+ * // => false
+ *
+ * _.isArray('abc');
+ * // => false
+ *
+ * _.isArray(_.noop);
+ * // => false
+ */
+var isArray = Array.isArray;
+
+module.exports = isArray;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(isArray, "isArray", "/Users/Rob/Desktop/ReTok/node_modules/redux-storage-merger-simple/node_modules/lodash.isarray/index.js");
+}();
+
+;
+
+/***/ },
+/* 820 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+        var source = arguments[i];for (var key in source) {
+            if (Object.prototype.hasOwnProperty.call(source, key)) {
+                target[key] = source[key];
+            }
+        }
+    }return target;
+};
+
+var _createLoader = __webpack_require__(808);
+
+Object.defineProperty(exports, 'createLoader', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_createLoader)['default'];
+    }
+});
+
+var _createMiddleware = __webpack_require__(809);
+
+Object.defineProperty(exports, 'createMiddleware', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_createMiddleware)['default'];
+    }
+});
+
+var _reducer = __webpack_require__(810);
+
+Object.defineProperty(exports, 'reducer', {
+    enumerable: true,
+    get: function get() {
+        return _interopRequireDefault(_reducer)['default'];
+    }
+});
+
+var _constants = __webpack_require__(804);
+
+Object.defineProperty(exports, 'LOAD', {
+    enumerable: true,
+    get: function get() {
+        return _constants.LOAD;
+    }
+});
+Object.defineProperty(exports, 'SAVE', {
+    enumerable: true,
+    get: function get() {
+        return _constants.SAVE;
+    }
+});
+
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : { 'default': obj };
+}
+
+// The full default export is required to be BC with redux-storage <= v1.3.2
+exports['default'] = _extends({}, __webpack_require__(804), {
+    createLoader: __webpack_require__(808)['default'],
+    createMiddleware: __webpack_require__(809)['default'],
+    reducer: __webpack_require__(810)['default']
+});
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(_extends, '_extends', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/index.js');
+
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/redux-storage/build/index.js');
+}();
+
+;
+
+/***/ },
+/* 821 */,
+/* 822 */
+/***/ function(module, exports) {
+
+"use strict";
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+function rejectWithMessage(error) {
+    return Promise.reject(error.message);
+}
+
+exports["default"] = function (key, replacer, reviver) {
+    return {
+        load: function load() {
+            return new Promise(function (resolve) {
+                var jsonState = localStorage.getItem(key);
+                resolve(JSON.parse(jsonState, reviver) || {});
+            })["catch"](rejectWithMessage);
+        },
+        save: function save(state) {
+            return new Promise(function (resolve) {
+                var jsonState = JSON.stringify(state, replacer);
+                localStorage.setItem(key, jsonState);
+                resolve();
+            })["catch"](rejectWithMessage);
+        }
+    };
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(rejectWithMessage, "rejectWithMessage", "/Users/Rob/Desktop/ReTok/node_modules/redux-storage-engine-localstorage/build/index.js");
 }();
 
 ;

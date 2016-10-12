@@ -484,7 +484,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   height: 30px;
 }
 
-#oneChatMessage{
+.oneChatMessage{
+  display: inline-block;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 1%;
+  background-color: #4d94ff;
+  color: white;
   text-decoration: none;
   list-style-type: none;
 }
