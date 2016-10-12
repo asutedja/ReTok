@@ -8,6 +8,7 @@ import FriendsListContainer from './FriendsList/FriendsListContainer.js'
 import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
 import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
+import axios from 'axios'
 
 import * as userActions from '../Redux/userReducer'
 
@@ -24,6 +25,19 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    var context = this;
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      })
+
+    
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
     var context = this;
 

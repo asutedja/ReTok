@@ -5,6 +5,7 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import io from 'socket.io-client'
 import FriendsListEntry from './FriendsListEntry'
 import * as userActions from '../../Redux/userReducer'
+import OfflineFriendsListEntry from './OfflineFriendsListEntry'
 
 class FriendsListContainer extends React.Component {
 
@@ -46,10 +47,24 @@ class FriendsListContainer extends React.Component {
 
 
   render() {
+
+    var offline = this.props.friends.filter((item, index) => item.online === false);
     return (
 
-      <div>
-        {this.props.friends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
+      <div className="chatListContainer">
+        <div className= "chatFriendsHeader">
+          <h4>My Username is: {this.props.user.username}</h4>
+        </div>
+        <div className= "chatFriendsHeader">
+          <h4><b>Online: </b></h4>
+        </div>
+        
+        {this.props.onlineFriends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
+          <div className ="chatFriendsHeader">
+            <h4><b>Offline:</b></h4>
+          </div>
+              {offline.map((item, index) => <OfflineFriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
+
       </div>
       )
 
@@ -65,11 +80,12 @@ function mapStateToProps(state) {
     room: state.userReducer.room,
     socket: state.userReducer.socket,
     friends: state.userReducer.friends,
+    onlineFriends: state.userReducer.onlineFriends,
     chatLog: state.userReducer.chatLog,
-    currentChat: state.userReducer.currentChat
+    currentChat: state.userReducer.currentChat,
+    friendCount: state.userReducer.friendCount
   }
 }
 
 export default connect(mapStateToProps)(FriendsListContainer);
-
 

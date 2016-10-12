@@ -5,7 +5,7 @@ import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import SuggestedFriends from './SuggestedFriends.js'
 import * as userActions from '../../Redux/userReducer'
 import updateHelper from '../../updateHelper.js'
-
+import axios from 'axios'
 
 class SuggestedContainer extends React.Component {
   constructor(props, context) {
@@ -13,6 +13,19 @@ class SuggestedContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    var context = this;
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      })
+
+
     var socket = this.props.socket
     console.log('i hit this component for suggestedFriends');
     // socket.on('update', () => updateHelper(this))
