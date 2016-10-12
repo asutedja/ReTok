@@ -13,6 +13,17 @@ class PhotoUploadContainer extends React.Component {
     super(props, context);
   }
 
+  componentWillMount() {
+    // axios.get('/auth')
+    //   .then(function(res) {
+    //     console.log('checking auth res data',res.data);
+
+    //     if(!res.data) {
+    //       this.context.router.push('/');
+    //     }
+    //   })
+  }
+
   handleImageChange(e) {
     e.preventDefault();
     console.log('i hit handleImageChange');

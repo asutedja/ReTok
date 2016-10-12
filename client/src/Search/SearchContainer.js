@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import Search from './Search.js'
 import * as userActions from '../Redux/userReducer'
+import axios from 'axios'
 
 
 class SearchContainer extends React.Component {
@@ -11,7 +12,16 @@ class SearchContainer extends React.Component {
 	}
 
   componentWillMount() {
-    //console.log('making sure my search container is getting props', this.props.search);
+
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          this.context.router.push('/');
+        }
+      })
+
   }
 
   addFriend(friend) {

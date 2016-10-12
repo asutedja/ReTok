@@ -3,7 +3,7 @@ import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import * as userActions from '../Redux/userReducer'
-// import {emojify} from 'react-emojione';
+import axios from 'axios'
 
 class StoreContainer extends React.Component {
 	constructor(props) {
@@ -11,6 +11,17 @@ class StoreContainer extends React.Component {
 	}
 
 	componentWillMount() {
+
+		var context = this;
+		axios.get('/auth')
+		  .then(function(res) {
+		    console.log('checking auth res data',res.data);
+
+		    if(!res.data) {
+		      console.log('no session...redirecting to sign up page');
+		      context.context.router.push('/');
+		    }
+		  })
 
 		// var emojis = this.props.emojis.slice();
 		// var userEmojis = this.props.userEmojis.slice();
