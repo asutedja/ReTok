@@ -6,11 +6,26 @@ import LoggedOutNavContainer from '../Nav/LoggedOutNav/LoggedOutNavContainer'
 import Login from '../Login/LoginContainer'
 import { connect } from 'react-redux'
 import * as userActions from '../Redux/userReducer'
-
+import axios from 'axios'
 
 class HomeContainer extends React.Component {
 	constructor(props) {
 		super(props);
+	}
+
+	componentWillMount() {
+		var context = this;
+		axios.get('/auth')
+		  .then(function(res) {
+		    console.log('checking auth res data',res.data);
+
+		    if(res.data) {
+		    	console.log('go through to auth')
+		      context.context.router.push('/profile');
+		    }
+		  })
+
+
 	}
 
 	componentWillUnmount() {

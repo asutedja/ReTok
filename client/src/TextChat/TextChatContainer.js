@@ -2,10 +2,12 @@ import React from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
-import io from 'socket.io-client'
 import TextChat from './TextChat.js'
 import FriendsListContainer from './FriendsList/FriendsListContainer.js'
 import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
+import shortToUnicode from '../../shortToUnicode.js'
+import unicodeToShort from '../../unicodeToShort.js'
+import axios from 'axios'
 
 import * as userActions from '../Redux/userReducer'
 
@@ -22,6 +24,19 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    var context = this;
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      })
+
+    
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
     var context = this;
 
@@ -32,7 +47,7 @@ class TextChatContainer extends React.Component {
       headers: myHeaders,
       body: `
            {
-          findChats(user: \"${this.props.user.username}\")  {
+          findChatsRedis(user: \"${this.props.user.username}\")  {
             room
             text
           }
@@ -42,13 +57,13 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        var findChatsData = data.data.findChats;
+        var findChatsData = data.data.findChatsRedis;
         // console.log('checking data after fetching', findChatsData);
         var newChatLog = {};
 
         for (var i = 0; i < findChatsData.length; i++) {
           // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
-          newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('$#%!$?!*&&*###@@');
+          newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('#^');
         }
         context.props.dispatch(userActions.updateChatLog(newChatLog));
         console.log('checking my chat log on will mount after fetching', context.props.chatLog);
@@ -138,11 +153,6 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
-
-
-
-
-
     var socket = this.props.socket;
     var clearChat = [];
 
@@ -168,35 +178,8 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        console.log('checking data after fetching unmounting', data);
 
-        var chatLog = this.state.newChatHistoryLog;
-        // var chatLog = this.props.chatLog;
-
-        for (var room in chatLog) {
-          console.log('checking typeOf chatlogRoom -->', chatLog[room], typeof chatLog[room]);
-          var chatMessagesStringified = chatLog[room].join('$#%!$?!*&&*###@@');
-
-          console.log('checking room  in loop -->', room);
-          console.log('checking messages in loops -->', chatMessagesStringified, typeof chatMessagesStringified);
-          let chatOptions = {
-            method: 'POST',
-            headers: myHeaders,
-            body: `
-                mutation {
-                addChat(room: \"${room}\" text: \"${chatMessagesStringified}\")  {
-                  id
-                }
-                }
-                `
-          };
-          fetch('/graphql', chatOptions).then((res) =>{
-            return res.json().then((data) => {
-              console.log('sending chat to server', data);
-            })
-          })
-
-        }
+        console.log('unmounting');
 
 
 
@@ -238,7 +221,6 @@ class TextChatContainer extends React.Component {
   handleWindowClose(){
       alert("Alerted Browser Close");
   }
-
   sendChat(message) {
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
@@ -246,17 +228,31 @@ class TextChatContainer extends React.Component {
     console.log('i am receiving a message', message);
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
+    const emojiEscapedString = unicodeToShort(message);
+    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+    let chatOptions = {
+      method: 'POST',
+      headers: myHeaders,
+      body: `
+          mutation {
+          addChatRedis(room: \"${this.props.room}\" text: \"${emojiEscapedString}\")  {
+            room
+          }
+          }
+          `
+    };
+    fetch('/graphql', chatOptions).then((res) =>{
+      return res.json().then((data) => {
+        console.log('sending chat to Redis');
+      })
+    })
 
   }
-
-
-
-
   render() {
 
 
     var context = this;
-    var chat = context.props.currentChat.map((message) => <div className="oneChatMessage">{message}</div>);
+    var chat = context.props.currentChat.map((message) => <div><div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div></div>);
 
 
     var chatInputWindow;
@@ -312,7 +308,8 @@ function mapStateToProps(state) {
     socket: state.userReducer.socket,
     friends: state.userReducer.friends,
     chatLog: state.userReducer.chatLog,
-    currentChat: state.userReducer.currentChat
+    currentChat: state.userReducer.currentChat,
+    userEmojis: state.userReducer.userEmojis
   }
 }
 

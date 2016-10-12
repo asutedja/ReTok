@@ -10,7 +10,6 @@ var Schema = require('./db/schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
-
 var bodyParser = require('body-parser');
 var sockets = {};
 
@@ -28,22 +27,37 @@ var httpsServer = https.createServer(credentials, app);
 var os = require('os');
 var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
+var cookieParser = require('cookie-parser');
 
+app.use(cookieParser());
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
-app.use(session({secret: 'lets ReTok'}));
+app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
+
 app.use(passport.initialize());
 app.use(passport.session());
-
 app.use(cors());
 
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
 
+// app.get('*', function (request, response){
+//   response.sendFile(__dirname + '/../client/index.html');
+// });
+
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
 
-// app.use(bodyparser.json());
+app.get('/auth', function(req, res) {
+  console.log('req.cookies @ auth: ', req.cookies);
+  console.log('req.session @ auth: ', req.session);
+  var authUser = true;
+  if (req.session.passport === undefined) {
+    res.send(!authUser);
+  } else {
+    res.send(authUser);
+  }
+});
 
 app.use('/graphql', GraphHTTP({
   schema: Schema,
@@ -51,53 +65,36 @@ app.use('/graphql', GraphHTTP({
   graphiql: true
 }));
 
-// app.use(function(req, res, next) {
-//     res.header("Access-Control-Allow-Origin", "*");
-//     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-//     next();
-// });
-
-// app.post('/test', function(req, res) {
-// 	console.log('checking req body', req.body);
-// });
-
-// app.post('/login', passport.authenticate('local', {
-//   // successRedirect: '/',
-//   failureRedirect: '/',
-// }) ,function(req, res) {
-//   var userID = req.session.passport.user;
-//   console.log('checking my request over here -------->', req.session.passport.user);
-
-
-//   User.findAll({where:{id: userID}}).then(function(user) {
-//     console.log('confirming i have user information', user);
-//     res.status(200).send(user);
-//   });
-
-// });
-
-app.post('/login', passport.authenticate('local', {
- // successRedirect: '/',
- //failureRedirect: '/',
-}) ,function(req, res) {
-
- var userID = req.session.passport.user;
- console.log('checking my request over here -------->', req.session);
- // var returnedData = {};
- // User.findAll({where:{id: userID}}).then(function(user) {
- //   console.log('confirming i have user information', user);
- //   returnedData.user = user;
- //   Friendship.findAll({where: {$or:[{userOne: userID}, {userTwo: userID}]}}).then(function(friendship) {
- //     returnedData.friendship = friendship;
- //     console.log('checking my returned data from server --->', returnedData);
- //     res.status(200).send(returnedData);
- //   });
- User.findAll({where:{id: userID}}).then(function(user) {
-    res.status(200).send(user);
+app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
+  var userID = req.session.passport.user;
+  User.findAll({where:{id: userID}}).then(function(user) {
+    var user0 = user[0];
+    var resUser = [{
+      id: user0.id,
+      username: user0.username,
+      profilePic: user0.profilePic,
+      online: user0.online,
+      firstName: user0.firstName,
+      lastName: user0.lastName,
+      email: user0.email,
+      dob: user0.dob,
+      coin: user0.coin,
+      gender: user0.gender
+    }];
+    res.cookie('userID', userID);
+    res.status(200).send(resUser);
  });
 });
 
 io.sockets.on('connection', function(socket) {
+
+  socket.on('login', function(user) {
+    sockets[user] = socket.id; 
+    log('this is the room you are in: ', user)
+    socket.name = user;
+    console.log('ROOM NAME IS', user)
+    socket.join(user);
+  })
 
   socket.on('textmessagemount', function() {
     console.log('i hit the textmessagemount.');
@@ -139,13 +136,6 @@ io.sockets.on('connection', function(socket) {
   });
 
 
-  socket.on('login', function(user) {
-    sockets[user] = socket.id; 
-    log('this is the room you are in: ', user)
-    socket.name = user;
-    console.log('ROOM NAME IS', user)
-    socket.join(user);
-  })
 
   socket.on('calling', function(info) {
       var id = sockets[info.user];
@@ -220,17 +210,18 @@ io.sockets.on('connection', function(socket) {
     User.update({online: false}, {where: {username: socket.name}});
     var myself;
     var friends = [];
-    //query for updating user's friends of online status broken, only gets some, not all, friends.
     Db.User.findAll({where: {username: socket.name}})
       .then(function(user){
-        myself = user;
-        return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
+        if(user) {
+          myself = user;
+          return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
+        }
       })
       .then((response) => {
-        console.log('I get a response', response)
         if(response.length > 0) {
           response[0].forEach(function(friend){
             friends.push(friend);
+            
           });
         }
       })
@@ -238,6 +229,7 @@ io.sockets.on('connection', function(socket) {
         return Db.sequelize.query("SELECT `FriendOne`.`id` , `FriendOne`.`username`, `FriendOne`.`firstName`, `FriendOne`.`lastName`, `FriendOne`.`email`, `FriendOne`.`dob`, `FriendOne`.`gender`, `FriendOne`.`profilePic`, `FriendOne`.`coin`, `FriendOne`.`online`, `FriendOne`.`createdAt`, `FriendOne`.`updatedAt`, `FriendOne.Friendship`.`relationship`, `FriendOne.Friendship`.`textChatCount`, `FriendOne.Friendship`.`videoChatCount`, `FriendOne.Friendship`.`lastChatTime`, `FriendOne.Friendship`.`createdAt`, `FriendOne.Friendship`.`updatedAt`, `FriendOne.Friendship`.`userOne`, `FriendOne.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendOne.Friendship` INNER JOIN `Users` AS `FriendOne` ON `FriendOne`.`id` = `FriendOne.Friendship`.`userOne`) ON `User`.`id` = `FriendOne.Friendship`.`userTwo` WHERE `FriendOne.Friendship`.`userTwo` ="+myself[0].id+";");
       })
       .then(function(response){ 
+        sockets[socket.name] = null;
         if(response.length > 0) {
           response[0].forEach(function(friend){
             friends.push(friend);
@@ -245,8 +237,8 @@ io.sockets.on('connection', function(socket) {
         }
         friends.forEach(function(friend) {
           var id = sockets[friend.username]
-          if(sockets[friend.username]) {
-            console.log('updating everyone')
+          if(id !== null && id !== undefined) {
+            console.log('updating', friend.username);
             io.sockets.connected[id].emit('update')    
           }
         })
@@ -261,10 +253,13 @@ io.sockets.on('connection', function(socket) {
 });
 
 app.get('/logout', function (req, res){
+  req.session.destroy();
 	req.logout();
 });
 
-
+app.get('*', function(req, res) {
+  res.redirect('/');
+})
 
 http.listen(port, function(data) {
   console.log('listening on ' + port);

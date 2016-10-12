@@ -1,14 +1,13 @@
 import React, { PropTypes }  from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
-import io from 'socket.io-client'
 import * as userActions from '../Redux/userReducer'
 import OnlineFriends from '../Profile/OnlineFriends/OnlineFriends.js'
 import friendTierCalculator from '../friendTierCalculator.js'
 import updateHelper from '../updateHelper.js'
 import EmojiChatContainer from '../TextChat/EmojiChatContainer/EmojiChatContainer.js'
 import { Scrollbars } from 'react-custom-scrollbars';
-
+import axios from 'axios'
 
 class MultiChatContainer extends React.Component {
 
@@ -17,6 +16,19 @@ class MultiChatContainer extends React.Component {
   }
 
   componentWillMount() {
+
+    var context = this;
+    axios.get('/auth')
+      .then(function(res) {
+        console.log('checking auth res data',res.data);
+
+        if(!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      })
+
+    
     var socket = this.props.socket;
     socket.on('update',()=> updateHelper(this))
     updateHelper(this)

@@ -2,10 +2,12 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, browserHistory, IndexRoute, Link } from 'react-router'
 
-const SignUpForm = (props) => (
+const SignUpForm = ({signUp, exist, comma}) => (
   <div>
-    <form type='submit' className = "signUpForm" onSubmit={(e) => {e.preventDefault(); props.signUp(document.getElementById('newUser').value, document.getElementById('newPassword').value, document.getElementById('firstName').value, document.getElementById('lastName').value, document.getElementById('email').value);}}>
+    <form type='submit' className = "signUpForm" onSubmit={(e) => {e.preventDefault(); signUp(document.getElementById('newUser').value, document.getElementById('newPassword').value, document.getElementById('firstName').value, document.getElementById('lastName').value, document.getElementById('email').value);}}>
       <h2 id= "signUpHere">Sign Up Here</h2>
+      {exist ? <div>This username already exists!</div> : null}
+      {comma ? <div>Username cannot have any ',', ':', '^' or '#'</div> : null}
       <input id='newUser' className = "signUpInput" type='type/submit' placeholder='Username'/>
       <input id='newPassword' className = "signUpInput" type="password" placeholder='Password' />
       <input id='firstName' className = "signUpInput" type='type/submit' placeholder='First Names'/>

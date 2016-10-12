@@ -120,9 +120,23 @@ export function sendSocket(socket) {
 }
 
 // ----- SET USER REDUCER INITIAL STATE ------ //
-const userInitialState = {
+
+
+let persist = (key, value) => localStorage.setItem(key, value);
+
+let restore = (key, def) => localStorage.getItem(key) || def;
+
+let restoreDefault = (key, def) => {
+  let stored = restore(key);
+  console.log('checking stored', stored);
+  return stored != null
+    ? JSON.parse(stored)
+    :def
+};
+
+const userInitialState = restoreDefault('client', {
   userID: '',
-  user: {username: 'buddyboowaggytails', password: 'abcd1234', firstName: 'Boo', lastName: 'theDog', email: 'buddyboo@gmail.com', dob: '9/9/1999', profilePic: 'http://images5.fanpop.com/image/photos/31300000/-Boo-Buddy-boo-and-buddy-31314627-403-403.jpg', coin: 0, emoji: ''},
+  user: {username: '', password: '', firstName: '', lastName: '', email: '', dob: '', profilePic: '', coin: 0, emoji: ''},
   friends: [],
   onlineFriends: [],
   suggestedFriends: [],
@@ -134,147 +148,256 @@ const userInitialState = {
   currentChat: [],
   storeEmojis: [],
   userEmojis: [],
-  search: [{username: 'andersoncooper', profilePic: 'https://img.buzzfeed.com/buzzfeed-static/static/2013-10/enhanced/webdr06/15/14/enhanced-buzz-8404-1381861542-6.jpg', date: '06/10/2016'}, {username: 'human', profilePic: 'http://allthingsd.com/files/2012/08/531287_10151443421215398_1956136074_n-380x285.jpeg', date: '08/10/2016'}, {username: 'buddy', profilePic: 'http://cdn1.boothedog.net/wp-content/uploads/2011/07/boo-the-dog-300x255.jpg', date: '09/10/2016'}],
+  search: [],
   room: '',
   socket: null,
   connection: null
 
-}
+});
 
-// ------------ USER REDUCER -----------------//
+// const userInitialState = {
+//   userID: '',
+//   user: {username: '', password: '', firstName: '', lastName: '', email: '', dob: '', profilePic: '', coin: 0, emoji: ''},
+//   friends: [],
+//   onlineFriends: [],
+//   suggestedFriends: [],
+//   friendCount: 0,
+//   isLoggedIn: false,
+//   error: '',
+//   emojis: [],
+//   chatLog: {},
+//   currentChat: [],
+//   storeEmojis: [],
+//   userEmojis: [],
+//   search: [{username: '', profilePic: '', date: ''}, {username: '', profilePic: '', date: ''}, {username: '', profilePic: '', date: ''}],
+//   room: '',
+//   socket: null,
+//   connection: null
+
+// }
+
+// // // ------------ USER REDUCER -----------------//
+// export default function userReducer (state = userInitialState, action) {
+//   switch(action.type){
+//     case 'USER_AUTH' :  {
+//    return {
+//      ...state,
+//       isLoggedIn: true,
+//       }
+//     }
+//     case 'USER_UNAUTH' : {
+//       return {
+//         ...state,
+//          isLoggedIn: false,
+//          user: {},
+//          userID: ''
+//        }
+//     }
+
+//     case 'TOGGLE_LOGIN' : {
+//       return {
+//         ...state,
+//          isLoggedIn: action.isLoggedIn,
+//        }
+//     }
+
+//     case 'FETCHING_USER_INFO' : {
+//       return {
+//         ...state,
+//          isFetching: true,
+//        }
+//     }
+
+//     case 'UPDATE_USER' : {
+//      return {
+//        ...state,
+//         user:action.user,
+//       }
+//     }
+
+//     case 'UPDATE_FRIENDS' : {
+//       return {
+//         ...state,
+//         friends: action.friends,
+//       }
+//     }
+
+//     case 'UPDATE_ONLINE_FRIENDS' : {
+//       return {
+//         ...state,
+//         onlineFriends: action.onlineFriends,
+//       }
+//     }
+
+//     case 'UPDATE_SUGGESTED_FRIENDS' : {
+//       return {
+//         ...state,
+//         suggestedFriends: action.suggestedFriends,
+//       }
+//     }
+
+//     case 'UPDATE_SEARCH' : {
+//       return {
+//         ...state,
+//         search: action.search,
+//       }
+//     }
+
+
+//     case 'UPDATE_EMOJIS' : {
+//       return {
+//         ...state,
+//         emojis: action.emojis,
+//       }
+//     }
+
+//     case 'UPDATE_STORE_EMOJIS' : {
+//       return {
+//         ...state,
+//         storeEmojis: action.storeEmojis,
+//       }
+//     }
+
+//     case 'UPDATE_USER_EMOJIS' : {
+//       return {
+//         ...state,
+//         userEmojis: action.userEmojis,
+//       }
+//     }
+
+//     case 'UPDATE_FRIEND_COUNT' : {
+//       return {
+//         ...state,
+//         friendCount: action.count,
+//       }
+//     }
+
+//     case 'INCREASE_FRIEND_COUNT' : {
+//       return {
+//         ...state,
+//         friendCount: state.friendCount++,
+//       }
+//     }
+
+//     case 'UPDATE_CHAT_LOG' : {
+//       return {
+//         ...state,
+//         chatLog: action.chatLog,
+//       }
+//     }
+
+//     case 'UPDATE_CURRENT_CHAT' : {
+//       return {
+//         ...state,
+//         currentChat: action.currentChat,
+//       }
+//     }
+
+//     case 'CREATE_ROOM' : {
+//       return {
+//         ...state,
+//         room: action.room
+//       }
+//     }
+
+//     case 'SEND_SOCKET' : {
+//       return {
+//         ...state,
+//         socket: action.socket
+//       }
+//     }
+
+
+//     default : 
+
+//       return state
+
+//     }
+//   }
+
+  
+
+
 export default function userReducer (state = userInitialState, action) {
-  switch(action.type){
-    case 'USER_AUTH' :  {
-   return {
-     ...state,
-      isLoggedIn: true,
-      }
-    }
-    case 'USER_UNAUTH' : {
-      return {
-        ...state,
-         isLoggedIn: false,
-         user: {},
-         userID: ''
-       }
-    }
+  switch(action.type) {
+    case 'USER_AUTH' :
+    state = {...state, isLoggedIn: true};
+    break;
 
-    case 'TOGGLE_LOGIN' : {
-      return {
-        ...state,
-         isLoggedIn: action.isLoggedIn,
-       }
-    }
+    case 'USER_UNAUTH' : 
+    state = {...state, isLoggedIn: false, user: {}, userID: ''};
+    break;
 
-    case 'FETCHING_USER_INFO' : {
-      return {
-        ...state,
-         isFetching: true,
-       }
-    }
+    case 'TOGGLE_LOGIN' : 
+    state = {...state, isLoggedIn: action.isLoggedIn};
+    break;
 
-    case 'UPDATE_USER' : {
-     return {
-       ...state,
-        user:action.user,
-      }
-    }
+    case 'FETCHING_USER_INFO' :
+    state = {...state, isFetching: true};
+    break;
 
-    case 'UPDATE_FRIENDS' : {
-      return {
-        ...state,
-        friends: action.friends,
-      }
-    }
+    case 'UPDATE_USER' :
+    state = {...state, user: action.user};
+    break;
 
-    case 'UPDATE_ONLINE_FRIENDS' : {
-      return {
-        ...state,
-        onlineFriends: action.onlineFriends,
-      }
-    }
+    case 'UPDATE_FRIENDS' :
+    state = {...state, friends: action.friends};
+    break;
 
-    case 'UPDATE_SUGGESTED_FRIENDS' : {
-      return {
-        ...state,
-        suggestedFriends: action.suggestedFriends,
-      }
-    }
+    case 'UPDATE_ONLINE_FRIENDS' : 
+    state = {...state, onlineFriends: action.onlineFriends};
+    break;
 
-    case 'UPDATE_SEARCH' : {
-      return {
-        ...state,
-        search: action.search,
-      }
-    }
+    case 'UPDATE_SUGGESTED_FRIENDS' : 
+    state = {...state, suggestedFriends: action.suggestedFriends};
+    break;
+
+    case 'UPDATE_SEARCH' : 
+    state = {...state, search: action.search};
+    break;
 
 
-    case 'UPDATE_EMOJIS' : {
-      return {
-        ...state,
-        emojis: action.emojis,
-      }
-    }
+    case 'UPDATE_EMOJIS' :
+    state = {...state, emojis: action.emojis};
+    break;
 
-    case 'UPDATE_STORE_EMOJIS' : {
-      return {
-        ...state,
-        storeEmojis: action.storeEmojis,
-      }
-    }
+    case 'UPDATE_STORE_EMOJIS' :
+    state = {...state, storeEmojis: action.storeEmojis};
+    break;
 
-    case 'UPDATE_USER_EMOJIS' : {
-      return {
-        ...state,
-        userEmojis: action.userEmojis,
-      }
-    }
+    case 'UPDATE_USER_EMOJIS' :
+    state = {...state, userEmojis: action.userEmojis};
+    break;
 
-    case 'UPDATE_FRIEND_COUNT' : {
-      return {
-        ...state,
-        friendCount: action.count,
-      }
-    }
+    case 'UPDATE_FRIEND_COUNT' : 
+    state = {...state, friendCount: action.count};
+    break;
 
-    case 'INCREASE_FRIEND_COUNT' : {
-      return {
-        ...state,
-        friendCount: state.friendCount++,
-      }
-    }
+    case 'INCREASE_FRIEND_COUNT' : 
+    state = {...state, friendCount: state.friendCount++};
+    break;
 
-    case 'UPDATE_CHAT_LOG' : {
-      return {
-        ...state,
-        chatLog: action.chatLog,
-      }
-    }
+    case 'UPDATE_CHAT_LOG' : 
+    state = {...state, chatLog: action.chatLog};
+    break;
 
-    case 'UPDATE_CURRENT_CHAT' : {
-      return {
-        ...state,
-        currentChat: action.currentChat,
-      }
-    }
+    case 'UPDATE_CURRENT_CHAT' : 
+    state = {...state, currentChat: action.currentChat};
+    break;
 
-    case 'CREATE_ROOM' : {
-      return {
-        ...state,
-        room: action.room
-      }
-    }
-
-    case 'SEND_SOCKET' : {
-      return {
-        ...state,
-        socket: action.socket
-      }
-    }
+    case 'CREATE_ROOM' : 
+    state = {...state, room: action.room};
+    break;
 
 
-    default : 
-      return state
-
-    }
+    case 'SEND_SOCKET' : 
+    state = {...state, socket: action.socket};
+    break;
   }
+  console.log('checking the action -->', action);
+  console.log('checking state in reducer', state);
+  let {connection, socket, ...serials} = state;
+  persist('client', JSON.stringify(serials));
+  return state;
+};
+
