@@ -2,7 +2,6 @@ import React from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
-import io from 'socket.io-client'
 import * as userActions from '../../Redux/userReducer'
 import EmojiChat from './EmojiChat'
 import {emojify} from 'react-emojione';

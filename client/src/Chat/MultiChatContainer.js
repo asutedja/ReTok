@@ -1,7 +1,6 @@
 import React, { PropTypes }  from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
-import io from 'socket.io-client'
 import * as userActions from '../Redux/userReducer'
 import OnlineFriends from '../Profile/OnlineFriends/OnlineFriends.js'
 import friendTierCalculator from '../friendTierCalculator.js'

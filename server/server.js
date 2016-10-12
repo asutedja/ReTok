@@ -3,7 +3,7 @@ var GraphHTTP = require('express-graphql');
 var session = require('express-session');
 var User = require('./db/db').User;
 var Friendship = require('./db/db').Friendship;
-var Schema = require('./db/Schema');
+var Schema = require('./db/schema');
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
@@ -89,7 +89,7 @@ io.sockets.on('connection', function(socket) {
     console.log('ROOM NAME IS', user)
     socket.join(user);
   });
-  
+
   socket.on('textmessagemount', function() {
     console.log('i hit the textmessagemount.');
   });

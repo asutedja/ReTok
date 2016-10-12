@@ -2,7 +2,6 @@ import React from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
-import io from 'socket.io-client'
 import TextChat from './TextChat.js'
 import FriendsListContainer from './FriendsList/FriendsListContainer.js'
 import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
@@ -179,44 +178,9 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-
         console.log('unmounting');
-
-
-
       })
     })
-
-    // var chatLog = this.props.chatLog;
-
-    // for (var room in chatLog) {
-    //   var chatMessagesStringified = JSON.stringify(chatLog[room]);
-    //   console.log('checking room  in loop -->', room);
-    //   console.log('checking messages in loops -->', chatMessagesStringified);
-    //   let chatOptions = {
-    //     method: 'POST',
-    //     headers: myHeaders,
-    //     body: `
-    //         mutation {
-    //         addChat(room: \"${room}\" text:\"${chatMessagesStringified}\")  {
-              
-    //         }
-    //         }
-    //         `
-    //   };
-    //   fetch('/graphql', chatOptions).then((res) =>{
-    //     return res.json().then((data) => {
-    //       console.log('sending chat to server', data);
-    //     })
-    //   })
-
-    // }
-    //PSEUDOCODE
-    //loop through chatLog
-    //fire off graphql query for every Room in chatLog
-    //clear chatLog
-
-
   }
 
   handleWindowClose(){

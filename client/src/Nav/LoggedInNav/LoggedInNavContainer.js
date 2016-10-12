@@ -24,7 +24,6 @@ class LoggedInNavContainer extends React.Component {
   }
 
   componentWillMount() {
-
     var socket = io();
     console.log('socket' , socket)
     this.props.dispatch(userActions.sendSocket(socket));
