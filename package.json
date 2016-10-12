@@ -46,8 +46,6 @@
     "redux": "^3.6.0",
     "redux-localstorage": "^0.4.1",
     "redux-persist": "^4.0.0-alpha6",
-    "redux-storage": "^4.1.1",
-    "redux-storage-engine-localstorage": "^1.1.2",
     "rtcmulticonnection-v3": "^3.3.8",
     "sass-loader": "^4.0.2",
     "sequelize": "^3.24.3",
