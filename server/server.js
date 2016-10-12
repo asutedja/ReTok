@@ -29,8 +29,6 @@ var os = require('os');
 var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 
-
-app.use(cookieParser());
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
@@ -76,7 +74,6 @@ app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
       coin: user0.coin,
       gender: user0.gender
     }];
-    res.cookie('userID', userID);
     res.status(200).send(resUser);
  });
 });
