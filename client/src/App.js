@@ -2,22 +2,15 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, browserHistory } from 'react-router'
 import Routes from './Routes.js'
-import { createStore, combineReducers } from 'redux'
+import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { Provider }from 'react-redux'
 import userReducer from './Redux/userReducer'
 import uploadReducer from './Redux/uploadReducer'
-// import {tester} from 'graphql-tester';
 
-  // render(
-  //   Routes, document.getElementById('app')
-  // );
-
-
-  const reducers = combineReducers({
+  const reducers = storage.reducer(combineReducers({
     userReducer,
     uploadReducer,
-  })
-
+  }));
   // Create store that houses state-tree of app
   // Can be modified by dispatching actions on above reducers
   // (see 'redux/' for actions)
