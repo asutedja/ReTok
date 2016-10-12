@@ -7,10 +7,10 @@ import { Provider }from 'react-redux'
 import userReducer from './Redux/userReducer'
 import uploadReducer from './Redux/uploadReducer'
 
-  const reducers = storage.reducer(combineReducers({
+  const reducers = combineReducers({
     userReducer,
     uploadReducer,
-  }));
+  })
   // Create store that houses state-tree of app
   // Can be modified by dispatching actions on above reducers
   // (see 'redux/' for actions)
