@@ -3,6 +3,7 @@ import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import * as userActions from '../Redux/userReducer'
 import OnlineFriends from '../Profile/OnlineFriends/OnlineFriends.js'
+import SuggestedFriends from '../Profile/Suggested/SuggestedFriends.js'
 import friendTierCalculator from '../friendTierCalculator.js'
 import updateHelper from '../updateHelper.js'
 import EmojiChatContainer from '../TextChat/EmojiChatContainer/EmojiChatContainer.js'
@@ -199,6 +200,10 @@ class MultiChatContainer extends React.Component {
           {this.props.onlineFriends.map((item, index) => <OnlineFriends key={index} friend={item} videoChat={this.videoChat.bind(this)}/>)}
         </div>
 
+        <div>
+        {this.props.suggestedFriends.map((item, index) => <SuggestedFriends key={index} friend={item} videoChat={this.videoChat.bind(this)}/>)}
+        </div>
+
       </div>
       )
 
@@ -217,7 +222,8 @@ function mapStateToProps(state) {
     user: state.userReducer.user,
     room: state.userReducer.room,
     socket: state.userReducer.socket,
-    onlineFriends: state.userReducer.onlineFriends
+    onlineFriends: state.userReducer.onlineFriends,
+    suggestedFriends: state.userReducer.suggestedFriends
   }
 }
 
