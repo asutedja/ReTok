@@ -19,55 +19,40 @@ class StoreContainer extends React.Component {
 
 		    if(!res.data) {
 		      console.log('no session...redirecting to sign up page');
-var socket = this.props.socket;
-    axios.get('/logout').then( () => {
-    this.props.dispatch(userActions.toggleLogIn(false));
+		          var socket = context.props.socket;
+		          axios.get('/logout').then( () => {
+		          context.props.dispatch(userActions.toggleLogIn(false));
 
-    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-    let options = {
+		          let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+		          let options = {
 
-      method: 'POST',
-      headers: myHeaders,
-      body: `mutation
-        {
-          updateUser(username:"${this.props.user.username}" online: false) 
-          {
-            username
-            online
-          }
-        }`
-    };
-    fetch('/graphql', options).then((res) =>{
-      return res.json().then((data) => {
-	  socket.emit('updateFriends', this.props.friends);
-          socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
-	  socket.disconnect()
-          this.props.dispatch(userActions.sendSocket(null))
-          this.context.router.push('/')
-	           
-        })
-    })
-    .catch((error) => console.log(error))
- })
-  .catch( (error) => console.log(error))
-    })
-    .catch((error) => console.log(error))
-		    }
-		  })
-
-		// var emojis = this.props.emojis.slice();
-		// var userEmojis = this.props.userEmojis.slice();
-
-		// for (var i = 0; i < emojis.length; i++) {
-		// 		var storeEmoji = JSON.stringify(emojis[i]);
-		// 	for (var j = 0; j < userEmojis.length; j++) {
-		// 		var userEmoji = JSON.stringify(userEmojis[j]);
-		// 		if (userEmoji === storeEmoji) {
-		// 			emojis[i]['purchased'] = true;
-		// 		}
-		// 	}
-		// }
-		// this.props.dispatch(userActions.updateEmojis(emojis));
+		            method: 'POST',
+		            headers: myHeaders,
+		            body: `mutation
+		              {
+		                updateUser(username:"${context.props.user.username}" online: false) 
+		                {
+		                  username
+		                  online
+		                }
+		              }`
+		          };
+		          fetch('/graphql', options).then((res) =>{
+		            return res.json().then((data) => {
+		          socket.emit('updateFriends', context.props.friends);
+		                socket.emit('endTextChat', context.props.user.username, context.props.user.coin);
+		                socket.disconnect()
+		                context.props.dispatch(userActions.sendSocket(null))
+		                context.context.router.push('/')
+		              })
+		          })
+		          .catch((error) => console.log(error))
+		       })
+		        .catch( (error) => console.log(error))
+		      }
+		 })     
+		.catch((error) => console.log(error))
+		
 		let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
 		let options = {
 
@@ -121,9 +106,6 @@ var socket = this.props.socket;
 		
 
 	}
-
-
-	//TODO: Finish Store:
 	render() {
 		return (
 			<div>
@@ -139,7 +121,6 @@ var socket = this.props.socket;
 
 function mapStateToProps(state) {
   return {
-  		//TODO: Configure server and database to know what kind of object I get back for emojis
   	 emojis: state.userReducer.emojis,
   	 user: state.userReducer.user,
   	 userEmojis: state.userReducer.userEmojis,

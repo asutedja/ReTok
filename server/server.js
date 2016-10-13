@@ -7,15 +7,14 @@ var Schema = require('./db/schema');
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
+var Schema = require('./db/schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
 var bodyParser = require('body-parser');
 var sockets = {};
-
 var cors = require('cors');
 require('./auth/auth');
-
 var fs = require('fs');
 var https = require('https');
 var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
@@ -27,22 +26,24 @@ var httpsServer = https.createServer(credentials, app);
 var os = require('os');
 var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
-var cookieParser = require('cookie-parser');
 
-app.use(cookieParser());
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
-app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
+app.use(session({secret: 'lets ReTok'}));
 
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors());
-
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
-
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
+
+app.use('/graphql', GraphHTTP({
+  schema: Schema,
+  pretty: true,
+  graphiql: true
+}));
 
 app.get('/auth', function(req, res) {
   var authUser = true;
@@ -52,12 +53,6 @@ app.get('/auth', function(req, res) {
     res.send(authUser);
   }
 });
-
-app.use('/graphql', GraphHTTP({
-  schema: Schema,
-  pretty: true,
-  graphiql: true
-}));
 
 app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
   var userID = req.session.passport.user;
@@ -75,7 +70,6 @@ app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
       coin: user0.coin,
       gender: user0.gender
     }];
-    res.cookie('userID', userID);
     res.status(200).send(resUser);
  });
 });
@@ -190,7 +184,7 @@ io.sockets.on('connection', function(socket) {
     var friends = [];
     Db.User.findAll({where: {username: socket.name}})
       .then(function(user){
-        if(user[0]) {
+        if(user[0].id) {
           myself = user;
           return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
         }
@@ -240,5 +234,10 @@ app.get('*', function(req, res) {
   res.redirect('/');
 })
 
+
+http.listen(port, function(data) {
+  console.log('listening on ' + port);
+
+});
 
 httpsServer.listen(8443);

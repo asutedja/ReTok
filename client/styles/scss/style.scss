@@ -389,6 +389,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   padding-top: 5px;
   padding-botton:5px; 
 }
+.chatFriendsHeader{
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  padding-top: 5px;
+  padding-botton:5px; 
+}
 
 .chatFriendsListEntry{
 display: flex;
@@ -413,19 +420,15 @@ border-bottom-right-radius: 6px;
 
 .oneFriendChatImage {
   display: block;
-
   border-radius: 3px;
   border: 1px solid white;
   width: 10%;
   margin: 1.655%;
   margin-right: 5%;
-
 }
-
 
 .oneFriendChatImageWrapper {
   width: 0;
-
   padding-bottom: 100%;
   overflow: hidden;
 }
@@ -539,12 +542,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   list-style-type: none;
 }
 
-.emojiChatContainer{
-  border: 1px solid black;
+.emojiChatContainer {
   background-color: white;
   margin-top: 2%;
   margin-bottom: 2%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   height: 100px;
 
@@ -553,9 +556,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 .oneEmojiChat{
   margin: 2%;
 }
+.EmojiListChat{
+  margin: 5%;
+  background-color:white;
+  border-radius: 5px;
+  padding: 2%;
+}
 
 .emojiChatWrapper {
+  margin: 2%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-size: 3rem;
 }
