@@ -234,6 +234,12 @@ class TextChatContainer extends React.Component {
   }
 
 
+  goToUploadView() {
+
+    this.context.router.push('/upload');
+  }
+
+
   render() {
 
     const divStyle = {
@@ -281,7 +287,7 @@ class TextChatContainer extends React.Component {
     } else {
       chatInputWindow = <div className = "chatProfile">
       <div className ="chatProfileInfo">
-        <div className = "oneFriend" style={divStyle}>
+        <div className = "oneFriend" style={divStyle} onClick={()=>{this.goToUploadView();}}>
           <div className="oneFriendWrapper">
           </div>
         </div>

@@ -11258,7 +11258,7 @@ var LoginContainer = function (_React$Component) {
 
 				if (res.data) {
 					console.log('go through to auth');
-					context.context.router.push('/profile');
+					context.context.router.push('/text');
 				} else {
 					context.props.dispatch(userActions.userUnauth());
 				}
@@ -30394,7 +30394,7 @@ var LoggedInNav = function LoggedInNav(props) {
     { className: 'mainNav' },
     _react2.default.createElement(
       _reactRouter.Link,
-      { to: '/profile', className: 'logo' },
+      { to: '/text', className: 'logo' },
       'ReTok'
     ),
     _react2.default.createElement(
@@ -30418,11 +30418,6 @@ var LoggedInNav = function LoggedInNav(props) {
       _reactRouter.Link,
       { to: '/store' },
       'Store'
-    ),
-    _react2.default.createElement(
-      _reactRouter.Link,
-      { to: '/text' },
-      'Text'
     ),
     _react2.default.createElement(
       _reactRouter.Link,
@@ -30875,12 +30870,12 @@ var LoggedOutNavContainer = function (_React$Component) {
                   _this2.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends));
                   _this2.props.dispatch(userActions.updateFriendCount(friends.length));
                   console.log('user name', username);
-                  _this2.context.router.push('/profile');
+                  _this2.context.router.push('/text');
                 } else {
                   _this2.props.dispatch(userActions.updateFriends([]));
                   _this2.props.dispatch(userActions.updateOnlineFriends([]));
                   _this2.props.dispatch(userActions.updateFriendCount(0));
-                  _this2.context.router.push('/profile');
+                  _this2.context.router.push('/text');
                 }
               });
             });
@@ -31098,7 +31093,7 @@ var PhotoUploadContainer = function (_React$Component) {
         console.log('checking my user now', _this3.props.user);
         _this3.props.dispatch(userActions.userAuth());
 
-        context.context.router.push('/profile');
+        context.context.router.push('/text');
       });
     }
   }, {
@@ -33090,6 +33085,22 @@ var FriendsListContainer = function (_React$Component) {
             _react2.default.createElement(
               'b',
               null,
+              'Suggested: '
+            )
+          )
+        ),
+        this.props.suggestedFriends.map(function (item, index) {
+          return _react2.default.createElement(_FriendsListEntry2.default, { key: index, videoChat: _this2.videoChat.bind(_this2), friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
+        }),
+        _react2.default.createElement(
+          'div',
+          { className: 'chatFriendsHeader' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
               'Online: '
             )
           )
@@ -33131,7 +33142,8 @@ function mapStateToProps(state) {
     onlineFriends: state.userReducer.onlineFriends,
     chatLog: state.userReducer.chatLog,
     currentChat: state.userReducer.currentChat,
-    friendCount: state.userReducer.friendCount
+    friendCount: state.userReducer.friendCount,
+    suggestedFriends: state.userReducer.suggestedFriends
   };
 }
 
@@ -33589,6 +33601,12 @@ var TextChatContainer = function (_React$Component) {
       this.props.dispatch(userActions.createRoom(this.props.user.username));
     }
   }, {
+    key: 'goToUploadView',
+    value: function goToUploadView() {
+
+      this.context.router.push('/upload');
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -33680,7 +33698,9 @@ var TextChatContainer = function (_React$Component) {
             { className: 'chatProfileInfo' },
             _react2.default.createElement(
               'div',
-              { className: 'oneFriend', style: divStyle },
+              { className: 'oneFriend', style: divStyle, onClick: function onClick() {
+                  _this2.goToUploadView();
+                } },
               _react2.default.createElement('div', { className: 'oneFriendWrapper' })
             )
           ),
