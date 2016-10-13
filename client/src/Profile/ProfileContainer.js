@@ -19,36 +19,9 @@ class ProfileContainer extends React.Component {
     axios.get('/auth')
       .then(function(res) {
         console.log('checking auth res data',res.data);
-
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-            var socket = context.props.socket;
-    axios.get('/logout');
-    this.props.dispatch(userActions.toggleLogIn(false));
-
-    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-    let options = {
-
-      method: 'POST',
-      headers: myHeaders,
-      body: `mutation
-        {
-          updateUser(username:"${this.props.user.username}" online: false) 
-          {
-            username
-            online
-          }
-        }`
-    };
-    fetch('/graphql', options).then((res) =>{
-      return res.json().then((data) => {
-          socket.emit('updateFriends', context.props.friends);
-          socket.disconnect()
-          context.props.dispatch(userActions.sendSocket(null))
-          context.context.router.push('/')
-        })
-    })
-    .catch((error) => console.log(error)) 
+          context.context.router.push('/');
         }
       })
 
@@ -78,7 +51,6 @@ class ProfileContainer extends React.Component {
   }
 }
 
-//testing1234
 function mapStateToProps(state) {
   return {
     isLoggedIn: state.userReducer.isLoggedIn,
