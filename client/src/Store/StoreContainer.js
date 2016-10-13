@@ -19,9 +19,9 @@ class StoreContainer extends React.Component {
 
 		    if(!res.data) {
 		      console.log('no session...redirecting to sign up page');
-		          var socket = context.props.socket;
-    axios.get('/logout');
-    context.props.dispatch(userActions.toggleLogIn(false));
+var socket = this.props.socket;
+    axios.get('/logout').then( () => {
+    this.props.dispatch(userActions.toggleLogIn(false));
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
@@ -39,11 +39,17 @@ class StoreContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-          socket.emit('updateFriends', context.props.friends);
-          socket.disconnect()
-          context.props.dispatch(userActions.sendSocket(null))
-          context.context.router.push('/')
+	  socket.emit('updateFriends', this.props.friends);
+          socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
+	  socket.disconnect()
+          this.props.dispatch(userActions.sendSocket(null))
+          this.context.router.push('/')
+	           
         })
+    })
+    .catch((error) => console.log(error))
+ })
+  .catch( (error) => console.log(error))
     })
     .catch((error) => console.log(error))
 		    }
