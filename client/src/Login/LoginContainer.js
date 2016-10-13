@@ -28,6 +28,7 @@ class LoginContainer extends React.Component {
 		    	context.props.dispatch(userActions.userUnauth());
 		    }
 		  })
+
 	}
 
 	signUp(user, password, firstName, lastName, email) {
@@ -36,8 +37,10 @@ class LoginContainer extends React.Component {
 			comma: false
 		})
 		if(!user.includes(',') && !user.includes(':') && !user.includes('^') && !user.includes('#')) {
+
 			console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
 			var userInfo = {username: user, password: password};
+
 
 			let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
 			let options = {

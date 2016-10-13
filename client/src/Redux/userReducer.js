@@ -121,7 +121,6 @@ export function sendSocket(socket) {
 
 // ----- SET USER REDUCER INITIAL STATE ------ //
 
-
 let persist = (key, value) => localStorage.setItem(key, value);
 
 let restore = (key, def) => localStorage.getItem(key) || def;

@@ -7,6 +7,7 @@ var Schema = require('./db/schema');
 var app = express();
 var http = require('http').Server(app); //Should be https.  Change later after testing
 var port = process.env.PORT || 3000;
+var Schema = require('./db/schema');
 var passport = require('passport');
 var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
@@ -29,6 +30,7 @@ require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
 app.use(session({secret: 'lets ReTok'}));
+
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors());
@@ -36,6 +38,7 @@ var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
+
 app.use('/graphql', GraphHTTP({
   schema: Schema,
   pretty: true,
@@ -181,7 +184,7 @@ io.sockets.on('connection', function(socket) {
     var friends = [];
     Db.User.findAll({where: {username: socket.name}})
       .then(function(user){
-        if(user[0]) {
+        if(user[0].id) {
           myself = user;
           return Db.sequelize.query("SELECT `FriendTwo`.`id` , `FriendTwo`.`username`, `FriendTwo`.`firstName`, `FriendTwo`.`lastName`, `FriendTwo`.`email`, `FriendTwo`.`dob`, `FriendTwo`.`gender`, `FriendTwo`.`profilePic`, `FriendTwo`.`coin`, `FriendTwo`.`online`, `FriendTwo`.`createdAt`, `FriendTwo`.`updatedAt`, `FriendTwo.Friendship`.`relationship`, `FriendTwo.Friendship`.`textChatCount`, `FriendTwo.Friendship`.`videoChatCount`, `FriendTwo.Friendship`.`lastChatTime`, `FriendTwo.Friendship`.`createdAt`, `FriendTwo.Friendship`.`updatedAt`, `FriendTwo.Friendship`.`userOne`, `FriendTwo.Friendship`.`userTwo` FROM `Users` AS `User` LEFT OUTER JOIN (`Friendships` AS `FriendTwo.Friendship` INNER JOIN `Users` AS `FriendTwo` ON `FriendTwo`.`id` = `FriendTwo.Friendship`.`userTwo`) ON `User`.`id` = `FriendTwo.Friendship`.`userOne` WHERE `FriendTwo.Friendship`.`userOne` ="+user[0].id+";");
         }

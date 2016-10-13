@@ -10,7 +10,7 @@ import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
 // import { _.escape, _.unescape, escapeMap ,unescapeMap} from 'underscore'
 import * as userActions from '../Redux/userReducer'
-
+ 
 class TextChatContainer extends React.Component {
 
   constructor(props) {
@@ -23,9 +23,6 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
-
-
-
     var context = this;
     axios.get('/auth')
       .then(function(res) {
@@ -33,14 +30,45 @@ class TextChatContainer extends React.Component {
 
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-          context.context.router.push('/');
-        }
-      })
+              var socket = context.props.socket;
+              axios.get('/logout').then( () => {
+              context.props.dispatch(userActions.toggleLogIn(false));
+
+              let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+              let options = {
+
+                method: 'POST',
+                headers: myHeaders,
+                body: `mutation
+                  {
+                    updateUser(username:"${context.props.user.username}" online: false) 
+                    {
+                      username
+                      online
+                    }
+                  }`
+              };
+              fetch('/graphql', options).then((res) =>{
+                return res.json().then((data) => {
+              socket.emit('updateFriends', context.props.friends);
+                    socket.emit('endTextChat', context.props.user.username, context.props.user.coin);
+                    socket.disconnect()
+                    context.props.dispatch(userActions.sendSocket(null))
+                    context.context.router.push('/')
+                  })
+              })
+              .catch((error) => console.log(error))
+           })
+            .catch( (error) => console.log(error))
+          }
+     })     
+    .catch((error) => console.log(error))
 
     var socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
     var username = this.props.user.username    
+
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
     var context = this;
 
@@ -190,12 +218,6 @@ class TextChatContainer extends React.Component {
       alert("Alerted Browser Close");
   }
   sendChat(message) {
-
-
-
-
-
-
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
     this.props.dispatch(userActions.updateUser(userCopy));
@@ -203,8 +225,6 @@ class TextChatContainer extends React.Component {
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
     const emojiEscapedString = encodeURI(unicodeToShort(message));
-
-    console.log('check encoded URI string', emojiEscapedString);
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let chatOptions = {
       method: 'POST',
@@ -222,7 +242,6 @@ class TextChatContainer extends React.Component {
         console.log('sending chat to Redis');
       })
     })
-
   }
 
 
