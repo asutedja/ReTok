@@ -150,32 +150,13 @@ class TextChatContainer extends React.Component {
     var socket = this.props.socket;
     var clearChat = [];
 
-
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
+
+    //update coin at db
+    socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
 
     socket.removeAllListeners("joinRoomSuccess");
     socket.removeAllListeners("textmessagereceived");
-
-    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-    let options = {
-
-      method: 'POST',
-      headers: myHeaders,
-      body: `
-          mutation {
-          updateUser(username: \"${this.props.user.username}\" coin:${this.props.user.coin})  {
-            username
-          }
-          }
-          `
-
-    };
-    fetch('/graphql', options).then((res) =>{
-      return res.json().then((data) => {
-        console.log('unmounting');
-      })
-    })
-
   }
 
   handleWindowClose(){

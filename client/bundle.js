@@ -61,7 +61,11 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /******/ 	return __webpack_require__(__webpack_require__.s = 673);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 603);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,7 +75,7 @@
 "use strict";
 'use strict';
 
-module.exports = __webpack_require__(574);
+module.exports = __webpack_require__(531);
 ;
 
 var _temp = function () {
@@ -341,6 +345,7 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _setPrototypeOf = __webpack_require__(350);
 
 var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
@@ -350,6 +355,17 @@ var _create = __webpack_require__(349);
 var _create2 = _interopRequireDefault(_create);
 
 var _typeof2 = __webpack_require__(113);
+=======
+var _setPrototypeOf = __webpack_require__(316);
+
+var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
+
+var _create = __webpack_require__(315);
+
+var _create2 = _interopRequireDefault(_create);
+
+var _typeof2 = __webpack_require__(104);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -399,7 +415,11 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _typeof2 = __webpack_require__(113);
+=======
+var _typeof2 = __webpack_require__(104);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -437,7 +457,11 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _assign = __webpack_require__(184);
+=======
+var _assign = __webpack_require__(165);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -550,7 +574,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	if (typeof module !== 'undefined' && module.exports) {
 		module.exports = classNames;
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 	} else if ("function" === 'function' && _typeof(__webpack_require__(110)) === 'object' && __webpack_require__(110)) {
+=======
+	} else if ("function" === 'function' && _typeof(__webpack_require__(259)) === 'object' && __webpack_require__(259)) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 		// register as 'classnames', consistent with npm package name
 		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
 			return classNames;
@@ -586,7 +614,11 @@ exports.splitBsProps = splitBsProps;
 exports.splitBsPropsAndOmit = splitBsPropsAndOmit;
 exports.addStyle = addStyle;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _entries = __webpack_require__(185);
+=======
+var _entries = __webpack_require__(166);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _entries2 = _interopRequireDefault(_entries);
 
@@ -600,7 +632,7 @@ var _invariant2 = _interopRequireDefault(_invariant);
 
 var _react = __webpack_require__(0);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -908,7 +940,7 @@ var _temp = function () {
 
 'use strict';
 
-var emptyFunction = __webpack_require__(30);
+var emptyFunction = __webpack_require__(29);
 
 /**
  * Similar to invariant but only logs a warning if the condition is not met.
@@ -1044,7 +1076,29 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(reactProdInvariant, 'reactProdInvariant', '/Users/Rob/hackreactor/ReTok/node_modules/react/lib/reactProdInvariant.js');
+=======
+  __REACT_HOT_LOADER__.register(reactProdInvariant, 'reactProdInvariant', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/reactProdInvariant.js');
+}();
+
+;
+
+/***/ },
+/* 12 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+module.exports = __webpack_require__(536);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
@@ -1070,7 +1124,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createChainableTypeChecker = __webpack_require__(99);
+=======
+var _createChainableTypeChecker = __webpack_require__(91);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -1230,7 +1288,11 @@ var _temp = function () {
 exports.__esModule = true;
 exports.createMemoryHistory = exports.hashHistory = exports.browserHistory = exports.applyRouterMiddleware = exports.formatPattern = exports.useRouterHistory = exports.match = exports.routerShape = exports.locationShape = exports.PropTypes = exports.RoutingContext = exports.RouterContext = exports.createRoutes = exports.useRoutes = exports.RouteContext = exports.Lifecycle = exports.History = exports.Route = exports.Redirect = exports.IndexRoute = exports.IndexRedirect = exports.withRouter = exports.IndexLink = exports.Link = exports.Router = undefined;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouteUtils = __webpack_require__(48);
+=======
+var _RouteUtils = __webpack_require__(44);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 Object.defineProperty(exports, 'createRoutes', {
   enumerable: true,
@@ -1239,7 +1301,11 @@ Object.defineProperty(exports, 'createRoutes', {
   }
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PropTypes2 = __webpack_require__(146);
+=======
+var _PropTypes2 = __webpack_require__(135);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 Object.defineProperty(exports, 'locationShape', {
   enumerable: true,
@@ -1254,7 +1320,11 @@ Object.defineProperty(exports, 'routerShape', {
   }
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PatternUtils = __webpack_require__(68);
+=======
+var _PatternUtils = __webpack_require__(61);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 Object.defineProperty(exports, 'formatPattern', {
   enumerable: true,
@@ -1263,85 +1333,105 @@ Object.defineProperty(exports, 'formatPattern', {
   }
 });
 
-var _Router2 = __webpack_require__(551);
+var _Router2 = __webpack_require__(508);
 
 var _Router3 = _interopRequireDefault(_Router2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Link2 = __webpack_require__(243);
+=======
+var _Link2 = __webpack_require__(221);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Link3 = _interopRequireDefault(_Link2);
 
-var _IndexLink2 = __webpack_require__(545);
+var _IndexLink2 = __webpack_require__(502);
 
 var _IndexLink3 = _interopRequireDefault(_IndexLink2);
 
-var _withRouter2 = __webpack_require__(564);
+var _withRouter2 = __webpack_require__(521);
 
 var _withRouter3 = _interopRequireDefault(_withRouter2);
 
-var _IndexRedirect2 = __webpack_require__(546);
+var _IndexRedirect2 = __webpack_require__(503);
 
 var _IndexRedirect3 = _interopRequireDefault(_IndexRedirect2);
 
-var _IndexRoute2 = __webpack_require__(547);
+var _IndexRoute2 = __webpack_require__(504);
 
 var _IndexRoute3 = _interopRequireDefault(_IndexRoute2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Redirect2 = __webpack_require__(244);
+=======
+var _Redirect2 = __webpack_require__(222);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Redirect3 = _interopRequireDefault(_Redirect2);
 
-var _Route2 = __webpack_require__(549);
+var _Route2 = __webpack_require__(506);
 
 var _Route3 = _interopRequireDefault(_Route2);
 
-var _History2 = __webpack_require__(544);
+var _History2 = __webpack_require__(501);
 
 var _History3 = _interopRequireDefault(_History2);
 
-var _Lifecycle2 = __webpack_require__(548);
+var _Lifecycle2 = __webpack_require__(505);
 
 var _Lifecycle3 = _interopRequireDefault(_Lifecycle2);
 
-var _RouteContext2 = __webpack_require__(550);
+var _RouteContext2 = __webpack_require__(507);
 
 var _RouteContext3 = _interopRequireDefault(_RouteContext2);
 
-var _useRoutes2 = __webpack_require__(563);
+var _useRoutes2 = __webpack_require__(520);
 
 var _useRoutes3 = _interopRequireDefault(_useRoutes2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouterContext2 = __webpack_require__(100);
+=======
+var _RouterContext2 = __webpack_require__(92);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _RouterContext3 = _interopRequireDefault(_RouterContext2);
 
-var _RoutingContext2 = __webpack_require__(552);
+var _RoutingContext2 = __webpack_require__(509);
 
 var _RoutingContext3 = _interopRequireDefault(_RoutingContext2);
 
 var _PropTypes3 = _interopRequireDefault(_PropTypes2);
 
-var _match2 = __webpack_require__(561);
+var _match2 = __webpack_require__(518);
 
 var _match3 = _interopRequireDefault(_match2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _useRouterHistory2 = __webpack_require__(249);
+=======
+var _useRouterHistory2 = __webpack_require__(227);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _useRouterHistory3 = _interopRequireDefault(_useRouterHistory2);
 
-var _applyRouterMiddleware2 = __webpack_require__(554);
+var _applyRouterMiddleware2 = __webpack_require__(511);
 
 var _applyRouterMiddleware3 = _interopRequireDefault(_applyRouterMiddleware2);
 
-var _browserHistory2 = __webpack_require__(555);
+var _browserHistory2 = __webpack_require__(512);
 
 var _browserHistory3 = _interopRequireDefault(_browserHistory2);
 
-var _hashHistory2 = __webpack_require__(559);
+var _hashHistory2 = __webpack_require__(516);
 
 var _hashHistory3 = _interopRequireDefault(_hashHistory2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createMemoryHistory2 = __webpack_require__(246);
+=======
+var _createMemoryHistory2 = __webpack_require__(224);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createMemoryHistory3 = _interopRequireDefault(_createMemoryHistory2);
 
@@ -1936,16 +2026,311 @@ var _temp = function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
+/* WEBPACK VAR INJECTION */(function(process) {/**
+ * Copyright 2013-present, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ *
+ * @providesModule ReactDOMComponentTree
+ */
+
+'use strict';
+
+var _prodInvariant = __webpack_require__(11);
+
+var DOMProperty = __webpack_require__(52);
+var ReactDOMComponentFlags = __webpack_require__(233);
+
+var invariant = __webpack_require__(9);
+
+var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
+var Flags = ReactDOMComponentFlags;
+
+var internalInstanceKey = '__reactInternalInstance$' + Math.random().toString(36).slice(2);
+
+/**
+ * Drill down (through composites and empty components) until we get a host or
+ * host text component.
+ *
+ * This is pretty polymorphic but unavoidable with the current structure we have
+ * for `_renderedChildren`.
+ */
+function getRenderedHostOrTextFromComponent(component) {
+  var rendered;
+  while (rendered = component._renderedComponent) {
+    component = rendered;
+  }
+  return component;
+}
+
+/**
+ * Populate `_hostNode` on the rendered host/text component with the given
+ * DOM node. The passed `inst` can be a composite.
+ */
+function precacheNode(inst, node) {
+  var hostInst = getRenderedHostOrTextFromComponent(inst);
+  hostInst._hostNode = node;
+  node[internalInstanceKey] = hostInst;
+}
+
+function uncacheNode(inst) {
+  var node = inst._hostNode;
+  if (node) {
+    delete node[internalInstanceKey];
+    inst._hostNode = null;
+  }
+}
+
+/**
+ * Populate `_hostNode` on each child of `inst`, assuming that the children
+ * match up with the DOM (element) children of `node`.
+ *
+ * We cache entire levels at once to avoid an n^2 problem where we access the
+ * children of a node sequentially and have to walk from the start to our target
+ * node every time.
+ *
+ * Since we update `_renderedChildren` and the actual DOM at (slightly)
+ * different times, we could race here and see a newer `_renderedChildren` than
+ * the DOM nodes we see. To avoid this, ReactMultiChild calls
+ * `prepareToManageChildren` before we change `_renderedChildren`, at which
+ * time the container's child nodes are always cached (until it unmounts).
+ */
+function precacheChildNodes(inst, node) {
+  if (inst._flags & Flags.hasCachedChildNodes) {
+    return;
+  }
+  var children = inst._renderedChildren;
+  var childNode = node.firstChild;
+  outer: for (var name in children) {
+    if (!children.hasOwnProperty(name)) {
+      continue;
+    }
+    var childInst = children[name];
+    var childID = getRenderedHostOrTextFromComponent(childInst)._domID;
+    if (childID === 0) {
+      // We're currently unmounting this child in ReactMultiChild; skip it.
+      continue;
+    }
+    // We assume the child nodes are in the same order as the child instances.
+    for (; childNode !== null; childNode = childNode.nextSibling) {
+      if (childNode.nodeType === 1 && childNode.getAttribute(ATTR_NAME) === String(childID) || childNode.nodeType === 8 && childNode.nodeValue === ' react-text: ' + childID + ' ' || childNode.nodeType === 8 && childNode.nodeValue === ' react-empty: ' + childID + ' ') {
+        precacheNode(childInst, childNode);
+        continue outer;
+      }
+    }
+    // We reached the end of the DOM children without finding an ID match.
+     true ? process.env.NODE_ENV !== 'production' ? invariant(false, 'Unable to find element with ID %s.', childID) : _prodInvariant('32', childID) : void 0;
+  }
+  inst._flags |= Flags.hasCachedChildNodes;
+}
+
+/**
+ * Given a DOM node, return the closest ReactDOMComponent or
+ * ReactDOMTextComponent instance ancestor.
+ */
+function getClosestInstanceFromNode(node) {
+  if (node[internalInstanceKey]) {
+    return node[internalInstanceKey];
+  }
+
+  // Walk up the tree until we find an ancestor whose instance we have cached.
+  var parents = [];
+  while (!node[internalInstanceKey]) {
+    parents.push(node);
+    if (node.parentNode) {
+      node = node.parentNode;
+    } else {
+      // Top of the tree. This node must not be part of a React tree (or is
+      // unmounted, potentially).
+      return null;
+    }
+  }
+
+  var closest;
+  var inst;
+  for (; node && (inst = node[internalInstanceKey]); node = parents.pop()) {
+    closest = inst;
+    if (parents.length) {
+      precacheChildNodes(inst, node);
+    }
+  }
+
+  return closest;
+}
+
+/**
+ * Given a DOM node, return the ReactDOMComponent or ReactDOMTextComponent
+ * instance, or null if the node was not rendered by this React.
+ */
+function getInstanceFromNode(node) {
+  var inst = getClosestInstanceFromNode(node);
+  if (inst != null && inst._hostNode === node) {
+    return inst;
+  } else {
+    return null;
+  }
+}
+
+/**
+ * Given a ReactDOMComponent or ReactDOMTextComponent, return the corresponding
+ * DOM node.
+ */
+function getNodeFromInstance(inst) {
+  // Without this first invariant, passing a non-DOM-component triggers the next
+  // invariant for a missing parent, which is super confusing.
+  !(inst._hostNode !== undefined) ? process.env.NODE_ENV !== 'production' ? invariant(false, 'getNodeFromInstance: Invalid argument.') : _prodInvariant('33') : void 0;
+
+  if (inst._hostNode) {
+    return inst._hostNode;
+  }
+
+  // Walk up the tree until we find an ancestor whose DOM node we have cached.
+  var parents = [];
+  while (!inst._hostNode) {
+    parents.push(inst);
+    !inst._hostParent ? process.env.NODE_ENV !== 'production' ? invariant(false, 'React DOM tree root should always have a node reference.') : _prodInvariant('34') : void 0;
+    inst = inst._hostParent;
+  }
+
+  // Now parents contains each ancestor that does *not* have a cached native
+  // node, and `inst` is the deepest ancestor that does.
+  for (; parents.length; inst = parents.pop()) {
+    precacheChildNodes(inst, inst._hostNode);
+  }
+
+  return inst._hostNode;
+}
+
+var ReactDOMComponentTree = {
+  getClosestInstanceFromNode: getClosestInstanceFromNode,
+  getInstanceFromNode: getInstanceFromNode,
+  getNodeFromInstance: getNodeFromInstance,
+  precacheChildNodes: precacheChildNodes,
+  precacheNode: precacheNode,
+  uncacheNode: uncacheNode
+};
+
+module.exports = ReactDOMComponentTree;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ATTR_NAME, 'ATTR_NAME', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(Flags, 'Flags', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(internalInstanceKey, 'internalInstanceKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(getRenderedHostOrTextFromComponent, 'getRenderedHostOrTextFromComponent', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(precacheNode, 'precacheNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(uncacheNode, 'uncacheNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(precacheChildNodes, 'precacheChildNodes', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(getClosestInstanceFromNode, 'getClosestInstanceFromNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(getInstanceFromNode, 'getInstanceFromNode', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(getNodeFromInstance, 'getNodeFromInstance', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+
+  __REACT_HOT_LOADER__.register(ReactDOMComponentTree, 'ReactDOMComponentTree', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/ReactDOMComponentTree.js');
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {/**
+ * Copyright 2013-2015, Facebook, Inc.
+ * All rights reserved.
+ *
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
+ */
+
+'use strict';
+
+/**
+ * Use invariant() to assert state which your program assumes to be true.
+ *
+ * Provide sprintf-style format (only %s is supported) and arguments
+ * to provide information about what broke and what you were
+ * expecting.
+ *
+ * The invariant message will be stripped in production, but the invariant
+ * will remain to ensure logic does not differ in production.
+ */
+
+var invariant = function invariant(condition, format, a, b, c, d, e, f) {
+  if (process.env.NODE_ENV !== 'production') {
+    if (format === undefined) {
+      throw new Error('invariant requires an error message argument');
+    }
+  }
+
+  if (!condition) {
+    var error;
+    if (format === undefined) {
+      error = new Error('Minified exception occurred; use the non-minified dev environment ' + 'for the full error message and additional helpful warnings.');
+    } else {
+      var args = [a, b, c, d, e, f];
+      var argIndex = 0;
+      error = new Error(format.replace(/%s/g, function () {
+        return args[argIndex++];
+      }));
+      error.name = 'Invariant Violation';
+    }
+
+    error.framesToPop = 1; // we don't care about invariant's own frame
+    throw error;
+  }
+};
+
+module.exports = invariant;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(invariant, 'invariant', '/Users/Michael/HR/Thesis/ReTok/node_modules/invariant/browser.js');
+}();
+
+;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+
+/***/ },
+/* 19 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 'use strict';
 
 exports.__esModule = true;
 exports.connect = exports.Provider = undefined;
 
-var _Provider = __webpack_require__(536);
+var _Provider = __webpack_require__(493);
 
 var _Provider2 = _interopRequireDefault(_Provider);
 
-var _connect = __webpack_require__(537);
+var _connect = __webpack_require__(494);
 
 var _connect2 = _interopRequireDefault(_connect);
 
@@ -2328,7 +2713,7 @@ exports.__esModule = true;
 exports.default = routerWarning;
 exports._resetWarned = _resetWarned;
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -2461,7 +2846,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 24 */
+/* 23 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -2523,12 +2908,18 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 25 */
 /***/ function(module, exports) {
+=======
+/* 24 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 "use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = function (module) {
 	if (!module.webpackPolyfill) {
 		module.deprecate = function () {};
@@ -2553,6 +2944,9 @@ module.exports = function (module) {
 	}
 	return module;
 };
+=======
+module.exports = __webpack_require__(297);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -2564,7 +2958,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 26 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2791,7 +3185,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 27 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2799,7 +3193,11 @@ var _temp = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var bind = __webpack_require__(183);
+=======
+var bind = __webpack_require__(164);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /*global toString:true*/
 
@@ -3143,7 +3541,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 28 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3163,7 +3561,7 @@ var _temp = function () {
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactDebugTool = __webpack_require__(595);
+  var ReactDebugTool = __webpack_require__(552);
   debugTool = ReactDebugTool;
 }
 
@@ -3182,7 +3580,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 29 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3253,7 +3651,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 30 */
+/* 29 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -3310,7 +3708,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 31 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3331,7 +3729,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactCurrentOwner = __webpack_require__(40);
+var ReactCurrentOwner = __webpack_require__(38);
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -3711,7 +4109,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 32 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3732,10 +4130,14 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _assign = __webpack_require__(14);
 
-var ReactCurrentOwner = __webpack_require__(40);
+var ReactCurrentOwner = __webpack_require__(38);
 
 var warning = __webpack_require__(10);
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var canDefineProperty = __webpack_require__(160);
+=======
+var canDefineProperty = __webpack_require__(149);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var hasOwnProperty = Object.prototype.hasOwnProperty;
 
 // The Symbol used to tag the ReactElement type. If there is no native Symbol
@@ -4097,7 +4499,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 33 */
+/* 32 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -4119,15 +4521,21 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 34 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var store = __webpack_require__(124)('wks'),
     uid = __webpack_require__(87),
     _Symbol = __webpack_require__(44).Symbol,
+=======
+var store = __webpack_require__(114)('wks'),
+    uid = __webpack_require__(78),
+    _Symbol = __webpack_require__(41).Symbol,
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     USE_SYMBOL = typeof _Symbol == 'function';
 
 var $exports = module.exports = function (name) {
@@ -4154,7 +4562,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 35 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4225,7 +4633,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 36 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4378,7 +4786,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 37 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4398,11 +4806,19 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var CallbackQueue = __webpack_require__(251);
 var PooledClass = __webpack_require__(49);
 var ReactFeatureFlags = __webpack_require__(259);
 var ReactReconciler = __webpack_require__(70);
 var Transaction = __webpack_require__(85);
+=======
+var CallbackQueue = __webpack_require__(229);
+var PooledClass = __webpack_require__(45);
+var ReactFeatureFlags = __webpack_require__(237);
+var ReactReconciler = __webpack_require__(63);
+var Transaction = __webpack_require__(77);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 
@@ -4681,6 +5097,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 38 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -4909,6 +5326,9 @@ var _temp = function () {
 
 /***/ },
 /* 39 */
+=======
+/* 37 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4925,7 +5345,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var keyMirror = __webpack_require__(91);
+=======
+var keyMirror = __webpack_require__(82);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var PropagationPhases = keyMirror({ bubbled: null, captured: null });
 
@@ -5026,7 +5450,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 40 */
+/* 38 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -5074,7 +5498,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 41 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5093,9 +5517,13 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var PooledClass = __webpack_require__(49);
+=======
+var PooledClass = __webpack_require__(45);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var emptyFunction = __webpack_require__(30);
+var emptyFunction = __webpack_require__(29);
 var warning = __webpack_require__(10);
 
 var didWarnForAddedNewProperty = false;
@@ -5370,17 +5798,28 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 42 */,
 /* 43 */
+=======
+/* 40 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var global = __webpack_require__(44),
     core = __webpack_require__(33),
     ctx = __webpack_require__(116),
     hide = __webpack_require__(62),
+=======
+var global = __webpack_require__(41),
+    core = __webpack_require__(32),
+    ctx = __webpack_require__(106),
+    hide = __webpack_require__(57),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     PROTOTYPE = 'prototype';
 
 var $export = function $export(type, name, source) {
@@ -5458,7 +5897,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 44 */
+=======
+/* 41 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -5481,15 +5924,24 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 45 */
+=======
+/* 42 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var IObject = __webpack_require__(188),
     defined = __webpack_require__(117);
+=======
+var IObject = __webpack_require__(169),
+    defined = __webpack_require__(107);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (it) {
   return IObject(defined(it));
 };
@@ -5504,7 +5956,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 46 */
+=======
+/* 43 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -5556,8 +6012,12 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 47 */,
 /* 48 */
+=======
+/* 44 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5693,7 +6153,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 49 */
+=======
+/* 45 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5850,7 +6314,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 50 */
+=======
+/* 46 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -5873,18 +6341,31 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 51 */
+=======
+/* 47 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var anObject = __webpack_require__(60),
     IE8_DOM_DEFINE = __webpack_require__(187),
     toPrimitive = __webpack_require__(127),
     dP = Object.defineProperty;
 
 exports.f = __webpack_require__(61) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
+=======
+var anObject = __webpack_require__(55),
+    IE8_DOM_DEFINE = __webpack_require__(168),
+    toPrimitive = __webpack_require__(117),
+    dP = Object.defineProperty;
+
+exports.f = __webpack_require__(56) ? Object.defineProperty : function defineProperty(O, P, Attributes) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   anObject(O);
   P = toPrimitive(P, true);
   anObject(Attributes);
@@ -5908,7 +6389,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 52 */
+=======
+/* 48 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -5926,7 +6411,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 53 */
+=======
+/* 49 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5940,7 +6429,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -5999,7 +6488,238 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 54 */
+=======
+/* 50 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.emojify = undefined;
+
+var _slicedToArray = function () {
+    function sliceIterator(arr, i) {
+        var _arr = [];var _n = true;var _d = false;var _e = undefined;try {
+            for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) {
+                _arr.push(_s.value);if (i && _arr.length === i) break;
+            }
+        } catch (err) {
+            _d = true;_e = err;
+        } finally {
+            try {
+                if (!_n && _i["return"]) _i["return"]();
+            } finally {
+                if (_d) throw _e;
+            }
+        }return _arr;
+    }return function (arr, i) {
+        if (Array.isArray(arr)) {
+            return arr;
+        } else if (Symbol.iterator in Object(arr)) {
+            return sliceIterator(arr, i);
+        } else {
+            throw new TypeError("Invalid attempt to destructure non-iterable instance");
+        }
+    };
+}(); /*!
+      * react-emojione
+      * Copyright(c) 2016 Pedro Ladaria
+      * MIT Licensed
+      */
+
+var _asciiToUnicode = __webpack_require__(478);
+
+var _asciiToUnicode2 = _interopRequireDefault(_asciiToUnicode);
+
+var _rendererFactory = __webpack_require__(481);
+
+var _rendererFactory2 = _interopRequireDefault(_rendererFactory);
+
+var _emojiFormatConversion = __webpack_require__(131);
+
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : { default: obj };
+}
+
+var DEFAULT_OPTIONS = {
+    convertShortnames: true,
+    convertUnicode: true,
+    convertAscii: true,
+    styles: {
+        backgroundImage: 'url(emojione.sprites.png)'
+    },
+    handleClick: undefined,
+    output: 'emoji' // valid options: 'emoji', 'unicode'
+};
+
+var asciiToUnicodeCache = new Map();
+var asciiRegExpToUnicode = new Map();
+
+_asciiToUnicode2.default.forEach(function (_ref) {
+    var _ref2 = _slicedToArray(_ref, 2);
+
+    var reStr = _ref2[0];
+    var unicode = _ref2[1];
+    return asciiRegExpToUnicode.set(RegExp(reStr), unicode);
+});
+
+var asciiRegexStr = _asciiToUnicode2.default.map(function (_ref3) {
+    var _ref4 = _slicedToArray(_ref3, 1);
+
+    var reStr = _ref4[0];
+    return reStr;
+}).join('|');
+
+var convertAsciiToUnicodeOrNull = function convertAsciiToUnicodeOrNull(text) {
+    if (!text) {
+        return '';
+    }
+    var str = String(text);
+    if (asciiToUnicodeCache.has(str)) {
+        return asciiToUnicodeCache.get(str);
+    }
+    var _iteratorNormalCompletion = true;
+    var _didIteratorError = false;
+    var _iteratorError = undefined;
+
+    try {
+        for (var _iterator = asciiRegExpToUnicode.entries()[Symbol.iterator](), _step; !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
+            var _step$value = _slicedToArray(_step.value, 2);
+
+            var regExp = _step$value[0];
+            var unicode = _step$value[1];
+
+            if (str.replace(regExp, unicode) === unicode) {
+                asciiToUnicodeCache.set(str, unicode);
+                return unicode;
+            }
+        }
+    } catch (err) {
+        _didIteratorError = true;
+        _iteratorError = err;
+    } finally {
+        try {
+            if (!_iteratorNormalCompletion && _iterator.return) {
+                _iterator.return();
+            }
+        } finally {
+            if (_didIteratorError) {
+                throw _iteratorError;
+            }
+        }
+    }
+
+    return null;
+};
+
+var RE_SHORTNAMES_UNICODES = RegExp('(:\\w+:|' + _emojiFormatConversion.unicodes.join('|') + ')');
+var RE_SHORTNAMES_UNICODES_ASCII = RegExp('(:\\w+:|' + _emojiFormatConversion.unicodes.join('|') + '|' + asciiRegexStr + ')');
+
+var startsWithSpace = function startsWithSpace(str) {
+    return (/^\s/.test(str)
+    );
+};
+var endsWithSpace = function endsWithSpace(str) {
+    return (/\s$/.test(str)
+    );
+};
+
+var shouldConvertAscii = function shouldConvertAscii(parts, index) {
+    if (parts.length === 1) {
+        return true;
+    }
+    if (index === 0) {
+        return startsWithSpace(parts[index + 1]);
+    }
+    if (index === parts.length - 1) {
+        return endsWithSpace(parts[index - 1]);
+    }
+    return endsWithSpace(parts[index - 1]) && startsWithSpace(parts[index + 1]);
+};
+
+var emojify = exports.emojify = function emojify(str) {
+    var options = arguments.length <= 1 || arguments[1] === undefined ? {} : arguments[1];
+
+    var mergedOptions = Object.assign({}, DEFAULT_OPTIONS, options);
+
+    var convertShortnames = mergedOptions.convertShortnames;
+    var convertUnicode = mergedOptions.convertUnicode;
+    var convertAscii = mergedOptions.convertAscii;
+
+    var regExp = convertAscii ? RE_SHORTNAMES_UNICODES_ASCII : RE_SHORTNAMES_UNICODES;
+
+    var renderCodepoint = (0, _rendererFactory2.default)(mergedOptions);
+
+    var convertedParts = str.split(regExp).filter(Boolean).map(function (part, index, parts) {
+        if (convertAscii && shouldConvertAscii(parts, index)) {
+            var unicode = convertAsciiToUnicodeOrNull(part);
+            if (unicode) {
+                return renderCodepoint(_emojiFormatConversion.unicodeToCodepoint.get(unicode), 'a-' + index);
+            }
+        }
+        if (convertShortnames && _emojiFormatConversion.shortToCodepoint.has(part)) {
+            return renderCodepoint(_emojiFormatConversion.shortToCodepoint.get(part), 's-' + index);
+        }
+        if (convertUnicode && _emojiFormatConversion.unicodeToCodepoint.has(part)) {
+            return renderCodepoint(_emojiFormatConversion.unicodeToCodepoint.get(part), 'u-' + index);
+        }
+        return part;
+    });
+
+    return mergedOptions.output === 'unicode' ? convertedParts.join('') : convertedParts;
+};
+
+exports.default = {
+    emojify: emojify
+};
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+
+    __REACT_HOT_LOADER__.register(_slicedToArray, "_slicedToArray", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(_asciiToUnicode2, "_asciiToUnicode2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(_rendererFactory2, "_rendererFactory2", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(_interopRequireDefault, "_interopRequireDefault", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(DEFAULT_OPTIONS, "DEFAULT_OPTIONS", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(asciiToUnicodeCache, "asciiToUnicodeCache", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(asciiRegExpToUnicode, "asciiRegExpToUnicode", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(asciiRegexStr, "asciiRegexStr", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(convertAsciiToUnicodeOrNull, "convertAsciiToUnicodeOrNull", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(RE_SHORTNAMES_UNICODES, "RE_SHORTNAMES_UNICODES", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(RE_SHORTNAMES_UNICODES_ASCII, "RE_SHORTNAMES_UNICODES_ASCII", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(startsWithSpace, "startsWithSpace", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(endsWithSpace, "endsWithSpace", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(shouldConvertAscii, "shouldConvertAscii", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+
+    __REACT_HOT_LOADER__.register(emojify, "emojify", "/Users/Michael/HR/Thesis/ReTok/node_modules/react-emojione/lib/react-emojione.js");
+}();
+
+;
+
+/***/ },
+/* 51 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6072,7 +6792,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 55 */
+=======
+/* 52 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6302,6 +7026,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 56 */,
 /* 57 */
 /***/ function(module, exports) {
@@ -6345,6 +7070,9 @@ var _temp = function () {
 
 /***/ },
 /* 58 */
+=======
+/* 53 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6354,7 +7082,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _friendTierCalculator = __webpack_require__(112);
+=======
+var _friendTierCalculator = __webpack_require__(103);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _friendTierCalculator2 = _interopRequireDefault(_friendTierCalculator);
 
@@ -6434,13 +7166,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 59 */
+=======
+/* 54 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = { "default": __webpack_require__(359), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(324), __esModule: true };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -6452,13 +7192,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 60 */
+=======
+/* 55 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var isObject = __webpack_require__(72);
+=======
+var isObject = __webpack_require__(65);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (it) {
   if (!isObject(it)) throw TypeError(it + ' is not an object!');
   return it;
@@ -6474,14 +7222,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 61 */
+=======
+/* 56 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // Thank's IE8 for his funny defineProperty
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = !__webpack_require__(71)(function () {
+=======
+module.exports = !__webpack_require__(64)(function () {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   return Object.defineProperty({}, 'a', { get: function get() {
       return 7;
     } }).a != 7;
@@ -6497,15 +7253,25 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 62 */
+=======
+/* 57 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var dP = __webpack_require__(51),
     createDesc = __webpack_require__(75);
 module.exports = __webpack_require__(61) ? function (object, key, value) {
+=======
+var dP = __webpack_require__(47),
+    createDesc = __webpack_require__(68);
+module.exports = __webpack_require__(56) ? function (object, key, value) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   return dP.f(object, key, createDesc(1, value));
 } : function (object, key, value) {
   object[key] = value;
@@ -6522,15 +7288,24 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 63 */
+=======
+/* 58 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $keys = __webpack_require__(192),
     enumBugKeys = __webpack_require__(118);
+=======
+var $keys = __webpack_require__(173),
+    enumBugKeys = __webpack_require__(108);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = Object.keys || function keys(O) {
   return $keys(O, enumBugKeys);
@@ -6546,7 +7321,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 64 */
+=======
+/* 59 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -6573,6 +7352,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 65 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -6612,6 +7392,9 @@ var _temp = function () {
 
 /***/ },
 /* 66 */
+=======
+/* 60 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -6663,6 +7446,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 67 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -6687,6 +7471,9 @@ exports.Scrollbars = _Scrollbars2["default"];
 
 /***/ },
 /* 68 */
+=======
+/* 61 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6935,7 +7722,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 69 */
+=======
+/* 62 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6952,11 +7743,19 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMNamespaces = __webpack_require__(149);
 var setInnerHTML = __webpack_require__(108);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(161);
 var setTextContent = __webpack_require__(275);
+=======
+var DOMNamespaces = __webpack_require__(138);
+var setInnerHTML = __webpack_require__(100);
+
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(150);
+var setTextContent = __webpack_require__(253);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var ELEMENT_NODE_TYPE = 1;
 var DOCUMENT_FRAGMENT_NODE_TYPE = 11;
@@ -7090,7 +7889,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 70 */
+=======
+/* 63 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7107,8 +7910,8 @@ var _temp = function () {
 
 'use strict';
 
-var ReactRef = __webpack_require__(608);
-var ReactInstrumentation = __webpack_require__(28);
+var ReactRef = __webpack_require__(565);
+var ReactInstrumentation = __webpack_require__(27);
 
 var warning = __webpack_require__(10);
 
@@ -7278,7 +8081,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 71 */
+=======
+/* 64 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -7302,7 +8109,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 72 */
+=======
+/* 65 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -7324,7 +8135,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 73 */
+=======
+/* 66 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -7342,7 +8157,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 74 */
+=======
+/* 67 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -7360,7 +8179,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 75 */
+=======
+/* 68 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -7385,9 +8208,51 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 76 */,
 /* 77 */,
 /* 78 */
+=======
+/* 69 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var canUseDOM = __webpack_require__(48);
+
+var contains = function () {
+  var root = canUseDOM && document.documentElement;
+
+  return root && root.contains ? function (context, node) {
+    return context.contains(node);
+  } : root && root.compareDocumentPosition ? function (context, node) {
+    return context === node || !!(context.compareDocumentPosition(node) & 16);
+  } : function (context, node) {
+    if (node) do {
+      if (node === context) return true;
+    } while (node = node.parentNode);
+
+    return false;
+  };
+}();
+
+module.exports = contains;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(contains, 'contains', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/contains.js');
+}();
+
+;
+
+/***/ },
+/* 70 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7424,7 +8289,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 79 */
+=======
+/* 71 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7434,7 +8303,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _values = __webpack_require__(59);
+=======
+var _values = __webpack_require__(54);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -7472,9 +8345,9 @@ var _elementType2 = _interopRequireDefault(_elementType);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -7583,7 +8456,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 80 */
+=======
+/* 72 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7601,7 +8478,11 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ownerDocument = __webpack_require__(64);
+=======
+var _ownerDocument = __webpack_require__(59);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -7627,7 +8508,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 81 */
+=======
+/* 73 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7648,12 +8533,21 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventPluginRegistry = __webpack_require__(103);
 var EventPluginUtils = __webpack_require__(150);
 var ReactErrorUtils = __webpack_require__(155);
 
 var accumulateInto = __webpack_require__(268);
 var forEachAccumulated = __webpack_require__(270);
+=======
+var EventPluginRegistry = __webpack_require__(95);
+var EventPluginUtils = __webpack_require__(139);
+var ReactErrorUtils = __webpack_require__(144);
+
+var accumulateInto = __webpack_require__(246);
+var forEachAccumulated = __webpack_require__(248);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var invariant = __webpack_require__(9);
 
 /**
@@ -7910,7 +8804,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 82 */
+=======
+/* 74 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7927,12 +8825,21 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventPluginHub = __webpack_require__(81);
 var EventPluginUtils = __webpack_require__(150);
 
 var accumulateInto = __webpack_require__(268);
 var forEachAccumulated = __webpack_require__(270);
+=======
+var EventConstants = __webpack_require__(37);
+var EventPluginHub = __webpack_require__(73);
+var EventPluginUtils = __webpack_require__(139);
+
+var accumulateInto = __webpack_require__(246);
+var forEachAccumulated = __webpack_require__(248);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var PropagationPhases = EventConstants.PropagationPhases;
@@ -8089,7 +8996,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 83 */
+=======
+/* 75 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -8154,7 +9065,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 84 */
+=======
+/* 76 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8171,9 +9086,13 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticEvent = __webpack_require__(41);
+var SyntheticEvent = __webpack_require__(39);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getEventTarget = __webpack_require__(164);
+=======
+var getEventTarget = __webpack_require__(153);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface UIEvent
@@ -8232,7 +9151,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 85 */
+=======
+/* 77 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8485,8 +9408,12 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 86 */,
 /* 87 */
+=======
+/* 78 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -8512,7 +9439,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 88 */
+=======
+/* 79 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -8532,16 +9463,27 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 89 */
+=======
+/* 80 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var camelize = __webpack_require__(203),
     hyphenate = __webpack_require__(414),
     _getComputedStyle = __webpack_require__(409),
     removeStyle = __webpack_require__(410);
+=======
+var camelize = __webpack_require__(184),
+    hyphenate = __webpack_require__(379),
+    _getComputedStyle = __webpack_require__(374),
+    removeStyle = __webpack_require__(375);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var has = Object.prototype.hasOwnProperty;
 
@@ -8573,7 +9515,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 90 */
+=======
+/* 81 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8623,7 +9569,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 91 */
+=======
+/* 82 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8688,7 +9638,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 92 */
+=======
+/* 83 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -8710,7 +9664,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 93 */
+=======
+/* 84 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8734,10 +9692,11 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _queryString = __webpack_require__(444);
 
 var _runTransitionHook = __webpack_require__(134);
@@ -8747,6 +9706,17 @@ var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 var _PathUtils = __webpack_require__(53);
 
 var _deprecate = __webpack_require__(133);
+=======
+var _queryString = __webpack_require__(403);
+
+var _runTransitionHook = __webpack_require__(124);
+
+var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
+
+var _PathUtils = __webpack_require__(49);
+
+var _deprecate = __webpack_require__(123);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _deprecate2 = _interopRequireDefault(_deprecate);
 
@@ -8934,7 +9904,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 94 */
+=======
+/* 85 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8968,6 +9942,7 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _activeElement = __webpack_require__(198);
 
 var _activeElement2 = _interopRequireDefault(_activeElement);
@@ -8977,6 +9952,17 @@ var _contains = __webpack_require__(65);
 var _contains2 = _interopRequireDefault(_contains);
 
 var _keycode = __webpack_require__(135);
+=======
+var _activeElement = __webpack_require__(179);
+
+var _activeElement2 = _interopRequireDefault(_activeElement);
+
+var _contains = __webpack_require__(69);
+
+var _contains2 = _interopRequireDefault(_contains);
+
+var _keycode = __webpack_require__(125);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _keycode2 = _interopRequireDefault(_keycode);
 
@@ -8988,7 +9974,11 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _all = __webpack_require__(97);
+=======
+var _all = __webpack_require__(89);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _all2 = _interopRequireDefault(_all);
 
@@ -8996,18 +9986,27 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isRequiredForA11y = __webpack_require__(98);
 
 var _isRequiredForA11y2 = _interopRequireDefault(_isRequiredForA11y);
 
 var _uncontrollable = __webpack_require__(109);
+=======
+var _isRequiredForA11y = __webpack_require__(90);
+
+var _isRequiredForA11y2 = _interopRequireDefault(_isRequiredForA11y);
+
+var _uncontrollable = __webpack_require__(101);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _uncontrollable2 = _interopRequireDefault(_uncontrollable);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ButtonGroup = __webpack_require__(219);
 
 var _ButtonGroup2 = _interopRequireDefault(_ButtonGroup);
@@ -9017,6 +10016,17 @@ var _DropdownMenu = __webpack_require__(461);
 var _DropdownMenu2 = _interopRequireDefault(_DropdownMenu);
 
 var _DropdownToggle = __webpack_require__(221);
+=======
+var _ButtonGroup = __webpack_require__(197);
+
+var _ButtonGroup2 = _interopRequireDefault(_ButtonGroup);
+
+var _DropdownMenu = __webpack_require__(417);
+
+var _DropdownMenu2 = _interopRequireDefault(_DropdownMenu);
+
+var _DropdownToggle = __webpack_require__(199);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _DropdownToggle2 = _interopRequireDefault(_DropdownToggle);
 
@@ -9026,9 +10036,13 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PropTypes = __webpack_require__(510);
+=======
+var _PropTypes = __webpack_require__(466);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -9367,7 +10381,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 95 */
+=======
+/* 86 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9401,7 +10419,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Transition = __webpack_require__(238);
+=======
+var _Transition = __webpack_require__(216);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Transition2 = _interopRequireDefault(_Transition);
 
@@ -9508,7 +10530,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 96 */
+=======
+/* 87 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9519,7 +10545,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = splitComponentProps;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _entries = __webpack_require__(185);
+=======
+var _entries = __webpack_require__(166);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _entries2 = _interopRequireDefault(_entries);
 
@@ -9557,7 +10587,34 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 97 */
+=======
+/* 88 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.Scrollbars = undefined;
+
+var _Scrollbars = __webpack_require__(471);
+
+var _Scrollbars2 = _interopRequireDefault(_Scrollbars);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { "default": obj };
+}
+
+exports["default"] = _Scrollbars2["default"];
+exports.Scrollbars = _Scrollbars2["default"];
+
+/***/ },
+/* 89 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9566,7 +10623,11 @@ var _temp = function () {
 exports.__esModule = true;
 exports.default = all;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createChainableTypeChecker = __webpack_require__(99);
+=======
+var _createChainableTypeChecker = __webpack_require__(91);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -9619,7 +10680,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 98 */
+=======
+/* 90 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -9656,7 +10721,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 99 */
+=======
+/* 91 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -9713,7 +10782,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 100 */
+=======
+/* 92 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9747,15 +10820,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _deprecateObjectProperties = __webpack_require__(101);
+=======
+var _deprecateObjectProperties = __webpack_require__(93);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 
-var _getRouteParams = __webpack_require__(558);
+var _getRouteParams = __webpack_require__(515);
 
 var _getRouteParams2 = _interopRequireDefault(_getRouteParams);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouteUtils = __webpack_require__(48);
+=======
+var _RouteUtils = __webpack_require__(44);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _routerWarning = __webpack_require__(21);
 
@@ -9925,7 +11006,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 101 */
+=======
+/* 93 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10026,7 +11111,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 102 */
+=======
+/* 94 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -10095,7 +11184,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 103 */
+=======
+/* 95 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10370,7 +11463,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 104 */
+=======
+/* 96 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10389,6 +11486,7 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventPluginRegistry = __webpack_require__(103);
 var ReactEventEmitterMixin = __webpack_require__(598);
@@ -10396,6 +11494,15 @@ var ViewportMetrics = __webpack_require__(267);
 
 var getVendorPrefixedEventName = __webpack_require__(630);
 var isEventSupported = __webpack_require__(166);
+=======
+var EventConstants = __webpack_require__(37);
+var EventPluginRegistry = __webpack_require__(95);
+var ReactEventEmitterMixin = __webpack_require__(555);
+var ViewportMetrics = __webpack_require__(245);
+
+var getVendorPrefixedEventName = __webpack_require__(587);
+var isEventSupported = __webpack_require__(155);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Summary of `ReactBrowserEventEmitter` event handling:
@@ -10731,7 +11838,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 105 */
+=======
+/* 97 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10748,7 +11859,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var keyMirror = __webpack_require__(91);
+=======
+var keyMirror = __webpack_require__(82);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var ReactPropTypeLocations = keyMirror({
   prop: null,
@@ -10770,7 +11885,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 106 */
+=======
+/* 98 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10787,10 +11906,17 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var SyntheticUIEvent = __webpack_require__(84);
 var ViewportMetrics = __webpack_require__(267);
 
 var getEventModifierState = __webpack_require__(163);
+=======
+var SyntheticUIEvent = __webpack_require__(76);
+var ViewportMetrics = __webpack_require__(245);
+
+var getEventModifierState = __webpack_require__(152);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface MouseEvent
@@ -10861,7 +11987,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 107 */
+=======
+/* 99 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11005,7 +12135,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 108 */
+=======
+/* 100 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11023,12 +12157,20 @@ var _temp = function () {
 'use strict';
 
 var ExecutionEnvironment = __webpack_require__(20);
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMNamespaces = __webpack_require__(149);
+=======
+var DOMNamespaces = __webpack_require__(138);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var WHITESPACE_TEST = /^[ \r\n\t\f]/;
 var NONVISIBLE_TEST = /<(!--|link|noscript|meta|script|style)[ \r\n\t\f\/>]/;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(161);
+=======
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(150);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 // SVG temp container for IE lacking innerHTML
 var reusableSVGContainer;
@@ -11114,6 +12256,7 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(WHITESPACE_TEST, 'WHITESPACE_TEST', '/Users/Rob/hackreactor/ReTok/node_modules/react/lib/setInnerHTML.js');
 
   __REACT_HOT_LOADER__.register(NONVISIBLE_TEST, 'NONVISIBLE_TEST', '/Users/Rob/hackreactor/ReTok/node_modules/react/lib/setInnerHTML.js');
@@ -11123,12 +12266,27 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(setInnerHTML, 'setInnerHTML', '/Users/Rob/hackreactor/ReTok/node_modules/react/lib/setInnerHTML.js');
 
   __REACT_HOT_LOADER__.register(testElement, 'testElement', '/Users/Rob/hackreactor/ReTok/node_modules/react/lib/setInnerHTML.js');
+=======
+  __REACT_HOT_LOADER__.register(WHITESPACE_TEST, 'WHITESPACE_TEST', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+
+  __REACT_HOT_LOADER__.register(NONVISIBLE_TEST, 'NONVISIBLE_TEST', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+
+  __REACT_HOT_LOADER__.register(reusableSVGContainer, 'reusableSVGContainer', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+
+  __REACT_HOT_LOADER__.register(setInnerHTML, 'setInnerHTML', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+
+  __REACT_HOT_LOADER__.register(testElement, 'testElement', '/Users/Michael/HR/Thesis/ReTok/node_modules/react/lib/setInnerHTML.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 109 */
+=======
+/* 101 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11136,7 +12294,11 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createUncontrollable = __webpack_require__(661);
+=======
+var _createUncontrollable = __webpack_require__(601);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createUncontrollable2 = _interopRequireDefault(_createUncontrollable);
 
@@ -11184,6 +12346,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 110 */
 /***/ function(module, exports) {
 
@@ -11193,6 +12356,9 @@ var _temp = function () {
 
 /***/ },
 /* 111 */
+=======
+/* 102 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11210,11 +12376,19 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouter = __webpack_require__(15);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _SignUpForm = __webpack_require__(295);
 
 var _SignUpForm2 = _interopRequireDefault(_SignUpForm);
 
 var _axios = __webpack_require__(23);
+=======
+var _SignUpForm = __webpack_require__(266);
+
+var _SignUpForm2 = _interopRequireDefault(_SignUpForm);
+
+var _axios = __webpack_require__(24);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -11358,7 +12532,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 112 */
+=======
+/* 103 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11415,7 +12593,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 113 */
+=======
+/* 104 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11425,11 +12607,19 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _iterator = __webpack_require__(352);
 
 var _iterator2 = _interopRequireDefault(_iterator);
 
 var _symbol = __webpack_require__(351);
+=======
+var _iterator = __webpack_require__(318);
+
+var _iterator2 = _interopRequireDefault(_iterator);
+
+var _symbol = __webpack_require__(317);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _symbol2 = _interopRequireDefault(_symbol);
 
@@ -11467,8 +12657,12 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 114 */,
 /* 115 */
+=======
+/* 105 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11492,14 +12686,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 116 */
+=======
+/* 106 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // optional / simple context binding
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var aFunction = __webpack_require__(362);
+=======
+var aFunction = __webpack_require__(327);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -11532,7 +12734,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 117 */
+=======
+/* 107 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11554,7 +12760,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 118 */
+=======
+/* 108 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11573,7 +12783,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 119 */
+=======
+/* 109 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11591,30 +12805,49 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 120 */
+=======
+/* 110 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var anObject = __webpack_require__(60),
     dPs = __webpack_require__(378),
     enumBugKeys = __webpack_require__(118),
     IE_PROTO = __webpack_require__(123)('IE_PROTO'),
+=======
+var anObject = __webpack_require__(55),
+    dPs = __webpack_require__(343),
+    enumBugKeys = __webpack_require__(108),
+    IE_PROTO = __webpack_require__(113)('IE_PROTO'),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     Empty = function Empty() {/* empty */},
     PROTOTYPE = 'prototype';
 
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var _createDict = function createDict() {
   // Thrash, waste and sodomy: IE GC bug
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   var iframe = __webpack_require__(186)('iframe'),
+=======
+  var iframe = __webpack_require__(167)('iframe'),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
       i = enumBugKeys.length,
       lt = '<',
       gt = '>',
       iframeDocument;
   iframe.style.display = 'none';
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __webpack_require__(368).appendChild(iframe);
+=======
+  __webpack_require__(333).appendChild(iframe);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -11658,7 +12891,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 121 */
+=======
+/* 111 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11676,15 +12913,25 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 122 */
+=======
+/* 112 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var def = __webpack_require__(51).f,
     has = __webpack_require__(50),
     TAG = __webpack_require__(34)('toStringTag');
+=======
+var def = __webpack_require__(47).f,
+    has = __webpack_require__(46),
+    TAG = __webpack_require__(33)('toStringTag');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = function (it, tag, stat) {
   if (it && !has(it = stat ? it : it.prototype, TAG)) def(it, TAG, { configurable: true, value: tag });
@@ -11704,14 +12951,23 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 123 */
+=======
+/* 113 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var shared = __webpack_require__(124)('keys'),
     uid = __webpack_require__(87);
+=======
+var shared = __webpack_require__(114)('keys'),
+    uid = __webpack_require__(78);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (key) {
   return shared[key] || (shared[key] = uid(key));
 };
@@ -11728,13 +12984,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 124 */
+=======
+/* 114 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var global = __webpack_require__(44),
+=======
+var global = __webpack_require__(41),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     SHARED = '__core-js_shared__',
     store = global[SHARED] || (global[SHARED] = {});
 module.exports = function (key) {
@@ -11755,7 +13019,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 125 */
+=======
+/* 115 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -11782,14 +13050,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 126 */
+=======
+/* 116 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 7.1.13 ToObject(argument)
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var defined = __webpack_require__(117);
+=======
+var defined = __webpack_require__(107);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (it) {
   return Object(defined(it));
 };
@@ -11804,14 +13080,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 127 */
+=======
+/* 117 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var isObject = __webpack_require__(72);
+=======
+var isObject = __webpack_require__(65);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 // instead of the ES6 spec version, we didn't implement @@toPrimitive case
 // and the second argument - flag - preferred type is a string
 module.exports = function (it, S) {
@@ -11833,17 +13117,29 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 128 */
+=======
+/* 118 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var global = __webpack_require__(44),
     core = __webpack_require__(33),
     LIBRARY = __webpack_require__(119),
     wksExt = __webpack_require__(129),
     defineProperty = __webpack_require__(51).f;
+=======
+var global = __webpack_require__(41),
+    core = __webpack_require__(32),
+    LIBRARY = __webpack_require__(109),
+    wksExt = __webpack_require__(119),
+    defineProperty = __webpack_require__(47).f;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
   if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
@@ -11861,13 +13157,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 129 */
+=======
+/* 119 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
-exports.f = __webpack_require__(34);
+exports.f = __webpack_require__(33);
 ;
 
 var _temp = function () {
@@ -11879,13 +13179,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 130 */
+=======
+/* 120 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var canUseDOM = __webpack_require__(52);
+=======
+var canUseDOM = __webpack_require__(48);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var on = function on() {};
 
 if (canUseDOM) {
@@ -11913,7 +13221,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 131 */
+=======
+/* 121 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -12003,7 +13315,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 132 */
+=======
+/* 122 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -12111,7 +13427,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 133 */
+=======
+/* 123 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12123,7 +13443,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -12154,7 +13474,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 134 */
+=======
+/* 124 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12166,7 +13490,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -12202,7 +13526,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 135 */
+=======
+/* 125 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -12362,6 +13690,7 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(codes, 'codes', '/Users/Rob/hackreactor/ReTok/node_modules/keycode/index.js');
 
   __REACT_HOT_LOADER__.register(aliases, 'aliases', '/Users/Rob/hackreactor/ReTok/node_modules/keycode/index.js');
@@ -12371,13 +13700,28 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(names, 'names', '/Users/Rob/hackreactor/ReTok/node_modules/keycode/index.js');
 
   __REACT_HOT_LOADER__.register(alias, 'alias', '/Users/Rob/hackreactor/ReTok/node_modules/keycode/index.js');
+=======
+  __REACT_HOT_LOADER__.register(codes, 'codes', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+
+  __REACT_HOT_LOADER__.register(aliases, 'aliases', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+
+  __REACT_HOT_LOADER__.register(names, 'names', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+
+  __REACT_HOT_LOADER__.register(alias, 'alias', '/Users/Michael/HR/Thesis/ReTok/node_modules/keycode/index.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 136 */,
 /* 137 */
+=======
+/* 126 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12411,7 +13755,11 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _style = __webpack_require__(89);
+=======
+var _style = __webpack_require__(80);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -12419,11 +13767,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Transition = __webpack_require__(238);
 
 var _Transition2 = _interopRequireDefault(_Transition);
 
 var _capitalize = __webpack_require__(235);
+=======
+var _Transition = __webpack_require__(216);
+
+var _Transition2 = _interopRequireDefault(_Transition);
+
+var _capitalize = __webpack_require__(213);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _capitalize2 = _interopRequireDefault(_capitalize);
 
@@ -12663,7 +14019,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 138 */
+=======
+/* 127 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12767,7 +14127,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 139 */
+=======
+/* 128 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12809,6 +14173,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _MediaBody = __webpack_require__(475);
 
 var _MediaBody2 = _interopRequireDefault(_MediaBody);
@@ -12830,6 +14195,29 @@ var _MediaListItem = __webpack_require__(479);
 var _MediaListItem2 = _interopRequireDefault(_MediaListItem);
 
 var _MediaRight = __webpack_require__(480);
+=======
+var _MediaBody = __webpack_require__(431);
+
+var _MediaBody2 = _interopRequireDefault(_MediaBody);
+
+var _MediaHeading = __webpack_require__(432);
+
+var _MediaHeading2 = _interopRequireDefault(_MediaHeading);
+
+var _MediaLeft = __webpack_require__(433);
+
+var _MediaLeft2 = _interopRequireDefault(_MediaLeft);
+
+var _MediaList = __webpack_require__(434);
+
+var _MediaList2 = _interopRequireDefault(_MediaList);
+
+var _MediaListItem = __webpack_require__(435);
+
+var _MediaListItem2 = _interopRequireDefault(_MediaListItem);
+
+var _MediaRight = __webpack_require__(436);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _MediaRight2 = _interopRequireDefault(_MediaRight);
 
@@ -12908,7 +14296,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 140 */
+=======
+/* 129 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12938,7 +14330,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _uncontrollable = __webpack_require__(109);
+=======
+var _uncontrollable = __webpack_require__(101);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _uncontrollable2 = _interopRequireDefault(_uncontrollable);
 
@@ -13090,7 +14486,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 141 */
+=======
+/* 130 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13326,7 +14726,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 142 */
+=======
+/* 131 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13363,7 +14767,11 @@ var _slicedToArray = function () {
     };
 }();
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _emojiData = __webpack_require__(523);
+=======
+var _emojiData = __webpack_require__(479);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _emojiData2 = _interopRequireDefault(_emojiData);
 
@@ -13417,7 +14825,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 143 */
+=======
+/* 132 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13458,7 +14870,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 144 */
+=======
+/* 133 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13478,7 +14894,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createChainableTypeChecker = __webpack_require__(99);
+=======
+var _createChainableTypeChecker = __webpack_require__(91);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
@@ -13523,7 +14943,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 145 */
+=======
+/* 134 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -13630,7 +15054,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 146 */
+=======
+/* 135 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13641,11 +15069,19 @@ exports.router = exports.routes = exports.route = exports.components = exports.c
 
 var _react = __webpack_require__(0);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _deprecateObjectProperties = __webpack_require__(101);
 
 var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 
 var _InternalPropTypes = __webpack_require__(54);
+=======
+var _deprecateObjectProperties = __webpack_require__(93);
+
+var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
+
+var _InternalPropTypes = __webpack_require__(51);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var InternalPropTypes = _interopRequireWildcard(_InternalPropTypes);
 
@@ -13799,7 +15235,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 147 */
+=======
+/* 136 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -13823,21 +15263,21 @@ var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
-var _computeChangedRoutes2 = __webpack_require__(556);
+var _computeChangedRoutes2 = __webpack_require__(513);
 
 var _computeChangedRoutes3 = _interopRequireDefault(_computeChangedRoutes2);
 
-var _TransitionUtils = __webpack_require__(553);
+var _TransitionUtils = __webpack_require__(510);
 
-var _isActive2 = __webpack_require__(560);
+var _isActive2 = __webpack_require__(517);
 
 var _isActive3 = _interopRequireDefault(_isActive2);
 
-var _getComponents = __webpack_require__(557);
+var _getComponents = __webpack_require__(514);
 
 var _getComponents2 = _interopRequireDefault(_getComponents);
 
-var _matchRoutes = __webpack_require__(562);
+var _matchRoutes = __webpack_require__(519);
 
 var _matchRoutes2 = _interopRequireDefault(_matchRoutes);
 
@@ -14144,7 +15584,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 148 */
+=======
+/* 137 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14161,6 +15605,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMLazyTree = __webpack_require__(69);
 var Danger = __webpack_require__(569);
 var ReactMultiChildUpdateTypes = __webpack_require__(263);
@@ -14170,6 +15615,17 @@ var ReactInstrumentation = __webpack_require__(28);
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(161);
 var setInnerHTML = __webpack_require__(108);
 var setTextContent = __webpack_require__(275);
+=======
+var DOMLazyTree = __webpack_require__(62);
+var Danger = __webpack_require__(526);
+var ReactMultiChildUpdateTypes = __webpack_require__(241);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactInstrumentation = __webpack_require__(27);
+
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(150);
+var setInnerHTML = __webpack_require__(100);
+var setTextContent = __webpack_require__(253);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function getNodeAfter(parentNode, node) {
   // Special case for text components, which return [open, close] comments
@@ -14374,7 +15830,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 149 */
+=======
+/* 138 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -14411,7 +15871,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 150 */
+=======
+/* 139 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14430,8 +15894,13 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var ReactErrorUtils = __webpack_require__(155);
+=======
+var EventConstants = __webpack_require__(37);
+var ReactErrorUtils = __webpack_require__(144);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -14686,7 +16155,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 151 */
+=======
+/* 140 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -14766,7 +16239,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 152 */
+=======
+/* 141 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14785,9 +16262,15 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactPropTypes = __webpack_require__(265);
 var ReactPropTypeLocations = __webpack_require__(105);
 var ReactPropTypesSecret = __webpack_require__(158);
+=======
+var ReactPropTypes = __webpack_require__(243);
+var ReactPropTypeLocations = __webpack_require__(97);
+var ReactPropTypesSecret = __webpack_require__(147);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -14934,7 +16417,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 153 */
+=======
+/* 142 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -14955,10 +16442,17 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactNoopUpdateQueue = __webpack_require__(156);
 
 var canDefineProperty = __webpack_require__(160);
 var emptyObject = __webpack_require__(78);
+=======
+var ReactNoopUpdateQueue = __webpack_require__(145);
+
+var canDefineProperty = __webpack_require__(149);
+var emptyObject = __webpack_require__(70);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
 
@@ -15078,7 +16572,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 154 */
+=======
+/* 143 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15143,7 +16641,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 155 */
+=======
+/* 144 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15243,7 +16745,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 156 */
+=======
+/* 145 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15359,7 +16865,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 157 */
+=======
+/* 146 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15401,7 +16911,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 158 */
+=======
+/* 147 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -15434,7 +16948,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 159 */
+=======
+/* 148 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15455,10 +16973,17 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactInstanceMap = __webpack_require__(83);
 var ReactInstrumentation = __webpack_require__(28);
 var ReactUpdates = __webpack_require__(37);
+=======
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactInstanceMap = __webpack_require__(75);
+var ReactInstrumentation = __webpack_require__(27);
+var ReactUpdates = __webpack_require__(36);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -15686,7 +17211,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 160 */
+=======
+/* 149 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -15728,7 +17257,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 161 */
+=======
+/* 150 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -15777,7 +17310,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 162 */
+=======
+/* 151 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -15844,7 +17381,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 163 */
+=======
+/* 152 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -15908,7 +17449,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 164 */
+=======
+/* 153 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -15960,7 +17505,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 165 */
+=======
+/* 154 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -16022,7 +17571,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 166 */
+=======
+/* 155 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16101,7 +17654,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 167 */
+=======
+/* 156 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -16162,7 +17719,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 168 */
+=======
+/* 157 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16183,12 +17744,18 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactCurrentOwner = __webpack_require__(40);
-var ReactElement = __webpack_require__(32);
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactElement = __webpack_require__(31);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getIteratorFn = __webpack_require__(165);
 var invariant = __webpack_require__(9);
 var KeyEscapeUtils = __webpack_require__(151);
+=======
+var getIteratorFn = __webpack_require__(154);
+var invariant = __webpack_require__(9);
+var KeyEscapeUtils = __webpack_require__(140);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var SEPARATOR = '.';
@@ -16359,7 +17926,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 169 */
+=======
+/* 158 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16378,7 +17949,7 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
-var emptyFunction = __webpack_require__(30);
+var emptyFunction = __webpack_require__(29);
 var warning = __webpack_require__(10);
 
 var validateDOMNesting = emptyFunction;
@@ -16779,6 +18350,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 170 */,
 /* 171 */,
 /* 172 */,
@@ -16853,6 +18425,9 @@ var _temp = function () {
 
 /***/ },
 /* 177 */
+=======
+/* 159 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -16914,7 +18489,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 178 */
+=======
+/* 160 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -16982,7 +18561,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 179 */
+=======
+/* 161 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -17000,19 +18583,31 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(11);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactRedux = __webpack_require__(17);
 
 var _reactCustomScrollbars = __webpack_require__(67);
+=======
+var _reactCustomScrollbars = __webpack_require__(88);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _EmojiChat = __webpack_require__(320);
 
 var _EmojiChat2 = _interopRequireDefault(_EmojiChat);
 
 var _reactEmojione = __webpack_require__(38);
+=======
+var _EmojiChat = __webpack_require__(289);
+
+var _EmojiChat2 = _interopRequireDefault(_EmojiChat);
+
+var _reactEmojione = __webpack_require__(50);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -17223,12 +18818,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 181 */
+=======
+/* 162 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 var settle = __webpack_require__(336);
 var buildURL = __webpack_require__(340);
@@ -17236,6 +18836,15 @@ var parseHeaders = __webpack_require__(346);
 var isURLSameOrigin = __webpack_require__(344);
 var createError = __webpack_require__(182);
 var btoa = typeof window !== 'undefined' && window.btoa || __webpack_require__(339);
+=======
+var utils = __webpack_require__(26);
+var settle = __webpack_require__(302);
+var buildURL = __webpack_require__(306);
+var parseHeaders = __webpack_require__(312);
+var isURLSameOrigin = __webpack_require__(310);
+var createError = __webpack_require__(163);
+var btoa = typeof window !== 'undefined' && window.btoa || __webpack_require__(305);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -17326,7 +18935,11 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
       var cookies = __webpack_require__(342);
+=======
+      var cookies = __webpack_require__(308);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ? cookies.read(config.xsrfCookieName) : undefined;
@@ -17397,13 +19010,21 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 182 */
+=======
+/* 163 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var enhanceError = __webpack_require__(335);
+=======
+var enhanceError = __webpack_require__(301);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Create an Error with the specified message, config, error code, and response.
@@ -17429,7 +19050,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 183 */
+=======
+/* 164 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -17455,13 +19080,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 184 */
+=======
+/* 165 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = { "default": __webpack_require__(355), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(320), __esModule: true };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -17473,13 +19106,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 185 */
+=======
+/* 166 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = { "default": __webpack_require__(357), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(322), __esModule: true };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -17491,14 +19132,23 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 186 */
+=======
+/* 167 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var isObject = __webpack_require__(72),
     document = __webpack_require__(44).document
+=======
+var isObject = __webpack_require__(65),
+    document = __webpack_require__(41).document
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 // in old IE typeof document.createElement is 'object'
 ,
     is = isObject(document) && isObject(document.createElement);
@@ -17520,14 +19170,23 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 187 */
+=======
+/* 168 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = !__webpack_require__(61) && !__webpack_require__(71)(function () {
   return Object.defineProperty(__webpack_require__(186)('div'), 'a', { get: function get() {
+=======
+module.exports = !__webpack_require__(56) && !__webpack_require__(64)(function () {
+  return Object.defineProperty(__webpack_require__(167)('div'), 'a', { get: function get() {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
       return 7;
     } }).a != 7;
 });
@@ -17542,14 +19201,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 188 */
+=======
+/* 169 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var cof = __webpack_require__(115);
+=======
+var cof = __webpack_require__(105);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
 };
@@ -17564,12 +19231,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 189 */
+=======
+/* 170 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var LIBRARY = __webpack_require__(119),
     $export = __webpack_require__(43),
     redefine = __webpack_require__(194),
@@ -17580,6 +19252,18 @@ var LIBRARY = __webpack_require__(119),
     setToStringTag = __webpack_require__(122),
     getPrototypeOf = __webpack_require__(380),
     ITERATOR = __webpack_require__(34)('iterator'),
+=======
+var LIBRARY = __webpack_require__(109),
+    $export = __webpack_require__(40),
+    redefine = __webpack_require__(175),
+    hide = __webpack_require__(57),
+    has = __webpack_require__(46),
+    Iterators = __webpack_require__(66),
+    $iterCreate = __webpack_require__(337),
+    setToStringTag = __webpack_require__(112),
+    getPrototypeOf = __webpack_require__(345),
+    ITERATOR = __webpack_require__(33)('iterator'),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     BUGGY = !([].keys && 'next' in [].keys()) // Safari has buggy iterators w/o `next`
 ,
     FF_ITERATOR = '@@iterator',
@@ -17677,12 +19361,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 190 */
+=======
+/* 171 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var pIE = __webpack_require__(74),
     createDesc = __webpack_require__(75),
     toIObject = __webpack_require__(45),
@@ -17692,6 +19381,17 @@ var pIE = __webpack_require__(74),
     gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(61) ? gOPD : function getOwnPropertyDescriptor(O, P) {
+=======
+var pIE = __webpack_require__(67),
+    createDesc = __webpack_require__(68),
+    toIObject = __webpack_require__(42),
+    toPrimitive = __webpack_require__(117),
+    has = __webpack_require__(46),
+    IE8_DOM_DEFINE = __webpack_require__(168),
+    gOPD = Object.getOwnPropertyDescriptor;
+
+exports.f = __webpack_require__(56) ? gOPD : function getOwnPropertyDescriptor(O, P) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   O = toIObject(O);
   P = toPrimitive(P, true);
   if (IE8_DOM_DEFINE) try {
@@ -17712,15 +19412,24 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 191 */
+=======
+/* 172 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $keys = __webpack_require__(192),
     hiddenKeys = __webpack_require__(118).concat('length', 'prototype');
+=======
+var $keys = __webpack_require__(173),
+    hiddenKeys = __webpack_require__(108).concat('length', 'prototype');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
   return $keys(O, hiddenKeys);
@@ -17738,16 +19447,27 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 192 */
+=======
+/* 173 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var has = __webpack_require__(50),
     toIObject = __webpack_require__(45),
     arrayIndexOf = __webpack_require__(364)(false),
     IE_PROTO = __webpack_require__(123)('IE_PROTO');
+=======
+var has = __webpack_require__(46),
+    toIObject = __webpack_require__(42),
+    arrayIndexOf = __webpack_require__(329)(false),
+    IE_PROTO = __webpack_require__(113)('IE_PROTO');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = function (object, names) {
   var O = toIObject(object),
@@ -17778,15 +19498,25 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 193 */
+=======
+/* 174 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getKeys = __webpack_require__(63),
     toIObject = __webpack_require__(45),
     isEnum = __webpack_require__(74).f;
+=======
+var getKeys = __webpack_require__(58),
+    toIObject = __webpack_require__(42),
+    isEnum = __webpack_require__(67).f;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 module.exports = function (isEntries) {
   return function (it) {
     var O = toIObject(it),
@@ -17815,13 +19545,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 194 */
+=======
+/* 175 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = __webpack_require__(62);
+=======
+module.exports = __webpack_require__(57);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -17833,14 +19571,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 195 */
+=======
+/* 176 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 7.1.15 ToLength
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var toInteger = __webpack_require__(125),
+=======
+var toInteger = __webpack_require__(115),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     min = Math.min;
 module.exports = function (it) {
   return it > 0 ? min(toInteger(it), 0x1fffffffffffff) : 0; // pow(2, 53) - 1 == 9007199254740991
@@ -17858,16 +19604,27 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 196 */
+=======
+/* 177 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $at = __webpack_require__(382)(true);
 
 // 21.1.3.27 String.prototype[@@iterator]()
 __webpack_require__(189)(String, 'String', function (iterated) {
+=======
+var $at = __webpack_require__(347)(true);
+
+// 21.1.3.27 String.prototype[@@iterator]()
+__webpack_require__(170)(String, 'String', function (iterated) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   this._t = String(iterated); // target
   this._i = 0; // next index
   // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -17893,16 +19650,27 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 197 */
+=======
+/* 178 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var prefix = __webpack_require__(442);
 var toCamelCase = __webpack_require__(656);
 var cache = { 'float': 'cssFloat' };
 var addPxToStyle = __webpack_require__(330);
+=======
+var prefix = __webpack_require__(402);
+var toCamelCase = __webpack_require__(598);
+var cache = { 'float': 'cssFloat' };
+var addPxToStyle = __webpack_require__(296);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function style(element, property, value) {
   var camel = cache[property];
@@ -17981,13 +19749,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 198 */
+=======
+/* 179 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var babelHelpers = __webpack_require__(90);
+=======
+var babelHelpers = __webpack_require__(81);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 exports.__esModule = true;
 
@@ -17996,7 +19772,11 @@ exports.__esModule = true;
  */
 exports['default'] = activeElement;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ownerDocument = __webpack_require__(64);
+=======
+var _ownerDocument = __webpack_require__(59);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
 
@@ -18024,7 +19804,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 199 */
+=======
+/* 180 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -18044,13 +19828,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 200 */
+=======
+/* 181 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var canUseDOM = __webpack_require__(52);
+=======
+var canUseDOM = __webpack_require__(48);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var off = function off() {};
 
 if (canUseDOM) {
@@ -18079,15 +19871,25 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 201 */
+=======
+/* 182 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var contains = __webpack_require__(65),
     getWindow = __webpack_require__(88),
     ownerDocument = __webpack_require__(64);
+=======
+var contains = __webpack_require__(69),
+    getWindow = __webpack_require__(79),
+    ownerDocument = __webpack_require__(59);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = function offset(node) {
   var doc = ownerDocument(node),
@@ -18125,13 +19927,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 202 */
+=======
+/* 183 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getWindow = __webpack_require__(88);
+=======
+var getWindow = __webpack_require__(79);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = function scrollTop(node, val) {
   var win = getWindow(node);
@@ -18151,7 +19961,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 203 */
+=======
+/* 184 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18163,7 +19977,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var camelize = __webpack_require__(412);
+=======
+var camelize = __webpack_require__(377);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var msPattern = /^-ms-/;
 
 module.exports = function camelizeStyleName(string) {
@@ -18182,13 +20000,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 204 */
+=======
+/* 185 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var canUseDOM = __webpack_require__(52);
+=======
+var canUseDOM = __webpack_require__(48);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var size;
 
@@ -18218,13 +20044,21 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(size, 'size', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/util/scrollbarSize.js');
+=======
+  __REACT_HOT_LOADER__.register(size, 'size', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/scrollbarSize.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 205 */
+=======
+/* 186 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18248,7 +20082,7 @@ var _temp = function () {
  * @typechecks
  */
 
-var emptyFunction = __webpack_require__(30);
+var emptyFunction = __webpack_require__(29);
 
 /**
  * Upstream version of event listener. Does not take into account specific
@@ -18325,7 +20159,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 206 */
+=======
+/* 187 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -18368,7 +20206,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 207 */
+=======
+/* 188 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -18420,7 +20262,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 208 */
+=======
+/* 189 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18435,7 +20281,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -18527,7 +20373,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 209 */
+=======
+/* 190 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18553,11 +20403,19 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ExecutionEnvironment = __webpack_require__(92);
 
 var _DOMUtils = __webpack_require__(132);
 
 var _createHistory = __webpack_require__(211);
+=======
+var _ExecutionEnvironment = __webpack_require__(83);
+
+var _DOMUtils = __webpack_require__(122);
+
+var _createHistory = __webpack_require__(192);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createHistory2 = _interopRequireDefault(_createHistory);
 
@@ -18603,7 +20461,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 210 */
+=======
+/* 191 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18625,7 +20487,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -18633,6 +20495,7 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Actions = __webpack_require__(66);
 
 var _PathUtils = __webpack_require__(53);
@@ -18644,6 +20507,19 @@ var _DOMUtils = __webpack_require__(132);
 var _DOMStateStorage = __webpack_require__(208);
 
 var _createDOMHistory = __webpack_require__(209);
+=======
+var _Actions = __webpack_require__(60);
+
+var _PathUtils = __webpack_require__(49);
+
+var _ExecutionEnvironment = __webpack_require__(83);
+
+var _DOMUtils = __webpack_require__(122);
+
+var _DOMStateStorage = __webpack_require__(189);
+
+var _createDOMHistory = __webpack_require__(190);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createDOMHistory2 = _interopRequireDefault(_createDOMHistory);
 
@@ -18899,7 +20775,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 211 */
+=======
+/* 192 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -18923,10 +20803,11 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _deepEqual = __webpack_require__(397);
 
 var _deepEqual2 = _interopRequireDefault(_deepEqual);
@@ -18946,6 +20827,27 @@ var _runTransitionHook = __webpack_require__(134);
 var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 
 var _deprecate = __webpack_require__(133);
+=======
+var _deepEqual = __webpack_require__(362);
+
+var _deepEqual2 = _interopRequireDefault(_deepEqual);
+
+var _PathUtils = __webpack_require__(49);
+
+var _AsyncUtils = __webpack_require__(394);
+
+var _Actions = __webpack_require__(60);
+
+var _createLocation2 = __webpack_require__(396);
+
+var _createLocation3 = _interopRequireDefault(_createLocation2);
+
+var _runTransitionHook = __webpack_require__(124);
+
+var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
+
+var _deprecate = __webpack_require__(123);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _deprecate2 = _interopRequireDefault(_deprecate);
 
@@ -19237,7 +21139,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 212 */
+=======
+/* 193 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19259,10 +21165,11 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ExecutionEnvironment = __webpack_require__(92);
 
 var _PathUtils = __webpack_require__(53);
@@ -19272,6 +21179,17 @@ var _runTransitionHook = __webpack_require__(134);
 var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
 
 var _deprecate = __webpack_require__(133);
+=======
+var _ExecutionEnvironment = __webpack_require__(83);
+
+var _PathUtils = __webpack_require__(49);
+
+var _runTransitionHook = __webpack_require__(124);
+
+var _runTransitionHook2 = _interopRequireDefault(_runTransitionHook);
+
+var _deprecate = __webpack_require__(123);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _deprecate2 = _interopRequireDefault(_deprecate);
 
@@ -19433,7 +21351,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 213 */
+=======
+/* 194 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -19503,9 +21425,13 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 214 */,
 /* 215 */,
 /* 216 */
+=======
+/* 195 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19515,11 +21441,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _getPrototype = __webpack_require__(437);
 
 var _getPrototype2 = _interopRequireDefault(_getPrototype);
 
 var _isObjectLike = __webpack_require__(439);
+=======
+var _getPrototype = __webpack_require__(398);
+
+var _getPrototype2 = _interopRequireDefault(_getPrototype);
+
+var _isObjectLike = __webpack_require__(400);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _isObjectLike2 = _interopRequireDefault(_isObjectLike);
 
@@ -19619,8 +21553,12 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 217 */,
 /* 218 */
+=======
+/* 196 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19658,7 +21596,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -19741,7 +21679,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 219 */
+=======
+/* 197 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19779,11 +21721,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _all = __webpack_require__(97);
 
 var _all2 = _interopRequireDefault(_all);
 
 var _Button = __webpack_require__(79);
+=======
+var _all = __webpack_require__(89);
+
+var _all2 = _interopRequireDefault(_all);
+
+var _Button = __webpack_require__(71);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -19872,7 +21822,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 220 */
+=======
+/* 198 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19914,7 +21868,11 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _TransitionEvents = __webpack_require__(511);
+=======
+var _TransitionEvents = __webpack_require__(467);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _TransitionEvents2 = _interopRequireDefault(_TransitionEvents);
 
@@ -20060,7 +22018,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 221 */
+=======
+/* 199 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20098,11 +22060,15 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Button = __webpack_require__(79);
+=======
+var _Button = __webpack_require__(71);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Button2 = _interopRequireDefault(_Button);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -20189,7 +22155,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 222 */
+=======
+/* 200 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20310,7 +22280,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 223 */
+=======
+/* 201 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20320,7 +22294,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _values = __webpack_require__(59);
+=======
+var _values = __webpack_require__(54);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -20354,7 +22332,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20463,7 +22441,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 224 */
+=======
+/* 202 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20553,7 +22535,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 225 */
+=======
+/* 203 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20643,7 +22629,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 226 */
+=======
+/* 204 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20792,7 +22782,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 227 */
+=======
+/* 205 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20882,7 +22876,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 228 */
+=======
+/* 206 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20916,7 +22914,11 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _keycode = __webpack_require__(135);
+=======
+var _keycode = __webpack_require__(125);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _keycode2 = _interopRequireDefault(_keycode);
 
@@ -20928,11 +22930,15 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _all = __webpack_require__(97);
+=======
+var _all = __webpack_require__(89);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _all2 = _interopRequireDefault(_all);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -20942,7 +22948,7 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -21308,7 +23314,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 229 */
+=======
+/* 207 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21346,7 +23356,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -21455,7 +23465,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 230 */
+=======
+/* 208 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21556,7 +23570,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 231 */
+=======
+/* 209 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21594,7 +23612,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Overlay = __webpack_require__(531);
+=======
+var _Overlay = __webpack_require__(487);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
@@ -21602,7 +23624,11 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Fade = __webpack_require__(95);
+=======
+var _Fade = __webpack_require__(86);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -21726,7 +23752,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 232 */
+=======
+/* 210 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21764,7 +23794,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -21870,7 +23900,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 233 */
+=======
+/* 211 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -21884,7 +23918,11 @@ var _extends2 = __webpack_require__(5);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _assign = __webpack_require__(184);
+=======
+var _assign = __webpack_require__(165);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -21918,7 +23956,7 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -22041,7 +24079,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 234 */
+=======
+/* 212 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22083,7 +24125,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -22093,7 +24135,11 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Fade = __webpack_require__(95);
+=======
+var _Fade = __webpack_require__(86);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -22376,7 +24422,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 235 */
+=======
+/* 213 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -22402,7 +24452,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 236 */
+=======
+/* 214 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22420,6 +24474,7 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _componentOrElement = __webpack_require__(144);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
@@ -22429,6 +24484,17 @@ var _ownerDocument = __webpack_require__(80);
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
 var _getContainer = __webpack_require__(143);
+=======
+var _componentOrElement = __webpack_require__(133);
+
+var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
+
+var _ownerDocument = __webpack_require__(72);
+
+var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
+
+var _getContainer = __webpack_require__(132);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
@@ -22550,7 +24616,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 237 */
+=======
+/* 215 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22584,11 +24654,23 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _addEventListener = __webpack_require__(239);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
 var _ownerDocument = __webpack_require__(80);
+=======
+var _addEventListener = __webpack_require__(217);
+
+var _addEventListener2 = _interopRequireDefault(_addEventListener);
+
+var _createChainedFunction = __webpack_require__(491);
+
+var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
+
+var _ownerDocument = __webpack_require__(72);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -22774,7 +24856,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 238 */
+=======
+/* 216 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -22815,11 +24901,19 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _properties = __webpack_require__(411);
 
 var _properties2 = _interopRequireDefault(_properties);
 
 var _on = __webpack_require__(130);
+=======
+var _properties = __webpack_require__(376);
+
+var _properties2 = _interopRequireDefault(_properties);
+
+var _on = __webpack_require__(120);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _on2 = _interopRequireDefault(_on);
 
@@ -23228,7 +25322,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 239 */
+=======
+/* 217 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23248,11 +25346,19 @@ exports.default = function (node, event, handler, capture) {
   };
 };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _on = __webpack_require__(130);
 
 var _on2 = _interopRequireDefault(_on);
 
 var _off = __webpack_require__(200);
+=======
+var _on = __webpack_require__(120);
+
+var _on2 = _interopRequireDefault(_on);
+
+var _off = __webpack_require__(181);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _off2 = _interopRequireDefault(_off);
 
@@ -23278,7 +25384,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 240 */
+=======
+/* 218 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23289,11 +25399,19 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = isOverflowing;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isWindow = __webpack_require__(88);
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
 var _ownerDocument = __webpack_require__(64);
+=======
+var _isWindow = __webpack_require__(79);
+
+var _isWindow2 = _interopRequireDefault(_isWindow);
+
+var _ownerDocument = __webpack_require__(59);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -23348,7 +25466,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 241 */
+=======
+/* 219 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23374,7 +25496,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 242 */
+=======
+/* 220 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -23415,7 +25541,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 243 */
+=======
+/* 221 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23445,7 +25575,11 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PropTypes = __webpack_require__(146);
+=======
+var _PropTypes = __webpack_require__(135);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -23652,7 +25786,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 244 */
+=======
+/* 222 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23668,11 +25806,19 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouteUtils = __webpack_require__(48);
 
 var _PatternUtils = __webpack_require__(68);
 
 var _InternalPropTypes = __webpack_require__(54);
+=======
+var _RouteUtils = __webpack_require__(44);
+
+var _PatternUtils = __webpack_require__(61);
+
+var _InternalPropTypes = __webpack_require__(51);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -23784,7 +25930,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 245 */
+=======
+/* 223 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23805,7 +25955,11 @@ var _extends = Object.assign || function (target) {
 exports.createRouterObject = createRouterObject;
 exports.createRoutingHistory = createRoutingHistory;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _deprecateObjectProperties = __webpack_require__(101);
+=======
+var _deprecateObjectProperties = __webpack_require__(93);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 
@@ -23852,7 +26006,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 246 */
+=======
+/* 224 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23861,6 +26019,7 @@ var _temp = function () {
 exports.__esModule = true;
 exports.default = createMemoryHistory;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _useQueries = __webpack_require__(93);
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
@@ -23870,6 +26029,17 @@ var _useBasename = __webpack_require__(212);
 var _useBasename2 = _interopRequireDefault(_useBasename);
 
 var _createMemoryHistory = __webpack_require__(432);
+=======
+var _useQueries = __webpack_require__(84);
+
+var _useQueries2 = _interopRequireDefault(_useQueries);
+
+var _useBasename = __webpack_require__(193);
+
+var _useBasename2 = _interopRequireDefault(_useBasename);
+
+var _createMemoryHistory = __webpack_require__(397);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
 
@@ -23911,7 +26081,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 247 */
+=======
+/* 225 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23925,7 +26099,11 @@ exports.default = function (createHistory) {
   return history;
 };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _useRouterHistory = __webpack_require__(249);
+=======
+var _useRouterHistory = __webpack_require__(227);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _useRouterHistory2 = _interopRequireDefault(_useRouterHistory);
 
@@ -23953,7 +26131,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 248 */
+=======
+/* 226 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -23973,7 +26155,11 @@ var _extends = Object.assign || function (target) {
 
 exports.default = makeStateWithLocation;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _deprecateObjectProperties = __webpack_require__(101);
+=======
+var _deprecateObjectProperties = __webpack_require__(93);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _routerWarning = __webpack_require__(21);
 
@@ -24036,7 +26222,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 249 */
+=======
+/* 227 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24045,11 +26235,19 @@ var _temp = function () {
 exports.__esModule = true;
 exports.default = useRouterHistory;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _useQueries = __webpack_require__(93);
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
 var _useBasename = __webpack_require__(212);
+=======
+var _useQueries = __webpack_require__(84);
+
+var _useQueries2 = _interopRequireDefault(_useQueries);
+
+var _useBasename = __webpack_require__(193);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _useBasename2 = _interopRequireDefault(_useBasename);
 
@@ -24084,7 +26282,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 250 */
+=======
+/* 228 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -24257,7 +26459,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 251 */
+=======
+/* 229 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24277,7 +26483,11 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var PooledClass = __webpack_require__(49);
+=======
+var PooledClass = __webpack_require__(45);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 
@@ -24381,7 +26591,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 252 */
+=======
+/* 230 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24398,11 +26612,17 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMProperty = __webpack_require__(55);
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactInstrumentation = __webpack_require__(28);
+=======
+var DOMProperty = __webpack_require__(52);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactInstrumentation = __webpack_require__(27);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var quoteAttributeValueForBrowser = __webpack_require__(632);
+var quoteAttributeValueForBrowser = __webpack_require__(589);
 var warning = __webpack_require__(10);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -24630,7 +26850,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 253 */
+=======
+/* 231 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24647,11 +26871,19 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var PooledClass = __webpack_require__(49);
 var ReactElement = __webpack_require__(32);
 
 var emptyFunction = __webpack_require__(30);
 var traverseAllChildren = __webpack_require__(168);
+=======
+var PooledClass = __webpack_require__(45);
+var ReactElement = __webpack_require__(31);
+
+var emptyFunction = __webpack_require__(29);
+var traverseAllChildren = __webpack_require__(157);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var twoArgumentPooler = PooledClass.twoArgumentPooler;
 var fourArgumentPooler = PooledClass.fourArgumentPooler;
@@ -24865,7 +27097,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 254 */
+=======
+/* 232 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -24887,6 +27123,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactComponent = __webpack_require__(153);
 var ReactElement = __webpack_require__(32);
 var ReactPropTypeLocations = __webpack_require__(105);
@@ -24897,6 +27134,18 @@ var emptyObject = __webpack_require__(78);
 var invariant = __webpack_require__(9);
 var keyMirror = __webpack_require__(91);
 var keyOf = __webpack_require__(46);
+=======
+var ReactComponent = __webpack_require__(142);
+var ReactElement = __webpack_require__(31);
+var ReactPropTypeLocations = __webpack_require__(97);
+var ReactPropTypeLocationNames = __webpack_require__(146);
+var ReactNoopUpdateQueue = __webpack_require__(145);
+
+var emptyObject = __webpack_require__(70);
+var invariant = __webpack_require__(9);
+var keyMirror = __webpack_require__(82);
+var keyOf = __webpack_require__(43);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var MIXINS_KEY = keyOf({ mixins: null });
@@ -25649,7 +27898,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 255 */
+=======
+/* 233 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -25684,7 +27937,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 256 */
+=======
+/* 234 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25703,10 +27960,17 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DisabledInputUtils = __webpack_require__(102);
 var LinkedValueUtils = __webpack_require__(152);
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactUpdates = __webpack_require__(37);
+=======
+var DisabledInputUtils = __webpack_require__(94);
+var LinkedValueUtils = __webpack_require__(141);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactUpdates = __webpack_require__(36);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var warning = __webpack_require__(10);
 
@@ -25919,7 +28183,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 257 */
+=======
+/* 235 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -25945,6 +28213,7 @@ var _temp = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactComponentTreeHook = __webpack_require__(31);
 var ReactElement = __webpack_require__(32);
@@ -25954,6 +28223,17 @@ var checkReactTypeSpec = __webpack_require__(269);
 
 var canDefineProperty = __webpack_require__(160);
 var getIteratorFn = __webpack_require__(165);
+=======
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactComponentTreeHook = __webpack_require__(30);
+var ReactElement = __webpack_require__(31);
+var ReactPropTypeLocations = __webpack_require__(97);
+
+var checkReactTypeSpec = __webpack_require__(247);
+
+var canDefineProperty = __webpack_require__(149);
+var getIteratorFn = __webpack_require__(154);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 function getDeclarationErrorAddendum() {
@@ -26179,7 +28459,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 258 */
+=======
+/* 236 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -26230,7 +28514,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 259 */
+=======
+/* 237 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -26269,7 +28557,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 260 */
+=======
+/* 238 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26377,7 +28669,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 261 */
+=======
+/* 239 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26394,11 +28690,17 @@ var _temp = function () {
 
 'use strict';
 
-var ReactDOMSelection = __webpack_require__(590);
+var ReactDOMSelection = __webpack_require__(547);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var containsNode = __webpack_require__(417);
 var focusNode = __webpack_require__(206);
 var getActiveElement = __webpack_require__(207);
+=======
+var containsNode = __webpack_require__(382);
+var focusNode = __webpack_require__(187);
+var getActiveElement = __webpack_require__(188);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function isInDocument(node) {
   return containsNode(document.documentElement, node);
@@ -26520,7 +28822,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 262 */
+=======
+/* 240 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26539,6 +28845,7 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMLazyTree = __webpack_require__(69);
 var DOMProperty = __webpack_require__(55);
 var ReactBrowserEventEmitter = __webpack_require__(104);
@@ -26560,6 +28867,29 @@ var instantiateReactComponent = __webpack_require__(273);
 var invariant = __webpack_require__(9);
 var setInnerHTML = __webpack_require__(108);
 var shouldUpdateReactComponent = __webpack_require__(167);
+=======
+var DOMLazyTree = __webpack_require__(62);
+var DOMProperty = __webpack_require__(52);
+var ReactBrowserEventEmitter = __webpack_require__(96);
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMContainerInfo = __webpack_require__(539);
+var ReactDOMFeatureFlags = __webpack_require__(542);
+var ReactElement = __webpack_require__(31);
+var ReactFeatureFlags = __webpack_require__(237);
+var ReactInstanceMap = __webpack_require__(75);
+var ReactInstrumentation = __webpack_require__(27);
+var ReactMarkupChecksum = __webpack_require__(560);
+var ReactReconciler = __webpack_require__(63);
+var ReactUpdateQueue = __webpack_require__(148);
+var ReactUpdates = __webpack_require__(36);
+
+var emptyObject = __webpack_require__(70);
+var instantiateReactComponent = __webpack_require__(251);
+var invariant = __webpack_require__(9);
+var setInnerHTML = __webpack_require__(100);
+var shouldUpdateReactComponent = __webpack_require__(156);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var ATTR_NAME = DOMProperty.ID_ATTRIBUTE_NAME;
@@ -27112,7 +29442,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 263 */
+=======
+/* 241 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27129,7 +29463,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var keyMirror = __webpack_require__(91);
+=======
+var keyMirror = __webpack_require__(82);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * When a component's children are updated, a series of update configuration
@@ -27161,7 +29499,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 264 */
+=======
+/* 242 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27181,7 +29523,7 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactElement = __webpack_require__(32);
+var ReactElement = __webpack_require__(31);
 
 var invariant = __webpack_require__(9);
 
@@ -27219,7 +29561,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 265 */
+=======
+/* 243 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27238,12 +29584,21 @@ var _temp = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactElement = __webpack_require__(32);
 var ReactPropTypeLocationNames = __webpack_require__(157);
 var ReactPropTypesSecret = __webpack_require__(158);
 
 var emptyFunction = __webpack_require__(30);
 var getIteratorFn = __webpack_require__(165);
+=======
+var ReactElement = __webpack_require__(31);
+var ReactPropTypeLocationNames = __webpack_require__(146);
+var ReactPropTypesSecret = __webpack_require__(147);
+
+var emptyFunction = __webpack_require__(29);
+var getIteratorFn = __webpack_require__(154);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 /**
@@ -27708,7 +30063,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 266 */
+=======
+/* 244 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -27737,7 +30096,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 267 */
+=======
+/* 245 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -27781,7 +30144,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 268 */
+=======
+/* 246 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27857,7 +30224,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 269 */
+=======
+/* 247 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27878,8 +30249,13 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactPropTypeLocationNames = __webpack_require__(157);
 var ReactPropTypesSecret = __webpack_require__(158);
+=======
+var ReactPropTypeLocationNames = __webpack_require__(146);
+var ReactPropTypesSecret = __webpack_require__(147);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -27892,7 +30268,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(31);
+  ReactComponentTreeHook = __webpack_require__(30);
 }
 
 var loggedTypeFailures = {};
@@ -27934,7 +30310,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
         if (process.env.NODE_ENV !== 'production') {
           if (!ReactComponentTreeHook) {
-            ReactComponentTreeHook = __webpack_require__(31);
+            ReactComponentTreeHook = __webpack_require__(30);
           }
           if (debugID !== null) {
             componentStackInfo = ReactComponentTreeHook.getStackAddendumByID(debugID);
@@ -27968,7 +30344,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 270 */
+=======
+/* 248 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -28016,7 +30396,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 271 */
+=======
+/* 249 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28033,7 +30417,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactNodeTypes = __webpack_require__(264);
+=======
+var ReactNodeTypes = __webpack_require__(242);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function getHostComponentFromComposite(inst) {
   var type;
@@ -28063,7 +30451,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 272 */
+=======
+/* 250 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28115,7 +30507,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 273 */
+=======
+/* 251 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28137,9 +30533,15 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactCompositeComponent = __webpack_require__(578);
 var ReactEmptyComponent = __webpack_require__(258);
 var ReactHostComponent = __webpack_require__(260);
+=======
+var ReactCompositeComponent = __webpack_require__(535);
+var ReactEmptyComponent = __webpack_require__(236);
+var ReactHostComponent = __webpack_require__(238);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -28262,7 +30664,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 274 */
+=======
+/* 252 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -28332,7 +30738,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 275 */
+=======
+/* 253 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28350,8 +30760,13 @@ var _temp = function () {
 'use strict';
 
 var ExecutionEnvironment = __webpack_require__(20);
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var escapeTextContentForBrowser = __webpack_require__(107);
 var setInnerHTML = __webpack_require__(108);
+=======
+var escapeTextContentForBrowser = __webpack_require__(99);
+var setInnerHTML = __webpack_require__(100);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -28397,7 +30812,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 276 */
+=======
+/* 254 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -28454,7 +30873,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 277 */
+=======
+/* 255 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28469,11 +30892,19 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 exports.default = createStore;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isPlainObject = __webpack_require__(216);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
 var _symbolObservable = __webpack_require__(652);
+=======
+var _isPlainObject = __webpack_require__(195);
+
+var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
+
+var _symbolObservable = __webpack_require__(595);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _symbolObservable2 = _interopRequireDefault(_symbolObservable);
 
@@ -28739,7 +31170,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 278 */
+=======
+/* 256 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28750,27 +31185,39 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.compose = exports.applyMiddleware = exports.bindActionCreators = exports.combineReducers = exports.createStore = undefined;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createStore = __webpack_require__(277);
+=======
+var _createStore = __webpack_require__(255);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createStore2 = _interopRequireDefault(_createStore);
 
-var _combineReducers = __webpack_require__(636);
+var _combineReducers = __webpack_require__(593);
 
 var _combineReducers2 = _interopRequireDefault(_combineReducers);
 
-var _bindActionCreators = __webpack_require__(635);
+var _bindActionCreators = __webpack_require__(592);
 
 var _bindActionCreators2 = _interopRequireDefault(_bindActionCreators);
 
-var _applyMiddleware = __webpack_require__(634);
+var _applyMiddleware = __webpack_require__(591);
 
 var _applyMiddleware2 = _interopRequireDefault(_applyMiddleware);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _compose = __webpack_require__(276);
 
 var _compose2 = _interopRequireDefault(_compose);
 
 var _warning = __webpack_require__(279);
+=======
+var _compose = __webpack_require__(254);
+
+var _compose2 = _interopRequireDefault(_compose);
+
+var _warning = __webpack_require__(257);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -28805,7 +31252,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 279 */
+=======
+/* 257 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -28849,6 +31300,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 280 */,
 /* 281 */,
 /* 282 */,
@@ -28861,10 +31313,15 @@ var _temp = function () {
 /* 289 */,
 /* 290 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+/* 258 */
+/***/ function(module, exports) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
-'use strict';
+"use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -28916,6 +31373,107 @@ _react2.default.createElement(
   { store: store },
   _Routes2.default
 ), document.getElementById('app'));
+=======
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+var g;
+
+// This works in non-strict mode
+g = function () {
+	return this;
+}();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1, eval)("this");
+} catch (e) {
+	// This works if the window reference is available
+	if ((typeof window === "undefined" ? "undefined" : _typeof(window)) === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(g, "g", "/Users/Michael/HR/Thesis/ReTok/node_modules/webpack/buildin/global.js");
+}();
+
+;
+
+/***/ },
+/* 259 */
+/***/ function(module, exports) {
+
+/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
+
+/* WEBPACK VAR INJECTION */}.call(exports, {}))
+
+/***/ },
+/* 260 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRouter = __webpack_require__(15);
+
+var _Routes = __webpack_require__(281);
+
+var _Routes2 = _interopRequireDefault(_Routes);
+
+var _redux = __webpack_require__(256);
+
+var _reactRedux = __webpack_require__(19);
+
+var _userReducer = __webpack_require__(16);
+
+var _userReducer2 = _interopRequireDefault(_userReducer);
+
+var _uploadReducer = __webpack_require__(160);
+
+var _uploadReducer2 = _interopRequireDefault(_uploadReducer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import {tester} from 'graphql-tester';
+
+// render(
+//   Routes, document.getElementById('app')
+// );
+
+
+var reducers = (0, _redux.combineReducers)({
+  userReducer: _userReducer2.default,
+  uploadReducer: _uploadReducer2.default
+});
+
+// Create store that houses state-tree of app
+// Can be modified by dispatching actions on above reducers
+// (see 'redux/' for actions)
+var store = (0, _redux.createStore)(reducers);
+
+(0, _reactDom.render)(
+// Provider will make the Redux-Store (state tree) accessible to ALL components. 
+//(React specific helper module for simplifying redux!)
+_react2.default.createElement(
+  _reactRedux.Provider,
+  { store: store },
+  _Routes2.default
+), document.getElementById('app'));
 ;
 
 var _temp = function () {
@@ -28923,15 +31481,82 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/Users/Rob/hackreactor/ReTok/client/src/App.js');
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/Users/Michael/HR/Thesis/ReTok/client/src/App.js');
 
-  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Rob/hackreactor/ReTok/client/src/App.js');
+  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Michael/HR/Thesis/ReTok/client/src/App.js');
 }();
 
 ;
 
 /***/ },
-/* 291 */
+/* 261 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _reactEmojione = __webpack_require__(50);
+
+var shortToUnicode = function shortToUnicode(str, emojis, username) {
+	var userEmojis = {};
+	emojis.forEach(function (owned) {
+		userEmojis[owned.emoji] = true;
+	});
+	var start;
+	var escapeIndex = str.indexOf(':');
+	var name = str.slice(0, escapeIndex + 1);
+	var string = str.slice(escapeIndex + 1);
+	console.log('name', name);
+	var shortToUniOne = function shortToUniOne(string) {
+		if (string.includes(':')) {
+			var startIndex = string.indexOf(':');
+			//console.log(startIndex)
+			for (var i = startIndex + 1; i < string.length; i++) {
+				if (string.charAt(i) === ':') {
+					if (startIndex !== 0) {
+						start = string.slice(0, startIndex);
+					}
+					var end = string.slice(i + 1) || '';
+					var short = string.slice(startIndex, i + 1);
+					if (!!userEmojis[short] || !name.includes(username)) {
+						var emoji = (0, _reactEmojione.emojify)(short, { output: 'unicode' });
+						console.log('short code', short);
+						console.log('end' + end);
+						return start + emoji + shortToUniOne(end);
+					} else {
+						return start + short + shortToUniOne(end);
+					}
+				}
+			}
+		}
+		return string;
+	};
+
+	return name + shortToUniOne(string);
+};
+
+var _default = shortToUnicode;
+exports.default = _default;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(shortToUnicode, 'shortToUnicode', '/Users/Michael/HR/Thesis/ReTok/client/shortToUnicode.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/shortToUnicode.js');
+}();
+
+;
+
+/***/ },
+/* 262 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28947,7 +31572,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(11);
+var _reactDom = __webpack_require__(12);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29368,6 +31993,7 @@ var ChatContainer = function (_React$Component) {
 
 var _default = ChatContainer;
 exports.default = _default;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -29375,15 +32001,25 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(ChatContainer, 'ChatContainer', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatContainer.js');
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(reducers, 'reducers', '/Users/Rob/hackreactor/ReTok/client/src/App.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatContainer.js');
+  __REACT_HOT_LOADER__.register(store, 'store', '/Users/Rob/hackreactor/ReTok/client/src/App.js');
+=======
+  __REACT_HOT_LOADER__.register(ChatContainer, 'ChatContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
-/* 292 */
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 291 */
+=======
+/* 263 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29399,15 +32035,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactDom = __webpack_require__(11);
+=======
+var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(17);
+var _reactRedux = __webpack_require__(19);
 
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -29417,6 +32057,22 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var ChatContainer = function (_React$Component) {
+  _inherits(ChatContainer, _React$Component);
+
+  function ChatContainer(props) {
+    _classCallCheck(this, ChatContainer);
+
+    return _possibleConstructorReturn(this, (ChatContainer.__proto__ || Object.getPrototypeOf(ChatContainer)).call(this, props));
+  }
+
+  _createClass(ChatContainer, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var socket = io();
+      console.log('SOCKET CONNECTION', socket);
+=======
 var ChatMVPContainer = function (_React$Component) {
   _inherits(ChatMVPContainer, _React$Component);
 
@@ -29439,6 +32095,7 @@ var ChatMVPContainer = function (_React$Component) {
     value: function componentDidMount() {
 
       var socket = this.props.socket;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
       var isChannelReady = false;
       var isInitiator = false;
       var isStarted = false;
@@ -29446,7 +32103,10 @@ var ChatMVPContainer = function (_React$Component) {
       var pc;
       var remoteStream;
       var turnReady;
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
       var sentCall = false;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
       var pcConfig = {
         'iceServers': [{
@@ -29462,6 +32122,35 @@ var ChatMVPContainer = function (_React$Component) {
         }
       };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      var localVideo = document.querySelector('#localVideo');
+      var remoteVideo = document.querySelector('#remoteVideo');
+
+      console.log('Does getUserMedia exist?', navigator.mediaDevices);
+
+      navigator.mediaDevices.getUserMedia({
+        audio: false,
+        video: true
+      }).then(this.gotStream.bind(this)).catch(function (e) {
+        alert('getUserMedia() error: ' + e.name);
+        console.log(e);
+      });
+
+      // if (location.hostname !== 'localhost') {
+      //   this.requestTurn(
+      //     'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
+      //   );
+      // }
+
+      var room = 'foo';
+      // Could prompt for room name:
+      // room = prompt('Enter room name:');
+
+
+      if (room !== '') {
+        socket.emit('create or join', room);
+        console.log('Attempted to create or  join room', room);
+=======
       /////////////////////////////////////////////
 
       var room = this.props.room;
@@ -29475,6 +32164,7 @@ var ChatMVPContainer = function (_React$Component) {
       if (room !== '' && room !== this.props.user.username) {
         console.log('Attempted to create or  join room', room);
         socket.emit('create or join', room);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
       }
 
       socket.on('created', function (room) {
@@ -29487,9 +32177,14 @@ var ChatMVPContainer = function (_React$Component) {
       });
 
       socket.on('join', function (room) {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+        console.log('Another peer made a request to join room ' + room);
+        console.log('This peer is the initiator of room ' + room + '!');
+=======
         // console.log('Another peer made a request to join room ' + room);
         // console.log('This peer is the initiator of room ' + room + '!');
         console.log('Both peers are ready in room ' + room + '!');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
         isChannelReady = true;
       });
 
@@ -29502,6 +32197,8 @@ var ChatMVPContainer = function (_React$Component) {
         console.log.apply(console, array);
       });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
       ////////////////////////////////////////////////
 
       function sendMessage(message) {
@@ -29509,10 +32206,21 @@ var ChatMVPContainer = function (_React$Component) {
         socket.emit('message', message);
       }
 
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
       // This client receives a message
       socket.on('message', function (message) {
         console.log('Client received message:', message);
         if (message === 'got user media') {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+          this.maybeStart();
+        } else if (message.type === 'offer') {
+          if (!isInitiator && !isStarted) {
+            this.maybeStart();
+          }
+          pc.setRemoteDescription(new RTCSessionDescription(message));
+          this.doAnswer();
+        } else if (message.type === 'answer' && isStarted) {
+=======
           maybeStart();
         } else if (message.type === 'offer') {
           if (!isInitiator && !isStarted) {
@@ -29523,6 +32231,7 @@ var ChatMVPContainer = function (_React$Component) {
           doAnswer();
         } else if (sentCall) {
           console.log('THIS IS THE LAST THING----------->');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
           pc.setRemoteDescription(new RTCSessionDescription(message));
         } else if (message.type === 'candidate' && isStarted) {
           var candidate = new RTCIceCandidate({
@@ -29531,6 +32240,99 @@ var ChatMVPContainer = function (_React$Component) {
           });
           pc.addIceCandidate(candidate);
         } else if (message === 'bye' && isStarted) {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+          this.handleRemoteHangup();
+        }
+      });
+    }
+  }, {
+    key: 'sendMessage',
+    value: function sendMessage(message) {
+      console.log('Client sending message: ', message);
+      socket.emit('message', message);
+    }
+  }, {
+    key: 'gotStream',
+    value: function gotStream(stream) {
+      window.stream = stream;
+      console.log('Adding local stream.');
+      localVideo.src = window.URL.createObjectURL(stream);
+      var localStream = stream;
+      window.localStream = localStream;
+      this.sendMessage('got user media');
+      if (isInitiator) {
+        maybeStart();
+      }
+    }
+  }, {
+    key: 'maybeStart',
+    value: function maybeStart() {
+      console.log('>>>>>>maybeStart() ', isStarted, window.localStream, isChannelReady);
+      if (!isStarted && typeof window.localStream !== 'undefined' && isChannelReady) {
+        console.log('>>>>>> creating peer connection');
+        this.createPeerConnection();
+        pc.addStream(window.localStream);
+        isStarted = true;
+        console.log('isInitiator', isInitiator);
+        if (isInitiator) {
+          this.doCall();
+        }
+      }
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var track = stream.getTracks()[0];
+      track.stop();
+      this.sendMessage('bye');
+    }
+  }, {
+    key: 'createPeerConnection',
+
+
+    /////////////////////////////////////////////////////////
+
+    value: function createPeerConnection() {
+
+      try {
+        pc = new RTCPeerConnection();
+        pc.onicecandidate = this.handleIceCandidate.bind(this);
+        pc.onaddstream = this.handleRemoteStreamAdded.bind(this);
+        pc.onremovestream = this.handleRemoteStreamRemoved.bind(this);
+        console.log('Created RTCPeerConnnection');
+      } catch (e) {
+        console.log('Failed to create PeerConnection, exception: ' + e.message);
+        alert('Cannot create RTCPeerConnection object.');
+        return;
+      }
+    }
+  }, {
+    key: 'handleIceCandidate',
+    value: function handleIceCandidate(event) {
+      console.log('icecandidate event: ', event);
+      if (event.candidate) {
+        this.sendMessage({
+          type: 'candidate',
+          label: event.candidate.sdpMLineIndex,
+          id: event.candidate.sdpMid,
+          candidate: event.candidate.candidate
+        });
+      } else {
+        console.log('End of candidates.');
+      }
+    }
+  }, {
+    key: 'handleRemoteStreamAdded',
+    value: function handleRemoteStreamAdded(event) {
+      console.log('Remote stream added.');
+      remoteVideo.src = window.URL.createObjectURL(event.stream);
+      remoteStream = event.stream;
+    }
+  }, {
+    key: 'handleCreateOfferError',
+    value: function handleCreateOfferError(event) {
+      console.log('createOffer() error: ', event);
+=======
           handleRemoteHangup();
         }
       });
@@ -29856,17 +32658,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatMVPContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatMVPContainer.js');
 
-  __REACT_HOT_LOADER__.register(ChatMVPContainer, 'ChatMVPContainer', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatMVPContainer.js');
+  __REACT_HOT_LOADER__.register(ChatMVPContainer, 'ChatMVPContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatMVPContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatMVPContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/ChatMVPContainer.js');
 }();
 
 ;
 
 /***/ },
-/* 293 */
+/* 264 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29876,7 +32678,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -29884,33 +32686,33 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(11);
+var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(17);
+var _reactRedux = __webpack_require__(19);
 
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
-var _OnlineFriends = __webpack_require__(177);
+var _OnlineFriends = __webpack_require__(159);
 
 var _OnlineFriends2 = _interopRequireDefault(_OnlineFriends);
 
-var _friendTierCalculator = __webpack_require__(112);
+var _friendTierCalculator = __webpack_require__(103);
 
 var _friendTierCalculator2 = _interopRequireDefault(_friendTierCalculator);
 
-var _updateHelper = __webpack_require__(58);
+var _updateHelper = __webpack_require__(53);
 
 var _updateHelper2 = _interopRequireDefault(_updateHelper);
 
-var _EmojiChatContainer = __webpack_require__(179);
+var _EmojiChatContainer = __webpack_require__(161);
 
 var _EmojiChatContainer2 = _interopRequireDefault(_EmojiChatContainer);
 
-var _reactCustomScrollbars = __webpack_require__(67);
+var _reactCustomScrollbars = __webpack_require__(88);
 
-var _axios = __webpack_require__(23);
+var _axios = __webpack_require__(24);
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -30055,6 +32857,7 @@ var MultiChatContainer = function (_React$Component) {
 
       var info = { user: friend.username, caller: this.props.room };
       socket.emit('calling', info);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     }
 
     // <div>
@@ -30064,6 +32867,105 @@ var MultiChatContainer = function (_React$Component) {
     // </div>
 
   }, {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+    key: 'doCall',
+    value: function doCall() {
+      console.log('Sending offer to peer');
+      pc.createOffer(setLocalAndSendMessage, handleCreateOfferError);
+    }
+  }, {
+    key: 'doAnswer',
+    value: function doAnswer() {
+      console.log('Sending answer to peer.');
+      pc.createAnswer().then(this.setLocalAndSendMessage.bind(this), this.onCreateSessionDescriptionError.bind(this));
+    }
+  }, {
+    key: 'setLocalAndSendMessage',
+    value: function setLocalAndSendMessage(sessionDescription) {
+      // Set Opus as the preferred codec in SDP if Opus is present.
+      sessionDescription.sdp = preferOpus(sessionDescription.sdp);
+      pc.setLocalDescription(sessionDescription);
+      console.log('setLocalAndSendMessage sending message', sessionDescription);
+      this.sendMessage(sessionDescription);
+    }
+  }, {
+    key: 'onCreateSessionDescriptionError',
+    value: function onCreateSessionDescriptionError(error) {
+      trace('Failed to create session description: ' + error.toString());
+    }
+  }, {
+    key: 'requestTurn',
+    value: function requestTurn(turnURL) {
+      var pcConfig = {
+        'iceServers': [{
+          'url': 'stun:stun.l.google.com:19302'
+        }]
+      };
+      var turnExists = false;
+      for (var i in pcConfig.iceServers) {
+        if (pcConfig.iceServers[i].url.substr(0, 5) === 'turn:') {
+          turnExists = true;
+          turnReady = true;
+          break;
+        }
+      }
+      if (!turnExists) {
+        console.log('Getting TURN server from ', turnURL);
+        // No TURN server. Get one from computeengineondemand.appspot.com:
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            var turnServer = JSON.parse(xhr.responseText);
+            console.log('Got TURN server: ', turnServer);
+            pcConfig.iceServers.push({
+              'url': 'turn:' + turnServer.username + '@' + turnServer.turn,
+              'credential': turnServer.password
+            });
+            turnReady = true;
+          }
+        };
+        xhr.open('GET', turnURL, true);
+        xhr.send();
+      }
+    }
+  }, {
+    key: 'handleRemoteStreamAdded',
+    value: function handleRemoteStreamAdded(event) {
+      console.log('Remote stream added.');
+      remoteVideo.src = window.URL.createObjectURL(event.stream);
+      remoteStream = event.stream;
+    }
+  }, {
+    key: 'handleRemoteStreamRemoved',
+    value: function handleRemoteStreamRemoved(event) {
+      console.log('Remote stream removed. Event: ', event);
+    }
+  }, {
+    key: 'hangup',
+    value: function hangup() {
+      console.log('Hanging up.');
+      this.stop();
+      this.sendMessage('bye');
+    }
+  }, {
+    key: 'handleRemoteHangup',
+    value: function handleRemoteHangup() {
+      console.log('Session terminated.');
+      this.stop();
+      isInitiator = false;
+    }
+  }, {
+    key: 'stop',
+    value: function stop() {
+      isStarted = false;
+      // isAudioMuted = false;
+      // isVideoMuted = false;
+      pc.close();
+      pc = null;
+    }
+
+    ///////////////////////////////////////////
+=======
     key: 'render',
     value: function render() {
       var _this3 = this;
@@ -30132,17 +33034,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Chat/MultiChatContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/MultiChatContainer.js');
 
-  __REACT_HOT_LOADER__.register(MultiChatContainer, 'MultiChatContainer', '/Users/Rob/hackreactor/ReTok/client/src/Chat/MultiChatContainer.js');
+  __REACT_HOT_LOADER__.register(MultiChatContainer, 'MultiChatContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/MultiChatContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Chat/MultiChatContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Chat/MultiChatContainer.js');
 }();
 
 ;
 
 /***/ },
-/* 294 */
+/* 265 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30158,42 +33060,147 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(11);
+var _reactDom = __webpack_require__(12);
 
 var _reactRouter = __webpack_require__(15);
 
-var _LoggedInNavContainer = __webpack_require__(297);
+var _LoggedInNavContainer = __webpack_require__(268);
 
 var _LoggedInNavContainer2 = _interopRequireDefault(_LoggedInNavContainer);
 
-var _LoggedOutNavContainer = __webpack_require__(300);
+var _LoggedOutNavContainer = __webpack_require__(271);
 
 var _LoggedOutNavContainer2 = _interopRequireDefault(_LoggedOutNavContainer);
 
-var _LoginContainer = __webpack_require__(111);
+var _LoginContainer = __webpack_require__(102);
 
 var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
 
-var _reactRedux = __webpack_require__(17);
+var _reactRedux = __webpack_require__(19);
 
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
-var _axios = __webpack_require__(23);
+var _axios = __webpack_require__(24);
 
 var _axios2 = _interopRequireDefault(_axios);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+    // Set Opus as the default audio codec if it's present.
 
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+  }, {
+    key: 'preferOpus',
+    value: function preferOpus(sdp) {
+      var sdpLines = sdp.split('\r\n');
+      var mLineIndex;
+      // Search for m line.
+      for (var i = 0; i < sdpLines.length; i++) {
+        if (sdpLines[i].search('m=audio') !== -1) {
+          mLineIndex = i;
+          break;
+        }
+      }
+      if (mLineIndex === null) {
+        return sdp;
+      }
 
-function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+      // If Opus is available, set it as the default in m line.
+      for (i = 0; i < sdpLines.length; i++) {
+        if (sdpLines[i].search('opus/48000') !== -1) {
+          var opusPayload = extractSdp(sdpLines[i], /:(\d+) opus\/48000/i);
+          if (opusPayload) {
+            sdpLines[mLineIndex] = this.setDefaultCodec(sdpLines[mLineIndex], opusPayload);
+          }
+          break;
+        }
+      }
 
-function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+      // Remove CN in m line and sdp.
+      sdpLines = removeCN(sdpLines, mLineIndex);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      sdp = sdpLines.join('\r\n');
+      return sdp;
+    }
+  }, {
+    key: 'extractSdp',
+    value: function extractSdp(sdpLine, pattern) {
+      var result = sdpLine.match(pattern);
+      return result && result.length === 2 ? result[1] : null;
+    }
+
+    // Set the selected codec to the first in m line.
+
+  }, {
+    key: 'setDefaultCodec',
+    value: function setDefaultCodec(mLine, payload) {
+      var elements = mLine.split(' ');
+      var newLine = [];
+      var index = 0;
+      for (var i = 0; i < elements.length; i++) {
+        if (index === 3) {
+          // Format of media starts from the fourth.
+          newLine[index++] = payload; // Put target payload to the first.
+        }
+        if (elements[i] !== payload) {
+          newLine[index++] = elements[i];
+        }
+      }
+      return newLine.join(' ');
+    }
+
+    // Strip CN from sdp before CN constraints is ready.
+
+  }, {
+    key: 'removeCN',
+    value: function removeCN(sdpLines, mLineIndex) {
+      var mLineElements = sdpLines[mLineIndex].split(' ');
+      // Scan from end for the convenience of removing an item.
+      for (var i = sdpLines.length - 1; i >= 0; i--) {
+        var payload = extractSdp(sdpLines[i], /a=rtpmap:(\d+) CN\/\d+/i);
+        if (payload) {
+          var cnPos = mLineElements.indexOf(payload);
+          if (cnPos !== -1) {
+            // Remove CN payload from m line.
+            mLineElements.splice(cnPos, 1);
+          }
+          // Remove CN line in sdp
+          sdpLines.splice(i, 1);
+        }
+      }
+
+      sdpLines[mLineIndex] = mLineElements.join(' ');
+      return sdpLines;
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Realtime communication with WebRTC'
+        ),
+        _react2.default.createElement(
+          'div',
+          { id: 'videos' },
+          _react2.default.createElement('video', { id: 'localVideo', autoPlay: true }),
+          _react2.default.createElement('video', { id: 'remoteVideo', autoPlay: true })
+        )
+      );
+    }
+  }]);
+
+  return ChatContainer;
+}(_react2.default.Component);
+
+var _default = ChatContainer;
+=======
 var HomeContainer = function (_React$Component) {
 	_inherits(HomeContainer, _React$Component);
 
@@ -30249,15 +33256,12 @@ function mapStateToProps(state) {
 	};
 }
 
-HomeContainer.contextTypes = {
-	router: _react.PropTypes.object.isRequired
-};
-
 // 'connect' from react-redux allows us to set the default state we assign to the statetree onto our components as props!
 // i.e. you won't see this.state anymore... since we are now completely separating state logic from container logic. 
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(HomeContainer);
 
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 
 // export default HomeContainer
@@ -30269,17 +33273,27 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Home/HomeContainer.js');
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(ChatContainer, 'ChatContainer', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatContainer.js');
 
-	__REACT_HOT_LOADER__.register(HomeContainer, 'HomeContainer', '/Users/Rob/hackreactor/ReTok/client/src/Home/HomeContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatContainer.js');
+=======
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Home/HomeContainer.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Home/HomeContainer.js');
+	__REACT_HOT_LOADER__.register(HomeContainer, 'HomeContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Home/HomeContainer.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Home/HomeContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
-/* 295 */
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 292 */
+=======
+/* 266 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30293,7 +33307,71 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactDom = __webpack_require__(11);
+
+var _reactRedux = __webpack_require__(17);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ChatMVPContainer = function (_React$Component) {
+  _inherits(ChatMVPContainer, _React$Component);
+
+  function ChatMVPContainer(props) {
+    _classCallCheck(this, ChatMVPContainer);
+
+    return _possibleConstructorReturn(this, (ChatMVPContainer.__proto__ || Object.getPrototypeOf(ChatMVPContainer)).call(this, props));
+  }
+
+  _createClass(ChatMVPContainer, [{
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var track = window.stream.getTracks(); // if only one media track
+      track.forEach(function (media) {
+        media.stop();
+      });
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+
+      var socket = this.props.socket;
+      var isChannelReady = false;
+      var isInitiator = false;
+      var isStarted = false;
+      var localStream;
+      var pc;
+      var remoteStream;
+      var turnReady;
+      var sentCall = false;
+
+      var pcConfig = {
+        'iceServers': [{
+          'url': 'stun:stun.l.google.com:19302'
+        }]
+      };
+
+      // Set up audio and video regardless of what devices are present.
+      var sdpConstraints = {
+        'mandatory': {
+          'OfferToReceiveAudio': true,
+          'OfferToReceiveVideo': true
+        }
+      };
+=======
+var _reactDom = __webpack_require__(12);
 
 var _reactRouter = __webpack_require__(15);
 
@@ -30345,32 +33423,66 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Rob/hackreactor/ReTok/client/src/Login/SignUpForm.js');
+  __REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/SignUpForm.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Login/SignUpForm.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Login/SignUpForm.js');
 }();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-;
+      /////////////////////////////////////////////
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      var room = this.props.room;
+      if (this.props.room === this.props.user.username) {
+        isInitiator = true;
+      }
+      // Could prompt for room name:
+      // room = prompt('Enter room name:');
+      console.log('this room', room);
+=======
 /***/ },
-/* 296 */
+/* 267 */
 /***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+      if (room !== '' && room !== this.props.user.username) {
+        console.log('Attempted to create or  join room', room);
+        socket.emit('create or join', room);
+      }
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+      socket.on('created', function (room) {
+        console.log('Created room ' + room);
+        isInitiator = true;
+      });
 
-var _react = __webpack_require__(0);
+      socket.on('full', function (room) {
+        console.log('Room ' + room + ' is full');
+      });
 
-var _react2 = _interopRequireDefault(_react);
+      socket.on('join', function (room) {
+        // console.log('Another peer made a request to join room ' + room);
+        // console.log('This peer is the initiator of room ' + room + '!');
+        console.log('Both peers are ready in room ' + room + '!');
+        isChannelReady = true;
+      });
 
-var _reactRouter = __webpack_require__(15);
+      socket.on('joined', function (room) {
+        console.log('joined: ' + room);
+        isChannelReady = true;
+      });
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+      socket.on('log', function (array) {
+        console.log.apply(console, array);
+      });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      ////////////////////////////////////////////////
+
+      function sendMessage(message) {
+        console.log('Client sending message: ', message);
+        socket.emit('message', message);
+      }
+=======
 var LoggedInNav = function LoggedInNav(props) {
 
   return _react2.default.createElement(
@@ -30430,57 +33542,389 @@ var LoggedInNav = function LoggedInNav(props) {
 var _default = LoggedInNav;
 exports.default = _default;
 ;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+      // This client receives a message
+      socket.on('message', function (message) {
+        console.log('Client received message:', message);
+        if (message === 'got user media') {
+          maybeStart();
+        } else if (message.type === 'offer') {
+          if (!isInitiator && !isStarted) {
+            maybeStart();
+          }
+          console.log('offering message', message);
+          pc.setRemoteDescription(new RTCSessionDescription(message));
+          doAnswer();
+        } else if (sentCall) {
+          console.log('THIS IS THE LAST THING----------->');
+          pc.setRemoteDescription(new RTCSessionDescription(message));
+        } else if (message.type === 'candidate' && isStarted) {
+          var candidate = new RTCIceCandidate({
+            sdpMLineIndex: message.label,
+            candidate: message.candidate
+          });
+          pc.addIceCandidate(candidate);
+        } else if (message === 'bye' && isStarted) {
+          handleRemoteHangup();
+        }
+      });
 
-  __REACT_HOT_LOADER__.register(LoggedInNav, 'LoggedInNav', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      ////////////////////////////////////////////////////
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+      var localVideo = document.querySelector('#localVideo');
+      var remoteVideo = document.querySelector('#remoteVideo');
+=======
+  __REACT_HOT_LOADER__.register(LoggedInNav, 'LoggedInNav', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
 }();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-;
+      console.log(navigator.mediaDevices);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      navigator.mediaDevices.getUserMedia({
+        audio: true,
+        video: true
+      }).then(gotStream).catch(function (e) {
+        alert('getUserMedia() error: ' + e.name);
+      });
+=======
 /***/ },
-/* 297 */
+/* 268 */
 /***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+      function gotStream(stream) {
+        console.log('Adding local stream.');
+        localVideo.src = window.URL.createObjectURL(stream);
+        localStream = stream;
+        window.stream = localStream;
+        sendMessage('got user media');
+        if (isInitiator) {
+          maybeStart();
+        }
+      }
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
+      var constraints = {
+        video: true
+      };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      // console.log('Getting user media with constraints', constraints);
+=======
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(0);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var _react2 = _interopRequireDefault(_react);
+      // if (location.hostname !== 'localhost') {
+      //   requestTurn(
+      //     'https://computeengineondemand.appspot.com/turn?username=41784574&key=4080218913'
+      //   );
+      // }
 
-var _LoggedInNav = __webpack_require__(296);
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      function maybeStart() {
+        console.log('>>>>>>> maybeStart() ', isStarted, localStream, isChannelReady);
+        if (!isStarted && typeof localStream !== 'undefined' && isChannelReady) {
+          console.log('>>>>>> creating peer connection');
+          createPeerConnection();
+          pc.addStream(localStream);
+          isStarted = true;
+          console.log('isInitiator', isInitiator);
+          if (isInitiator) {
+            doCall();
+          }
+        }
+      }
+=======
+var _LoggedInNav = __webpack_require__(267);
 
 var _LoggedInNav2 = _interopRequireDefault(_LoggedInNav);
 
-var _SignInNav = __webpack_require__(298);
+var _SignInNav = __webpack_require__(269);
 
 var _SignInNav2 = _interopRequireDefault(_SignInNav);
 
-var _axios = __webpack_require__(23);
+var _axios = __webpack_require__(24);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _reactRedux = __webpack_require__(17);
+var _reactRedux = __webpack_require__(19);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var _reactRouter = __webpack_require__(15);
+      window.onbeforeunload = function () {
+        sendMessage('bye');
+      };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      /////////////////////////////////////////////////////////
+
+      function createPeerConnection() {
+        try {
+          pc = new webkitRTCPeerConnection(null);
+          pc.onicecandidate = handleIceCandidate;
+          pc.onaddstream = handleRemoteStreamAdded;
+          pc.onremovestream = handleRemoteStreamRemoved;
+          console.log('Created RTCPeerConnnection');
+        } catch (e) {
+          console.log('Failed to create PeerConnection, exception: ' + e.message);
+          alert('Cannot create RTCPeerConnection object.');
+          return;
+        }
+      }
+
+      function handleIceCandidate(event) {
+        console.log('icecandidate event: ', event);
+        if (event.candidate) {
+          sendMessage({
+            sessionDescription: {
+              type: 'candidate',
+              label: event.candidate.sdpMLineIndex,
+              id: event.candidate.sdpMid,
+              candidate: event.candidate.candidate
+            },
+            room: room
+          });
+        } else {
+
+          document.getElementById("localVideo").muted = true;
+          console.log('End of candidates.');
+        }
+      }
+
+      function handleRemoteStreamAdded(event) {
+        console.log('Remote stream added.');
+        remoteVideo.src = window.URL.createObjectURL(event.stream);
+        remoteStream = event.stream;
+      }
+
+      function handleCreateOfferError(event) {
+        console.log('createOffer() error: ', event);
+      }
+
+      function doCall() {
+        console.log('Sending offer to peer----------------------------<');
+        sentCall = true;
+        pc.createOffer(setLocalAndSendMessage, handleCreateOfferError);
+      }
+
+      function doAnswer() {
+        console.log('Sending answer to peer.------------------------->');
+        pc.createAnswer().then(setLocalAndSendMessageAnswer, onCreateSessionDescriptionError);
+      }
+
+      function setLocalAndSendMessage(sessionDescription) {
+        // Set Opus as the preferred codec in SDP if Opus is present.
+        //sessionDescription.sdp = preferOpus(sessionDescription.sdp);
+
+        pc.setLocalDescription(sessionDescription);
+        console.log('setLocalAndSendMessage sending message', sessionDescription);
+        var wrapper = { sessionDescription: sessionDescription, room: room };
+        sendMessage(wrapper);
+      }
+
+      function setLocalAndSendMessageAnswer(sessionDescription) {
+        // Set Opus as the preferred codec in SDP if Opus is present.
+        //sessionDescription.sdp = preferOpus(sessionDescription.sdp);
+
+        pc.setLocalDescription(sessionDescription);
+        console.log('setLocalAndSendMessage sending message', sessionDescription);
+        sessionDescription['answer'] = true;
+        console.log('this is the answer to the call', sessionDescription, ' ------------------------>');
+        var wrapper = { sessionDescription: sessionDescription, room: room };
+        sendMessage(wrapper);
+      }
+
+      function onCreateSessionDescriptionError(error) {
+        trace('Failed to create session description: ' + error.toString());
+      }
+
+      function requestTurn(turnURL) {
+        var turnExists = false;
+        for (var i in pcConfig.iceServers) {
+          if (pcConfig.iceServers[i].url.substr(0, 5) === 'turn:') {
+            turnExists = true;
+            turnReady = true;
+            break;
+          }
+        }
+        if (!turnExists) {
+          console.log('Getting TURN server from ', turnURL);
+          // No TURN server. Get one from computeengineondemand.appspot.com:
+          var xhr = new XMLHttpRequest();
+          xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+              var turnServer = JSON.parse(xhr.responseText);
+              console.log('Got TURN server: ', turnServer);
+              pcConfig.iceServers.push({
+                'url': 'turn:' + turnServer.username + '@' + turnServer.turn,
+                'credential': turnServer.password
+              });
+              turnReady = true;
+            }
+          };
+          xhr.open('GET', turnURL, true);
+          xhr.send();
+        }
+      }
+
+      function handleRemoteStreamAdded(event) {
+        console.log('Remote stream added.');
+        remoteVideo.src = window.URL.createObjectURL(event.stream);
+        remoteStream = event.stream;
+      }
+
+      function handleRemoteStreamRemoved(event) {
+        remoteStream.close();
+        console.log('Remote stream removed. Event: ', event);
+      }
+
+      function hangup() {
+        console.log('Hanging up.');
+        stop();
+        sendMessage('bye');
+      }
+
+      function handleRemoteHangup() {
+        console.log('Session terminated.');
+        stop();
+        isInitiator = false;
+      }
+
+      function stop() {
+        isStarted = false;
+        isAudioMuted = false;
+        isVideoMuted = false;
+        remoteStream.close();
+        pc.close();
+        pc = null;
+      }
+
+      ///////////////////////////////////////////
+
+      // Set Opus as the default audio codec if it's present.
+      function preferOpus(sdp) {
+        var sdpLines = sdp.split('\r\n');
+        var mLineIndex;
+        // Search for m line.
+        for (var i = 0; i < sdpLines.length; i++) {
+          if (sdpLines[i].search('m=audio') !== -1) {
+            mLineIndex = i;
+            break;
+          }
+        }
+        if (mLineIndex === null) {
+          return sdp;
+        }
+
+        // If Opus is available, set it as the default in m line.
+        for (i = 0; i < sdpLines.length; i++) {
+          if (sdpLines[i].search('opus/48000') !== -1) {
+            var opusPayload = extractSdp(sdpLines[i], /:(\d+) opus\/48000/i);
+            if (opusPayload) {
+              sdpLines[mLineIndex] = setDefaultCodec(sdpLines[mLineIndex], opusPayload);
+            }
+            break;
+          }
+        }
+
+        // Remove CN in m line and sdp.
+        sdpLines = removeCN(sdpLines, mLineIndex);
+
+        sdp = sdpLines.join('\r\n');
+        return sdp;
+      }
+
+      function extractSdp(sdpLine, pattern) {
+        var result = sdpLine.match(pattern);
+        return result && result.length === 2 ? result[1] : null;
+      }
+
+      // Set the selected codec to the first in m line.
+      function setDefaultCodec(mLine, payload) {
+        var elements = mLine.split(' ');
+        var newLine = [];
+        var index = 0;
+        for (var i = 0; i < elements.length; i++) {
+          if (index === 3) {
+            // Format of media starts from the fourth.
+            newLine[index++] = payload; // Put target payload to the first.
+          }
+          if (elements[i] !== payload) {
+            newLine[index++] = elements[i];
+          }
+        }
+        return newLine.join(' ');
+      }
+
+      // Strip CN from sdp before CN constraints is ready.
+      function removeCN(sdpLines, mLineIndex) {
+        var mLineElements = sdpLines[mLineIndex].split(' ');
+        // Scan from end for the convenience of removing an item.
+        for (var i = sdpLines.length - 1; i >= 0; i--) {
+          var payload = extractSdp(sdpLines[i], /a=rtpmap:(\d+) CN\/\d+/i);
+          if (payload) {
+            var cnPos = mLineElements.indexOf(payload);
+            if (cnPos !== -1) {
+              // Remove CN payload from m line.
+              mLineElements.splice(cnPos, 1);
+            }
+            // Remove CN line in sdp
+            sdpLines.splice(i, 1);
+          }
+        }
+
+        sdpLines[mLineIndex] = mLineElements.join(' ');
+        return sdpLines;
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Tok'
+        ),
+        _react2.default.createElement(
+          'div',
+          { id: 'videos' },
+          _react2.default.createElement('video', { id: 'localVideo', autoPlay: true }),
+          _react2.default.createElement('video', { id: 'remoteVideo', autoPlay: true })
+        )
+      );
+    }
+  }]);
+
+  return ChatMVPContainer;
+}(_react2.default.Component);
+
+;
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(ChatMVPContainer);
+
+=======
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
-var _updateHelper = __webpack_require__(58);
+var _updateHelper = __webpack_require__(53);
 
 var _updateHelper2 = _interopRequireDefault(_updateHelper);
 
@@ -30653,17 +34097,17 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 
-  __REACT_HOT_LOADER__.register(LoggedInNavContainer, 'LoggedInNavContainer', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+  __REACT_HOT_LOADER__.register(LoggedInNavContainer, 'LoggedInNavContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
 }();
 
 ;
 
 /***/ },
-/* 298 */
+/* 269 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30678,7 +34122,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(11);
+var _reactDom = __webpack_require__(12);
 
 var _reactRouter = __webpack_require__(15);
 
@@ -30701,6 +34145,7 @@ var SignInNav = exports.SignInNav = function SignInNav(props) {
 	);
 };
 var _default = SignInNav;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 ;
 
@@ -30709,15 +34154,27 @@ var _temp = function () {
 		return;
 	}
 
-	__REACT_HOT_LOADER__.register(SignInNav, 'SignInNav', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatMVPContainer.js');
 
-	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+  __REACT_HOT_LOADER__.register(ChatMVPContainer, 'ChatMVPContainer', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatMVPContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Chat/ChatMVPContainer.js');
+=======
+	__REACT_HOT_LOADER__.register(SignInNav, 'SignInNav', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
-/* 299 */
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 293 */
+=======
+/* 270 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30727,6 +34184,9 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+=======
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
@@ -30769,21 +34229,676 @@ var LoggedOutNav = function LoggedOutNav(props) {
 var _default = LoggedOutNav;
 exports.default = _default;
 ;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+=======
+  __REACT_HOT_LOADER__.register(LoggedOutNav, 'LoggedOutNav', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _reactDom = __webpack_require__(11);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _reactRedux = __webpack_require__(17);
+=======
+/***/ },
+/* 271 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _OnlineFriends = __webpack_require__(177);
+
+var _OnlineFriends2 = _interopRequireDefault(_OnlineFriends);
+
+var _friendTierCalculator = __webpack_require__(112);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _friendTierCalculator2 = _interopRequireDefault(_friendTierCalculator);
+
+var _updateHelper = __webpack_require__(58);
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+
+var _EmojiChatContainer = __webpack_require__(179);
+=======
+var _LoggedOutNav = __webpack_require__(270);
+
+var _LoggedOutNav2 = _interopRequireDefault(_LoggedOutNav);
+
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _reactRouter = __webpack_require__(15);
+
+var _reactRedux = __webpack_require__(19);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _EmojiChatContainer2 = _interopRequireDefault(_EmojiChatContainer);
+
+var _reactCustomScrollbars = __webpack_require__(67);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _axios = __webpack_require__(23);
+=======
+var _friendTierCalculator = __webpack_require__(103);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _friendTierCalculator2 = _interopRequireDefault(_friendTierCalculator);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var MultiChatContainer = function (_React$Component) {
+  _inherits(MultiChatContainer, _React$Component);
+
+  function MultiChatContainer(props, context) {
+    _classCallCheck(this, MultiChatContainer);
+
+    return _possibleConstructorReturn(this, (MultiChatContainer.__proto__ || Object.getPrototypeOf(MultiChatContainer)).call(this, props, context));
+  }
+
+  _createClass(MultiChatContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var _this2 = this;
+
+      var context = this;
+      _axios2.default.get('/auth').then(function (res) {
+        console.log('checking auth res data', res.data);
+
+        if (!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      });
+
+      var socket = this.props.socket;
+      socket.on('update', function () {
+        return (0, _updateHelper2.default)(_this2);
+      });
+      (0, _updateHelper2.default)(this);
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      console.log('UNMOUNTING');
+      connection = window.connection;
+      connection.getAllParticipants().forEach(function (uid) {
+        connection.disconnectWith(uid);
+      });
+      connection.attachStreams.forEach(function (selfStream) {
+        selfStream.stop();
+      });
+    }
+  }, {
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var connection = new RTCMultiConnection();
+      connection.videosContainer = document.getElementById('videosContainer');
+      window.connection = connection;
+      // connection.userid = this.props.user;
+      connection.session = {
+        audio: true,
+        video: true,
+        data: true
+      };
+
+      connection.sdpConstraints.mandatory = {
+        OfferToReceiveAudio: true,
+        OfferToReceiveVideo: true,
+        OfferTOReceiveData: true
+      };
+      var socket = this.props.socket;
+
+      connection.socketMessageEvent = 'all-the-things';
+
+      var room = this.props.room;
+      var user = this.props.user.username;
+      //Ensures caller opens the room first, before callees come in.
+      connection.openOrJoin(room);
+
+      document.getElementById('input-text-chat').onkeyup = function (e) {
+        if (e.keyCode != 13) return;
+        // removing trailing/leading whitespace
+        this.value = this.value.replace(/^\s+|\s+$/g, '');
+        if (!this.value.length) return;
+        connection.getAllParticipants().forEach(function (uid) {
+          connection.send(user + ': ' + this.value, uid);
+        }.bind(this));
+        appendDIV(user + ': ' + this.value);
+        this.value = '';
+      };
+
+      var chatContainer = document.querySelector('.chat-output');
+
+      var appendDIV = function appendDIV(event) {
+        if (_typeof(event.data) === 'object') {
+          console.log('Does this work?');
+        }
+        var div = document.createElement('div');
+        div.innerHTML = event.data || event;
+        chatContainer.insertBefore(div, chatContainer.firstChild);
+        div.tabIndex = 0;
+        div.focus();
+        document.getElementById('input-text-chat').focus();
+      };
+
+      connection.onmessage = appendDIV;
+
+      connection.onstream = function (event) {
+        console.log('This is the event', event);
+        var name = this.props.user;
+        var width = parseInt(connection.videosContainer.clientWidth / 2) - 20;
+        var mediaElement = getMediaElement(event.mediaElement, {
+          title: name,
+          buttons: ['full-screen'],
+          width: width,
+          showOnMouseEnter: false
+        });
+        connection.videosContainer.appendChild(mediaElement);
+        setTimeout(function () {
+          mediaElement.media.play();
+        }, 5000);
+        mediaElement.id = event.streamid;
+        mediaElement.setAttribute('id', event.userid);
+      }.bind(this);
+
+      connection.onstreamended = function (event) {
+        var mediaElement = document.getElementById(event.streamid);
+        if (mediaElement) {
+          mediaElement.parentNode.removeChild(mediaElement);
+        }
+      };
+    }
+  }, {
+    key: 'videoChat',
+    value: function videoChat(friend) {
+      console.log('i hit video chat for this friend', friend.username);
+
+      var socket = this.props.socket;
+
+      var info = { user: friend.username, caller: this.props.room };
+      socket.emit('calling', info);
+=======
+var LoggedOutNavContainer = function (_React$Component) {
+  _inherits(LoggedOutNavContainer, _React$Component);
+
+  function LoggedOutNavContainer(props, context) {
+    _classCallCheck(this, LoggedOutNavContainer);
+
+    var _this = _possibleConstructorReturn(this, (LoggedOutNavContainer.__proto__ || Object.getPrototypeOf(LoggedOutNavContainer)).call(this, props, context));
+
+    _this.state = {
+      exist: false
+    };
+    return _this;
+  }
+
+  _createClass(LoggedOutNavContainer, [{
+    key: 'tierRanking',
+    value: function tierRanking(friends) {
+      var rankedFriends = [];
+      var num = 0;
+      if (friends.length <= 10) {
+        num = friends.length;
+      } else if (friends.length <= 20 && friends.length > 5) {
+        num = Math.min(5, friends.length);
+      } else {
+        num = Math.min(10, friends.length);
+      }
+      for (var i = 0; i < num; i++) {
+        rankedFriends.push(friends[i]);
+      }
+      return rankedFriends;
+    }
+  }, {
+    key: 'loggingIn',
+    value: function loggingIn(username, password) {
+      var _this2 = this;
+
+      console.log('User ', username, ' Password ', password);
+      //Create logic for checking user and password
+      var userInfo = { username: username, password: password };
+
+      _axios2.default.post('/login', userInfo).then(function (res) {
+        console.log('what is my res data for loggin in???', res.data);
+        console.log('checking router', _this2.context.router);
+        if (res.data[0].username) {
+          //TODO: FIgure out what server gives for emojis
+          _this2.props.dispatch(userActions.updateUser(res.data[0]));
+          _this2.props.dispatch(userActions.userAuth());
+          var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+          var options1 = {
+
+            method: 'POST',
+            headers: myHeaders,
+            body: '\n              mutation {\n              updateUser(username: "' + username + '" online: true)  {\n                username\n              }\n              }\n              '
+          };
+          fetch('/graphql', options1).then(function (res) {
+            var myHeader = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+            var options = {
+
+              method: 'POST',
+              headers: myHeader,
+              body: '\n              { \n                \n                findFriends(username: "' + username + '")\n                {\n                      username\n                      profilePic\n                      firstName\n                      lastName\n                      email\n                      online\n                      videoChatCount\n                      textChatCount\n                      lastChatTime\n                    }\n              }'
+
+            };
+            fetch('/graphql', options).then(function (res) {
+              return res.json().then(function (data) {
+                console.log('from loggedout: checking my friends data', data.data.findFriends);
+                var friends = data.data.findFriends;
+                if (friends) {
+                  (0, _friendTierCalculator2.default)(friends);
+                  var onlineFriends = friends.filter(function (friend) {
+                    return friend.online === true;
+                  });
+                  var suggestedFriends = _this2.tierRanking(onlineFriends.slice().sort(function (friend0, friend1) {
+                    return friend1.score - friend0.score;
+                  }));
+                  // console.log('suggested friends: ', suggestedFriends);
+
+                  _this2.props.dispatch(userActions.updateFriends(friends));
+                  _this2.props.dispatch(userActions.updateOnlineFriends(onlineFriends));
+                  _this2.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends));
+                  _this2.props.dispatch(userActions.updateFriendCount(friends.length));
+                  console.log('user name', username);
+                  _this2.context.router.push('/profile');
+                } else {
+                  _this2.props.dispatch(userActions.updateFriends([]));
+                  _this2.props.dispatch(userActions.updateOnlineFriends([]));
+                  _this2.props.dispatch(userActions.updateFriendCount(0));
+                  _this2.context.router.push('/profile');
+                }
+              });
+            });
+          });
+        } else {
+          _this2.setState({
+            exist: true
+          });
+        }
+      });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+    }
+
+    // <div>
+    // <Scrollbars style={{ height: 50 }}>
+    //   <EmojiChatContainer/>
+    // </Scrollbars>
+    // </div>
+
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+        { id: 'webRTC' },
+        _react2.default.createElement(
+          'h1',
+          null,
+          'Tok'
+        ),
+        _react2.default.createElement(
+          'div',
+          { id: 'chatContainer' },
+          _react2.default.createElement('div', { id: 'file-container' }),
+          _react2.default.createElement(
+            'div',
+            null,
+            _react2.default.createElement(
+              _reactCustomScrollbars.Scrollbars,
+              { style: { height: 100 } },
+              _react2.default.createElement('div', { className: 'chat-output' })
+            )
+          )
+        ),
+        _react2.default.createElement('input', { type: 'text', id: 'input-text-chat', placeholder: 'Enter Text Chat' }),
+        _react2.default.createElement('div', { id: 'videosContainer' }),
+        _react2.default.createElement(
+          'div',
+          null,
+          this.props.onlineFriends.map(function (item, index) {
+            return _react2.default.createElement(_OnlineFriends2.default, { key: index, friend: item, videoChat: _this3.videoChat.bind(_this3) });
+          })
+        )
+=======
+        null,
+        _react2.default.createElement(_LoggedOutNav2.default, { loggingIn: this.loggingIn.bind(this), exist: this.state.exist })
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+      );
+    }
+  }]);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  return MultiChatContainer;
+=======
+  return LoggedOutNavContainer;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}(_react2.default.Component);
+
+;
+
+MultiChatContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+function mapStateToProps(state) {
+  return {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket,
+    onlineFriends: state.userReducer.onlineFriends
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(MultiChatContainer);
+=======
+    isLoggedIn: state.userReducer.isLoggedIn
+  };
+}
+
+LoggedOutNavContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(LoggedOutNavContainer);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+exports.default = _default;
+;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(LoggedOutNav, 'LoggedOutNav', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Chat/MultiChatContainer.js');
 
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+  __REACT_HOT_LOADER__.register(MultiChatContainer, 'MultiChatContainer', '/Users/Rob/hackreactor/ReTok/client/src/Chat/MultiChatContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Chat/MultiChatContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+
+  __REACT_HOT_LOADER__.register(LoggedOutNavContainer, 'LoggedOutNavContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
-/* 300 */
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 294 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(11);
+
+var _reactRouter = __webpack_require__(15);
+
+var _LoggedInNavContainer = __webpack_require__(297);
+
+var _LoggedInNavContainer2 = _interopRequireDefault(_LoggedInNavContainer);
+
+var _LoggedOutNavContainer = __webpack_require__(300);
+
+var _LoggedOutNavContainer2 = _interopRequireDefault(_LoggedOutNavContainer);
+
+var _LoginContainer = __webpack_require__(111);
+
+var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
+
+var _reactRedux = __webpack_require__(17);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _axios = __webpack_require__(23);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var HomeContainer = function (_React$Component) {
+	_inherits(HomeContainer, _React$Component);
+
+	function HomeContainer(props) {
+		_classCallCheck(this, HomeContainer);
+
+		return _possibleConstructorReturn(this, (HomeContainer.__proto__ || Object.getPrototypeOf(HomeContainer)).call(this, props));
+	}
+
+	_createClass(HomeContainer, [{
+		key: 'componentWillMount',
+		value: function componentWillMount() {
+			var context = this;
+			_axios2.default.get('/auth').then(function (res) {
+				console.log('checking auth res data', res.data);
+
+				if (res.data) {
+					console.log('go through to auth');
+					context.context.router.push('/profile');
+				}
+			});
+		}
+	}, {
+		key: 'componentWillUnmount',
+		value: function componentWillUnmount() {}
+	}, {
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				null,
+				this.props.isLoggedIn ? _react2.default.createElement(_LoggedInNavContainer2.default, null) : _react2.default.createElement(_LoggedOutNavContainer2.default, null),
+				_react2.default.createElement(
+					'div',
+					{ id: 'wrapper' },
+					this.props.children
+				)
+			);
+		}
+	}]);
+
+	return HomeContainer;
+}(_react2.default.Component);
+
+// function used by connect(below) to map default state properties as props to our component. 
+// notice how althouth the state tree contains all the different states of our entire app,
+// we are only interested in extracting the state that this component will use/need
+
+
+function mapStateToProps(state) {
+	return {
+		isLoggedIn: state.userReducer.isLoggedIn //<=== shouldnt have to do this...? 
+	};
+}
+
+HomeContainer.contextTypes = {
+	router: _react.PropTypes.object.isRequired
+};
+
+// 'connect' from react-redux allows us to set the default state we assign to the statetree onto our components as props!
+// i.e. you won't see this.state anymore... since we are now completely separating state logic from container logic. 
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(HomeContainer);
+
+exports.default = _default;
+
+// export default HomeContainer
+
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Home/HomeContainer.js');
+
+	__REACT_HOT_LOADER__.register(HomeContainer, 'HomeContainer', '/Users/Rob/hackreactor/ReTok/client/src/Home/HomeContainer.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Home/HomeContainer.js');
+}();
+
+;
+
+/***/ },
+/* 295 */
+/***/ function(module, exports, __webpack_require__) {
+
+=======
+/* 272 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _reactDom = __webpack_require__(11);
+
+var _reactRouter = __webpack_require__(15);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+=======
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var PhotoUpload = function PhotoUpload(props) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var SignUpForm = function SignUpForm(_ref) {
+  var signUp = _ref.signUp;
+  var exist = _ref.exist;
+  var comma = _ref.comma;
+  return _react2.default.createElement(
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+    'div',
+    null,
+    _react2.default.createElement(
+      'form',
+      { type: 'submit', className: 'signUpForm', onSubmit: function onSubmit(e) {
+          e.preventDefault();signUp(document.getElementById('newUser').value, document.getElementById('newPassword').value, document.getElementById('firstName').value, document.getElementById('lastName').value, document.getElementById('email').value);
+        } },
+      _react2.default.createElement(
+        'h2',
+        { id: 'signUpHere' },
+        'Sign Up Here'
+      ),
+      exist ? _react2.default.createElement(
+        'div',
+        null,
+        'This username already exists!'
+      ) : null,
+      comma ? _react2.default.createElement(
+        'div',
+        null,
+        'Username cannot have any \',\', \':\', \'^\' or \'#\''
+      ) : null,
+      _react2.default.createElement('input', { id: 'newUser', className: 'signUpInput', type: 'type/submit', placeholder: 'Username' }),
+      _react2.default.createElement('input', { id: 'newPassword', className: 'signUpInput', type: 'password', placeholder: 'Password' }),
+      _react2.default.createElement('input', { id: 'firstName', className: 'signUpInput', type: 'type/submit', placeholder: 'First Names' }),
+      _react2.default.createElement('input', { id: 'lastName', className: 'signUpInput', type: 'type/submit', placeholder: 'Last Name' }),
+      _react2.default.createElement('input', { id: 'email', className: 'signUpInput', type: 'type/submit', placeholder: 'Email' }),
+      _react2.default.createElement('input', { className: 'formButton', type: 'submit', value: 'Sign Up!' })
+=======
+    "div",
+    null,
+    _react2.default.createElement(
+      "form",
+      { id: "ProfilePhotoUpload", onSubmit: function onSubmit(event) {
+          event.preventDefault();props.changeProfilePhoto(event);
+        } },
+      _react2.default.createElement("input", { className: "editProfileInput", id: "uploadedPhoto", type: "file", name: "photo", onChange: function onChange(e) {
+          return props.handleImageChange(e);
+        } }),
+      _react2.default.createElement(
+        "button",
+        { className: "editProfileButton" },
+        "Upload Profile Photo"
+      )
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+    )
+  );
+};
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _default = SignUpForm;
+=======
+var _default = PhotoUpload;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(PhotoUpload, "PhotoUpload", "/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUpload.js");
+
+  __REACT_HOT_LOADER__.register(_default, "default", "/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUpload.js");
+}();
+
+;
+
+/***/ },
+/* 273 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30799,21 +34914,1094 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactDom = __webpack_require__(12);
+
+var _reactRouter = __webpack_require__(15);
+
+var _LoginContainer = __webpack_require__(102);
+
+var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
+
+var _reactRedux = __webpack_require__(19);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _uploadReducer = __webpack_require__(160);
+
+var imageUploadActions = _interopRequireWildcard(_uploadReducer);
+
+var _PhotoUpload = __webpack_require__(272);
+
+var _PhotoUpload2 = _interopRequireDefault(_PhotoUpload);
+
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var PhotoUploadContainer = function (_React$Component) {
+  _inherits(PhotoUploadContainer, _React$Component);
+
+  function PhotoUploadContainer(props, context) {
+    _classCallCheck(this, PhotoUploadContainer);
+
+    return _possibleConstructorReturn(this, (PhotoUploadContainer.__proto__ || Object.getPrototypeOf(PhotoUploadContainer)).call(this, props, context));
+  }
+
+  _createClass(PhotoUploadContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      // axios.get('/auth')
+      //   .then(function(res) {
+      //     console.log('checking auth res data',res.data);
+
+      //     if(!res.data) {
+      //       this.context.router.push('/');
+      //     }
+      //   })
+    }
+  }, {
+    key: 'handleImageChange',
+    value: function handleImageChange(e) {
+      var _this2 = this;
+
+      e.preventDefault();
+      console.log('i hit handleImageChange');
+      var reader = new FileReader();
+      var file = e.target.files[0];
+
+      reader.onloadend = function () {
+        _this2.props.dispatch(imageUploadActions.handleImageChange(file, reader.result));
+      };
+
+      reader.readAsDataURL(file);
+    }
+  }, {
+    key: 'changeProfilePhoto',
+    value: function changeProfilePhoto(event) {
+      var _this3 = this;
+
+      var formData = new FormData();
+      var context = this;
+      var userPhoto = new Blob([this.props.file], { type: 'image/png' });
+      formData.append('photo', userPhoto);
+
+      console.log('i hit changeProfilePhoto. checking my form data', formData);
+      _axios2.default.post('/user/upload/profilephoto', formData).then(function (res) {
+        console.log('checking profile photo ---->', res.data);
+
+        context.props.dispatch(userActions.updateUser(res.data[0]));
+        console.log('checking my user now', _this3.props.user);
+        _this3.props.dispatch(userActions.userAuth());
+
+        context.context.router.push('/profile');
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        'hit the photo upload container',
+        _react2.default.createElement(_PhotoUpload2.default, { changeProfilePhoto: this.changeProfilePhoto.bind(this), handleImageChange: this.handleImageChange.bind(this) })
+      );
+    }
+  }]);
+
+  return PhotoUploadContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  console.log(state, 'mapStateToProps state');
+  return {
+    file: state.uploadReducer.file,
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    friendCount: state.userReducer.friendCount
+  };
+}
+
+PhotoUploadContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(PhotoUploadContainer);
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(SignUpForm, 'SignUpForm', '/Users/Rob/hackreactor/ReTok/client/src/Login/SignUpForm.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Login/SignUpForm.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+
+  __REACT_HOT_LOADER__.register(PhotoUploadContainer, 'PhotoUploadContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 296 */
+=======
+/* 274 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(15);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var LoggedInNav = function LoggedInNav(props) {
+=======
+var AllFriends = function AllFriends(props) {
+  //inline CSS-style. fills the entire AllFriends div with photo
+  var divStyle = {
+    backgroundImage: 'url(' + props.friend.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+  };
+  return _react2.default.createElement(
+    'div',
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+    { className: 'mainNav' },
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { to: '/profile', className: 'logo' },
+      'ReTok'
+    ),
+    _react2.default.createElement(
+      'form',
+      { id: 'searchForm', onSubmit: function onSubmit(event) {
+          event.preventDefault();props.searchReTok(document.getElementById('usernameSearch').value);
+        } },
+      _react2.default.createElement('input', { id: 'usernameSearch', className: 'NavInputForm', placeholder: 'search users' }),
+      _react2.default.createElement(
+        'button',
+        { className: 'searchButton' },
+        'search ReTok!'
+      )
+    ),
+    props.hide ? _react2.default.createElement(
+      _reactRouter.Link,
+      { id: 'chat', onClick: props.accept, to: '/chat' },
+      'Chat'
+    ) : null,
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { to: '/store' },
+      'Store'
+    ),
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { to: '/text' },
+      'Text'
+    ),
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { onClick: props.logout },
+      'Logout'
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      _react2.default.createElement(
+        'b',
+        null,
+        'Coins:'
+      ),
+      ' ',
+      props.coin
+=======
+    { className: 'oneFriend', style: divStyle },
+    _react2.default.createElement('div', { className: 'oneFriendWrapper' }),
+    _react2.default.createElement(
+      'p',
+      { style: { 'color': 'black', 'position': 'absolute', 'zAxis': -1 } },
+      props.friend.username
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+    )
+  );
+};
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _default = LoggedInNav;
+=======
+var _default = AllFriends;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(LoggedInNav, 'LoggedInNav', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNav.js');
+=======
+  __REACT_HOT_LOADER__.register(AllFriends, 'AllFriends', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriends.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriends.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 297 */
+=======
+/* 275 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _LoggedInNav = __webpack_require__(296);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _LoggedInNav2 = _interopRequireDefault(_LoggedInNav);
+
+var _SignInNav = __webpack_require__(298);
+
+var _SignInNav2 = _interopRequireDefault(_SignInNav);
+
+var _axios = __webpack_require__(23);
+=======
+var _AllFriends = __webpack_require__(274);
+
+var _AllFriends2 = _interopRequireDefault(_AllFriends);
+
+var _updateHelper = __webpack_require__(53);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _reactRedux = __webpack_require__(17);
+
+var _reactRouter = __webpack_require__(15);
+=======
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var AllFriendsContainer = function (_React$Component) {
+  _inherits(AllFriendsContainer, _React$Component);
+
+  function AllFriendsContainer(props) {
+    _classCallCheck(this, AllFriendsContainer);
+
+    return _possibleConstructorReturn(this, (AllFriendsContainer.__proto__ || Object.getPrototypeOf(AllFriendsContainer)).call(this, props));
+  }
+
+  _createClass(AllFriendsContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var socket = this.props.socket;
+      console.log('i hit all friends container', this.props.friends);
+      // socket.on('update', () => updateHelper(this))
+      // updateHelper(this);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'AllFriendsContainer' },
+        this.props.friends.map(function (item, index) {
+          return _react2.default.createElement(_AllFriends2.default, { key: index, friend: item });
+        })
+      );
+    }
+  }]);
+
+  return AllFriendsContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    friends: state.userReducer.friends,
+    socket: state.userReducer.socket
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(AllFriendsContainer);
+
+exports.default = _default;
+
+// export default AllFriendsContainer
+
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+
+  __REACT_HOT_LOADER__.register(AllFriendsContainer, 'AllFriendsContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+}();
+
+;
+
+/***/ },
+/* 276 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(19);
+
+var _reactRouter = __webpack_require__(15);
+
+var _OnlineFriends = __webpack_require__(159);
+
+var _OnlineFriends2 = _interopRequireDefault(_OnlineFriends);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _updateHelper = __webpack_require__(58);
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+=======
+var _updateHelper = __webpack_require__(53);
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var LoggedInNavContainer = function (_React$Component) {
+  _inherits(LoggedInNavContainer, _React$Component);
+
+  function LoggedInNavContainer(props, context) {
+    _classCallCheck(this, LoggedInNavContainer);
+
+    //states are used to control when to show chat button on client to allow them to enter a chat together
+    var _this = _possibleConstructorReturn(this, (LoggedInNavContainer.__proto__ || Object.getPrototypeOf(LoggedInNavContainer)).call(this, props, context));
+
+    _this.state = {
+      toggle: null,
+      hide: false
+    };
+    return _this;
+  }
+
+  _createClass(LoggedInNavContainer, [{
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var socket = this.props.socket;
+      socket.emit('updateFriends', this.props.friends);
+    }
+  }, {
+=======
+var OnlineFriendsContainer = function (_React$Component) {
+  _inherits(OnlineFriendsContainer, _React$Component);
+
+  function OnlineFriendsContainer(props, context) {
+    _classCallCheck(this, OnlineFriendsContainer);
+
+    return _possibleConstructorReturn(this, (OnlineFriendsContainer.__proto__ || Object.getPrototypeOf(OnlineFriendsContainer)).call(this, props, context));
+  }
+
+  _createClass(OnlineFriendsContainer, [{
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var _this2 = this;
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      var socket = io();
+      console.log('socket', socket);
+      this.props.dispatch(userActions.sendSocket(socket));
+      this.props.dispatch(userActions.createRoom(this.props.user.username));
+      var friends = this.props.friends;
+      socket.emit('updateFriends', friends);
+      socket.on('invite', function (caller) {
+        this.invitation();
+        this.props.dispatch(userActions.createRoom(caller.caller));
+      }.bind(this));
+      socket.on('update', function () {
+        return (0, _updateHelper2.default)(_this2);
+      });
+      (0, _updateHelper2.default)(this);
+    }
+  }, {
+    key: 'logout',
+    value: function logout() {
+      var socket = this.props.socket;
+      _axios2.default.get('/logout');
+      this.props.dispatch(userActions.toggleLogIn(false));
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: 'mutation\n        {\n          updateUser(username:"' + this.props.user.username + '" online: false) \n          {\n            username\n            online\n          }\n        }'
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          // console.log(data);
+        });
+      }).catch(function (error) {
+        return console.log(error);
+      });
+      socket.emit('updateFriends', this.props.friends);
+      socket.disconnect();
+      this.props.dispatch(userActions.sendSocket(null));
+      this.context.router.push('/');
+    }
+  }, {
+    key: 'invitation',
+    value: function invitation() {
+      this.setState({
+        hide: true
+      });
+      var toggling = setInterval(function () {
+        var background = document.getElementById('chat').style.backgroundColor;
+        if (background == "rgb(255, 145, 0)") {
+          document.getElementById('chat').style.background = "rgb(26,255,0)";
+        } else {
+          document.getElementById('chat').style.background = "rgb(255,145,0)";
+        }
+      });
+      this.setState({
+        toggle: toggling
+      });
+    }
+  }, {
+    key: 'accept',
+    value: function accept() {
+      clearInterval(this.state.toggle);
+      document.getElementById('chat').style.background = "#4d4d4d";
+      this.setState({
+        hide: false
+      });
+      this.context.router.push('/chat');
+    }
+  }, {
+    key: 'searchReTok',
+    value: function searchReTok(query) {
+      var _this3 = this;
+
+      if (query.indexOf(' ') !== -1) {
+        query = query.split(' ')[0];
+      }
+      console.log('IAM SEARCHING FOR', query);
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n        {\n\n          search(name: "' + query + '")\n              {\n               id\n               username\n               firstName\n               lastName\n               email   \n               profilePic\n              }\n        }'
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          var searchresult = data.data.search.slice();
+          _this3.props.dispatch(userActions.updateSearch(searchresult));
+          _this3.context.router.push('/search');
+        });
+      });
+=======
+      var context = this;
+      _axios2.default.get('/auth').then(function (res) {
+        console.log('checking auth res data', res.data);
+
+        if (!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      });
+
+      console.log('i hit this component for onlinefriends');
+      var socket = this.props.socket;
+      socket.on('update', function () {
+        return (0, _updateHelper2.default)(_this2);
+      });
+      (0, _updateHelper2.default)(this);
+    }
+  }, {
+    key: 'videoChat',
+    value: function videoChat(friend) {
+      console.log('i hit video chat for this friend', friend.username);
+
+      var socket = this.props.socket;
+
+      var info = { user: friend.username, caller: this.props.user.username };
+      this.props.dispatch(userActions.createRoom(this.props.user.username));
+      socket.emit('calling', info);
+      this.context.router.push('/chat');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_LoggedInNav2.default, { coin: this.props.user.coin, hide: this.state.hide, logout: this.logout.bind(this), accept: this.accept.bind(this), searchReTok: this.searchReTok.bind(this) })
+=======
+      var _this3 = this;
+
+      return _react2.default.createElement(
+        'div',
+        { className: 'AllFriendsContainer' },
+        this.props.onlineFriends.map(function (item, index) {
+          return _react2.default.createElement(_OnlineFriends2.default, { key: index, friend: item, videoChat: _this3.videoChat.bind(_this3) });
+        })
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+      );
+    }
+  }]);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  return LoggedInNavContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    search: state.userReducer.search,
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket,
+    friends: state.userReducer.friends
+  };
+}
+
+LoggedInNavContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(LoggedInNavContainer);
+=======
+  return OnlineFriendsContainer;
+}(_react2.default.Component);
+
+OnlineFriendsContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    onlineFriends: state.userReducer.onlineFriends,
+    socket: state.userReducer.socket
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(OnlineFriendsContainer);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+
+  __REACT_HOT_LOADER__.register(LoggedInNavContainer, 'LoggedInNavContainer', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/LoggedInNavContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+
+  __REACT_HOT_LOADER__.register(OnlineFriendsContainer, 'OnlineFriendsContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 298 */
+=======
+/* 277 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.SignInNav = undefined;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(11);
+
+var _reactRouter = __webpack_require__(15);
+
+var _reactBootstrap = __webpack_require__(465);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var SignInNav = exports.SignInNav = function SignInNav(props) {
+	return _react2.default.createElement(
+		'div',
+		null,
+		_react2.default.createElement(
+			'form',
+			{ onSubmit: function onSubmit(e) {
+					return props.signingIn(e, document.getElementById('user').value, document.getElementById('password').value);
+				} },
+			'Sign In Here',
+			_react2.default.createElement('input', { id: 'user', type: 'text', placeholder: 'Username' }),
+			_react2.default.createElement('input', { id: 'password', type: 'text', placeholder: 'Password' }),
+			_react2.default.createElement('input', { type: 'submit', value: 'Sign In' })
+		)
+	);
+};
+var _default = SignInNav;
+=======
+var Profile = function Profile(props) {
+
+  return _react2.default.createElement(
+    _reactBootstrap.Grid,
+    null,
+    _react2.default.createElement(
+      _reactBootstrap.Row,
+      { className: 'show-grid', id: 'userProfileContainer' },
+      _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          _reactBootstrap.Col,
+          { sm: 4 },
+          _react2.default.createElement('img', { id: 'profilePhoto', onClick: function onClick(e) {
+              e.preventDefault();props.goToUploadView();
+            }, src: props.user.profilePic ? props.user.profilePic : "http://cdn.curvve.com/wp-content/uploads/2013/10/anonymous_user_profile.jpg" })
+        )
+      ),
+      _react2.default.createElement(
+        _reactBootstrap.Col,
+        { sm: 8 },
+        _react2.default.createElement(
+          _reactBootstrap.Row,
+          { className: 'show-grid profileRow' },
+          _react2.default.createElement(
+            'span',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'Name: '
+            ),
+            props.user.firstName
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Row,
+          { className: 'show-grid profileRow' },
+          _react2.default.createElement(
+            'span',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'Email: '
+            ),
+            props.user.email
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Row,
+          { className: 'show-grid profileRow' },
+          _react2.default.createElement(
+            'span',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'User Name:'
+            ),
+            props.user.username
+          )
+        ),
+        _react2.default.createElement(
+          _reactBootstrap.Row,
+          { className: 'show-grid profileRow' },
+          _react2.default.createElement(
+            'span',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'Friends Count:'
+            ),
+            props.friendCount
+          )
+        )
+      )
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'profileNav' },
+      _react2.default.createElement(
+        _reactRouter.Link,
+        { to: '/profile', className: 'subNavLinks' },
+        'All Friends'
+      ),
+      _react2.default.createElement(
+        _reactRouter.Link,
+        { to: '/online', className: 'subNavLinks' },
+        'Online'
+      ),
+      _react2.default.createElement(
+        _reactRouter.Link,
+        { to: '/suggested', className: 'subNavLinks' },
+        'You Should Talk to...'
+      )
+    )
+  );
+};
+
+var _default = Profile;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+exports.default = _default;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+	__REACT_HOT_LOADER__.register(SignInNav, 'SignInNav', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedInNav/SignInNav.js');
+=======
+  __REACT_HOT_LOADER__.register(Profile, 'Profile', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Profile.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Profile.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 299 */
+=======
+/* 278 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRouter = __webpack_require__(15);
+
+var _reactRedux = __webpack_require__(19);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var LoggedOutNav = function LoggedOutNav(props) {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'mainNav' },
+    _react2.default.createElement(
+      _reactRouter.Link,
+      { to: '/', className: 'logo' },
+      'ReTok'
+    ),
+    props.exist ? _react2.default.createElement(
+      'div',
+      null,
+      'Wrong username or password'
+    ) : null,
+    _react2.default.createElement(
+      'form',
+      { id: 'loginForm', onSubmit: function onSubmit(event) {
+          event.preventDefault();props.loggingIn(document.getElementById('usernameLogIn').value, document.getElementById('passwordLogIn').value);
+        } },
+      _react2.default.createElement('input', { id: 'usernameLogIn', className: 'NavInputForm', placeholder: 'username' }),
+      _react2.default.createElement('input', { id: 'passwordLogIn', type: 'password', className: 'NavInputForm', placeholder: 'password' }),
+      _react2.default.createElement(
+        'button',
+        { className: 'loginButton' },
+        'Log In!'
+      )
+    )
+  );
+};
+
+var _default = LoggedOutNav;
+exports.default = _default;
+;
+=======
+var _Profile = __webpack_require__(277);
+
+var _Profile2 = _interopRequireDefault(_Profile);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _axios = __webpack_require__(24);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _axios2 = _interopRequireDefault(_axios);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(LoggedOutNav, 'LoggedOutNav', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNav.js');
+}();
+=======
+var _updateHelper = __webpack_require__(53);
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/***/ },
+/* 300 */
+/***/ function(module, exports, __webpack_require__) {
+=======
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+=======
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ProfileContainer = function (_React$Component) {
+  _inherits(ProfileContainer, _React$Component);
+
+  function ProfileContainer(props) {
+    _classCallCheck(this, ProfileContainer);
+
+    return _possibleConstructorReturn(this, (ProfileContainer.__proto__ || Object.getPrototypeOf(ProfileContainer)).call(this, props));
+  }
+
+  _createClass(ProfileContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      var context = this;
+      _axios2.default.get('/auth').then(function (res) {
+        console.log('checking auth res data', res.data);
+
+        if (!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      });
+
+      console.log('checking my props', this.props.user.username);
+      var socket = this.props.socket;
+      socket.emit('login', this.props.user.username);
+      socket.emit('updateFriends', this.props.friends);
+      var username = this.props.user.username;
+      //Logic to update users friends as they login/logout and add new friends
+      // socket.on('update', () => updateHelper(this))
+      // updateHelper(this);
+    }
+  }, {
+    key: 'goToUploadView',
+    value: function goToUploadView() {
+      console.log('hit goToUploadView');
+      this.context.router.push('/upload');
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_Profile2.default, { user: this.props.user, friendCount: this.props.friendCount, goToUploadView: this.goToUploadView.bind(this) }),
+        this.props.children
+      );
+    }
+  }]);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+  return ProfileContainer;
+}(_react2.default.Component);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _LoggedOutNav = __webpack_require__(299);
 
 var _LoggedOutNav2 = _interopRequireDefault(_LoggedOutNav);
 
 var _axios = __webpack_require__(23);
+=======
+//testing1234
+
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    socket: state.userReducer.socket,
+    friendCount: state.userReducer.friendCount,
+    friends: state.userReducer.friends
+  };
+}
+
+ProfileContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(ProfileContainer);
+
+exports.default = _default;
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _axios2 = _interopRequireDefault(_axios);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactRouter = __webpack_require__(15);
 
 var _reactRedux = __webpack_require__(17);
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/ProfileContainer.js');
+
+  __REACT_HOT_LOADER__.register(ProfileContainer, 'ProfileContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/ProfileContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/ProfileContainer.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _userReducer = __webpack_require__(16);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var userActions = _interopRequireWildcard(_userReducer);
+=======
+/***/ },
+/* 279 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _friendTierCalculator = __webpack_require__(112);
 
@@ -30829,6 +36017,7 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var LoggedOutNavContainer = function (_React$Component) {
   _inherits(LoggedOutNavContainer, _React$Component);
 
@@ -30951,9 +36140,27 @@ function mapStateToProps(state) {
 LoggedOutNavContainer.contextTypes = {
   router: _react.PropTypes.object.isRequired
 };
+=======
+var _reactRouter = __webpack_require__(15);
+
+var _SuggestedFriends = __webpack_require__(280);
+
+var _SuggestedFriends2 = _interopRequireDefault(_SuggestedFriends);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _updateHelper = __webpack_require__(53);
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+
+var _axios = __webpack_require__(24);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(LoggedOutNavContainer);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 exports.default = _default;
 ;
 
@@ -30963,6 +36170,9 @@ var _temp = function () {
   }
 
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
+=======
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   __REACT_HOT_LOADER__.register(LoggedOutNavContainer, 'LoggedOutNavContainer', '/Users/Rob/hackreactor/ReTok/client/src/Nav/LoggedOutNav/LoggedOutNavContainer.js');
 
@@ -30975,6 +36185,7 @@ var _temp = function () {
 /* 301 */
 /***/ function(module, exports, __webpack_require__) {
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 "use strict";
 "use strict";
 
@@ -30989,6 +36200,20 @@ var _react2 = _interopRequireDefault(_react);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var PhotoUpload = function PhotoUpload(props) {
+=======
+var SuggestedContainer = function (_React$Component) {
+  _inherits(SuggestedContainer, _React$Component);
+
+  function SuggestedContainer(props, context) {
+    _classCallCheck(this, SuggestedContainer);
+
+    return _possibleConstructorReturn(this, (SuggestedContainer.__proto__ || Object.getPrototypeOf(SuggestedContainer)).call(this, props, context));
+  }
+
+  _createClass(SuggestedContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   return _react2.default.createElement(
     "div",
@@ -31014,6 +36239,7 @@ var _default = PhotoUpload;
 exports.default = _default;
 ;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
@@ -31115,12 +36341,28 @@ var PhotoUploadContainer = function (_React$Component) {
       };
 
       reader.readAsDataURL(file);
+=======
+      var socket = this.props.socket;
+      console.log('i hit this component for suggestedFriends');
+      // socket.on('update', () => updateHelper(this))
+      // updateHelper(this);
+    }
+  }, {
+    key: 'videoChat',
+    value: function videoChat(friend) {
+      console.log('i hit video chat for this friend', friend.username);
+      var socket = this.props.socket;
+      var info = { user: friend.username, caller: this.props.user.username };
+      socket.emit('calling', info);
+      this.context.router.push('/chat');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     }
   }, {
     key: 'changeProfilePhoto',
     value: function changeProfilePhoto(event) {
       var _this3 = this;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
       var formData = new FormData();
       var context = this;
       var userPhoto = new Blob([this.props.file], { type: 'image/png' });
@@ -31145,16 +36387,36 @@ var PhotoUploadContainer = function (_React$Component) {
         null,
         'hit the photo upload container',
         _react2.default.createElement(_PhotoUpload2.default, { changeProfilePhoto: this.changeProfilePhoto.bind(this), handleImageChange: this.handleImageChange.bind(this) })
+=======
+      console.log('this is suggestedFriends: ', this.props.suggestedFriends);
+      return _react2.default.createElement(
+        'div',
+        { className: 'SuggestedFriendsContainer' },
+        this.props.suggestedFriends.map(function (item, index) {
+          return _react2.default.createElement(_SuggestedFriends2.default, { key: index, friend: item, videoChat: _this2.videoChat.bind(_this2) });
+        })
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
       );
     }
   }]);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   return PhotoUploadContainer;
 }(_react2.default.Component);
 
+=======
+  return SuggestedContainer;
+}(_react2.default.Component);
+
+SuggestedContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 function mapStateToProps(state) {
   console.log(state, 'mapStateToProps state');
   return {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
     file: state.uploadReducer.file,
     isLoggedIn: state.userReducer.isLoggedIn,
     user: state.userReducer.user,
@@ -31167,6 +36429,16 @@ PhotoUploadContainer.contextTypes = {
 };
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(PhotoUploadContainer);
+=======
+    isLoggedIn: state.userReducer.isLoggedIn,
+    user: state.userReducer.user,
+    suggestedFriends: state.userReducer.suggestedFriends,
+    socket: state.userReducer.socket
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(SuggestedContainer);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 exports.default = _default;
 ;
@@ -31176,17 +36448,29 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
 
   __REACT_HOT_LOADER__.register(PhotoUploadContainer, 'PhotoUploadContainer', '/Users/Rob/hackreactor/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/PhotoUpload/PhotoUploadContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
+
+  __REACT_HOT_LOADER__.register(SuggestedContainer, 'SuggestedContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 303 */
+=======
+/* 280 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31195,6 +36479,7 @@ var _temp = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 var _react = __webpack_require__(0);
 
@@ -31238,16 +36523,22 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/AllFriends/AllFriends.js');
 }();
+=======
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-;
+var _react = __webpack_require__(0);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 304 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+var _react2 = _interopRequireDefault(_react);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+var _reactRouter = __webpack_require__(15);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -31255,17 +36546,65 @@ Object.defineProperty(exports, "__esModule", {
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(0);
+=======
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SuggestedFriends = function SuggestedFriends(props) {
+  //inline CSS-style. fills the entire SuggestedFriends div with photo
+  var divStyle = {
+    backgroundImage: 'url(' + props.friend.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+  };
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneFriend', style: divStyle },
+    _react2.default.createElement(
+      'button',
+      { className: 'videoButton', onClick: function onClick(e) {
+          e.preventDefault;props.videoChat(props.friend);
+        } },
+      'Video Chat'
+    ),
+    _react2.default.createElement(
+      'button',
+      { className: 'chatButton' },
+      'Chat'
+    ),
+    _react2.default.createElement('div', { className: 'oneFriendWrapper' })
+  );
+};
+
+var _default = SuggestedFriends;
+exports.default = _default;
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactDom = __webpack_require__(11);
+=======
+  __REACT_HOT_LOADER__.register(SuggestedFriends, 'SuggestedFriends', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedFriends.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Profile/Suggested/SuggestedFriends.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _reactRedux = __webpack_require__(17);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _userReducer = __webpack_require__(16);
+=======
+/***/ },
+/* 281 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var userActions = _interopRequireWildcard(_userReducer);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _AllFriends = __webpack_require__(303);
 
 var _AllFriends2 = _interopRequireDefault(_AllFriends);
@@ -31332,6 +36671,111 @@ exports.default = _default;
 
 // export default AllFriendsContainer
 
+=======
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRouter = __webpack_require__(15);
+
+var _LoginContainer = __webpack_require__(102);
+
+var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
+
+var _HomeContainer = __webpack_require__(265);
+
+var _HomeContainer2 = _interopRequireDefault(_HomeContainer);
+
+var _PhotoUploadContainer = __webpack_require__(273);
+
+var _PhotoUploadContainer2 = _interopRequireDefault(_PhotoUploadContainer);
+
+var _ProfileContainer = __webpack_require__(278);
+
+var _ProfileContainer2 = _interopRequireDefault(_ProfileContainer);
+
+var _AllFriendsContainer = __webpack_require__(275);
+
+var _AllFriendsContainer2 = _interopRequireDefault(_AllFriendsContainer);
+
+var _OnlineFriendsContainer = __webpack_require__(276);
+
+var _OnlineFriendsContainer2 = _interopRequireDefault(_OnlineFriendsContainer);
+
+var _SuggestedContainer = __webpack_require__(279);
+
+var _SuggestedContainer2 = _interopRequireDefault(_SuggestedContainer);
+
+var _StoreContainer = __webpack_require__(284);
+
+var _StoreContainer2 = _interopRequireDefault(_StoreContainer);
+
+var _StoreEmojisContainer = __webpack_require__(286);
+
+var _StoreEmojisContainer2 = _interopRequireDefault(_StoreEmojisContainer);
+
+var _StoreUserEmojisContainer = __webpack_require__(288);
+
+var _StoreUserEmojisContainer2 = _interopRequireDefault(_StoreUserEmojisContainer);
+
+var _ChatContainer = __webpack_require__(262);
+
+var _ChatContainer2 = _interopRequireDefault(_ChatContainer);
+
+var _ChatMVPContainer = __webpack_require__(263);
+
+var _ChatMVPContainer2 = _interopRequireDefault(_ChatMVPContainer);
+
+var _TextChatContainer = __webpack_require__(294);
+
+var _TextChatContainer2 = _interopRequireDefault(_TextChatContainer);
+
+var _SearchContainer = __webpack_require__(283);
+
+var _SearchContainer2 = _interopRequireDefault(_SearchContainer);
+
+var _MultiChatContainer = __webpack_require__(264);
+
+var _MultiChatContainer2 = _interopRequireDefault(_MultiChatContainer);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Routes = _react2.default.createElement(
+  _reactRouter.Router,
+  { history: _reactRouter.hashHistory },
+  _react2.default.createElement(
+    _reactRouter.Route,
+    { path: '/', component: _HomeContainer2.default },
+    _react2.default.createElement(_reactRouter.IndexRoute, { component: _LoginContainer2.default }),
+    _react2.default.createElement(
+      _reactRouter.Route,
+      { path: '/profile', component: _ProfileContainer2.default },
+      _react2.default.createElement(_reactRouter.IndexRoute, { component: _AllFriendsContainer2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/online', component: _OnlineFriendsContainer2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/suggested', component: _SuggestedContainer2.default })
+    ),
+    _react2.default.createElement(
+      _reactRouter.Route,
+      { path: '/store', component: _StoreContainer2.default },
+      _react2.default.createElement(_reactRouter.IndexRoute, { component: _StoreEmojisContainer2.default }),
+      _react2.default.createElement(_reactRouter.Route, { path: '/userinventory', component: _StoreUserEmojisContainer2.default })
+    ),
+    _react2.default.createElement(_reactRouter.Route, { path: '/search', component: _SearchContainer2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/chat', component: _MultiChatContainer2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/text', component: _TextChatContainer2.default }),
+    _react2.default.createElement(_reactRouter.Route, { path: '/upload', component: _PhotoUploadContainer2.default })
+  )
+);
+
+var _default = Routes;
+exports.default = _default;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -31339,17 +36783,27 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
 
   __REACT_HOT_LOADER__.register(AllFriendsContainer, 'AllFriendsContainer', '/Users/Rob/hackreactor/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/AllFriends/AllFriendsContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(Routes, 'Routes', '/Users/Michael/HR/Thesis/ReTok/client/src/Routes.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Routes.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 305 */
+=======
+/* 282 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31358,6 +36812,7 @@ var _temp = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -31378,19 +36833,90 @@ var _OnlineFriends2 = _interopRequireDefault(_OnlineFriends);
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
+=======
 
-var _updateHelper = __webpack_require__(58);
+var _react = __webpack_require__(0);
 
-var _updateHelper2 = _interopRequireDefault(_updateHelper);
+var _react2 = _interopRequireDefault(_react);
 
-var _axios = __webpack_require__(23);
-
-var _axios2 = _interopRequireDefault(_axios);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+var _reactRouter = __webpack_require__(15);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var Search = function Search(props) {
+  //inline CSS-style. fills the entire AllFriends div with photo
+  var divStyle = {
+    backgroundImage: 'url(' + props.friend.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+  };
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneFriend', style: divStyle },
+    _react2.default.createElement(
+      'button',
+      { className: 'AddFriend', onClick: function onClick(e) {
+          e.preventDefault;props.addFriend(props.friend);
+        } },
+      'Add Friend'
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      ' ',
+      props.friend.firstName,
+      ' '
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      ' ',
+      props.friend.lastName,
+      ' '
+    ),
+    _react2.default.createElement(
+      'span',
+      null,
+      ' ',
+      props.friend.username,
+      ' '
+    ),
+    _react2.default.createElement('div', { className: 'oneFriendWrapper' })
+  );
+};
+
+var _default = Search;
+exports.default = _default;
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _updateHelper = __webpack_require__(58);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+
+var _axios = __webpack_require__(23);
+=======
+  __REACT_HOT_LOADER__.register(Search, 'Search', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/Search.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/Search.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _axios2 = _interopRequireDefault(_axios);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+=======
+/***/ },
+/* 283 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -31473,6 +36999,149 @@ function mapStateToProps(state) {
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(OnlineFriendsContainer);
 
+=======
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(19);
+
+var _Search = __webpack_require__(282);
+
+var _Search2 = _interopRequireDefault(_Search);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var SearchContainer = function (_React$Component) {
+  _inherits(SearchContainer, _React$Component);
+
+  function SearchContainer(props) {
+    _classCallCheck(this, SearchContainer);
+
+    return _possibleConstructorReturn(this, (SearchContainer.__proto__ || Object.getPrototypeOf(SearchContainer)).call(this, props));
+  }
+
+  _createClass(SearchContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+
+      _axios2.default.get('/auth').then(function (res) {
+        console.log('checking auth res data', res.data);
+
+        if (!res.data) {
+          this.context.router.push('/');
+        }
+      });
+    }
+  }, {
+    key: 'addFriend',
+    value: function addFriend(friend) {
+      var _this2 = this;
+
+      var socket = this.props.socket;
+      console.log('i tried to add this friend', friend);
+      console.log('im checking my own user info', this.props.user);
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: 'mutation\n        {\n          addFriendship(userOne: "' + this.props.user.username + '" userTwo: "' + friend.username + '")\n          {\n                userOne\n                userTwo\n                relationship\n                videoChatCount\n                textChatCount\n                lastChatTime\n              }\n        }'
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          console.log('what is my data', data);
+          // this.props.dispatch(userActions.userAuth(data));
+          // console.log('checking router', this.context.router);
+          // this.context.router.push('/profile')
+          var updatedCoin = _this2.props.user.coin + 50;
+
+          var options = {
+
+            method: 'POST',
+            headers: myHeaders,
+            body: '\n                  mutation {\n                  updateUser(username: "' + _this2.props.user.username + '" coin:' + updatedCoin + ')  {\n                    username\n                  }\n                  }\n                  '
+
+          };
+          fetch('/graphql', options).then(function (res) {
+            return res.json().then(function (data) {
+              console.log('checking data after fetching', data);
+              var userCopy = Object.assign({}, _this2.props.user, { coin: updatedCoin });
+              _this2.props.dispatch(userActions.updateUser(userCopy));
+              var friendsCopy = _this2.props.friends.slice();
+              friendsCopy.push(friend);
+              _this2.props.dispatch(userActions.updateFriends(friendsCopy));
+              var friendCountPlusOne = _this2.props.friendCount + 1;
+              _this2.props.dispatch(userActions.updateFriendCount(friendCountPlusOne));
+              console.log('checking my user data to see successful dispatch', _this2.props.user, _this2.props.friends);
+              socket.emit('updateFriends', _this2.props.friends);
+              socket.emit('updateFriends', [_this2.props.user]);
+            });
+          });
+        });
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this3 = this;
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        this.props.search.map(function (item, index) {
+          return _react2.default.createElement(_Search2.default, { key: index, friend: item, addFriend: _this3.addFriend.bind(_this3) });
+        })
+      );
+    }
+  }]);
+
+  return SearchContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    user: state.userReducer.user,
+    search: state.userReducer.search,
+    friends: state.userReducer.friends,
+    friendCount: state.userReducer.friendCount,
+    socket: state.userReducer.socket
+  };
+}
+
+SearchContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(SearchContainer);
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 ;
 
@@ -31481,23 +37150,36 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
 
   __REACT_HOT_LOADER__.register(OnlineFriendsContainer, 'OnlineFriendsContainer', '/Users/Rob/hackreactor/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/OnlineFriends/OnlineFriendsContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/SearchContainer.js');
+
+  __REACT_HOT_LOADER__.register(SearchContainer, 'SearchContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/SearchContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Search/SearchContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 306 */
+=======
+/* 284 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   value: true
 });
 
@@ -31616,19 +37298,76 @@ var Profile = function Profile(props) {
 var _default = Profile;
 exports.default = _default;
 ;
+=======
+	value: true
+});
 
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(19);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _reactRouter = __webpack_require__(15);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(Profile, 'Profile', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Profile.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Profile.js');
 }();
+=======
+var _userReducer = __webpack_require__(16);
 
-;
+var userActions = _interopRequireWildcard(_userReducer);
 
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var StoreContainer = function (_React$Component) {
+	_inherits(StoreContainer, _React$Component);
+
+	function StoreContainer(props) {
+		_classCallCheck(this, StoreContainer);
+
+		return _possibleConstructorReturn(this, (StoreContainer.__proto__ || Object.getPrototypeOf(StoreContainer)).call(this, props));
+	}
+
+	_createClass(StoreContainer, [{
+		key: 'componentWillMount',
+		value: function componentWillMount() {
+			var _this2 = this;
+
+			var context = this;
+			_axios2.default.get('/auth').then(function (res) {
+				console.log('checking auth res data', res.data);
+
+				if (!res.data) {
+					console.log('no session...redirecting to sign up page');
+					context.context.router.push('/');
+				}
+			});
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+			// var emojis = this.props.emojis.slice();
+			// var userEmojis = this.props.userEmojis.slice();
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 307 */
 /***/ function(module, exports, __webpack_require__) {
@@ -31663,9 +37402,114 @@ var userActions = _interopRequireWildcard(_userReducer);
 var _axios = __webpack_require__(23);
 
 var _axios2 = _interopRequireDefault(_axios);
+=======
+			// for (var i = 0; i < emojis.length; i++) {
+			// 		var storeEmoji = JSON.stringify(emojis[i]);
+			// 	for (var j = 0; j < userEmojis.length; j++) {
+			// 		var userEmoji = JSON.stringify(userEmojis[j]);
+			// 		if (userEmoji === storeEmoji) {
+			// 			emojis[i]['purchased'] = true;
+			// 		}
+			// 	}
+			// }
+			// this.props.dispatch(userActions.updateEmojis(emojis));
+			var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+			var options = {
+
+				method: 'POST',
+				headers: myHeaders,
+				body: '\n\t\t    {  \n\t\t      getOtherEmoji(username: "' + this.props.user.username + '")\n\t\t      {\n\t\t      \temoji\n\t\t      \tprice\n\t\t          }\n\t\t    }'
+			};
+
+			fetch('/graphql', options).then(function (res) {
+				return res.json().then(function (data) {
+					console.log('checking Store emoji data after fetching', data.data.getOtherEmoji);
+					_this2.props.dispatch(userActions.updateStoreEmojis(data.data.getOtherEmoji));
+
+					var optionsUserEmoji = {
+
+						method: 'POST',
+						headers: myHeaders,
+						body: '\n\t\t            {  \n\t\t              getEmoji(username: "' + _this2.props.user.username + '")\n\t\t              {\n\t\t              \temoji\n\t\t              \tprice\n\t\t                  }\n\t\t            }'
+					};
+
+					fetch('/graphql', optionsUserEmoji).then(function (res) {
+						return res.json().then(function (data) {
+							console.log('checking data for user emoji', data);
+							_this2.props.dispatch(userActions.updateUserEmojis(data.data.getEmoji));
+						});
+					});
+				});
+			});
+		}
+
+		//TODO: Finish Store:
+
+	}, {
+		key: 'render',
+		value: function render() {
+			return _react2.default.createElement(
+				'div',
+				null,
+				_react2.default.createElement(
+					'div',
+					{ className: 'profileNav' },
+					_react2.default.createElement(
+						_reactRouter.Link,
+						{ to: '/store', className: 'subNavLinks' },
+						'Buy Emojis'
+					),
+					_react2.default.createElement(
+						_reactRouter.Link,
+						{ to: '/userinventory', className: 'subNavLinks' },
+						'Emojis I Own'
+					)
+				),
+				this.props.children
+			);
+		}
+	}]);
+
+	return StoreContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+	return {
+		//TODO: Configure server and database to know what kind of object I get back for emojis
+		emojis: state.userReducer.emojis,
+		user: state.userReducer.user,
+		userEmojis: state.userReducer.userEmojis,
+		storeEmojis: state.userReducer.storeEmojis
+	};
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(StoreContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreContainer.js');
+
+	__REACT_HOT_LOADER__.register(StoreContainer, 'StoreContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreContainer.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreContainer.js');
+}();
+
+;
+
+/***/ },
+/* 285 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _updateHelper = __webpack_require__(58);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _updateHelper2 = _interopRequireDefault(_updateHelper);
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
@@ -31749,6 +37593,45 @@ ProfileContainer.contextTypes = {
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(ProfileContainer);
 
+=======
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactEmojione = __webpack_require__(50);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var StoreEmoji = function StoreEmoji(props) {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneEmoji hvr-bob' },
+    _react2.default.createElement(
+      'div',
+      { className: 'emojiWrapper' },
+      (0, _reactEmojione.emojify)(props.emoji.emoji, { output: 'unicode' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'storeButtonWrapper' },
+      _react2.default.createElement(
+        'button',
+        { className: 'storeButton', onClick: function onClick(e) {
+            e.preventDefault();props.buyEmoji(props.emoji, props.index);
+          } },
+        'Buy Emoji'
+      )
+    )
+  );
+};
+
+var _default = StoreEmoji;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 ;
 
@@ -31757,17 +37640,27 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Profile/ProfileContainer.js');
 
   __REACT_HOT_LOADER__.register(ProfileContainer, 'ProfileContainer', '/Users/Rob/hackreactor/ReTok/client/src/Profile/ProfileContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/ProfileContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(StoreEmoji, 'StoreEmoji', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreEmojis/StoreEmoji.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreEmojis/StoreEmoji.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 308 */
+=======
+/* 286 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31783,6 +37676,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactDom = __webpack_require__(11);
 
 var _reactRedux = __webpack_require__(17);
@@ -31888,28 +37782,135 @@ var _default = (0, _reactRedux.connect)(mapStateToProps)(SuggestedContainer);
 
 exports.default = _default;
 ;
+=======
+var _reactDom = __webpack_require__(12);
 
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
+var _reactRedux = __webpack_require__(19);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _reactEmojione = __webpack_require__(50);
+
+var _StoreEmoji = __webpack_require__(285);
+
+var _StoreEmoji2 = _interopRequireDefault(_StoreEmoji);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var StoreEmojisContainer = function (_React$Component) {
+  _inherits(StoreEmojisContainer, _React$Component);
+
+  function StoreEmojisContainer(props) {
+    _classCallCheck(this, StoreEmojisContainer);
+
+    return _possibleConstructorReturn(this, (StoreEmojisContainer.__proto__ || Object.getPrototypeOf(StoreEmojisContainer)).call(this, props));
   }
 
+  _createClass(StoreEmojisContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      console.log('i hit StoreEmojisContainer', this.props.storeEmojis);
+    }
+  }, {
+    key: 'buyEmoji',
+    value: function buyEmoji(emoji, key) {
+      var _this2 = this;
+
+      var emojiCost = emoji.price;
+      console.log('check whats is inside of emoji ------>', emoji);
+      var userCoinTotal = this.props.user.coin;
+      var storeEmojisCopy = this.props.storeEmojis.slice();
+      var userEmojis = this.props.userEmojis.slice();
+
+      if (emojiCost > userCoinTotal) {
+        alert('You dont have enough coins to buy this emoji');
+      } else {
+        (function () {
+          var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+          userCoinTotal = userCoinTotal - emojiCost;
+          console.log('checking user coin total ---->', userCoinTotal);
+          var options = {
+
+            method: 'POST',
+            headers: myHeaders,
+            body: 'mutation \n\n            {\n                updateEmojiUser(username: "' + _this2.props.user.username + '" emoji: "' + emoji.emoji + '")  {\n                  UserId\n                  }\n                }\n                '
+
+          };
+          fetch('/graphql', options).then(function (res) {
+            return res.json().then(function (data) {
+
+              var userOptions = {
+
+                method: 'POST',
+                headers: myHeaders,
+                body: '\n                    mutation {\n                    updateUser(username: "' + _this2.props.user.username + '" coin:' + userCoinTotal + ')  {\n                      username\n                    }\n                    }\n                    '
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+              };
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
 
   __REACT_HOT_LOADER__.register(SuggestedContainer, 'SuggestedContainer', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Suggested/SuggestedContainer.js');
 }();
+=======
+              fetch('/graphql', userOptions).then(function (res) {
+                return res.json().then(function (data) {
 
-;
+                  console.log('checking data after fetching', data);
+                  var userCopy = Object.assign({}, _this2.props.user, { coin: userCoinTotal, emoji: emoji });
+                  _this2.props.dispatch(userActions.updateUser(userCopy));
 
+                  var boughtEmoji = storeEmojisCopy.splice(key, 1);
+                  console.log('what is bought emoji', boughtEmoji);
+                  userEmojis.push(boughtEmoji[0]);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+                  _this2.props.dispatch(userActions.updateStoreEmojis(storeEmojisCopy));
+                  _this2.props.dispatch(userActions.updateUserEmojis(userEmojis));
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 309 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+                  console.log('checking my user data to see successful dispatch', _this2.props.user);
+                });
+              });
+            });
+          });
+        })();
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this3 = this;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+      return _react2.default.createElement(
+        'div',
+        { className: 'storeEmojisContainer' },
+        this.props.storeEmojis.map(function (item, index) {
+          return _react2.default.createElement(_StoreEmoji2.default, { key: index, index: index, emoji: item, buyEmoji: _this3.buyEmoji.bind(_this3) });
+        })
+      );
+    }
+  }]);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -31950,6 +37951,23 @@ var SuggestedFriends = function SuggestedFriends(props) {
 };
 
 var _default = SuggestedFriends;
+=======
+  return StoreEmojisContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn,
+    storeEmojis: state.userReducer.storeEmojis,
+    userEmojis: state.userReducer.userEmojis,
+    user: state.userReducer.user
+
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(StoreEmojisContainer);
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 ;
 
@@ -31958,15 +37976,27 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(SuggestedFriends, 'SuggestedFriends', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Suggested/SuggestedFriends.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Profile/Suggested/SuggestedFriends.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(StoreEmojisContainer, 'StoreEmojisContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 310 */
+=======
+/* 287 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -31975,6 +38005,7 @@ var _temp = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 var _react = __webpack_require__(0);
 
@@ -31995,17 +38026,58 @@ var _HomeContainer2 = _interopRequireDefault(_HomeContainer);
 var _PhotoUploadContainer = __webpack_require__(302);
 
 var _PhotoUploadContainer2 = _interopRequireDefault(_PhotoUploadContainer);
+=======
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactEmojione = __webpack_require__(50);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var StoreUserEmoji = function StoreUserEmoji(props) {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneEmoji hvr-bob' },
+    _react2.default.createElement(
+      'div',
+      { className: 'emojiWrapper' },
+      (0, _reactEmojione.emojify)(props.emoji.emoji, { output: 'unicode' })
+    )
+  );
+};
+
+var _default = StoreUserEmoji;
+exports.default = _default;
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ProfileContainer = __webpack_require__(307);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ProfileContainer2 = _interopRequireDefault(_ProfileContainer);
+=======
+  __REACT_HOT_LOADER__.register(StoreUserEmoji, 'StoreUserEmoji', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmoji.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmoji.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _AllFriendsContainer = __webpack_require__(304);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _AllFriendsContainer2 = _interopRequireDefault(_AllFriendsContainer);
+=======
+/***/ },
+/* 288 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _OnlineFriendsContainer = __webpack_require__(305);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _OnlineFriendsContainer2 = _interopRequireDefault(_OnlineFriendsContainer);
 
 var _SuggestedContainer = __webpack_require__(308);
@@ -32086,16 +38158,29 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Routes.js');
 }();
+=======
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-;
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _react = __webpack_require__(0);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _react2 = _interopRequireDefault(_react);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 311 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+var _reactDom = __webpack_require__(12);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+var _reactRedux = __webpack_require__(19);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -32152,6 +38237,81 @@ var Search = function Search(props) {
 };
 
 var _default = Search;
+=======
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _reactEmojione = __webpack_require__(50);
+
+var _StoreUserEmoji = __webpack_require__(287);
+
+var _StoreUserEmoji2 = _interopRequireDefault(_StoreUserEmoji);
+
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var StoreUserEmojisContainer = function (_React$Component) {
+  _inherits(StoreUserEmojisContainer, _React$Component);
+
+  function StoreUserEmojisContainer(props) {
+    _classCallCheck(this, StoreUserEmojisContainer);
+
+    return _possibleConstructorReturn(this, (StoreUserEmojisContainer.__proto__ || Object.getPrototypeOf(StoreUserEmojisContainer)).call(this, props));
+  }
+
+  _createClass(StoreUserEmojisContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+
+      _axios2.default.get('/auth').then(function (res) {
+        console.log('checking auth res data', res.data);
+
+        if (!res.data) {
+          this.context.router.push('/');
+        }
+      });
+
+      console.log('hit the store user emoji container');
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: 'storeEmojisContainer' },
+        this.props.userEmojis.map(function (item, index) {
+          return _react2.default.createElement(_StoreUserEmoji2.default, { key: index, index: index, emoji: item });
+        })
+      );
+    }
+  }]);
+
+  return StoreUserEmojisContainer;
+}(_react2.default.Component);
+
+function mapStateToProps(state) {
+  return {
+    userEmojis: state.userReducer.userEmojis,
+    user: state.userReducer.user
+
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(StoreUserEmojisContainer);
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 ;
 
@@ -32160,15 +38320,27 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(Search, 'Search', '/Users/Rob/hackreactor/ReTok/client/src/Search/Search.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Search/Search.js');
+=======
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(StoreUserEmojisContainer, 'StoreUserEmojisContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 312 */
+=======
+/* 289 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32178,16 +38350,62 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _react = __webpack_require__(0);
+=======
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactEmojione = __webpack_require__(50);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var EmojiChat = function EmojiChat(props) {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'oneEmojiChat hvr-bob', onClick: function onClick(e) {
+        e.preventDefault();props.useEmojiChat(props.emoji.emoji);
+      } },
+    _react2.default.createElement(
+      'div',
+      { className: 'emojiChatWrapper' },
+      (0, _reactEmojione.emojify)(props.emoji.emoji, { output: 'unicode' })
+    )
+  );
+};
+
+var _default = EmojiChat;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(EmojiChat, 'EmojiChat', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/EmojiChatContainer/EmojiChat.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/EmojiChatContainer/EmojiChat.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _react2 = _interopRequireDefault(_react);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactDom = __webpack_require__(11);
+=======
+/***/ },
+/* 290 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _reactRedux = __webpack_require__(17);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Search = __webpack_require__(311);
 
 var _Search2 = _interopRequireDefault(_Search);
@@ -32329,16 +38547,59 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Search/SearchContainer.js');
 }();
+=======
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
-;
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(19);
+
+var _reactCustomScrollbars = __webpack_require__(88);
+
+var _FriendsListEntry = __webpack_require__(291);
+
+var _FriendsListEntry2 = _interopRequireDefault(_FriendsListEntry);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _OfflineFriendsListEntry = __webpack_require__(292);
+
+var _OfflineFriendsListEntry2 = _interopRequireDefault(_OfflineFriendsListEntry);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 313 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+var FriendsListContainer = function (_React$Component) {
+  _inherits(FriendsListContainer, _React$Component);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+  function FriendsListContainer(props) {
+    _classCallCheck(this, FriendsListContainer);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
 		value: true
 });
@@ -32366,9 +38627,139 @@ var _axios2 = _interopRequireDefault(_axios);
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+=======
+    return _possibleConstructorReturn(this, (FriendsListContainer.__proto__ || Object.getPrototypeOf(FriendsListContainer)).call(this, props));
+  }
+
+  _createClass(FriendsListContainer, [{
+    key: 'joinRoom',
+    value: function joinRoom(friend) {
+      var currentRoom = this.props.room;
+      var roomNameSort = [[this.props.user.username], [friend.username]].sort();
+
+      var roomName = ',';
+
+      for (var i = 0; i < roomNameSort.length; i++) {
+        roomName += roomNameSort[i] + ",";
+      }
+
+      console.log('checking roomName --->', roomName);
+
+      if (roomName === currentRoom) {
+        console.log('room names are the same. return.');
+        return;
+      } else {
+        this.props.socket.emit('joinRoom', roomName, currentRoom, this.props.user.username, friend);
+      }
+    }
+  }, {
+    key: 'addHighlightClass',
+    value: function addHighlightClass(username) {
+      console.log('hit highlightclass', username);
+
+      if (document.getElementsByClassName('chatFriendListSelected')[0]) {
+        var oldSelectedEntry = document.getElementsByClassName('chatFriendListSelected')[0];
+        oldSelectedEntry.classList.remove('chatFriendListSelected');
+      }
+
+      document.getElementById(username).classList.add('chatFriendListSelected');
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var offline = this.props.friends.filter(function (item, index) {
+        return item.online === false;
+      });
+      return _react2.default.createElement(
+        'div',
+        { className: 'chatListContainer' },
+        _react2.default.createElement(
+          'div',
+          { className: 'chatFriendsHeader' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            'My Username is: ',
+            this.props.user.username
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'chatFriendsHeader' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'Online: '
+            )
+          )
+        ),
+        this.props.onlineFriends.map(function (item, index) {
+          return _react2.default.createElement(_FriendsListEntry2.default, { key: index, friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
+        }),
+        _react2.default.createElement(
+          'div',
+          { className: 'chatFriendsHeader' },
+          _react2.default.createElement(
+            'h4',
+            null,
+            _react2.default.createElement(
+              'b',
+              null,
+              'Offline:'
+            )
+          )
+        ),
+        offline.map(function (item, index) {
+          return _react2.default.createElement(_OfflineFriendsListEntry2.default, { key: index, friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
+        })
+      );
+    }
+  }]);
+
+  return FriendsListContainer;
+}(_react2.default.Component);
+
+;
+
+function mapStateToProps(state) {
+  return {
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket,
+    friends: state.userReducer.friends,
+    onlineFriends: state.userReducer.onlineFriends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat,
+    friendCount: state.userReducer.friendCount
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(FriendsListContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/FriendsListContainer.js');
+
+  __REACT_HOT_LOADER__.register(FriendsListContainer, 'FriendsListContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/FriendsListContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/FriendsListContainer.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
@@ -32439,6 +38830,55 @@ var StoreContainer = function (_React$Component) {
 								});
 						});
 				}
+=======
+/***/ },
+/* 291 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(15);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var FriendsListEntry = function FriendsListEntry(props) {
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'chatFriendsListEntry', id: props.friend.username },
+    _react2.default.createElement(
+      'h4',
+      { onClick: function onClick(e) {
+          e.preventDefault();props.joinRoom(props.friend);props.addHighlightClass(props.friend.username);
+        } },
+      props.friend.username
+    )
+  );
+};
+
+var _default = FriendsListEntry;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(FriendsListEntry, 'FriendsListEntry', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/FriendsListEntry.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/FriendsListEntry.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 				//TODO: Finish Store:
 
@@ -32467,6 +38907,7 @@ var StoreContainer = function (_React$Component) {
 				}
 		}]);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 		return StoreContainer;
 }(_react2.default.Component);
 
@@ -32496,9 +38937,22 @@ var _temp = function () {
 
 		__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreContainer.js');
 }();
+=======
+/***/ },
+/* 292 */
+/***/ function(module, exports, __webpack_require__) {
 
-;
+"use strict";
+'use strict';
 
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _react = __webpack_require__(0);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 314 */
 /***/ function(module, exports, __webpack_require__) {
@@ -32555,9 +39009,23 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreEmojis/StoreEmoji.js');
 }();
+=======
+var _react2 = _interopRequireDefault(_react);
 
-;
+var _reactRouter = __webpack_require__(15);
 
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var OfflineFriendsListEntry = function OfflineFriendsListEntry(props) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+  var divStyle = {
+    backgroundImage: 'url(' + props.friend.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 315 */
 /***/ function(module, exports, __webpack_require__) {
@@ -32570,9 +39038,45 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+=======
+  };
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'chatFriendsListEntry', id: props.friend.username, onClick: function onClick(e) {
+        e.preventDefault();props.joinRoom(props.friend);props.addHighlightClass(props.friend.username);
+      } },
+    _react2.default.createElement(
+      'div',
+      { className: 'oneFriendChatImage', style: divStyle },
+      _react2.default.createElement('div', { className: 'oneFriendChatImageWrapper' })
+    ),
+    _react2.default.createElement(
+      'h4',
+      null,
+      props.friend.username
+    )
+  );
+};
+
+var _default = OfflineFriendsListEntry;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(OfflineFriendsListEntry, 'OfflineFriendsListEntry', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _react = __webpack_require__(0);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(11);
@@ -32701,6 +39205,41 @@ function mapStateToProps(state) {
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(StoreEmojisContainer);
 
+=======
+/***/ },
+/* 293 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRouter = __webpack_require__(15);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TextChat = function TextChat(props) {
+
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'h5',
+      null,
+      props.friend.username
+    )
+  );
+};
+
+var _default = TextChat;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 exports.default = _default;
 ;
 
@@ -32709,21 +39248,32 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
 
   __REACT_HOT_LOADER__.register(StoreEmojisContainer, 'StoreEmojisContainer', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreEmojis/StoreEmojisContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(TextChat, 'TextChat', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/TextChat.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/TextChat.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 316 */
+=======
+/* 294 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -32763,9 +39313,36 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmoji.js');
 }();
+=======
 
-;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(19);
+
+var _reactCustomScrollbars = __webpack_require__(88);
+
+var _TextChat = __webpack_require__(293);
+
+var _TextChat2 = _interopRequireDefault(_TextChat);
+
+var _FriendsListContainer = __webpack_require__(290);
+
+var _FriendsListContainer2 = _interopRequireDefault(_FriendsListContainer);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var _EmojiChatContainer = __webpack_require__(161);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 317 */
 /***/ function(module, exports, __webpack_require__) {
@@ -32874,18 +39451,129 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/Store/StoreUserEmojis/StoreUserEmojisContainer.js');
 }();
+=======
+var _EmojiChatContainer2 = _interopRequireDefault(_EmojiChatContainer);
 
-;
+var _shortToUnicode = __webpack_require__(261);
 
+var _shortToUnicode2 = _interopRequireDefault(_shortToUnicode);
+
+var _unicodeToShort = __webpack_require__(295);
+
+var _unicodeToShort2 = _interopRequireDefault(_unicodeToShort);
+
+var _axios = __webpack_require__(24);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var TextChatContainer = function (_React$Component) {
+  _inherits(TextChatContainer, _React$Component);
+
+  function TextChatContainer(props) {
+    _classCallCheck(this, TextChatContainer);
+
+    var _this = _possibleConstructorReturn(this, (TextChatContainer.__proto__ || Object.getPrototypeOf(TextChatContainer)).call(this, props));
+
+    _this.state = {
+      chatSelected: false,
+      currentFriend: null,
+      newChatHistoryLog: {}
+    };
+
+    return _this;
+  }
+
+  _createClass(TextChatContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+
+      var context = this;
+      _axios2.default.get('/auth').then(function (res) {
+        console.log('checking auth res data', res.data);
+
+        if (!res.data) {
+          console.log('no session...redirecting to sign up page');
+          context.context.router.push('/');
+        }
+      });
+
+      console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
+      var context = this;
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n           {\n          findChatsRedis(user: "' + this.props.user.username + '")  {\n            room\n            text\n          }\n          }\n          '
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          var findChatsData = data.data.findChatsRedis;
+          // console.log('checking data after fetching', findChatsData);
+          var newChatLog = {};
+
+          for (var i = 0; i < findChatsData.length; i++) {
+            // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
+            newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('#^');
+          }
+          context.props.dispatch(userActions.updateChatLog(newChatLog));
+          console.log('checking my chat log on will mount after fetching', context.props.chatLog);
+        });
+      });
+
+      this.props.dispatch(userActions.createRoom(''));
+      console.log('checking current chat --->', this.props.currentChat);
+      console.log('checking  chatlog on mount --->', this.props.chatLog);
+
+      var socket = this.props.socket;
+
+      var chatLogCopy = Object.assign({}, this.props.chatLog);
+
+      socket.on('textmessagereceived', function (message) {
+
+        var chat = context.props.currentChat.slice();
+        chat.push(message);
+
+        context.props.dispatch(userActions.updateCurrentChat(chat));
+
+        var logCopy = Object.assign({}, context.props.chatLog);
+
+        logCopy[context.props.room] = chat;
+
+        context.props.dispatch(userActions.updateChatLog(logCopy));
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+        var logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 318 */,
 /* 319 */,
 /* 320 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+        logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+        logComponentCopy[context.props.room].push(message);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -32925,18 +39613,231 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(EmojiChat, 'EmojiChat', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/EmojiChatContainer/EmojiChat.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/EmojiChatContainer/EmojiChat.js');
+=======
+        context.setState({
+          newChatHistoryLog: logComponentCopy
+        });
+      });
+
+      socket.on('joinRoomSuccess', function (room, friend) {
+        context.setState({
+          chatSelected: true,
+          currentFriend: friend
+        });
+        console.log('checking joinroom success chatlog', context.props.chatLog);
+
+        var oldRoom = context.props.room;
+
+        var chatLogCopy = Object.assign({}, context.props.chatLog);
+        console.log('check chatlog before', chatLogCopy);
+        chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
+        console.log('check chatlog after', chatLogCopy);
+
+        context.props.dispatch(userActions.createRoom(room));
+
+        console.log('checking joinroom success chatlog a bit later', context.props.chatLog);
+
+        if (!chatLogCopy.hasOwnProperty(room)) {
+          console.log('i hit the falsy value for hasOwnProperty');
+          chatLogCopy[room] = [];
+          context.props.dispatch(userActions.updateChatLog(chatLogCopy));
+          console.log('checking chatLog --->', context.props.chatLog);
+          context.props.dispatch(userActions.updateCurrentChat([]));
+        } else {
+          console.log('i hit the truthy value for hasOwnProperty');
+          context.props.dispatch(userActions.updateChatLog(chatLogCopy));
+          context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
+          console.log('checking chatLog --->', context.props.chatLog);
+        }
+      });
+    }
+  }, {
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      var socket = this.props.socket;
+      var clearChat = [];
+
+      this.props.dispatch(userActions.updateCurrentChat(clearChat));
+
+      socket.removeAllListeners("joinRoomSuccess");
+      socket.removeAllListeners("textmessagereceived");
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n          mutation {\n          updateUser(username: "' + this.props.user.username + '" coin:' + this.props.user.coin + ')  {\n            username\n          }\n          }\n          '
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          console.log('unmounting');
+        });
+      });
+    }
+  }, {
+    key: 'handleWindowClose',
+    value: function handleWindowClose() {
+      alert("Alerted Browser Close");
+    }
+  }, {
+    key: 'sendChat',
+    value: function sendChat(message) {
+      var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
+      var userCopy = Object.assign({}, this.props.user, { coin: updatedCoin });
+      this.props.dispatch(userActions.updateUser(userCopy));
+      console.log('i am receiving a message', message);
+      message = this.props.user.username + ": " + message;
+      this.props.socket.emit('textmessagesent', message, this.props.room);
+      var emojiEscapedString = (0, _unicodeToShort2.default)(message);
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var chatOptions = {
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n          mutation {\n          addChatRedis(room: "' + this.props.room + '" text: "' + emojiEscapedString + '")  {\n            room\n          }\n          }\n          '
+      };
+      fetch('/graphql', chatOptions).then(function (res) {
+        return res.json().then(function (data) {
+          console.log('sending chat to Redis');
+        });
+      });
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this2 = this;
+
+      var context = this;
+      var chat = context.props.currentChat.map(function (message) {
+        return _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'oneChatMessage' },
+            (0, _shortToUnicode2.default)(message, context.props.userEmojis, context.props.user.username)
+          )
+        );
+      });
+
+      var chatInputWindow;
+      if (this.state.chatSelected) {
+        chatInputWindow = _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'chatWindow' },
+            _react2.default.createElement(
+              _reactCustomScrollbars.Scrollbars,
+              { style: { height: 700 } },
+              chat
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'chatInputWindow' },
+            _react2.default.createElement(
+              'form',
+              { id: 'chatInput', onSubmit: function onSubmit(e) {
+                  e.preventDefault();_this2.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
+                } },
+              _react2.default.createElement('input', { id: 'chatInputField' }),
+              _react2.default.createElement(
+                'button',
+                { className: 'textChatButton' },
+                'Send Chat'
+              )
+            )
+          )
+        );
+      }
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            _reactCustomScrollbars.Scrollbars,
+            { style: { height: 50 } },
+            _react2.default.createElement(_EmojiChatContainer2.default, null)
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'chatFriendsList' },
+          _react2.default.createElement(
+            _reactCustomScrollbars.Scrollbars,
+            { style: { height: 700 } },
+            _react2.default.createElement(_FriendsListContainer2.default, null)
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          chatInputWindow
+        )
+      );
+    }
+  }]);
+
+  return TextChatContainer;
+}(_react2.default.Component);
+
+;
+
+function mapStateToProps(state) {
+  return {
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket,
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat,
+    userEmojis: state.userReducer.userEmojis
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(TextChatContainer);
+
+exports.default = _default;
+
+// {this.props.friends.map((item, index) => <TextChat key={index} friend={item}/>)}
+
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/TextChatContainer.js');
+
+  __REACT_HOT_LOADER__.register(TextChatContainer, 'TextChatContainer', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/TextChatContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/TextChatContainer.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 321 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+/* 295 */
+/***/ function(module, exports) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   value: true
 });
 
@@ -32959,13 +39860,121 @@ var _FriendsListEntry2 = _interopRequireDefault(_FriendsListEntry);
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
+=======
+	value: true
+});
+var emojiData = '{"1":[["⛪",[9962],":church:"],["⛵",[9973],":sailboat:"],["⚓",[9875],":anchor:"],["✈",[9992],":airplane:"],["⛽",[9981],":fuelpump:"],["◽",[9725],":white_medium_small_square:"],["◾",[9726],":black_medium_small_square:"],["◻",[9723],":white_medium_square:"],["◼",[9724],":black_medium_square:"],["⬜",[11036],":white_large_square:"],["⬛",[11035],":black_large_square:"],["▫",[9643],":white_small_square:"],["▪",[9642],":black_small_square:"],["⚫",[9899],":black_circle:"],["⚪",[9898],":white_circle:"],["☑",[9745],":ballot_box_with_check:"],["♦",[9830],":diamonds:"],["♥",[9829],":hearts:"],["♣",[9827],":clubs:"],["♠",[9824],":spades:"],["♻",[9851],":recycle:"],["♨",[9832],":hotsprings:"],["⚠",[9888],":warning:"],["⛎",[9934],":ophiuchus:"],["Ⓜ",[9410],":m:"],["⭕",[11093],":o:"],["❌",[10060],":x:"],["⁉",[8265],":interrobang:"],["‼",[8252],":bangbang:"],["❔",[10068],":grey_question:"],["❕",[10069],":grey_exclamation:"],["❓",[10067],":question:"],["❗",[10071],":exclamation:"],["〽",[12349],":part_alternation_mark:"],["➿",[10175],":loop:"],["➰",[10160],":curly_loop:"],["®",[174],":registered:"],["©",[169],":copyright:"],["™",[8482],":tm:"],["✔",[10004],":heavy_check_mark:"],["✖",[10006],":heavy_multiplication_x:"],["➗",[10135],":heavy_division_sign:"],["〰",[12336],":wavy_dash:"],["➖",[10134],":heavy_minus_sign:"],["➕",[10133],":heavy_plus_sign:"],["ℹ",[8505],":information_source:"],["⤵",[10549],":arrow_heading_down:"],["⤴",[10548],":arrow_heading_up:"],["↩",[8617],":leftwards_arrow_with_hook:"],["↪",[8618],":arrow_right_hook:"],["↔",[8596],":left_right_arrow:"],["↕",[8597],":arrow_up_down:"],["↖",[8598],":arrow_upper_left:"],["↙",[8601],":arrow_lower_left:"],["↘",[8600],":arrow_lower_right:"],["↗",[8599],":arrow_upper_right:"],["⬇",[11015],":arrow_down:"],["⬆",[11014],":arrow_up:"],["⛲",[9970],":fountain:"],["➡",[10145],":arrow_right:"],["⏬",[9196],":arrow_double_down:"],["⏫",[9195],":arrow_double_up:"],["⏪",[9194],":rewind:"],["⏩",[9193],":fast_forward:"],["◀",[9664],":arrow_backward:"],["▶",[9654],":arrow_forward:"],["♿",[9855],":wheelchair:"],["♓",[9811],":pisces:"],["♒",[9810],":aquarius:"],["♑",[9809],":capricorn:"],["♐",[9808],":sagittarius:"],["♏",[9807],":scorpius:"],["♎",[9806],":libra:"],["♍",[9805],":virgo:"],["♌",[9804],":leo:"],["♋",[9803],":cancer:"],["♊",[9802],":gemini:"],["♉",[9801],":taurus:"],["♈",[9800],":aries:"],["✴",[10036],":eight_pointed_black_star:"],["✅",[9989],":white_check_mark:"],["❎",[10062],":negative_squared_cross_mark:"],["✳",[10035],":eight_spoked_asterisk:"],["❇",[10055],":sparkle:"],["㊗",[12951],":congratulations:"],["㊙",[12953],":secret:"],["⛔",[9940],":no_entry:"],["✏",[9999],":pencil2:"],["✒",[10002],":black_nib:"],["✂",[9986],":scissors:"],["✉",[9993],":envelope:"],["☎",[9742],":telephone:"],["⌛",[8987],":hourglass:"],["⏳",[9203],":hourglass_flowing_sand:"],["⏰",[9200],":alarm_clock:"],["⌚",[8986],":watch:"],["☕",[9749],":coffee:"],["⛳",[9971],":golf:"],["⚾",[9918],":baseball:"],["⚽",[9917],":soccer:"],["⛺",[9978],":tent:"],["⛄",[9924],":snowman:"],["❤",[10084],":heart:"],["✨",[10024],":sparkles:"],["⭐",[11088],":star:"],["❄",[10052],":snowflake:"],["☔",[9748],":umbrella:"],["☁",[9729],":cloud:"],["⛅",[9925],":partly_sunny:"],["☀",[9728],":sunny:"],["⚡",[9889],":zap:"],["✋",[9995],":raised_hand:"],["✊",[9994],":fist:"],["✌",[9996],":v:"],["☝",[9757],":point_up:"],["☺",[9786],":relaxed:"],["⬅",[11013],":arrow_left:"]],"2":[["9⃣",[57,8419],":nine:"],["7⃣",[55,8419],":seven:"],["6⃣",[54,8419],":six:"],["5⃣",[53,8419],":five:"],["4⃣",[52,8419],":four:"],["8⃣",[56,8419],":eight:"],["2⃣",[50,8419],":two:"],["1⃣",[49,8419],":one:"],["0⃣",[48,8419],":zero:"],["#⃣",[35,8419],":hash:"],["3⃣",[51,8419],":three:"],["🐸",[55357,56376],":frog:"],["🐋",[55357,56331],":whale2:"],["🐳",[55357,56371],":whale:"],["🐬",[55357,56364],":dolphin:"],["🐙",[55357,56345],":octopus:"],["🐟",[55357,56351],":fish:"],["🐠",[55357,56352],":tropical_fish:"],["🐡",[55357,56353],":blowfish:"],["🐚",[55357,56346],":shell:"],["🐌",[55357,56332],":snail:"],["🐛",[55357,56347],":bug:"],["🐜",[55357,56348],":ant:"],["🐝",[55357,56349],":bee:"],["🐞",[55357,56350],":beetle:"],["🕷",[55357,56695],":spider:"],["🕸",[55357,56696],":spider_web:"],["🐾",[55357,56382],":feet:"],["😔",[55357,56852],":pensive:"],["🔥",[55357,56613],":fire:"],["🌙",[55356,57113],":crescent_moon:"],["😕",[55357,56853],":confused:"],["😖",[55357,56854],":confounded:"],["😗",[55357,56855],":kissing:"],["🌧",[55356,57127],":cloud_rain:"],["🌨",[55356,57128],":cloud_snow:"],["🌩",[55356,57129],":cloud_lightning:"],["🌪",[55356,57130],":cloud_tornado:"],["💧",[55357,56487],":droplet:"],["💦",[55357,56486],":sweat_drops:"],["😘",[55357,56856],":kissing_heart:"],["🌫",[55356,57131],":fog:"],["💨",[55357,56488],":dash:"],["😙",[55357,56857],":kissing_smiling_eyes:"],["🌟",[55356,57119],":star2:"],["😚",[55357,56858],":kissing_closed_eyes:"],["🌠",[55356,57120],":stars:"],["🌄",[55356,57092],":sunrise_over_mountains:"],["🌅",[55356,57093],":sunrise:"],["🌈",[55356,57096],":rainbow:"],["🌊",[55356,57098],":ocean:"],["🌋",[55356,57099],":volcano:"],["🌌",[55356,57100],":milky_way:"],["🗻",[55357,56827],":mount_fuji:"],["🗾",[55357,56830],":japan:"],["🌐",[55356,57104],":globe_with_meridians:"],["🌍",[55356,57101],":earth_africa:"],["🌎",[55356,57102],":earth_americas:"],["🌏",[55356,57103],":earth_asia:"],["🌑",[55356,57105],":new_moon:"],["🌒",[55356,57106],":waxing_crescent_moon:"],["🌓",[55356,57107],":first_quarter_moon:"],["🌔",[55356,57108],":waxing_gibbous_moon:"],["🌕",[55356,57109],":full_moon:"],["🌖",[55356,57110],":waning_gibbous_moon:"],["🌗",[55356,57111],":last_quarter_moon:"],["🌘",[55356,57112],":waning_crescent_moon:"],["🌚",[55356,57114],":new_moon_with_face:"],["🌝",[55356,57117],":full_moon_with_face:"],["🌛",[55356,57115],":first_quarter_moon_with_face:"],["🌜",[55356,57116],":last_quarter_moon_with_face:"],["🌞",[55356,57118],":sun_with_face:"],["🌬",[55356,57132],":wind_blowing_face:"],["🎀",[55356,57216],":ribbon:"],["🎁",[55356,57217],":gift:"],["🎂",[55356,57218],":birthday:"],["🎃",[55356,57219],":jack_o_lantern:"],["🎄",[55356,57220],":christmas_tree:"],["🎋",[55356,57227],":tanabata_tree:"],["🎍",[55356,57229],":bamboo:"],["🎑",[55356,57233],":rice_scene:"],["🎆",[55356,57222],":fireworks:"],["🎇",[55356,57223],":sparkler:"],["🎉",[55356,57225],":tada:"],["🎊",[55356,57226],":confetti_ball:"],["🎈",[55356,57224],":balloon:"],["💫",[55357,56491],":dizzy:"],["😛",[55357,56859],":stuck_out_tongue:"],["💥",[55357,56485],":boom:"],["🎓",[55356,57235],":mortar_board:"],["👑",[55357,56401],":crown:"],["🎗",[55356,57239],":reminder_ribbon:"],["🎖",[55356,57238],":military_medal:"],["🎎",[55356,57230],":dolls:"],["🎏",[55356,57231],":flags:"],["🎐",[55356,57232],":wind_chime:"],["🎌",[55356,57228],":crossed_flags:"],["🏮",[55356,57326],":izakaya_lantern:"],["💍",[55357,56461],":ring:"],["🎕",[55356,57237],":bouquet2:"],["😜",[55357,56860],":stuck_out_tongue_winking_eye:"],["💔",[55357,56468],":broken_heart:"],["💌",[55357,56460],":love_letter:"],["💕",[55357,56469],":two_hearts:"],["💞",[55357,56478],":revolving_hearts:"],["💓",[55357,56467],":heartbeat:"],["💗",[55357,56471],":heartpulse:"],["💖",[55357,56470],":sparkling_heart:"],["💘",[55357,56472],":cupid:"],["💝",[55357,56477],":gift_heart:"],["🎔",[55356,57236],":heart_tip:"],["💟",[55357,56479],":heart_decoration:"],["💜",[55357,56476],":purple_heart:"],["💛",[55357,56475],":yellow_heart:"],["💚",[55357,56474],":green_heart:"],["💙",[55357,56473],":blue_heart:"],["🏃",[55356,57283],":runner:"],["🚶",[55357,57014],":walking:"],["💃",[55357,56451],":dancer:"],["🏋",[55356,57291],":lifter:"],["🏌",[55356,57292],":golfer:"],["🚣",[55357,56995],":rowboat:"],["🏊",[55356,57290],":swimmer:"],["🏄",[55356,57284],":surfer:"],["🛀",[55357,57024],":bath:"],["🏂",[55356,57282],":snowboarder:"],["🎿",[55356,57279],":ski:"],["😝",[55357,56861],":stuck_out_tongue_closed_eyes:"],["🚴",[55357,57012],":bicyclist:"],["🚵",[55357,57013],":mountain_bicyclist:"],["🏍",[55356,57293],":motorcycle:"],["🏎",[55356,57294],":race_car:"],["🏇",[55356,57287],":horse_racing:"],["😞",[55357,56862],":disappointed:"],["🎣",[55356,57251],":fishing_pole_and_fish:"],["😟",[55357,56863],":worried:"],["🏀",[55356,57280],":basketball:"],["🏈",[55356,57288],":football:"],["😠",[55357,56864],":angry:"],["🎾",[55356,57278],":tennis:"],["🏉",[55356,57289],":rugby_football:"],["😡",[55357,56865],":rage:"],["🏆",[55356,57286],":trophy:"],["🏅",[55356,57285],":medal:"],["🎽",[55356,57277],":running_shirt_with_sash:"],["🏁",[55356,57281],":checkered_flag:"],["🎹",[55356,57273],":musical_keyboard:"],["🎸",[55356,57272],":guitar:"],["🎻",[55356,57275],":violin:"],["🎷",[55356,57271],":saxophone:"],["🎺",[55356,57274],":trumpet:"],["🎵",[55356,57269],":musical_note:"],["🎶",[55356,57270],":notes:"],["🎼",[55356,57276],":musical_score:"],["🎧",[55356,57255],":headphones:"],["🎤",[55356,57252],":microphone:"],["🎭",[55356,57261],":performing_arts:"],["🎫",[55356,57259],":ticket:"],["🎩",[55356,57257],":tophat:"],["🎪",[55356,57258],":circus_tent:"],["🎬",[55356,57260],":clapper:"],["🎞",[55356,57246],":film_frames:"],["🎟",[55356,57247],":tickets:"],["🎨",[55356,57256],":art:"],["🎯",[55356,57263],":dart:"],["🎱",[55356,57265],":8ball:"],["🎳",[55356,57267],":bowling:"],["🎰",[55356,57264],":slot_machine:"],["🎲",[55356,57266],":game_die:"],["🎮",[55356,57262],":video_game:"],["🎴",[55356,57268],":flower_playing_cards:"],["🃏",[55356,56527],":black_joker:"],["🀄",[55356,56324],":mahjong:"],["🎠",[55356,57248],":carousel_horse:"],["🎡",[55356,57249],":ferris_wheel:"],["🎢",[55356,57250],":roller_coaster:"],["🍅",[55356,57157],":tomato:"],["🍆",[55356,57158],":eggplant:"],["🌽",[55356,57149],":corn:"],["🍠",[55356,57184],":sweet_potato:"],["🌶",[55356,57142],":hot_pepper:"],["🍇",[55356,57159],":grapes:"],["🍈",[55356,57160],":melon:"],["🍉",[55356,57161],":watermelon:"],["🍊",[55356,57162],":tangerine:"],["🍋",[55356,57163],":lemon:"],["🍌",[55356,57164],":banana:"],["🍍",[55356,57165],":pineapple:"],["🍎",[55356,57166],":apple:"],["🍏",[55356,57167],":green_apple:"],["🍐",[55356,57168],":pear:"],["🍑",[55356,57169],":peach:"],["🍒",[55356,57170],":cherries:"],["🔢",[55357,56610],":1234:"],["🍔",[55356,57172],":hamburger:"],["🍕",[55356,57173],":pizza:"],["🍖",[55356,57174],":meat_on_bone:"],["🍗",[55356,57175],":poultry_leg:"],["🍘",[55356,57176],":rice_cracker:"],["🍙",[55356,57177],":rice_ball:"],["🍚",[55356,57178],":rice:"],["🍛",[55356,57179],":curry:"],["🍜",[55356,57180],":ramen:"],["🍝",[55356,57181],":spaghetti:"],["🍞",[55356,57182],":bread:"],["🍟",[55356,57183],":fries:"],["🍡",[55356,57185],":dango:"],["🍢",[55356,57186],":oden:"],["🍣",[55356,57187],":sushi:"],["🍤",[55356,57188],":fried_shrimp:"],["🍥",[55356,57189],":fish_cake:"],["🍦",[55356,57190],":icecream:"],["🍧",[55356,57191],":shaved_ice:"],["🍨",[55356,57192],":ice_cream:"],["🍩",[55356,57193],":doughnut:"],["🍪",[55356,57194],":cookie:"],["🍫",[55356,57195],":chocolate_bar:"],["🍬",[55356,57196],":candy:"],["🍭",[55356,57197],":lollipop:"],["🍮",[55356,57198],":custard:"],["🍯",[55356,57199],":honey_pot:"],["🍰",[55356,57200],":cake:"],["🍱",[55356,57201],":bento:"],["🍲",[55356,57202],":stew:"],["🍳",[55356,57203],":egg:"],["🍴",[55356,57204],":fork_and_knife:"],["🍵",[55356,57205],":tea:"],["😢",[55357,56866],":cry:"],["🍶",[55356,57206],":sake:"],["🍷",[55356,57207],":wine_glass:"],["🍸",[55356,57208],":cocktail:"],["🍹",[55356,57209],":tropical_drink:"],["🍺",[55356,57210],":beer:"],["🍻",[55356,57211],":beers:"],["🍼",[55356,57212],":baby_bottle:"],["😣",[55357,56867],":persevere:"],["📱",[55357,56561],":iphone:"],["📲",[55357,56562],":calling:"],["💻",[55357,56507],":computer:"],["🖥",[55357,56741],":desktop:"],["🖳",[55357,56755],":computer_old:"],["🖮",[55357,56750],":keyboard:"],["🖯",[55357,56751],":mouse_one:"],["🖲",[55357,56754],":trackball:"],["🖦",[55357,56742],":keyboard_mouse:"],["🖧",[55357,56743],":network:"],["🖨",[55357,56744],":printer:"],["🗔",[55357,56788],":desktop_window:"],["🖩",[55357,56745],":calculator:"],["😤",[55357,56868],":triumph:"],["🕰",[55357,56688],":clock:"],["😥",[55357,56869],":disappointed_relieved:"],["😦",[55357,56870],":frowning:"],["📷",[55357,56567],":camera:"],["📸",[55357,56568],":camera_with_flash:"],["📹",[55357,56569],":video_camera:"],["🎥",[55356,57253],":movie_camera:"],["📽",[55357,56573],":projector:"],["📺",[55357,56570],":tv:"],["🎘",[55356,57240],":keyboard_with_jacks:"],["🎙",[55356,57241],":microphone2:"],["🎚",[55356,57242],":level_slider:"],["🎛",[55356,57243],":control_knobs:"],["📻",[55357,56571],":radio:"],["📾",[55357,56574],":stereo:"],["📟",[55357,56543],":pager:"],["🕹",[55357,56697],":joystick:"],["📞",[55357,56542],":telephone_receiver:"],["🕻",[55357,56699],":left_receiver:"],["😧",[55357,56871],":anguished:"],["🕾",[55357,56702],":telephone_white:"],["🕿",[55357,56703],":telephone_black:"],["🖁",[55357,56705],":flip_phone:"],["📠",[55357,56544],":fax:"],["💽",[55357,56509],":minidisc:"],["💾",[55357,56510],":floppy_disk:"],["🖪",[55357,56746],":floppy_black:"],["🖫",[55357,56747],":floppy_white:"],["🖭",[55357,56749],":cartridge:"],["🖴",[55357,56756],":hard_disk:"],["💿",[55357,56511],":cd:"],["📀",[55357,56512],":dvd:"],["🖸",[55357,56760],":optical_disk:"],["📼",[55357,56572],":vhs:"],["🔋",[55357,56587],":battery:"],["🔌",[55357,56588],":electric_plug:"],["💡",[55357,56481],":bulb:"],["🔦",[55357,56614],":flashlight:"],["🕯",[55357,56687],":candle:"],["📡",[55357,56545],":satellite:"],["🛰",[55357,57072],":satellite_orbital:"],["💳",[55357,56499],":credit_card:"],["💸",[55357,56504],":money_with_wings:"],["💰",[55357,56496],":moneybag:"],["💎",[55357,56462],":gem:"],["🌂",[55356,57090],":closed_umbrella:"],["👝",[55357,56413],":pouch:"],["👛",[55357,56411],":purse:"],["👜",[55357,56412],":handbag:"],["💼",[55357,56508],":briefcase:"],["🎒",[55356,57234],":school_satchel:"],["💄",[55357,56452],":lipstick:"],["👓",[55357,56403],":eyeglasses:"],["🕶",[55357,56694],":dark_sunglasses:"],["👒",[55357,56402],":womans_hat:"],["👡",[55357,56417],":sandal:"],["👠",[55357,56416],":high_heel:"],["👢",[55357,56418],":boot:"],["👞",[55357,56414],":mans_shoe:"],["👟",[55357,56415],":athletic_shoe:"],["👙",[55357,56409],":bikini:"],["👗",[55357,56407],":dress:"],["👘",[55357,56408],":kimono:"],["👚",[55357,56410],":womans_clothes:"],["👕",[55357,56405],":shirt:"],["👔",[55357,56404],":necktie:"],["👖",[55357,56406],":jeans:"],["🚪",[55357,57002],":door:"],["🚿",[55357,57023],":shower:"],["🛁",[55357,57025],":bathtub:"],["🚽",[55357,57021],":toilet:"],["💈",[55357,56456],":barber:"],["💉",[55357,56457],":syringe:"],["💊",[55357,56458],":pill:"],["🔬",[55357,56620],":microscope:"],["🔭",[55357,56621],":telescope:"],["🔮",[55357,56622],":crystal_ball:"],["🔧",[55357,56615],":wrench:"],["🔪",[55357,56618],":knife:"],["🗡",[55357,56801],":dagger:"],["🔩",[55357,56617],":nut_and_bolt:"],["🔨",[55357,56616],":hammer:"],["🛠",[55357,57056],":tools:"],["🛢",[55357,57058],":oil:"],["💣",[55357,56483],":bomb:"],["🚬",[55357,57004],":smoking:"],["🕱",[55357,56689],":crossbones:"],["🔫",[55357,56619],":gun:"],["🔖",[55357,56598],":bookmark:"],["📰",[55357,56560],":newspaper:"],["🗞",[55357,56798],":newspaper2:"],["🌡",[55356,57121],":thermometer:"],["🏷",[55356,57335],":label:"],["🔑",[55357,56593],":key:"],["🗝",[55357,56797],":key2:"],["😨",[55357,56872],":fearful:"],["🖂",[55357,56706],":envelope_back:"],["🖃",[55357,56707],":envelope_stamped:"],["🖅",[55357,56709],":envelope_flying:"],["🖆",[55357,56710],":envelope_stamped_pen:"],["📩",[55357,56553],":envelope_with_arrow:"],["📨",[55357,56552],":incoming_envelope:"],["📧",[55357,56551],":e-mail:"],["📥",[55357,56549],":inbox_tray:"],["📤",[55357,56548],":outbox_tray:"],["📦",[55357,56550],":package:"],["📯",[55357,56559],":postal_horn:"],["📮",[55357,56558],":postbox:"],["📪",[55357,56554],":mailbox_closed:"],["📫",[55357,56555],":mailbox:"],["📭",[55357,56557],":mailbox_with_no_mail:"],["📬",[55357,56556],":mailbox_with_mail:"],["🗎",[55357,56782],":document:"],["🖹",[55357,56761],":document_text:"],["🗏",[55357,56783],":page:"],["📄",[55357,56516],":page_facing_up:"],["📃",[55357,56515],":page_with_curl:"],["🗐",[55357,56784],":pages:"],["📑",[55357,56529],":bookmark_tabs:"],["🗑",[55357,56785],":wastebasket:"],["🗆",[55357,56774],":note_empty:"],["🗇",[55357,56775],":notepad_empty:"],["🗉",[55357,56777],":note:"],["🗊",[55357,56778],":notepad:"],["🗒",[55357,56786],":notepad_spiral:"],["📈",[55357,56520],":chart_with_upwards_trend:"],["📉",[55357,56521],":chart_with_downwards_trend:"],["📊",[55357,56522],":bar_chart:"],["🗠",[55357,56800],":stock_chart:"],["📅",[55357,56517],":date:"],["📆",[55357,56518],":calendar:"],["🗓",[55357,56787],":calendar_spiral:"],["🗳",[55357,56819],":ballot_box:"],["🔅",[55357,56581],":low_brightness:"],["🔆",[55357,56582],":high_brightness:"],["🗜",[55357,56796],":compression:"],["🖾",[55357,56766],":frame_x:"],["🖼",[55357,56764],":frame_photo:"],["🖽",[55357,56765],":frame_tiles:"],["📜",[55357,56540],":scroll:"],["📋",[55357,56523],":clipboard:"],["🕮",[55357,56686],":book2:"],["📖",[55357,56534],":book:"],["📓",[55357,56531],":notebook:"],["📔",[55357,56532],":notebook_with_decorative_cover:"],["📒",[55357,56530],":ledger:"],["📕",[55357,56533],":closed_book:"],["📗",[55357,56535],":green_book:"],["📘",[55357,56536],":blue_book:"],["📙",[55357,56537],":orange_book:"],["📚",[55357,56538],":books:"],["📇",[55357,56519],":card_index:"],["🗂",[55357,56770],":dividers:"],["🗃",[55357,56771],":card_box:"],["🔗",[55357,56599],":link:"],["📎",[55357,56526],":paperclip:"],["🖇",[55357,56711],":paperclips:"],["📌",[55357,56524],":pushpin:"],["🖈",[55357,56712],":pushpin_black:"],["😩",[55357,56873],":weary:"],["📐",[55357,56528],":triangular_ruler:"],["📍",[55357,56525],":round_pushpin:"],["📏",[55357,56527],":straight_ruler:"],["🚩",[55357,57001],":triangular_flag_on_post:"],["🏱",[55356,57329],":pennant_white:"],["🏲",[55356,57330],":pennant_black:"],["🏳",[55356,57331],":flag_white:"],["🏴",[55356,57332],":flag_black:"],["🕳",[55357,56691],":hole:"],["🗀",[55357,56768],":folder:"],["🗁",[55357,56769],":folder_open:"],["📁",[55357,56513],":file_folder:"],["📂",[55357,56514],":open_file_folder:"],["🗄",[55357,56772],":file_cabinet:"],["😪",[55357,56874],":sleepy:"],["😫",[55357,56875],":tired_face:"],["🖉",[55357,56713],":pencil3:"],["🖊",[55357,56714],":pen_ballpoint:"],["🖋",[55357,56715],":pen_fountain:"],["🖌",[55357,56716],":paintbrush:"],["🖍",[55357,56717],":crayon:"],["📝",[55357,56541],":pencil:"],["🔏",[55357,56591],":lock_with_ink_pen:"],["🔐",[55357,56592],":closed_lock_with_key:"],["🔒",[55357,56594],":lock:"],["🔓",[55357,56595],":unlock:"],["📣",[55357,56547],":mega:"],["📢",[55357,56546],":loudspeaker:"],["🔈",[55357,56584],":speaker:"],["🔉",[55357,56585],":sound:"],["🔊",[55357,56586],":loud_sound:"],["🔇",[55357,56583],":mute:"],["🕨",[55357,56680],":right_speaker:"],["🕩",[55357,56681],":right_speaker_one:"],["🕪",[55357,56682],":right_speaker_three:"],["🕫",[55357,56683],":bullhorn:"],["🕬",[55357,56684],":bullhorn_waves:"],["💤",[55357,56484],":zzz:"],["🔔",[55357,56596],":bell:"],["🔕",[55357,56597],":no_bell:"],["🕭",[55357,56685],":ringing_bell:"],["🎜",[55356,57244],":ascending_notes:"],["🎝",[55356,57245],":descending_notes:"],["🕆",[55357,56646],":cross_white:"],["🕇",[55357,56647],":cross_heavy:"],["🕈",[55357,56648],":celtic_cross:"],["🕉",[55357,56649],":om_symbol:"],["🕊",[55357,56650],":dove:"],["💭",[55357,56493],":thought_balloon:"],["💬",[55357,56492],":speech_balloon:"],["🗨",[55357,56808],":speech_left:"],["🗩",[55357,56809],":speech_right:"],["🗪",[55357,56810],":speech_two:"],["🗫",[55357,56811],":speech_three:"],["🗬",[55357,56812],":thought_left:"],["🗭",[55357,56813],":thought_right:"],["🗮",[55357,56814],":anger_left:"],["🗯",[55357,56815],":anger_right:"],["🗰",[55357,56816],":mood_bubble:"],["🗱",[55357,56817],":mood_bubble_lightning:"],["🚸",[55357,57016],":children_crossing:"],["🛡",[55357,57057],":shield:"],["🔍",[55357,56589],":mag:"],["🔎",[55357,56590],":mag_right:"],["🗣",[55357,56803],":speaking_head:"],["🛌",[55357,57036],":sleeping_accommodation:"],["🛇",[55357,57031],":prohibited:"],["🚫",[55357,57003],":no_entry_sign:"],["😬",[55357,56876],":grimacing:"],["📛",[55357,56539],":name_badge:"],["🚷",[55357,57015],":no_pedestrians:"],["🚯",[55357,57007],":do_not_litter:"],["🚳",[55357,57011],":no_bicycles:"],["🚱",[55357,57009],":non-potable_water:"],["📵",[55357,56565],":no_mobile_phones:"],["🔞",[55357,56606],":underage:"],["🕲",[55357,56690],":piracy:"],["🉑",[55356,56913],":accept:"],["🉐",[55356,56912],":ideograph_advantage:"],["💮",[55357,56494],":white_flower:"],["😭",[55357,56877],":sob:"],["😮",[55357,56878],":open_mouth:"],["🈴",[55356,56884],":u5408:"],["🈵",[55356,56885],":u6e80:"],["🈲",[55356,56882],":u7981:"],["🈶",[55356,56886],":u6709:"],["🈚",[55356,56858],":u7121:"],["🈸",[55356,56888],":u7533:"],["🈺",[55356,56890],":u55b6:"],["🈷",[55356,56887],":u6708:"],["🈹",[55356,56889],":u5272:"],["🈳",[55356,56883],":u7a7a:"],["🈂",[55356,56834],":sa:"],["🈁",[55356,56833],":koko:"],["🈯",[55356,56879],":u6307:"],["💹",[55357,56505],":chart:"],["😯",[55357,56879],":hushed:"],["😰",[55357,56880],":cold_sweat:"],["😱",[55357,56881],":scream:"],["😲",[55357,56882],":astonished:"],["😳",[55357,56883],":flushed:"],["📳",[55357,56563],":vibration_mode:"],["📴",[55357,56564],":mobile_phone_off:"],["🆚",[55356,56730],":vs:"],["🅰",[55356,56688],":a:"],["🅱",[55356,56689],":b:"],["🆎",[55356,56718],":ab:"],["🆑",[55356,56721],":cl:"],["🅾",[55356,56702],":o2:"],["🆘",[55356,56728],":sos:"],["🆔",[55356,56724],":id:"],["🅿",[55356,56703],":parking:"],["🚾",[55357,57022],":wc:"],["🆒",[55356,56722],":cool:"],["🆓",[55356,56723],":free:"],["🆕",[55356,56725],":new:"],["🆖",[55356,56726],":ng:"],["🆗",[55356,56727],":ok:"],["🆙",[55356,56729],":up:"],["🏧",[55356,57319],":atm:"],["😴",[55357,56884],":sleeping:"],["😵",[55357,56885],":dizzy_face:"],["😶",[55357,56886],":no_mouth:"],["😷",[55357,56887],":mask:"],["🙁",[55357,56897],":slight_frown:"],["🙂",[55357,56898],":slight_smile:"],["😸",[55357,56888],":smile_cat:"],["😹",[55357,56889],":joy_cat:"],["😺",[55357,56890],":smiley_cat:"],["😻",[55357,56891],":heart_eyes_cat:"],["😼",[55357,56892],":smirk_cat:"],["😽",[55357,56893],":kissing_cat:"],["🚻",[55357,57019],":restroom:"],["🚹",[55357,57017],":mens:"],["🚺",[55357,57018],":womens:"],["🛉",[55357,57033],":boys_symbol:"],["🛊",[55357,57034],":girls_symbol:"],["🚼",[55357,57020],":baby_symbol:"],["😾",[55357,56894],":pouting_cat:"],["🚰",[55357,57008],":potable_water:"],["🚭",[55357,57005],":no_smoking:"],["🚮",[55357,57006],":put_litter_in_its_place:"],["😿",[55357,56895],":crying_cat_face:"],["🙀",[55357,56896],":scream_cat:"],["🔼",[55357,56636],":arrow_up_small:"],["🔽",[55357,56637],":arrow_down_small:"],["👣",[55357,56419],":footprints:"],["👤",[55357,56420],":bust_in_silhouette:"],["👥",[55357,56421],":busts_in_silhouette:"],["🕴",[55357,56692],":levitate:"],["🕵",[55357,56693],":spy:"],["👶",[55357,56438],":baby:"],["👦",[55357,56422],":boy:"],["👧",[55357,56423],":girl:"],["👨",[55357,56424],":man:"],["👩",[55357,56425],":woman:"],["👪",[55357,56426],":family:"],["😀",[55357,56832],":grinning:"],["😁",[55357,56833],":grin:"],["😂",[55357,56834],":joy:"],["🔄",[55357,56580],":arrows_counterclockwise:"],["😃",[55357,56835],":smiley:"],["😄",[55357,56836],":smile:"],["😅",[55357,56837],":sweat_smile:"],["😆",[55357,56838],":laughing:"],["🔀",[55357,56576],":twisted_rightwards_arrows:"],["🔁",[55357,56577],":repeat:"],["🔂",[55357,56578],":repeat_one:"],["😇",[55357,56839],":innocent:"],["😈",[55357,56840],":smiling_imp:"],["👿",[55357,56447],":imp:"],["😉",[55357,56841],":wink:"],["😊",[55357,56842],":blush:"],["💯",[55357,56495],":100:"],["😋",[55357,56843],":yum:"],["👫",[55357,56427],":couple:"],["👬",[55357,56428],":two_men_holding_hands:"],["👭",[55357,56429],":two_women_holding_hands:"],["👯",[55357,56431],":dancers:"],["🔟",[55357,56607],":keycap_ten:"],["🔤",[55357,56612],":abc:"],["🔡",[55357,56609],":abcd:"],["🔠",[55357,56608],":capital_abcd:"],["👰",[55357,56432],":bride_with_veil:"],["📶",[55357,56566],":signal_strength:"],["🎦",[55356,57254],":cinema:"],["🔣",[55357,56611],":symbols:"],["👱",[55357,56433],":person_with_blond_hair:"],["👲",[55357,56434],":man_with_gua_pi_mao:"],["👳",[55357,56435],":man_with_turban:"],["👴",[55357,56436],":older_man:"],["👵",[55357,56437],":older_woman:"],["👮",[55357,56430],":cop:"],["🗙",[55357,56793],":cancellation_x:"],["🔃",[55357,56579],":arrows_clockwise:"],["🗘",[55357,56792],":clockwise_arrows:"],["👷",[55357,56439],":construction_worker:"],["👸",[55357,56440],":princess:"],["💂",[55357,56450],":guardsman:"],["💱",[55357,56497],":currency_exchange:"],["💲",[55357,56498],":heavy_dollar_sign:"],["👼",[55357,56444],":angel:"],["🎅",[55356,57221],":santa:"],["👻",[55357,56443],":ghost:"],["👹",[55357,56441],":japanese_ogre:"],["👺",[55357,56442],":japanese_goblin:"],["💩",[55357,56489],":poop:"],["💀",[55357,56448],":skull:"],["👽",[55357,56445],":alien:"],["👾",[55357,56446],":space_invader:"],["🛆",[55357,57030],":triangle_round:"],["🙇",[55357,56903],":bow:"],["💁",[55357,56449],":information_desk_person:"],["🔚",[55357,56602],":end:"],["🔙",[55357,56601],":back:"],["🔛",[55357,56603],":on:"],["🔝",[55357,56605],":top:"],["🔜",[55357,56604],":soon:"],["🌀",[55356,57088],":cyclone:"],["🙅",[55357,56901],":no_good:"],["🛈",[55357,57032],":info:"],["🙆",[55357,56902],":ok_woman:"],["🔯",[55357,56623],":six_pointed_star:"],["🔰",[55357,56624],":beginner:"],["🗲",[55357,56818],":mood_lightning:"],["🔱",[55357,56625],":trident:"],["🙋",[55357,56907],":raising_hand:"],["🙎",[55357,56910],":person_with_pouting_face:"],["🏵",[55356,57333],":rosette:"],["🏶",[55356,57334],":rosette_black:"],["🙍",[55357,56909],":person_frowning:"],["💢",[55357,56482],":anger:"],["💠",[55357,56480],":diamond_shape_with_a_dot_inside:"],["💆",[55357,56454],":massage:"],["💇",[55357,56455],":haircut:"],["💑",[55357,56465],":couple_with_heart:"],["😌",[55357,56844],":relieved:"],["😍",[55357,56845],":heart_eyes:"],["🗸",[55357,56824],":light_check_mark:"],["🗹",[55357,56825],":ballot_box_check:"],["🗴",[55357,56820],":ballot_x:"],["🗵",[55357,56821],":ballot_box_x:"],["💏",[55357,56463],":couplekiss:"],["😎",[55357,56846],":sunglasses:"],["🔘",[55357,56600],":radio_button:"],["🔴",[55357,56628],":red_circle:"],["🔵",[55357,56629],":large_blue_circle:"],["🔺",[55357,56634],":small_red_triangle:"],["🔻",[55357,56635],":small_red_triangle_down:"],["🔸",[55357,56632],":small_orange_diamond:"],["🔹",[55357,56633],":small_blue_diamond:"],["🔶",[55357,56630],":large_orange_diamond:"],["🔷",[55357,56631],":large_blue_diamond:"],["😏",[55357,56847],":smirk:"],["🙌",[55357,56908],":raised_hands:"],["👏",[55357,56399],":clap:"],["👂",[55357,56386],":ear:"],["👁",[55357,56385],":eye:"],["👀",[55357,56384],":eyes:"],["👃",[55357,56387],":nose:"],["👄",[55357,56388],":lips:"],["🔲",[55357,56626],":black_square_button:"],["🔳",[55357,56627],":white_square_button:"],["🕐",[55357,56656],":clock1:"],["🕑",[55357,56657],":clock2:"],["🕒",[55357,56658],":clock3:"],["🕓",[55357,56659],":clock4:"],["🕔",[55357,56660],":clock5:"],["🕕",[55357,56661],":clock6:"],["🕖",[55357,56662],":clock7:"],["🕗",[55357,56663],":clock8:"],["🕘",[55357,56664],":clock9:"],["🕙",[55357,56665],":clock10:"],["🕚",[55357,56666],":clock11:"],["🕛",[55357,56667],":clock12:"],["🕜",[55357,56668],":clock130:"],["🕝",[55357,56669],":clock230:"],["🕞",[55357,56670],":clock330:"],["🕟",[55357,56671],":clock430:"],["🕠",[55357,56672],":clock530:"],["🕡",[55357,56673],":clock630:"],["🕢",[55357,56674],":clock730:"],["🕣",[55357,56675],":clock830:"],["🕤",[55357,56676],":clock930:"],["🕥",[55357,56677],":clock1030:"],["🕦",[55357,56678],":clock1130:"],["🕧",[55357,56679],":clock1230:"],["🚃",[55357,56963],":railway_car:"],["🚞",[55357,56990],":mountain_railway:"],["🚂",[55357,56962],":steam_locomotive:"],["🛲",[55357,57074],":train_diesel:"],["🚋",[55357,56971],":train:"],["🚝",[55357,56989],":monorail:"],["🚄",[55357,56964],":bullettrain_side:"],["🚅",[55357,56965],":bullettrain_front:"],["🚆",[55357,56966],":train2:"],["🚇",[55357,56967],":metro:"],["🚈",[55357,56968],":light_rail:"],["🚉",[55357,56969],":station:"],["🚊",[55357,56970],":tram:"],["🛤",[55357,57060],":railway_track:"],["🚌",[55357,56972],":bus:"],["🚍",[55357,56973],":oncoming_bus:"],["🚎",[55357,56974],":trolleybus:"],["🚐",[55357,56976],":minibus:"],["🚑",[55357,56977],":ambulance:"],["🚒",[55357,56978],":fire_engine:"],["🛱",[55357,57073],":fire_engine_oncoming:"],["🚓",[55357,56979],":police_car:"],["🚔",[55357,56980],":oncoming_police_car:"],["🚨",[55357,57000],":rotating_light:"],["🚕",[55357,56981],":taxi:"],["🚖",[55357,56982],":oncoming_taxi:"],["🚗",[55357,56983],":red_car:"],["🚘",[55357,56984],":oncoming_automobile:"],["🚙",[55357,56985],":blue_car:"],["🚚",[55357,56986],":truck:"],["🚛",[55357,56987],":articulated_lorry:"],["🚜",[55357,56988],":tractor:"],["🚲",[55357,57010],":bike:"],["🛣",[55357,57059],":motorway:"],["🚏",[55357,56975],":busstop:"],["🗢",[55357,56802],":lips2:"],["🚧",[55357,56999],":construction:"],["🚦",[55357,56998],":vertical_traffic_light:"],["🚥",[55357,56997],":traffic_light:"],["🚀",[55357,56960],":rocket:"],["🚁",[55357,56961],":helicopter:"],["💋",[55357,56459],":kiss:"],["🛧",[55357,57063],":airplane_up:"],["🛨",[55357,57064],":airplane_small_up:"],["🛦",[55357,57062],":jet_up:"],["🛪",[55357,57066],":airplane_northeast:"],["🛩",[55357,57065],":airplane_small:"],["🛫",[55357,57067],":airplane_departure:"],["🛬",[55357,57068],":airplane_arriving:"],["💺",[55357,56506],":seat:"],["👅",[55357,56389],":tongue:"],["🚢",[55357,56994],":ship:"],["🛳",[55357,57075],":cruise_ship:"],["🛥",[55357,57061],":motorboat:"],["🚤",[55357,56996],":speedboat:"],["💅",[55357,56453],":nail_care:"],["🚡",[55357,56993],":aerial_tramway:"],["🚠",[55357,56992],":mountain_cableway:"],["🚟",[55357,56991],":suspension_railway:"],["🛂",[55357,57026],":passport_control:"],["🛃",[55357,57027],":customs:"],["🛄",[55357,57028],":baggage_claim:"],["🛅",[55357,57029],":left_luggage:"],["💴",[55357,56500],":yen:"],["💶",[55357,56502],":euro:"],["💷",[55357,56503],":pound:"],["💵",[55357,56501],":dollar:"],["🛎",[55357,57038],":bellhop:"],["🛏",[55357,57039],":bed:"],["🛋",[55357,57035],":couch:"],["🍽",[55356,57213],":fork_knife_plate:"],["🛍",[55357,57037],":shopping_bags:"],["🗽",[55357,56829],":statue_of_liberty:"],["🗿",[55357,56831],":moyai:"],["🌁",[55356,57089],":foggy:"],["🗼",[55357,56828],":tokyo_tower:"],["👋",[55357,56395],":wave:"],["🏰",[55356,57328],":european_castle:"],["🏯",[55356,57327],":japanese_castle:"],["🏛",[55356,57307],":classical_building:"],["🏟",[55356,57311],":stadium:"],["🏔",[55356,57300],":mountain_snow:"],["🏕",[55356,57301],":camping:"],["🏖",[55356,57302],":beach:"],["🏜",[55356,57308],":desert:"],["🏝",[55356,57309],":island:"],["🏞",[55356,57310],":park:"],["🏙",[55356,57305],":cityscape:"],["🌇",[55356,57095],":city_sunset:"],["🌆",[55356,57094],":city_dusk:"],["🌃",[55356,57091],":night_with_stars:"],["🌉",[55356,57097],":bridge_at_night:"],["🏠",[55356,57312],":house:"],["🏘",[55356,57304],":homes:"],["🏡",[55356,57313],":house_with_garden:"],["🏚",[55356,57306],":house_abandoned:"],["🏗",[55356,57303],":contruction_site:"],["🏢",[55356,57314],":office:"],["🏬",[55356,57324],":department_store:"],["🏭",[55356,57325],":factory:"],["🏣",[55356,57315],":post_office:"],["🏤",[55356,57316],":european_post_office:"],["🏥",[55356,57317],":hospital:"],["🏦",[55356,57318],":bank:"],["🏨",[55356,57320],":hotel:"],["🏩",[55356,57321],":love_hotel:"],["💒",[55357,56466],":wedding:"],["👍",[55357,56397],":thumbsup:"],["🏪",[55356,57322],":convenience_store:"],["🏫",[55356,57323],":school:"],["🗺",[55357,56826],":map:"],["👎",[55357,56398],":thumbsdown:"],["😐",[55357,56848],":neutral_face:"],["👆",[55357,56390],":point_up_2:"],["👇",[55357,56391],":point_down:"],["👈",[55357,56392],":point_left:"],["👉",[55357,56393],":point_right:"],["👌",[55357,56396],":ok_hand:"],["😑",[55357,56849],":expressionless:"],["👊",[55357,56394],":punch:"],["😒",[55357,56850],":unamused:"],["😓",[55357,56851],":sweat:"],["💪",[55357,56490],":muscle:"],["👐",[55357,56400],":open_hands:"],["🖎",[55357,56718],":writing_hand:"],["🖏",[55357,56719],":turned_ok_hand:"],["🖐",[55357,56720],":hand_splayed:"],["🖑",[55357,56721],":hand_splayed_reverse:"],["🖒",[55357,56722],":thumbs_up_reverse:"],["🖓",[55357,56723],":thumbs_down_reverse:"],["🖔",[55357,56724],":hand_victory:"],["🖕",[55357,56725],":middle_finger:"],["🖖",[55357,56726],":vulcan:"],["🖗",[55357,56727],":finger_pointing_down:"],["🖘",[55357,56728],":finger_pointing_left:"],["🖙",[55357,56729],":finger_pointing_right:"],["🖞",[55357,56734],":finger_pointing_up:"],["🖟",[55357,56735],":finger_pointing_down2:"],["🙏",[55357,56911],":pray:"],["🌱",[55356,57137],":seedling:"],["🌲",[55356,57138],":evergreen_tree:"],["🌳",[55356,57139],":deciduous_tree:"],["🌴",[55356,57140],":palm_tree:"],["🌵",[55356,57141],":cactus:"],["🌷",[55356,57143],":tulip:"],["🌸",[55356,57144],":cherry_blossom:"],["🌹",[55356,57145],":rose:"],["🌺",[55356,57146],":hibiscus:"],["🌻",[55356,57147],":sunflower:"],["🌼",[55356,57148],":blossom:"],["💐",[55357,56464],":bouquet:"],["🌾",[55356,57150],":ear_of_rice:"],["🌿",[55356,57151],":herb:"],["🍀",[55356,57152],":four_leaf_clover:"],["🍁",[55356,57153],":maple_leaf:"],["🍂",[55356,57154],":fallen_leaf:"],["🍃",[55356,57155],":leaves:"],["🍄",[55356,57156],":mushroom:"],["🌰",[55356,57136],":chestnut:"],["🐀",[55357,56320],":rat:"],["🐁",[55357,56321],":mouse2:"],["🐭",[55357,56365],":mouse:"],["🐹",[55357,56377],":hamster:"],["🐂",[55357,56322],":ox:"],["🐃",[55357,56323],":water_buffalo:"],["🐄",[55357,56324],":cow2:"],["🐮",[55357,56366],":cow:"],["🐅",[55357,56325],":tiger2:"],["🐆",[55357,56326],":leopard:"],["🐯",[55357,56367],":tiger:"],["🐿",[55357,56383],":chipmunk:"],["🐇",[55357,56327],":rabbit2:"],["🐰",[55357,56368],":rabbit:"],["🐈",[55357,56328],":cat2:"],["🐱",[55357,56369],":cat:"],["🐎",[55357,56334],":racehorse:"],["🐴",[55357,56372],":horse:"],["🐏",[55357,56335],":ram:"],["🐑",[55357,56337],":sheep:"],["🐐",[55357,56336],":goat:"],["🐓",[55357,56339],":rooster:"],["🐔",[55357,56340],":chicken:"],["🐤",[55357,56356],":baby_chick:"],["🐣",[55357,56355],":hatching_chick:"],["🐥",[55357,56357],":hatched_chick:"],["🐦",[55357,56358],":bird:"],["🐧",[55357,56359],":penguin:"],["🐘",[55357,56344],":elephant:"],["🐪",[55357,56362],":dromedary_camel:"],["🐫",[55357,56363],":camel:"],["🐗",[55357,56343],":boar:"],["🐖",[55357,56342],":pig2:"],["🐷",[55357,56375],":pig:"],["🐽",[55357,56381],":pig_nose:"],["🐕",[55357,56341],":dog2:"],["🐩",[55357,56361],":poodle:"],["🐶",[55357,56374],":dog:"],["🐺",[55357,56378],":wolf:"],["🐻",[55357,56379],":bear:"],["🐨",[55357,56360],":koala:"],["🐼",[55357,56380],":panda_face:"],["🐵",[55357,56373],":monkey_face:"],["🙈",[55357,56904],":see_no_evil:"],["🙉",[55357,56905],":hear_no_evil:"],["🙊",[55357,56906],":speak_no_evil:"],["🐒",[55357,56338],":monkey:"],["🐉",[55357,56329],":dragon:"],["🐲",[55357,56370],":dragon_face:"],["🐊",[55357,56330],":crocodile:"],["🐍",[55357,56333],":snake:"],["🐢",[55357,56354],":turtle:"],["🍓",[55356,57171],":strawberry:"]],"3":[], "4":[["🇰🇪",[55356,56816,55356,56810],":flag_ke:"],["🇿🇼",[55356,56831,55356,56828],":flag_zw:"],["🇾🇪",[55356,56830,55356,56810],":flag_ye:"],["🇪🇭",[55356,56810,55356,56813],":flag_eh:"],["🇼🇫",[55356,56828,55356,56811],":flag_wf:"],["🇻🇪",[55356,56827,55356,56810],":flag_ve:"],["🇻🇦",[55356,56827,55356,56806],":flag_va:"],["🇻🇺",[55356,56827,55356,56826],":flag_vu:"],["🇺🇿",[55356,56826,55356,56831],":flag_uz:"],["🇺🇾",[55356,56826,55356,56830],":flag_uy:"],["🇺🇦",[55356,56826,55356,56806],":flag_ua:"],["🇺🇬",[55356,56826,55356,56812],":flag_ug:"],["🇻🇮",[55356,56827,55356,56814],":flag_vi:"],["🇹🇻",[55356,56825,55356,56827],":flag_tv:"],["🇹🇲",[55356,56825,55356,56818],":flag_tm:"],["🇹🇳",[55356,56825,55356,56819],":flag_tn:"],["🇹🇹",[55356,56825,55356,56825],":flag_tt:"],["🇹🇴",[55356,56825,55356,56820],":flag_to:"],["🇹🇬",[55356,56825,55356,56812],":flag_tg:"],["🇹🇭",[55356,56825,55356,56813],":flag_th:"],["🇹🇿",[55356,56825,55356,56831],":flag_tz:"],["🇹🇯",[55356,56825,55356,56815],":flag_tj:"],["🇹🇼",[55356,56825,55356,56828],":flag_tw:"],["🇸🇾",[55356,56824,55356,56830],":flag_sy:"],["🇸🇿",[55356,56824,55356,56831],":flag_sz:"],["🇸🇷",[55356,56824,55356,56823],":flag_sr:"],["🇸🇩",[55356,56824,55356,56809],":flag_sd:"],["🇱🇰",[55356,56817,55356,56816],":flag_lk:"],["🇸🇴",[55356,56824,55356,56820],":flag_so:"],["🇸🇧",[55356,56824,55356,56807],":flag_sb:"],["🇸🇮",[55356,56824,55356,56814],":flag_si:"],["🇸🇰",[55356,56824,55356,56816],":flag_sk:"],["🇸🇱",[55356,56824,55356,56817],":flag_sl:"],["🇸🇨",[55356,56824,55356,56808],":flag_sc:"],["🇷🇸",[55356,56823,55356,56824],":flag_rs:"],["🇸🇳",[55356,56824,55356,56819],":flag_sn:"],["🇸🇹",[55356,56824,55356,56825],":flag_st:"],["🇸🇲",[55356,56824,55356,56818],":flag_sm:"],["🇼🇸",[55356,56828,55356,56824],":flag_ws:"],["🇻🇨",[55356,56827,55356,56808],":flag_vc:"],["🇱🇨",[55356,56817,55356,56808],":flag_lc:"],["🇰🇳",[55356,56816,55356,56819],":flag_kn:"],["🇸🇭",[55356,56824,55356,56813],":flag_sh:"],["🇷🇼",[55356,56823,55356,56828],":flag_rw:"],["🇷🇴",[55356,56823,55356,56820],":flag_ro:"],["🇶🇦",[55356,56822,55356,56806],":flag_qa:"],["🇵🇪",[55356,56821,55356,56810],":flag_pe:"],["🇵🇾",[55356,56821,55356,56830],":flag_py:"],["🇵🇬",[55356,56821,55356,56812],":flag_pg:"],["🇵🇦",[55356,56821,55356,56806],":flag_pa:"],["🇵🇸",[55356,56821,55356,56824],":flag_ps:"],["🇵🇼",[55356,56821,55356,56828],":flag_pw:"],["🇵🇰",[55356,56821,55356,56816],":flag_pk:"],["🇴🇲",[55356,56820,55356,56818],":flag_om:"],["🇰🇵",[55356,56816,55356,56821],":flag_kp:"],["🇳🇺",[55356,56819,55356,56826],":flag_nu:"],["🇳🇬",[55356,56819,55356,56812],":flag_ng:"],["🇳🇪",[55356,56819,55356,56810],":flag_ne:"],["🇳🇮",[55356,56819,55356,56814],":flag_ni:"],["🇳🇨",[55356,56819,55356,56808],":flag_nc:"],["🇳🇵",[55356,56819,55356,56821],":flag_np:"],["🇳🇷",[55356,56819,55356,56823],":flag_nr:"],["🇳🇦",[55356,56819,55356,56806],":flag_na:"],["🇲🇲",[55356,56818,55356,56818],":flag_mm:"],["🇲🇿",[55356,56818,55356,56831],":flag_mz:"],["🇲🇦",[55356,56818,55356,56806],":flag_ma:"],["🇲🇸",[55356,56818,55356,56824],":flag_ms:"],["🇲🇪",[55356,56818,55356,56810],":flag_me:"],["🇲🇳",[55356,56818,55356,56819],":flag_mn:"],["🇲🇨",[55356,56818,55356,56808],":flag_mc:"],["🇲🇩",[55356,56818,55356,56809],":flag_md:"],["🇫🇯",[55356,56811,55356,56815],":flag_fj:"],["🇫🇴",[55356,56811,55356,56820],":flag_fo:"],["🇫🇰",[55356,56811,55356,56816],":flag_fk:"],["🇪🇹",[55356,56810,55356,56825],":flag_et:"],["🇪🇪",[55356,56810,55356,56810],":flag_ee:"],["🇪🇷",[55356,56810,55356,56823],":flag_er:"],["🇬🇶",[55356,56812,55356,56822],":flag_gq:"],["🇸🇻",[55356,56824,55356,56827],":flag_sv:"],["🇪🇬",[55356,56810,55356,56812],":flag_eg:"],["🇪🇨",[55356,56810,55356,56808],":flag_ec:"],["🇹🇱",[55356,56825,55356,56817],":flag_tl:"],["🇫🇲",[55356,56811,55356,56818],":flag_fm:"],["🇲🇺",[55356,56818,55356,56826],":flag_mu:"],["🇲🇷",[55356,56818,55356,56823],":flag_mr:"],["🇲🇭",[55356,56818,55356,56813],":flag_mh:"],["🇲🇹",[55356,56818,55356,56825],":flag_mt:"],["🇲🇱",[55356,56818,55356,56817],":flag_ml:"],["🇲🇻",[55356,56818,55356,56827],":flag_mv:"],["🇲🇼",[55356,56818,55356,56828],":flag_mw:"],["🇲🇬",[55356,56818,55356,56812],":flag_mg:"],["🇲🇰",[55356,56818,55356,56816],":flag_mk:"],["🇱🇺",[55356,56817,55356,56826],":flag_lu:"],["🇱🇹",[55356,56817,55356,56825],":flag_lt:"],["🇱🇮",[55356,56817,55356,56814],":flag_li:"],["🇱🇾",[55356,56817,55356,56830],":flag_ly:"],["🇱🇷",[55356,56817,55356,56823],":flag_lr:"],["🇱🇸",[55356,56817,55356,56824],":flag_ls:"],["🇱🇧",[55356,56817,55356,56807],":flag_lb:"],["🇱🇻",[55356,56817,55356,56827],":flag_lv:"],["🇱🇦",[55356,56817,55356,56806],":flag_la:"],["🇰🇬",[55356,56816,55356,56812],":flag_kg:"],["🇰🇼",[55356,56816,55356,56828],":flag_kw:"],["🇽🇰",[55356,56829,55356,56816],":flag_xk:"],["🇰🇮",[55356,56816,55356,56814],":flag_ki:"],["🇿🇲",[55356,56831,55356,56818],":flag_zm:"],["🇰🇿",[55356,56816,55356,56831],":flag_kz:"],["🇯🇴",[55356,56815,55356,56820],":flag_jo:"],["🇯🇪",[55356,56815,55356,56810],":flag_je:"],["🇯🇲",[55356,56815,55356,56818],":flag_jm:"],["🇮🇶",[55356,56814,55356,56822],":flag_iq:"],["🇮🇷",[55356,56814,55356,56823],":flag_ir:"],["🇮🇸",[55356,56814,55356,56824],":flag_is:"],["🇭🇺",[55356,56813,55356,56826],":flag_hu:"],["🇭🇳",[55356,56813,55356,56819],":flag_hn:"],["🇭🇹",[55356,56813,55356,56825],":flag_ht:"],["🇬🇾",[55356,56812,55356,56830],":flag_gy:"],["🇬🇼",[55356,56812,55356,56828],":flag_gw:"],["🇬🇳",[55356,56812,55356,56819],":flag_gn:"],["🇬🇹",[55356,56812,55356,56825],":flag_gt:"],["🇬🇺",[55356,56812,55356,56826],":flag_gu:"],["🇬🇩",[55356,56812,55356,56809],":flag_gd:"],["🇬🇱",[55356,56812,55356,56817],":flag_gl:"],["🇬🇷",[55356,56812,55356,56823],":flag_gr:"],["🇬🇮",[55356,56812,55356,56814],":flag_gi:"],["🇬🇭",[55356,56812,55356,56813],":flag_gh:"],["🇬🇪",[55356,56812,55356,56810],":flag_ge:"],["🇬🇲",[55356,56812,55356,56818],":flag_gm:"],["🇬🇦",[55356,56812,55356,56806],":flag_ga:"],["🇦🇺",[55356,56806,55356,56826],":flag_au:"],["🇦🇹",[55356,56806,55356,56825],":flag_at:"],["🇧🇪",[55356,56807,55356,56810],":flag_be:"],["🇧🇷",[55356,56807,55356,56823],":flag_br:"],["🇨🇦",[55356,56808,55356,56806],":flag_ca:"],["🇨🇱",[55356,56808,55356,56817],":flag_cl:"],["🇨🇳",[55356,56808,55356,56819],":flag_cn:"],["🇨🇴",[55356,56808,55356,56820],":flag_co:"],["🇩🇰",[55356,56809,55356,56816],":flag_dk:"],["🇫🇮",[55356,56811,55356,56814],":flag_fi:"],["🇫🇷",[55356,56811,55356,56823],":flag_fr:"],["🇩🇪",[55356,56809,55356,56810],":flag_de:"],["🇭🇰",[55356,56813,55356,56816],":flag_hk:"],["🇮🇳",[55356,56814,55356,56819],":flag_in:"],["🇮🇩",[55356,56814,55356,56809],":flag_id:"],["🇮🇪",[55356,56814,55356,56810],":flag_ie:"],["🇮🇱",[55356,56814,55356,56817],":flag_il:"],["🇮🇹",[55356,56814,55356,56825],":flag_it:"],["🇯🇵",[55356,56815,55356,56821],":flag_jp:"],["🇰🇷",[55356,56816,55356,56823],":flag_kr:"],["🇲🇴",[55356,56818,55356,56820],":flag_mo:"],["🇲🇾",[55356,56818,55356,56830],":flag_my:"],["🇲🇽",[55356,56818,55356,56829],":flag_mx:"],["🇳🇱",[55356,56819,55356,56817],":flag_nl:"],["🇳🇿",[55356,56819,55356,56831],":flag_nz:"],["🇳🇴",[55356,56819,55356,56820],":flag_no:"],["🇵🇭",[55356,56821,55356,56813],":flag_ph:"],["🇵🇱",[55356,56821,55356,56817],":flag_pl:"],["🇵🇹",[55356,56821,55356,56825],":flag_pt:"],["🇵🇷",[55356,56821,55356,56823],":flag_pr:"],["🇷🇺",[55356,56823,55356,56826],":flag_ru:"],["🇸🇦",[55356,56824,55356,56806],":flag_sa:"],["🇸🇬",[55356,56824,55356,56812],":flag_sg:"],["🇿🇦",[55356,56831,55356,56806],":flag_za:"],["🇪🇸",[55356,56810,55356,56824],":flag_es:"],["🇸🇪",[55356,56824,55356,56810],":flag_se:"],["🇨🇭",[55356,56808,55356,56813],":flag_ch:"],["🇹🇷",[55356,56825,55356,56823],":flag_tr:"],["🇬🇧",[55356,56812,55356,56807],":flag_gb:"],["🇺🇸",[55356,56826,55356,56824],":flag_us:"],["🇦🇪",[55356,56806,55356,56810],":flag_ae:"],["🇻🇳",[55356,56827,55356,56819],":flag_vn:"],["🇦🇫",[55356,56806,55356,56811],":flag_af:"],["🇦🇱",[55356,56806,55356,56817],":flag_al:"],["🇩🇿",[55356,56809,55356,56831],":flag_dz:"],["🇦🇩",[55356,56806,55356,56809],":flag_ad:"],["🇦🇴",[55356,56806,55356,56820],":flag_ao:"],["🇦🇮",[55356,56806,55356,56814],":flag_ai:"],["🇦🇬",[55356,56806,55356,56812],":flag_ag:"],["🇦🇷",[55356,56806,55356,56823],":flag_ar:"],["🇦🇲",[55356,56806,55356,56818],":flag_am:"],["🇦🇼",[55356,56806,55356,56828],":flag_aw:"],["🇦🇨",[55356,56806,55356,56808],":flag_ac:"],["🇦🇿",[55356,56806,55356,56831],":flag_az:"],["🇧🇸",[55356,56807,55356,56824],":flag_bs:"],["🇧🇭",[55356,56807,55356,56813],":flag_bh:"],["🇧🇩",[55356,56807,55356,56809],":flag_bd:"],["🇧🇧",[55356,56807,55356,56807],":flag_bb:"],["🇧🇾",[55356,56807,55356,56830],":flag_by:"],["🇧🇿",[55356,56807,55356,56831],":flag_bz:"],["🇧🇯",[55356,56807,55356,56815],":flag_bj:"],["🇧🇲",[55356,56807,55356,56818],":flag_bm:"],["🇧🇹",[55356,56807,55356,56825],":flag_bt:"],["🇧🇴",[55356,56807,55356,56820],":flag_bo:"],["🇧🇦",[55356,56807,55356,56806],":flag_ba:"],["🇧🇼",[55356,56807,55356,56828],":flag_bw:"],["🇧🇳",[55356,56807,55356,56819],":flag_bn:"],["🇧🇬",[55356,56807,55356,56812],":flag_bg:"],["🇧🇫",[55356,56807,55356,56811],":flag_bf:"],["🇧🇮",[55356,56807,55356,56814],":flag_bi:"],["🇰🇭",[55356,56816,55356,56813],":flag_kh:"],["🇨🇲",[55356,56808,55356,56818],":flag_cm:"],["🇨🇻",[55356,56808,55356,56827],":flag_cv:"],["🇰🇾",[55356,56816,55356,56830],":flag_ky:"],["🇨🇫",[55356,56808,55356,56811],":flag_cf:"],["🇰🇲",[55356,56816,55356,56818],":flag_km:"],["🇨🇩",[55356,56808,55356,56809],":flag_cd:"],["🇨🇬",[55356,56808,55356,56812],":flag_cg:"],["🇹🇩",[55356,56825,55356,56809],":flag_td:"],["🇨🇷",[55356,56808,55356,56823],":flag_cr:"],["🇨🇮",[55356,56808,55356,56814],":flag_ci:"],["🇭🇷",[55356,56813,55356,56823],":flag_hr:"],["🇨🇺",[55356,56808,55356,56826],":flag_cu:"],["🇨🇾",[55356,56808,55356,56830],":flag_cy:"],["🇨🇿",[55356,56808,55356,56831],":flag_cz:"],["🇩🇯",[55356,56809,55356,56815],":flag_dj:"],["🇩🇲",[55356,56809,55356,56818],":flag_dm:"],["🇩🇴",[55356,56809,55356,56820],":flag_do:"],["🇵🇫",[55356,56821,55356,56811],":flag_pf:"]],"5":[["👩❤👩",[55357,56425,10084,55357,56425],":couple_ww:"],["👨❤👨",[55357,56424,10084,55357,56424],":couple_mm:"]],"6":[["👨👨👧",[55357,56424,55357,56424,55357,56423],":family_mmg:"],["👨👨👦",[55357,56424,55357,56424,55357,56422],":family_mmb:"],["👨👩👧",[55357,56424,55357,56425,55357,56423],":family_mwg:"],["👩👩👧",[55357,56425,55357,56425,55357,56423],":family_wwg:"],["👩👩👦",[55357,56425,55357,56425,55357,56422],":family_wwb:"]],"7":[["👩❤💋👩",[55357,56425,10084,55357,56459,55357,56425],":kiss_ww:"],["👨❤💋👨",[55357,56424,10084,55357,56459,55357,56424],":kiss_mm:"]],"8":[["👩👩👧👧",[55357,56425,55357,56425,55357,56423,55357,56423],":family_wwgg:"],["👨👩👧👦",[55357,56424,55357,56425,55357,56423,55357,56422],":family_mwgb:"],["👨👩👦👦",[55357,56424,55357,56425,55357,56422,55357,56422],":family_mwbb:"],["👨👩👧👧",[55357,56424,55357,56425,55357,56423,55357,56423],":family_mwgg:"],["👨👨👧👧",[55357,56424,55357,56424,55357,56423,55357,56423],":family_mmgg:"],["👩👩👧👦",[55357,56425,55357,56425,55357,56423,55357,56422],":family_wwgb:"],["👩👩👦👦",[55357,56425,55357,56425,55357,56422,55357,56422],":family_wwbb:"],["👨👨👦👦",[55357,56424,55357,56424,55357,56422,55357,56422],":family_mmbb:"],["👨👨👧👦",[55357,56424,55357,56424,55357,56423,55357,56422],":family_mmgb:"]]}';
+var db = JSON.parse(emojiData);
+
+//Function to change Emoji unicode to shortcode
+var unicodeToShort = function unicodeToShort(string) {
+
+	var checkForUnicode = function checkForUnicode(s) {
+		return (/[^\u0000-\u00ff]/.test(s)
+		);
+	};
+
+	var getShort = function getShort(str) {
+		var shortStr = str.slice(0);
+		var result = '';
+		//console.log(shortStr);
+		var short;
+		while (shortStr.slice(charNum).length > 0) {
+
+			var charNum = Math.min(shortStr.length, 8);
+			for (charNum; charNum > 0; charNum--) {
+				var charCheckStr = shortStr.slice(0, charNum);
+				var charCodeArray = [];
+				for (var l = 0; l < charCheckStr.length; l++) {
+					charCodeArray.push(charCheckStr.charCodeAt(l));
+				}
+				console.log(charNum);
+				db[charNum].forEach(function (emoji) {
+					var emojiCharCode = emoji[1];
+					if (JSON.stringify(emojiCharCode) === JSON.stringify(charCodeArray)) {
+						shortStr = shortStr.slice(charNum);
+						//console.log('stuff: ', shortStr);
+						result += emoji[2];
+					}
+				});
+			}
+		}
+		return result;
+	};
+
+	var uniToShortOne = function uniToShortOne(string) {
+		if (checkForUnicode(string)) {
+			var unicode = '';
+			var start = 0;
+			var short = '';
+			var end;
+			var startStr = '';
+			var endStr = '';
+			var shortStr = '';
+			//for loop iterates through string for first unicode character found, then marks the index of where they are
+			for (var i = 0, n = string.length; i < n; i++) {
+				if (string.charCodeAt(i) > 255) {
+					if (!(string.charCodeAt(i - 1) > 255) && i !== 0) {
+						start = i;
+					}
+				}
+				//when the end of unicode string is found, we mark the end and split string into begin, end , and unicode string found
+				if (string.charCodeAt(i) > 255 && !(string.charCodeAt(i + 1) > 255)) {
+					end = i;
+					if (start !== 0 && start !== null) {
+						startStr = string.slice(0, start);
+					}
+					if (end !== string.length - 1 && end !== null) {
+						endStr = string.slice(end + 1);
+					}
+					//here, we check unicode string against db to find correct shortcode
+					shortStr = string.slice(start, end + 1);
+					console.log(shortStr);
+					short = getShort(shortStr);
+					//console.log('total result', short)
+					return uniToShortOne(startStr + short + endStr);
+				}
+			}
+		} else {
+			return string;
+		}
+	};
+
+	return uniToShortOne(string);
+};
+
+var _default = unicodeToShort;
+exports.default = _default;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(emojiData, 'emojiData', '/Users/Michael/HR/Thesis/ReTok/client/unicodeToShort.js');
+
+	__REACT_HOT_LOADER__.register(db, 'db', '/Users/Michael/HR/Thesis/ReTok/client/unicodeToShort.js');
+
+	__REACT_HOT_LOADER__.register(unicodeToShort, 'unicodeToShort', '/Users/Michael/HR/Thesis/ReTok/client/unicodeToShort.js');
+
+	__REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/unicodeToShort.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _OfflineFriendsListEntry = __webpack_require__(323);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _OfflineFriendsListEntry2 = _interopRequireDefault(_OfflineFriendsListEntry);
+=======
+/***/ },
+/* 296 */
+/***/ function(module, exports) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -32979,9 +39988,59 @@ var FriendsListContainer = function (_React$Component) {
 
   function FriendsListContainer(props) {
     _classCallCheck(this, FriendsListContainer);
+=======
+/* The following list is defined in React's core */
+var IS_UNITLESS = {
+  animationIterationCount: true,
+  boxFlex: true,
+  boxFlexGroup: true,
+  boxOrdinalGroup: true,
+  columnCount: true,
+  flex: true,
+  flexGrow: true,
+  flexPositive: true,
+  flexShrink: true,
+  flexNegative: true,
+  flexOrder: true,
+  gridRow: true,
+  gridColumn: true,
+  fontWeight: true,
+  lineClamp: true,
+  lineHeight: true,
+  opacity: true,
+  order: true,
+  orphans: true,
+  tabSize: true,
+  widows: true,
+  zIndex: true,
+  zoom: true,
+
+  // SVG-related properties
+  fillOpacity: true,
+  stopOpacity: true,
+  strokeDashoffset: true,
+  strokeOpacity: true,
+  strokeWidth: true
+};
+
+module.exports = function (name, value) {
+  if (typeof value === 'number' && !IS_UNITLESS[name]) {
+    return value + 'px';
+  } else {
+    return value;
+  }
+};
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
     return _possibleConstructorReturn(this, (FriendsListContainer.__proto__ || Object.getPrototypeOf(FriendsListContainer)).call(this, props));
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
+
+  __REACT_HOT_LOADER__.register(IS_UNITLESS, 'IS_UNITLESS', '/Users/Michael/HR/Thesis/ReTok/node_modules/add-px-to-style/index.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   _createClass(FriendsListContainer, [{
     key: 'joinRoom',
@@ -32989,12 +40048,19 @@ var FriendsListContainer = function (_React$Component) {
       var currentRoom = this.props.room;
       var roomNameSort = [[this.props.user.username], [friend.username]].sort();
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
       var roomName = ',';
+=======
+/***/ },
+/* 297 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
       for (var i = 0; i < roomNameSort.length; i++) {
         roomName += roomNameSort[i] + ",";
       }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
       console.log('checking roomName --->', roomName);
 
       if (roomName === currentRoom) {
@@ -33112,6 +40178,52 @@ FriendsListContainer.contextTypes = {
 var _default = (0, _reactRedux.connect)(mapStateToProps)(FriendsListContainer);
 
 exports.default = _default;
+=======
+var utils = __webpack_require__(26);
+var bind = __webpack_require__(164);
+var Axios = __webpack_require__(298);
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ * @return {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance();
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Factory for creating new instances
+axios.create = function create(defaultConfig) {
+  return createInstance(defaultConfig);
+};
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = __webpack_require__(313);
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -33119,22 +40231,33 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListContainer.js');
 
   __REACT_HOT_LOADER__.register(FriendsListContainer, 'FriendsListContainer', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListContainer.js');
+=======
+  __REACT_HOT_LOADER__.register(createInstance, 'createInstance', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/axios.js');
+
+  __REACT_HOT_LOADER__.register(axios, 'axios', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/axios.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 322 */
+=======
+/* 298 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -33172,38 +40295,136 @@ var FriendsListEntry = function FriendsListEntry(props) {
 var _default = FriendsListEntry;
 exports.default = _default;
 ;
+=======
+var defaults = __webpack_require__(304);
+var utils = __webpack_require__(26);
+var InterceptorManager = __webpack_require__(299);
+var dispatchRequest = __webpack_require__(300);
+var isAbsoluteURL = __webpack_require__(309);
+var combineURLs = __webpack_require__(307);
+
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ */
+function Axios(defaultConfig) {
+  this.defaults = utils.merge(defaults, defaultConfig);
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}
+
+/**
+ * Dispatch a request
+ *
+ * @param {Object} config The config specific for this request (merged with this.defaults)
+ */
+Axios.prototype.request = function request(config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof config === 'string') {
+    config = utils.merge({
+      url: arguments[0]
+    }, arguments[1]);
+  }
+
+  config = utils.merge(defaults, this.defaults, { method: 'get' }, config);
+
+  // Support baseURL config
+  if (config.baseURL && !isAbsoluteURL(config.url)) {
+    config.url = combineURLs(config.baseURL, config.url);
+  }
+
+  // Hook up interceptors middleware
+  var chain = [dispatchRequest, undefined];
+  var promise = Promise.resolve(config);
+
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    chain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    chain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  while (chain.length) {
+    promise = promise.then(chain.shift(), chain.shift());
+  }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+
+  __REACT_HOT_LOADER__.register(FriendsListEntry, 'FriendsListEntry', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListEntry.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListEntry.js');
+}();
+=======
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+  return promise;
+};
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/***/ },
+/* 323 */
+/***/ function(module, exports, __webpack_require__) {
+=======
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function (url, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url
+    }));
+  };
+});
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function (url, data, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url,
+      data: data
+    }));
+  };
+});
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+=======
+module.exports = Axios;
+;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(FriendsListEntry, 'FriendsListEntry', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListEntry.js');
-
-  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/FriendsListEntry.js');
+  __REACT_HOT_LOADER__.register(Axios, 'Axios', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/core/Axios.js');
 }();
-
-;
-
-/***/ },
-/* 323 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-'use strict';
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _reactRouter = __webpack_require__(15);
+=======
+/***/ },
+/* 299 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var OfflineFriendsListEntry = function OfflineFriendsListEntry(props) {
 
   var divStyle = {
@@ -33234,6 +40455,58 @@ var OfflineFriendsListEntry = function OfflineFriendsListEntry(props) {
 
 var _default = OfflineFriendsListEntry;
 exports.default = _default;
+=======
+var utils = __webpack_require__(26);
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+ * Add a new interceptor to the stack
+ *
+ * @param {Function} fulfilled The function to handle `then` for a `Promise`
+ * @param {Function} rejected The function to handle `reject` for a `Promise`
+ *
+ * @return {Number} An ID used to remove interceptor later
+ */
+InterceptorManager.prototype.use = function use(fulfilled, rejected) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected
+  });
+  return this.handlers.length - 1;
+};
+
+/**
+ * Remove an interceptor from the stack
+ *
+ * @param {Number} id The ID that was returned by `use`
+ */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+ * Iterate over all the registered interceptors
+ *
+ * This method is particularly useful for skipping over any
+ * interceptors that may have become `null` calling `eject`.
+ *
+ * @param {Function} fn The function to call for each interceptor
+ */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -33241,20 +40514,29 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(OfflineFriendsListEntry, 'OfflineFriendsListEntry', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
+=======
+  __REACT_HOT_LOADER__.register(InterceptorManager, 'InterceptorManager', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/core/InterceptorManager.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 324 */
+=======
+/* 300 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-'use strict';
+/* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -33278,6 +40560,60 @@ var TextChat = function TextChat(props) {
       props.friend.username
     )
   );
+=======
+var utils = __webpack_require__(26);
+var transformData = __webpack_require__(303);
+
+/**
+ * Dispatch a request to the server using whichever adapter
+ * is supported by the current environment.
+ *
+ * @param {object} config The config that is to be used for the request
+ * @returns {Promise} The Promise to be fulfilled
+ */
+module.exports = function dispatchRequest(config) {
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData(config.data, config.headers, config.transformRequest);
+
+  // Flatten headers
+  config.headers = utils.merge(config.headers.common || {}, config.headers[config.method] || {}, config.headers || {});
+
+  utils.forEach(['delete', 'get', 'head', 'post', 'put', 'patch', 'common'], function cleanHeaderConfig(method) {
+    delete config.headers[method];
+  });
+
+  var adapter;
+
+  if (typeof config.adapter === 'function') {
+    // For custom adapter support
+    adapter = config.adapter;
+  } else if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = __webpack_require__(162);
+  } else if (typeof process !== 'undefined') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(162);
+  }
+
+  return Promise.resolve(config)
+  // Wrap synchronous adapter errors and pass configuration
+  .then(adapter).then(function onFulfilled(response) {
+    // Transform response data
+    response.data = transformData(response.data, response.headers, config.transformResponse);
+
+    return response;
+  }, function onRejected(error) {
+    // Transform response data
+    if (error && error.response) {
+      error.response.data = transformData(error.response.data, error.response.headers, config.transformResponse);
+    }
+
+    return Promise.reject(error);
+  });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 
 var _default = TextChat;
@@ -33295,19 +40631,47 @@ var _temp = function () {
 }();
 
 ;
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 325 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+/* 301 */
+/***/ function(module, exports) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+=======
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ @ @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+
+module.exports = function enhanceError(error, config, code, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+  error.response = response;
+  return error;
+};
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _react = __webpack_require__(0);
 
@@ -33372,6 +40736,7 @@ var TextChatContainer = function (_React$Component) {
     };
     return _this;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   _createClass(TextChatContainer, [{
     key: 'componentWillMount',
@@ -33684,40 +41049,79 @@ function mapStateToProps(state) {
     userEmojis: state.userReducer.userEmojis
   };
 }
+=======
+}();
+
+;
+
+/***/ },
+/* 302 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(TextChatContainer);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 exports.default = _default;
 
 // {this.props.friends.map((item, index) => <TextChat key={index} friend={item}/>)}
 
+=======
+var createError = __webpack_require__(163);
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  // Note: status is not exposed by XDomainRequest
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError('Request failed with status code ' + response.status, response.config, null, response));
+  }
+};
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/TextChatContainer.js');
 
   __REACT_HOT_LOADER__.register(TextChatContainer, 'TextChatContainer', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/TextChatContainer.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/hackreactor/ReTok/client/src/TextChat/TextChatContainer.js');
+=======
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 326 */,
 /* 327 */,
 /* 328 */,
 /* 329 */,
 /* 330 */
 /***/ function(module, exports) {
+=======
+/* 303 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* The following list is defined in React's core */
 var IS_UNITLESS = {
   animationIterationCount: true,
@@ -33758,6 +41162,25 @@ module.exports = function (name, value) {
   } else {
     return value;
   }
+=======
+var utils = __webpack_require__(26);
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn(data, headers);
+  });
+
+  return data;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -33772,12 +41195,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 331 */
+=======
+/* 304 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 var bind = __webpack_require__(183);
 var Axios = __webpack_require__(332);
@@ -33815,6 +41243,72 @@ axios.create = function create(defaultConfig) {
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
+=======
+var utils = __webpack_require__(26);
+var normalizeHeaderName = __webpack_require__(311);
+
+var PROTECTION_PREFIX = /^\)\]\}',?\n/;
+var DEFAULT_CONTENT_TYPE = {
+  'Content-Type': 'application/x-www-form-urlencoded'
+};
+
+function setContentTypeIfUnset(headers, value) {
+  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
+    headers['Content-Type'] = value;
+  }
+}
+
+module.exports = {
+  transformRequest: [function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Content-Type');
+    if (utils.isFormData(data) || utils.isArrayBuffer(data) || utils.isStream(data) || utils.isFile(data) || utils.isBlob(data)) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+    if (utils.isObject(data)) {
+      setContentTypeIfUnset(headers, 'application/json;charset=utf-8');
+      return JSON.stringify(data);
+    }
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    /*eslint no-param-reassign:0*/
+    if (typeof data === 'string') {
+      data = data.replace(PROTECTION_PREFIX, '');
+      try {
+        data = JSON.parse(data);
+      } catch (e) {/* Ignore */}
+    }
+    return data;
+  }],
+
+  headers: {
+    common: {
+      'Accept': 'application/json, text/plain, */*'
+    },
+    patch: utils.merge(DEFAULT_CONTENT_TYPE),
+    post: utils.merge(DEFAULT_CONTENT_TYPE),
+    put: utils.merge(DEFAULT_CONTENT_TYPE)
+  },
+
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 axios.spread = __webpack_require__(347);
 
@@ -33829,20 +41323,34 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(createInstance, 'createInstance', '/Users/Rob/hackreactor/ReTok/node_modules/axios/lib/axios.js');
 
   __REACT_HOT_LOADER__.register(axios, 'axios', '/Users/Rob/hackreactor/ReTok/node_modules/axios/lib/axios.js');
+=======
+  __REACT_HOT_LOADER__.register(PROTECTION_PREFIX, 'PROTECTION_PREFIX', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/defaults.js');
+
+  __REACT_HOT_LOADER__.register(DEFAULT_CONTENT_TYPE, 'DEFAULT_CONTENT_TYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/defaults.js');
+
+  __REACT_HOT_LOADER__.register(setContentTypeIfUnset, 'setContentTypeIfUnset', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/defaults.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 332 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+/* 305 */
+/***/ function(module, exports) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var defaults = __webpack_require__(338);
 var utils = __webpack_require__(27);
 var InterceptorManager = __webpack_require__(333);
@@ -33862,6 +41370,42 @@ function Axios(defaultConfig) {
     response: new InterceptorManager()
   };
 }
+=======
+// btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
+
+var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+
+function E() {
+  this.message = 'String contains an invalid character';
+}
+E.prototype = new Error();
+E.prototype.code = 5;
+E.prototype.name = 'InvalidCharacterError';
+
+function btoa(input) {
+  var str = String(input);
+  var output = '';
+  for (
+  // initialize result and counter
+  var block, charCode, idx = 0, map = chars;
+  // if the next str index does not exist:
+  //   change the mapping table to "="
+  //   check if d has no fractional digits
+  str.charAt(idx | 0) || (map = '=', idx % 1);
+  // "8 - idx % 1 * 8" generates the sequence 2, 4, 6, 8
+  output += map.charAt(63 & block >> 8 - idx % 1 * 8)) {
+    charCode = str.charCodeAt(idx += 3 / 4);
+    if (charCode > 0xFF) {
+      throw new E();
+    }
+    block = block << 8 | charCode;
+  }
+  return output;
+}
+
+module.exports = btoa;
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Dispatch a request
@@ -33877,21 +41421,37 @@ Axios.prototype.request = function request(config) {
     }, arguments[1]);
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   config = utils.merge(defaults, this.defaults, { method: 'get' }, config);
+=======
+  __REACT_HOT_LOADER__.register(chars, 'chars', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/btoa.js');
+
+  __REACT_HOT_LOADER__.register(E, 'E', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/btoa.js');
+
+  __REACT_HOT_LOADER__.register(btoa, 'btoa', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/btoa.js');
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   // Support baseURL config
   if (config.baseURL && !isAbsoluteURL(config.url)) {
     config.url = combineURLs(config.baseURL, config.url);
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   // Hook up interceptors middleware
   var chain = [dispatchRequest, undefined];
   var promise = Promise.resolve(config);
+=======
+/***/ },
+/* 306 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
     chain.unshift(interceptor.fulfilled, interceptor.rejected);
   });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
     chain.push(interceptor.fulfilled, interceptor.rejected);
   });
@@ -33927,24 +41487,57 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = Axios;
 ;
+=======
+var utils = __webpack_require__(26);
 
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
+function encode(val) {
+  return encodeURIComponent(val).replace(/%40/gi, '@').replace(/%3A/gi, ':').replace(/%24/g, '$').replace(/%2C/gi, ',').replace(/%20/g, '+').replace(/%5B/gi, '[').replace(/%5D/gi, ']');
+}
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   __REACT_HOT_LOADER__.register(Axios, 'Axios', '/Users/Rob/hackreactor/ReTok/node_modules/axios/lib/core/Axios.js');
 }();
+=======
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-;
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 333 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 
 function InterceptorManager() {
@@ -33975,9 +41568,30 @@ InterceptorManager.prototype.use = function use(fulfilled, rejected) {
 InterceptorManager.prototype.eject = function eject(id) {
   if (this.handlers[id]) {
     this.handlers[id] = null;
-  }
-};
+=======
+      if (!utils.isArray(val)) {
+        val = [val];
+      }
 
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+  }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /**
  * Iterate over all the registered interceptors
  *
@@ -33992,6 +41606,9 @@ InterceptorManager.prototype.forEach = function forEach(fn) {
       fn(h);
     }
   });
+=======
+  return url;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 
 module.exports = InterceptorManager;
@@ -34002,12 +41619,17 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(InterceptorManager, 'InterceptorManager', '/Users/Rob/hackreactor/ReTok/node_modules/axios/lib/core/InterceptorManager.js');
+=======
+  __REACT_HOT_LOADER__.register(encode, 'encode', '/Users/Michael/HR/Thesis/ReTok/node_modules/axios/lib/helpers/buildURL.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -34027,18 +41649,105 @@ var transformData = __webpack_require__(337);
 module.exports = function dispatchRequest(config) {
   // Ensure headers exist
   config.headers = config.headers || {};
+=======
+/* 307 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ * @returns {string} The combined URL
+ */
+
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '');
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   // Transform request data
   config.data = transformData(config.data, config.headers, config.transformRequest);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   // Flatten headers
   config.headers = utils.merge(config.headers.common || {}, config.headers[config.method] || {}, config.headers || {});
+=======
+/***/ },
+/* 308 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   utils.forEach(['delete', 'get', 'head', 'post', 'put', 'patch', 'common'], function cleanHeaderConfig(method) {
     delete config.headers[method];
   });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   var adapter;
+=======
+var utils = __webpack_require__(26);
+
+module.exports = utils.isStandardBrowserEnv() ?
+
+// Standard browser envs support document.cookie
+function standardBrowserEnv() {
+  return {
+    write: function write(name, value, expires, path, domain, secure) {
+      var cookie = [];
+      cookie.push(name + '=' + encodeURIComponent(value));
+
+      if (utils.isNumber(expires)) {
+        cookie.push('expires=' + new Date(expires).toGMTString());
+      }
+
+      if (utils.isString(path)) {
+        cookie.push('path=' + path);
+      }
+
+      if (utils.isString(domain)) {
+        cookie.push('domain=' + domain);
+      }
+
+      if (secure === true) {
+        cookie.push('secure');
+      }
+
+      document.cookie = cookie.join('; ');
+    },
+
+    read: function read(name) {
+      var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+      return match ? decodeURIComponent(match[3]) : null;
+    },
+
+    remove: function remove(name) {
+      this.write(name, '', Date.now() - 86400000);
+    }
+  };
+}() :
+
+// Non standard browser env (web workers, react-native) lack needed support.
+function nonStandardBrowserEnv() {
+  return {
+    write: function write() {},
+    read: function read() {
+      return null;
+    },
+    remove: function remove() {}
+  };
+}();
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
   if (typeof config.adapter === 'function') {
     // For custom adapter support
@@ -34050,12 +41759,22 @@ module.exports = function dispatchRequest(config) {
     // For node use HTTP adapter
     adapter = __webpack_require__(181);
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   return Promise.resolve(config)
   // Wrap synchronous adapter errors and pass configuration
   .then(adapter).then(function onFulfilled(response) {
     // Transform response data
     response.data = transformData(response.data, response.headers, config.transformResponse);
+=======
+}();
+
+;
+
+/***/ },
+/* 309 */
+/***/ function(module, exports) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
     return response;
   }, function onRejected(error) {
@@ -34064,8 +41783,24 @@ module.exports = function dispatchRequest(config) {
       error.response.data = transformData(error.response.data, error.response.headers, config.transformResponse);
     }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
     return Promise.reject(error);
   });
+=======
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return (/^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url)
+  );
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -34079,12 +41814,18 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 335 */
 /***/ function(module, exports) {
+=======
+/* 310 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /**
  * Update an Error with the specified config, error code, and response.
  *
@@ -34110,16 +41851,56 @@ var _temp = function () {
     return;
   }
 }();
+=======
+var utils = __webpack_require__(26);
 
-;
+module.exports = utils.isStandardBrowserEnv() ?
 
+// Standard browser envs have full support of the APIs needed to test
+// whether the request URL is of the same origin as current location.
+function standardBrowserEnv() {
+  var msie = /(msie|trident)/i.test(navigator.userAgent);
+  var urlParsingNode = document.createElement('a');
+  var originURL;
+
+  /**
+  * Parse a URL to discover it's components
+  *
+  * @param {String} url The URL to be parsed
+  * @returns {Object}
+  */
+  function resolveURL(url) {
+    var href = url;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+    if (msie) {
+      // IE needs attribute set twice to normalize properties
+      urlParsingNode.setAttribute('href', href);
+      href = urlParsingNode.href;
+    }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /***/ },
 /* 336 */
 /***/ function(module, exports, __webpack_require__) {
+=======
+    urlParsingNode.setAttribute('href', href);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-"use strict";
-'use strict';
+    // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+    return {
+      href: urlParsingNode.href,
+      protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+      host: urlParsingNode.host,
+      search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+      hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+      hostname: urlParsingNode.hostname,
+      port: urlParsingNode.port,
+      pathname: urlParsingNode.pathname.charAt(0) === '/' ? urlParsingNode.pathname : '/' + urlParsingNode.pathname
+    };
+  }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var createError = __webpack_require__(182);
 
 /**
@@ -34138,6 +41919,28 @@ module.exports = function settle(resolve, reject, response) {
     reject(createError('Request failed with status code ' + response.status, response.config, null, response));
   }
 };
+=======
+  originURL = resolveURL(window.location.href);
+
+  /**
+  * Determine if a URL shares the same origin as the current location
+  *
+  * @param {String} requestURL The URL to test
+  * @returns {boolean} True if URL shares the same origin, otherwise false
+  */
+  return function isURLSameOrigin(requestURL) {
+    var parsed = utils.isString(requestURL) ? resolveURL(requestURL) : requestURL;
+    return parsed.protocol === originURL.protocol && parsed.host === originURL.host;
+  };
+}() :
+
+// Non standard browser envs (web workers, react-native) lack needed support.
+function nonStandardBrowserEnv() {
+  return function isURLSameOrigin() {
+    return true;
+  };
+}();
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34149,12 +41952,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 337 */
+=======
+/* 311 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 
 /**
@@ -34172,6 +41980,17 @@ module.exports = function transformData(data, headers, fns) {
   });
 
   return data;
+=======
+var utils = __webpack_require__(26);
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -34184,12 +42003,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 338 */
+=======
+/* 312 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 var normalizeHeaderName = __webpack_require__(345);
 
@@ -34254,6 +42078,44 @@ module.exports = {
   validateStatus: function validateStatus(status) {
     return status >= 200 && status < 300;
   }
+=======
+var utils = __webpack_require__(26);
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} headers Headers needing to be parsed
+ * @returns {Object} Headers parsed into an object
+ */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) {
+    return parsed;
+  }
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+    }
+  });
+
+  return parsed;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -34272,12 +42134,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 339 */
+=======
+/* 313 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 // btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
 
 var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
@@ -34311,6 +42178,34 @@ function btoa(input) {
 }
 
 module.exports = btoa;
+=======
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ * @returns {Function}
+ */
+
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34328,13 +42223,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 340 */
+=======
+/* 314 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
-'use strict';
+"use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
+=======
+module.exports = { "default": __webpack_require__(319), __esModule: true };
+;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function encode(val) {
   return encodeURIComponent(val).replace(/%40/gi, '@').replace(/%3A/gi, ':').replace(/%24/g, '$').replace(/%2C/gi, ',').replace(/%20/g, '+').replace(/%5B/gi, '[').replace(/%5D/gi, ']');
@@ -34361,6 +42265,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
   } else {
     var parts = [];
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
     utils.forEach(params, function serialize(val, key) {
       if (val === null || typeof val === 'undefined') {
         return;
@@ -34393,6 +42298,16 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
   return url;
 };
+=======
+/***/ },
+/* 315 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+
+module.exports = { "default": __webpack_require__(321), __esModule: true };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34406,8 +42321,13 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 341 */
 /***/ function(module, exports) {
+=======
+/* 316 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
@@ -34420,9 +42340,13 @@ var _temp = function () {
  * @returns {string} The combined URL
  */
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = function combineURLs(baseURL, relativeURL) {
   return baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '');
 };
+=======
+module.exports = { "default": __webpack_require__(323), __esModule: true };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34434,6 +42358,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 342 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -34600,6 +42525,14 @@ function nonStandardBrowserEnv() {
     return true;
   };
 }();
+=======
+/* 317 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+
+module.exports = { "default": __webpack_require__(325), __esModule: true };
 ;
 
 var _temp = function () {
@@ -34611,12 +42544,56 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 345 */
+/* 318 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+
+module.exports = { "default": __webpack_require__(326), __esModule: true };
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+/* 319 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+__webpack_require__(177);
+__webpack_require__(350);
+module.exports = __webpack_require__(32).Array.from;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 345 */
+=======
+/* 320 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 
 module.exports = function normalizeHeaderName(headers, normalizedName) {
@@ -34627,6 +42604,10 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
     }
   });
 };
+=======
+__webpack_require__(352);
+module.exports = __webpack_require__(32).Object.assign;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34638,12 +42619,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 346 */
+=======
+/* 321 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var utils = __webpack_require__(27);
 
 /**
@@ -34680,6 +42666,12 @@ module.exports = function parseHeaders(headers) {
   });
 
   return parsed;
+=======
+__webpack_require__(353);
+var $Object = __webpack_require__(32).Object;
+module.exports = function create(P, D) {
+  return $Object.create(P, D);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -34687,17 +42679,28 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
+
+  __REACT_HOT_LOADER__.register($Object, '$Object', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/fn/object/create.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 347 */
 /***/ function(module, exports) {
+=======
+/* 322 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /**
  * Syntactic sugar for invoking a function and expanding an array for arguments.
  *
@@ -34724,6 +42727,10 @@ module.exports = function spread(callback) {
     return callback.apply(null, arr);
   };
 };
+=======
+__webpack_require__(357);
+module.exports = __webpack_require__(32).Object.entries;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34735,13 +42742,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 348 */
+=======
+/* 323 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = { "default": __webpack_require__(354), __esModule: true };
+=======
+__webpack_require__(354);
+module.exports = __webpack_require__(32).Object.setPrototypeOf;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -34753,6 +42769,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 349 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -34760,17 +42777,53 @@ var _temp = function () {
 "use strict";
 
 module.exports = { "default": __webpack_require__(356), __esModule: true };
+=======
+/* 324 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+__webpack_require__(358);
+module.exports = __webpack_require__(32).Object.values;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
 }();
 
 ;
 
 /***/ },
+/* 325 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+__webpack_require__(356);
+__webpack_require__(355);
+__webpack_require__(359);
+__webpack_require__(360);
+module.exports = __webpack_require__(32).Symbol;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 350 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -34854,12 +42907,146 @@ var _temp = function () {
 
 __webpack_require__(387);
 module.exports = __webpack_require__(33).Object.assign;
+=======
+/* 326 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+__webpack_require__(177);
+__webpack_require__(361);
+module.exports = __webpack_require__(119).f('iterator');
 ;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+}();
+
+;
+
+/***/ },
+/* 327 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+module.exports = function (it) {
+  if (typeof it != 'function') throw TypeError(it + ' is not a function!');
+  return it;
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+/* 328 */
+/***/ function(module, exports) {
+
+"use strict";
+"use strict";
+
+module.exports = function () {/* empty */};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+/* 329 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+// false -> Array#indexOf
+// true  -> Array#includes
+var toIObject = __webpack_require__(42),
+    toLength = __webpack_require__(176),
+    toIndex = __webpack_require__(348);
+module.exports = function (IS_INCLUDES) {
+  return function ($this, el, fromIndex) {
+    var O = toIObject($this),
+        length = toLength(O.length),
+        index = toIndex(fromIndex, length),
+        value;
+    // Array#includes uses SameValueZero equality algorithm
+    if (IS_INCLUDES && el != el) while (length > index) {
+      value = O[index++];
+      if (value != value) return true;
+      // Array#toIndex ignores holes, Array#includes - not
+    } else for (; length > index; index++) {
+      if (IS_INCLUDES || index in O) {
+        if (O[index] === el) return IS_INCLUDES || index || 0;
+      }
+    }return !IS_INCLUDES && -1;
+  };
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+/* 330 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+// getting tag from 19.1.3.6 Object.prototype.toString()
+var cof = __webpack_require__(105),
+    TAG = __webpack_require__(33)('toStringTag')
+// ES3 wrong here
+,
+    ARG = cof(function () {
+  return arguments;
+}()) == 'Arguments';
+
+// fallback for IE11 Script Access Denied error
+var tryGet = function tryGet(it, key) {
+  try {
+    return it[key];
+  } catch (e) {/* empty */}
+};
+
+module.exports = function (it) {
+  var O, T, B;
+  return it === undefined ? 'Undefined' : it === null ? 'Null'
+  // @@toStringTag case
+  : typeof (T = tryGet(O = Object(it), TAG)) == 'string' ? T
+  // builtinTag case
+  : ARG ? cof(O)
+  // ES3 arguments fallback
+  : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;
+};
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 }();
 
 ;
@@ -34878,10 +43065,38 @@ module.exports = function create(P, D) {
 };
 ;
 
+=======
+
+  __REACT_HOT_LOADER__.register(TAG, 'TAG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_classof.js');
+
+  __REACT_HOT_LOADER__.register(ARG, 'ARG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_classof.js');
+
+  __REACT_HOT_LOADER__.register(tryGet, 'tryGet', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_classof.js');
+}();
+
+;
+
+/***/ },
+/* 331 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var $defineProperty = __webpack_require__(47),
+    createDesc = __webpack_require__(68);
+
+module.exports = function (object, index, value) {
+  if (index in object) $defineProperty.f(object, index, createDesc(0, value));else object[index] = value;
+};
+;
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   __REACT_HOT_LOADER__.register($Object, '$Object', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/fn/object/create.js');
 }();
@@ -34897,6 +43112,35 @@ var _temp = function () {
 
 __webpack_require__(392);
 module.exports = __webpack_require__(33).Object.entries;
+=======
+}();
+
+;
+
+/***/ },
+/* 332 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+// all enumerable object keys, includes symbols
+var getKeys = __webpack_require__(58),
+    gOPS = __webpack_require__(111),
+    pIE = __webpack_require__(67);
+module.exports = function (it) {
+  var result = getKeys(it),
+      getSymbols = gOPS.f;
+  if (getSymbols) {
+    var symbols = getSymbols(it),
+        isEnum = pIE.f,
+        i = 0,
+        key;
+    while (symbols.length > i) {
+      if (isEnum.call(it, key = symbols[i++])) result.push(key);
+    }
+  }return result;
+};
 ;
 
 var _temp = function () {
@@ -34906,6 +43150,26 @@ var _temp = function () {
 }();
 
 ;
+
+/***/ },
+/* 333 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+module.exports = __webpack_require__(41).document && document.documentElement;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 /***/ },
 /* 358 */
@@ -34922,17 +43186,50 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
-}();
-
-;
+=======
 
 /***/ },
-/* 359 */
+/* 334 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+// check on default Array iterator
+var Iterators = __webpack_require__(66),
+    ITERATOR = __webpack_require__(33)('iterator'),
+    ArrayProto = Array.prototype;
+
+module.exports = function (it) {
+  return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
+
+  __REACT_HOT_LOADER__.register(ArrayProto, 'ArrayProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 359 */
+=======
+/* 335 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 __webpack_require__(393);
 module.exports = __webpack_require__(33).Object.values;
 ;
@@ -34977,12 +43274,49 @@ var _temp = function () {
 __webpack_require__(196);
 __webpack_require__(396);
 module.exports = __webpack_require__(129).f('iterator');
+=======
+// 7.2.2 IsArray(argument)
+var cof = __webpack_require__(105);
+module.exports = Array.isArray || function isArray(arg) {
+  return cof(arg) == 'Array';
+};
 ;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+}();
+
+;
+
+/***/ },
+/* 336 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+// call something on iterator step with safe closing on error
+var anObject = __webpack_require__(55);
+module.exports = function (iterator, fn, value, entries) {
+  try {
+    return entries ? fn(anObject(value)[0], value[1]) : fn(value);
+    // 7.4.6 IteratorClose(iterator, completion)
+  } catch (e) {
+    var ret = iterator['return'];
+    if (ret !== undefined) anObject(ret.call(iterator));
+    throw e;
+  }
+};
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 }();
 
 ;
@@ -35004,13 +43338,20 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+=======
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 363 */
 /***/ function(module, exports) {
+=======
+/* 337 */
+/***/ function(module, exports, __webpack_require__) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 "use strict";
 "use strict";
@@ -35033,6 +43374,7 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(45),
@@ -35098,6 +43440,21 @@ module.exports = function (it) {
   : ARG ? cof(O)
   // ES3 arguments fallback
   : (B = cof(O)) == 'Object' && typeof O.callee == 'function' ? 'Arguments' : B;
+=======
+var create = __webpack_require__(110),
+    descriptor = __webpack_require__(68),
+    setToStringTag = __webpack_require__(112),
+    IteratorPrototype = {};
+
+// 25.1.2.1.1 %IteratorPrototype%[@@iterator]()
+__webpack_require__(57)(IteratorPrototype, __webpack_require__(33)('iterator'), function () {
+  return this;
+});
+
+module.exports = function (Constructor, NAME, next) {
+  Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
+  setToStringTag(Constructor, NAME + ' Iterator');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35106,27 +43463,66 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(TAG, 'TAG', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_classof.js');
 
   __REACT_HOT_LOADER__.register(ARG, 'ARG', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_classof.js');
 
   __REACT_HOT_LOADER__.register(tryGet, 'tryGet', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_classof.js');
+=======
+  __REACT_HOT_LOADER__.register(IteratorPrototype, 'IteratorPrototype', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-create.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 366 */
+=======
+/* 338 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $defineProperty = __webpack_require__(51),
     createDesc = __webpack_require__(75);
 
 module.exports = function (object, index, value) {
   if (index in object) $defineProperty.f(object, index, createDesc(0, value));else object[index] = value;
+=======
+var ITERATOR = __webpack_require__(33)('iterator'),
+    SAFE_CLOSING = false;
+
+try {
+  var riter = [7][ITERATOR]();
+  riter['return'] = function () {
+    SAFE_CLOSING = true;
+  };
+  Array.from(riter, function () {
+    throw 2;
+  });
+} catch (e) {/* empty */}
+
+module.exports = function (exec, skipClosing) {
+  if (!skipClosing && !SAFE_CLOSING) return false;
+  var safe = false;
+  try {
+    var arr = [7],
+        iter = arr[ITERATOR]();
+    iter.next = function () {
+      return { done: safe = true };
+    };
+    arr[ITERATOR] = function () {
+      return iter;
+    };
+    exec(arr);
+  } catch (e) {/* empty */}
+  return safe;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35134,11 +43530,21 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
+
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
+
+  __REACT_HOT_LOADER__.register(SAFE_CLOSING, 'SAFE_CLOSING', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
+
+  __REACT_HOT_LOADER__.register(riter, 'riter', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_iter-detect.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 367 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -35161,6 +43567,16 @@ module.exports = function (it) {
       if (isEnum.call(it, key = symbols[i++])) result.push(key);
     }
   }return result;
+=======
+/* 339 */
+/***/ function(module, exports) {
+
+"use strict";
+"use strict";
+
+module.exports = function (done, value) {
+  return { value: value, done: !!done };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35173,13 +43589,32 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 368 */
+=======
+/* 340 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = __webpack_require__(44).document && document.documentElement;
+=======
+var getKeys = __webpack_require__(58),
+    toIObject = __webpack_require__(42);
+module.exports = function (object, el) {
+  var O = toIObject(object),
+      keys = getKeys(O),
+      length = keys.length,
+      index = 0,
+      key;
+  while (length > index) {
+    if (O[key = keys[index++]] === el) return key;
+  }
+};
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -35191,12 +43626,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 369 */
+=======
+/* 341 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 // check on default Array iterator
 var Iterators = __webpack_require__(73),
     ITERATOR = __webpack_require__(34)('iterator'),
@@ -35204,6 +43644,62 @@ var Iterators = __webpack_require__(73),
 
 module.exports = function (it) {
   return it !== undefined && (Iterators.Array === it || ArrayProto[ITERATOR] === it);
+=======
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+var META = __webpack_require__(78)('meta'),
+    isObject = __webpack_require__(65),
+    has = __webpack_require__(46),
+    setDesc = __webpack_require__(47).f,
+    id = 0;
+var isExtensible = Object.isExtensible || function () {
+  return true;
+};
+var FREEZE = !__webpack_require__(64)(function () {
+  return isExtensible(Object.preventExtensions({}));
+});
+var setMeta = function setMeta(it) {
+  setDesc(it, META, { value: {
+      i: 'O' + ++id, // object ID
+      w: {} // weak collections IDs
+    } });
+};
+var fastKey = function fastKey(it, create) {
+  // return primitive with prefix
+  if (!isObject(it)) return (typeof it === 'undefined' ? 'undefined' : _typeof(it)) == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;
+  if (!has(it, META)) {
+    // can't set metadata to uncaught frozen object
+    if (!isExtensible(it)) return 'F';
+    // not necessary to add metadata
+    if (!create) return 'E';
+    // add missing metadata
+    setMeta(it);
+    // return object ID
+  }return it[META].i;
+};
+var getWeak = function getWeak(it, create) {
+  if (!has(it, META)) {
+    // can't set metadata to uncaught frozen object
+    if (!isExtensible(it)) return true;
+    // not necessary to add metadata
+    if (!create) return false;
+    // add missing metadata
+    setMeta(it);
+    // return hash weak collections IDs
+  }return it[META].w;
+};
+// add metadata on freeze-family methods calling
+var onFreeze = function onFreeze(it) {
+  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);
+  return it;
+};
+var meta = module.exports = {
+  KEY: META,
+  NEED: false,
+  fastKey: fastKey,
+  getWeak: getWeak,
+  onFreeze: onFreeze
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35212,20 +43708,48 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
 
   __REACT_HOT_LOADER__.register(ArrayProto, 'ArrayProto', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_is-array-iter.js');
+=======
+  __REACT_HOT_LOADER__.register(META, 'META', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(setDesc, 'setDesc', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(id, 'id', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(isExtensible, 'isExtensible', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(FREEZE, 'FREEZE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(setMeta, 'setMeta', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(fastKey, 'fastKey', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(getWeak, 'getWeak', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(onFreeze, 'onFreeze', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+
+  __REACT_HOT_LOADER__.register(meta, 'meta', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_meta.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 370 */
+=======
+/* 342 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
+// 19.1.2.1 Object.assign(target, source, ...)
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 // 7.2.2 IsArray(argument)
 var cof = __webpack_require__(115);
 module.exports = Array.isArray || function isArray(arg) {
@@ -35260,23 +43784,68 @@ module.exports = function (iterator, fn, value, entries) {
     throw e;
   }
 };
+=======
+var getKeys = __webpack_require__(58),
+    gOPS = __webpack_require__(111),
+    pIE = __webpack_require__(67),
+    toObject = __webpack_require__(116),
+    IObject = __webpack_require__(169),
+    $assign = Object.assign;
+
+// should work with symbols and should have deterministic property order (V8 bug)
+module.exports = !$assign || __webpack_require__(64)(function () {
+  var A = {},
+      B = {},
+      S = Symbol(),
+      K = 'abcdefghijklmnopqrst';
+  A[S] = 7;
+  K.split('').forEach(function (k) {
+    B[k] = k;
+  });
+  return $assign({}, A)[S] != 7 || Object.keys($assign({}, B)).join('') != K;
+}) ? function assign(target, source) {
+  // eslint-disable-line no-unused-vars
+  var T = toObject(target),
+      aLen = arguments.length,
+      index = 1,
+      getSymbols = gOPS.f,
+      isEnum = pIE.f;
+  while (aLen > index) {
+    var S = IObject(arguments[index++]),
+        keys = getSymbols ? getKeys(S).concat(getSymbols(S)) : getKeys(S),
+        length = keys.length,
+        j = 0,
+        key;
+    while (length > j) {
+      if (isEnum.call(S, key = keys[j++])) T[key] = S[key];
+    }
+  }return T;
+} : $assign;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+
+  __REACT_HOT_LOADER__.register($assign, '$assign', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-assign.js');
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 372 */
+=======
+/* 343 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var create = __webpack_require__(120),
     descriptor = __webpack_require__(75),
     setToStringTag = __webpack_require__(122),
@@ -35290,6 +43859,21 @@ __webpack_require__(62)(IteratorPrototype, __webpack_require__(34)('iterator'), 
 module.exports = function (Constructor, NAME, next) {
   Constructor.prototype = create(IteratorPrototype, { next: descriptor(1, next) });
   setToStringTag(Constructor, NAME + ' Iterator');
+=======
+var dP = __webpack_require__(47),
+    anObject = __webpack_require__(55),
+    getKeys = __webpack_require__(58);
+
+module.exports = __webpack_require__(56) ? Object.defineProperties : function defineProperties(O, Properties) {
+  anObject(O);
+  var keys = getKeys(Properties),
+      length = keys.length,
+      i = 0,
+      P;
+  while (length > i) {
+    dP.f(O, P = keys[i++], Properties[P]);
+  }return O;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35297,19 +43881,27 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   __REACT_HOT_LOADER__.register(IteratorPrototype, 'IteratorPrototype', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_iter-create.js');
+=======
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 373 */
+=======
+/* 344 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ITERATOR = __webpack_require__(34)('iterator'),
     SAFE_CLOSING = false;
 
@@ -35364,6 +43956,27 @@ var _temp = function () {
 
 module.exports = function (done, value) {
   return { value: value, done: !!done };
+=======
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+// fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
+var toIObject = __webpack_require__(42),
+    gOPN = __webpack_require__(172).f,
+    toString = {}.toString;
+
+var windowNames = (typeof window === 'undefined' ? 'undefined' : _typeof(window)) == 'object' && window && Object.getOwnPropertyNames ? Object.getOwnPropertyNames(window) : [];
+
+var getWindowNames = function getWindowNames(it) {
+  try {
+    return gOPN(it);
+  } catch (e) {
+    return windowNames.slice();
+  }
+};
+
+module.exports.f = function getOwnPropertyNames(it) {
+  return windowNames && toString.call(it) == '[object Window]' ? getWindowNames(it) : gOPN(toIObject(it));
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35373,6 +43986,7 @@ var _temp = function () {
   }
 }();
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 ;
 
 /***/ },
@@ -35400,17 +44014,31 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+=======
+  __REACT_HOT_LOADER__.register(gOPN, 'gOPN', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+
+  __REACT_HOT_LOADER__.register(toString, 'toString', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+
+  __REACT_HOT_LOADER__.register(windowNames, 'windowNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+
+  __REACT_HOT_LOADER__.register(getWindowNames, 'getWindowNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gopn-ext.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 376 */
+=======
+/* 345 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 var META = __webpack_require__(87)('meta'),
@@ -35540,6 +44168,21 @@ module.exports = !$assign || __webpack_require__(71)(function () {
     }
   }return T;
 } : $assign;
+=======
+// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
+var has = __webpack_require__(46),
+    toObject = __webpack_require__(116),
+    IE_PROTO = __webpack_require__(113)('IE_PROTO'),
+    ObjectProto = Object.prototype;
+
+module.exports = Object.getPrototypeOf || function (O) {
+  O = toObject(O);
+  if (has(O, IE_PROTO)) return O[IE_PROTO];
+  if (typeof O.constructor == 'function' && O instanceof O.constructor) {
+    return O.constructor.prototype;
+  }return O instanceof Object ? ObjectProto : null;
+};
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -35547,6 +44190,7 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register($assign, '$assign', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_object-assign.js');
 }();
 
@@ -35579,16 +44223,26 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+=======
+  __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
+
+  __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 379 */
+=======
+/* 346 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
@@ -35647,6 +44301,34 @@ module.exports = Object.getPrototypeOf || function (O) {
   if (typeof O.constructor == 'function' && O instanceof O.constructor) {
     return O.constructor.prototype;
   }return O instanceof Object ? ObjectProto : null;
+=======
+
+// Works with __proto__ only. Old v8 can't work with null proto objects.
+/* eslint-disable no-proto */
+var isObject = __webpack_require__(65),
+    anObject = __webpack_require__(55);
+var check = function check(O, proto) {
+  anObject(O);
+  if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
+};
+module.exports = {
+  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
+  function (test, buggy, set) {
+    try {
+      set = __webpack_require__(106)(Function.call, __webpack_require__(171).f(Object.prototype, '__proto__').set, 2);
+      set(test, []);
+      buggy = !(test instanceof Array);
+    } catch (e) {
+      buggy = true;
+    }
+    return function setPrototypeOf(O, proto) {
+      check(O, proto);
+      if (buggy) O.__proto__ = proto;else set(O, proto);
+      return O;
+    };
+  }({}, false) : undefined),
+  check: check
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35655,20 +44337,29 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(IE_PROTO, 'IE_PROTO', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
 
   __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_object-gpo.js');
+=======
+  __REACT_HOT_LOADER__.register(check, 'check', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_set-proto.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 381 */
+=======
+/* 347 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
 var isObject = __webpack_require__(72),
@@ -35694,6 +44385,23 @@ module.exports = {
     };
   }({}, false) : undefined),
   check: check
+=======
+var toInteger = __webpack_require__(115),
+    defined = __webpack_require__(107);
+// true  -> String#at
+// false -> String#codePointAt
+module.exports = function (TO_STRING) {
+  return function (that, pos) {
+    var s = String(defined(that)),
+        i = toInteger(pos),
+        l = s.length,
+        a,
+        b;
+    if (i < 0 || i >= l) return TO_STRING ? '' : undefined;
+    a = s.charCodeAt(i);
+    return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff ? TO_STRING ? s.charAt(i) : a : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
+  };
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35708,12 +44416,17 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 382 */
+=======
+/* 348 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var toInteger = __webpack_require__(125),
     defined = __webpack_require__(117);
 // true  -> String#at
@@ -35729,6 +44442,14 @@ module.exports = function (TO_STRING) {
     a = s.charCodeAt(i);
     return a < 0xd800 || a > 0xdbff || i + 1 === l || (b = s.charCodeAt(i + 1)) < 0xdc00 || b > 0xdfff ? TO_STRING ? s.charAt(i) : a : TO_STRING ? s.slice(i, i + 2) : (a - 0xd800 << 10) + (b - 0xdc00) + 0x10000;
   };
+=======
+var toInteger = __webpack_require__(115),
+    max = Math.max,
+    min = Math.min;
+module.exports = function (index, length) {
+  index = toInteger(index);
+  return index < 0 ? max(index + length, 0) : min(index, length);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35736,23 +44457,42 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
+
+  __REACT_HOT_LOADER__.register(max, 'max', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-index.js');
+
+  __REACT_HOT_LOADER__.register(min, 'min', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/_to-index.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 383 */
+=======
+/* 349 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var toInteger = __webpack_require__(125),
     max = Math.max,
     min = Math.min;
 module.exports = function (index, length) {
   index = toInteger(index);
   return index < 0 ? max(index + length, 0) : min(index, length);
+=======
+var classof = __webpack_require__(330),
+    ITERATOR = __webpack_require__(33)('iterator'),
+    Iterators = __webpack_require__(66);
+module.exports = __webpack_require__(32).getIteratorMethod = function (it) {
+  if (it != undefined) return it[ITERATOR] || it['@@iterator'] || Iterators[classof(it)];
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 };
 ;
 
@@ -35761,20 +44501,29 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(max, 'max', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_to-index.js');
 
   __REACT_HOT_LOADER__.register(min, 'min', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/_to-index.js');
+=======
+  __REACT_HOT_LOADER__.register(ITERATOR, 'ITERATOR', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/core.get-iterator-method.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 384 */
+=======
+/* 350 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var classof = __webpack_require__(365),
     ITERATOR = __webpack_require__(34)('iterator'),
     Iterators = __webpack_require__(73);
@@ -35810,6 +44559,18 @@ var ctx = __webpack_require__(116),
     getIterFn = __webpack_require__(384);
 
 $export($export.S + $export.F * !__webpack_require__(373)(function (iter) {
+=======
+var ctx = __webpack_require__(106),
+    $export = __webpack_require__(40),
+    toObject = __webpack_require__(116),
+    call = __webpack_require__(336),
+    isArrayIter = __webpack_require__(334),
+    toLength = __webpack_require__(176),
+    createProperty = __webpack_require__(331),
+    getIterFn = __webpack_require__(349);
+
+$export($export.S + $export.F * !__webpack_require__(338)(function (iter) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   Array.from(iter);
 }), 'Array', {
   // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
@@ -35852,22 +44613,37 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 386 */
+=======
+/* 351 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var addToUnscopables = __webpack_require__(363),
     step = __webpack_require__(374),
     Iterators = __webpack_require__(73),
     toIObject = __webpack_require__(45);
+=======
+var addToUnscopables = __webpack_require__(328),
+    step = __webpack_require__(339),
+    Iterators = __webpack_require__(66),
+    toIObject = __webpack_require__(42);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 // 22.1.3.4 Array.prototype.entries()
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = __webpack_require__(189)(Array, 'Array', function (iterated, kind) {
+=======
+module.exports = __webpack_require__(170)(Array, 'Array', function (iterated, kind) {
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   this._t = toIObject(iterated); // target
   this._i = 0; // next index
   this._k = kind; // kind
@@ -35902,16 +44678,26 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 387 */
+=======
+/* 352 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 19.1.3.1 Object.assign(target, source)
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $export = __webpack_require__(43);
 
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__(377) });
+=======
+var $export = __webpack_require__(40);
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(342) });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -35923,15 +44709,25 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 388 */
+=======
+/* 353 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $export = __webpack_require__(43);
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 $export($export.S, 'Object', { create: __webpack_require__(120) });
+=======
+var $export = __webpack_require__(40);
+// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+$export($export.S, 'Object', { create: __webpack_require__(110) });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -35943,15 +44739,24 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 389 */
+=======
+/* 354 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var $export = __webpack_require__(43);
 $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(381).set });
+=======
+var $export = __webpack_require__(40);
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(346).set });
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -35963,7 +44768,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 390 */
+=======
+/* 355 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -35980,7 +44789,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 391 */
+=======
+/* 356 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -36033,6 +44846,7 @@ var global = __webpack_require__(44),
 // Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
 var setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 // fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
 var setSymbolDesc = DESCRIPTORS && $fails(function () {
   return _create(dP({}, 'a', {
@@ -36312,10 +45126,169 @@ var $export = __webpack_require__(43),
 $export($export.S, 'Object', {
   entries: function entries(it) {
     return $entries(it);
+=======
+var global = __webpack_require__(41),
+    has = __webpack_require__(46),
+    DESCRIPTORS = __webpack_require__(56),
+    $export = __webpack_require__(40),
+    redefine = __webpack_require__(175),
+    META = __webpack_require__(341).KEY,
+    $fails = __webpack_require__(64),
+    shared = __webpack_require__(114),
+    setToStringTag = __webpack_require__(112),
+    uid = __webpack_require__(78),
+    wks = __webpack_require__(33),
+    wksExt = __webpack_require__(119),
+    wksDefine = __webpack_require__(118),
+    keyOf = __webpack_require__(340),
+    enumKeys = __webpack_require__(332),
+    isArray = __webpack_require__(335),
+    anObject = __webpack_require__(55),
+    toIObject = __webpack_require__(42),
+    toPrimitive = __webpack_require__(117),
+    createDesc = __webpack_require__(68),
+    _create = __webpack_require__(110),
+    gOPNExt = __webpack_require__(344),
+    $GOPD = __webpack_require__(171),
+    $DP = __webpack_require__(47),
+    $keys = __webpack_require__(58),
+    gOPD = $GOPD.f,
+    dP = $DP.f,
+    gOPN = gOPNExt.f,
+    $Symbol = global.Symbol,
+    $JSON = global.JSON,
+    _stringify = $JSON && $JSON.stringify,
+    PROTOTYPE = 'prototype',
+    HIDDEN = wks('_hidden'),
+    TO_PRIMITIVE = wks('toPrimitive'),
+    isEnum = {}.propertyIsEnumerable,
+    SymbolRegistry = shared('symbol-registry'),
+    AllSymbols = shared('symbols'),
+    OPSymbols = shared('op-symbols'),
+    ObjectProto = Object[PROTOTYPE],
+    USE_NATIVE = typeof $Symbol == 'function',
+    QObject = global.QObject;
+// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
+var setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
+
+// fallback for old Android, https://code.google.com/p/v8/issues/detail?id=687
+var setSymbolDesc = DESCRIPTORS && $fails(function () {
+  return _create(dP({}, 'a', {
+    get: function get() {
+      return dP(this, 'a', { value: 7 }).a;
+    }
+  })).a != 7;
+}) ? function (it, key, D) {
+  var protoDesc = gOPD(ObjectProto, key);
+  if (protoDesc) delete ObjectProto[key];
+  dP(it, key, D);
+  if (protoDesc && it !== ObjectProto) dP(ObjectProto, key, protoDesc);
+} : dP;
+
+var wrap = function wrap(tag) {
+  var sym = AllSymbols[tag] = _create($Symbol[PROTOTYPE]);
+  sym._k = tag;
+  return sym;
+};
+
+var isSymbol = USE_NATIVE && _typeof($Symbol.iterator) == 'symbol' ? function (it) {
+  return (typeof it === 'undefined' ? 'undefined' : _typeof(it)) == 'symbol';
+} : function (it) {
+  return it instanceof $Symbol;
+};
+
+var $defineProperty = function defineProperty(it, key, D) {
+  if (it === ObjectProto) $defineProperty(OPSymbols, key, D);
+  anObject(it);
+  key = toPrimitive(key, true);
+  anObject(D);
+  if (has(AllSymbols, key)) {
+    if (!D.enumerable) {
+      if (!has(it, HIDDEN)) dP(it, HIDDEN, createDesc(1, {}));
+      it[HIDDEN][key] = true;
+    } else {
+      if (has(it, HIDDEN) && it[HIDDEN][key]) it[HIDDEN][key] = false;
+      D = _create(D, { enumerable: createDesc(0, false) });
+    }return setSymbolDesc(it, key, D);
+  }return dP(it, key, D);
+};
+var $defineProperties = function defineProperties(it, P) {
+  anObject(it);
+  var keys = enumKeys(P = toIObject(P)),
+      i = 0,
+      l = keys.length,
+      key;
+  while (l > i) {
+    $defineProperty(it, key = keys[i++], P[key]);
+  }return it;
+};
+var $create = function create(it, P) {
+  return P === undefined ? _create(it) : $defineProperties(_create(it), P);
+};
+var $propertyIsEnumerable = function propertyIsEnumerable(key) {
+  var E = isEnum.call(this, key = toPrimitive(key, true));
+  if (this === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return false;
+  return E || !has(this, key) || !has(AllSymbols, key) || has(this, HIDDEN) && this[HIDDEN][key] ? E : true;
+};
+var $getOwnPropertyDescriptor = function getOwnPropertyDescriptor(it, key) {
+  it = toIObject(it);
+  key = toPrimitive(key, true);
+  if (it === ObjectProto && has(AllSymbols, key) && !has(OPSymbols, key)) return;
+  var D = gOPD(it, key);
+  if (D && has(AllSymbols, key) && !(has(it, HIDDEN) && it[HIDDEN][key])) D.enumerable = true;
+  return D;
+};
+var $getOwnPropertyNames = function getOwnPropertyNames(it) {
+  var names = gOPN(toIObject(it)),
+      result = [],
+      i = 0,
+      key;
+  while (names.length > i) {
+    if (!has(AllSymbols, key = names[i++]) && key != HIDDEN && key != META) result.push(key);
+  }return result;
+};
+var $getOwnPropertySymbols = function getOwnPropertySymbols(it) {
+  var IS_OP = it === ObjectProto,
+      names = gOPN(IS_OP ? OPSymbols : toIObject(it)),
+      result = [],
+      i = 0,
+      key;
+  while (names.length > i) {
+    if (has(AllSymbols, key = names[i++]) && (IS_OP ? has(ObjectProto, key) : true)) result.push(AllSymbols[key]);
+  }return result;
+};
+
+// 19.4.1.1 Symbol([description])
+if (!USE_NATIVE) {
+  $Symbol = function _Symbol() {
+    if (this instanceof $Symbol) throw TypeError('Symbol is not a constructor!');
+    var tag = uid(arguments.length > 0 ? arguments[0] : undefined);
+    var $set = function $set(value) {
+      if (this === ObjectProto) $set.call(OPSymbols, value);
+      if (has(this, HIDDEN) && has(this[HIDDEN], tag)) this[HIDDEN][tag] = false;
+      setSymbolDesc(this, tag, createDesc(1, value));
+    };
+    if (DESCRIPTORS && setter) setSymbolDesc(ObjectProto, tag, { configurable: true, set: $set });
+    return wrap(tag);
+  };
+  redefine($Symbol[PROTOTYPE], 'toString', function toString() {
+    return this._k;
+  });
+
+  $GOPD.f = $getOwnPropertyDescriptor;
+  $DP.f = $defineProperty;
+  __webpack_require__(172).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(67).f = $propertyIsEnumerable;
+  __webpack_require__(111).f = $getOwnPropertySymbols;
+
+  if (DESCRIPTORS && !__webpack_require__(109)) {
+    redefine(ObjectProto, 'propertyIsEnumerable', $propertyIsEnumerable, true);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   }
 });
 ;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
@@ -36347,8 +45320,82 @@ $export($export.S, 'Object', {
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
-  }
+=======
+  wksExt.f = function (name) {
+    return wrap(wks(name));
+  };
+}
 
+$export($export.G + $export.W + $export.F * !USE_NATIVE, { Symbol: $Symbol });
+
+for (var symbols =
+// 19.4.2.2, 19.4.2.3, 19.4.2.4, 19.4.2.6, 19.4.2.8, 19.4.2.9, 19.4.2.10, 19.4.2.11, 19.4.2.12, 19.4.2.13, 19.4.2.14
+'hasInstance,isConcatSpreadable,iterator,match,replace,search,species,split,toPrimitive,toStringTag,unscopables'.split(','), i = 0; symbols.length > i;) {
+  wks(symbols[i++]);
+}for (var symbols = $keys(wks.store), i = 0; symbols.length > i;) {
+  wksDefine(symbols[i++]);
+}$export($export.S + $export.F * !USE_NATIVE, 'Symbol', {
+  // 19.4.2.1 Symbol.for(key)
+  'for': function _for(key) {
+    return has(SymbolRegistry, key += '') ? SymbolRegistry[key] : SymbolRegistry[key] = $Symbol(key);
+  },
+  // 19.4.2.5 Symbol.keyFor(sym)
+  keyFor: function keyFor(key) {
+    if (isSymbol(key)) return keyOf(SymbolRegistry, key);
+    throw TypeError(key + ' is not a symbol!');
+  },
+  useSetter: function useSetter() {
+    setter = true;
+  },
+  useSimple: function useSimple() {
+    setter = false;
+  }
+});
+
+$export($export.S + $export.F * !USE_NATIVE, 'Object', {
+  // 19.1.2.2 Object.create(O [, Properties])
+  create: $create,
+  // 19.1.2.4 Object.defineProperty(O, P, Attributes)
+  defineProperty: $defineProperty,
+  // 19.1.2.3 Object.defineProperties(O, Properties)
+  defineProperties: $defineProperties,
+  // 19.1.2.6 Object.getOwnPropertyDescriptor(O, P)
+  getOwnPropertyDescriptor: $getOwnPropertyDescriptor,
+  // 19.1.2.7 Object.getOwnPropertyNames(O)
+  getOwnPropertyNames: $getOwnPropertyNames,
+  // 19.1.2.8 Object.getOwnPropertySymbols(O)
+  getOwnPropertySymbols: $getOwnPropertySymbols
+});
+
+// 24.3.2 JSON.stringify(value [, replacer [, space]])
+$JSON && $export($export.S + $export.F * (!USE_NATIVE || $fails(function () {
+  var S = $Symbol();
+  // MS Edge converts symbol values to JSON as {}
+  // WebKit converts symbol values to JSON as null
+  // V8 throws on boxed symbols
+  return _stringify([S]) != '[null]' || _stringify({ a: S }) != '{}' || _stringify(Object(S)) != '{}';
+})), 'JSON', {
+  stringify: function stringify(it) {
+    if (it === undefined || isSymbol(it)) return; // IE8 returns string on undefined
+    var args = [it],
+        i = 1,
+        replacer,
+        $replacer;
+    while (arguments.length > i) {
+      args.push(arguments[i++]);
+    }replacer = args[1];
+    if (typeof replacer == 'function') $replacer = replacer;
+    if ($replacer || !isArray(replacer)) replacer = function replacer(key, value) {
+      if ($replacer) value = $replacer.call(this, key, value);
+      if (!isSymbol(value)) return value;
+    };
+    args[1] = replacer;
+    return _stringify.apply($JSON, args);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+  }
+});
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register($values, '$values', '/Users/Rob/hackreactor/ReTok/node_modules/core-js/library/modules/es7.object.values.js');
 }();
 
@@ -36362,12 +45409,23 @@ var _temp = function () {
 'use strict';
 
 __webpack_require__(128)('asyncIterator');
+=======
+// 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
+$Symbol[PROTOTYPE][TO_PRIMITIVE] || __webpack_require__(57)($Symbol[PROTOTYPE], TO_PRIMITIVE, $Symbol[PROTOTYPE].valueOf);
+// 19.4.3.5 Symbol.prototype[@@toStringTag]
+setToStringTag($Symbol, 'Symbol');
+// 20.2.1.9 Math[@@toStringTag]
+setToStringTag(Math, 'Math', true);
+// 24.3.3 JSON[@@toStringTag]
+setToStringTag(global.JSON, 'JSON', true);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 }();
 
 ;
@@ -36529,11 +45587,99 @@ function objEquiv(a, b, opts) {
   for (i = ka.length - 1; i >= 0; i--) {
     key = ka[i];
     if (!deepEqual(a[key], b[key], opts)) return false;
+=======
+
+  __REACT_HOT_LOADER__.register(META, 'META', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(gOPD, 'gOPD', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(dP, 'dP', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(gOPN, 'gOPN', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($Symbol, '$Symbol', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($JSON, '$JSON', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(_stringify, '_stringify', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(PROTOTYPE, 'PROTOTYPE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(HIDDEN, 'HIDDEN', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(TO_PRIMITIVE, 'TO_PRIMITIVE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(isEnum, 'isEnum', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(SymbolRegistry, 'SymbolRegistry', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(AllSymbols, 'AllSymbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(OPSymbols, 'OPSymbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(ObjectProto, 'ObjectProto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(USE_NATIVE, 'USE_NATIVE', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(QObject, 'QObject', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(setter, 'setter', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(setSymbolDesc, 'setSymbolDesc', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(wrap, 'wrap', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(isSymbol, 'isSymbol', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($defineProperty, '$defineProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($defineProperties, '$defineProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($create, '$create', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($propertyIsEnumerable, '$propertyIsEnumerable', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($getOwnPropertyDescriptor, '$getOwnPropertyDescriptor', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($getOwnPropertyNames, '$getOwnPropertyNames', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register($getOwnPropertySymbols, '$getOwnPropertySymbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(symbols, 'symbols', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es6.symbol.js');
+}();
+
+;
+
+/***/ },
+/* 357 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+// https://github.com/tc39/proposal-object-values-entries
+var $export = __webpack_require__(40),
+    $entries = __webpack_require__(174)(true);
+
+$export($export.S, 'Object', {
+  entries: function entries(it) {
+    return $entries(it);
+  }
+});
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   }
   return (typeof a === 'undefined' ? 'undefined' : _typeof(a)) === (typeof b === 'undefined' ? 'undefined' : _typeof(b));
 }
 ;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
@@ -36576,6 +45722,28 @@ exports.unsupported = unsupported;
 function unsupported(object) {
   return object && (typeof object === 'undefined' ? 'undefined' : _typeof(object)) == 'object' && typeof object.length == 'number' && Object.prototype.hasOwnProperty.call(object, 'callee') && !Object.prototype.propertyIsEnumerable.call(object, 'callee') || false;
 };
+=======
+  __REACT_HOT_LOADER__.register($entries, '$entries', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es7.object.entries.js');
+}();
+
+;
+
+/***/ },
+/* 358 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+// https://github.com/tc39/proposal-object-values-entries
+var $export = __webpack_require__(40),
+    $values = __webpack_require__(174)(false);
+
+$export($export.S, 'Object', {
+  values: function values(it) {
+    return $values(it);
+  }
+});
 ;
 
 var _temp = function () {
@@ -36583,16 +45751,58 @@ var _temp = function () {
     return;
   }
 
-  __REACT_HOT_LOADER__.register(supportsArgumentsClass, 'supportsArgumentsClass', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/is_arguments.js');
-
-  __REACT_HOT_LOADER__.register(supported, 'supported', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/is_arguments.js');
-
-  __REACT_HOT_LOADER__.register(unsupported, 'unsupported', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+  __REACT_HOT_LOADER__.register($values, '$values', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/es7.object.values.js');
 }();
 
 ;
 
 /***/ },
+/* 359 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+__webpack_require__(118)('asyncIterator');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+  __REACT_HOT_LOADER__.register(supportsArgumentsClass, 'supportsArgumentsClass', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+
+  __REACT_HOT_LOADER__.register(supported, 'supported', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+
+  __REACT_HOT_LOADER__.register(unsupported, 'unsupported', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+=======
+/***/ },
+/* 360 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+__webpack_require__(118)('observable');
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 399 */
 /***/ function(module, exports) {
 
@@ -36607,6 +45817,25 @@ function shim(obj) {
   for (var key in obj) {
     keys.push(key);
   }return keys;
+=======
+/* 361 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+__webpack_require__(351);
+var global = __webpack_require__(41),
+    hide = __webpack_require__(57),
+    Iterators = __webpack_require__(66),
+    TO_STRING_TAG = __webpack_require__(33)('toStringTag');
+
+for (var collections = ['NodeList', 'DOMTokenList', 'MediaList', 'StyleSheetList', 'CSSRuleList'], i = 0; i < 5; i++) {
+  var NAME = collections[i],
+      Collection = global[NAME],
+      proto = Collection && Collection.prototype;
+  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
+  Iterators[NAME] = Iterators.Array;
 }
 ;
 
@@ -36614,6 +45843,130 @@ var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
+
+  __REACT_HOT_LOADER__.register(TO_STRING_TAG, 'TO_STRING_TAG', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+
+  __REACT_HOT_LOADER__.register(collections, 'collections', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+
+  __REACT_HOT_LOADER__.register(i, 'i', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+
+  __REACT_HOT_LOADER__.register(NAME, 'NAME', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+
+  __REACT_HOT_LOADER__.register(Collection, 'Collection', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+
+  __REACT_HOT_LOADER__.register(proto, 'proto', '/Users/Michael/HR/Thesis/ReTok/node_modules/core-js/library/modules/web.dom.iterable.js');
+}();
+
+;
+
+/***/ },
+/* 362 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+var pSlice = Array.prototype.slice;
+var objectKeys = __webpack_require__(364);
+var isArguments = __webpack_require__(363);
+
+var deepEqual = module.exports = function (actual, expected, opts) {
+  if (!opts) opts = {};
+  // 7.1. All identical values are equivalent, as determined by ===.
+  if (actual === expected) {
+    return true;
+  } else if (actual instanceof Date && expected instanceof Date) {
+    return actual.getTime() === expected.getTime();
+
+    // 7.3. Other pairs that do not both pass typeof value == 'object',
+    // equivalence is determined by ==.
+  } else if (!actual || !expected || (typeof actual === 'undefined' ? 'undefined' : _typeof(actual)) != 'object' && (typeof expected === 'undefined' ? 'undefined' : _typeof(expected)) != 'object') {
+    return opts.strict ? actual === expected : actual == expected;
+
+    // 7.4. For all other Object pairs, including Array objects, equivalence is
+    // determined by having the same number of owned properties (as verified
+    // with Object.prototype.hasOwnProperty.call), the same set of keys
+    // (although not necessarily the same order), equivalent values for every
+    // corresponding key, and an identical 'prototype' property. Note: this
+    // accounts for both named and indexed properties on Arrays.
+  } else {
+    return objEquiv(actual, expected, opts);
+  }
+};
+
+function isUndefinedOrNull(value) {
+  return value === null || value === undefined;
+}
+
+function isBuffer(x) {
+  if (!x || (typeof x === 'undefined' ? 'undefined' : _typeof(x)) !== 'object' || typeof x.length !== 'number') return false;
+  if (typeof x.copy !== 'function' || typeof x.slice !== 'function') {
+    return false;
+  }
+  if (x.length > 0 && typeof x[0] !== 'number') return false;
+  return true;
+}
+
+function objEquiv(a, b, opts) {
+  var i, key;
+  if (isUndefinedOrNull(a) || isUndefinedOrNull(b)) return false;
+  // an identical 'prototype' property.
+  if (a.prototype !== b.prototype) return false;
+  //~~~I've managed to break Object.keys through screwy arguments passing.
+  //   Converting to array solves the problem.
+  if (isArguments(a)) {
+    if (!isArguments(b)) {
+      return false;
+    }
+    a = pSlice.call(a);
+    b = pSlice.call(b);
+    return deepEqual(a, b, opts);
+  }
+  if (isBuffer(a)) {
+    if (!isBuffer(b)) {
+      return false;
+    }
+    if (a.length !== b.length) return false;
+    for (i = 0; i < a.length; i++) {
+      if (a[i] !== b[i]) return false;
+    }
+    return true;
+  }
+  try {
+    var ka = objectKeys(a),
+        kb = objectKeys(b);
+  } catch (e) {
+    //happens when one is a string literal and the other isn't
+    return false;
+  }
+  // having the same number of owned properties (keys incorporates
+  // hasOwnProperty)
+  if (ka.length != kb.length) return false;
+  //the same set of keys (although not necessarily the same order),
+  ka.sort();
+  kb.sort();
+  //~~~cheap key test
+  for (i = ka.length - 1; i >= 0; i--) {
+    if (ka[i] != kb[i]) return false;
+  }
+  //equivalent values for every corresponding key, and
+  //~~~possibly expensive deep test
+  for (i = ka.length - 1; i >= 0; i--) {
+    key = ka[i];
+    if (!deepEqual(a[key], b[key], opts)) return false;
+  }
+  return (typeof a === 'undefined' ? 'undefined' : _typeof(a)) === (typeof b === 'undefined' ? 'undefined' : _typeof(b));
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
   __REACT_HOT_LOADER__.register(shim, 'shim', '/Users/Rob/hackreactor/ReTok/node_modules/deep-equal/lib/keys.js');
 }();
@@ -36674,6 +46027,78 @@ var _temp = function () {
 module.exports = function removeClass(element, className) {
   if (element.classList) element.classList.remove(className);else element.className = element.className.replace(new RegExp('(^|\\s)' + className + '(?:\\s|$)', 'g'), '$1').replace(/\s+/g, ' ').replace(/^\s*|\s*$/g, '');
 };
+=======
+
+  __REACT_HOT_LOADER__.register(pSlice, 'pSlice', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+
+  __REACT_HOT_LOADER__.register(deepEqual, 'deepEqual', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+
+  __REACT_HOT_LOADER__.register(isUndefinedOrNull, 'isUndefinedOrNull', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+
+  __REACT_HOT_LOADER__.register(isBuffer, 'isBuffer', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+
+  __REACT_HOT_LOADER__.register(objEquiv, 'objEquiv', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/index.js');
+}();
+
+;
+
+/***/ },
+/* 363 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+var supportsArgumentsClass = function () {
+  return Object.prototype.toString.call(arguments);
+}() == '[object Arguments]';
+
+exports = module.exports = supportsArgumentsClass ? supported : unsupported;
+
+exports.supported = supported;
+function supported(object) {
+  return Object.prototype.toString.call(object) == '[object Arguments]';
+};
+
+exports.unsupported = unsupported;
+function unsupported(object) {
+  return object && (typeof object === 'undefined' ? 'undefined' : _typeof(object)) == 'object' && typeof object.length == 'number' && Object.prototype.hasOwnProperty.call(object, 'callee') && !Object.prototype.propertyIsEnumerable.call(object, 'callee') || false;
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(supportsArgumentsClass, 'supportsArgumentsClass', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+
+  __REACT_HOT_LOADER__.register(supported, 'supported', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+
+  __REACT_HOT_LOADER__.register(unsupported, 'unsupported', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/is_arguments.js');
+}();
+
+;
+
+/***/ },
+/* 364 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+exports = module.exports = typeof Object.keys === 'function' ? Object.keys : shim;
+
+exports.shim = shim;
+function shim(obj) {
+  var keys = [];
+  for (var key in obj) {
+    keys.push(key);
+  }return keys;
+}
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -36682,6 +46107,7 @@ var _temp = function () {
   }
 }();
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 ;
 
 /***/ },
@@ -36704,6 +46130,23 @@ module.exports = function (selector, handler) {
       return contains(match, target);
     })) handler.call(this, e);
   };
+=======
+  __REACT_HOT_LOADER__.register(shim, 'shim', '/Users/Michael/HR/Thesis/ReTok/node_modules/deep-equal/lib/keys.js');
+}();
+
+;
+
+/***/ },
+/* 365 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var hasClass = __webpack_require__(180);
+
+module.exports = function addClass(element, className) {
+  if (element.classList) element.classList.add(className);else if (!hasClass(element)) element.className = element.className + ' ' + className;
 };
 ;
 
@@ -36716,11 +46159,62 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 404 */
+/* 366 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
+
+module.exports = {
+  addClass: __webpack_require__(365),
+  removeClass: __webpack_require__(367),
+  hasClass: __webpack_require__(180)
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+=======
+}();
+
+;
+
+/***/ },
+/* 367 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+module.exports = function removeClass(element, className) {
+  if (element.classList) element.classList.remove(className);else element.className = element.className.replace(new RegExp('(^|\\s)' + className + '(?:\\s|$)', 'g'), '$1').replace(/\s+/g, ' ').replace(/^\s*|\s*$/g, '');
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
+/* 404 */
+=======
+/* 368 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 
 var on = __webpack_require__(130),
     off = __webpack_require__(200),
@@ -36855,11 +46349,179 @@ function position(node, offsetParent) {
 module.exports = exports['default'];
 ;
 
+=======
+
+var contains = __webpack_require__(69),
+    qsa = __webpack_require__(372);
+
+module.exports = function (selector, handler) {
+  return function (e) {
+    var top = e.currentTarget,
+        target = e.target,
+        matches = qsa(top, selector);
+
+    if (matches.some(function (match) {
+      return contains(match, target);
+    })) handler.call(this, e);
+  };
+};
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+/* 369 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var on = __webpack_require__(120),
+    off = __webpack_require__(181),
+    filter = __webpack_require__(368);
+
+module.exports = { on: on, off: off, filter: filter };
+;
+
+var _temp = function () {
+    if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+        return;
+    }
+}();
+
+;
+
+/***/ },
+/* 370 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var babelHelpers = __webpack_require__(81);
+
+exports.__esModule = true;
+exports['default'] = offsetParent;
+
+var _ownerDocument = __webpack_require__(59);
+
+var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
+
+var _style = __webpack_require__(80);
+
+var _style2 = babelHelpers.interopRequireDefault(_style);
+
+function nodeName(node) {
+  return node.nodeName && node.nodeName.toLowerCase();
+}
+
+function offsetParent(node) {
+  var doc = (0, _ownerDocument2['default'])(node),
+      offsetParent = node && node.offsetParent;
+
+  while (offsetParent && nodeName(node) !== 'html' && (0, _style2['default'])(offsetParent, 'position') === 'static') {
+    offsetParent = offsetParent.offsetParent;
+  }
+
+  return offsetParent || doc.documentElement;
+}
+
+module.exports = exports['default'];
+;
+
 var _temp = function () {
   if (typeof __REACT_HOT_LOADER__ === 'undefined') {
     return;
   }
 
+  __REACT_HOT_LOADER__.register(_ownerDocument2, '_ownerDocument2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+
+  __REACT_HOT_LOADER__.register(_style2, '_style2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+
+  __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+
+  __REACT_HOT_LOADER__.register(offsetParent, 'offsetParent', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/offsetParent.js');
+}();
+
+;
+
+/***/ },
+/* 371 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var babelHelpers = __webpack_require__(81);
+
+exports.__esModule = true;
+exports['default'] = position;
+
+var _offset = __webpack_require__(182);
+
+var _offset2 = babelHelpers.interopRequireDefault(_offset);
+
+var _offsetParent = __webpack_require__(370);
+
+var _offsetParent2 = babelHelpers.interopRequireDefault(_offsetParent);
+
+var _scrollTop = __webpack_require__(183);
+
+var _scrollTop2 = babelHelpers.interopRequireDefault(_scrollTop);
+
+var _scrollLeft = __webpack_require__(373);
+
+var _scrollLeft2 = babelHelpers.interopRequireDefault(_scrollLeft);
+
+var _style = __webpack_require__(80);
+
+var _style2 = babelHelpers.interopRequireDefault(_style);
+
+function nodeName(node) {
+  return node.nodeName && node.nodeName.toLowerCase();
+}
+
+function position(node, offsetParent) {
+  var parentOffset = { top: 0, left: 0 },
+      offset;
+
+  // Fixed elements are offset from window (parentOffset = {top:0, left: 0},
+  // because it is its only offset parent
+  if ((0, _style2['default'])(node, 'position') === 'fixed') {
+    offset = node.getBoundingClientRect();
+  } else {
+    offsetParent = offsetParent || (0, _offsetParent2['default'])(node);
+    offset = (0, _offset2['default'])(node);
+
+    if (nodeName(offsetParent) !== 'html') parentOffset = (0, _offset2['default'])(offsetParent);
+
+    parentOffset.top += parseInt((0, _style2['default'])(offsetParent, 'borderTopWidth'), 10) - (0, _scrollTop2['default'])(offsetParent) || 0;
+    parentOffset.left += parseInt((0, _style2['default'])(offsetParent, 'borderLeftWidth'), 10) - (0, _scrollLeft2['default'])(offsetParent) || 0;
+  }
+
+  // Subtract parent offsets and node margins
+  return babelHelpers._extends({}, offset, {
+    top: offset.top - parentOffset.top - (parseInt((0, _style2['default'])(node, 'marginTop'), 10) || 0),
+    left: offset.left - parentOffset.left - (parseInt((0, _style2['default'])(node, 'marginLeft'), 10) || 0)
+  });
+}
+
+module.exports = exports['default'];
+;
+
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(_offset2, '_offset2', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/query/position.js');
 
   __REACT_HOT_LOADER__.register(_offsetParent2, '_offsetParent2', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/query/position.js');
@@ -36873,12 +46535,31 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/query/position.js');
 
   __REACT_HOT_LOADER__.register(position, 'position', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/query/position.js');
+=======
+  __REACT_HOT_LOADER__.register(_offset2, '_offset2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+
+  __REACT_HOT_LOADER__.register(_offsetParent2, '_offsetParent2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+
+  __REACT_HOT_LOADER__.register(_scrollTop2, '_scrollTop2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+
+  __REACT_HOT_LOADER__.register(_scrollLeft2, '_scrollLeft2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+
+  __REACT_HOT_LOADER__.register(_style2, '_style2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+
+  __REACT_HOT_LOADER__.register(nodeName, 'nodeName', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+
+  __REACT_HOT_LOADER__.register(position, 'position', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/position.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 407 */
+=======
+/* 372 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -36917,21 +46598,35 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(simpleSelectorRE, 'simpleSelectorRE', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
 
   __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
+=======
+  __REACT_HOT_LOADER__.register(simpleSelectorRE, 'simpleSelectorRE', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
+
+  __REACT_HOT_LOADER__.register(toArray, 'toArray', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/query/querySelectorAll.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 408 */
+=======
+/* 373 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getWindow = __webpack_require__(88);
+=======
+var getWindow = __webpack_require__(79);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = function scrollTop(node, val) {
   var win = getWindow(node);
@@ -36951,15 +46646,25 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 409 */
+=======
+/* 374 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var babelHelpers = __webpack_require__(90);
 
 var _utilCamelizeStyle = __webpack_require__(203);
+=======
+var babelHelpers = __webpack_require__(81);
+
+var _utilCamelizeStyle = __webpack_require__(184);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _utilCamelizeStyle2 = babelHelpers.interopRequireDefault(_utilCamelizeStyle);
 
@@ -37010,17 +46715,29 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(_utilCamelizeStyle2, '_utilCamelizeStyle2', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
 
   __REACT_HOT_LOADER__.register(rposition, 'rposition', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
 
   __REACT_HOT_LOADER__.register(rnumnonpx, 'rnumnonpx', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+=======
+  __REACT_HOT_LOADER__.register(_utilCamelizeStyle2, '_utilCamelizeStyle2', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+
+  __REACT_HOT_LOADER__.register(rposition, 'rposition', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+
+  __REACT_HOT_LOADER__.register(rnumnonpx, 'rnumnonpx', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/style/getComputedStyle.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 410 */
+=======
+/* 375 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37040,13 +46757,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 411 */
+=======
+/* 376 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var canUseDOM = __webpack_require__(52);
+=======
+var canUseDOM = __webpack_require__(48);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var has = Object.prototype.hasOwnProperty,
     transform = 'transform',
@@ -37107,6 +46832,7 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(has, 'has', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/transition/properties.js');
 
   __REACT_HOT_LOADER__.register(transform, 'transform', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/transition/properties.js');
@@ -37122,12 +46848,33 @@ var _temp = function () {
   __REACT_HOT_LOADER__.register(transitionDelay, 'transitionDelay', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/transition/properties.js');
 
   __REACT_HOT_LOADER__.register(getTransitionProperties, 'getTransitionProperties', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/transition/properties.js');
+=======
+  __REACT_HOT_LOADER__.register(has, 'has', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(transform, 'transform', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(transition, 'transition', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(transitionTiming, 'transitionTiming', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(transitionDuration, 'transitionDuration', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(transitionProperty, 'transitionProperty', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(transitionDelay, 'transitionDelay', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+
+  __REACT_HOT_LOADER__.register(getTransitionProperties, 'getTransitionProperties', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/transition/properties.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 412 */
+=======
+/* 377 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37147,13 +46894,21 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(rHyphen, "rHyphen", "/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/util/camelize.js");
+=======
+  __REACT_HOT_LOADER__.register(rHyphen, "rHyphen", "/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/camelize.js");
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 413 */
+=======
+/* 378 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37171,13 +46926,21 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(rUpper, 'rUpper', '/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/util/hyphenate.js');
+=======
+  __REACT_HOT_LOADER__.register(rUpper, 'rUpper', '/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/hyphenate.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 414 */
+=======
+/* 379 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37189,7 +46952,11 @@ var _temp = function () {
 
 "use strict";
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var hyphenate = __webpack_require__(413);
+=======
+var hyphenate = __webpack_require__(378);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var msPattern = /^ms-/;
 
 module.exports = function hyphenateStyleName(string) {
@@ -37202,13 +46969,21 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(msPattern, "msPattern", "/Users/Rob/hackreactor/ReTok/node_modules/dom-helpers/util/hyphenateStyle.js");
+=======
+  __REACT_HOT_LOADER__.register(msPattern, "msPattern", "/Users/Michael/HR/Thesis/ReTok/node_modules/dom-helpers/util/hyphenateStyle.js");
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 415 */
+=======
+/* 380 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37258,7 +47033,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 416 */
+=======
+/* 381 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37275,7 +47054,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var camelize = __webpack_require__(415);
+=======
+var camelize = __webpack_require__(380);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var msPattern = /^-ms-/;
 
@@ -37316,7 +47099,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 417 */
+=======
+/* 382 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37333,7 +47120,11 @@ var _temp = function () {
  * 
  */
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var isTextNode = __webpack_require__(425);
+=======
+var isTextNode = __webpack_require__(390);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /*eslint-disable no-bitwise */
 
@@ -37372,7 +47163,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 418 */
+=======
+/* 383 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37522,7 +47317,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 419 */
+=======
+/* 384 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37543,8 +47342,13 @@ var _temp = function () {
 
 var ExecutionEnvironment = __webpack_require__(20);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var createArrayFromMixed = __webpack_require__(418);
 var getMarkupWrap = __webpack_require__(420);
+=======
+var createArrayFromMixed = __webpack_require__(383);
+var getMarkupWrap = __webpack_require__(385);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var invariant = __webpack_require__(9);
 
 /**
@@ -37629,7 +47433,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 420 */
+=======
+/* 385 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37757,7 +47565,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 421 */
+=======
+/* 386 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37812,7 +47624,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 422 */
+=======
+/* 387 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37863,7 +47679,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 423 */
+=======
+/* 388 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37880,7 +47700,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var hyphenate = __webpack_require__(422);
+=======
+var hyphenate = __webpack_require__(387);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var msPattern = /^ms-/;
 
@@ -37920,7 +47744,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 424 */
+=======
+/* 389 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -37962,7 +47790,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 425 */
+=======
+/* 390 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37979,7 +47811,11 @@ var _temp = function () {
  * @typechecks
  */
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var isNode = __webpack_require__(424);
+=======
+var isNode = __webpack_require__(389);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @param {*} object The object to check.
@@ -38003,7 +47839,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 426 */
+=======
+/* 391 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -38049,7 +47889,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 427 */
+=======
+/* 392 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38088,7 +47932,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 428 */
+=======
+/* 393 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38105,7 +47953,11 @@ var _temp = function () {
  * @typechecks
  */
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var performance = __webpack_require__(427);
+=======
+var performance = __webpack_require__(392);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var performanceNow;
 
@@ -38138,7 +47990,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 429 */
+=======
+/* 394 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -38215,7 +48071,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 430 */
+=======
+/* 395 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38241,6 +48101,7 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Actions = __webpack_require__(66);
 
 var _PathUtils = __webpack_require__(53);
@@ -38252,6 +48113,19 @@ var _DOMUtils = __webpack_require__(132);
 var _DOMStateStorage = __webpack_require__(208);
 
 var _createDOMHistory = __webpack_require__(209);
+=======
+var _Actions = __webpack_require__(60);
+
+var _PathUtils = __webpack_require__(49);
+
+var _ExecutionEnvironment = __webpack_require__(83);
+
+var _DOMUtils = __webpack_require__(122);
+
+var _DOMStateStorage = __webpack_require__(189);
+
+var _createDOMHistory = __webpack_require__(190);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createDOMHistory2 = _interopRequireDefault(_createDOMHistory);
 
@@ -38431,7 +48305,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 431 */
+=======
+/* 396 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38455,13 +48333,19 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Actions = __webpack_require__(66);
 
 var _PathUtils = __webpack_require__(53);
+=======
+var _Actions = __webpack_require__(60);
+
+var _PathUtils = __webpack_require__(49);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function createLocation() {
   var location = arguments.length <= 0 || arguments[0] === undefined ? '/' : arguments[0];
@@ -38518,7 +48402,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 432 */
+=======
+/* 397 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38542,7 +48430,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _warning = __webpack_require__(35);
+var _warning = __webpack_require__(34);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -38550,11 +48438,19 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PathUtils = __webpack_require__(53);
 
 var _Actions = __webpack_require__(66);
 
 var _createHistory = __webpack_require__(211);
+=======
+var _PathUtils = __webpack_require__(49);
+
+var _Actions = __webpack_require__(60);
+
+var _createHistory = __webpack_require__(192);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createHistory2 = _interopRequireDefault(_createHistory);
 
@@ -38714,11 +48610,15 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 433 */,
 /* 434 */,
 /* 435 */,
 /* 436 */,
 /* 437 */
+=======
+/* 398 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38728,7 +48628,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _overArg = __webpack_require__(438);
+=======
+var _overArg = __webpack_require__(399);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _overArg2 = _interopRequireDefault(_overArg);
 
@@ -38754,7 +48658,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 438 */
+=======
+/* 399 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -38794,7 +48702,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 439 */
+=======
+/* 400 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -38851,8 +48763,12 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 440 */,
 /* 441 */
+=======
+/* 401 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38901,7 +48817,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 442 */
+=======
+/* 402 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -38952,14 +48872,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 443 */,
 /* 444 */
+=======
+/* 403 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var strictUriEncode = __webpack_require__(651);
+=======
+var strictUriEncode = __webpack_require__(594);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 exports.extract = function (str) {
 	return str.split('?')[1] || '';
@@ -39035,16 +48963,24 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 445 */,
 /* 446 */,
 /* 447 */,
 /* 448 */
+=======
+/* 404 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var now = __webpack_require__(441),
+=======
+var now = __webpack_require__(401),
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
     root = typeof window === 'undefined' ? global : window,
     vendors = ['moz', 'webkit'],
     suffix = 'AnimationFrame',
@@ -39146,10 +49082,17 @@ var _temp = function () {
 }();
 
 ;
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(57)))
 
 /***/ },
 /* 449 */
+=======
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(258)))
+
+/***/ },
+/* 405 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39179,7 +49122,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PanelGroup = __webpack_require__(233);
+=======
+var _PanelGroup = __webpack_require__(211);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _PanelGroup2 = _interopRequireDefault(_PanelGroup);
 
@@ -39218,7 +49165,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 450 */
+=======
+/* 406 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39228,7 +49179,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _values = __webpack_require__(59);
+=======
+var _values = __webpack_require__(54);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -39262,7 +49217,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -39355,7 +49310,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 451 */
+=======
+/* 407 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39485,7 +49444,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 452 */
+=======
+/* 408 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39523,7 +49486,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _BreadcrumbItem = __webpack_require__(218);
+=======
+var _BreadcrumbItem = __webpack_require__(196);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _BreadcrumbItem2 = _interopRequireDefault(_BreadcrumbItem);
 
@@ -39583,7 +49550,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 453 */
+=======
+/* 409 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39621,7 +49592,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Button = __webpack_require__(79);
+=======
+var _Button = __webpack_require__(71);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Button2 = _interopRequireDefault(_Button);
 
@@ -39678,7 +49653,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 454 */
+=======
+/* 410 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39716,6 +49695,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _CarouselCaption = __webpack_require__(455);
 
 var _CarouselCaption2 = _interopRequireDefault(_CarouselCaption);
@@ -39725,16 +49705,27 @@ var _CarouselItem = __webpack_require__(220);
 var _CarouselItem2 = _interopRequireDefault(_CarouselItem);
 
 var _Glyphicon = __webpack_require__(138);
+=======
+var _CarouselCaption = __webpack_require__(411);
+
+var _CarouselCaption2 = _interopRequireDefault(_CarouselCaption);
+
+var _CarouselItem = __webpack_require__(198);
+
+var _CarouselItem2 = _interopRequireDefault(_CarouselItem);
+
+var _Glyphicon = __webpack_require__(127);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Glyphicon2 = _interopRequireDefault(_Glyphicon);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -40091,7 +50082,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 455 */
+=======
+/* 411 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40201,7 +50196,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 456 */
+=======
+/* 412 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40239,7 +50238,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -40352,7 +50351,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 457 */
+=======
+/* 413 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40396,11 +50399,15 @@ var _elementType2 = _interopRequireDefault(_elementType);
 
 var _bootstrapUtils = __webpack_require__(8);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _capitalize = __webpack_require__(235);
+=======
+var _capitalize = __webpack_require__(213);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _capitalize2 = _interopRequireDefault(_capitalize);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40510,7 +50517,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 458 */
+=======
+/* 414 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40554,7 +50565,7 @@ var _elementType2 = _interopRequireDefault(_elementType);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -40807,7 +50818,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 459 */
+=======
+/* 415 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40845,7 +50860,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -40939,7 +50954,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 460 */
+=======
+/* 416 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40973,11 +50992,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Dropdown = __webpack_require__(94);
 
 var _Dropdown2 = _interopRequireDefault(_Dropdown);
 
 var _splitComponentProps2 = __webpack_require__(96);
+=======
+var _Dropdown = __webpack_require__(85);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+var _splitComponentProps2 = __webpack_require__(87);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
@@ -41054,7 +51081,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 461 */
+=======
+/* 417 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41072,7 +51103,11 @@ var _objectWithoutProperties2 = __webpack_require__(6);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _from = __webpack_require__(348);
+=======
+var _from = __webpack_require__(314);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _from2 = _interopRequireDefault(_from);
 
@@ -41092,7 +51127,11 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _keycode = __webpack_require__(135);
+=======
+var _keycode = __webpack_require__(125);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _keycode2 = _interopRequireDefault(_keycode);
 
@@ -41104,7 +51143,11 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RootCloseWrapper = __webpack_require__(237);
+=======
+var _RootCloseWrapper = __webpack_require__(215);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _RootCloseWrapper2 = _interopRequireDefault(_RootCloseWrapper);
 
@@ -41114,7 +51157,7 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -41272,7 +51315,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 462 */
+=======
+/* 418 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41394,7 +51441,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 463 */
+=======
+/* 419 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41436,15 +51487,23 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _FormControlFeedback = __webpack_require__(464);
 
 var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
 
 var _FormControlStatic = __webpack_require__(465);
+=======
+var _FormControlFeedback = __webpack_require__(420);
+
+var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
+
+var _FormControlStatic = __webpack_require__(421);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
 
@@ -41549,7 +51608,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 464 */
+=======
+/* 420 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41587,7 +51650,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Glyphicon = __webpack_require__(138);
+=======
+var _Glyphicon = __webpack_require__(127);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Glyphicon2 = _interopRequireDefault(_Glyphicon);
 
@@ -41689,7 +51756,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 465 */
+=======
+/* 421 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41799,7 +51870,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 466 */
+=======
+/* 422 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41839,9 +51914,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -41942,7 +52017,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 467 */
+=======
+/* 423 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42032,7 +52111,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 468 */
+=======
+/* 424 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42164,7 +52247,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 469 */
+=======
+/* 425 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42202,17 +52289,25 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _InputGroupAddon = __webpack_require__(470);
 
 var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
 
 var _InputGroupButton = __webpack_require__(471);
+=======
+var _InputGroupAddon = __webpack_require__(426);
+
+var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
+
+var _InputGroupButton = __webpack_require__(427);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _InputGroupButton2 = _interopRequireDefault(_InputGroupButton);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42267,7 +52362,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 470 */
+=======
+/* 426 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42357,7 +52456,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 471 */
+=======
+/* 427 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42447,7 +52550,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 472 */
+=======
+/* 428 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42557,7 +52664,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 473 */
+=======
+/* 429 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42567,7 +52678,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _values = __webpack_require__(59);
+=======
+var _values = __webpack_require__(54);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -42601,7 +52716,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -42674,7 +52789,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 474 */
+=======
+/* 430 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42716,13 +52835,17 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ListGroupItem = __webpack_require__(223);
+=======
+var _ListGroupItem = __webpack_require__(201);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ListGroupItem2 = _interopRequireDefault(_ListGroupItem);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -42816,7 +52939,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 475 */
+=======
+/* 431 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42926,7 +53053,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 476 */
+=======
+/* 432 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43036,7 +53167,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 477 */
+=======
+/* 433 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43074,7 +53209,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Media = __webpack_require__(139);
+=======
+var _Media = __webpack_require__(128);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Media2 = _interopRequireDefault(_Media);
 
@@ -43147,7 +53286,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 478 */
+=======
+/* 434 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43237,7 +53380,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 479 */
+=======
+/* 435 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43327,7 +53474,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 480 */
+=======
+/* 436 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43365,7 +53516,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Media = __webpack_require__(139);
+=======
+var _Media = __webpack_require__(128);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Media2 = _interopRequireDefault(_Media);
 
@@ -43438,7 +53593,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 481 */
+=======
+/* 437 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43476,11 +53635,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _all = __webpack_require__(97);
+=======
+var _all = __webpack_require__(89);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _all2 = _interopRequireDefault(_all);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -43656,7 +53819,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 482 */
+=======
+/* 438 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43690,6 +53857,7 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _events = __webpack_require__(404);
 
 var _events2 = _interopRequireDefault(_events);
@@ -43703,6 +53871,21 @@ var _inDOM = __webpack_require__(52);
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
 var _scrollbarSize = __webpack_require__(204);
+=======
+var _events = __webpack_require__(369);
+
+var _events2 = _interopRequireDefault(_events);
+
+var _ownerDocument = __webpack_require__(59);
+
+var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
+
+var _inDOM = __webpack_require__(48);
+
+var _inDOM2 = _interopRequireDefault(_inDOM);
+
+var _scrollbarSize = __webpack_require__(185);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _scrollbarSize2 = _interopRequireDefault(_scrollbarSize);
 
@@ -43714,11 +53897,19 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Modal = __webpack_require__(529);
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
 var _isOverflowing = __webpack_require__(240);
+=======
+var _Modal = __webpack_require__(485);
+
+var _Modal2 = _interopRequireDefault(_Modal);
+
+var _isOverflowing = __webpack_require__(218);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _isOverflowing2 = _interopRequireDefault(_isOverflowing);
 
@@ -43726,6 +53917,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Fade = __webpack_require__(95);
 
 var _Fade2 = _interopRequireDefault(_Fade);
@@ -43747,6 +53939,29 @@ var _ModalHeader = __webpack_require__(226);
 var _ModalHeader2 = _interopRequireDefault(_ModalHeader);
 
 var _ModalTitle = __webpack_require__(227);
+=======
+var _Fade = __webpack_require__(86);
+
+var _Fade2 = _interopRequireDefault(_Fade);
+
+var _ModalBody = __webpack_require__(202);
+
+var _ModalBody2 = _interopRequireDefault(_ModalBody);
+
+var _ModalDialog = __webpack_require__(439);
+
+var _ModalDialog2 = _interopRequireDefault(_ModalDialog);
+
+var _ModalFooter = __webpack_require__(203);
+
+var _ModalFooter2 = _interopRequireDefault(_ModalFooter);
+
+var _ModalHeader = __webpack_require__(204);
+
+var _ModalHeader2 = _interopRequireDefault(_ModalHeader);
+
+var _ModalTitle = __webpack_require__(205);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ModalTitle2 = _interopRequireDefault(_ModalTitle);
 
@@ -43756,11 +53971,15 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _splitComponentProps2 = __webpack_require__(96);
+=======
+var _splitComponentProps2 = __webpack_require__(87);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -44021,7 +54240,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 483 */
+=======
+/* 439 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44061,7 +54284,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -44136,7 +54359,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 484 */
+=======
+/* 440 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44174,15 +54401,23 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Dropdown = __webpack_require__(94);
 
 var _Dropdown2 = _interopRequireDefault(_Dropdown);
 
 var _splitComponentProps2 = __webpack_require__(96);
+=======
+var _Dropdown = __webpack_require__(85);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+var _splitComponentProps2 = __webpack_require__(87);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -44289,7 +54524,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 485 */
+=======
+/* 441 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44331,6 +54570,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _uncontrollable = __webpack_require__(109);
 
 var _uncontrollable2 = _interopRequireDefault(_uncontrollable);
@@ -44352,12 +54592,35 @@ var _NavbarHeader = __webpack_require__(487);
 var _NavbarHeader2 = _interopRequireDefault(_NavbarHeader);
 
 var _NavbarToggle = __webpack_require__(488);
+=======
+var _uncontrollable = __webpack_require__(101);
+
+var _uncontrollable2 = _interopRequireDefault(_uncontrollable);
+
+var _Grid = __webpack_require__(200);
+
+var _Grid2 = _interopRequireDefault(_Grid);
+
+var _NavbarBrand = __webpack_require__(208);
+
+var _NavbarBrand2 = _interopRequireDefault(_NavbarBrand);
+
+var _NavbarCollapse = __webpack_require__(442);
+
+var _NavbarCollapse2 = _interopRequireDefault(_NavbarCollapse);
+
+var _NavbarHeader = __webpack_require__(443);
+
+var _NavbarHeader2 = _interopRequireDefault(_NavbarHeader);
+
+var _NavbarToggle = __webpack_require__(444);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _NavbarToggle2 = _interopRequireDefault(_NavbarToggle);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -44590,7 +54853,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 486 */
+=======
+/* 442 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44624,7 +54891,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Collapse = __webpack_require__(137);
+=======
+var _Collapse = __webpack_require__(126);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Collapse2 = _interopRequireDefault(_Collapse);
 
@@ -44685,7 +54956,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 487 */
+=======
+/* 443 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44779,7 +55054,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 488 */
+=======
+/* 444 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44901,7 +55180,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 489 */
+=======
+/* 445 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44931,7 +55214,11 @@ var _extends2 = __webpack_require__(5);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _contains = __webpack_require__(65);
+=======
+var _contains = __webpack_require__(69);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _contains2 = _interopRequireDefault(_contains);
 
@@ -44943,11 +55230,15 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Overlay = __webpack_require__(231);
+=======
+var _Overlay = __webpack_require__(209);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
@@ -45273,7 +55564,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 490 */
+=======
+/* 446 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45364,7 +55659,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 491 */
+=======
+/* 447 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45374,11 +55673,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PagerItem = __webpack_require__(232);
 
 var _PagerItem2 = _interopRequireDefault(_PagerItem);
 
 var _deprecationWarning = __webpack_require__(512);
+=======
+var _PagerItem = __webpack_require__(210);
+
+var _PagerItem2 = _interopRequireDefault(_PagerItem);
+
+var _deprecationWarning = __webpack_require__(468);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _deprecationWarning2 = _interopRequireDefault(_deprecationWarning);
 
@@ -45400,7 +55707,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 492 */
+=======
+/* 448 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45438,7 +55749,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PagerItem = __webpack_require__(232);
+=======
+var _PagerItem = __webpack_require__(210);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _PagerItem2 = _interopRequireDefault(_PagerItem);
 
@@ -45448,7 +55763,7 @@ var _createChainedFunction = __webpack_require__(22);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -45518,7 +55833,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 493 */
+=======
+/* 449 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45560,7 +55879,11 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PaginationButton = __webpack_require__(494);
+=======
+var _PaginationButton = __webpack_require__(450);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _PaginationButton2 = _interopRequireDefault(_PaginationButton);
 
@@ -45778,7 +56101,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 494 */
+=======
+/* 450 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45820,7 +56147,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -45931,7 +56258,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 495 */
+=======
+/* 451 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45941,7 +56272,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _values = __webpack_require__(59);
+=======
+var _values = __webpack_require__(54);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -45973,13 +56308,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Collapse = __webpack_require__(137);
+=======
+var _Collapse = __webpack_require__(126);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Collapse2 = _interopRequireDefault(_Collapse);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -46188,7 +56527,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 496 */
+=======
+/* 452 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46226,7 +56569,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isRequiredForA11y = __webpack_require__(98);
+=======
+var _isRequiredForA11y = __webpack_require__(90);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _isRequiredForA11y2 = _interopRequireDefault(_isRequiredForA11y);
 
@@ -46353,7 +56700,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 497 */
+=======
+/* 453 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46363,7 +56714,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _values = __webpack_require__(59);
+=======
+var _values = __webpack_require__(54);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _values2 = _interopRequireDefault(_values);
 
@@ -46397,9 +56752,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -46575,7 +56930,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 498 */
+=======
+/* 454 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46613,7 +56972,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -46726,7 +57085,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 499 */
+=======
+/* 455 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46764,7 +57127,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -46858,7 +57221,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 500 */
+=======
+/* 456 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46968,7 +57335,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 501 */
+=======
+/* 457 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47002,6 +57373,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Button = __webpack_require__(79);
 
 var _Button2 = _interopRequireDefault(_Button);
@@ -47015,6 +57387,21 @@ var _SplitToggle = __webpack_require__(502);
 var _SplitToggle2 = _interopRequireDefault(_SplitToggle);
 
 var _splitComponentProps2 = __webpack_require__(96);
+=======
+var _Button = __webpack_require__(71);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _Dropdown = __webpack_require__(85);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+var _SplitToggle = __webpack_require__(458);
+
+var _SplitToggle2 = _interopRequireDefault(_SplitToggle);
+
+var _splitComponentProps2 = __webpack_require__(87);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
@@ -47107,7 +57494,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 502 */
+=======
+/* 458 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47137,7 +57528,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _DropdownToggle = __webpack_require__(221);
+=======
+var _DropdownToggle = __webpack_require__(199);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _DropdownToggle2 = _interopRequireDefault(_DropdownToggle);
 
@@ -47181,7 +57576,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 503 */
+=======
+/* 459 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47211,6 +57610,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _TabContainer = __webpack_require__(140);
 
 var _TabContainer2 = _interopRequireDefault(_TabContainer);
@@ -47220,6 +57620,17 @@ var _TabContent = __webpack_require__(141);
 var _TabContent2 = _interopRequireDefault(_TabContent);
 
 var _TabPane = __webpack_require__(234);
+=======
+var _TabContainer = __webpack_require__(129);
+
+var _TabContainer2 = _interopRequireDefault(_TabContainer);
+
+var _TabContent = __webpack_require__(130);
+
+var _TabContent2 = _interopRequireDefault(_TabContent);
+
+var _TabPane = __webpack_require__(212);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _TabPane2 = _interopRequireDefault(_TabPane);
 
@@ -47285,7 +57696,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 504 */
+=======
+/* 460 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47411,7 +57826,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 505 */
+=======
+/* 461 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47445,6 +57864,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isRequiredForA11y = __webpack_require__(98);
 
 var _isRequiredForA11y2 = _interopRequireDefault(_isRequiredForA11y);
@@ -47466,12 +57886,35 @@ var _TabContainer = __webpack_require__(140);
 var _TabContainer2 = _interopRequireDefault(_TabContainer);
 
 var _TabContent = __webpack_require__(141);
+=======
+var _isRequiredForA11y = __webpack_require__(90);
+
+var _isRequiredForA11y2 = _interopRequireDefault(_isRequiredForA11y);
+
+var _uncontrollable = __webpack_require__(101);
+
+var _uncontrollable2 = _interopRequireDefault(_uncontrollable);
+
+var _Nav = __webpack_require__(206);
+
+var _Nav2 = _interopRequireDefault(_Nav);
+
+var _NavItem = __webpack_require__(207);
+
+var _NavItem2 = _interopRequireDefault(_NavItem);
+
+var _TabContainer = __webpack_require__(129);
+
+var _TabContainer2 = _interopRequireDefault(_TabContainer);
+
+var _TabContent = __webpack_require__(130);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _TabContent2 = _interopRequireDefault(_TabContent);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -47624,7 +58067,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 506 */
+=======
+/* 462 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47662,7 +58109,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _SafeAnchor = __webpack_require__(36);
+var _SafeAnchor = __webpack_require__(35);
 
 var _SafeAnchor2 = _interopRequireDefault(_SafeAnchor);
 
@@ -47732,7 +58179,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 507 */
+=======
+/* 463 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47770,7 +58221,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isRequiredForA11y = __webpack_require__(98);
+=======
+var _isRequiredForA11y = __webpack_require__(90);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _isRequiredForA11y2 = _interopRequireDefault(_isRequiredForA11y);
 
@@ -47890,7 +58345,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 508 */
+=======
+/* 464 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47930,7 +58389,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _bootstrapUtils = __webpack_require__(8);
 
-var _StyleConfig = __webpack_require__(24);
+var _StyleConfig = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -47982,7 +58441,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 509 */
+=======
+/* 465 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47993,6 +58456,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.utils = exports.Well = exports.Tooltip = exports.Thumbnail = exports.Tabs = exports.TabPane = exports.Table = exports.TabContent = exports.TabContainer = exports.Tab = exports.SplitButton = exports.SafeAnchor = exports.Row = exports.ResponsiveEmbed = exports.Radio = exports.ProgressBar = exports.Popover = exports.PanelGroup = exports.Panel = exports.Pagination = exports.Pager = exports.PageItem = exports.PageHeader = exports.OverlayTrigger = exports.Overlay = exports.NavItem = exports.NavDropdown = exports.NavbarBrand = exports.Navbar = exports.Nav = exports.ModalTitle = exports.ModalHeader = exports.ModalFooter = exports.ModalBody = exports.Modal = exports.MenuItem = exports.Media = exports.ListGroupItem = exports.ListGroup = exports.Label = exports.Jumbotron = exports.InputGroup = exports.Image = exports.HelpBlock = exports.Grid = exports.Glyphicon = exports.FormGroup = exports.FormControl = exports.Form = exports.Fade = exports.DropdownButton = exports.Dropdown = exports.Collapse = exports.Col = exports.ControlLabel = exports.Clearfix = exports.Checkbox = exports.CarouselItem = exports.Carousel = exports.ButtonToolbar = exports.ButtonGroup = exports.Button = exports.BreadcrumbItem = exports.Breadcrumb = exports.Badge = exports.Alert = exports.Accordion = undefined;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Accordion2 = __webpack_require__(449);
 
 var _Accordion3 = _interopRequireDefault(_Accordion2);
@@ -48210,13 +58674,233 @@ var _ResponsiveEmbed2 = __webpack_require__(499);
 var _ResponsiveEmbed3 = _interopRequireDefault(_ResponsiveEmbed2);
 
 var _Row2 = __webpack_require__(500);
+=======
+var _Accordion2 = __webpack_require__(405);
+
+var _Accordion3 = _interopRequireDefault(_Accordion2);
+
+var _Alert2 = __webpack_require__(406);
+
+var _Alert3 = _interopRequireDefault(_Alert2);
+
+var _Badge2 = __webpack_require__(407);
+
+var _Badge3 = _interopRequireDefault(_Badge2);
+
+var _Breadcrumb2 = __webpack_require__(408);
+
+var _Breadcrumb3 = _interopRequireDefault(_Breadcrumb2);
+
+var _BreadcrumbItem2 = __webpack_require__(196);
+
+var _BreadcrumbItem3 = _interopRequireDefault(_BreadcrumbItem2);
+
+var _Button2 = __webpack_require__(71);
+
+var _Button3 = _interopRequireDefault(_Button2);
+
+var _ButtonGroup2 = __webpack_require__(197);
+
+var _ButtonGroup3 = _interopRequireDefault(_ButtonGroup2);
+
+var _ButtonToolbar2 = __webpack_require__(409);
+
+var _ButtonToolbar3 = _interopRequireDefault(_ButtonToolbar2);
+
+var _Carousel2 = __webpack_require__(410);
+
+var _Carousel3 = _interopRequireDefault(_Carousel2);
+
+var _CarouselItem2 = __webpack_require__(198);
+
+var _CarouselItem3 = _interopRequireDefault(_CarouselItem2);
+
+var _Checkbox2 = __webpack_require__(412);
+
+var _Checkbox3 = _interopRequireDefault(_Checkbox2);
+
+var _Clearfix2 = __webpack_require__(413);
+
+var _Clearfix3 = _interopRequireDefault(_Clearfix2);
+
+var _ControlLabel2 = __webpack_require__(415);
+
+var _ControlLabel3 = _interopRequireDefault(_ControlLabel2);
+
+var _Col2 = __webpack_require__(414);
+
+var _Col3 = _interopRequireDefault(_Col2);
+
+var _Collapse2 = __webpack_require__(126);
+
+var _Collapse3 = _interopRequireDefault(_Collapse2);
+
+var _Dropdown2 = __webpack_require__(85);
+
+var _Dropdown3 = _interopRequireDefault(_Dropdown2);
+
+var _DropdownButton2 = __webpack_require__(416);
+
+var _DropdownButton3 = _interopRequireDefault(_DropdownButton2);
+
+var _Fade2 = __webpack_require__(86);
+
+var _Fade3 = _interopRequireDefault(_Fade2);
+
+var _Form2 = __webpack_require__(418);
+
+var _Form3 = _interopRequireDefault(_Form2);
+
+var _FormControl2 = __webpack_require__(419);
+
+var _FormControl3 = _interopRequireDefault(_FormControl2);
+
+var _FormGroup2 = __webpack_require__(422);
+
+var _FormGroup3 = _interopRequireDefault(_FormGroup2);
+
+var _Glyphicon2 = __webpack_require__(127);
+
+var _Glyphicon3 = _interopRequireDefault(_Glyphicon2);
+
+var _Grid2 = __webpack_require__(200);
+
+var _Grid3 = _interopRequireDefault(_Grid2);
+
+var _HelpBlock2 = __webpack_require__(423);
+
+var _HelpBlock3 = _interopRequireDefault(_HelpBlock2);
+
+var _Image2 = __webpack_require__(424);
+
+var _Image3 = _interopRequireDefault(_Image2);
+
+var _InputGroup2 = __webpack_require__(425);
+
+var _InputGroup3 = _interopRequireDefault(_InputGroup2);
+
+var _Jumbotron2 = __webpack_require__(428);
+
+var _Jumbotron3 = _interopRequireDefault(_Jumbotron2);
+
+var _Label2 = __webpack_require__(429);
+
+var _Label3 = _interopRequireDefault(_Label2);
+
+var _ListGroup2 = __webpack_require__(430);
+
+var _ListGroup3 = _interopRequireDefault(_ListGroup2);
+
+var _ListGroupItem2 = __webpack_require__(201);
+
+var _ListGroupItem3 = _interopRequireDefault(_ListGroupItem2);
+
+var _Media2 = __webpack_require__(128);
+
+var _Media3 = _interopRequireDefault(_Media2);
+
+var _MenuItem2 = __webpack_require__(437);
+
+var _MenuItem3 = _interopRequireDefault(_MenuItem2);
+
+var _Modal2 = __webpack_require__(438);
+
+var _Modal3 = _interopRequireDefault(_Modal2);
+
+var _ModalBody2 = __webpack_require__(202);
+
+var _ModalBody3 = _interopRequireDefault(_ModalBody2);
+
+var _ModalFooter2 = __webpack_require__(203);
+
+var _ModalFooter3 = _interopRequireDefault(_ModalFooter2);
+
+var _ModalHeader2 = __webpack_require__(204);
+
+var _ModalHeader3 = _interopRequireDefault(_ModalHeader2);
+
+var _ModalTitle2 = __webpack_require__(205);
+
+var _ModalTitle3 = _interopRequireDefault(_ModalTitle2);
+
+var _Nav2 = __webpack_require__(206);
+
+var _Nav3 = _interopRequireDefault(_Nav2);
+
+var _Navbar2 = __webpack_require__(441);
+
+var _Navbar3 = _interopRequireDefault(_Navbar2);
+
+var _NavbarBrand2 = __webpack_require__(208);
+
+var _NavbarBrand3 = _interopRequireDefault(_NavbarBrand2);
+
+var _NavDropdown2 = __webpack_require__(440);
+
+var _NavDropdown3 = _interopRequireDefault(_NavDropdown2);
+
+var _NavItem2 = __webpack_require__(207);
+
+var _NavItem3 = _interopRequireDefault(_NavItem2);
+
+var _Overlay2 = __webpack_require__(209);
+
+var _Overlay3 = _interopRequireDefault(_Overlay2);
+
+var _OverlayTrigger2 = __webpack_require__(445);
+
+var _OverlayTrigger3 = _interopRequireDefault(_OverlayTrigger2);
+
+var _PageHeader2 = __webpack_require__(446);
+
+var _PageHeader3 = _interopRequireDefault(_PageHeader2);
+
+var _PageItem2 = __webpack_require__(447);
+
+var _PageItem3 = _interopRequireDefault(_PageItem2);
+
+var _Pager2 = __webpack_require__(448);
+
+var _Pager3 = _interopRequireDefault(_Pager2);
+
+var _Pagination2 = __webpack_require__(449);
+
+var _Pagination3 = _interopRequireDefault(_Pagination2);
+
+var _Panel2 = __webpack_require__(451);
+
+var _Panel3 = _interopRequireDefault(_Panel2);
+
+var _PanelGroup2 = __webpack_require__(211);
+
+var _PanelGroup3 = _interopRequireDefault(_PanelGroup2);
+
+var _Popover2 = __webpack_require__(452);
+
+var _Popover3 = _interopRequireDefault(_Popover2);
+
+var _ProgressBar2 = __webpack_require__(453);
+
+var _ProgressBar3 = _interopRequireDefault(_ProgressBar2);
+
+var _Radio2 = __webpack_require__(454);
+
+var _Radio3 = _interopRequireDefault(_Radio2);
+
+var _ResponsiveEmbed2 = __webpack_require__(455);
+
+var _ResponsiveEmbed3 = _interopRequireDefault(_ResponsiveEmbed2);
+
+var _Row2 = __webpack_require__(456);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Row3 = _interopRequireDefault(_Row2);
 
-var _SafeAnchor2 = __webpack_require__(36);
+var _SafeAnchor2 = __webpack_require__(35);
 
 var _SafeAnchor3 = _interopRequireDefault(_SafeAnchor2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _SplitButton2 = __webpack_require__(501);
 
 var _SplitButton3 = _interopRequireDefault(_SplitButton2);
@@ -48258,6 +58942,49 @@ var _Well2 = __webpack_require__(508);
 var _Well3 = _interopRequireDefault(_Well2);
 
 var _utils2 = __webpack_require__(513);
+=======
+var _SplitButton2 = __webpack_require__(457);
+
+var _SplitButton3 = _interopRequireDefault(_SplitButton2);
+
+var _Tab2 = __webpack_require__(459);
+
+var _Tab3 = _interopRequireDefault(_Tab2);
+
+var _TabContainer2 = __webpack_require__(129);
+
+var _TabContainer3 = _interopRequireDefault(_TabContainer2);
+
+var _TabContent2 = __webpack_require__(130);
+
+var _TabContent3 = _interopRequireDefault(_TabContent2);
+
+var _Table2 = __webpack_require__(460);
+
+var _Table3 = _interopRequireDefault(_Table2);
+
+var _TabPane2 = __webpack_require__(212);
+
+var _TabPane3 = _interopRequireDefault(_TabPane2);
+
+var _Tabs2 = __webpack_require__(461);
+
+var _Tabs3 = _interopRequireDefault(_Tabs2);
+
+var _Thumbnail2 = __webpack_require__(462);
+
+var _Thumbnail3 = _interopRequireDefault(_Thumbnail2);
+
+var _Tooltip2 = __webpack_require__(463);
+
+var _Tooltip3 = _interopRequireDefault(_Tooltip2);
+
+var _Well2 = __webpack_require__(464);
+
+var _Well3 = _interopRequireDefault(_Well2);
+
+var _utils2 = __webpack_require__(469);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _utils = _interopRequireWildcard(_utils2);
 
@@ -48343,7 +59070,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 510 */
+=======
+/* 466 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48355,11 +59086,15 @@ Object.defineProperty(exports, "__esModule", {
 exports.requiredRoles = requiredRoles;
 exports.exclusiveRoles = exclusiveRoles;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createChainableTypeChecker = __webpack_require__(99);
+=======
+var _createChainableTypeChecker = __webpack_require__(91);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createChainableTypeChecker2 = _interopRequireDefault(_createChainableTypeChecker);
 
-var _ValidComponentChildren = __webpack_require__(26);
+var _ValidComponentChildren = __webpack_require__(25);
 
 var _ValidComponentChildren2 = _interopRequireDefault(_ValidComponentChildren);
 
@@ -48435,7 +59170,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 511 */
+=======
+/* 467 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -48581,7 +59320,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 512 */
+=======
+/* 468 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48604,11 +59347,15 @@ var _inherits2 = __webpack_require__(3);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _typeof2 = __webpack_require__(113);
+=======
+var _typeof2 = __webpack_require__(104);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -48694,7 +59441,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 513 */
+=======
+/* 469 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48713,7 +59464,7 @@ var _createChainedFunction2 = __webpack_require__(22);
 
 var _createChainedFunction3 = _interopRequireDefault(_createChainedFunction2);
 
-var _ValidComponentChildren2 = __webpack_require__(26);
+var _ValidComponentChildren2 = __webpack_require__(25);
 
 var _ValidComponentChildren3 = _interopRequireDefault(_ValidComponentChildren2);
 
@@ -48735,7 +59486,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 514 */
+=======
+/* 470 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48836,7 +59591,11 @@ function renderThumbVerticalDefault(_ref4) {
 }
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 515 */
+=======
+/* 471 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48856,16 +59615,25 @@ var _extends = Object.assign || function (target) {
     }return target;
 };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _raf2 = __webpack_require__(448);
 
 var _raf3 = _interopRequireDefault(_raf2);
 
 var _domCss = __webpack_require__(197);
+=======
+var _raf2 = __webpack_require__(404);
+
+var _raf3 = _interopRequireDefault(_raf2);
+
+var _domCss = __webpack_require__(178);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _domCss2 = _interopRequireDefault(_domCss);
 
 var _react = __webpack_require__(0);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _isString = __webpack_require__(520);
 
 var _isString2 = _interopRequireDefault(_isString);
@@ -48889,6 +59657,31 @@ var _getInnerHeight2 = _interopRequireDefault(_getInnerHeight);
 var _styles = __webpack_require__(516);
 
 var _defaultRenderElements = __webpack_require__(514);
+=======
+var _isString = __webpack_require__(476);
+
+var _isString2 = _interopRequireDefault(_isString);
+
+var _getScrollbarWidth = __webpack_require__(475);
+
+var _getScrollbarWidth2 = _interopRequireDefault(_getScrollbarWidth);
+
+var _returnFalse = __webpack_require__(477);
+
+var _returnFalse2 = _interopRequireDefault(_returnFalse);
+
+var _getInnerWidth = __webpack_require__(474);
+
+var _getInnerWidth2 = _interopRequireDefault(_getInnerWidth);
+
+var _getInnerHeight = __webpack_require__(473);
+
+var _getInnerHeight2 = _interopRequireDefault(_getInnerHeight);
+
+var _styles = __webpack_require__(472);
+
+var _defaultRenderElements = __webpack_require__(470);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : { "default": obj };
@@ -49511,7 +60304,11 @@ exports["default"] = (0, _react.createClass)({
 });
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 516 */
+=======
+/* 472 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49588,7 +60385,11 @@ var disableSelectStyleReset = exports.disableSelectStyleReset = {
 };
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 517 */
+=======
+/* 473 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49610,7 +60411,11 @@ function getInnerHeight(el) {
 }
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 518 */
+=======
+/* 474 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49632,7 +60437,11 @@ function getInnerWidth(el) {
 }
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 519 */
+=======
+/* 475 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49643,7 +60452,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports["default"] = getScrollbarWidth;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _domCss = __webpack_require__(197);
+=======
+var _domCss = __webpack_require__(178);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _domCss2 = _interopRequireDefault(_domCss);
 
@@ -49676,7 +60489,11 @@ function getScrollbarWidth() {
 }
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 520 */
+=======
+/* 476 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49691,7 +60508,11 @@ function isString(maybe) {
 }
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 521 */
+=======
+/* 477 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49706,7 +60527,11 @@ function returnFalse() {
 }
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 522 */
+=======
+/* 478 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49797,7 +60622,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 523 */
+=======
+/* 479 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -49821,7 +60650,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 524 */
+=======
+/* 480 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49835,11 +60668,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _emojioneSprite = __webpack_require__(528);
 
 var _emojioneSprite2 = _interopRequireDefault(_emojioneSprite);
 
 var _emojiFormatConversion = __webpack_require__(142);
+=======
+var _emojioneSprite = __webpack_require__(484);
+
+var _emojioneSprite2 = _interopRequireDefault(_emojioneSprite);
+
+var _emojiFormatConversion = __webpack_require__(131);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : { default: obj };
@@ -49892,7 +60733,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 525 */
+=======
+/* 481 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49902,11 +60747,19 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _emojiRenderer = __webpack_require__(524);
 
 var _emojiRenderer2 = _interopRequireDefault(_emojiRenderer);
 
 var _unicodeRenderer = __webpack_require__(526);
+=======
+var _emojiRenderer = __webpack_require__(480);
+
+var _emojiRenderer2 = _interopRequireDefault(_emojiRenderer);
+
+var _unicodeRenderer = __webpack_require__(482);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _unicodeRenderer2 = _interopRequireDefault(_unicodeRenderer);
 
@@ -49946,7 +60799,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 526 */
+=======
+/* 482 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49956,7 +60813,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _emojiFormatConversion = __webpack_require__(142);
+=======
+var _emojiFormatConversion = __webpack_require__(131);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var getRenderer = function getRenderer() {
   return function (codepoint) {
@@ -49978,7 +60839,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 527 */
+=======
+/* 483 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -51264,7 +62129,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 528 */
+=======
+/* 484 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51275,7 +62144,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.sprite = undefined;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _emojioneSpritePositions = __webpack_require__(527);
+=======
+var _emojioneSpritePositions = __webpack_require__(483);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _emojioneSpritePositions2 = _interopRequireDefault(_emojioneSpritePositions);
 
@@ -51330,7 +62203,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 529 */
+=======
+/* 485 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51354,11 +62231,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _warning = __webpack_require__(29);
+var _warning = __webpack_require__(28);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _componentOrElement = __webpack_require__(144);
+=======
+var _componentOrElement = __webpack_require__(133);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
@@ -51366,6 +62247,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Portal = __webpack_require__(236);
 
 var _Portal2 = _interopRequireDefault(_Portal);
@@ -51399,6 +62281,41 @@ var _contains = __webpack_require__(65);
 var _contains2 = _interopRequireDefault(_contains);
 
 var _getContainer = __webpack_require__(143);
+=======
+var _Portal = __webpack_require__(214);
+
+var _Portal2 = _interopRequireDefault(_Portal);
+
+var _ModalManager = __webpack_require__(486);
+
+var _ModalManager2 = _interopRequireDefault(_ModalManager);
+
+var _ownerDocument = __webpack_require__(72);
+
+var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
+
+var _addEventListener = __webpack_require__(217);
+
+var _addEventListener2 = _interopRequireDefault(_addEventListener);
+
+var _addFocusListener = __webpack_require__(489);
+
+var _addFocusListener2 = _interopRequireDefault(_addFocusListener);
+
+var _inDOM = __webpack_require__(48);
+
+var _inDOM2 = _interopRequireDefault(_inDOM);
+
+var _activeElement = __webpack_require__(179);
+
+var _activeElement2 = _interopRequireDefault(_activeElement);
+
+var _contains = __webpack_require__(69);
+
+var _contains2 = _interopRequireDefault(_contains);
+
+var _getContainer = __webpack_require__(132);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
@@ -51893,7 +62810,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 530 */
+=======
+/* 486 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51913,6 +62834,7 @@ var _createClass = function () {
   };
 }();
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _style = __webpack_require__(89);
 
 var _style2 = _interopRequireDefault(_style);
@@ -51926,10 +62848,25 @@ var _scrollbarSize = __webpack_require__(204);
 var _scrollbarSize2 = _interopRequireDefault(_scrollbarSize);
 
 var _isOverflowing = __webpack_require__(240);
+=======
+var _style = __webpack_require__(80);
+
+var _style2 = _interopRequireDefault(_style);
+
+var _class = __webpack_require__(366);
+
+var _class2 = _interopRequireDefault(_class);
+
+var _scrollbarSize = __webpack_require__(185);
+
+var _scrollbarSize2 = _interopRequireDefault(_scrollbarSize);
+
+var _isOverflowing = __webpack_require__(218);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _isOverflowing2 = _interopRequireDefault(_isOverflowing);
 
-var _manageAriaHidden = __webpack_require__(535);
+var _manageAriaHidden = __webpack_require__(492);
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -52132,7 +63069,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 531 */
+=======
+/* 487 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52168,6 +63109,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Portal = __webpack_require__(236);
 
 var _Portal2 = _interopRequireDefault(_Portal);
@@ -52177,6 +63119,17 @@ var _Position = __webpack_require__(532);
 var _Position2 = _interopRequireDefault(_Position);
 
 var _RootCloseWrapper = __webpack_require__(237);
+=======
+var _Portal = __webpack_require__(214);
+
+var _Portal2 = _interopRequireDefault(_Portal);
+
+var _Position = __webpack_require__(488);
+
+var _Position2 = _interopRequireDefault(_Position);
+
+var _RootCloseWrapper = __webpack_require__(215);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _RootCloseWrapper2 = _interopRequireDefault(_RootCloseWrapper);
 
@@ -52420,7 +63373,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 532 */
+=======
+/* 488 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52464,6 +63421,7 @@ var _reactDom = __webpack_require__(11);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _componentOrElement = __webpack_require__(144);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
@@ -52477,6 +63435,21 @@ var _getContainer = __webpack_require__(143);
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
 var _ownerDocument = __webpack_require__(80);
+=======
+var _componentOrElement = __webpack_require__(133);
+
+var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
+
+var _calculatePosition = __webpack_require__(490);
+
+var _calculatePosition2 = _interopRequireDefault(_calculatePosition);
+
+var _getContainer = __webpack_require__(132);
+
+var _getContainer2 = _interopRequireDefault(_getContainer);
+
+var _ownerDocument = __webpack_require__(72);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -52712,7 +63685,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 533 */
+=======
+/* 489 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -52760,7 +63737,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 534 */
+=======
+/* 490 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52771,6 +63752,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = calculatePosition;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _offset = __webpack_require__(201);
 
 var _offset2 = _interopRequireDefault(_offset);
@@ -52784,6 +63766,21 @@ var _scrollTop = __webpack_require__(202);
 var _scrollTop2 = _interopRequireDefault(_scrollTop);
 
 var _ownerDocument = __webpack_require__(80);
+=======
+var _offset = __webpack_require__(182);
+
+var _offset2 = _interopRequireDefault(_offset);
+
+var _position = __webpack_require__(371);
+
+var _position2 = _interopRequireDefault(_position);
+
+var _scrollTop = __webpack_require__(183);
+
+var _scrollTop2 = _interopRequireDefault(_scrollTop);
+
+var _ownerDocument = __webpack_require__(72);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -52917,13 +63914,77 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(getLeftDelta, 'getLeftDelta', '/Users/Rob/hackreactor/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   __REACT_HOT_LOADER__.register(calculatePosition, 'calculatePosition', '/Users/Rob/hackreactor/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
+=======
+  __REACT_HOT_LOADER__.register(calculatePosition, 'calculatePosition', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/calculatePosition.js');
 }();
 
 ;
 
 /***/ },
-/* 535 */
+/* 491 */
+/***/ function(module, exports) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/**
+ * Safe chained function
+ *
+ * Will only create a new function if needed,
+ * otherwise will pass back existing functions or null.
+ *
+ * @param {function} functions to chain
+ * @returns {function|null}
+ */
+function createChainedFunction() {
+  for (var _len = arguments.length, funcs = Array(_len), _key = 0; _key < _len; _key++) {
+    funcs[_key] = arguments[_key];
+  }
+
+  return funcs.filter(function (f) {
+    return f != null;
+  }).reduce(function (acc, f) {
+    if (typeof f !== 'function') {
+      throw new Error('Invalid Argument Type, must only provide functions, undefined, or null.');
+    }
+
+    if (acc === null) {
+      return f;
+    }
+
+    return function chainedFunction() {
+      for (var _len2 = arguments.length, args = Array(_len2), _key2 = 0; _key2 < _len2; _key2++) {
+        args[_key2] = arguments[_key2];
+      }
+
+      acc.apply(this, args);
+      f.apply(this, args);
+    };
+  }, null);
+}
+
+exports.default = createChainedFunction;
+module.exports = exports['default'];
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(createChainedFunction, 'createChainedFunction', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-overlays/lib/utils/createChainedFunction.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+}();
+
+;
+
+/***/ },
+/* 492 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -52999,7 +64060,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 536 */
+/* 493 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53012,11 +64073,19 @@ exports["default"] = undefined;
 
 var _react = __webpack_require__(0);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _storeShape = __webpack_require__(241);
 
 var _storeShape2 = _interopRequireDefault(_storeShape);
 
 var _warning = __webpack_require__(242);
+=======
+var _storeShape = __webpack_require__(219);
+
+var _storeShape2 = _interopRequireDefault(_storeShape);
+
+var _warning = __webpack_require__(220);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -53127,7 +64196,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 537 */
+/* 494 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53150,27 +64219,39 @@ exports["default"] = connect;
 
 var _react = __webpack_require__(0);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _storeShape = __webpack_require__(241);
+=======
+var _storeShape = __webpack_require__(219);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _storeShape2 = _interopRequireDefault(_storeShape);
 
-var _shallowEqual = __webpack_require__(538);
+var _shallowEqual = __webpack_require__(495);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
-var _wrapActionCreators = __webpack_require__(539);
+var _wrapActionCreators = __webpack_require__(496);
 
 var _wrapActionCreators2 = _interopRequireDefault(_wrapActionCreators);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _warning = __webpack_require__(242);
+=======
+var _warning = __webpack_require__(220);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _isPlainObject = __webpack_require__(543);
+var _isPlainObject = __webpack_require__(500);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _hoistNonReactStatics = __webpack_require__(213);
+=======
+var _hoistNonReactStatics = __webpack_require__(194);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -53600,7 +64681,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 538 */
+/* 495 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -53643,7 +64724,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 539 */
+/* 496 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53652,7 +64733,11 @@ var _temp = function () {
 exports.__esModule = true;
 exports["default"] = wrapActionCreators;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _redux = __webpack_require__(278);
+=======
+var _redux = __webpack_require__(256);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function wrapActionCreators(actionCreators) {
   return function (dispatch) {
@@ -53672,13 +64757,13 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 540 */
+/* 497 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
-var overArg = __webpack_require__(541);
+var overArg = __webpack_require__(498);
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -53697,7 +64782,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 541 */
+/* 498 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -53731,7 +64816,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 542 */
+/* 499 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -53781,14 +64866,14 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 543 */
+/* 500 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
-var getPrototype = __webpack_require__(540),
-    isObjectLike = __webpack_require__(542);
+var getPrototype = __webpack_require__(497),
+    isObjectLike = __webpack_require__(499);
 
 /** `Object#toString` result references. */
 var objectTag = '[object Object]';
@@ -53881,7 +64966,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 544 */
+/* 501 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53893,7 +64978,11 @@ var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _InternalPropTypes = __webpack_require__(54);
+=======
+var _InternalPropTypes = __webpack_require__(51);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -53934,7 +65023,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 545 */
+/* 502 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53956,7 +65045,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Link = __webpack_require__(243);
+=======
+var _Link = __webpack_require__(221);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _Link2 = _interopRequireDefault(_Link);
 
@@ -53997,7 +65090,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 546 */
+/* 503 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54017,11 +65110,19 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Redirect = __webpack_require__(244);
 
 var _Redirect2 = _interopRequireDefault(_Redirect);
 
 var _InternalPropTypes = __webpack_require__(54);
+=======
+var _Redirect = __webpack_require__(222);
+
+var _Redirect2 = _interopRequireDefault(_Redirect);
+
+var _InternalPropTypes = __webpack_require__(51);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -54095,7 +65196,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 547 */
+/* 504 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54115,9 +65216,15 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouteUtils = __webpack_require__(48);
 
 var _InternalPropTypes = __webpack_require__(54);
+=======
+var _RouteUtils = __webpack_require__(44);
+
+var _InternalPropTypes = __webpack_require__(51);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -54184,7 +65291,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 548 */
+/* 505 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54282,7 +65389,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 549 */
+/* 506 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54298,9 +65405,15 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouteUtils = __webpack_require__(48);
 
 var _InternalPropTypes = __webpack_require__(54);
+=======
+var _RouteUtils = __webpack_require__(44);
+
+var _InternalPropTypes = __webpack_require__(51);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -54370,7 +65483,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 550 */
+/* 507 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54443,7 +65556,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 551 */
+/* 508 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54461,11 +65574,19 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createHashHistory = __webpack_require__(210);
 
 var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
 
 var _useQueries = __webpack_require__(93);
+=======
+var _createHashHistory = __webpack_require__(191);
+
+var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
+
+var _useQueries = __webpack_require__(84);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
@@ -54477,6 +65598,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createTransitionManager = __webpack_require__(147);
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
@@ -54490,6 +65612,21 @@ var _RouterContext2 = _interopRequireDefault(_RouterContext);
 var _RouteUtils = __webpack_require__(48);
 
 var _RouterUtils = __webpack_require__(245);
+=======
+var _createTransitionManager = __webpack_require__(136);
+
+var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
+
+var _InternalPropTypes = __webpack_require__(51);
+
+var _RouterContext = __webpack_require__(92);
+
+var _RouterContext2 = _interopRequireDefault(_RouterContext);
+
+var _RouteUtils = __webpack_require__(44);
+
+var _RouterUtils = __webpack_require__(223);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _routerWarning = __webpack_require__(21);
 
@@ -54724,7 +65861,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 552 */
+/* 509 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54736,7 +65873,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouterContext = __webpack_require__(100);
+=======
+var _RouterContext = __webpack_require__(92);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _RouterContext2 = _interopRequireDefault(_RouterContext);
 
@@ -54782,7 +65923,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 553 */
+/* 510 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54793,7 +65934,11 @@ exports.runEnterHooks = runEnterHooks;
 exports.runChangeHooks = runChangeHooks;
 exports.runLeaveHooks = runLeaveHooks;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _AsyncUtils = __webpack_require__(145);
+=======
+var _AsyncUtils = __webpack_require__(134);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _routerWarning = __webpack_require__(21);
 
@@ -54940,7 +66085,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 554 */
+/* 511 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54962,7 +66107,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouterContext = __webpack_require__(100);
+=======
+var _RouterContext = __webpack_require__(92);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _RouterContext2 = _interopRequireDefault(_RouterContext);
 
@@ -55033,7 +66182,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 555 */
+/* 512 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55041,11 +66190,19 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createBrowserHistory = __webpack_require__(430);
 
 var _createBrowserHistory2 = _interopRequireDefault(_createBrowserHistory);
 
 var _createRouterHistory = __webpack_require__(247);
+=======
+var _createBrowserHistory = __webpack_require__(395);
+
+var _createBrowserHistory2 = _interopRequireDefault(_createBrowserHistory);
+
+var _createRouterHistory = __webpack_require__(225);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createRouterHistory2 = _interopRequireDefault(_createRouterHistory);
 
@@ -55072,7 +66229,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 556 */
+/* 513 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55080,7 +66237,11 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PatternUtils = __webpack_require__(68);
+=======
+var _PatternUtils = __webpack_require__(61);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function routeParamsChanged(route, prevState, nextState) {
   if (!route.path) return false;
@@ -55168,7 +66329,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 557 */
+/* 514 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55176,9 +66337,15 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _AsyncUtils = __webpack_require__(145);
 
 var _makeStateWithLocation = __webpack_require__(248);
+=======
+var _AsyncUtils = __webpack_require__(134);
+
+var _makeStateWithLocation = __webpack_require__(226);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _makeStateWithLocation2 = _interopRequireDefault(_makeStateWithLocation);
 
@@ -55239,7 +66406,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 558 */
+/* 515 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55247,7 +66414,11 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PatternUtils = __webpack_require__(68);
+=======
+var _PatternUtils = __webpack_require__(61);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Extracts an object of params the given route cares about from
@@ -55282,7 +66453,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 559 */
+/* 516 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55290,11 +66461,19 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createHashHistory = __webpack_require__(210);
 
 var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
 
 var _createRouterHistory = __webpack_require__(247);
+=======
+var _createHashHistory = __webpack_require__(191);
+
+var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
+
+var _createRouterHistory = __webpack_require__(225);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createRouterHistory2 = _interopRequireDefault(_createRouterHistory);
 
@@ -55321,7 +66500,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 560 */
+/* 517 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55339,7 +66518,11 @@ var _typeof = typeof Symbol === "function" && _typeof2(Symbol.iterator) === "sym
 
 exports.default = isActive;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _PatternUtils = __webpack_require__(68);
+=======
+var _PatternUtils = __webpack_require__(61);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function deepEqual(a, b) {
   if (a == b) return true;
@@ -55506,7 +66689,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 561 */
+/* 518 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55524,12 +66707,17 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _Actions = __webpack_require__(66);
+=======
+var _Actions = __webpack_require__(60);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createMemoryHistory = __webpack_require__(246);
 
 var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
@@ -55541,6 +66729,19 @@ var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager)
 var _RouteUtils = __webpack_require__(48);
 
 var _RouterUtils = __webpack_require__(245);
+=======
+var _createMemoryHistory = __webpack_require__(224);
+
+var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
+
+var _createTransitionManager = __webpack_require__(136);
+
+var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
+
+var _RouteUtils = __webpack_require__(44);
+
+var _RouterUtils = __webpack_require__(223);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -55633,7 +66834,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 562 */
+/* 519 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55661,6 +66862,7 @@ var _typeof = typeof Symbol === "function" && _typeof2(Symbol.iterator) === "sym
 
 exports.default = matchRoutes;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _AsyncUtils = __webpack_require__(145);
 
 var _makeStateWithLocation = __webpack_require__(248);
@@ -55668,12 +66870,25 @@ var _makeStateWithLocation = __webpack_require__(248);
 var _makeStateWithLocation2 = _interopRequireDefault(_makeStateWithLocation);
 
 var _PatternUtils = __webpack_require__(68);
+=======
+var _AsyncUtils = __webpack_require__(134);
+
+var _makeStateWithLocation = __webpack_require__(226);
+
+var _makeStateWithLocation2 = _interopRequireDefault(_makeStateWithLocation);
+
+var _PatternUtils = __webpack_require__(61);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _RouteUtils = __webpack_require__(48);
+=======
+var _RouteUtils = __webpack_require__(44);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -55938,7 +67153,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 563 */
+/* 520 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55956,11 +67171,19 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _useQueries = __webpack_require__(93);
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
 var _createTransitionManager = __webpack_require__(147);
+=======
+var _useQueries = __webpack_require__(84);
+
+var _useQueries2 = _interopRequireDefault(_useQueries);
+
+var _createTransitionManager = __webpack_require__(136);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _createTransitionManager2 = _interopRequireDefault(_createTransitionManager);
 
@@ -56033,7 +67256,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 564 */
+/* 521 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56061,11 +67284,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _hoistNonReactStatics = __webpack_require__(213);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _PropTypes = __webpack_require__(146);
+=======
+var _hoistNonReactStatics = __webpack_require__(194);
+
+var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
+
+var _PropTypes = __webpack_require__(135);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -56137,7 +67368,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 565 */
+/* 522 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56156,7 +67387,11 @@ var _temp = function () {
 
 var ReactDOMComponentTree = __webpack_require__(18);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var focusNode = __webpack_require__(206);
+=======
+var focusNode = __webpack_require__(187);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var AutoFocusUtils = {
   focusDOMComponent: function focusDOMComponent() {
@@ -56178,7 +67413,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 566 */
+/* 523 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56197,14 +67432,23 @@ var _temp = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventPropagators = __webpack_require__(82);
+=======
+var EventConstants = __webpack_require__(37);
+var EventPropagators = __webpack_require__(74);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var ExecutionEnvironment = __webpack_require__(20);
-var FallbackCompositionState = __webpack_require__(572);
-var SyntheticCompositionEvent = __webpack_require__(616);
-var SyntheticInputEvent = __webpack_require__(619);
+var FallbackCompositionState = __webpack_require__(529);
+var SyntheticCompositionEvent = __webpack_require__(573);
+var SyntheticInputEvent = __webpack_require__(576);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var keyOf = __webpack_require__(46);
+=======
+var keyOf = __webpack_require__(43);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var END_KEYCODES = [9, 13, 27, 32]; // Tab, Return, Esc, Space
 var START_KEYCODE = 229;
@@ -56631,7 +67875,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 567 */
+/* 524 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56648,14 +67892,25 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var CSSProperty = __webpack_require__(250);
+=======
+var CSSProperty = __webpack_require__(228);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var ExecutionEnvironment = __webpack_require__(20);
-var ReactInstrumentation = __webpack_require__(28);
+var ReactInstrumentation = __webpack_require__(27);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var camelizeStyleName = __webpack_require__(416);
 var dangerousStyleValue = __webpack_require__(625);
 var hyphenateStyleName = __webpack_require__(423);
 var memoizeStringOnly = __webpack_require__(426);
+=======
+var camelizeStyleName = __webpack_require__(381);
+var dangerousStyleValue = __webpack_require__(582);
+var hyphenateStyleName = __webpack_require__(388);
+var memoizeStringOnly = __webpack_require__(391);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -56884,7 +68139,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 568 */
+/* 525 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56901,6 +68156,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventPluginHub = __webpack_require__(81);
 var EventPropagators = __webpack_require__(82);
@@ -56913,6 +68169,20 @@ var getEventTarget = __webpack_require__(164);
 var isEventSupported = __webpack_require__(166);
 var isTextInputElement = __webpack_require__(274);
 var keyOf = __webpack_require__(46);
+=======
+var EventConstants = __webpack_require__(37);
+var EventPluginHub = __webpack_require__(73);
+var EventPropagators = __webpack_require__(74);
+var ExecutionEnvironment = __webpack_require__(20);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactUpdates = __webpack_require__(36);
+var SyntheticEvent = __webpack_require__(39);
+
+var getEventTarget = __webpack_require__(153);
+var isEventSupported = __webpack_require__(155);
+var isTextInputElement = __webpack_require__(252);
+var keyOf = __webpack_require__(43);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -57274,7 +68544,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 569 */
+/* 526 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57293,11 +68563,19 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMLazyTree = __webpack_require__(69);
 var ExecutionEnvironment = __webpack_require__(20);
 
 var createNodesFromMarkup = __webpack_require__(419);
 var emptyFunction = __webpack_require__(30);
+=======
+var DOMLazyTree = __webpack_require__(62);
+var ExecutionEnvironment = __webpack_require__(20);
+
+var createNodesFromMarkup = __webpack_require__(384);
+var emptyFunction = __webpack_require__(29);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var invariant = __webpack_require__(9);
 
 var Danger = {
@@ -57340,7 +68618,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 570 */
+/* 527 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57357,7 +68635,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var keyOf = __webpack_require__(46);
+=======
+var keyOf = __webpack_require__(43);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Module that is injectable into `EventPluginHub`, that specifies a
@@ -57384,7 +68666,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 571 */
+/* 528 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57401,12 +68683,21 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventPropagators = __webpack_require__(82);
 var ReactDOMComponentTree = __webpack_require__(18);
 var SyntheticMouseEvent = __webpack_require__(106);
 
 var keyOf = __webpack_require__(46);
+=======
+var EventConstants = __webpack_require__(37);
+var EventPropagators = __webpack_require__(74);
+var ReactDOMComponentTree = __webpack_require__(17);
+var SyntheticMouseEvent = __webpack_require__(98);
+
+var keyOf = __webpack_require__(43);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -57510,7 +68801,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 572 */
+/* 529 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57529,9 +68820,15 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var PooledClass = __webpack_require__(49);
 
 var getTextContentAccessor = __webpack_require__(272);
+=======
+var PooledClass = __webpack_require__(45);
+
+var getTextContentAccessor = __webpack_require__(250);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * This helper class stores information about text content of a target node,
@@ -57622,7 +68919,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 573 */
+/* 530 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57639,7 +68936,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMProperty = __webpack_require__(55);
+=======
+var DOMProperty = __webpack_require__(52);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var MUST_USE_PROPERTY = DOMProperty.injection.MUST_USE_PROPERTY;
 var HAS_BOOLEAN_VALUE = DOMProperty.injection.HAS_BOOLEAN_VALUE;
@@ -57861,7 +69162,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 574 */
+/* 531 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57880,6 +69181,7 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactChildren = __webpack_require__(253);
 var ReactComponent = __webpack_require__(153);
 var ReactPureComponent = __webpack_require__(606);
@@ -57888,8 +69190,18 @@ var ReactDOMFactories = __webpack_require__(584);
 var ReactElement = __webpack_require__(32);
 var ReactPropTypes = __webpack_require__(265);
 var ReactVersion = __webpack_require__(266);
+=======
+var ReactChildren = __webpack_require__(231);
+var ReactComponent = __webpack_require__(142);
+var ReactPureComponent = __webpack_require__(563);
+var ReactClass = __webpack_require__(232);
+var ReactDOMFactories = __webpack_require__(541);
+var ReactElement = __webpack_require__(31);
+var ReactPropTypes = __webpack_require__(243);
+var ReactVersion = __webpack_require__(244);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var onlyChild = __webpack_require__(631);
+var onlyChild = __webpack_require__(588);
 var warning = __webpack_require__(10);
 
 var createElement = ReactElement.createElement;
@@ -57897,7 +69209,11 @@ var createFactory = ReactElement.createFactory;
 var cloneElement = ReactElement.cloneElement;
 
 if (process.env.NODE_ENV !== 'production') {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   var ReactElementValidator = __webpack_require__(257);
+=======
+  var ReactElementValidator = __webpack_require__(235);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   createElement = ReactElementValidator.createElement;
   createFactory = ReactElementValidator.createFactory;
   cloneElement = ReactElementValidator.cloneElement;
@@ -57978,7 +69294,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 575 */
+/* 532 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57995,12 +69311,21 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactReconciler = __webpack_require__(70);
 
 var instantiateReactComponent = __webpack_require__(273);
 var KeyEscapeUtils = __webpack_require__(151);
 var shouldUpdateReactComponent = __webpack_require__(167);
 var traverseAllChildren = __webpack_require__(168);
+=======
+var ReactReconciler = __webpack_require__(63);
+
+var instantiateReactComponent = __webpack_require__(251);
+var KeyEscapeUtils = __webpack_require__(140);
+var shouldUpdateReactComponent = __webpack_require__(156);
+var traverseAllChildren = __webpack_require__(157);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var ReactComponentTreeHook;
@@ -58011,7 +69336,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(31);
+  ReactComponentTreeHook = __webpack_require__(30);
 }
 
 function instantiateChild(childInstances, child, name, selfDebugID) {
@@ -58019,7 +69344,7 @@ function instantiateChild(childInstances, child, name, selfDebugID) {
   var keyUnique = childInstances[name] === undefined;
   if (process.env.NODE_ENV !== 'production') {
     if (!ReactComponentTreeHook) {
-      ReactComponentTreeHook = __webpack_require__(31);
+      ReactComponentTreeHook = __webpack_require__(30);
     }
     if (!keyUnique) {
       process.env.NODE_ENV !== 'production' ? warning(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID)) : void 0;
@@ -58154,7 +69479,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 576 */
+/* 533 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58171,7 +69496,7 @@ var _temp = function () {
 
 'use strict';
 
-var ReactComponentTreeHook = __webpack_require__(31);
+var ReactComponentTreeHook = __webpack_require__(30);
 
 var warning = __webpack_require__(10);
 
@@ -58228,7 +69553,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 577 */
+/* 534 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58245,8 +69570,13 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMChildrenOperations = __webpack_require__(148);
 var ReactDOMIDOperations = __webpack_require__(586);
+=======
+var DOMChildrenOperations = __webpack_require__(137);
+var ReactDOMIDOperations = __webpack_require__(543);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -58275,7 +69605,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 578 */
+/* 535 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58297,6 +69627,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactComponentEnvironment = __webpack_require__(154);
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactElement = __webpack_require__(32);
@@ -58312,6 +69643,23 @@ var emptyObject = __webpack_require__(78);
 var invariant = __webpack_require__(9);
 var shallowEqual = __webpack_require__(131);
 var shouldUpdateReactComponent = __webpack_require__(167);
+=======
+var ReactComponentEnvironment = __webpack_require__(143);
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactElement = __webpack_require__(31);
+var ReactErrorUtils = __webpack_require__(144);
+var ReactInstanceMap = __webpack_require__(75);
+var ReactInstrumentation = __webpack_require__(27);
+var ReactNodeTypes = __webpack_require__(242);
+var ReactPropTypeLocations = __webpack_require__(97);
+var ReactReconciler = __webpack_require__(63);
+
+var checkReactTypeSpec = __webpack_require__(247);
+var emptyObject = __webpack_require__(70);
+var invariant = __webpack_require__(9);
+var shallowEqual = __webpack_require__(121);
+var shouldUpdateReactComponent = __webpack_require__(156);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var CompositeTypes = {
@@ -59215,7 +70563,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 579 */
+/* 536 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59234,6 +70582,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactDefaultInjection = __webpack_require__(597);
 var ReactMount = __webpack_require__(262);
@@ -59244,6 +70593,18 @@ var ReactVersion = __webpack_require__(266);
 var findDOMNode = __webpack_require__(626);
 var getHostComponentFromComposite = __webpack_require__(271);
 var renderSubtreeIntoContainer = __webpack_require__(633);
+=======
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDefaultInjection = __webpack_require__(554);
+var ReactMount = __webpack_require__(240);
+var ReactReconciler = __webpack_require__(63);
+var ReactUpdates = __webpack_require__(36);
+var ReactVersion = __webpack_require__(244);
+
+var findDOMNode = __webpack_require__(583);
+var getHostComponentFromComposite = __webpack_require__(249);
+var renderSubtreeIntoContainer = __webpack_require__(590);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 ReactDefaultInjection.inject();
@@ -59320,9 +70681,9 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 if (process.env.NODE_ENV !== 'production') {
-  var ReactInstrumentation = __webpack_require__(28);
-  var ReactDOMUnknownPropertyHook = __webpack_require__(594);
-  var ReactDOMNullInputValuePropHook = __webpack_require__(588);
+  var ReactInstrumentation = __webpack_require__(27);
+  var ReactDOMUnknownPropertyHook = __webpack_require__(551);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(545);
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -59353,7 +70714,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 580 */
+/* 537 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59370,7 +70731,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DisabledInputUtils = __webpack_require__(102);
+=======
+var DisabledInputUtils = __webpack_require__(94);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Implements a <button> host component that does not receive mouse events
@@ -59394,7 +70759,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 581 */
+/* 538 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59418,6 +70783,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var AutoFocusUtils = __webpack_require__(565);
 var CSSPropertyOperations = __webpack_require__(567);
 var DOMLazyTree = __webpack_require__(69);
@@ -59446,6 +70812,36 @@ var isEventSupported = __webpack_require__(166);
 var keyOf = __webpack_require__(46);
 var shallowEqual = __webpack_require__(131);
 var validateDOMNesting = __webpack_require__(169);
+=======
+var AutoFocusUtils = __webpack_require__(522);
+var CSSPropertyOperations = __webpack_require__(524);
+var DOMLazyTree = __webpack_require__(62);
+var DOMNamespaces = __webpack_require__(138);
+var DOMProperty = __webpack_require__(52);
+var DOMPropertyOperations = __webpack_require__(230);
+var EventConstants = __webpack_require__(37);
+var EventPluginHub = __webpack_require__(73);
+var EventPluginRegistry = __webpack_require__(95);
+var ReactBrowserEventEmitter = __webpack_require__(96);
+var ReactDOMButton = __webpack_require__(537);
+var ReactDOMComponentFlags = __webpack_require__(233);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMInput = __webpack_require__(544);
+var ReactDOMOption = __webpack_require__(546);
+var ReactDOMSelect = __webpack_require__(234);
+var ReactDOMTextarea = __webpack_require__(549);
+var ReactInstrumentation = __webpack_require__(27);
+var ReactMultiChild = __webpack_require__(561);
+var ReactServerRenderingTransaction = __webpack_require__(566);
+
+var emptyFunction = __webpack_require__(29);
+var escapeTextContentForBrowser = __webpack_require__(99);
+var invariant = __webpack_require__(9);
+var isEventSupported = __webpack_require__(155);
+var keyOf = __webpack_require__(43);
+var shallowEqual = __webpack_require__(121);
+var validateDOMNesting = __webpack_require__(158);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var Flags = ReactDOMComponentFlags;
@@ -60486,7 +71882,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 582 */
+/* 539 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60503,7 +71899,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var validateDOMNesting = __webpack_require__(169);
+=======
+var validateDOMNesting = __webpack_require__(158);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var DOC_NODE_TYPE = 9;
 
@@ -60539,7 +71939,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 583 */
+/* 540 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60558,8 +71958,13 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMLazyTree = __webpack_require__(69);
 var ReactDOMComponentTree = __webpack_require__(18);
+=======
+var DOMLazyTree = __webpack_require__(62);
+var ReactDOMComponentTree = __webpack_require__(17);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var ReactDOMEmptyComponent = function ReactDOMEmptyComponent(instantiate) {
   // ReactCompositeComponent uses this:
@@ -60616,7 +72021,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 584 */
+/* 541 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60633,7 +72038,7 @@ var _temp = function () {
 
 'use strict';
 
-var ReactElement = __webpack_require__(32);
+var ReactElement = __webpack_require__(31);
 
 /**
  * Create a factory that creates HTML tag elements.
@@ -60642,7 +72047,11 @@ var ReactElement = __webpack_require__(32);
  */
 var createDOMFactory = ReactElement.createFactory;
 if (process.env.NODE_ENV !== 'production') {
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
   var ReactElementValidator = __webpack_require__(257);
+=======
+  var ReactElementValidator = __webpack_require__(235);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
   createDOMFactory = ReactElementValidator.createFactory;
 }
 
@@ -60806,7 +72215,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 585 */
+/* 542 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -60841,7 +72250,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 586 */
+/* 543 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60858,8 +72267,13 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMChildrenOperations = __webpack_require__(148);
 var ReactDOMComponentTree = __webpack_require__(18);
+=======
+var DOMChildrenOperations = __webpack_require__(137);
+var ReactDOMComponentTree = __webpack_require__(17);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Operations used to process updates to DOM nodes.
@@ -60892,7 +72306,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 587 */
+/* 544 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60912,11 +72326,19 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DisabledInputUtils = __webpack_require__(102);
 var DOMPropertyOperations = __webpack_require__(252);
 var LinkedValueUtils = __webpack_require__(152);
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactUpdates = __webpack_require__(37);
+=======
+var DisabledInputUtils = __webpack_require__(94);
+var DOMPropertyOperations = __webpack_require__(230);
+var LinkedValueUtils = __webpack_require__(141);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactUpdates = __webpack_require__(36);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -61197,7 +72619,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 588 */
+/* 545 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61214,7 +72636,7 @@ var _temp = function () {
 
 'use strict';
 
-var ReactComponentTreeHook = __webpack_require__(31);
+var ReactComponentTreeHook = __webpack_require__(30);
 
 var warning = __webpack_require__(10);
 
@@ -61262,7 +72684,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 589 */
+/* 546 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61281,9 +72703,15 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactChildren = __webpack_require__(253);
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactDOMSelect = __webpack_require__(256);
+=======
+var ReactChildren = __webpack_require__(231);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMSelect = __webpack_require__(234);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var warning = __webpack_require__(10);
 var didWarnInvalidOptionChildren = false;
@@ -61407,7 +72835,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 590 */
+/* 547 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61426,8 +72854,13 @@ var _temp = function () {
 
 var ExecutionEnvironment = __webpack_require__(20);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getNodeForCharacterOffset = __webpack_require__(629);
 var getTextContentAccessor = __webpack_require__(272);
+=======
+var getNodeForCharacterOffset = __webpack_require__(586);
+var getTextContentAccessor = __webpack_require__(250);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * While `isCollapsed` is available on the Selection object and `collapsed`
@@ -61648,7 +73081,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 591 */
+/* 548 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61668,6 +73101,7 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMChildrenOperations = __webpack_require__(148);
 var DOMLazyTree = __webpack_require__(69);
 var ReactDOMComponentTree = __webpack_require__(18);
@@ -61675,6 +73109,15 @@ var ReactDOMComponentTree = __webpack_require__(18);
 var escapeTextContentForBrowser = __webpack_require__(107);
 var invariant = __webpack_require__(9);
 var validateDOMNesting = __webpack_require__(169);
+=======
+var DOMChildrenOperations = __webpack_require__(137);
+var DOMLazyTree = __webpack_require__(62);
+var ReactDOMComponentTree = __webpack_require__(17);
+
+var escapeTextContentForBrowser = __webpack_require__(99);
+var invariant = __webpack_require__(9);
+var validateDOMNesting = __webpack_require__(158);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Text nodes violate a couple assumptions that React makes about components:
@@ -61830,7 +73273,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 592 */
+/* 549 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61850,10 +73293,17 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(12),
     _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DisabledInputUtils = __webpack_require__(102);
 var LinkedValueUtils = __webpack_require__(152);
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactUpdates = __webpack_require__(37);
+=======
+var DisabledInputUtils = __webpack_require__(94);
+var LinkedValueUtils = __webpack_require__(141);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactUpdates = __webpack_require__(36);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
@@ -62011,7 +73461,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 593 */
+/* 550 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62173,7 +73623,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 594 */
+/* 551 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62190,9 +73640,15 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMProperty = __webpack_require__(55);
 var EventPluginRegistry = __webpack_require__(103);
 var ReactComponentTreeHook = __webpack_require__(31);
+=======
+var DOMProperty = __webpack_require__(52);
+var EventPluginRegistry = __webpack_require__(95);
+var ReactComponentTreeHook = __webpack_require__(30);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var warning = __webpack_require__(10);
 
@@ -62313,7 +73769,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 595 */
+/* 552 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62330,13 +73786,17 @@ var _temp = function () {
 
 'use strict';
 
-var ReactInvalidSetStateWarningHook = __webpack_require__(602);
-var ReactHostOperationHistoryHook = __webpack_require__(600);
-var ReactComponentTreeHook = __webpack_require__(31);
-var ReactChildrenMutationWarningHook = __webpack_require__(576);
+var ReactInvalidSetStateWarningHook = __webpack_require__(559);
+var ReactHostOperationHistoryHook = __webpack_require__(557);
+var ReactComponentTreeHook = __webpack_require__(30);
+var ReactChildrenMutationWarningHook = __webpack_require__(533);
 var ExecutionEnvironment = __webpack_require__(20);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var performanceNow = __webpack_require__(428);
+=======
+var performanceNow = __webpack_require__(393);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var hooks = [];
@@ -62680,7 +74140,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 596 */
+/* 553 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62699,10 +74159,15 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactUpdates = __webpack_require__(37);
 var Transaction = __webpack_require__(85);
+=======
+var ReactUpdates = __webpack_require__(36);
+var Transaction = __webpack_require__(77);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
-var emptyFunction = __webpack_require__(30);
+var emptyFunction = __webpack_require__(29);
 
 var RESET_BATCHED_UPDATES = {
   initialize: emptyFunction,
@@ -62775,7 +74240,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 597 */
+/* 554 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62792,6 +74257,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var BeforeInputEventPlugin = __webpack_require__(566);
 var ChangeEventPlugin = __webpack_require__(568);
 var DefaultEventPluginOrder = __webpack_require__(570);
@@ -62810,6 +74276,26 @@ var ReactReconcileTransaction = __webpack_require__(607);
 var SVGDOMPropertyConfig = __webpack_require__(611);
 var SelectEventPlugin = __webpack_require__(612);
 var SimpleEventPlugin = __webpack_require__(613);
+=======
+var BeforeInputEventPlugin = __webpack_require__(523);
+var ChangeEventPlugin = __webpack_require__(525);
+var DefaultEventPluginOrder = __webpack_require__(527);
+var EnterLeaveEventPlugin = __webpack_require__(528);
+var HTMLDOMPropertyConfig = __webpack_require__(530);
+var ReactComponentBrowserEnvironment = __webpack_require__(534);
+var ReactDOMComponent = __webpack_require__(538);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMEmptyComponent = __webpack_require__(540);
+var ReactDOMTreeTraversal = __webpack_require__(550);
+var ReactDOMTextComponent = __webpack_require__(548);
+var ReactDefaultBatchingStrategy = __webpack_require__(553);
+var ReactEventListener = __webpack_require__(556);
+var ReactInjection = __webpack_require__(558);
+var ReactReconcileTransaction = __webpack_require__(564);
+var SVGDOMPropertyConfig = __webpack_require__(568);
+var SelectEventPlugin = __webpack_require__(569);
+var SimpleEventPlugin = __webpack_require__(570);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var alreadyInjected = false;
 
@@ -62878,7 +74364,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 598 */
+/* 555 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62895,7 +74381,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventPluginHub = __webpack_require__(81);
+=======
+var EventPluginHub = __webpack_require__(73);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 function runEventQueueInBatch(events) {
   EventPluginHub.enqueueEvents(events);
@@ -62930,7 +74420,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 599 */
+/* 556 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62949,6 +74439,7 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventListener = __webpack_require__(205);
 var ExecutionEnvironment = __webpack_require__(20);
 var PooledClass = __webpack_require__(49);
@@ -62957,6 +74448,16 @@ var ReactUpdates = __webpack_require__(37);
 
 var getEventTarget = __webpack_require__(164);
 var getUnboundedScrollPosition = __webpack_require__(421);
+=======
+var EventListener = __webpack_require__(186);
+var ExecutionEnvironment = __webpack_require__(20);
+var PooledClass = __webpack_require__(45);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactUpdates = __webpack_require__(36);
+
+var getEventTarget = __webpack_require__(153);
+var getUnboundedScrollPosition = __webpack_require__(386);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -63112,7 +74613,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 600 */
+/* 557 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -63168,7 +74669,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 601 */
+/* 558 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63185,6 +74686,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var DOMProperty = __webpack_require__(55);
 var EventPluginHub = __webpack_require__(81);
 var EventPluginUtils = __webpack_require__(150);
@@ -63194,6 +74696,17 @@ var ReactEmptyComponent = __webpack_require__(258);
 var ReactBrowserEventEmitter = __webpack_require__(104);
 var ReactHostComponent = __webpack_require__(260);
 var ReactUpdates = __webpack_require__(37);
+=======
+var DOMProperty = __webpack_require__(52);
+var EventPluginHub = __webpack_require__(73);
+var EventPluginUtils = __webpack_require__(139);
+var ReactComponentEnvironment = __webpack_require__(143);
+var ReactClass = __webpack_require__(232);
+var ReactEmptyComponent = __webpack_require__(236);
+var ReactBrowserEventEmitter = __webpack_require__(96);
+var ReactHostComponent = __webpack_require__(238);
+var ReactUpdates = __webpack_require__(36);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var ReactInjection = {
   Component: ReactComponentEnvironment.injection,
@@ -63221,7 +74734,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 602 */
+/* 559 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63279,7 +74792,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 603 */
+/* 560 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63296,7 +74809,7 @@ var _temp = function () {
 
 'use strict';
 
-var adler32 = __webpack_require__(624);
+var adler32 = __webpack_require__(581);
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -63350,7 +74863,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 604 */
+/* 561 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63369,6 +74882,7 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactComponentEnvironment = __webpack_require__(154);
 var ReactInstanceMap = __webpack_require__(83);
 var ReactInstrumentation = __webpack_require__(28);
@@ -63377,9 +74891,19 @@ var ReactMultiChildUpdateTypes = __webpack_require__(263);
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactReconciler = __webpack_require__(70);
 var ReactChildReconciler = __webpack_require__(575);
+=======
+var ReactComponentEnvironment = __webpack_require__(143);
+var ReactInstanceMap = __webpack_require__(75);
+var ReactInstrumentation = __webpack_require__(27);
+var ReactMultiChildUpdateTypes = __webpack_require__(241);
 
-var emptyFunction = __webpack_require__(30);
-var flattenChildren = __webpack_require__(627);
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactReconciler = __webpack_require__(63);
+var ReactChildReconciler = __webpack_require__(532);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
+
+var emptyFunction = __webpack_require__(29);
+var flattenChildren = __webpack_require__(584);
 var invariant = __webpack_require__(9);
 
 /**
@@ -63837,7 +75361,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 605 */
+/* 562 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63949,7 +75473,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 606 */
+/* 563 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63968,10 +75492,17 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactComponent = __webpack_require__(153);
 var ReactNoopUpdateQueue = __webpack_require__(156);
 
 var emptyObject = __webpack_require__(78);
+=======
+var ReactComponent = __webpack_require__(142);
+var ReactNoopUpdateQueue = __webpack_require__(145);
+
+var emptyObject = __webpack_require__(70);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Base class helpers for the updating state of a component.
@@ -64010,7 +75541,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 607 */
+/* 564 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64029,6 +75560,7 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var CallbackQueue = __webpack_require__(251);
 var PooledClass = __webpack_require__(49);
 var ReactBrowserEventEmitter = __webpack_require__(104);
@@ -64036,6 +75568,15 @@ var ReactInputSelection = __webpack_require__(261);
 var ReactInstrumentation = __webpack_require__(28);
 var Transaction = __webpack_require__(85);
 var ReactUpdateQueue = __webpack_require__(159);
+=======
+var CallbackQueue = __webpack_require__(229);
+var PooledClass = __webpack_require__(45);
+var ReactBrowserEventEmitter = __webpack_require__(96);
+var ReactInputSelection = __webpack_require__(239);
+var ReactInstrumentation = __webpack_require__(27);
+var Transaction = __webpack_require__(77);
+var ReactUpdateQueue = __webpack_require__(148);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Ensures that, when possible, the selection range (currently selected text
@@ -64216,7 +75757,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 608 */
+/* 565 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64233,7 +75774,7 @@ var _temp = function () {
 
 'use strict';
 
-var ReactOwner = __webpack_require__(605);
+var ReactOwner = __webpack_require__(562);
 
 var ReactRef = {};
 
@@ -64317,7 +75858,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 609 */
+/* 566 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64336,10 +75877,17 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var PooledClass = __webpack_require__(49);
 var Transaction = __webpack_require__(85);
 var ReactInstrumentation = __webpack_require__(28);
 var ReactServerUpdateQueue = __webpack_require__(610);
+=======
+var PooledClass = __webpack_require__(45);
+var Transaction = __webpack_require__(77);
+var ReactInstrumentation = __webpack_require__(27);
+var ReactServerUpdateQueue = __webpack_require__(567);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -64431,7 +75979,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 610 */
+/* 567 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64455,8 +76003,13 @@ function _classCallCheck(instance, Constructor) {
   }
 }
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactUpdateQueue = __webpack_require__(159);
 var Transaction = __webpack_require__(85);
+=======
+var ReactUpdateQueue = __webpack_require__(148);
+var Transaction = __webpack_require__(77);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 function warnNoop(publicInstance, callerName) {
@@ -64593,7 +76146,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 611 */
+/* 568 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -64916,7 +76469,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 612 */
+/* 569 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64933,6 +76486,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventPropagators = __webpack_require__(82);
 var ExecutionEnvironment = __webpack_require__(20);
@@ -64944,6 +76498,19 @@ var getActiveElement = __webpack_require__(207);
 var isTextInputElement = __webpack_require__(274);
 var keyOf = __webpack_require__(46);
 var shallowEqual = __webpack_require__(131);
+=======
+var EventConstants = __webpack_require__(37);
+var EventPropagators = __webpack_require__(74);
+var ExecutionEnvironment = __webpack_require__(20);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactInputSelection = __webpack_require__(239);
+var SyntheticEvent = __webpack_require__(39);
+
+var getActiveElement = __webpack_require__(188);
+var isTextInputElement = __webpack_require__(252);
+var keyOf = __webpack_require__(43);
+var shallowEqual = __webpack_require__(121);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -65151,7 +76718,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 613 */
+/* 570 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65170,6 +76737,7 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var EventConstants = __webpack_require__(39);
 var EventListener = __webpack_require__(205);
 var EventPropagators = __webpack_require__(82);
@@ -65190,6 +76758,28 @@ var emptyFunction = __webpack_require__(30);
 var getEventCharCode = __webpack_require__(162);
 var invariant = __webpack_require__(9);
 var keyOf = __webpack_require__(46);
+=======
+var EventConstants = __webpack_require__(37);
+var EventListener = __webpack_require__(186);
+var EventPropagators = __webpack_require__(74);
+var ReactDOMComponentTree = __webpack_require__(17);
+var SyntheticAnimationEvent = __webpack_require__(571);
+var SyntheticClipboardEvent = __webpack_require__(572);
+var SyntheticEvent = __webpack_require__(39);
+var SyntheticFocusEvent = __webpack_require__(575);
+var SyntheticKeyboardEvent = __webpack_require__(577);
+var SyntheticMouseEvent = __webpack_require__(98);
+var SyntheticDragEvent = __webpack_require__(574);
+var SyntheticTouchEvent = __webpack_require__(578);
+var SyntheticTransitionEvent = __webpack_require__(579);
+var SyntheticUIEvent = __webpack_require__(76);
+var SyntheticWheelEvent = __webpack_require__(580);
+
+var emptyFunction = __webpack_require__(29);
+var getEventCharCode = __webpack_require__(151);
+var invariant = __webpack_require__(9);
+var keyOf = __webpack_require__(43);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var topLevelTypes = EventConstants.topLevelTypes;
 
@@ -65818,7 +77408,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 614 */
+/* 571 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65835,7 +77425,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticEvent = __webpack_require__(41);
+var SyntheticEvent = __webpack_require__(39);
 
 /**
  * @interface Event
@@ -65876,7 +77466,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 615 */
+/* 572 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65893,7 +77483,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticEvent = __webpack_require__(41);
+var SyntheticEvent = __webpack_require__(39);
 
 /**
  * @interface Event
@@ -65933,7 +77523,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 616 */
+/* 573 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65950,7 +77540,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticEvent = __webpack_require__(41);
+var SyntheticEvent = __webpack_require__(39);
 
 /**
  * @interface Event
@@ -65988,7 +77578,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 617 */
+/* 574 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66005,7 +77595,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var SyntheticMouseEvent = __webpack_require__(106);
+=======
+var SyntheticMouseEvent = __webpack_require__(98);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface DragEvent
@@ -66043,7 +77637,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 618 */
+/* 575 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66060,7 +77654,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var SyntheticUIEvent = __webpack_require__(84);
+=======
+var SyntheticUIEvent = __webpack_require__(76);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface FocusEvent
@@ -66098,7 +77696,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 619 */
+/* 576 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66115,7 +77713,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticEvent = __webpack_require__(41);
+var SyntheticEvent = __webpack_require__(39);
 
 /**
  * @interface Event
@@ -66154,7 +77752,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 620 */
+/* 577 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66171,11 +77769,19 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var SyntheticUIEvent = __webpack_require__(84);
 
 var getEventCharCode = __webpack_require__(162);
 var getEventKey = __webpack_require__(628);
 var getEventModifierState = __webpack_require__(163);
+=======
+var SyntheticUIEvent = __webpack_require__(76);
+
+var getEventCharCode = __webpack_require__(151);
+var getEventKey = __webpack_require__(585);
+var getEventModifierState = __webpack_require__(152);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface KeyboardEvent
@@ -66257,7 +77863,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 621 */
+/* 578 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66274,9 +77880,15 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var SyntheticUIEvent = __webpack_require__(84);
 
 var getEventModifierState = __webpack_require__(163);
+=======
+var SyntheticUIEvent = __webpack_require__(76);
+
+var getEventModifierState = __webpack_require__(152);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface TouchEvent
@@ -66321,7 +77933,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 622 */
+/* 579 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66338,7 +77950,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticEvent = __webpack_require__(41);
+var SyntheticEvent = __webpack_require__(39);
 
 /**
  * @interface Event
@@ -66379,7 +77991,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 623 */
+/* 580 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66396,7 +78008,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var SyntheticMouseEvent = __webpack_require__(106);
+=======
+var SyntheticMouseEvent = __webpack_require__(98);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * @interface WheelEvent
@@ -66452,7 +78068,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 624 */
+/* 581 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -66515,7 +78131,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 625 */
+/* 582 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66532,7 +78148,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var CSSProperty = __webpack_require__(250);
+=======
+var CSSProperty = __webpack_require__(228);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var isUnitlessNumber = CSSProperty.isUnitlessNumber;
@@ -66616,7 +78236,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 626 */
+/* 583 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66635,11 +78255,19 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactDOMComponentTree = __webpack_require__(18);
 var ReactInstanceMap = __webpack_require__(83);
 
 var getHostComponentFromComposite = __webpack_require__(271);
+=======
+var ReactCurrentOwner = __webpack_require__(38);
+var ReactDOMComponentTree = __webpack_require__(17);
+var ReactInstanceMap = __webpack_require__(75);
+
+var getHostComponentFromComposite = __webpack_require__(249);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var invariant = __webpack_require__(9);
 var warning = __webpack_require__(10);
 
@@ -66694,7 +78322,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 627 */
+/* 584 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66714,8 +78342,13 @@ var _temp = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var KeyEscapeUtils = __webpack_require__(151);
 var traverseAllChildren = __webpack_require__(168);
+=======
+var KeyEscapeUtils = __webpack_require__(140);
+var traverseAllChildren = __webpack_require__(157);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 var warning = __webpack_require__(10);
 
 var ReactComponentTreeHook;
@@ -66726,7 +78359,7 @@ if (typeof process !== 'undefined' && process.env && process.env.NODE_ENV === 't
   // https://github.com/facebook/react/issues/7240
   // Remove the inline requires when we don't need them anymore:
   // https://github.com/facebook/react/pull/7178
-  ReactComponentTreeHook = __webpack_require__(31);
+  ReactComponentTreeHook = __webpack_require__(30);
 }
 
 /**
@@ -66742,7 +78375,7 @@ function flattenSingleChildIntoContext(traverseContext, child, name, selfDebugID
     var keyUnique = result[name] === undefined;
     if (process.env.NODE_ENV !== 'production') {
       if (!ReactComponentTreeHook) {
-        ReactComponentTreeHook = __webpack_require__(31);
+        ReactComponentTreeHook = __webpack_require__(30);
       }
       if (!keyUnique) {
         process.env.NODE_ENV !== 'production' ? warning(false, 'flattenChildren(...): Encountered two children with the same key, ' + '`%s`. Child keys must be unique; when two children share a key, only ' + 'the first child will be used.%s', KeyEscapeUtils.unescape(name), ReactComponentTreeHook.getStackAddendumByID(selfDebugID)) : void 0;
@@ -66794,7 +78427,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 628 */
+/* 585 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66811,7 +78444,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var getEventCharCode = __webpack_require__(162);
+=======
+var getEventCharCode = __webpack_require__(151);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Normalization of deprecated HTML5 `key` values
@@ -66917,7 +78554,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 629 */
+/* 586 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -67012,7 +78649,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 630 */
+/* 587 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67138,7 +78775,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 631 */
+/* 588 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67156,7 +78793,7 @@ var _temp = function () {
 
 var _prodInvariant = __webpack_require__(12);
 
-var ReactElement = __webpack_require__(32);
+var ReactElement = __webpack_require__(31);
 
 var invariant = __webpack_require__(9);
 
@@ -67194,7 +78831,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 632 */
+/* 589 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67211,7 +78848,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var escapeTextContentForBrowser = __webpack_require__(107);
+=======
+var escapeTextContentForBrowser = __webpack_require__(99);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Escapes attribute value to prevent scripting attacks.
@@ -67237,7 +78878,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 633 */
+/* 590 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67254,7 +78895,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var ReactMount = __webpack_require__(262);
+=======
+var ReactMount = __webpack_require__(240);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 module.exports = ReactMount.renderSubtreeIntoContainer;
 ;
@@ -67268,7 +78913,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 634 */
+/* 591 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67279,7 +78924,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = applyMiddleware;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _compose = __webpack_require__(276);
+=======
+var _compose = __webpack_require__(254);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _compose2 = _interopRequireDefault(_compose);
 
@@ -67354,7 +79003,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 635 */
+/* 592 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -67429,7 +79078,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 636 */
+/* 593 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67440,6 +79089,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = combineReducers;
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _createStore = __webpack_require__(277);
 
 var _isPlainObject = __webpack_require__(216);
@@ -67447,6 +79097,15 @@ var _isPlainObject = __webpack_require__(216);
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
 var _warning = __webpack_require__(279);
+=======
+var _createStore = __webpack_require__(255);
+
+var _isPlainObject = __webpack_require__(195);
+
+var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
+
+var _warning = __webpack_require__(257);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _warning2 = _interopRequireDefault(_warning);
 
@@ -67597,6 +79256,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 637 */,
 /* 638 */,
 /* 639 */,
@@ -67612,6 +79272,9 @@ var _temp = function () {
 /* 649 */,
 /* 650 */,
 /* 651 */
+=======
+/* 594 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -67633,13 +79296,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 652 */
+=======
+/* 595 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 module.exports = __webpack_require__(653);
+=======
+module.exports = __webpack_require__(596);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 ;
 
 var _temp = function () {
@@ -67651,7 +79322,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 653 */
+=======
+/* 596 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67661,7 +79336,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _ponyfill = __webpack_require__(654);
+=======
+var _ponyfill = __webpack_require__(597);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var _ponyfill2 = _interopRequireDefault(_ponyfill);
 
@@ -67700,10 +79379,17 @@ var _temp = function () {
 }();
 
 ;
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(25)(module), __webpack_require__(57)))
 
 /***/ },
 /* 654 */
+=======
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(258)))
+
+/***/ },
+/* 597 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -67737,20 +79423,32 @@ var _temp = function () {
 		return;
 	}
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 	__REACT_HOT_LOADER__.register(symbolObservablePonyfill, 'symbolObservablePonyfill', '/Users/Rob/hackreactor/ReTok/node_modules/symbol-observable/lib/ponyfill.js');
+=======
+	__REACT_HOT_LOADER__.register(symbolObservablePonyfill, 'symbolObservablePonyfill', '/Users/Michael/HR/Thesis/ReTok/node_modules/symbol-observable/lib/ponyfill.js');
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 }();
 
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 655 */,
 /* 656 */
+=======
+/* 598 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var space = __webpack_require__(658);
+=======
+var space = __webpack_require__(600);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Export.
@@ -67783,7 +79481,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 657 */
+=======
+/* 599 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports) {
 
 "use strict";
@@ -67882,13 +79584,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 658 */
+=======
+/* 600 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var clean = __webpack_require__(657);
+=======
+var clean = __webpack_require__(599);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 /**
  * Export.
@@ -67921,9 +79631,13 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 659 */,
 /* 660 */,
 /* 661 */
+=======
+/* 601 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -67951,7 +79665,11 @@ var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 var _utils = __webpack_require__(662);
+=======
+var _utils = __webpack_require__(602);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 var utils = _interopRequireWildcard(_utils);
 
@@ -68135,7 +79853,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 662 */
+=======
+/* 602 */
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68301,6 +80023,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< 539fb71877e7beb756481d16c78ee4c7ca05fa18
 /* 663 */,
 /* 664 */,
 /* 665 */,
@@ -68315,6 +80038,12 @@ var _temp = function () {
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(290);
+=======
+/* 603 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(260);
+>>>>>>> remove graphql coin update ability, use sockets to trigger update instead
 
 
 /***/ }

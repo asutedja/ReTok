@@ -475,7 +475,6 @@ var Mutation = new GraphQLObjectType({
 					dob: {type: GraphQLDate},
 					gender: {type: GraphQLString},
 					profilePic: {type: GraphQLString},
-					coin: {type: GraphQLInt},
 					online: {type: GraphQLBoolean}
 				},
 				resolve (root, args) {
@@ -557,28 +556,6 @@ var Mutation = new GraphQLObjectType({
 					});
 				}
 			},
-			// addChat: {
-			// 	type: Chat,
-			// 	args: {
-			// 		room: {type: new GraphQLNonNull(GraphQLString)},
-			// 		text: {type: new GraphQLNonNull(GraphQLString)}
-			// 	},
-			// 	resolve(root, args) {
-			// 		var time = new Date();
-			// 		Db.Chat.findOrCreate({where: {room: args.room}})
-			// 		.then(function(chat, created) {
-			// 			if (chat[0].text) {
-			// 				var text = chat[0].text + Redis.archiveCode + args.text;
-			// 			} else {
-			// 				var text = args.text;
-			// 			}
-			// 			Db.Chat.update({text: text, time: time}, {where: {room: args.room}})
-			// 		})
-			// 		.catch(function(err) {
-			// 			console.log('Error when adding chat: ', err);
-			// 		});
-			// 	} 
-			// },
 			addChatRedis: {
 				type: Chat,
 				args: {
