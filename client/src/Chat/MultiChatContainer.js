@@ -115,9 +115,6 @@ class MultiChatContainer extends React.Component {
     var chatContainer = document.querySelector('.chat-output');
     
     var appendDIV = (event) => {
-      if(typeof event.data === 'object') {
-        console.log('Does this work?')
-      }
       var div = document.createElement('div');
       div.innerHTML = event.data || event;
       chatContainer.insertBefore(div, chatContainer.firstChild);
@@ -143,7 +140,6 @@ class MultiChatContainer extends React.Component {
           mediaElement.media.play();
       }, 5000);
       mediaElement.id = event.streamid;
-      mediaElement.setAttribute('id', event.userid)
     }.bind(this);
 
     connection.onstreamended = function(event) {

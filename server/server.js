@@ -240,9 +240,5 @@ app.get('*', function(req, res) {
   res.redirect('/');
 })
 
-http.listen(port, function(data) {
-  console.log('listening on ' + port);
-});
-
 
 httpsServer.listen(8443);
