@@ -84,7 +84,7 @@ a:hover {
 }
 
 .oneFriend {
-  display: block;
+  display: inline-block;
   border-radius: 3px;
   border: 1px solid white;
   width: 30%;
@@ -365,20 +365,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .chatFriendsList{
-border: 1px solid #404040;
-border-radius: 5px;
-margin-top: 5px;
-background-color: #404040;
-color: white !important;
-display: flex;
-position: fixed;
-flex-flow: column;
-align-items: center;
-height: 500px;
-padding-right: 1%;
+  border: 1px solid #404040;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #404040;
+  color: white !important;
+  display: flex;
+  position: fixed;
+  flex-flow: column;
+  font-size: 110%;
+  align-items: center;
+  padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
-  width:250px;
+  width: 25%;
+  min-width: 100px;
+  max-width: 300px;
 }
 .chatFriendsHeader{
   display: flex;
@@ -428,42 +430,50 @@ border-bottom-right-radius: 6px;
   overflow: hidden;
 }
 
-
+.chatWrapper{
+  position: relative;
+  left: 30%;
+  width: 60%;
+}
 
 .chatWindow{
 border: 1px solid white;
 border-radius: 5px;
-margin-top: 5px;
 background-color: white;
 color: #404040 !important;
 display: flex;
-position: relative;
-left: 30%;
+
 flex-flow: column;
 height: 420px;
   padding-left: 2%;
   padding-right: 1%;
-  padding-top: 1%;
   padding-bottom: 1%;
-  width:60%;
+  width:100%;
+}
+
+.chatHeader{
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+  background-color: #4d94ff;
+  color: white;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: -1%;
 }
 
 .chatInputWindow{
 border: 1px solid white;
 border-radius: 5px;
-margin-top: 5px;
 background-color: white;
 color: #404040 !important;
 display: flex;
-position: relative;
-left: 30%;
-
+width: 100%;
 height: 50px;
   padding-left: 2%;
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
-  width:60%;
+
 }
 #chatInput{
 align-items: center;
@@ -507,6 +517,10 @@ background-image: -o-linear-gradient(top, #1ab0ec, #3f9feb);
 background-image: linear-gradient(to bottom, #1ab0ec, #3f9feb);
 filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#1ab0ec, endColorstr=#3f9feb); 
 }
+.chatInputWrapper{
+  margin-top: 1%;
+}
+
 
 #chatInputField{
   border-radius: 10px;
@@ -526,11 +540,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .emojiChatContainer{
-  margin-top: -1%;
+  border: 1px solid black;
+  background-color: white;
+  margin-top: 2%;
+  margin-bottom: 2%;
   display: flex;
   justify-content: center;
   height: 100px;
-  width: 90%;
+
 }
 
 .oneEmojiChat{
@@ -541,4 +558,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   display: flex;
   justify-content: center;
   font-size: 3rem;
+}
+
+.chatProfile {
+  background-color: white;
+  position: relative;
+  padding: 2%;
+  left: 30%;
+  width: 60%;
 }

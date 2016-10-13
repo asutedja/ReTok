@@ -32,7 +32,8 @@ var Routes = (
         </Route>
       <Route path="/search" component={SearchContainer}/>
       <Route path="/chat" component={MultiChatContainer}/>
-      <Route path="/text" component={TextChatContainer}/>
+      <Route path="/text" component={TextChatContainer}>
+      </Route>
       <Route path="/upload" component={PhotoUploadContainer}/>
     </Route>
   </Router>

@@ -24,6 +24,8 @@ class LoginContainer extends React.Component {
 		    if(res.data) {
 		    	console.log('go through to auth')
 		      context.context.router.push('/profile');
+		    } else {
+		    	context.props.dispatch(userActions.userUnauth());
 		    }
 		  })
 

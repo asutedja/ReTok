@@ -5,7 +5,10 @@ const FriendsListEntry = (props) => {
 
   return (
     <div className= "chatFriendsListEntry" id={props.friend.username}>
-    <h4 onClick={(e)=>{e.preventDefault(); props.joinRoom(props.friend); props.addHighlightClass(props.friend.username)}}>{props.friend.username}</h4>
+    <span onClick={(e)=>{e.preventDefault(); props.joinRoom(props.friend); props.addHighlightClass(props.friend.username)}}>{props.friend.username}</span>
+    <button onClick={(e)=>{e.preventDefault();props.videoChat(props.friend)}}>
+      Video
+    </button>
     </div>
   )
 }
