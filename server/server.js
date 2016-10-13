@@ -221,9 +221,6 @@ io.sockets.on('connection', function(socket) {
         })
       })
   }) 
-  socket.on('bye', function(){
-    console.log('received bye');
-  });
 
   socket.on('endTextChat', function(username, coin){
     Db.User.update({coin: coin}, {where: {username: username}});

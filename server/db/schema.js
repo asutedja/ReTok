@@ -359,7 +359,6 @@ var Query = new GraphQLObjectType({
 								friends.push(friend);
 							});
 						}
-						console.log("friends: ", friends)
 						return friends;
 					})
 					.catch(function(err){

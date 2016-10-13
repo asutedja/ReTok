@@ -154,7 +154,6 @@ class TextChatContainer extends React.Component {
 
     //update coin at db
     socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
-
     socket.removeAllListeners("joinRoomSuccess");
     socket.removeAllListeners("textmessagereceived");
   }

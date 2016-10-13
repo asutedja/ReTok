@@ -39659,22 +39659,11 @@ var _temp = function () {
 
       this.props.dispatch(userActions.updateCurrentChat(clearChat));
 
+      //update coin at db
+      socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
+      console.log("HERE");
       socket.removeAllListeners("joinRoomSuccess");
       socket.removeAllListeners("textmessagereceived");
-
-      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
-      var options = {
-
-        method: 'POST',
-        headers: myHeaders,
-        body: '\n          mutation {\n          updateUser(username: "' + this.props.user.username + '" coin:' + this.props.user.coin + ')  {\n            username\n          }\n          }\n          '
-
-      };
-      fetch('/graphql', options).then(function (res) {
-        return res.json().then(function (data) {
-          console.log('unmounting');
-        });
-      });
     }
   }, {
     key: 'handleWindowClose',
