@@ -64,8 +64,11 @@ class LoggedInNavContainer extends React.Component {
         })
     })
     .catch((error) => console.log(error))
-    socket.emit('updateFriends', this.props.friends);
-    socket.disconnect()
+
+    if(socket) {
+      socket.emit('updateFriends', this.props.friends);
+      socket.disconnect()
+    }
     this.props.dispatch(userActions.sendSocket(null))
     this.context.router.push('/')
   }
