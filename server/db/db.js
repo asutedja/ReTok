@@ -16,6 +16,7 @@ ssl:'Amazon RDS'
 pool: { maxConnections: 5, maxIdleTime: 30},
 language: 'en'
 })
+
 //define user model
 var User = sequelize.define('User', {
 	username: Sequelize.STRING,

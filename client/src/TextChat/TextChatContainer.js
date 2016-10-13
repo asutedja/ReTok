@@ -336,6 +336,4 @@ TextChatContainer.contextTypes = {
   router: PropTypes.object.isRequired
 }
 
-
-
 export default connect(mapStateToProps)(TextChatContainer);
