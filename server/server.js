@@ -12,10 +12,8 @@ var LocalStrategy = require('passport-local').Strategy;
 var Db = require('./db/db')
 var bodyParser = require('body-parser');
 var sockets = {};
-
 var cors = require('cors');
 require('./auth/auth');
-
 var fs = require('fs');
 var https = require('https');
 var privateKey  = fs.readFileSync(__dirname + '/key.pem', 'utf8');
@@ -27,26 +25,22 @@ var httpsServer = https.createServer(credentials, app);
 var os = require('os');
 var io = require('socket.io')(httpsServer);
 require('./Signaling-Server.js')(httpsServer, function(socket) {}, io);
-var cookieParser = require('cookie-parser');
 
-app.use(cookieParser());
 app.use(express.static('client'));
 app.use(express.static(__dirname + '/../client/'));
-app.use(session({secret: 'lets ReTok', cookie: {maxAge: 180000}}));
-
+app.use(session({secret: 'lets ReTok'}));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(cors());
-
 var uploadPhoto = ('./db/uploadPhoto');
 require('./db/uploadPhoto')(app);
-
-// app.get('*', function (request, response){
-//   response.sendFile(__dirname + '/../client/index.html');
-// });
-
 app.use(/\/((?!graphql).)*/, bodyParser.urlencoded({ extended: true }));
 app.use(/\/((?!graphql).)*/, bodyParser.json());
+app.use('/graphql', GraphHTTP({
+  schema: Schema,
+  pretty: true,
+  graphiql: true
+}));
 
 app.get('/auth', function(req, res) {
   var authUser = true;
@@ -56,12 +50,6 @@ app.get('/auth', function(req, res) {
     res.send(authUser);
   }
 });
-
-app.use('/graphql', GraphHTTP({
-  schema: Schema,
-  pretty: true,
-  graphiql: true
-}));
 
 app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
   var userID = req.session.passport.user;
@@ -79,7 +67,6 @@ app.post('/login', passport.authenticate('local', {}) ,function(req, res) {
       coin: user0.coin,
       gender: user0.gender
     }];
-    res.cookie('userID', userID);
     res.status(200).send(resUser);
  });
 });
@@ -243,5 +230,10 @@ app.get('/logout', function (req, res){
 app.get('*', function(req, res) {
   res.redirect('/');
 })
+
+http.listen(port, function(data) {
+  console.log('listening on ' + port);
+
+});
 
 httpsServer.listen(8443);
