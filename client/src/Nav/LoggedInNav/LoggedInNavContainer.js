@@ -60,13 +60,13 @@ class LoggedInNavContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
+          socket.emit('updateFriends', this.props.friends);
+          socket.disconnect()
           // console.log(data);
-        })
-    })
+        }.bind(this))
+    }.bind(this))
     .catch((error) => console.log(error))
 
-    socket.emit('updateFriends', this.props.friends);
-    socket.disconnect()
     this.props.dispatch(userActions.sendSocket(null))
     this.context.router.push('/')
   }
