@@ -3,6 +3,7 @@ import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import SignUpForm from './SignUpForm.js'
 import axios from 'axios'
 import { connect } from 'react-redux'
+import * as userActions from '../Redux/userReducer'
 
 
 class LoginContainer extends React.Component {
@@ -27,6 +28,7 @@ class LoginContainer extends React.Component {
 		    	context.props.dispatch(userActions.userUnauth());
 		    }
 		  })
+
 	}
 
 	signUp(user, password, firstName, lastName, email) {
@@ -35,7 +37,11 @@ class LoginContainer extends React.Component {
 			comma: false
 		})
 		if(!user.includes(',') && !user.includes(':') && !user.includes('^') && !user.includes('#')) {
+
+			console.log('User ',user, ' Password ', password, 'firstName', firstName, 'lastName', lastName, 'email', email);
 			var userInfo = {username: user, password: password};
+
+
 			let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
 			let options = {
 
@@ -98,9 +104,14 @@ class LoginContainer extends React.Component {
 	}
 }
 
+function mapStateToProps(state) {
+  return {
+    isLoggedIn: state.userReducer.isLoggedIn
+  }
+}
 
 LoginContainer.contextTypes = {
   router: PropTypes.object.isRequired
 }
 
-export default LoginContainer
+export default connect(mapStateToProps)(LoginContainer)

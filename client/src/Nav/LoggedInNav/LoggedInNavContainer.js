@@ -61,7 +61,7 @@ class LoggedInNavContainer extends React.Component {
       return res.json().then((data) => {
 	  socket.emit('updateFriends', this.props.friends);
           socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
-	  socket.disconnect()
+	        socket.disconnect()
           this.props.dispatch(userActions.sendSocket(null))
           this.context.router.push('/')
         })
