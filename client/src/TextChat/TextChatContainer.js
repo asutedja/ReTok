@@ -10,7 +10,7 @@ import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
 // import { _.escape, _.unescape, escapeMap ,unescapeMap} from 'underscore'
 import * as userActions from '../Redux/userReducer'
-
+ 
 class TextChatContainer extends React.Component {
 
   constructor(props) {
