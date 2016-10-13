@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react'
+import React, {PropTypes} from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
@@ -8,13 +8,13 @@ import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
 import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
-import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
+// import { _.escape, _.unescape, escapeMap ,unescapeMap} from 'underscore'
 import * as userActions from '../Redux/userReducer'
 
 class TextChatContainer extends React.Component {
 
-  constructor(props,context) {
-    super(props,context);
+  constructor(props) {
+    super(props);
     this.state = {
       chatSelected: false,
       currentFriend: null,
@@ -24,6 +24,8 @@ class TextChatContainer extends React.Component {
 
   componentWillMount() {
 
+
+
     var context = this;
     axios.get('/auth')
       .then(function(res) {
@@ -31,35 +33,15 @@ class TextChatContainer extends React.Component {
 
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-           var socket = context.props.socket;
-    axios.get('/logout');
-    context.props.dispatch(userActions.toggleLogIn(false));
-
-    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-    let options = {
-
-      method: 'POST',
-      headers: myHeaders,
-      body: `mutation
-        {
-          updateUser(username:"${this.props.user.username}" online: false) 
-          {
-            username
-            online
-          }
-        }`
-    };
-    fetch('/graphql', options).then((res) =>{
-      return res.json().then((data) => {
-          socket.emit('updateFriends', context.props.friends);
-          socket.disconnect()
-          context.props.dispatch(userActions.sendSocket(null))
-          context.context.router.push('/')
-        })
-    })
-    .catch((error) => console.log(error))
-	 }
+          context.context.router.push('/');
+        }
       })
+
+
+    var socket = this.props.socket
+    socket.emit('login', this.props.user.username)
+    socket.emit('updateFriends', this.props.friends);
+    var username = this.props.user.username
 
     
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
@@ -83,12 +65,18 @@ class TextChatContainer extends React.Component {
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
         var findChatsData = data.data.findChatsRedis;
-        // console.log('checking data after fetching', findChatsData);
         var newChatLog = {};
 
         for (var i = 0; i < findChatsData.length; i++) {
-          // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
-          newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('#^');
+
+          var myChatData = findChatsData[i]['text'].split('#^');
+
+            for (var j = 0; j < myChatData.length; j++) {
+              myChatData[j] = decodeURI(myChatData[j]); 
+            }
+
+
+          newChatLog[findChatsData[i]['room']] = myChatData;
         }
         context.props.dispatch(userActions.updateChatLog(newChatLog));
         console.log('checking my chat log on will mount after fetching', context.props.chatLog);
@@ -100,9 +88,6 @@ class TextChatContainer extends React.Component {
     this.props.dispatch(userActions.createRoom(''));
     console.log('checking current chat --->', this.props.currentChat);
     console.log('checking  chatlog on mount --->', this.props.chatLog);
-
-
-    var socket = this.props.socket;
 
     var chatLogCopy = Object.assign({}, this.props.chatLog);
 
@@ -176,14 +161,32 @@ class TextChatContainer extends React.Component {
     var socket = this.props.socket;
     var clearChat = [];
 
+
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
 
-    //update coin at db
-    if(socket) {
-  	 socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
-   	 socket.removeAllListeners("joinRoomSuccess");
-   	 socket.removeAllListeners("textmessagereceived");
-    }
+    socket.removeAllListeners("joinRoomSuccess");
+    socket.removeAllListeners("textmessagereceived");
+
+    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+    let options = {
+
+      method: 'POST',
+      headers: myHeaders,
+      body: `
+          mutation {
+          updateUser(username: \"${this.props.user.username}\" coin:${this.props.user.coin})  {
+            username
+          }
+          }
+          `
+
+    };
+    fetch('/graphql', options).then((res) =>{
+      return res.json().then((data) => {
+        console.log('unmounting');
+      })
+    })
+
   }
 
   handleWindowClose(){
@@ -191,13 +194,20 @@ class TextChatContainer extends React.Component {
   }
   sendChat(message) {
 
+
+
+
+
+
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
     this.props.dispatch(userActions.updateUser(userCopy));
     console.log('i am receiving a message', message);
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
-    const emojiEscapedString = unicodeToShort(message);
+    const emojiEscapedString = encodeURI(unicodeToShort(message));
+
+    console.log('check encoded URI string', emojiEscapedString);
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let chatOptions = {
       method: 'POST',
@@ -270,11 +280,7 @@ class TextChatContainer extends React.Component {
             </Scrollbars>
           </div>
           <div className="chatInputWrapper">
-          <div>
-          <Scrollbars style={{ height: 50 }}>
-            <EmojiChatContainer/>
-          </Scrollbars>
-          </div>
+
           <div className="chatInputWindow">
             <form id="chatInput" onSubmit={(e)=>{e.preventDefault(); this.sendChat(document.getElementById("chatInputField").value); document.getElementById("chatInput").reset();}}>
               <input id="chatInputField"/>
@@ -292,9 +298,6 @@ class TextChatContainer extends React.Component {
           <div className="oneFriendWrapper">
           </div>
         </div>
-        
-      </div>
-      <div className="chatProfileEmojis">
       </div>
     </div>
     }
@@ -337,6 +340,6 @@ TextChatContainer.contextTypes = {
   router: PropTypes.object.isRequired
 }
 
-export default connect(mapStateToProps)(TextChatContainer);
 
-// {this.props.friends.map((item, index) => <TextChat key={index} friend={item}/>)}
+
+export default connect(mapStateToProps)(TextChatContainer);

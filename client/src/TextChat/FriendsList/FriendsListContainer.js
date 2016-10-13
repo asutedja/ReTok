@@ -5,6 +5,8 @@ import { Scrollbars } from 'react-custom-scrollbars';
 import FriendsListEntry from './FriendsListEntry'
 import * as userActions from '../../Redux/userReducer'
 import OfflineFriendsListEntry from './OfflineFriendsListEntry'
+import EmojiChatContainer from '../EmojiChatContainer/EmojiChatContainer'
+
 
 class FriendsListContainer extends React.Component {
 
@@ -82,7 +84,11 @@ class FriendsListContainer extends React.Component {
             <h4><b>Offline:</b></h4>
           </div>
               {offline.map((item, index) => <OfflineFriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
-
+          <div className="EmojiListChat">
+          <Scrollbars style={{ height: 100 }}>
+            <EmojiChatContainer/>
+          </Scrollbars>
+          </div>
       </div>
       )
 
@@ -112,4 +118,3 @@ FriendsListContainer.contextTypes = {
 
 
 export default connect(mapStateToProps)(FriendsListContainer);
-

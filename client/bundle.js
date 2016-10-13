@@ -32989,6 +32989,10 @@ var _OfflineFriendsListEntry = __webpack_require__(323);
 
 var _OfflineFriendsListEntry2 = _interopRequireDefault(_OfflineFriendsListEntry);
 
+var _EmojiChatContainer = __webpack_require__(179);
+
+var _EmojiChatContainer2 = _interopRequireDefault(_EmojiChatContainer);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -33123,7 +33127,16 @@ var FriendsListContainer = function (_React$Component) {
         ),
         offline.map(function (item, index) {
           return _react2.default.createElement(_OfflineFriendsListEntry2.default, { key: index, friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
-        })
+        }),
+        _react2.default.createElement(
+          'div',
+          { className: 'EmojiListChat' },
+          _react2.default.createElement(
+            _reactCustomScrollbars.Scrollbars,
+            { style: { height: 100 } },
+            _react2.default.createElement(_EmojiChatContainer2.default, null)
+          )
+        )
       );
     }
   }]);
@@ -33385,8 +33398,6 @@ var _axios = __webpack_require__(23);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _reactRouter = __webpack_require__(15);
-
 var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
@@ -33400,14 +33411,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+// import { _.escape, _.unescape, escapeMap ,unescapeMap} from 'underscore'
+
 
 var TextChatContainer = function (_React$Component) {
   _inherits(TextChatContainer, _React$Component);
 
-  function TextChatContainer(props, context) {
+  function TextChatContainer(props) {
     _classCallCheck(this, TextChatContainer);
 
-    var _this = _possibleConstructorReturn(this, (TextChatContainer.__proto__ || Object.getPrototypeOf(TextChatContainer)).call(this, props, context));
+    var _this = _possibleConstructorReturn(this, (TextChatContainer.__proto__ || Object.getPrototypeOf(TextChatContainer)).call(this, props));
 
     _this.state = {
       chatSelected: false,
@@ -33427,29 +33440,14 @@ var TextChatContainer = function (_React$Component) {
 
         if (!res.data) {
           console.log('no session...redirecting to sign up page');
-          var socket = context.props.socket;
-          _axios2.default.get('/logout');
-          context.props.dispatch(userActions.toggleLogIn(false));
-
-          var _myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
-          var _options = {
-
-            method: 'POST',
-            headers: _myHeaders,
-            body: 'mutation\n        {\n          updateUser(username:"' + this.props.user.username + '" online: false) \n          {\n            username\n            online\n          }\n        }'
-          };
-          fetch('/graphql', _options).then(function (res) {
-            return res.json().then(function (data) {
-              socket.emit('updateFriends', context.props.friends);
-              socket.disconnect();
-              context.props.dispatch(userActions.sendSocket(null));
-              context.context.router.push('/');
-            });
-          }).catch(function (error) {
-            return console.log(error);
-          });
+          context.context.router.push('/');
         }
       });
+
+      var socket = this.props.socket;
+      socket.emit('login', this.props.user.username);
+      socket.emit('updateFriends', this.props.friends);
+      var username = this.props.user.username;
 
       console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
       var context = this;
@@ -33465,12 +33463,17 @@ var TextChatContainer = function (_React$Component) {
       fetch('/graphql', options).then(function (res) {
         return res.json().then(function (data) {
           var findChatsData = data.data.findChatsRedis;
-          // console.log('checking data after fetching', findChatsData);
           var newChatLog = {};
 
           for (var i = 0; i < findChatsData.length; i++) {
-            // console.log('checking the split on mount--->', findChatsData[i]['text'].split('$#%!$?!*&&*###@@'));
-            newChatLog[findChatsData[i]['room']] = findChatsData[i]['text'].split('#^');
+
+            var myChatData = findChatsData[i]['text'].split('#^');
+
+            for (var j = 0; j < myChatData.length; j++) {
+              myChatData[j] = decodeURI(myChatData[j]);
+            }
+
+            newChatLog[findChatsData[i]['room']] = myChatData;
           }
           context.props.dispatch(userActions.updateChatLog(newChatLog));
           console.log('checking my chat log on will mount after fetching', context.props.chatLog);
@@ -33480,8 +33483,6 @@ var TextChatContainer = function (_React$Component) {
       this.props.dispatch(userActions.createRoom(''));
       console.log('checking current chat --->', this.props.currentChat);
       console.log('checking  chatlog on mount --->', this.props.chatLog);
-
-      var socket = this.props.socket;
 
       var chatLogCopy = Object.assign({}, this.props.chatLog);
 
@@ -33549,12 +33550,22 @@ var TextChatContainer = function (_React$Component) {
 
       this.props.dispatch(userActions.updateCurrentChat(clearChat));
 
-      //update coin at db
-      if (socket) {
-        socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
-        socket.removeAllListeners("joinRoomSuccess");
-        socket.removeAllListeners("textmessagereceived");
-      }
+      socket.removeAllListeners("joinRoomSuccess");
+      socket.removeAllListeners("textmessagereceived");
+
+      var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+      var options = {
+
+        method: 'POST',
+        headers: myHeaders,
+        body: '\n          mutation {\n          updateUser(username: "' + this.props.user.username + '" coin:' + this.props.user.coin + ')  {\n            username\n          }\n          }\n          '
+
+      };
+      fetch('/graphql', options).then(function (res) {
+        return res.json().then(function (data) {
+          console.log('unmounting');
+        });
+      });
     }
   }, {
     key: 'handleWindowClose',
@@ -33571,7 +33582,9 @@ var TextChatContainer = function (_React$Component) {
       console.log('i am receiving a message', message);
       message = this.props.user.username + ": " + message;
       this.props.socket.emit('textmessagesent', message, this.props.room);
-      var emojiEscapedString = (0, _unicodeToShort2.default)(message);
+      var emojiEscapedString = encodeURI((0, _unicodeToShort2.default)(message));
+
+      console.log('check encoded URI string', emojiEscapedString);
       var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
       var chatOptions = {
         method: 'POST',
@@ -33665,15 +33678,6 @@ var TextChatContainer = function (_React$Component) {
             { className: 'chatInputWrapper' },
             _react2.default.createElement(
               'div',
-              null,
-              _react2.default.createElement(
-                _reactCustomScrollbars.Scrollbars,
-                { style: { height: 50 } },
-                _react2.default.createElement(_EmojiChatContainer2.default, null)
-              )
-            ),
-            _react2.default.createElement(
-              'div',
               { className: 'chatInputWindow' },
               _react2.default.createElement(
                 'form',
@@ -33704,8 +33708,7 @@ var TextChatContainer = function (_React$Component) {
                 } },
               _react2.default.createElement('div', { className: 'oneFriendWrapper' })
             )
-          ),
-          _react2.default.createElement('div', { className: 'chatProfileEmojis' })
+          )
         );
       }
 
@@ -33755,9 +33758,6 @@ TextChatContainer.contextTypes = {
 var _default = (0, _reactRedux.connect)(mapStateToProps)(TextChatContainer);
 
 exports.default = _default;
-
-// {this.props.friends.map((item, index) => <TextChat key={index} friend={item}/>)}
-
 ;
 
 var _temp = function () {
