@@ -16,9 +16,6 @@ import ChatMVPContainer from './Chat/ChatMVPContainer.js'
 import TextChatContainer from './TextChat/TextChatContainer.js'
 import SearchContainer from './Search/SearchContainer.js'
 import MultiChatContainer from './Chat/MultiChatContainer.js'
-import TextChatProfileContainer from './TextChat/TextChatProfileContainer/TextChatProfileContainer.js'
-import ChatWindowContainer from './TextChat/ChatWindowContainer/ChatWindowContainer.js'
-
 
 var Routes = (
   <Router history={hashHistory}>
