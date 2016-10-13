@@ -16,6 +16,9 @@ import ChatMVPContainer from './Chat/ChatMVPContainer.js'
 import TextChatContainer from './TextChat/TextChatContainer.js'
 import SearchContainer from './Search/SearchContainer.js'
 import MultiChatContainer from './Chat/MultiChatContainer.js'
+import TextChatProfileContainer from './TextChat/TextChatProfileContainer/TextChatProfileContainer.js'
+import ChatWindowContainer from './TextChat/ChatWindowContainer/ChatWindowContainer.js'
+
 
 var Routes = (
   <Router history={hashHistory}>
@@ -32,7 +35,8 @@ var Routes = (
         </Route>
       <Route path="/search" component={SearchContainer}/>
       <Route path="/chat" component={MultiChatContainer}/>
-      <Route path="/text" component={TextChatContainer}/>
+      <Route path="/text" component={TextChatContainer}>
+      </Route>
       <Route path="/upload" component={PhotoUploadContainer}/>
     </Route>
   </Router>

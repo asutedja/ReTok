@@ -61,7 +61,11 @@
 /******/ 	__webpack_require__.p = "";
 
 /******/ 	// Load entry module and return exports
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /******/ 	return __webpack_require__(__webpack_require__.s = 651);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 652);
+>>>>>>> Incorporates video logic into text chat view
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -71,7 +75,11 @@
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = __webpack_require__(574);
+=======
+module.exports = __webpack_require__(575);
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -341,11 +349,19 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _setPrototypeOf = __webpack_require__(340);
 
 var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
 
 var _create = __webpack_require__(339);
+=======
+var _setPrototypeOf = __webpack_require__(341);
+
+var _setPrototypeOf2 = _interopRequireDefault(_setPrototypeOf);
+
+var _create = __webpack_require__(340);
+>>>>>>> Incorporates video logic into text chat view
 
 var _create2 = _interopRequireDefault(_create);
 
@@ -550,7 +566,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	if (typeof module !== 'undefined' && module.exports) {
 		module.exports = classNames;
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 	} else if ("function" === 'function' && _typeof(__webpack_require__(81)) === 'object' && __webpack_require__(81)) {
+=======
+	} else if ("function" === 'function' && _typeof(__webpack_require__(83)) === 'object' && __webpack_require__(83)) {
+>>>>>>> Incorporates video logic into text chat view
 		// register as 'classnames', consistent with npm package name
 		!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
 			return classNames;
@@ -594,7 +614,7 @@ var _extends2 = __webpack_require__(5);
 
 var _extends3 = _interopRequireDefault(_extends2);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -1038,7 +1058,11 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = __webpack_require__(579);
+=======
+module.exports = __webpack_require__(580);
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -1263,7 +1287,11 @@ Object.defineProperty(exports, 'formatPattern', {
   }
 });
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Router2 = __webpack_require__(551);
+=======
+var _Router2 = __webpack_require__(552);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Router3 = _interopRequireDefault(_Router2);
 
@@ -1271,6 +1299,7 @@ var _Link2 = __webpack_require__(237);
 
 var _Link3 = _interopRequireDefault(_Link2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _IndexLink2 = __webpack_require__(545);
 
 var _IndexLink3 = _interopRequireDefault(_IndexLink2);
@@ -1284,6 +1313,21 @@ var _IndexRedirect2 = __webpack_require__(546);
 var _IndexRedirect3 = _interopRequireDefault(_IndexRedirect2);
 
 var _IndexRoute2 = __webpack_require__(547);
+=======
+var _IndexLink2 = __webpack_require__(546);
+
+var _IndexLink3 = _interopRequireDefault(_IndexLink2);
+
+var _withRouter2 = __webpack_require__(565);
+
+var _withRouter3 = _interopRequireDefault(_withRouter2);
+
+var _IndexRedirect2 = __webpack_require__(547);
+
+var _IndexRedirect3 = _interopRequireDefault(_IndexRedirect2);
+
+var _IndexRoute2 = __webpack_require__(548);
+>>>>>>> Incorporates video logic into text chat view
 
 var _IndexRoute3 = _interopRequireDefault(_IndexRoute2);
 
@@ -1291,6 +1335,7 @@ var _Redirect2 = __webpack_require__(238);
 
 var _Redirect3 = _interopRequireDefault(_Redirect2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Route2 = __webpack_require__(549);
 
 var _Route3 = _interopRequireDefault(_Route2);
@@ -1308,6 +1353,25 @@ var _RouteContext2 = __webpack_require__(550);
 var _RouteContext3 = _interopRequireDefault(_RouteContext2);
 
 var _useRoutes2 = __webpack_require__(563);
+=======
+var _Route2 = __webpack_require__(550);
+
+var _Route3 = _interopRequireDefault(_Route2);
+
+var _History2 = __webpack_require__(545);
+
+var _History3 = _interopRequireDefault(_History2);
+
+var _Lifecycle2 = __webpack_require__(549);
+
+var _Lifecycle3 = _interopRequireDefault(_Lifecycle2);
+
+var _RouteContext2 = __webpack_require__(551);
+
+var _RouteContext3 = _interopRequireDefault(_RouteContext2);
+
+var _useRoutes2 = __webpack_require__(564);
+>>>>>>> Incorporates video logic into text chat view
 
 var _useRoutes3 = _interopRequireDefault(_useRoutes2);
 
@@ -1315,13 +1379,21 @@ var _RouterContext2 = __webpack_require__(98);
 
 var _RouterContext3 = _interopRequireDefault(_RouterContext2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _RoutingContext2 = __webpack_require__(552);
+=======
+var _RoutingContext2 = __webpack_require__(553);
+>>>>>>> Incorporates video logic into text chat view
 
 var _RoutingContext3 = _interopRequireDefault(_RoutingContext2);
 
 var _PropTypes3 = _interopRequireDefault(_PropTypes2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _match2 = __webpack_require__(561);
+=======
+var _match2 = __webpack_require__(562);
+>>>>>>> Incorporates video logic into text chat view
 
 var _match3 = _interopRequireDefault(_match2);
 
@@ -1329,6 +1401,7 @@ var _useRouterHistory2 = __webpack_require__(243);
 
 var _useRouterHistory3 = _interopRequireDefault(_useRouterHistory2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _applyRouterMiddleware2 = __webpack_require__(554);
 
 var _applyRouterMiddleware3 = _interopRequireDefault(_applyRouterMiddleware2);
@@ -1338,6 +1411,17 @@ var _browserHistory2 = __webpack_require__(555);
 var _browserHistory3 = _interopRequireDefault(_browserHistory2);
 
 var _hashHistory2 = __webpack_require__(559);
+=======
+var _applyRouterMiddleware2 = __webpack_require__(555);
+
+var _applyRouterMiddleware3 = _interopRequireDefault(_applyRouterMiddleware2);
+
+var _browserHistory2 = __webpack_require__(556);
+
+var _browserHistory3 = _interopRequireDefault(_browserHistory2);
+
+var _hashHistory2 = __webpack_require__(560);
+>>>>>>> Incorporates video logic into text chat view
 
 var _hashHistory3 = _interopRequireDefault(_hashHistory2);
 
@@ -1936,6 +2020,46 @@ var _temp = function () {
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
+'use strict';
+
+exports.__esModule = true;
+exports.connect = exports.Provider = undefined;
+
+var _Provider = __webpack_require__(537);
+
+var _Provider2 = _interopRequireDefault(_Provider);
+
+var _connect = __webpack_require__(538);
+
+var _connect2 = _interopRequireDefault(_connect);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { "default": obj };
+}
+
+exports.Provider = _Provider2["default"];
+exports.connect = _connect2["default"];
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(_Provider2, '_Provider2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(_connect2, '_connect2', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(_interopRequireDefault, '_interopRequireDefault', '/Users/Rob/Desktop/ReTok/node_modules/react-redux/lib/index.js');
+}();
+
+;
+
+/***/ },
+/* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
 /* WEBPACK VAR INJECTION */(function(process) {/**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2158,7 +2282,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 18 */
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2224,6 +2348,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -2264,6 +2389,8 @@ var _temp = function () {
 ;
 
 /***/ },
+=======
+>>>>>>> Incorporates video logic into text chat view
 /* 20 */
 /***/ function(module, exports) {
 
@@ -2422,6 +2549,47 @@ var _temp = function () {
 ;
 
 /***/ },
+/* 22 */
+/***/ function(module, exports) {
+
+"use strict";
+"use strict";
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+var g;
+
+// This works in non-strict mode
+g = function () {
+	return this;
+}();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || Function("return this")() || (1, eval)("this");
+} catch (e) {
+	// This works if the window reference is available
+	if ((typeof window === "undefined" ? "undefined" : _typeof(window)) === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+;
+
+var _temp = function () {
+	if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+		return;
+	}
+
+	__REACT_HOT_LOADER__.register(g, "g", "/Users/Rob/Desktop/ReTok/node_modules/webpack/buildin/global.js");
+}();
+
+;
+
+/***/ },
 /* 23 */
 /***/ function(module, exports) {
 
@@ -2552,7 +2720,11 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = __webpack_require__(321);
+=======
+module.exports = __webpack_require__(322);
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -2779,6 +2951,7 @@ var _temp = function () {
 
   __REACT_HOT_LOADER__.register(find, 'find', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   __REACT_HOT_LOADER__.register(every, 'every', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
 
   __REACT_HOT_LOADER__.register(some, 'some', '/Users/Michael/HR/Thesis/ReTok/node_modules/react-bootstrap/es/utils/ValidComponentChildren.js');
@@ -2790,6 +2963,8 @@ var _temp = function () {
 
 ;
 
+=======
+>>>>>>> Incorporates video logic into text chat view
 /***/ },
 /* 27 */
 /***/ function(module, exports, __webpack_require__) {
@@ -3163,7 +3338,11 @@ var _temp = function () {
 var debugTool = null;
 
 if (process.env.NODE_ENV !== 'production') {
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   var ReactDebugTool = __webpack_require__(595);
+=======
+  var ReactDebugTool = __webpack_require__(596);
+>>>>>>> Incorporates video logic into text chat view
   debugTool = ReactDebugTool;
 }
 
@@ -4126,7 +4305,11 @@ var _temp = function () {
 'use strict';
 
 var store = __webpack_require__(121)('wks'),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     uid = __webpack_require__(84),
+=======
+    uid = __webpack_require__(86),
+>>>>>>> Incorporates video logic into text chat view
     _Symbol = __webpack_require__(43).Symbol,
     USE_SYMBOL = typeof _Symbol == 'function';
 
@@ -4402,7 +4585,7 @@ var CallbackQueue = __webpack_require__(245);
 var PooledClass = __webpack_require__(47);
 var ReactFeatureFlags = __webpack_require__(253);
 var ReactReconciler = __webpack_require__(66);
-var Transaction = __webpack_require__(80);
+var Transaction = __webpack_require__(81);
 
 var invariant = __webpack_require__(9);
 
@@ -4695,7 +4878,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  * Expose `debug()` as the module.
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 exports = module.exports = __webpack_require__(389);
+=======
+exports = module.exports = __webpack_require__(390);
+>>>>>>> Incorporates video logic into text chat view
 exports.log = log;
 exports.formatArgs = formatArgs;
 exports.save = save;
@@ -4878,7 +5065,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var keyMirror = __webpack_require__(88);
+=======
+var keyMirror = __webpack_require__(90);
+>>>>>>> Incorporates video logic into text chat view
 
 var PropagationPhases = keyMirror({ bubbled: null, captured: null });
 
@@ -5991,11 +6182,19 @@ var _slicedToArray = function () {
       * MIT Licensed
       */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _asciiToUnicode = __webpack_require__(521);
 
 var _asciiToUnicode2 = _interopRequireDefault(_asciiToUnicode);
 
 var _rendererFactory = __webpack_require__(524);
+=======
+var _asciiToUnicode = __webpack_require__(522);
+
+var _asciiToUnicode2 = _interopRequireDefault(_asciiToUnicode);
+
+var _rendererFactory = __webpack_require__(525);
+>>>>>>> Incorporates video logic into text chat view
 
 var _rendererFactory2 = _interopRequireDefault(_rendererFactory);
 
@@ -6576,7 +6775,11 @@ var _temp = function () {
 "use strict";
 "use strict";
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = { "default": __webpack_require__(351), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(352), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -6719,12 +6922,21 @@ var _temp = function () {
  * Module dependencies.
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var keys = __webpack_require__(414);
 var hasBinary = __webpack_require__(415);
 var sliceBuffer = __webpack_require__(320);
 var base64encoder = __webpack_require__(344);
 var after = __webpack_require__(319);
 var utf8 = __webpack_require__(649);
+=======
+var keys = __webpack_require__(415);
+var hasBinary = __webpack_require__(416);
+var sliceBuffer = __webpack_require__(321);
+var base64encoder = __webpack_require__(345);
+var after = __webpack_require__(320);
+var utf8 = __webpack_require__(650);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Check if we are running an android browser. That requires us to use
@@ -6781,7 +6993,11 @@ var err = { type: 'error', data: 'parser error' };
  * Create a blob api even for blob builder when vendor prefixes exist
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Blob = __webpack_require__(345);
+=======
+var Blob = __webpack_require__(346);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Encodes a packet.
@@ -7405,7 +7621,7 @@ exports.getParamNames = getParamNames;
 exports.getParams = getParams;
 exports.formatPattern = formatPattern;
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -7659,7 +7875,11 @@ var _temp = function () {
 'use strict';
 
 var DOMNamespaces = __webpack_require__(148);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var setInnerHTML = __webpack_require__(106);
+=======
+var setInnerHTML = __webpack_require__(107);
+>>>>>>> Incorporates video logic into text chat view
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(160);
 var setTextContent = __webpack_require__(269);
@@ -7813,7 +8033,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactRef = __webpack_require__(608);
+=======
+var ReactRef = __webpack_require__(609);
+>>>>>>> Incorporates video logic into text chat view
 var ReactInstrumentation = __webpack_require__(28);
 
 var warning = __webpack_require__(10);
@@ -8334,6 +8558,29 @@ var _temp = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.Scrollbars = undefined;
+
+var _Scrollbars = __webpack_require__(515);
+
+var _Scrollbars2 = _interopRequireDefault(_Scrollbars);
+
+function _interopRequireDefault(obj) {
+  return obj && obj.__esModule ? obj : { "default": obj };
+}
+
+exports["default"] = _Scrollbars2["default"];
+exports.Scrollbars = _Scrollbars2["default"];
+
+/***/ },
+/* 76 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 exports.default = function (componentOrElement) {
   return (0, _ownerDocument2.default)(_reactDom2.default.findDOMNode(componentOrElement));
@@ -8369,7 +8616,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 76 */
+/* 77 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8390,7 +8637,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _prodInvariant = __webpack_require__(11);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPluginRegistry = __webpack_require__(101);
+=======
+var EventPluginRegistry = __webpack_require__(102);
+>>>>>>> Incorporates video logic into text chat view
 var EventPluginUtils = __webpack_require__(149);
 var ReactErrorUtils = __webpack_require__(154);
 
@@ -8652,7 +8903,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 77 */
+/* 78 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8670,7 +8921,11 @@ var _temp = function () {
 'use strict';
 
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPluginHub = __webpack_require__(76);
+=======
+var EventPluginHub = __webpack_require__(77);
+>>>>>>> Incorporates video logic into text chat view
 var EventPluginUtils = __webpack_require__(149);
 
 var accumulateInto = __webpack_require__(262);
@@ -8831,7 +9086,7 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
-/* 78 */
+/* 79 */
 /***/ function(module, exports) {
 
 "use strict";
@@ -8896,7 +9151,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 79 */
+/* 80 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -8974,7 +9229,7 @@ var _temp = function () {
 ;
 
 /***/ },
-/* 80 */
+/* 81 */
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9227,7 +9482,126 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 81 */
+=======
+/* 82 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
+
+/**
+ * Module dependencies.
+ */
+
+var url = __webpack_require__(638);
+var parser = __webpack_require__(169);
+var Manager = __webpack_require__(274);
+var debug = __webpack_require__(38)('socket.io-client');
+
+/**
+ * Module exports.
+ */
+
+module.exports = exports = lookup;
+
+/**
+ * Managers cache.
+ */
+
+var cache = exports.managers = {};
+
+/**
+ * Looks up an existing `Manager` for multiplexing.
+ * If the user summons:
+ *
+ *   `io('http://localhost/a');`
+ *   `io('http://localhost/b');`
+ *
+ * We reuse the existing instance based on same scheme/port/host,
+ * and we initialize sockets for each namespace.
+ *
+ * @api public
+ */
+
+function lookup(uri, opts) {
+  if ((typeof uri === 'undefined' ? 'undefined' : _typeof(uri)) == 'object') {
+    opts = uri;
+    uri = undefined;
+  }
+
+  opts = opts || {};
+
+  var parsed = url(uri);
+  var source = parsed.source;
+  var id = parsed.id;
+  var path = parsed.path;
+  var sameNamespace = cache[id] && path in cache[id].nsps;
+  var newConnection = opts.forceNew || opts['force new connection'] || false === opts.multiplex || sameNamespace;
+
+  var io;
+
+  if (newConnection) {
+    debug('ignoring socket cache for %s', source);
+    io = Manager(source, opts);
+  } else {
+    if (!cache[id]) {
+      debug('new io instance for %s', source);
+      cache[id] = Manager(source, opts);
+    }
+    io = cache[id];
+  }
+
+  return io.socket(parsed.path);
+}
+
+/**
+ * Protocol version.
+ *
+ * @api public
+ */
+
+exports.protocol = parser.protocol;
+
+/**
+ * `connect`.
+ *
+ * @param {String} uri
+ * @api public
+ */
+
+exports.connect = lookup;
+
+/**
+ * Expose constructors for standalone build.
+ *
+ * @api public
+ */
+
+exports.Manager = __webpack_require__(274);
+exports.Socket = __webpack_require__(276);
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(debug, 'debug', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(cache, 'cache', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/index.js');
+
+  __REACT_HOT_LOADER__.register(lookup, 'lookup', '/Users/Rob/Desktop/ReTok/node_modules/socket.io-client/lib/index.js');
+}();
+
+;
+
+/***/ },
+/* 83 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 /* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
@@ -9235,7 +9609,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 82 */
+=======
+/* 84 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -9414,7 +9792,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 83 */
+=======
+/* 85 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -9437,7 +9819,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 84 */
+=======
+/* 86 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -9463,7 +9849,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 85 */
+=======
+/* 87 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -9483,16 +9873,26 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 86 */
+=======
+/* 88 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 var camelize = __webpack_require__(196),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     hyphenate = __webpack_require__(407),
     _getComputedStyle = __webpack_require__(402),
     removeStyle = __webpack_require__(403);
+=======
+    hyphenate = __webpack_require__(408),
+    _getComputedStyle = __webpack_require__(403),
+    removeStyle = __webpack_require__(404);
+>>>>>>> Incorporates video logic into text chat view
 
 var has = Object.prototype.hasOwnProperty;
 
@@ -9524,7 +9924,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 87 */
+=======
+/* 89 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9574,7 +9978,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 88 */
+=======
+/* 90 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9639,7 +10047,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 89 */
+=======
+/* 91 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -9661,7 +10073,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 90 */
+=======
+/* 92 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9689,7 +10105,11 @@ var _warning = __webpack_require__(35);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _queryString = __webpack_require__(446);
+=======
+var _queryString = __webpack_require__(447);
+>>>>>>> Incorporates video logic into text chat view
 
 var _runTransitionHook = __webpack_require__(133);
 
@@ -9885,7 +10305,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 91 */
+=======
+/* 93 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9963,7 +10387,11 @@ var _ButtonGroup = __webpack_require__(213);
 
 var _ButtonGroup2 = _interopRequireDefault(_ButtonGroup);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _DropdownMenu = __webpack_require__(460);
+=======
+var _DropdownMenu = __webpack_require__(461);
+>>>>>>> Incorporates video logic into text chat view
 
 var _DropdownMenu2 = _interopRequireDefault(_DropdownMenu);
 
@@ -9977,7 +10405,11 @@ var _createChainedFunction = __webpack_require__(23);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _PropTypes = __webpack_require__(509);
+=======
+var _PropTypes = __webpack_require__(510);
+>>>>>>> Incorporates video logic into text chat view
 
 var _ValidComponentChildren = __webpack_require__(26);
 
@@ -10318,7 +10750,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 92 */
+=======
+/* 94 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10459,7 +10895,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 93 */
+=======
+/* 95 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10508,6 +10948,7 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 94 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -10532,6 +10973,9 @@ exports.Scrollbars = _Scrollbars2["default"];
 
 /***/ },
 /* 95 */
+=======
+/* 96 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10713,7 +11157,7 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -10725,7 +11169,11 @@ var _deprecateObjectProperties = __webpack_require__(99);
 
 var _deprecateObjectProperties2 = _interopRequireDefault(_deprecateObjectProperties);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _getRouteParams = __webpack_require__(558);
+=======
+var _getRouteParams = __webpack_require__(559);
+>>>>>>> Incorporates video logic into text chat view
 
 var _getRouteParams2 = _interopRequireDefault(_getRouteParams);
 
@@ -11364,11 +11812,19 @@ var _temp = function () {
 var _assign = __webpack_require__(14);
 
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPluginRegistry = __webpack_require__(101);
 var ReactEventEmitterMixin = __webpack_require__(598);
 var ViewportMetrics = __webpack_require__(261);
 
 var getVendorPrefixedEventName = __webpack_require__(630);
+=======
+var EventPluginRegistry = __webpack_require__(102);
+var ReactEventEmitterMixin = __webpack_require__(599);
+var ViewportMetrics = __webpack_require__(261);
+
+var getVendorPrefixedEventName = __webpack_require__(631);
+>>>>>>> Incorporates video logic into text chat view
 var isEventSupported = __webpack_require__(165);
 
 /**
@@ -11722,7 +12178,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var keyMirror = __webpack_require__(88);
+=======
+var keyMirror = __webpack_require__(90);
+>>>>>>> Incorporates video logic into text chat view
 
 var ReactPropTypeLocations = keyMirror({
   prop: null,
@@ -11761,7 +12221,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var SyntheticUIEvent = __webpack_require__(79);
+=======
+var SyntheticUIEvent = __webpack_require__(80);
+>>>>>>> Incorporates video logic into text chat view
 var ViewportMetrics = __webpack_require__(261);
 
 var getEventModifierState = __webpack_require__(162);
@@ -12108,6 +12572,7 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 /**
@@ -12226,6 +12691,11 @@ var _temp = function () {
 exports.__esModule = true;
 
 var _createUncontrollable = __webpack_require__(647);
+=======
+exports.__esModule = true;
+
+var _createUncontrollable = __webpack_require__(648);
+>>>>>>> Incorporates video logic into text chat view
 
 var _createUncontrollable2 = _interopRequireDefault(_createUncontrollable);
 
@@ -12299,7 +12769,7 @@ var _axios = __webpack_require__(25);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -12340,6 +12810,8 @@ var LoginContainer = function (_React$Component) {
 				if (res.data) {
 					console.log('go through to auth');
 					context.context.router.push('/profile');
+				} else {
+					context.props.dispatch(userActions.userUnauth());
 				}
 			});
 		}
@@ -12504,11 +12976,19 @@ var _typeof2 = typeof Symbol === "function" && typeof Symbol.iterator === "symbo
 
 exports.__esModule = true;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _iterator = __webpack_require__(342);
 
 var _iterator2 = _interopRequireDefault(_iterator);
 
 var _symbol = __webpack_require__(341);
+=======
+var _iterator = __webpack_require__(343);
+
+var _iterator2 = _interopRequireDefault(_iterator);
+
+var _symbol = __webpack_require__(342);
+>>>>>>> Incorporates video logic into text chat view
 
 var _symbol2 = _interopRequireDefault(_symbol);
 
@@ -12577,7 +13057,11 @@ var _temp = function () {
 'use strict';
 
 // optional / simple context binding
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var aFunction = __webpack_require__(354);
+=======
+var aFunction = __webpack_require__(355);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -12677,7 +13161,11 @@ var _temp = function () {
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(57),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     dPs = __webpack_require__(370),
+=======
+    dPs = __webpack_require__(371),
+>>>>>>> Incorporates video logic into text chat view
     enumBugKeys = __webpack_require__(115),
     IE_PROTO = __webpack_require__(120)('IE_PROTO'),
     Empty = function Empty() {/* empty */},
@@ -12692,7 +13180,11 @@ var _createDict = function createDict() {
       gt = '>',
       iframeDocument;
   iframe.style.display = 'none';
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   __webpack_require__(360).appendChild(iframe);
+=======
+  __webpack_require__(361).appendChild(iframe);
+>>>>>>> Incorporates video logic into text chat view
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -12789,7 +13281,11 @@ var _temp = function () {
 'use strict';
 
 var shared = __webpack_require__(121)('keys'),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     uid = __webpack_require__(84);
+=======
+    uid = __webpack_require__(86);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = function (key) {
   return shared[key] || (shared[key] = uid(key));
 };
@@ -13002,7 +13498,11 @@ var _temp = function () {
  */
 
 var parser = __webpack_require__(62);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Emitter = __webpack_require__(82);
+=======
+var Emitter = __webpack_require__(84);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Module exports.
@@ -13172,7 +13672,11 @@ var _temp = function () {
 'use strict';
 
 // browser shim for xmlhttprequest module
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var hasCORS = __webpack_require__(433);
+=======
+var hasCORS = __webpack_require__(434);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = function (opts) {
   var xdomain = opts.xdomain;
@@ -13768,7 +14272,11 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _style = __webpack_require__(86);
+=======
+var _style = __webpack_require__(88);
+>>>>>>> Incorporates video logic into text chat view
 
 var _style2 = _interopRequireDefault(_style);
 
@@ -14167,6 +14675,7 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _MediaBody = __webpack_require__(474);
 
 var _MediaBody2 = _interopRequireDefault(_MediaBody);
@@ -14188,6 +14697,29 @@ var _MediaListItem = __webpack_require__(478);
 var _MediaListItem2 = _interopRequireDefault(_MediaListItem);
 
 var _MediaRight = __webpack_require__(479);
+=======
+var _MediaBody = __webpack_require__(475);
+
+var _MediaBody2 = _interopRequireDefault(_MediaBody);
+
+var _MediaHeading = __webpack_require__(476);
+
+var _MediaHeading2 = _interopRequireDefault(_MediaHeading);
+
+var _MediaLeft = __webpack_require__(477);
+
+var _MediaLeft2 = _interopRequireDefault(_MediaLeft);
+
+var _MediaList = __webpack_require__(478);
+
+var _MediaList2 = _interopRequireDefault(_MediaList);
+
+var _MediaListItem = __webpack_require__(479);
+
+var _MediaListItem2 = _interopRequireDefault(_MediaListItem);
+
+var _MediaRight = __webpack_require__(480);
+>>>>>>> Incorporates video logic into text chat view
 
 var _MediaRight2 = _interopRequireDefault(_MediaRight);
 
@@ -14721,7 +15253,11 @@ var _slicedToArray = function () {
     };
 }();
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _emojiData = __webpack_require__(522);
+=======
+var _emojiData = __webpack_require__(523);
+>>>>>>> Incorporates video logic into text chat view
 
 var _emojiData2 = _interopRequireDefault(_emojiData);
 
@@ -15181,6 +15717,7 @@ var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _computeChangedRoutes2 = __webpack_require__(556);
 
 var _computeChangedRoutes3 = _interopRequireDefault(_computeChangedRoutes2);
@@ -15196,6 +15733,23 @@ var _getComponents = __webpack_require__(557);
 var _getComponents2 = _interopRequireDefault(_getComponents);
 
 var _matchRoutes = __webpack_require__(562);
+=======
+var _computeChangedRoutes2 = __webpack_require__(557);
+
+var _computeChangedRoutes3 = _interopRequireDefault(_computeChangedRoutes2);
+
+var _TransitionUtils = __webpack_require__(554);
+
+var _isActive2 = __webpack_require__(561);
+
+var _isActive3 = _interopRequireDefault(_isActive2);
+
+var _getComponents = __webpack_require__(558);
+
+var _getComponents2 = _interopRequireDefault(_getComponents);
+
+var _matchRoutes = __webpack_require__(563);
+>>>>>>> Incorporates video logic into text chat view
 
 var _matchRoutes2 = _interopRequireDefault(_matchRoutes);
 
@@ -15520,6 +16074,7 @@ var _temp = function () {
 'use strict';
 
 var DOMLazyTree = __webpack_require__(65);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Danger = __webpack_require__(569);
 var ReactMultiChildUpdateTypes = __webpack_require__(257);
 var ReactDOMComponentTree = __webpack_require__(17);
@@ -15527,6 +16082,15 @@ var ReactInstrumentation = __webpack_require__(28);
 
 var createMicrosoftUnsafeLocalFunction = __webpack_require__(160);
 var setInnerHTML = __webpack_require__(106);
+=======
+var Danger = __webpack_require__(570);
+var ReactMultiChildUpdateTypes = __webpack_require__(257);
+var ReactDOMComponentTree = __webpack_require__(18);
+var ReactInstrumentation = __webpack_require__(28);
+
+var createMicrosoftUnsafeLocalFunction = __webpack_require__(160);
+var setInnerHTML = __webpack_require__(107);
+>>>>>>> Incorporates video logic into text chat view
 var setTextContent = __webpack_require__(269);
 
 function getNodeAfter(parentNode, node) {
@@ -16144,7 +16708,11 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(11);
 
 var ReactPropTypes = __webpack_require__(259);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactPropTypeLocations = __webpack_require__(103);
+=======
+var ReactPropTypeLocations = __webpack_require__(104);
+>>>>>>> Incorporates video logic into text chat view
 var ReactPropTypesSecret = __webpack_require__(157);
 
 var invariant = __webpack_require__(9);
@@ -16814,7 +17382,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(11);
 
 var ReactCurrentOwner = __webpack_require__(40);
-var ReactInstanceMap = __webpack_require__(78);
+var ReactInstanceMap = __webpack_require__(79);
 var ReactInstrumentation = __webpack_require__(28);
 var ReactUpdates = __webpack_require__(37);
 
@@ -18148,10 +18716,17 @@ var _temp = function () {
  */
 
 var debug = __webpack_require__(38)('socket.io-parser');
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var json = __webpack_require__(438);
 var isArray = __webpack_require__(279);
 var Emitter = __webpack_require__(82);
 var binary = __webpack_require__(638);
+=======
+var json = __webpack_require__(439);
+var isArray = __webpack_require__(279);
+var Emitter = __webpack_require__(84);
+var binary = __webpack_require__(639);
+>>>>>>> Incorporates video logic into text chat view
 var isBuf = __webpack_require__(278);
 
 /**
@@ -18711,11 +19286,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _reactCustomScrollbars = __webpack_require__(94);
 
 var _socket = __webpack_require__(107);
+=======
+var _reactCustomScrollbars = __webpack_require__(75);
+
+var _socket = __webpack_require__(82);
+>>>>>>> Incorporates video logic into text chat view
 
 var _socket2 = _interopRequireDefault(_socket);
 
@@ -18835,12 +19416,21 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
 var utils = __webpack_require__(27);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var settle = __webpack_require__(326);
 var buildURL = __webpack_require__(330);
 var parseHeaders = __webpack_require__(336);
 var isURLSameOrigin = __webpack_require__(334);
 var createError = __webpack_require__(174);
 var btoa = typeof window !== 'undefined' && window.btoa || __webpack_require__(329);
+=======
+var settle = __webpack_require__(327);
+var buildURL = __webpack_require__(331);
+var parseHeaders = __webpack_require__(337);
+var isURLSameOrigin = __webpack_require__(335);
+var createError = __webpack_require__(174);
+var btoa = typeof window !== 'undefined' && window.btoa || __webpack_require__(330);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -18931,7 +19521,11 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
       var cookies = __webpack_require__(332);
+=======
+      var cookies = __webpack_require__(333);
+>>>>>>> Incorporates video logic into text chat view
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ? cookies.read(config.xsrfCookieName) : undefined;
@@ -19008,7 +19602,11 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var enhanceError = __webpack_require__(325);
+=======
+var enhanceError = __webpack_require__(326);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Create an Error with the specified message, config, error code, and response.
@@ -19066,7 +19664,11 @@ var _temp = function () {
 "use strict";
 "use strict";
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = { "default": __webpack_require__(347), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(348), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -19084,7 +19686,11 @@ var _temp = function () {
 "use strict";
 "use strict";
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = { "default": __webpack_require__(349), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(350), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -19223,9 +19829,15 @@ var LIBRARY = __webpack_require__(116),
     hide = __webpack_require__(59),
     has = __webpack_require__(48),
     Iterators = __webpack_require__(69),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     $iterCreate = __webpack_require__(364),
     setToStringTag = __webpack_require__(119),
     getPrototypeOf = __webpack_require__(372),
+=======
+    $iterCreate = __webpack_require__(365),
+    setToStringTag = __webpack_require__(119),
+    getPrototypeOf = __webpack_require__(373),
+>>>>>>> Incorporates video logic into text chat view
     ITERATOR = __webpack_require__(34)('iterator'),
     BUGGY = !([].keys && 'next' in [].keys()) // Safari has buggy iterators w/o `next`
 ,
@@ -19393,7 +20005,11 @@ var _temp = function () {
 
 var has = __webpack_require__(48),
     toIObject = __webpack_require__(44),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     arrayIndexOf = __webpack_require__(356)(false),
+=======
+    arrayIndexOf = __webpack_require__(357)(false),
+>>>>>>> Incorporates video logic into text chat view
     IE_PROTO = __webpack_require__(120)('IE_PROTO');
 
 module.exports = function (object, names) {
@@ -19511,7 +20127,11 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var $at = __webpack_require__(374)(true);
+=======
+var $at = __webpack_require__(375)(true);
+>>>>>>> Incorporates video logic into text chat view
 
 // 21.1.3.27 String.prototype[@@iterator]()
 __webpack_require__(182)(String, 'String', function (iterated) {
@@ -19546,10 +20166,17 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var prefix = __webpack_require__(445);
 var toCamelCase = __webpack_require__(644);
 var cache = { 'float': 'cssFloat' };
 var addPxToStyle = __webpack_require__(318);
+=======
+var prefix = __webpack_require__(446);
+var toCamelCase = __webpack_require__(645);
+var cache = { 'float': 'cssFloat' };
+var addPxToStyle = __webpack_require__(319);
+>>>>>>> Incorporates video logic into text chat view
 
 function style(element, property, value) {
   var camel = cache[property];
@@ -19634,7 +20261,11 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var babelHelpers = __webpack_require__(87);
+=======
+var babelHelpers = __webpack_require__(89);
+>>>>>>> Incorporates video logic into text chat view
 
 exports.__esModule = true;
 
@@ -19733,7 +20364,11 @@ var _temp = function () {
 'use strict';
 
 var contains = __webpack_require__(72),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     getWindow = __webpack_require__(85),
+=======
+    getWindow = __webpack_require__(87),
+>>>>>>> Incorporates video logic into text chat view
     ownerDocument = __webpack_require__(61);
 
 module.exports = function offset(node) {
@@ -19778,7 +20413,11 @@ var _temp = function () {
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var getWindow = __webpack_require__(85);
+=======
+var getWindow = __webpack_require__(87);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = function scrollTop(node, val) {
   var win = getWindow(node);
@@ -19810,7 +20449,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var camelize = __webpack_require__(405);
+=======
+var camelize = __webpack_require__(406);
+>>>>>>> Incorporates video logic into text chat view
 var msPattern = /^-ms-/;
 
 module.exports = function camelizeStyleName(string) {
@@ -19882,9 +20525,15 @@ var _temp = function () {
  */
 
 var XMLHttpRequest = __webpack_require__(129);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var XHR = __webpack_require__(412);
 var JSONP = __webpack_require__(411);
 var websocket = __webpack_require__(413);
+=======
+var XHR = __webpack_require__(413);
+var JSONP = __webpack_require__(412);
+var websocket = __webpack_require__(414);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Export transports.
@@ -19957,7 +20606,11 @@ var _temp = function () {
 var Transport = __webpack_require__(128);
 var parseqs = __webpack_require__(135);
 var parser = __webpack_require__(62);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var inherit = __webpack_require__(83);
+=======
+var inherit = __webpack_require__(85);
+>>>>>>> Incorporates video logic into text chat view
 var yeast = __webpack_require__(281);
 var debug = __webpack_require__(38)('engine.io-client:polling');
 
@@ -20538,11 +21191,15 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ExecutionEnvironment = __webpack_require__(89);
+=======
+var _ExecutionEnvironment = __webpack_require__(91);
+>>>>>>> Incorporates video logic into text chat view
 
 var _DOMUtils = __webpack_require__(131);
 
@@ -20618,7 +21275,7 @@ var _warning = __webpack_require__(35);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -20626,7 +21283,11 @@ var _Actions = __webpack_require__(63);
 
 var _PathUtils = __webpack_require__(51);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ExecutionEnvironment = __webpack_require__(89);
+=======
+var _ExecutionEnvironment = __webpack_require__(91);
+>>>>>>> Incorporates video logic into text chat view
 
 var _DOMUtils = __webpack_require__(131);
 
@@ -20916,17 +21577,29 @@ var _warning = __webpack_require__(35);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _deepEqual = __webpack_require__(390);
+=======
+var _deepEqual = __webpack_require__(391);
+>>>>>>> Incorporates video logic into text chat view
 
 var _deepEqual2 = _interopRequireDefault(_deepEqual);
 
 var _PathUtils = __webpack_require__(51);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _AsyncUtils = __webpack_require__(434);
 
 var _Actions = __webpack_require__(63);
 
 var _createLocation2 = __webpack_require__(436);
+=======
+var _AsyncUtils = __webpack_require__(435);
+
+var _Actions = __webpack_require__(63);
+
+var _createLocation2 = __webpack_require__(437);
+>>>>>>> Incorporates video logic into text chat view
 
 var _createLocation3 = _interopRequireDefault(_createLocation2);
 
@@ -21252,7 +21925,11 @@ var _warning = __webpack_require__(35);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ExecutionEnvironment = __webpack_require__(89);
+=======
+var _ExecutionEnvironment = __webpack_require__(91);
+>>>>>>> Incorporates video logic into text chat view
 
 var _PathUtils = __webpack_require__(51);
 
@@ -21530,11 +22207,19 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _getPrototype = __webpack_require__(439);
 
 var _getPrototype2 = _interopRequireDefault(_getPrototype);
 
 var _isObjectLike = __webpack_require__(441);
+=======
+var _getPrototype = __webpack_require__(440);
+
+var _getPrototype2 = _interopRequireDefault(_getPrototype);
+
+var _isObjectLike = __webpack_require__(442);
+>>>>>>> Incorporates video logic into text chat view
 
 var _isObjectLike2 = _interopRequireDefault(_isObjectLike);
 
@@ -21986,7 +22671,11 @@ var _reactDom = __webpack_require__(12);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _TransitionEvents = __webpack_require__(510);
+=======
+var _TransitionEvents = __webpack_require__(511);
+>>>>>>> Incorporates video logic into text chat view
 
 var _TransitionEvents2 = _interopRequireDefault(_TransitionEvents);
 
@@ -23666,7 +24355,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Overlay = __webpack_require__(530);
+=======
+var _Overlay = __webpack_require__(531);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Overlay2 = _interopRequireDefault(_Overlay);
 
@@ -23674,7 +24367,11 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Fade = __webpack_require__(92);
+=======
+var _Fade = __webpack_require__(94);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -24165,7 +24862,11 @@ var _createChainedFunction = __webpack_require__(23);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Fade = __webpack_require__(92);
+=======
+var _Fade = __webpack_require__(94);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -24496,7 +25197,7 @@ var _componentOrElement = __webpack_require__(143);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
-var _ownerDocument = __webpack_require__(75);
+var _ownerDocument = __webpack_require__(76);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -24660,11 +25361,15 @@ var _addEventListener = __webpack_require__(233);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _createChainedFunction = __webpack_require__(534);
+=======
+var _createChainedFunction = __webpack_require__(535);
+>>>>>>> Incorporates video logic into text chat view
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
-var _ownerDocument = __webpack_require__(75);
+var _ownerDocument = __webpack_require__(76);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -24946,7 +25651,11 @@ var _reactDom = __webpack_require__(12);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _properties = __webpack_require__(404);
+=======
+var _properties = __webpack_require__(405);
+>>>>>>> Incorporates video logic into text chat view
 
 var _properties2 = _interopRequireDefault(_properties);
 
@@ -25419,7 +26128,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = isOverflowing;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _isWindow = __webpack_require__(85);
+=======
+var _isWindow = __webpack_require__(87);
+>>>>>>> Incorporates video logic into text chat view
 
 var _isWindow2 = _interopRequireDefault(_isWindow);
 
@@ -25571,7 +26284,7 @@ var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -25794,7 +26507,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -25991,7 +26704,11 @@ var _temp = function () {
 exports.__esModule = true;
 exports.default = createMemoryHistory;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _useQueries = __webpack_require__(90);
+=======
+var _useQueries = __webpack_require__(92);
+>>>>>>> Incorporates video logic into text chat view
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
@@ -25999,7 +26716,11 @@ var _useBasename = __webpack_require__(207);
 
 var _useBasename2 = _interopRequireDefault(_useBasename);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _createMemoryHistory = __webpack_require__(437);
+=======
+var _createMemoryHistory = __webpack_require__(438);
+>>>>>>> Incorporates video logic into text chat view
 
 var _createMemoryHistory2 = _interopRequireDefault(_createMemoryHistory);
 
@@ -26175,7 +26896,11 @@ var _temp = function () {
 exports.__esModule = true;
 exports.default = useRouterHistory;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _useQueries = __webpack_require__(90);
+=======
+var _useQueries = __webpack_require__(92);
+>>>>>>> Incorporates video logic into text chat view
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
@@ -26529,10 +27254,14 @@ var _temp = function () {
 'use strict';
 
 var DOMProperty = __webpack_require__(54);
-var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMComponentTree = __webpack_require__(18);
 var ReactInstrumentation = __webpack_require__(28);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var quoteAttributeValueForBrowser = __webpack_require__(632);
+=======
+var quoteAttributeValueForBrowser = __webpack_require__(633);
+>>>>>>> Incorporates video logic into text chat view
 var warning = __webpack_require__(10);
 
 var VALID_ATTRIBUTE_NAME_REGEX = new RegExp('^[' + DOMProperty.ATTRIBUTE_NAME_START_CHAR + '][' + DOMProperty.ATTRIBUTE_NAME_CHAR + ']*$');
@@ -27019,13 +27748,21 @@ var _prodInvariant = __webpack_require__(11),
 
 var ReactComponent = __webpack_require__(152);
 var ReactElement = __webpack_require__(32);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactPropTypeLocations = __webpack_require__(103);
+=======
+var ReactPropTypeLocations = __webpack_require__(104);
+>>>>>>> Incorporates video logic into text chat view
 var ReactPropTypeLocationNames = __webpack_require__(156);
 var ReactNoopUpdateQueue = __webpack_require__(155);
 
 var emptyObject = __webpack_require__(73);
 var invariant = __webpack_require__(9);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var keyMirror = __webpack_require__(88);
+=======
+var keyMirror = __webpack_require__(90);
+>>>>>>> Incorporates video logic into text chat view
 var keyOf = __webpack_require__(45);
 var warning = __webpack_require__(10);
 
@@ -27833,9 +28570,15 @@ var _temp = function () {
 
 var _assign = __webpack_require__(14);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var DisabledInputUtils = __webpack_require__(100);
 var LinkedValueUtils = __webpack_require__(151);
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var DisabledInputUtils = __webpack_require__(101);
+var LinkedValueUtils = __webpack_require__(151);
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 var ReactUpdates = __webpack_require__(37);
 
 var warning = __webpack_require__(10);
@@ -28524,9 +29267,15 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactDOMSelection = __webpack_require__(590);
 
 var containsNode = __webpack_require__(419);
+=======
+var ReactDOMSelection = __webpack_require__(591);
+
+var containsNode = __webpack_require__(420);
+>>>>>>> Incorporates video logic into text chat view
 var focusNode = __webpack_require__(201);
 var getActiveElement = __webpack_require__(202);
 
@@ -28673,6 +29422,7 @@ var DOMLazyTree = __webpack_require__(65);
 var DOMProperty = __webpack_require__(54);
 var ReactBrowserEventEmitter = __webpack_require__(102);
 var ReactCurrentOwner = __webpack_require__(40);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactDOMComponentTree = __webpack_require__(17);
 var ReactDOMContainerInfo = __webpack_require__(582);
 var ReactDOMFeatureFlags = __webpack_require__(585);
@@ -28681,6 +29431,16 @@ var ReactFeatureFlags = __webpack_require__(253);
 var ReactInstanceMap = __webpack_require__(78);
 var ReactInstrumentation = __webpack_require__(28);
 var ReactMarkupChecksum = __webpack_require__(603);
+=======
+var ReactDOMComponentTree = __webpack_require__(18);
+var ReactDOMContainerInfo = __webpack_require__(583);
+var ReactDOMFeatureFlags = __webpack_require__(586);
+var ReactElement = __webpack_require__(32);
+var ReactFeatureFlags = __webpack_require__(253);
+var ReactInstanceMap = __webpack_require__(79);
+var ReactInstrumentation = __webpack_require__(28);
+var ReactMarkupChecksum = __webpack_require__(604);
+>>>>>>> Incorporates video logic into text chat view
 var ReactReconciler = __webpack_require__(66);
 var ReactUpdateQueue = __webpack_require__(158);
 var ReactUpdates = __webpack_require__(37);
@@ -28688,7 +29448,11 @@ var ReactUpdates = __webpack_require__(37);
 var emptyObject = __webpack_require__(73);
 var instantiateReactComponent = __webpack_require__(267);
 var invariant = __webpack_require__(9);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var setInnerHTML = __webpack_require__(106);
+=======
+var setInnerHTML = __webpack_require__(107);
+>>>>>>> Incorporates video logic into text chat view
 var shouldUpdateReactComponent = __webpack_require__(166);
 var warning = __webpack_require__(10);
 
@@ -29259,7 +30023,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var keyMirror = __webpack_require__(88);
+=======
+var keyMirror = __webpack_require__(90);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * When a component's children are updated, a series of update configuration
@@ -30267,7 +31035,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(14);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactCompositeComponent = __webpack_require__(578);
+=======
+var ReactCompositeComponent = __webpack_require__(579);
+>>>>>>> Incorporates video logic into text chat view
 var ReactEmptyComponent = __webpack_require__(252);
 var ReactHostComponent = __webpack_require__(254);
 
@@ -30480,8 +31252,13 @@ var _temp = function () {
 'use strict';
 
 var ExecutionEnvironment = __webpack_require__(20);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var escapeTextContentForBrowser = __webpack_require__(105);
 var setInnerHTML = __webpack_require__(106);
+=======
+var escapeTextContentForBrowser = __webpack_require__(106);
+var setInnerHTML = __webpack_require__(107);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Set the textContent property of a node, ensuring that whitespace is preserved
@@ -30603,7 +31380,11 @@ var _isPlainObject = __webpack_require__(210);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _symbolObservable = __webpack_require__(640);
+=======
+var _symbolObservable = __webpack_require__(641);
+>>>>>>> Incorporates video logic into text chat view
 
 var _symbolObservable2 = _interopRequireDefault(_symbolObservable);
 
@@ -30884,6 +31665,7 @@ var _createStore = __webpack_require__(271);
 
 var _createStore2 = _interopRequireDefault(_createStore);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _combineReducers = __webpack_require__(636);
 
 var _combineReducers2 = _interopRequireDefault(_combineReducers);
@@ -30893,6 +31675,17 @@ var _bindActionCreators = __webpack_require__(635);
 var _bindActionCreators2 = _interopRequireDefault(_bindActionCreators);
 
 var _applyMiddleware = __webpack_require__(634);
+=======
+var _combineReducers = __webpack_require__(637);
+
+var _combineReducers2 = _interopRequireDefault(_combineReducers);
+
+var _bindActionCreators = __webpack_require__(636);
+
+var _bindActionCreators2 = _interopRequireDefault(_bindActionCreators);
+
+var _applyMiddleware = __webpack_require__(635);
+>>>>>>> Incorporates video logic into text chat view
 
 var _applyMiddleware2 = _interopRequireDefault(_applyMiddleware);
 
@@ -30991,7 +31784,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  * Module dependencies.
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var eio = __webpack_require__(408);
+=======
+var eio = __webpack_require__(409);
+>>>>>>> Incorporates video logic into text chat view
 var Socket = __webpack_require__(276);
 var Emitter = __webpack_require__(277);
 var parser = __webpack_require__(169);
@@ -30999,7 +31796,11 @@ var on = __webpack_require__(275);
 var bind = __webpack_require__(178);
 var debug = __webpack_require__(38)('socket.io-client:manager');
 var indexOf = __webpack_require__(209);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Backoff = __webpack_require__(343);
+=======
+var Backoff = __webpack_require__(344);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * IE6+ hasOwnProperty
@@ -31612,11 +32413,19 @@ var _temp = function () {
 
 var parser = __webpack_require__(169);
 var Emitter = __webpack_require__(277);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var toArray = __webpack_require__(643);
 var on = __webpack_require__(275);
 var bind = __webpack_require__(178);
 var debug = __webpack_require__(38)('socket.io-client:socket');
 var hasBin = __webpack_require__(431);
+=======
+var toArray = __webpack_require__(644);
+var on = __webpack_require__(275);
+var bind = __webpack_require__(178);
+var debug = __webpack_require__(38)('socket.io-client:socket');
+var hasBin = __webpack_require__(432);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Module exports.
@@ -32421,7 +33230,7 @@ var _Routes2 = _interopRequireDefault(_Routes);
 
 var _redux = __webpack_require__(272);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -33010,7 +33819,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -33495,9 +34304,13 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _socket = __webpack_require__(107);
+=======
+var _socket = __webpack_require__(82);
+>>>>>>> Incorporates video logic into text chat view
 
 var _socket2 = _interopRequireDefault(_socket);
 
@@ -33521,7 +34334,11 @@ var _EmojiChatContainer = __webpack_require__(172);
 
 var _EmojiChatContainer2 = _interopRequireDefault(_EmojiChatContainer);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _reactCustomScrollbars = __webpack_require__(94);
+=======
+var _reactCustomScrollbars = __webpack_require__(75);
+>>>>>>> Incorporates video logic into text chat view
 
 var _axios = __webpack_require__(25);
 
@@ -33787,7 +34604,7 @@ var _LoginContainer = __webpack_require__(109);
 
 var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -33861,6 +34678,10 @@ function mapStateToProps(state) {
 		isLoggedIn: state.userReducer.isLoggedIn //<=== shouldnt have to do this...? 
 	};
 }
+
+HomeContainer.contextTypes = {
+	router: _react.PropTypes.object.isRequired
+};
 
 // 'connect' from react-redux allows us to set the default state we assign to the statetree onto our components as props!
 // i.e. you won't see this.state anymore... since we are now completely separating state logic from container logic. 
@@ -34081,7 +34902,7 @@ var _axios = __webpack_require__(25);
 
 var _axios2 = _interopRequireDefault(_axios);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _reactRouter = __webpack_require__(15);
 
@@ -34418,7 +35239,7 @@ var _axios2 = _interopRequireDefault(_axios);
 
 var _reactRouter = __webpack_require__(15);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -34660,7 +35481,7 @@ var _LoginContainer = __webpack_require__(109);
 
 var _LoginContainer2 = _interopRequireDefault(_LoginContainer);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -34869,7 +35690,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -34976,7 +35797,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _reactRouter = __webpack_require__(15);
 
@@ -35116,7 +35937,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRouter = __webpack_require__(15);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _reactBootstrap = __webpack_require__(508);
+=======
+var _reactBootstrap = __webpack_require__(509);
+>>>>>>> Incorporates video logic into text chat view
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -35259,7 +36084,7 @@ var _reactDom = __webpack_require__(12);
 
 var _reactRouter = __webpack_require__(15);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _Profile = __webpack_require__(299);
 
@@ -35394,7 +36219,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _reactRouter = __webpack_require__(15);
 
@@ -35653,6 +36478,14 @@ var _MultiChatContainer = __webpack_require__(286);
 
 var _MultiChatContainer2 = _interopRequireDefault(_MultiChatContainer);
 
+var _TextChatProfileContainer = __webpack_require__(317);
+
+var _TextChatProfileContainer2 = _interopRequireDefault(_TextChatProfileContainer);
+
+var _ChatWindowContainer = __webpack_require__(654);
+
+var _ChatWindowContainer2 = _interopRequireDefault(_ChatWindowContainer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Routes = _react2.default.createElement(
@@ -35795,7 +36628,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _Search = __webpack_require__(304);
 
@@ -35960,7 +36793,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _reactRouter = __webpack_require__(15);
 
@@ -36186,7 +37019,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -36394,7 +37227,7 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
 var _userReducer = __webpack_require__(16);
 
@@ -36555,11 +37388,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _reactCustomScrollbars = __webpack_require__(94);
 
 var _socket = __webpack_require__(107);
+=======
+var _reactCustomScrollbars = __webpack_require__(75);
+
+var _socket = __webpack_require__(82);
+>>>>>>> Incorporates video logic into text chat view
 
 var _socket2 = _interopRequireDefault(_socket);
 
@@ -36628,6 +37467,18 @@ var FriendsListContainer = function (_React$Component) {
       document.getElementById(username).classList.add('chatFriendListSelected');
     }
   }, {
+    key: 'videoChat',
+    value: function videoChat(friend) {
+      console.log('i hit video chat for this friend', friend.username);
+
+      var socket = this.props.socket;
+
+      var info = { user: friend.username, caller: this.props.user.username };
+      this.props.dispatch(userActions.createRoom(this.props.user.username));
+      socket.emit('calling', info);
+      this.context.router.push('/chat');
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
@@ -36640,7 +37491,9 @@ var FriendsListContainer = function (_React$Component) {
         { className: 'chatListContainer' },
         _react2.default.createElement(
           'div',
-          { className: 'chatFriendsHeader' },
+          { className: 'chatFriendsHeader', onClick: function onClick() {
+              _this2.props.goToProfile();
+            } },
           _react2.default.createElement(
             'h4',
             null,
@@ -36662,7 +37515,7 @@ var FriendsListContainer = function (_React$Component) {
           )
         ),
         this.props.onlineFriends.map(function (item, index) {
-          return _react2.default.createElement(_FriendsListEntry2.default, { key: index, friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
+          return _react2.default.createElement(_FriendsListEntry2.default, { key: index, videoChat: _this2.videoChat.bind(_this2), friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
         }),
         _react2.default.createElement(
           'div',
@@ -36701,6 +37554,10 @@ function mapStateToProps(state) {
     friendCount: state.userReducer.friendCount
   };
 }
+
+FriendsListContainer.contextTypes = {
+  router: _react.PropTypes.object.isRequired
+};
 
 var _default = (0, _reactRedux.connect)(mapStateToProps)(FriendsListContainer);
 
@@ -36746,11 +37603,18 @@ var FriendsListEntry = function FriendsListEntry(props) {
     'div',
     { className: 'chatFriendsListEntry', id: props.friend.username },
     _react2.default.createElement(
-      'h4',
+      'span',
       { onClick: function onClick(e) {
           e.preventDefault();props.joinRoom(props.friend);props.addHighlightClass(props.friend.username);
         } },
       props.friend.username
+    ),
+    _react2.default.createElement(
+      'button',
+      { onClick: function onClick(e) {
+          e.preventDefault();props.videoChat(props.friend);
+        } },
+      'Video'
     )
   );
 };
@@ -36811,7 +37675,11 @@ var OfflineFriendsListEntry = function OfflineFriendsListEntry(props) {
       _react2.default.createElement('div', { className: 'oneFriendChatImageWrapper' })
     ),
     _react2.default.createElement(
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
       'h4',
+=======
+      'span',
+>>>>>>> Incorporates video logic into text chat view
       null,
       props.friend.username
     )
@@ -36827,9 +37695,15 @@ var _temp = function () {
     return;
   }
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   __REACT_HOT_LOADER__.register(OfflineFriendsListEntry, 'OfflineFriendsListEntry', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
 
   __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Michael/HR/Thesis/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
+=======
+  __REACT_HOT_LOADER__.register(OfflineFriendsListEntry, 'OfflineFriendsListEntry', '/Users/Rob/Desktop/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/TextChat/FriendsList/OfflineFriendsListEntry.js');
+>>>>>>> Incorporates video logic into text chat view
 }();
 
 ;
@@ -36901,11 +37775,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = __webpack_require__(12);
 
-var _reactRedux = __webpack_require__(19);
+var _reactRedux = __webpack_require__(17);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _reactCustomScrollbars = __webpack_require__(94);
 
 var _socket = __webpack_require__(107);
+=======
+var _reactCustomScrollbars = __webpack_require__(75);
+
+var _socket = __webpack_require__(82);
+>>>>>>> Incorporates video logic into text chat view
 
 var _socket2 = _interopRequireDefault(_socket);
 
@@ -36925,7 +37805,11 @@ var _shortToUnicode = __webpack_require__(283);
 
 var _shortToUnicode2 = _interopRequireDefault(_shortToUnicode);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _unicodeToShort = __webpack_require__(317);
+=======
+var _unicodeToShort = __webpack_require__(318);
+>>>>>>> Incorporates video logic into text chat view
 
 var _unicodeToShort2 = _interopRequireDefault(_unicodeToShort);
 
@@ -36960,7 +37844,6 @@ var TextChatContainer = function (_React$Component) {
       currentFriend: null,
       newChatHistoryLog: {}
     };
-
     return _this;
   }
 
@@ -37093,36 +37976,6 @@ var TextChatContainer = function (_React$Component) {
           console.log('unmounting');
         });
       });
-
-      // var chatLog = this.props.chatLog;
-
-      // for (var room in chatLog) {
-      //   var chatMessagesStringified = JSON.stringify(chatLog[room]);
-      //   console.log('checking room  in loop -->', room);
-      //   console.log('checking messages in loops -->', chatMessagesStringified);
-      //   let chatOptions = {
-      //     method: 'POST',
-      //     headers: myHeaders,
-      //     body: `
-      //         mutation {
-      //         addChat(room: \"${room}\" text:\"${chatMessagesStringified}\")  {
-
-      //         }
-      //         }
-      //         `
-      //   };
-      //   fetch('/graphql', chatOptions).then((res) =>{
-      //     return res.json().then((data) => {
-      //       console.log('sending chat to server', data);
-      //     })
-      //   })
-
-      // }
-      //PSEUDOCODE
-      //loop through chatLog
-      //fire off graphql query for every Room in chatLog
-      //clear chatLog
-
     }
   }, {
     key: 'handleWindowClose',
@@ -37152,9 +38005,33 @@ var TextChatContainer = function (_React$Component) {
       });
     }
   }, {
+    key: 'goToProfile',
+    value: function goToProfile() {
+      this.setState({
+        chatSelected: false,
+        currentFriend: null
+      });
+
+      if (document.getElementsByClassName('chatFriendListSelected')[0]) {
+        var oldSelectedEntry = document.getElementsByClassName('chatFriendListSelected')[0];
+        oldSelectedEntry.classList.remove('chatFriendListSelected');
+      }
+      var socket = this.props.socket;
+
+      socket.emit('leavetextchatview', this.props.room, this.props.user.username);
+      this.props.dispatch(userActions.createRoom(this.props.user.username));
+    }
+  }, {
     key: 'render',
     value: function render() {
       var _this2 = this;
+
+      var divStyle = {
+        backgroundImage: 'url(' + this.props.user.profilePic + ')',
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+      };
 
       var context = this;
       var chat = context.props.currentChat.map(function (message) {
@@ -37173,7 +38050,21 @@ var TextChatContainer = function (_React$Component) {
       if (this.state.chatSelected) {
         chatInputWindow = _react2.default.createElement(
           'div',
-          null,
+          { className: 'chatWrapper' },
+          _react2.default.createElement(
+            'div',
+            { className: 'chatHeader' },
+            _react2.default.createElement(
+              'h4',
+              null,
+              'Chatting With: ',
+              _react2.default.createElement(
+                'b',
+                null,
+                this.state.currentFriend.username
+              )
+            )
+          ),
           _react2.default.createElement(
             'div',
             { className: 'chatWindow' },
@@ -37185,20 +38076,48 @@ var TextChatContainer = function (_React$Component) {
           ),
           _react2.default.createElement(
             'div',
-            { className: 'chatInputWindow' },
+            { className: 'chatInputWrapper' },
             _react2.default.createElement(
-              'form',
-              { id: 'chatInput', onSubmit: function onSubmit(e) {
-                  e.preventDefault();_this2.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
-                } },
-              _react2.default.createElement('input', { id: 'chatInputField' }),
+              'div',
+              null,
               _react2.default.createElement(
-                'button',
-                { className: 'textChatButton' },
-                'Send Chat'
+                _reactCustomScrollbars.Scrollbars,
+                { style: { height: 50 } },
+                _react2.default.createElement(_EmojiChatContainer2.default, null)
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'chatInputWindow' },
+              _react2.default.createElement(
+                'form',
+                { id: 'chatInput', onSubmit: function onSubmit(e) {
+                    e.preventDefault();_this2.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
+                  } },
+                _react2.default.createElement('input', { id: 'chatInputField' }),
+                _react2.default.createElement(
+                  'button',
+                  { className: 'textChatButton' },
+                  'Send Chat'
+                )
               )
             )
           )
+        );
+      } else {
+        chatInputWindow = _react2.default.createElement(
+          'div',
+          { className: 'chatProfile' },
+          _react2.default.createElement(
+            'div',
+            { className: 'chatProfileInfo' },
+            _react2.default.createElement(
+              'div',
+              { className: 'oneFriend', style: divStyle },
+              _react2.default.createElement('div', { className: 'oneFriendWrapper' })
+            )
+          ),
+          _react2.default.createElement('div', { className: 'chatProfileEmojis' })
         );
       }
 
@@ -37207,22 +38126,14 @@ var TextChatContainer = function (_React$Component) {
         null,
         _react2.default.createElement(
           'div',
-          null,
-          _react2.default.createElement(
-            _reactCustomScrollbars.Scrollbars,
-            { style: { height: 50 } },
-            _react2.default.createElement(_EmojiChatContainer2.default, null)
-          )
-        ),
-        _react2.default.createElement(
-          'div',
           { className: 'chatFriendsList' },
           _react2.default.createElement(
             _reactCustomScrollbars.Scrollbars,
             { style: { height: 700 } },
-            _react2.default.createElement(_FriendsListContainer2.default, null)
+            _react2.default.createElement(_FriendsListContainer2.default, { goToProfile: this.goToProfile.bind(this) })
           )
         ),
+        this.props.children,
         _react2.default.createElement(
           'div',
           null,
@@ -37273,6 +38184,122 @@ var _temp = function () {
 
 /***/ },
 /* 317 */
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+=======
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(17);
+
+var _reactCustomScrollbars = __webpack_require__(75);
+
+var _socket = __webpack_require__(82);
+
+var _socket2 = _interopRequireDefault(_socket);
+
+var _axios = __webpack_require__(25);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _TextChatProfile = __webpack_require__(653);
+
+var _TextChatProfile2 = _interopRequireDefault(_TextChatProfile);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var TextChatProfileContainer = function (_React$Component) {
+  _inherits(TextChatProfileContainer, _React$Component);
+
+  function TextChatProfileContainer(props) {
+    _classCallCheck(this, TextChatProfileContainer);
+
+    var _this = _possibleConstructorReturn(this, (TextChatProfileContainer.__proto__ || Object.getPrototypeOf(TextChatProfileContainer)).call(this, props));
+
+    _this.state = {
+      chatSelected: false,
+      currentFriend: null,
+      newChatHistoryLog: {}
+    };
+    return _this;
+  }
+
+  _createClass(TextChatProfileContainer, [{
+    key: 'render',
+    value: function render() {
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_TextChatProfile2.default, { user: this.props.user, userEmojis: this.props.userEmojis })
+      );
+    }
+  }]);
+
+  return TextChatProfileContainer;
+}(_react2.default.Component);
+
+;
+
+function mapStateToProps(state) {
+  return {
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket,
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat,
+    userEmojis: state.userReducer.userEmojis
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(TextChatProfileContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/TextChat/TextChatProfileContainer/TextChatProfileContainer.js');
+
+  __REACT_HOT_LOADER__.register(TextChatProfileContainer, 'TextChatProfileContainer', '/Users/Rob/Desktop/ReTok/client/src/TextChat/TextChatProfileContainer/TextChatProfileContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/TextChat/TextChatProfileContainer/TextChatProfileContainer.js');
+}();
+
+;
+
+/***/ },
+/* 318 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -37382,7 +38409,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 318 */
+=======
+/* 319 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -37442,7 +38473,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 319 */
+=======
+/* 320 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -37491,7 +38526,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 320 */
+=======
+/* 321 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -37545,7 +38584,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 321 */
+=======
+/* 322 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37553,7 +38596,11 @@ var _temp = function () {
 
 var utils = __webpack_require__(27);
 var bind = __webpack_require__(175);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Axios = __webpack_require__(322);
+=======
+var Axios = __webpack_require__(323);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Create an instance of Axios
@@ -37589,7 +38636,11 @@ axios.create = function create(defaultConfig) {
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 axios.spread = __webpack_require__(337);
+=======
+axios.spread = __webpack_require__(338);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = axios;
 
@@ -37610,18 +38661,31 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 322 */
+=======
+/* 323 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var defaults = __webpack_require__(328);
 var utils = __webpack_require__(27);
 var InterceptorManager = __webpack_require__(323);
 var dispatchRequest = __webpack_require__(324);
 var isAbsoluteURL = __webpack_require__(333);
 var combineURLs = __webpack_require__(331);
+=======
+var defaults = __webpack_require__(329);
+var utils = __webpack_require__(27);
+var InterceptorManager = __webpack_require__(324);
+var dispatchRequest = __webpack_require__(325);
+var isAbsoluteURL = __webpack_require__(334);
+var combineURLs = __webpack_require__(332);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Create a new instance of Axios
@@ -37712,7 +38776,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 323 */
+=======
+/* 324 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37781,14 +38849,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 324 */
+=======
+/* 325 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {'use strict';
 
 var utils = __webpack_require__(27);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var transformData = __webpack_require__(327);
+=======
+var transformData = __webpack_require__(328);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Dispatch a request to the server using whichever adapter
@@ -37852,7 +38928,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 325 */
+=======
+/* 326 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -37887,7 +38967,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 326 */
+=======
+/* 327 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37922,7 +39006,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 327 */
+=======
+/* 328 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -37957,14 +39045,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 328 */
+=======
+/* 329 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 var utils = __webpack_require__(27);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var normalizeHeaderName = __webpack_require__(335);
+=======
+var normalizeHeaderName = __webpack_require__(336);
+>>>>>>> Incorporates video logic into text chat view
 
 var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 var DEFAULT_CONTENT_TYPE = {
@@ -38045,7 +39141,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 329 */
+=======
+/* 330 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -38101,7 +39201,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 330 */
+=======
+/* 331 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38179,7 +39283,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 331 */
+=======
+/* 332 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -38207,7 +39315,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 332 */
+=======
+/* 333 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38275,7 +39387,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 333 */
+=======
+/* 334 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -38306,7 +39422,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 334 */
+=======
+/* 335 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38384,7 +39504,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 335 */
+=======
+/* 336 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38411,7 +39535,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 336 */
+=======
+/* 337 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38465,7 +39593,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 337 */
+=======
+/* 338 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -38508,31 +39640,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 338 */
-/***/ function(module, exports, __webpack_require__) {
-
-"use strict";
-"use strict";
-
-module.exports = { "default": __webpack_require__(346), __esModule: true };
-;
-
-var _temp = function () {
-  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
-    return;
-  }
-}();
-
-;
-
-/***/ },
+=======
 /* 339 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
-module.exports = { "default": __webpack_require__(348), __esModule: true };
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+module.exports = { "default": __webpack_require__(346), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(347), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -38544,13 +39666,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+/* 339 */
+=======
 /* 340 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
-module.exports = { "default": __webpack_require__(350), __esModule: true };
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+module.exports = { "default": __webpack_require__(348), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(349), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -38562,13 +39692,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+/* 340 */
+=======
 /* 341 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
-module.exports = { "default": __webpack_require__(352), __esModule: true };
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+module.exports = { "default": __webpack_require__(350), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(351), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -38580,13 +39718,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+/* 341 */
+=======
 /* 342 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 "use strict";
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+module.exports = { "default": __webpack_require__(352), __esModule: true };
+=======
 module.exports = { "default": __webpack_require__(353), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -38598,7 +39744,37 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+/* 342 */
+=======
 /* 343 */
+>>>>>>> Incorporates video logic into text chat view
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+"use strict";
+
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+module.exports = { "default": __webpack_require__(353), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(354), __esModule: true };
+>>>>>>> Incorporates video logic into text chat view
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+}();
+
+;
+
+/***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
+/* 343 */
+=======
+/* 344 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -38700,7 +39876,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 344 */
+=======
+/* 345 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -38783,7 +39963,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 345 */
+=======
+/* 346 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -38906,14 +40090,22 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 346 */
+=======
+/* 347 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 __webpack_require__(189);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(377);
+=======
+__webpack_require__(378);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(33).Array.from;
 ;
 
@@ -38926,13 +40118,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 347 */
+=======
+/* 348 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(379);
+=======
+__webpack_require__(380);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(33).Object.assign;
 ;
 
@@ -38945,13 +40145,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 348 */
+=======
+/* 349 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(380);
+=======
+__webpack_require__(381);
+>>>>>>> Incorporates video logic into text chat view
 var $Object = __webpack_require__(33).Object;
 module.exports = function create(P, D) {
   return $Object.create(P, D);
@@ -38969,13 +40177,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 349 */
+=======
+/* 350 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(384);
+=======
+__webpack_require__(385);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(33).Object.entries;
 ;
 
@@ -38988,13 +40204,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 350 */
+=======
+/* 351 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(381);
+=======
+__webpack_require__(382);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(33).Object.setPrototypeOf;
 ;
 
@@ -39007,13 +40231,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 351 */
+=======
+/* 352 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(385);
+=======
+__webpack_require__(386);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(33).Object.values;
 ;
 
@@ -39026,16 +40258,27 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 352 */
+=======
+/* 353 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(383);
 __webpack_require__(382);
 __webpack_require__(386);
 __webpack_require__(387);
+=======
+__webpack_require__(384);
+__webpack_require__(383);
+__webpack_require__(387);
+__webpack_require__(388);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(33).Symbol;
 ;
 
@@ -39048,14 +40291,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 353 */
+=======
+/* 354 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 __webpack_require__(189);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(388);
+=======
+__webpack_require__(389);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = __webpack_require__(126).f('iterator');
 ;
 
@@ -39068,7 +40319,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 354 */
+=======
+/* 355 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -39089,7 +40344,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 355 */
+=======
+/* 356 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -39107,7 +40366,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 356 */
+=======
+/* 357 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39117,7 +40380,11 @@ var _temp = function () {
 // true  -> Array#includes
 var toIObject = __webpack_require__(44),
     toLength = __webpack_require__(188),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     toIndex = __webpack_require__(375);
+=======
+    toIndex = __webpack_require__(376);
+>>>>>>> Incorporates video logic into text chat view
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this),
@@ -39147,7 +40414,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 357 */
+=======
+/* 358 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39196,7 +40467,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 358 */
+=======
+/* 359 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39219,7 +40494,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 359 */
+=======
+/* 360 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39253,7 +40532,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 360 */
+=======
+/* 361 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39271,7 +40554,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 361 */
+=======
+/* 362 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39300,7 +40587,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 362 */
+=======
+/* 363 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39322,7 +40613,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 363 */
+=======
+/* 364 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39351,7 +40646,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 364 */
+=======
+/* 365 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39384,7 +40683,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 365 */
+=======
+/* 366 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39436,7 +40739,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 366 */
+=======
+/* 367 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -39456,7 +40763,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 367 */
+=======
+/* 368 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39485,7 +40796,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 368 */
+=======
+/* 369 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39493,7 +40808,11 @@ var _temp = function () {
 
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var META = __webpack_require__(84)('meta'),
+=======
+var META = __webpack_require__(86)('meta'),
+>>>>>>> Incorporates video logic into text chat view
     isObject = __webpack_require__(68),
     has = __webpack_require__(48),
     setDesc = __webpack_require__(49).f,
@@ -39577,7 +40896,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 369 */
+=======
+/* 370 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39633,7 +40956,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 370 */
+=======
+/* 371 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39664,7 +40991,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 371 */
+=======
+/* 372 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39709,7 +41040,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 372 */
+=======
+/* 373 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39743,7 +41078,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 373 */
+=======
+/* 374 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39788,7 +41127,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 374 */
+=======
+/* 375 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39821,7 +41164,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 375 */
+=======
+/* 376 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39849,13 +41196,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 376 */
+=======
+/* 377 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var classof = __webpack_require__(357),
+=======
+var classof = __webpack_require__(358),
+>>>>>>> Incorporates video logic into text chat view
     ITERATOR = __webpack_require__(34)('iterator'),
     Iterators = __webpack_require__(69);
 module.exports = __webpack_require__(33).getIteratorMethod = function (it) {
@@ -39874,7 +41229,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 377 */
+=======
+/* 378 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39883,6 +41242,7 @@ var _temp = function () {
 var ctx = __webpack_require__(113),
     $export = __webpack_require__(42),
     toObject = __webpack_require__(123),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     call = __webpack_require__(363),
     isArrayIter = __webpack_require__(361),
     toLength = __webpack_require__(188),
@@ -39890,6 +41250,15 @@ var ctx = __webpack_require__(113),
     getIterFn = __webpack_require__(376);
 
 $export($export.S + $export.F * !__webpack_require__(365)(function (iter) {
+=======
+    call = __webpack_require__(364),
+    isArrayIter = __webpack_require__(362),
+    toLength = __webpack_require__(188),
+    createProperty = __webpack_require__(359),
+    getIterFn = __webpack_require__(377);
+
+$export($export.S + $export.F * !__webpack_require__(366)(function (iter) {
+>>>>>>> Incorporates video logic into text chat view
   Array.from(iter);
 }), 'Array', {
   // 22.1.2.1 Array.from(arrayLike, mapfn = undefined, thisArg = undefined)
@@ -39932,14 +41301,23 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 378 */
+=======
+/* 379 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var addToUnscopables = __webpack_require__(355),
     step = __webpack_require__(366),
+=======
+var addToUnscopables = __webpack_require__(356),
+    step = __webpack_require__(367),
+>>>>>>> Incorporates video logic into text chat view
     Iterators = __webpack_require__(69),
     toIObject = __webpack_require__(44);
 
@@ -39982,7 +41360,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 379 */
+=======
+/* 380 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -39991,7 +41373,11 @@ var _temp = function () {
 // 19.1.3.1 Object.assign(target, source)
 var $export = __webpack_require__(42);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__(369) });
+=======
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(370) });
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -40003,7 +41389,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 380 */
+=======
+/* 381 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40023,7 +41413,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 381 */
+=======
+/* 382 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40031,7 +41425,11 @@ var _temp = function () {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
 var $export = __webpack_require__(42);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(373).set });
+=======
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(374).set });
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -40043,7 +41441,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 382 */
+=======
+/* 383 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -40060,7 +41462,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 383 */
+=======
+/* 384 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40074,6 +41480,7 @@ var global = __webpack_require__(43),
     DESCRIPTORS = __webpack_require__(58),
     $export = __webpack_require__(42),
     redefine = __webpack_require__(187),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     META = __webpack_require__(368).KEY,
     $fails = __webpack_require__(67),
     shared = __webpack_require__(121),
@@ -40085,12 +41492,29 @@ var global = __webpack_require__(43),
     keyOf = __webpack_require__(367),
     enumKeys = __webpack_require__(359),
     isArray = __webpack_require__(362),
+=======
+    META = __webpack_require__(369).KEY,
+    $fails = __webpack_require__(67),
+    shared = __webpack_require__(121),
+    setToStringTag = __webpack_require__(119),
+    uid = __webpack_require__(86),
+    wks = __webpack_require__(34),
+    wksExt = __webpack_require__(126),
+    wksDefine = __webpack_require__(125),
+    keyOf = __webpack_require__(368),
+    enumKeys = __webpack_require__(360),
+    isArray = __webpack_require__(363),
+>>>>>>> Incorporates video logic into text chat view
     anObject = __webpack_require__(57),
     toIObject = __webpack_require__(44),
     toPrimitive = __webpack_require__(124),
     createDesc = __webpack_require__(71),
     _create = __webpack_require__(117),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     gOPNExt = __webpack_require__(371),
+=======
+    gOPNExt = __webpack_require__(372),
+>>>>>>> Incorporates video logic into text chat view
     $GOPD = __webpack_require__(183),
     $DP = __webpack_require__(49),
     $keys = __webpack_require__(60),
@@ -40379,7 +41803,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 384 */
+=======
+/* 385 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40407,7 +41835,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 385 */
+=======
+/* 386 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40435,7 +41867,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 386 */
+=======
+/* 387 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40453,7 +41889,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 387 */
+=======
+/* 388 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40471,13 +41911,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 388 */
+=======
+/* 389 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 __webpack_require__(378);
+=======
+__webpack_require__(379);
+>>>>>>> Incorporates video logic into text chat view
 var global = __webpack_require__(43),
     hide = __webpack_require__(59),
     Iterators = __webpack_require__(69),
@@ -40513,7 +41961,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 389 */
+=======
+/* 390 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40531,7 +41983,11 @@ exports.coerce = coerce;
 exports.disable = disable;
 exports.enable = enable;
 exports.enabled = enabled;
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 exports.humanize = __webpack_require__(442);
+=======
+exports.humanize = __webpack_require__(443);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * The currently active debug mode names, and names to skip.
@@ -40741,7 +42197,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 390 */
+=======
+/* 391 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40750,8 +42210,13 @@ var _temp = function () {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 var pSlice = Array.prototype.slice;
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var objectKeys = __webpack_require__(392);
 var isArguments = __webpack_require__(391);
+=======
+var objectKeys = __webpack_require__(393);
+var isArguments = __webpack_require__(392);
+>>>>>>> Incorporates video logic into text chat view
 
 var deepEqual = module.exports = function (actual, expected, opts) {
   if (!opts) opts = {};
@@ -40861,7 +42326,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 391 */
+=======
+/* 392 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -40901,7 +42370,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 392 */
+=======
+/* 393 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -40929,7 +42402,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 393 */
+=======
+/* 394 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -40951,15 +42428,24 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 394 */
+=======
+/* 395 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 module.exports = {
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   addClass: __webpack_require__(393),
   removeClass: __webpack_require__(395),
+=======
+  addClass: __webpack_require__(394),
+  removeClass: __webpack_require__(396),
+>>>>>>> Incorporates video logic into text chat view
   hasClass: __webpack_require__(192)
 };
 ;
@@ -40973,7 +42459,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 395 */
+=======
+/* 396 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -40993,14 +42483,22 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 396 */
+=======
+/* 397 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
 var contains = __webpack_require__(72),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     qsa = __webpack_require__(400);
+=======
+    qsa = __webpack_require__(401);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = function (selector, handler) {
   return function (e) {
@@ -41024,7 +42522,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 397 */
+=======
+/* 398 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41032,7 +42534,11 @@ var _temp = function () {
 
 var on = __webpack_require__(127),
     off = __webpack_require__(193),
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     filter = __webpack_require__(396);
+=======
+    filter = __webpack_require__(397);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = { on: on, off: off, filter: filter };
 ;
@@ -41046,13 +42552,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 398 */
+=======
+/* 399 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var babelHelpers = __webpack_require__(87);
+=======
+var babelHelpers = __webpack_require__(89);
+>>>>>>> Incorporates video logic into text chat view
 
 exports.__esModule = true;
 exports['default'] = offsetParent;
@@ -41061,7 +42575,11 @@ var _ownerDocument = __webpack_require__(61);
 
 var _ownerDocument2 = babelHelpers.interopRequireDefault(_ownerDocument);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _style = __webpack_require__(86);
+=======
+var _style = __webpack_require__(88);
+>>>>>>> Incorporates video logic into text chat view
 
 var _style2 = babelHelpers.interopRequireDefault(_style);
 
@@ -41100,13 +42618,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 399 */
+=======
+/* 400 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var babelHelpers = __webpack_require__(87);
+=======
+var babelHelpers = __webpack_require__(89);
+>>>>>>> Incorporates video logic into text chat view
 
 exports.__esModule = true;
 exports['default'] = position;
@@ -41115,7 +42641,11 @@ var _offset = __webpack_require__(194);
 
 var _offset2 = babelHelpers.interopRequireDefault(_offset);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _offsetParent = __webpack_require__(398);
+=======
+var _offsetParent = __webpack_require__(399);
+>>>>>>> Incorporates video logic into text chat view
 
 var _offsetParent2 = babelHelpers.interopRequireDefault(_offsetParent);
 
@@ -41123,11 +42653,19 @@ var _scrollTop = __webpack_require__(195);
 
 var _scrollTop2 = babelHelpers.interopRequireDefault(_scrollTop);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _scrollLeft = __webpack_require__(401);
 
 var _scrollLeft2 = babelHelpers.interopRequireDefault(_scrollLeft);
 
 var _style = __webpack_require__(86);
+=======
+var _scrollLeft = __webpack_require__(402);
+
+var _scrollLeft2 = babelHelpers.interopRequireDefault(_scrollLeft);
+
+var _style = __webpack_require__(88);
+>>>>>>> Incorporates video logic into text chat view
 
 var _style2 = babelHelpers.interopRequireDefault(_style);
 
@@ -41186,7 +42724,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 400 */
+=======
+/* 401 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -41233,13 +42775,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 401 */
+=======
+/* 402 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var getWindow = __webpack_require__(85);
+=======
+var getWindow = __webpack_require__(87);
+>>>>>>> Incorporates video logic into text chat view
 
 module.exports = function scrollTop(node, val) {
   var win = getWindow(node);
@@ -41259,13 +42809,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 402 */
+=======
+/* 403 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var babelHelpers = __webpack_require__(87);
+=======
+var babelHelpers = __webpack_require__(89);
+>>>>>>> Incorporates video logic into text chat view
 
 var _utilCamelizeStyle = __webpack_require__(196);
 
@@ -41328,7 +42886,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 403 */
+=======
+/* 404 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -41348,7 +42910,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 404 */
+=======
+/* 405 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41435,7 +43001,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 405 */
+=======
+/* 406 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -41461,7 +43031,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 406 */
+=======
+/* 407 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -41485,7 +43059,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 407 */
+=======
+/* 408 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41497,7 +43075,11 @@ var _temp = function () {
 
 "use strict";
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var hyphenate = __webpack_require__(406);
+=======
+var hyphenate = __webpack_require__(407);
+>>>>>>> Incorporates video logic into text chat view
 var msPattern = /^ms-/;
 
 module.exports = function hyphenateStyleName(string) {
@@ -41516,13 +43098,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 408 */
+=======
+/* 409 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = __webpack_require__(409);
+=======
+module.exports = __webpack_require__(410);
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -41534,13 +43124,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 409 */
+=======
+/* 410 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = __webpack_require__(410);
+=======
+module.exports = __webpack_require__(411);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Exports parser
@@ -41560,7 +43158,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 410 */
+=======
+/* 411 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -41573,12 +43175,20 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  */
 
 var transports = __webpack_require__(198);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Emitter = __webpack_require__(82);
+=======
+var Emitter = __webpack_require__(84);
+>>>>>>> Incorporates video logic into text chat view
 var debug = __webpack_require__(38)('engine.io-client:socket');
 var index = __webpack_require__(209);
 var parser = __webpack_require__(62);
 var parseuri = __webpack_require__(211);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var parsejson = __webpack_require__(443);
+=======
+var parsejson = __webpack_require__(444);
+>>>>>>> Incorporates video logic into text chat view
 var parseqs = __webpack_require__(135);
 
 /**
@@ -42305,7 +43915,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 411 */
+=======
+/* 412 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42316,7 +43930,11 @@ var _temp = function () {
  */
 
 var Polling = __webpack_require__(199);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var inherit = __webpack_require__(83);
+=======
+var inherit = __webpack_require__(85);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Module exports.
@@ -42571,7 +44189,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 412 */
+=======
+/* 413 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -42583,8 +44205,13 @@ var _temp = function () {
 
 var XMLHttpRequest = __webpack_require__(129);
 var Polling = __webpack_require__(199);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Emitter = __webpack_require__(82);
 var inherit = __webpack_require__(83);
+=======
+var Emitter = __webpack_require__(84);
+var inherit = __webpack_require__(85);
+>>>>>>> Incorporates video logic into text chat view
 var debug = __webpack_require__(38)('engine.io-client:polling-xhr');
 
 /**
@@ -43010,7 +44637,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 413 */
+=======
+/* 414 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43023,7 +44654,11 @@ var _temp = function () {
 var Transport = __webpack_require__(128);
 var parser = __webpack_require__(62);
 var parseqs = __webpack_require__(135);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var inherit = __webpack_require__(83);
+=======
+var inherit = __webpack_require__(85);
+>>>>>>> Incorporates video logic into text chat view
 var yeast = __webpack_require__(281);
 var debug = __webpack_require__(38)('engine.io-client:websocket');
 var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
@@ -43037,7 +44672,11 @@ var BrowserWebSocket = global.WebSocket || global.MozWebSocket;
 var WebSocket = BrowserWebSocket;
 if (!WebSocket && typeof window === 'undefined') {
   try {
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
     WebSocket = __webpack_require__(650);
+=======
+    WebSocket = __webpack_require__(651);
+>>>>>>> Incorporates video logic into text chat view
   } catch (e) {}
 }
 
@@ -43322,7 +44961,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 414 */
+=======
+/* 415 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -43357,7 +45000,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 415 */
+=======
+/* 416 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43369,7 +45016,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  * Module requirements.
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var isArray = __webpack_require__(416);
+=======
+var isArray = __webpack_require__(417);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Module exports.
@@ -43432,7 +45083,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 416 */
+=======
+/* 417 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -43452,7 +45107,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 417 */
+=======
+/* 418 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -43502,7 +45161,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 418 */
+=======
+/* 419 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43519,7 +45182,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var camelize = __webpack_require__(417);
+=======
+var camelize = __webpack_require__(418);
+>>>>>>> Incorporates video logic into text chat view
 
 var msPattern = /^-ms-/;
 
@@ -43560,7 +45227,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 419 */
+=======
+/* 420 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43577,7 +45248,11 @@ var _temp = function () {
  * 
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var isTextNode = __webpack_require__(427);
+=======
+var isTextNode = __webpack_require__(428);
+>>>>>>> Incorporates video logic into text chat view
 
 /*eslint-disable no-bitwise */
 
@@ -43616,7 +45291,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 420 */
+=======
+/* 421 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43766,7 +45445,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 421 */
+=======
+/* 422 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -43787,8 +45470,13 @@ var _temp = function () {
 
 var ExecutionEnvironment = __webpack_require__(20);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var createArrayFromMixed = __webpack_require__(420);
 var getMarkupWrap = __webpack_require__(422);
+=======
+var createArrayFromMixed = __webpack_require__(421);
+var getMarkupWrap = __webpack_require__(423);
+>>>>>>> Incorporates video logic into text chat view
 var invariant = __webpack_require__(9);
 
 /**
@@ -43873,7 +45561,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 422 */
+=======
+/* 423 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44001,7 +45693,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 423 */
+=======
+/* 424 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44056,7 +45752,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 424 */
+=======
+/* 425 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44107,7 +45807,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 425 */
+=======
+/* 426 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44124,7 +45828,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var hyphenate = __webpack_require__(424);
+=======
+var hyphenate = __webpack_require__(425);
+>>>>>>> Incorporates video logic into text chat view
 
 var msPattern = /^ms-/;
 
@@ -44164,7 +45872,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 426 */
+=======
+/* 427 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44206,7 +45918,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 427 */
+=======
+/* 428 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44223,7 +45939,11 @@ var _temp = function () {
  * @typechecks
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var isNode = __webpack_require__(426);
+=======
+var isNode = __webpack_require__(427);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * @param {*} object The object to check.
@@ -44247,7 +45967,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 428 */
+=======
+/* 429 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44293,7 +46017,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 429 */
+=======
+/* 430 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44332,7 +46060,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 430 */
+=======
+/* 431 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44349,7 +46081,11 @@ var _temp = function () {
  * @typechecks
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var performance = __webpack_require__(429);
+=======
+var performance = __webpack_require__(430);
+>>>>>>> Incorporates video logic into text chat view
 
 var performanceNow;
 
@@ -44382,7 +46118,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 431 */
+=======
+/* 432 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44394,7 +46134,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
  * Module requirements.
  */
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var isArray = __webpack_require__(432);
+=======
+var isArray = __webpack_require__(433);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Module exports.
@@ -44458,7 +46202,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 432 */
+=======
+/* 433 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44478,7 +46226,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 433 */
+=======
+/* 434 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44510,7 +46262,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 434 */
+=======
+/* 435 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -44587,7 +46343,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 435 */
+=======
+/* 436 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44609,7 +46369,7 @@ function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { 'default': obj };
 }
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -44617,7 +46377,11 @@ var _Actions = __webpack_require__(63);
 
 var _PathUtils = __webpack_require__(51);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ExecutionEnvironment = __webpack_require__(89);
+=======
+var _ExecutionEnvironment = __webpack_require__(91);
+>>>>>>> Incorporates video logic into text chat view
 
 var _DOMUtils = __webpack_require__(131);
 
@@ -44803,7 +46567,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 436 */
+=======
+/* 437 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44890,7 +46658,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 437 */
+=======
+/* 438 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -44918,7 +46690,7 @@ var _warning = __webpack_require__(35);
 
 var _warning2 = _interopRequireDefault(_warning);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -45086,7 +46858,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 438 */
+=======
+/* 439 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -45098,7 +46874,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 ;(function () {
   // Detect the `define` function exposed by asynchronous module loaders. The
   // strict `define` check is necessary for compatibility with `r.js`.
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   var isLoader = "function" === "function" && __webpack_require__(81);
+=======
+  var isLoader = "function" === "function" && __webpack_require__(83);
+>>>>>>> Incorporates video logic into text chat view
 
   // A set of types used to distinguish objects from primitives.
   var objectTypes = {
@@ -46029,7 +47809,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(280)(module), __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 439 */
+=======
+/* 440 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46039,7 +47823,11 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _overArg = __webpack_require__(440);
+=======
+var _overArg = __webpack_require__(441);
+>>>>>>> Incorporates video logic into text chat view
 
 var _overArg2 = _interopRequireDefault(_overArg);
 
@@ -46065,7 +47853,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 440 */
+=======
+/* 441 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -46105,7 +47897,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 441 */
+=======
+/* 442 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -46162,7 +47958,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 442 */
+=======
+/* 443 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -46316,7 +48116,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 443 */
+=======
+/* 444 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46376,7 +48180,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 444 */
+=======
+/* 445 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46425,7 +48233,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 445 */
+=======
+/* 446 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -46476,13 +48288,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 446 */
+=======
+/* 447 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var strictUriEncode = __webpack_require__(639);
+=======
+var strictUriEncode = __webpack_require__(640);
+>>>>>>> Incorporates video logic into text chat view
 
 exports.extract = function (str) {
 	return str.split('?')[1] || '';
@@ -46558,13 +48378,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 447 */
+=======
+/* 448 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(global) {'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var now = __webpack_require__(444),
+=======
+var now = __webpack_require__(445),
+>>>>>>> Incorporates video logic into text chat view
     root = typeof window === 'undefined' ? global : window,
     vendors = ['moz', 'webkit'],
     suffix = 'AnimationFrame',
@@ -46669,7 +48497,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 448 */
+=======
+/* 449 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46738,7 +48570,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 449 */
+=======
+/* 450 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -46875,7 +48711,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 450 */
+=======
+/* 451 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47005,7 +48845,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 451 */
+=======
+/* 452 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47103,7 +48947,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 452 */
+=======
+/* 453 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47198,7 +49046,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 453 */
+=======
+/* 454 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47236,7 +49088,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _CarouselCaption = __webpack_require__(454);
+=======
+var _CarouselCaption = __webpack_require__(455);
+>>>>>>> Incorporates video logic into text chat view
 
 var _CarouselCaption2 = _interopRequireDefault(_CarouselCaption);
 
@@ -47611,7 +49467,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 454 */
+=======
+/* 455 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47721,7 +49581,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 455 */
+=======
+/* 456 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -47872,7 +49736,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 456 */
+=======
+/* 457 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48030,7 +49898,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 457 */
+=======
+/* 458 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48327,7 +50199,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 458 */
+=======
+/* 459 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48459,7 +50335,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 459 */
+=======
+/* 460 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48493,11 +50373,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Dropdown = __webpack_require__(91);
 
 var _Dropdown2 = _interopRequireDefault(_Dropdown);
 
 var _splitComponentProps2 = __webpack_require__(93);
+=======
+var _Dropdown = __webpack_require__(93);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+var _splitComponentProps2 = __webpack_require__(95);
+>>>>>>> Incorporates video logic into text chat view
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
@@ -48574,7 +50462,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 460 */
+=======
+/* 461 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48592,7 +50484,11 @@ var _objectWithoutProperties2 = __webpack_require__(6);
 
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _from = __webpack_require__(338);
+=======
+var _from = __webpack_require__(339);
+>>>>>>> Incorporates video logic into text chat view
 
 var _from2 = _interopRequireDefault(_from);
 
@@ -48795,7 +50691,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 461 */
+=======
+/* 462 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48917,7 +50817,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 462 */
+=======
+/* 463 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -48963,11 +50867,19 @@ var _warning = __webpack_require__(29);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _FormControlFeedback = __webpack_require__(463);
 
 var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
 
 var _FormControlStatic = __webpack_require__(464);
+=======
+var _FormControlFeedback = __webpack_require__(464);
+
+var _FormControlFeedback2 = _interopRequireDefault(_FormControlFeedback);
+
+var _FormControlStatic = __webpack_require__(465);
+>>>>>>> Incorporates video logic into text chat view
 
 var _FormControlStatic2 = _interopRequireDefault(_FormControlStatic);
 
@@ -49072,7 +50984,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 463 */
+=======
+/* 464 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49212,7 +51128,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 464 */
+=======
+/* 465 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49322,7 +51242,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 465 */
+=======
+/* 466 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49465,7 +51389,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 466 */
+=======
+/* 467 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49555,7 +51483,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 467 */
+=======
+/* 468 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49687,7 +51619,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 468 */
+=======
+/* 469 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49725,11 +51661,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _InputGroupAddon = __webpack_require__(469);
 
 var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
 
 var _InputGroupButton = __webpack_require__(470);
+=======
+var _InputGroupAddon = __webpack_require__(470);
+
+var _InputGroupAddon2 = _interopRequireDefault(_InputGroupAddon);
+
+var _InputGroupButton = __webpack_require__(471);
+>>>>>>> Incorporates video logic into text chat view
 
 var _InputGroupButton2 = _interopRequireDefault(_InputGroupButton);
 
@@ -49790,7 +51734,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 469 */
+=======
+/* 470 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49880,7 +51828,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 470 */
+=======
+/* 471 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -49970,7 +51922,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 471 */
+=======
+/* 472 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50080,7 +52036,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 472 */
+=======
+/* 473 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50197,7 +52157,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 473 */
+=======
+/* 474 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50339,7 +52303,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 474 */
+=======
+/* 475 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50449,7 +52417,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 475 */
+=======
+/* 476 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50559,7 +52531,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 476 */
+=======
+/* 477 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50670,7 +52646,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 477 */
+=======
+/* 478 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50760,7 +52740,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 478 */
+=======
+/* 479 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50850,7 +52834,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 479 */
+=======
+/* 480 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -50961,7 +52949,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 480 */
+=======
+/* 481 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51179,7 +53171,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 481 */
+=======
+/* 482 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51213,7 +53209,11 @@ var _classnames = __webpack_require__(7);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _events = __webpack_require__(397);
+=======
+var _events = __webpack_require__(398);
+>>>>>>> Incorporates video logic into text chat view
 
 var _events2 = _interopRequireDefault(_events);
 
@@ -51237,7 +53237,11 @@ var _reactDom = __webpack_require__(12);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Modal = __webpack_require__(528);
+=======
+var _Modal = __webpack_require__(529);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -51249,7 +53253,11 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Fade = __webpack_require__(92);
+=======
+var _Fade = __webpack_require__(94);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Fade2 = _interopRequireDefault(_Fade);
 
@@ -51257,7 +53265,11 @@ var _ModalBody = __webpack_require__(218);
 
 var _ModalBody2 = _interopRequireDefault(_ModalBody);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ModalDialog = __webpack_require__(482);
+=======
+var _ModalDialog = __webpack_require__(483);
+>>>>>>> Incorporates video logic into text chat view
 
 var _ModalDialog2 = _interopRequireDefault(_ModalDialog);
 
@@ -51279,7 +53291,11 @@ var _createChainedFunction = __webpack_require__(23);
 
 var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _splitComponentProps2 = __webpack_require__(93);
+=======
+var _splitComponentProps2 = __webpack_require__(95);
+>>>>>>> Incorporates video logic into text chat view
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
@@ -51544,7 +53560,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 482 */
+=======
+/* 483 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51659,7 +53679,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 483 */
+=======
+/* 484 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51697,11 +53721,19 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Dropdown = __webpack_require__(91);
 
 var _Dropdown2 = _interopRequireDefault(_Dropdown);
 
 var _splitComponentProps2 = __webpack_require__(93);
+=======
+var _Dropdown = __webpack_require__(93);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+var _splitComponentProps2 = __webpack_require__(95);
+>>>>>>> Incorporates video logic into text chat view
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
@@ -51812,7 +53844,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 484 */
+=======
+/* 485 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -51866,6 +53902,7 @@ var _NavbarBrand = __webpack_require__(224);
 
 var _NavbarBrand2 = _interopRequireDefault(_NavbarBrand);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _NavbarCollapse = __webpack_require__(485);
 
 var _NavbarCollapse2 = _interopRequireDefault(_NavbarCollapse);
@@ -51875,6 +53912,17 @@ var _NavbarHeader = __webpack_require__(486);
 var _NavbarHeader2 = _interopRequireDefault(_NavbarHeader);
 
 var _NavbarToggle = __webpack_require__(487);
+=======
+var _NavbarCollapse = __webpack_require__(486);
+
+var _NavbarCollapse2 = _interopRequireDefault(_NavbarCollapse);
+
+var _NavbarHeader = __webpack_require__(487);
+
+var _NavbarHeader2 = _interopRequireDefault(_NavbarHeader);
+
+var _NavbarToggle = __webpack_require__(488);
+>>>>>>> Incorporates video logic into text chat view
 
 var _NavbarToggle2 = _interopRequireDefault(_NavbarToggle);
 
@@ -52113,7 +54161,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 485 */
+=======
+/* 486 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52208,7 +54260,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 486 */
+=======
+/* 487 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52302,7 +54358,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 487 */
+=======
+/* 488 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52424,7 +54484,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 488 */
+=======
+/* 489 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52796,7 +54860,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 489 */
+=======
+/* 490 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52887,7 +54955,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 490 */
+=======
+/* 491 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -52901,7 +54973,11 @@ var _PagerItem = __webpack_require__(226);
 
 var _PagerItem2 = _interopRequireDefault(_PagerItem);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _deprecationWarning = __webpack_require__(511);
+=======
+var _deprecationWarning = __webpack_require__(512);
+>>>>>>> Incorporates video logic into text chat view
 
 var _deprecationWarning2 = _interopRequireDefault(_deprecationWarning);
 
@@ -52923,7 +54999,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 491 */
+=======
+/* 492 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53041,7 +55121,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 492 */
+=======
+/* 493 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53083,7 +55167,11 @@ var _elementType = __webpack_require__(13);
 
 var _elementType2 = _interopRequireDefault(_elementType);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _PaginationButton = __webpack_require__(493);
+=======
+var _PaginationButton = __webpack_require__(494);
+>>>>>>> Incorporates video logic into text chat view
 
 var _PaginationButton2 = _interopRequireDefault(_PaginationButton);
 
@@ -53301,7 +55389,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 493 */
+=======
+/* 494 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53454,7 +55546,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 494 */
+=======
+/* 495 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53711,7 +55807,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 495 */
+=======
+/* 496 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -53876,7 +55976,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 496 */
+=======
+/* 497 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54098,7 +56202,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 497 */
+=======
+/* 498 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54249,7 +56357,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 498 */
+=======
+/* 499 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54381,7 +56493,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 499 */
+=======
+/* 500 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54491,7 +56607,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 500 */
+=======
+/* 501 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54529,6 +56649,7 @@ var _Button = __webpack_require__(74);
 
 var _Button2 = _interopRequireDefault(_Button);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Dropdown = __webpack_require__(91);
 
 var _Dropdown2 = _interopRequireDefault(_Dropdown);
@@ -54538,6 +56659,17 @@ var _SplitToggle = __webpack_require__(501);
 var _SplitToggle2 = _interopRequireDefault(_SplitToggle);
 
 var _splitComponentProps2 = __webpack_require__(93);
+=======
+var _Dropdown = __webpack_require__(93);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+var _SplitToggle = __webpack_require__(502);
+
+var _SplitToggle2 = _interopRequireDefault(_SplitToggle);
+
+var _splitComponentProps2 = __webpack_require__(95);
+>>>>>>> Incorporates video logic into text chat view
 
 var _splitComponentProps3 = _interopRequireDefault(_splitComponentProps2);
 
@@ -54630,7 +56762,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 501 */
+=======
+/* 502 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54704,7 +56840,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 502 */
+=======
+/* 503 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54808,7 +56948,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 503 */
+=======
+/* 504 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -54934,7 +57078,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 504 */
+=======
+/* 505 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55147,7 +57295,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 505 */
+=======
+/* 506 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55255,7 +57407,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 506 */
+=======
+/* 507 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55413,7 +57569,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 507 */
+=======
+/* 508 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55505,7 +57665,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 508 */
+=======
+/* 509 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55516,6 +57680,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.utils = exports.Well = exports.Tooltip = exports.Thumbnail = exports.Tabs = exports.TabPane = exports.Table = exports.TabContent = exports.TabContainer = exports.Tab = exports.SplitButton = exports.SafeAnchor = exports.Row = exports.ResponsiveEmbed = exports.Radio = exports.ProgressBar = exports.Popover = exports.PanelGroup = exports.Panel = exports.Pagination = exports.Pager = exports.PageItem = exports.PageHeader = exports.OverlayTrigger = exports.Overlay = exports.NavItem = exports.NavDropdown = exports.NavbarBrand = exports.Navbar = exports.Nav = exports.ModalTitle = exports.ModalHeader = exports.ModalFooter = exports.ModalBody = exports.Modal = exports.MenuItem = exports.Media = exports.ListGroupItem = exports.ListGroup = exports.Label = exports.Jumbotron = exports.InputGroup = exports.Image = exports.HelpBlock = exports.Grid = exports.Glyphicon = exports.FormGroup = exports.FormControl = exports.Form = exports.Fade = exports.DropdownButton = exports.Dropdown = exports.Collapse = exports.Col = exports.ControlLabel = exports.Clearfix = exports.Checkbox = exports.CarouselItem = exports.Carousel = exports.ButtonToolbar = exports.ButtonGroup = exports.Button = exports.BreadcrumbItem = exports.Breadcrumb = exports.Badge = exports.Alert = exports.Accordion = undefined;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Accordion2 = __webpack_require__(448);
 
 var _Accordion3 = _interopRequireDefault(_Accordion2);
@@ -55529,6 +57694,21 @@ var _Badge2 = __webpack_require__(450);
 var _Badge3 = _interopRequireDefault(_Badge2);
 
 var _Breadcrumb2 = __webpack_require__(451);
+=======
+var _Accordion2 = __webpack_require__(449);
+
+var _Accordion3 = _interopRequireDefault(_Accordion2);
+
+var _Alert2 = __webpack_require__(450);
+
+var _Alert3 = _interopRequireDefault(_Alert2);
+
+var _Badge2 = __webpack_require__(451);
+
+var _Badge3 = _interopRequireDefault(_Badge2);
+
+var _Breadcrumb2 = __webpack_require__(452);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Breadcrumb3 = _interopRequireDefault(_Breadcrumb2);
 
@@ -55544,11 +57724,19 @@ var _ButtonGroup2 = __webpack_require__(213);
 
 var _ButtonGroup3 = _interopRequireDefault(_ButtonGroup2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ButtonToolbar2 = __webpack_require__(452);
 
 var _ButtonToolbar3 = _interopRequireDefault(_ButtonToolbar2);
 
 var _Carousel2 = __webpack_require__(453);
+=======
+var _ButtonToolbar2 = __webpack_require__(453);
+
+var _ButtonToolbar3 = _interopRequireDefault(_ButtonToolbar2);
+
+var _Carousel2 = __webpack_require__(454);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Carousel3 = _interopRequireDefault(_Carousel2);
 
@@ -55556,6 +57744,7 @@ var _CarouselItem2 = __webpack_require__(214);
 
 var _CarouselItem3 = _interopRequireDefault(_CarouselItem2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Checkbox2 = __webpack_require__(455);
 
 var _Checkbox3 = _interopRequireDefault(_Checkbox2);
@@ -55569,6 +57758,21 @@ var _ControlLabel2 = __webpack_require__(458);
 var _ControlLabel3 = _interopRequireDefault(_ControlLabel2);
 
 var _Col2 = __webpack_require__(457);
+=======
+var _Checkbox2 = __webpack_require__(456);
+
+var _Checkbox3 = _interopRequireDefault(_Checkbox2);
+
+var _Clearfix2 = __webpack_require__(457);
+
+var _Clearfix3 = _interopRequireDefault(_Clearfix2);
+
+var _ControlLabel2 = __webpack_require__(459);
+
+var _ControlLabel3 = _interopRequireDefault(_ControlLabel2);
+
+var _Col2 = __webpack_require__(458);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Col3 = _interopRequireDefault(_Col2);
 
@@ -55576,6 +57780,7 @@ var _Collapse2 = __webpack_require__(136);
 
 var _Collapse3 = _interopRequireDefault(_Collapse2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Dropdown2 = __webpack_require__(91);
 
 var _Dropdown3 = _interopRequireDefault(_Dropdown2);
@@ -55597,6 +57802,29 @@ var _FormControl2 = __webpack_require__(462);
 var _FormControl3 = _interopRequireDefault(_FormControl2);
 
 var _FormGroup2 = __webpack_require__(465);
+=======
+var _Dropdown2 = __webpack_require__(93);
+
+var _Dropdown3 = _interopRequireDefault(_Dropdown2);
+
+var _DropdownButton2 = __webpack_require__(460);
+
+var _DropdownButton3 = _interopRequireDefault(_DropdownButton2);
+
+var _Fade2 = __webpack_require__(94);
+
+var _Fade3 = _interopRequireDefault(_Fade2);
+
+var _Form2 = __webpack_require__(462);
+
+var _Form3 = _interopRequireDefault(_Form2);
+
+var _FormControl2 = __webpack_require__(463);
+
+var _FormControl3 = _interopRequireDefault(_FormControl2);
+
+var _FormGroup2 = __webpack_require__(466);
+>>>>>>> Incorporates video logic into text chat view
 
 var _FormGroup3 = _interopRequireDefault(_FormGroup2);
 
@@ -55608,6 +57836,7 @@ var _Grid2 = __webpack_require__(216);
 
 var _Grid3 = _interopRequireDefault(_Grid2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _HelpBlock2 = __webpack_require__(466);
 
 var _HelpBlock3 = _interopRequireDefault(_HelpBlock2);
@@ -55629,6 +57858,29 @@ var _Label2 = __webpack_require__(472);
 var _Label3 = _interopRequireDefault(_Label2);
 
 var _ListGroup2 = __webpack_require__(473);
+=======
+var _HelpBlock2 = __webpack_require__(467);
+
+var _HelpBlock3 = _interopRequireDefault(_HelpBlock2);
+
+var _Image2 = __webpack_require__(468);
+
+var _Image3 = _interopRequireDefault(_Image2);
+
+var _InputGroup2 = __webpack_require__(469);
+
+var _InputGroup3 = _interopRequireDefault(_InputGroup2);
+
+var _Jumbotron2 = __webpack_require__(472);
+
+var _Jumbotron3 = _interopRequireDefault(_Jumbotron2);
+
+var _Label2 = __webpack_require__(473);
+
+var _Label3 = _interopRequireDefault(_Label2);
+
+var _ListGroup2 = __webpack_require__(474);
+>>>>>>> Incorporates video logic into text chat view
 
 var _ListGroup3 = _interopRequireDefault(_ListGroup2);
 
@@ -55640,11 +57892,19 @@ var _Media2 = __webpack_require__(138);
 
 var _Media3 = _interopRequireDefault(_Media2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _MenuItem2 = __webpack_require__(480);
 
 var _MenuItem3 = _interopRequireDefault(_MenuItem2);
 
 var _Modal2 = __webpack_require__(481);
+=======
+var _MenuItem2 = __webpack_require__(481);
+
+var _MenuItem3 = _interopRequireDefault(_MenuItem2);
+
+var _Modal2 = __webpack_require__(482);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Modal3 = _interopRequireDefault(_Modal2);
 
@@ -55668,7 +57928,11 @@ var _Nav2 = __webpack_require__(222);
 
 var _Nav3 = _interopRequireDefault(_Nav2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Navbar2 = __webpack_require__(484);
+=======
+var _Navbar2 = __webpack_require__(485);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Navbar3 = _interopRequireDefault(_Navbar2);
 
@@ -55676,7 +57940,11 @@ var _NavbarBrand2 = __webpack_require__(224);
 
 var _NavbarBrand3 = _interopRequireDefault(_NavbarBrand2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _NavDropdown2 = __webpack_require__(483);
+=======
+var _NavDropdown2 = __webpack_require__(484);
+>>>>>>> Incorporates video logic into text chat view
 
 var _NavDropdown3 = _interopRequireDefault(_NavDropdown2);
 
@@ -55688,6 +57956,7 @@ var _Overlay2 = __webpack_require__(225);
 
 var _Overlay3 = _interopRequireDefault(_Overlay2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _OverlayTrigger2 = __webpack_require__(488);
 
 var _OverlayTrigger3 = _interopRequireDefault(_OverlayTrigger2);
@@ -55709,6 +57978,29 @@ var _Pagination2 = __webpack_require__(492);
 var _Pagination3 = _interopRequireDefault(_Pagination2);
 
 var _Panel2 = __webpack_require__(494);
+=======
+var _OverlayTrigger2 = __webpack_require__(489);
+
+var _OverlayTrigger3 = _interopRequireDefault(_OverlayTrigger2);
+
+var _PageHeader2 = __webpack_require__(490);
+
+var _PageHeader3 = _interopRequireDefault(_PageHeader2);
+
+var _PageItem2 = __webpack_require__(491);
+
+var _PageItem3 = _interopRequireDefault(_PageItem2);
+
+var _Pager2 = __webpack_require__(492);
+
+var _Pager3 = _interopRequireDefault(_Pager2);
+
+var _Pagination2 = __webpack_require__(493);
+
+var _Pagination3 = _interopRequireDefault(_Pagination2);
+
+var _Panel2 = __webpack_require__(495);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Panel3 = _interopRequireDefault(_Panel2);
 
@@ -55716,6 +58008,7 @@ var _PanelGroup2 = __webpack_require__(227);
 
 var _PanelGroup3 = _interopRequireDefault(_PanelGroup2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Popover2 = __webpack_require__(495);
 
 var _Popover3 = _interopRequireDefault(_Popover2);
@@ -55733,6 +58026,25 @@ var _ResponsiveEmbed2 = __webpack_require__(498);
 var _ResponsiveEmbed3 = _interopRequireDefault(_ResponsiveEmbed2);
 
 var _Row2 = __webpack_require__(499);
+=======
+var _Popover2 = __webpack_require__(496);
+
+var _Popover3 = _interopRequireDefault(_Popover2);
+
+var _ProgressBar2 = __webpack_require__(497);
+
+var _ProgressBar3 = _interopRequireDefault(_ProgressBar2);
+
+var _Radio2 = __webpack_require__(498);
+
+var _Radio3 = _interopRequireDefault(_Radio2);
+
+var _ResponsiveEmbed2 = __webpack_require__(499);
+
+var _ResponsiveEmbed3 = _interopRequireDefault(_ResponsiveEmbed2);
+
+var _Row2 = __webpack_require__(500);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Row3 = _interopRequireDefault(_Row2);
 
@@ -55740,11 +58052,19 @@ var _SafeAnchor2 = __webpack_require__(36);
 
 var _SafeAnchor3 = _interopRequireDefault(_SafeAnchor2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _SplitButton2 = __webpack_require__(500);
 
 var _SplitButton3 = _interopRequireDefault(_SplitButton2);
 
 var _Tab2 = __webpack_require__(502);
+=======
+var _SplitButton2 = __webpack_require__(501);
+
+var _SplitButton3 = _interopRequireDefault(_SplitButton2);
+
+var _Tab2 = __webpack_require__(503);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Tab3 = _interopRequireDefault(_Tab2);
 
@@ -55756,7 +58076,11 @@ var _TabContent2 = __webpack_require__(140);
 
 var _TabContent3 = _interopRequireDefault(_TabContent2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Table2 = __webpack_require__(503);
+=======
+var _Table2 = __webpack_require__(504);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Table3 = _interopRequireDefault(_Table2);
 
@@ -55764,6 +58088,7 @@ var _TabPane2 = __webpack_require__(228);
 
 var _TabPane3 = _interopRequireDefault(_TabPane2);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Tabs2 = __webpack_require__(504);
 
 var _Tabs3 = _interopRequireDefault(_Tabs2);
@@ -55781,6 +58106,25 @@ var _Well2 = __webpack_require__(507);
 var _Well3 = _interopRequireDefault(_Well2);
 
 var _utils2 = __webpack_require__(512);
+=======
+var _Tabs2 = __webpack_require__(505);
+
+var _Tabs3 = _interopRequireDefault(_Tabs2);
+
+var _Thumbnail2 = __webpack_require__(506);
+
+var _Thumbnail3 = _interopRequireDefault(_Thumbnail2);
+
+var _Tooltip2 = __webpack_require__(507);
+
+var _Tooltip3 = _interopRequireDefault(_Tooltip2);
+
+var _Well2 = __webpack_require__(508);
+
+var _Well3 = _interopRequireDefault(_Well2);
+
+var _utils2 = __webpack_require__(513);
+>>>>>>> Incorporates video logic into text chat view
 
 var _utils = _interopRequireWildcard(_utils2);
 
@@ -55866,7 +58210,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 509 */
+=======
+/* 510 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55958,7 +58306,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 510 */
+=======
+/* 511 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -56104,7 +58456,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 511 */
+=======
+/* 512 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56217,7 +58573,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 512 */
+=======
+/* 513 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56258,7 +58618,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 513 */
+=======
+/* 514 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56359,7 +58723,11 @@ function renderThumbVerticalDefault(_ref4) {
 }
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 514 */
+=======
+/* 515 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56379,7 +58747,11 @@ var _extends = Object.assign || function (target) {
     }return target;
 };
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _raf2 = __webpack_require__(447);
+=======
+var _raf2 = __webpack_require__(448);
+>>>>>>> Incorporates video logic into text chat view
 
 var _raf3 = _interopRequireDefault(_raf2);
 
@@ -56389,6 +58761,7 @@ var _domCss2 = _interopRequireDefault(_domCss);
 
 var _react = __webpack_require__(0);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _isString = __webpack_require__(519);
 
 var _isString2 = _interopRequireDefault(_isString);
@@ -56412,6 +58785,31 @@ var _getInnerHeight2 = _interopRequireDefault(_getInnerHeight);
 var _styles = __webpack_require__(515);
 
 var _defaultRenderElements = __webpack_require__(513);
+=======
+var _isString = __webpack_require__(520);
+
+var _isString2 = _interopRequireDefault(_isString);
+
+var _getScrollbarWidth = __webpack_require__(519);
+
+var _getScrollbarWidth2 = _interopRequireDefault(_getScrollbarWidth);
+
+var _returnFalse = __webpack_require__(521);
+
+var _returnFalse2 = _interopRequireDefault(_returnFalse);
+
+var _getInnerWidth = __webpack_require__(518);
+
+var _getInnerWidth2 = _interopRequireDefault(_getInnerWidth);
+
+var _getInnerHeight = __webpack_require__(517);
+
+var _getInnerHeight2 = _interopRequireDefault(_getInnerHeight);
+
+var _styles = __webpack_require__(516);
+
+var _defaultRenderElements = __webpack_require__(514);
+>>>>>>> Incorporates video logic into text chat view
 
 function _interopRequireDefault(obj) {
     return obj && obj.__esModule ? obj : { "default": obj };
@@ -57034,7 +59432,11 @@ exports["default"] = (0, _react.createClass)({
 });
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 515 */
+=======
+/* 516 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57111,7 +59513,11 @@ var disableSelectStyleReset = exports.disableSelectStyleReset = {
 };
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 516 */
+=======
+/* 517 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57133,7 +59539,11 @@ function getInnerHeight(el) {
 }
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 517 */
+=======
+/* 518 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57155,7 +59565,11 @@ function getInnerWidth(el) {
 }
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 518 */
+=======
+/* 519 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57199,7 +59613,11 @@ function getScrollbarWidth() {
 }
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 519 */
+=======
+/* 520 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57214,7 +59632,11 @@ function isString(maybe) {
 }
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 520 */
+=======
+/* 521 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57229,7 +59651,11 @@ function returnFalse() {
 }
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 521 */
+=======
+/* 522 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57320,7 +59746,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 522 */
+=======
+/* 523 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -57344,7 +59774,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 523 */
+=======
+/* 524 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57358,7 +59792,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _emojioneSprite = __webpack_require__(527);
+=======
+var _emojioneSprite = __webpack_require__(528);
+>>>>>>> Incorporates video logic into text chat view
 
 var _emojioneSprite2 = _interopRequireDefault(_emojioneSprite);
 
@@ -57415,7 +59853,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 524 */
+=======
+/* 525 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57425,11 +59867,19 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _emojiRenderer = __webpack_require__(523);
 
 var _emojiRenderer2 = _interopRequireDefault(_emojiRenderer);
 
 var _unicodeRenderer = __webpack_require__(525);
+=======
+var _emojiRenderer = __webpack_require__(524);
+
+var _emojiRenderer2 = _interopRequireDefault(_emojiRenderer);
+
+var _unicodeRenderer = __webpack_require__(526);
+>>>>>>> Incorporates video logic into text chat view
 
 var _unicodeRenderer2 = _interopRequireDefault(_unicodeRenderer);
 
@@ -57469,7 +59919,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 525 */
+=======
+/* 526 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -57501,7 +59955,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 526 */
+=======
+/* 527 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -58787,7 +61245,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 527 */
+=======
+/* 528 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58798,7 +61260,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.sprite = undefined;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _emojioneSpritePositions = __webpack_require__(526);
+=======
+var _emojioneSpritePositions = __webpack_require__(527);
+>>>>>>> Incorporates video logic into text chat view
 
 var _emojioneSpritePositions2 = _interopRequireDefault(_emojioneSpritePositions);
 
@@ -58853,7 +61319,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 528 */
+=======
+/* 529 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -58893,11 +61363,15 @@ var _Portal = __webpack_require__(230);
 
 var _Portal2 = _interopRequireDefault(_Portal);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ModalManager = __webpack_require__(529);
+=======
+var _ModalManager = __webpack_require__(530);
+>>>>>>> Incorporates video logic into text chat view
 
 var _ModalManager2 = _interopRequireDefault(_ModalManager);
 
-var _ownerDocument = __webpack_require__(75);
+var _ownerDocument = __webpack_require__(76);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -58905,7 +61379,11 @@ var _addEventListener = __webpack_require__(233);
 
 var _addEventListener2 = _interopRequireDefault(_addEventListener);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _addFocusListener = __webpack_require__(532);
+=======
+var _addFocusListener = __webpack_require__(533);
+>>>>>>> Incorporates video logic into text chat view
 
 var _addFocusListener2 = _interopRequireDefault(_addFocusListener);
 
@@ -59382,7 +61860,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 529 */
+=======
+/* 530 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59402,11 +61884,19 @@ var _createClass = function () {
   };
 }();
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _style = __webpack_require__(86);
 
 var _style2 = _interopRequireDefault(_style);
 
 var _class = __webpack_require__(394);
+=======
+var _style = __webpack_require__(88);
+
+var _style2 = _interopRequireDefault(_style);
+
+var _class = __webpack_require__(395);
+>>>>>>> Incorporates video logic into text chat view
 
 var _class2 = _interopRequireDefault(_class);
 
@@ -59418,7 +61908,11 @@ var _isOverflowing = __webpack_require__(234);
 
 var _isOverflowing2 = _interopRequireDefault(_isOverflowing);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _manageAriaHidden = __webpack_require__(535);
+=======
+var _manageAriaHidden = __webpack_require__(536);
+>>>>>>> Incorporates video logic into text chat view
 
 function _interopRequireDefault(obj) {
   return obj && obj.__esModule ? obj : { default: obj };
@@ -59596,7 +62090,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 530 */
+=======
+/* 531 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59636,7 +62134,11 @@ var _Portal = __webpack_require__(230);
 
 var _Portal2 = _interopRequireDefault(_Portal);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _Position = __webpack_require__(531);
+=======
+var _Position = __webpack_require__(532);
+>>>>>>> Incorporates video logic into text chat view
 
 var _Position2 = _interopRequireDefault(_Position);
 
@@ -59884,7 +62386,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 531 */
+=======
+/* 532 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -59932,7 +62438,11 @@ var _componentOrElement = __webpack_require__(143);
 
 var _componentOrElement2 = _interopRequireDefault(_componentOrElement);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _calculatePosition = __webpack_require__(533);
+=======
+var _calculatePosition = __webpack_require__(534);
+>>>>>>> Incorporates video logic into text chat view
 
 var _calculatePosition2 = _interopRequireDefault(_calculatePosition);
 
@@ -59940,7 +62450,7 @@ var _getContainer = __webpack_require__(142);
 
 var _getContainer2 = _interopRequireDefault(_getContainer);
 
-var _ownerDocument = __webpack_require__(75);
+var _ownerDocument = __webpack_require__(76);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -60176,7 +62686,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 532 */
+=======
+/* 533 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -60224,7 +62738,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 533 */
+=======
+/* 534 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60239,7 +62757,11 @@ var _offset = __webpack_require__(194);
 
 var _offset2 = _interopRequireDefault(_offset);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _position = __webpack_require__(399);
+=======
+var _position = __webpack_require__(400);
+>>>>>>> Incorporates video logic into text chat view
 
 var _position2 = _interopRequireDefault(_position);
 
@@ -60247,7 +62769,7 @@ var _scrollTop = __webpack_require__(195);
 
 var _scrollTop2 = _interopRequireDefault(_scrollTop);
 
-var _ownerDocument = __webpack_require__(75);
+var _ownerDocument = __webpack_require__(76);
 
 var _ownerDocument2 = _interopRequireDefault(_ownerDocument);
 
@@ -60387,7 +62909,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 534 */
+=======
+/* 535 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -60447,7 +62973,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 535 */
+=======
+/* 536 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -60523,7 +63053,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 536 */
+=======
+/* 537 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60651,7 +63185,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 537 */
+=======
+/* 538 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -60678,11 +63216,19 @@ var _storeShape = __webpack_require__(235);
 
 var _storeShape2 = _interopRequireDefault(_storeShape);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _shallowEqual = __webpack_require__(538);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
 var _wrapActionCreators = __webpack_require__(539);
+=======
+var _shallowEqual = __webpack_require__(539);
+
+var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
+
+var _wrapActionCreators = __webpack_require__(540);
+>>>>>>> Incorporates video logic into text chat view
 
 var _wrapActionCreators2 = _interopRequireDefault(_wrapActionCreators);
 
@@ -60690,7 +63236,11 @@ var _warning = __webpack_require__(236);
 
 var _warning2 = _interopRequireDefault(_warning);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _isPlainObject = __webpack_require__(543);
+=======
+var _isPlainObject = __webpack_require__(544);
+>>>>>>> Incorporates video logic into text chat view
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
@@ -60698,7 +63248,7 @@ var _hoistNonReactStatics = __webpack_require__(208);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -61124,7 +63674,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 538 */
+=======
+/* 539 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -61167,7 +63721,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 539 */
+=======
+/* 540 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61196,13 +63754,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 540 */
+=======
+/* 541 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var overArg = __webpack_require__(541);
+=======
+var overArg = __webpack_require__(542);
+>>>>>>> Incorporates video logic into text chat view
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -61221,7 +63787,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 541 */
+=======
+/* 542 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -61255,7 +63825,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 542 */
+=======
+/* 543 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -61305,14 +63879,23 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 543 */
+=======
+/* 544 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var getPrototype = __webpack_require__(540),
     isObjectLike = __webpack_require__(542);
+=======
+var getPrototype = __webpack_require__(541),
+    isObjectLike = __webpack_require__(543);
+>>>>>>> Incorporates video logic into text chat view
 
 /** `Object#toString` result references. */
 var objectTag = '[object Object]';
@@ -61405,7 +63988,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 544 */
+=======
+/* 545 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61458,7 +64045,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 545 */
+=======
+/* 546 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61521,7 +64112,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 546 */
+=======
+/* 547 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61537,7 +64132,7 @@ var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -61619,7 +64214,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 547 */
+=======
+/* 548 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61635,7 +64234,7 @@ var _routerWarning = __webpack_require__(21);
 
 var _routerWarning2 = _interopRequireDefault(_routerWarning);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -61708,7 +64307,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 548 */
+=======
+/* 549 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61724,7 +64327,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -61806,7 +64409,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 549 */
+=======
+/* 550 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61818,7 +64425,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -61894,7 +64501,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 550 */
+=======
+/* 551 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61967,7 +64578,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 551 */
+=======
+/* 552 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -61989,11 +64604,15 @@ var _createHashHistory = __webpack_require__(205);
 
 var _createHashHistory2 = _interopRequireDefault(_createHashHistory);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _useQueries = __webpack_require__(90);
+=======
+var _useQueries = __webpack_require__(92);
+>>>>>>> Incorporates video logic into text chat view
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -62248,7 +64867,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 552 */
+=======
+/* 553 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62306,7 +64929,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 553 */
+=======
+/* 554 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62464,7 +65091,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 554 */
+=======
+/* 555 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62557,7 +65188,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 555 */
+=======
+/* 556 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62565,7 +65200,11 @@ var _temp = function () {
 
 exports.__esModule = true;
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _createBrowserHistory = __webpack_require__(435);
+=======
+var _createBrowserHistory = __webpack_require__(436);
+>>>>>>> Incorporates video logic into text chat view
 
 var _createBrowserHistory2 = _interopRequireDefault(_createBrowserHistory);
 
@@ -62596,7 +65235,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 556 */
+=======
+/* 557 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62692,7 +65335,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 557 */
+=======
+/* 558 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62763,7 +65410,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 558 */
+=======
+/* 559 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62806,7 +65457,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 559 */
+=======
+/* 560 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -62845,7 +65500,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 560 */
+=======
+/* 561 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63030,7 +65689,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 561 */
+=======
+/* 562 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63050,7 +65713,7 @@ var _extends = Object.assign || function (target) {
 
 var _Actions = __webpack_require__(63);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -63157,7 +65820,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 562 */
+=======
+/* 563 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63462,7 +66129,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 563 */
+=======
+/* 564 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63480,7 +66151,11 @@ var _extends = Object.assign || function (target) {
   }return target;
 };
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _useQueries = __webpack_require__(90);
+=======
+var _useQueries = __webpack_require__(92);
+>>>>>>> Incorporates video logic into text chat view
 
 var _useQueries2 = _interopRequireDefault(_useQueries);
 
@@ -63557,7 +66232,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 564 */
+=======
+/* 565 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63577,7 +66256,7 @@ var _extends = Object.assign || function (target) {
 
 exports.default = withRouter;
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -63661,7 +66340,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 565 */
+=======
+/* 566 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63678,7 +66361,7 @@ var _temp = function () {
 
 'use strict';
 
-var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMComponentTree = __webpack_require__(18);
 
 var focusNode = __webpack_require__(201);
 
@@ -63702,7 +66385,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 566 */
+=======
+/* 567 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -63722,11 +66409,19 @@ var _temp = function () {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; };
 
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPropagators = __webpack_require__(77);
 var ExecutionEnvironment = __webpack_require__(20);
 var FallbackCompositionState = __webpack_require__(572);
 var SyntheticCompositionEvent = __webpack_require__(616);
 var SyntheticInputEvent = __webpack_require__(619);
+=======
+var EventPropagators = __webpack_require__(78);
+var ExecutionEnvironment = __webpack_require__(20);
+var FallbackCompositionState = __webpack_require__(573);
+var SyntheticCompositionEvent = __webpack_require__(617);
+var SyntheticInputEvent = __webpack_require__(620);
+>>>>>>> Incorporates video logic into text chat view
 
 var keyOf = __webpack_require__(45);
 
@@ -64155,7 +66850,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 567 */
+=======
+/* 568 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64176,10 +66875,17 @@ var CSSProperty = __webpack_require__(244);
 var ExecutionEnvironment = __webpack_require__(20);
 var ReactInstrumentation = __webpack_require__(28);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var camelizeStyleName = __webpack_require__(418);
 var dangerousStyleValue = __webpack_require__(625);
 var hyphenateStyleName = __webpack_require__(425);
 var memoizeStringOnly = __webpack_require__(428);
+=======
+var camelizeStyleName = __webpack_require__(419);
+var dangerousStyleValue = __webpack_require__(626);
+var hyphenateStyleName = __webpack_require__(426);
+var memoizeStringOnly = __webpack_require__(429);
+>>>>>>> Incorporates video logic into text chat view
 var warning = __webpack_require__(10);
 
 var processStyleName = memoizeStringOnly(function (styleName) {
@@ -64408,7 +67114,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 568 */
+=======
+/* 569 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64426,10 +67136,17 @@ var _temp = function () {
 'use strict';
 
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPluginHub = __webpack_require__(76);
 var EventPropagators = __webpack_require__(77);
 var ExecutionEnvironment = __webpack_require__(20);
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var EventPluginHub = __webpack_require__(77);
+var EventPropagators = __webpack_require__(78);
+var ExecutionEnvironment = __webpack_require__(20);
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 var ReactUpdates = __webpack_require__(37);
 var SyntheticEvent = __webpack_require__(41);
 
@@ -64798,7 +67515,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 569 */
+=======
+/* 570 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64820,7 +67541,11 @@ var _prodInvariant = __webpack_require__(11);
 var DOMLazyTree = __webpack_require__(65);
 var ExecutionEnvironment = __webpack_require__(20);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var createNodesFromMarkup = __webpack_require__(421);
+=======
+var createNodesFromMarkup = __webpack_require__(422);
+>>>>>>> Incorporates video logic into text chat view
 var emptyFunction = __webpack_require__(30);
 var invariant = __webpack_require__(9);
 
@@ -64864,7 +67589,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 570 */
+=======
+/* 571 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64908,7 +67637,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 571 */
+=======
+/* 572 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -64926,9 +67659,15 @@ var _temp = function () {
 'use strict';
 
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPropagators = __webpack_require__(77);
 var ReactDOMComponentTree = __webpack_require__(17);
 var SyntheticMouseEvent = __webpack_require__(104);
+=======
+var EventPropagators = __webpack_require__(78);
+var ReactDOMComponentTree = __webpack_require__(18);
+var SyntheticMouseEvent = __webpack_require__(105);
+>>>>>>> Incorporates video logic into text chat view
 
 var keyOf = __webpack_require__(45);
 
@@ -65034,7 +67773,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 572 */
+=======
+/* 573 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65146,7 +67889,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 573 */
+=======
+/* 574 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65385,7 +68132,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 574 */
+=======
+/* 575 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65406,14 +68157,24 @@ var _assign = __webpack_require__(14);
 
 var ReactChildren = __webpack_require__(247);
 var ReactComponent = __webpack_require__(152);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactPureComponent = __webpack_require__(606);
 var ReactClass = __webpack_require__(248);
 var ReactDOMFactories = __webpack_require__(584);
+=======
+var ReactPureComponent = __webpack_require__(607);
+var ReactClass = __webpack_require__(248);
+var ReactDOMFactories = __webpack_require__(585);
+>>>>>>> Incorporates video logic into text chat view
 var ReactElement = __webpack_require__(32);
 var ReactPropTypes = __webpack_require__(259);
 var ReactVersion = __webpack_require__(260);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var onlyChild = __webpack_require__(631);
+=======
+var onlyChild = __webpack_require__(632);
+>>>>>>> Incorporates video logic into text chat view
 var warning = __webpack_require__(10);
 
 var createElement = ReactElement.createElement;
@@ -65502,7 +68263,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 575 */
+=======
+/* 576 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65678,7 +68443,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 576 */
+=======
+/* 577 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65752,7 +68521,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 577 */
+=======
+/* 578 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65770,7 +68543,11 @@ var _temp = function () {
 'use strict';
 
 var DOMChildrenOperations = __webpack_require__(147);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactDOMIDOperations = __webpack_require__(586);
+=======
+var ReactDOMIDOperations = __webpack_require__(587);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Abstracts away all functionality of the reconciler that requires knowledge of
@@ -65799,7 +68576,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 578 */
+=======
+/* 579 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -65825,10 +68606,17 @@ var ReactComponentEnvironment = __webpack_require__(153);
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactElement = __webpack_require__(32);
 var ReactErrorUtils = __webpack_require__(154);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactInstanceMap = __webpack_require__(78);
 var ReactInstrumentation = __webpack_require__(28);
 var ReactNodeTypes = __webpack_require__(258);
 var ReactPropTypeLocations = __webpack_require__(103);
+=======
+var ReactInstanceMap = __webpack_require__(79);
+var ReactInstrumentation = __webpack_require__(28);
+var ReactNodeTypes = __webpack_require__(258);
+var ReactPropTypeLocations = __webpack_require__(104);
+>>>>>>> Incorporates video logic into text chat view
 var ReactReconciler = __webpack_require__(66);
 
 var checkReactTypeSpec = __webpack_require__(263);
@@ -66739,7 +69527,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 579 */
+=======
+/* 580 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66758,16 +69550,27 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactDOMComponentTree = __webpack_require__(17);
 var ReactDefaultInjection = __webpack_require__(597);
+=======
+var ReactDOMComponentTree = __webpack_require__(18);
+var ReactDefaultInjection = __webpack_require__(598);
+>>>>>>> Incorporates video logic into text chat view
 var ReactMount = __webpack_require__(256);
 var ReactReconciler = __webpack_require__(66);
 var ReactUpdates = __webpack_require__(37);
 var ReactVersion = __webpack_require__(260);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var findDOMNode = __webpack_require__(626);
 var getHostComponentFromComposite = __webpack_require__(265);
 var renderSubtreeIntoContainer = __webpack_require__(633);
+=======
+var findDOMNode = __webpack_require__(627);
+var getHostComponentFromComposite = __webpack_require__(265);
+var renderSubtreeIntoContainer = __webpack_require__(634);
+>>>>>>> Incorporates video logic into text chat view
 var warning = __webpack_require__(10);
 
 ReactDefaultInjection.inject();
@@ -66845,8 +69648,13 @@ if (process.env.NODE_ENV !== 'production') {
 
 if (process.env.NODE_ENV !== 'production') {
   var ReactInstrumentation = __webpack_require__(28);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
   var ReactDOMUnknownPropertyHook = __webpack_require__(594);
   var ReactDOMNullInputValuePropHook = __webpack_require__(588);
+=======
+  var ReactDOMUnknownPropertyHook = __webpack_require__(595);
+  var ReactDOMNullInputValuePropHook = __webpack_require__(589);
+>>>>>>> Incorporates video logic into text chat view
 
   ReactInstrumentation.debugTool.addHook(ReactDOMUnknownPropertyHook);
   ReactInstrumentation.debugTool.addHook(ReactDOMNullInputValuePropHook);
@@ -66877,7 +69685,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 580 */
+=======
+/* 581 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66918,7 +69730,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 581 */
+=======
+/* 582 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -66942,13 +69758,19 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(14);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var AutoFocusUtils = __webpack_require__(565);
 var CSSPropertyOperations = __webpack_require__(567);
+=======
+var AutoFocusUtils = __webpack_require__(566);
+var CSSPropertyOperations = __webpack_require__(568);
+>>>>>>> Incorporates video logic into text chat view
 var DOMLazyTree = __webpack_require__(65);
 var DOMNamespaces = __webpack_require__(148);
 var DOMProperty = __webpack_require__(54);
 var DOMPropertyOperations = __webpack_require__(246);
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPluginHub = __webpack_require__(76);
 var EventPluginRegistry = __webpack_require__(101);
 var ReactBrowserEventEmitter = __webpack_require__(102);
@@ -66962,6 +69784,21 @@ var ReactDOMTextarea = __webpack_require__(592);
 var ReactInstrumentation = __webpack_require__(28);
 var ReactMultiChild = __webpack_require__(604);
 var ReactServerRenderingTransaction = __webpack_require__(609);
+=======
+var EventPluginHub = __webpack_require__(77);
+var EventPluginRegistry = __webpack_require__(102);
+var ReactBrowserEventEmitter = __webpack_require__(103);
+var ReactDOMButton = __webpack_require__(581);
+var ReactDOMComponentFlags = __webpack_require__(249);
+var ReactDOMComponentTree = __webpack_require__(18);
+var ReactDOMInput = __webpack_require__(588);
+var ReactDOMOption = __webpack_require__(590);
+var ReactDOMSelect = __webpack_require__(250);
+var ReactDOMTextarea = __webpack_require__(593);
+var ReactInstrumentation = __webpack_require__(28);
+var ReactMultiChild = __webpack_require__(605);
+var ReactServerRenderingTransaction = __webpack_require__(610);
+>>>>>>> Incorporates video logic into text chat view
 
 var emptyFunction = __webpack_require__(30);
 var escapeTextContentForBrowser = __webpack_require__(105);
@@ -68010,7 +70847,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 582 */
+=======
+/* 583 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68063,7 +70904,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 583 */
+=======
+/* 584 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68083,7 +70928,7 @@ var _temp = function () {
 var _assign = __webpack_require__(14);
 
 var DOMLazyTree = __webpack_require__(65);
-var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMComponentTree = __webpack_require__(18);
 
 var ReactDOMEmptyComponent = function ReactDOMEmptyComponent(instantiate) {
   // ReactCompositeComponent uses this:
@@ -68140,7 +70985,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 584 */
+=======
+/* 585 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68330,7 +71179,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 585 */
+=======
+/* 586 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -68365,7 +71218,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 586 */
+=======
+/* 587 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68383,7 +71240,11 @@ var _temp = function () {
 'use strict';
 
 var DOMChildrenOperations = __webpack_require__(147);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Operations used to process updates to DOM nodes.
@@ -68416,7 +71277,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 587 */
+=======
+/* 588 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68436,10 +71301,17 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(14);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var DisabledInputUtils = __webpack_require__(100);
 var DOMPropertyOperations = __webpack_require__(246);
 var LinkedValueUtils = __webpack_require__(151);
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var DisabledInputUtils = __webpack_require__(101);
+var DOMPropertyOperations = __webpack_require__(246);
+var LinkedValueUtils = __webpack_require__(151);
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 var ReactUpdates = __webpack_require__(37);
 
 var invariant = __webpack_require__(9);
@@ -68721,7 +71593,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 588 */
+=======
+/* 589 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68786,7 +71662,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 589 */
+=======
+/* 590 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68806,7 +71686,11 @@ var _temp = function () {
 var _assign = __webpack_require__(14);
 
 var ReactChildren = __webpack_require__(247);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 var ReactDOMSelect = __webpack_require__(250);
 
 var warning = __webpack_require__(10);
@@ -68931,7 +71815,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 590 */
+=======
+/* 591 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -68950,7 +71838,11 @@ var _temp = function () {
 
 var ExecutionEnvironment = __webpack_require__(20);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var getNodeForCharacterOffset = __webpack_require__(629);
+=======
+var getNodeForCharacterOffset = __webpack_require__(630);
+>>>>>>> Incorporates video logic into text chat view
 var getTextContentAccessor = __webpack_require__(266);
 
 /**
@@ -69172,7 +72064,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 591 */
+=======
+/* 592 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69194,7 +72090,7 @@ var _prodInvariant = __webpack_require__(11),
 
 var DOMChildrenOperations = __webpack_require__(147);
 var DOMLazyTree = __webpack_require__(65);
-var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMComponentTree = __webpack_require__(18);
 
 var escapeTextContentForBrowser = __webpack_require__(105);
 var invariant = __webpack_require__(9);
@@ -69354,7 +72250,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 592 */
+=======
+/* 593 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69374,9 +72274,15 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(11),
     _assign = __webpack_require__(14);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var DisabledInputUtils = __webpack_require__(100);
 var LinkedValueUtils = __webpack_require__(151);
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var DisabledInputUtils = __webpack_require__(101);
+var LinkedValueUtils = __webpack_require__(151);
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 var ReactUpdates = __webpack_require__(37);
 
 var invariant = __webpack_require__(9);
@@ -69535,7 +72441,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 593 */
+=======
+/* 594 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69697,7 +72607,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 594 */
+=======
+/* 595 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69837,7 +72751,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 595 */
+=======
+/* 596 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -69854,6 +72772,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactInvalidSetStateWarningHook = __webpack_require__(602);
 var ReactHostOperationHistoryHook = __webpack_require__(600);
 var ReactComponentTreeHook = __webpack_require__(31);
@@ -69861,6 +72780,15 @@ var ReactChildrenMutationWarningHook = __webpack_require__(576);
 var ExecutionEnvironment = __webpack_require__(20);
 
 var performanceNow = __webpack_require__(430);
+=======
+var ReactInvalidSetStateWarningHook = __webpack_require__(603);
+var ReactHostOperationHistoryHook = __webpack_require__(601);
+var ReactComponentTreeHook = __webpack_require__(31);
+var ReactChildrenMutationWarningHook = __webpack_require__(577);
+var ExecutionEnvironment = __webpack_require__(20);
+
+var performanceNow = __webpack_require__(431);
+>>>>>>> Incorporates video logic into text chat view
 var warning = __webpack_require__(10);
 
 var hooks = [];
@@ -70204,7 +73132,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 596 */
+=======
+/* 597 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70224,7 +73156,7 @@ var _temp = function () {
 var _assign = __webpack_require__(14);
 
 var ReactUpdates = __webpack_require__(37);
-var Transaction = __webpack_require__(80);
+var Transaction = __webpack_require__(81);
 
 var emptyFunction = __webpack_require__(30);
 
@@ -70299,7 +73231,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 597 */
+=======
+/* 598 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70316,6 +73252,7 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var BeforeInputEventPlugin = __webpack_require__(566);
 var ChangeEventPlugin = __webpack_require__(568);
 var DefaultEventPluginOrder = __webpack_require__(570);
@@ -70334,6 +73271,26 @@ var ReactReconcileTransaction = __webpack_require__(607);
 var SVGDOMPropertyConfig = __webpack_require__(611);
 var SelectEventPlugin = __webpack_require__(612);
 var SimpleEventPlugin = __webpack_require__(613);
+=======
+var BeforeInputEventPlugin = __webpack_require__(567);
+var ChangeEventPlugin = __webpack_require__(569);
+var DefaultEventPluginOrder = __webpack_require__(571);
+var EnterLeaveEventPlugin = __webpack_require__(572);
+var HTMLDOMPropertyConfig = __webpack_require__(574);
+var ReactComponentBrowserEnvironment = __webpack_require__(578);
+var ReactDOMComponent = __webpack_require__(582);
+var ReactDOMComponentTree = __webpack_require__(18);
+var ReactDOMEmptyComponent = __webpack_require__(584);
+var ReactDOMTreeTraversal = __webpack_require__(594);
+var ReactDOMTextComponent = __webpack_require__(592);
+var ReactDefaultBatchingStrategy = __webpack_require__(597);
+var ReactEventListener = __webpack_require__(600);
+var ReactInjection = __webpack_require__(602);
+var ReactReconcileTransaction = __webpack_require__(608);
+var SVGDOMPropertyConfig = __webpack_require__(612);
+var SelectEventPlugin = __webpack_require__(613);
+var SimpleEventPlugin = __webpack_require__(614);
+>>>>>>> Incorporates video logic into text chat view
 
 var alreadyInjected = false;
 
@@ -70402,7 +73359,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 598 */
+=======
+/* 599 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70419,7 +73380,7 @@ var _temp = function () {
 
 'use strict';
 
-var EventPluginHub = __webpack_require__(76);
+var EventPluginHub = __webpack_require__(77);
 
 function runEventQueueInBatch(events) {
   EventPluginHub.enqueueEvents(events);
@@ -70454,7 +73415,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 599 */
+=======
+/* 600 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70476,11 +73441,15 @@ var _assign = __webpack_require__(14);
 var EventListener = __webpack_require__(200);
 var ExecutionEnvironment = __webpack_require__(20);
 var PooledClass = __webpack_require__(47);
-var ReactDOMComponentTree = __webpack_require__(17);
+var ReactDOMComponentTree = __webpack_require__(18);
 var ReactUpdates = __webpack_require__(37);
 
 var getEventTarget = __webpack_require__(163);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var getUnboundedScrollPosition = __webpack_require__(423);
+=======
+var getUnboundedScrollPosition = __webpack_require__(424);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Find the deepest React component completely containing the root of the
@@ -70636,7 +73605,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 600 */
+=======
+/* 601 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -70692,7 +73665,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 601 */
+=======
+/* 602 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70710,12 +73687,20 @@ var _temp = function () {
 'use strict';
 
 var DOMProperty = __webpack_require__(54);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPluginHub = __webpack_require__(76);
+=======
+var EventPluginHub = __webpack_require__(77);
+>>>>>>> Incorporates video logic into text chat view
 var EventPluginUtils = __webpack_require__(149);
 var ReactComponentEnvironment = __webpack_require__(153);
 var ReactClass = __webpack_require__(248);
 var ReactEmptyComponent = __webpack_require__(252);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactBrowserEventEmitter = __webpack_require__(102);
+=======
+var ReactBrowserEventEmitter = __webpack_require__(103);
+>>>>>>> Incorporates video logic into text chat view
 var ReactHostComponent = __webpack_require__(254);
 var ReactUpdates = __webpack_require__(37);
 
@@ -70745,7 +73730,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 602 */
+=======
+/* 603 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70803,7 +73792,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 603 */
+=======
+/* 604 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70820,7 +73813,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var adler32 = __webpack_require__(624);
+=======
+var adler32 = __webpack_require__(625);
+>>>>>>> Incorporates video logic into text chat view
 
 var TAG_END = /\/?>/;
 var COMMENT_START = /^<\!\-\-/;
@@ -70874,7 +73871,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 604 */
+=======
+/* 605 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -70894,16 +73895,27 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(11);
 
 var ReactComponentEnvironment = __webpack_require__(153);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactInstanceMap = __webpack_require__(78);
+=======
+var ReactInstanceMap = __webpack_require__(79);
+>>>>>>> Incorporates video logic into text chat view
 var ReactInstrumentation = __webpack_require__(28);
 var ReactMultiChildUpdateTypes = __webpack_require__(257);
 
 var ReactCurrentOwner = __webpack_require__(40);
 var ReactReconciler = __webpack_require__(66);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactChildReconciler = __webpack_require__(575);
 
 var emptyFunction = __webpack_require__(30);
 var flattenChildren = __webpack_require__(627);
+=======
+var ReactChildReconciler = __webpack_require__(576);
+
+var emptyFunction = __webpack_require__(30);
+var flattenChildren = __webpack_require__(628);
+>>>>>>> Incorporates video logic into text chat view
 var invariant = __webpack_require__(9);
 
 /**
@@ -71361,7 +74373,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 605 */
+=======
+/* 606 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71473,7 +74489,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 606 */
+=======
+/* 607 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71534,7 +74554,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 607 */
+=======
+/* 608 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71555,10 +74579,17 @@ var _assign = __webpack_require__(14);
 
 var CallbackQueue = __webpack_require__(245);
 var PooledClass = __webpack_require__(47);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactBrowserEventEmitter = __webpack_require__(102);
 var ReactInputSelection = __webpack_require__(255);
 var ReactInstrumentation = __webpack_require__(28);
 var Transaction = __webpack_require__(80);
+=======
+var ReactBrowserEventEmitter = __webpack_require__(103);
+var ReactInputSelection = __webpack_require__(255);
+var ReactInstrumentation = __webpack_require__(28);
+var Transaction = __webpack_require__(81);
+>>>>>>> Incorporates video logic into text chat view
 var ReactUpdateQueue = __webpack_require__(158);
 
 /**
@@ -71740,7 +74771,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 608 */
+=======
+/* 609 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71757,7 +74792,11 @@ var _temp = function () {
 
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactOwner = __webpack_require__(605);
+=======
+var ReactOwner = __webpack_require__(606);
+>>>>>>> Incorporates video logic into text chat view
 
 var ReactRef = {};
 
@@ -71841,7 +74880,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 609 */
+=======
+/* 610 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71861,9 +74904,13 @@ var _temp = function () {
 var _assign = __webpack_require__(14);
 
 var PooledClass = __webpack_require__(47);
-var Transaction = __webpack_require__(80);
+var Transaction = __webpack_require__(81);
 var ReactInstrumentation = __webpack_require__(28);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var ReactServerUpdateQueue = __webpack_require__(610);
+=======
+var ReactServerUpdateQueue = __webpack_require__(611);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Executed within the scope of the `Transaction` instance. Consider these as
@@ -71955,7 +75002,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 610 */
+=======
+/* 611 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -71980,7 +75031,11 @@ function _classCallCheck(instance, Constructor) {
 }
 
 var ReactUpdateQueue = __webpack_require__(158);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var Transaction = __webpack_require__(80);
+=======
+var Transaction = __webpack_require__(81);
+>>>>>>> Incorporates video logic into text chat view
 var warning = __webpack_require__(10);
 
 function warnNoop(publicInstance, callerName) {
@@ -72117,7 +75172,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 611 */
+=======
+/* 612 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -72440,7 +75499,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 612 */
+=======
+/* 613 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72458,9 +75521,15 @@ var _temp = function () {
 'use strict';
 
 var EventConstants = __webpack_require__(39);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPropagators = __webpack_require__(77);
 var ExecutionEnvironment = __webpack_require__(20);
 var ReactDOMComponentTree = __webpack_require__(17);
+=======
+var EventPropagators = __webpack_require__(78);
+var ExecutionEnvironment = __webpack_require__(20);
+var ReactDOMComponentTree = __webpack_require__(18);
+>>>>>>> Incorporates video logic into text chat view
 var ReactInputSelection = __webpack_require__(255);
 var SyntheticEvent = __webpack_require__(41);
 
@@ -72675,7 +75744,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 613 */
+=======
+/* 614 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -72696,6 +75769,7 @@ var _prodInvariant = __webpack_require__(11);
 
 var EventConstants = __webpack_require__(39);
 var EventListener = __webpack_require__(200);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var EventPropagators = __webpack_require__(77);
 var ReactDOMComponentTree = __webpack_require__(17);
 var SyntheticAnimationEvent = __webpack_require__(614);
@@ -72709,6 +75783,21 @@ var SyntheticTouchEvent = __webpack_require__(621);
 var SyntheticTransitionEvent = __webpack_require__(622);
 var SyntheticUIEvent = __webpack_require__(79);
 var SyntheticWheelEvent = __webpack_require__(623);
+=======
+var EventPropagators = __webpack_require__(78);
+var ReactDOMComponentTree = __webpack_require__(18);
+var SyntheticAnimationEvent = __webpack_require__(615);
+var SyntheticClipboardEvent = __webpack_require__(616);
+var SyntheticEvent = __webpack_require__(41);
+var SyntheticFocusEvent = __webpack_require__(619);
+var SyntheticKeyboardEvent = __webpack_require__(621);
+var SyntheticMouseEvent = __webpack_require__(105);
+var SyntheticDragEvent = __webpack_require__(618);
+var SyntheticTouchEvent = __webpack_require__(622);
+var SyntheticTransitionEvent = __webpack_require__(623);
+var SyntheticUIEvent = __webpack_require__(80);
+var SyntheticWheelEvent = __webpack_require__(624);
+>>>>>>> Incorporates video logic into text chat view
 
 var emptyFunction = __webpack_require__(30);
 var getEventCharCode = __webpack_require__(161);
@@ -73342,7 +76431,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 614 */
+=======
+/* 615 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73400,7 +76493,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 615 */
+=======
+/* 616 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73457,7 +76554,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 616 */
+=======
+/* 617 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73512,7 +76613,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 617 */
+=======
+/* 618 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73567,7 +76672,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 618 */
+=======
+/* 619 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73584,7 +76693,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticUIEvent = __webpack_require__(79);
+var SyntheticUIEvent = __webpack_require__(80);
 
 /**
  * @interface FocusEvent
@@ -73622,7 +76731,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 619 */
+=======
+/* 620 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73678,7 +76791,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 620 */
+=======
+/* 621 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73695,10 +76812,14 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticUIEvent = __webpack_require__(79);
+var SyntheticUIEvent = __webpack_require__(80);
 
 var getEventCharCode = __webpack_require__(161);
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var getEventKey = __webpack_require__(628);
+=======
+var getEventKey = __webpack_require__(629);
+>>>>>>> Incorporates video logic into text chat view
 var getEventModifierState = __webpack_require__(162);
 
 /**
@@ -73781,7 +76902,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 621 */
+=======
+/* 622 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73798,7 +76923,7 @@ var _temp = function () {
 
 'use strict';
 
-var SyntheticUIEvent = __webpack_require__(79);
+var SyntheticUIEvent = __webpack_require__(80);
 
 var getEventModifierState = __webpack_require__(162);
 
@@ -73845,7 +76970,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 622 */
+=======
+/* 623 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73903,7 +77032,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 623 */
+=======
+/* 624 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -73976,7 +77109,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 624 */
+=======
+/* 625 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -74039,7 +77176,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 625 */
+=======
+/* 626 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74140,7 +77281,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 626 */
+=======
+/* 627 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74160,8 +77305,8 @@ var _temp = function () {
 var _prodInvariant = __webpack_require__(11);
 
 var ReactCurrentOwner = __webpack_require__(40);
-var ReactDOMComponentTree = __webpack_require__(17);
-var ReactInstanceMap = __webpack_require__(78);
+var ReactDOMComponentTree = __webpack_require__(18);
+var ReactInstanceMap = __webpack_require__(79);
 
 var getHostComponentFromComposite = __webpack_require__(265);
 var invariant = __webpack_require__(9);
@@ -74218,7 +77363,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 627 */
+=======
+/* 628 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74318,7 +77467,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 628 */
+=======
+/* 629 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74441,7 +77594,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 629 */
+=======
+/* 630 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -74536,7 +77693,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 630 */
+=======
+/* 631 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74662,7 +77823,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 631 */
+=======
+/* 632 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74718,7 +77883,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 632 */
+=======
+/* 633 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74761,7 +77930,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 633 */
+=======
+/* 634 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74792,7 +77965,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 634 */
+=======
+/* 635 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -74878,7 +78055,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 635 */
+=======
+/* 636 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -74953,7 +78134,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 636 */
+=======
+/* 637 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75121,7 +78306,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 637 */
+=======
+/* 638 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75217,7 +78406,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 638 */
+=======
+/* 639 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75379,7 +78572,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 639 */
+=======
+/* 640 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -75401,13 +78598,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 640 */
+=======
+/* 641 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 module.exports = __webpack_require__(641);
+=======
+module.exports = __webpack_require__(642);
+>>>>>>> Incorporates video logic into text chat view
 ;
 
 var _temp = function () {
@@ -75419,7 +78624,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 641 */
+=======
+/* 642 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75429,7 +78638,11 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _ponyfill = __webpack_require__(642);
+=======
+var _ponyfill = __webpack_require__(643);
+>>>>>>> Incorporates video logic into text chat view
 
 var _ponyfill2 = _interopRequireDefault(_ponyfill);
 
@@ -75467,7 +78680,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 642 */
+=======
+/* 643 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -75507,7 +78724,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 643 */
+=======
+/* 644 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -75539,13 +78760,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 644 */
+=======
+/* 645 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var space = __webpack_require__(646);
+=======
+var space = __webpack_require__(647);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Export.
@@ -75578,7 +78807,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 645 */
+=======
+/* 646 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 "use strict";
@@ -75677,13 +78910,21 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 646 */
+=======
+/* 647 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
 'use strict';
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var clean = __webpack_require__(645);
+=======
+var clean = __webpack_require__(646);
+>>>>>>> Incorporates video logic into text chat view
 
 /**
  * Export.
@@ -75716,7 +78957,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 647 */
+=======
+/* 648 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75740,11 +78985,15 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 var _utils = __webpack_require__(648);
+=======
+var _utils = __webpack_require__(649);
+>>>>>>> Incorporates video logic into text chat view
 
 var utils = _interopRequireWildcard(_utils);
 
@@ -75928,7 +79177,11 @@ var _temp = function () {
 ;
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 648 */
+=======
+/* 649 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -75951,7 +79204,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _invariant = __webpack_require__(18);
+var _invariant = __webpack_require__(19);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
@@ -76094,7 +79347,11 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 649 */
+=======
+/* 650 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -76321,7 +79578,11 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 	// Some AMD build optimizers, like r.js, check for specific condition patterns
 	// like the following:
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 	if ("function" == 'function' && _typeof(__webpack_require__(81)) == 'object' && __webpack_require__(81)) {
+=======
+	if ("function" == 'function' && _typeof(__webpack_require__(83)) == 'object' && __webpack_require__(83)) {
+>>>>>>> Incorporates video logic into text chat view
 		!(__WEBPACK_AMD_DEFINE_RESULT__ = function () {
 			return utf8;
 		}.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
@@ -76354,17 +79615,255 @@ var _temp = function () {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(280)(module), __webpack_require__(22)))
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 650 */
+=======
+/* 651 */
+>>>>>>> Incorporates video logic into text chat view
 /***/ function(module, exports) {
 
 /* (ignored) */
 
 /***/ },
+<<<<<<< bec761fed6625ff80eec9aee2dc609eca1a57ce0
 /* 651 */
 /***/ function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(282);
 
+=======
+/* 652 */
+/***/ function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(282);
+
+
+/***/ },
+/* 653 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactEmojione = __webpack_require__(52);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var TextChatProfile = function TextChatProfile(props) {
+
+  var divStyle = {
+    backgroundImage: 'url(' + props.user.profilePic + ')',
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat'
+  };
+
+  return _react2.default.createElement(
+    'div',
+    { className: 'chatProfile' },
+    _react2.default.createElement(
+      'div',
+      { className: 'chatProfileInfo' },
+      _react2.default.createElement(
+        'div',
+        { className: 'oneFriend', style: divStyle },
+        _react2.default.createElement('div', { className: 'oneFriendWrapper' })
+      )
+    ),
+    _react2.default.createElement('div', { className: 'chatProfileEmojis' })
+  );
+};
+
+var _default = TextChatProfile;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(TextChatProfile, 'TextChatProfile', '/Users/Rob/Desktop/ReTok/client/src/TextChat/TextChatProfileContainer/TextChatProfile.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/TextChat/TextChatProfileContainer/TextChatProfile.js');
+}();
+
+;
+
+/***/ },
+/* 654 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactDom = __webpack_require__(12);
+
+var _reactRedux = __webpack_require__(17);
+
+var _reactCustomScrollbars = __webpack_require__(75);
+
+var _socket = __webpack_require__(82);
+
+var _socket2 = _interopRequireDefault(_socket);
+
+var _axios = __webpack_require__(25);
+
+var _axios2 = _interopRequireDefault(_axios);
+
+var _userReducer = __webpack_require__(16);
+
+var userActions = _interopRequireWildcard(_userReducer);
+
+var _ChatWindow = __webpack_require__(655);
+
+var _ChatWindow2 = _interopRequireDefault(_ChatWindow);
+
+var _shortToUnicode = __webpack_require__(283);
+
+var _shortToUnicode2 = _interopRequireDefault(_shortToUnicode);
+
+var _unicodeToShort = __webpack_require__(318);
+
+var _unicodeToShort2 = _interopRequireDefault(_unicodeToShort);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var ChatWindowContainer = function (_React$Component) {
+  _inherits(ChatWindowContainer, _React$Component);
+
+  function ChatWindowContainer(props) {
+    _classCallCheck(this, ChatWindowContainer);
+
+    var _this = _possibleConstructorReturn(this, (ChatWindowContainer.__proto__ || Object.getPrototypeOf(ChatWindowContainer)).call(this, props));
+
+    _this.state = {
+      chatSelected: false,
+      currentFriend: null,
+      newChatHistoryLog: {}
+    };
+    return _this;
+  }
+
+  _createClass(ChatWindowContainer, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      console.log('hit ChatWindowContainer -> =P');
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+
+      return _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(_ChatWindow2.default, { chatLog: this.props.chatLog, currentChat: this.props.currentChat })
+      );
+    }
+  }]);
+
+  return ChatWindowContainer;
+}(_react2.default.Component);
+
+;
+
+function mapStateToProps(state) {
+  return {
+    user: state.userReducer.user,
+    room: state.userReducer.room,
+    socket: state.userReducer.socket,
+    friends: state.userReducer.friends,
+    chatLog: state.userReducer.chatLog,
+    currentChat: state.userReducer.currentChat,
+    userEmojis: state.userReducer.userEmojis
+  };
+}
+
+var _default = (0, _reactRedux.connect)(mapStateToProps)(ChatWindowContainer);
+
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(mapStateToProps, 'mapStateToProps', '/Users/Rob/Desktop/ReTok/client/src/TextChat/ChatWindowContainer/ChatWindowContainer.js');
+
+  __REACT_HOT_LOADER__.register(ChatWindowContainer, 'ChatWindowContainer', '/Users/Rob/Desktop/ReTok/client/src/TextChat/ChatWindowContainer/ChatWindowContainer.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/TextChat/ChatWindowContainer/ChatWindowContainer.js');
+}();
+
+;
+
+/***/ },
+/* 655 */
+/***/ function(module, exports, __webpack_require__) {
+
+"use strict";
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactEmojione = __webpack_require__(52);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ChatWindow = function ChatWindow(props) {
+
+  return _react2.default.createElement('div', null);
+};
+
+var _default = ChatWindow;
+exports.default = _default;
+;
+
+var _temp = function () {
+  if (typeof __REACT_HOT_LOADER__ === 'undefined') {
+    return;
+  }
+
+  __REACT_HOT_LOADER__.register(ChatWindow, 'ChatWindow', '/Users/Rob/Desktop/ReTok/client/src/TextChat/ChatWindowContainer/ChatWindow.js');
+
+  __REACT_HOT_LOADER__.register(_default, 'default', '/Users/Rob/Desktop/ReTok/client/src/TextChat/ChatWindowContainer/ChatWindow.js');
+}();
+
+;
+>>>>>>> Incorporates video logic into text chat view
 
 /***/ }
 /******/ ]);

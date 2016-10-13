@@ -19,7 +19,7 @@ const OfflineFriendsListEntry = (props) => {
         <div className="oneFriendChatImageWrapper">
         </div>
     </div>
-    <h4>{props.friend.username}</h4>
+    <span>{props.friend.username}</span>
     </div>
 
   )

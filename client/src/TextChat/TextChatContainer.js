@@ -20,7 +20,6 @@ class TextChatContainer extends React.Component {
       currentFriend: null,
       newChatHistoryLog: {} 
     }
-
   }
 
   componentWillMount() {
@@ -70,11 +69,6 @@ class TextChatContainer extends React.Component {
 
       })
     })
-
-
-
-
-
 
 
     this.props.dispatch(userActions.createRoom(''));
@@ -181,6 +175,7 @@ class TextChatContainer extends React.Component {
         console.log('unmounting');
       })
     })
+
   }
 
   handleWindowClose(){
@@ -213,7 +208,32 @@ class TextChatContainer extends React.Component {
     })
 
   }
+
+  goToProfile() {
+    this.setState({
+      chatSelected: false,
+      currentFriend: null
+    })
+
+    if(document.getElementsByClassName('chatFriendListSelected')[0]) {
+      var oldSelectedEntry = document.getElementsByClassName('chatFriendListSelected')[0];
+      oldSelectedEntry.classList.remove('chatFriendListSelected');
+    }
+    var socket = this.props.socket;
+
+    socket.emit('leavetextchatview', this.props.room, this.props.user.username);
+    this.props.dispatch(userActions.createRoom(this.props.user.username));
+  }
+
+
   render() {
+
+    const divStyle = {
+      backgroundImage: 'url(' +this.props.user.profilePic+ ')',
+      backgroundPosition:'center',
+      backgroundSize: 'cover',
+      backgroundRepeat: 'no-repeat',
+    }
 
 
     var context = this;
@@ -222,12 +242,23 @@ class TextChatContainer extends React.Component {
 
     var chatInputWindow;
     if(this.state.chatSelected) {
-      chatInputWindow = <div><div className="chatWindow">
+      chatInputWindow = <div className ="chatWrapper">
+      <div className= "chatHeader">
+      <h4>Chatting With: <b>{this.state.currentFriend.username}</b></h4>
+      </div>
+      <div className="chatWindow">
+
             <Scrollbars style={{ height: 700 }}>
 
               {chat}
 
             </Scrollbars>
+          </div>
+          <div className="chatInputWrapper">
+          <div>
+          <Scrollbars style={{ height: 50 }}>
+            <EmojiChatContainer/>
+          </Scrollbars>
           </div>
           <div className="chatInputWindow">
             <form id="chatInput" onSubmit={(e)=>{e.preventDefault(); this.sendChat(document.getElementById("chatInputField").value); document.getElementById("chatInput").reset();}}>
@@ -238,22 +269,31 @@ class TextChatContainer extends React.Component {
             </form>
           </div>
           </div>
+          </div>
+    } else {
+      chatInputWindow = <div className = "chatProfile">
+      <div className ="chatProfileInfo">
+        <div className = "oneFriend" style={divStyle}>
+          <div className="oneFriendWrapper">
+          </div>
+        </div>
+        
+      </div>
+      <div className="chatProfileEmojis">
+      </div>
+    </div>
     }
 
     return (
       <div>
-        <div>
-        <Scrollbars style={{ height: 50 }}>
-          <EmojiChatContainer/>
-        </Scrollbars>
-        </div>
+
 
           <div className="chatFriendsList">
             <Scrollbars style={{ height: 700 }}>
-              <FriendsListContainer/>
+              <FriendsListContainer goToProfile={this.goToProfile.bind(this)}/>
             </Scrollbars>
           </div>
-
+          {this.props.children}
         <div>
          {chatInputWindow} 
         </div>

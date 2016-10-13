@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {PropTypes} from 'react'
 import { render } from 'react-dom'
 import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import LoggedInNavContainer from '../Nav/LoggedInNav/LoggedInNavContainer'
@@ -52,6 +52,11 @@ function mapStateToProps(state){
     isLoggedIn: state.userReducer.isLoggedIn //<=== shouldnt have to do this...? 
   }
 }
+
+HomeContainer.contextTypes = {
+  router: PropTypes.object.isRequired
+}
+
 
 // 'connect' from react-redux allows us to set the default state we assign to the statetree onto our components as props!
 // i.e. you won't see this.state anymore... since we are now completely separating state logic from container logic. 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {PropTypes} from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
@@ -45,20 +45,35 @@ class FriendsListContainer extends React.Component {
   }
 
 
+  videoChat(friend) {
+    console.log('i hit video chat for this friend', friend.username);
+
+    var socket = this.props.socket;
+
+    var info = {user: friend.username, caller: this.props.user.username}
+    this.props.dispatch(userActions.createRoom(this.props.user.username))
+    socket.emit('calling', info);
+    this.context.router.push('/chat')
+
+
+  } 
+
+
+
   render() {
 
     var offline = this.props.friends.filter((item, index) => item.online === false);
     return (
 
       <div className="chatListContainer">
-        <div className= "chatFriendsHeader">
+        <div className= "chatFriendsHeader" onClick={()=>{this.props.goToProfile();}}>
           <h4>My Username is: {this.props.user.username}</h4>
         </div>
         <div className= "chatFriendsHeader">
           <h4><b>Online: </b></h4>
         </div>
         
-        {this.props.onlineFriends.map((item, index) => <FriendsListEntry key={index} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
+        {this.props.onlineFriends.map((item, index) => <FriendsListEntry key={index} videoChat={this.videoChat.bind(this)} friend={item} joinRoom={this.joinRoom.bind(this)} room={this.props.room} addHighlightClass={this.addHighlightClass.bind(this)}/>)}
           <div className ="chatFriendsHeader">
             <h4><b>Offline:</b></h4>
           </div>
@@ -85,6 +100,11 @@ function mapStateToProps(state) {
     friendCount: state.userReducer.friendCount
   }
 }
+
+FriendsListContainer.contextTypes = {
+  router: PropTypes.object.isRequired
+}
+
 
 export default connect(mapStateToProps)(FriendsListContainer);
 
