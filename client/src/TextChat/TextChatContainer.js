@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PropTypes } from 'react'
 import { render } from 'react-dom'
 import { connect } from 'react-redux'
 import { Scrollbars } from 'react-custom-scrollbars';
@@ -8,13 +8,13 @@ import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
 import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
-
+import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import * as userActions from '../Redux/userReducer'
 
 class TextChatContainer extends React.Component {
 
-  constructor(props) {
-    super(props);
+  constructor(props,context) {
+    super(props,context);
     this.state = {
       chatSelected: false,
       currentFriend: null,
@@ -31,8 +31,34 @@ class TextChatContainer extends React.Component {
 
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-          context.context.router.push('/');
-        }
+           var socket = context.props.socket;
+    axios.get('/logout');
+    context.props.dispatch(userActions.toggleLogIn(false));
+
+    let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+    let options = {
+
+      method: 'POST',
+      headers: myHeaders,
+      body: `mutation
+        {
+          updateUser(username:"${this.props.user.username}" online: false) 
+          {
+            username
+            online
+          }
+        }`
+    };
+    fetch('/graphql', options).then((res) =>{
+      return res.json().then((data) => {
+          socket.emit('updateFriends', context.props.friends);
+          socket.disconnect()
+          context.props.dispatch(userActions.sendSocket(null))
+          context.context.router.push('/')
+        })
+    })
+    .catch((error) => console.log(error))
+	 }
       })
 
     
@@ -153,9 +179,11 @@ class TextChatContainer extends React.Component {
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
 
     //update coin at db
-    socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
-    socket.removeAllListeners("joinRoomSuccess");
-    socket.removeAllListeners("textmessagereceived");
+    if(socket) {
+  	 socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
+   	 socket.removeAllListeners("joinRoomSuccess");
+   	 socket.removeAllListeners("textmessagereceived");
+    }
   }
 
   handleWindowClose(){
@@ -296,6 +324,10 @@ function mapStateToProps(state) {
     currentChat: state.userReducer.currentChat,
     userEmojis: state.userReducer.userEmojis
   }
+}
+
+TextChatContainer.contextTypes = {
+  router: PropTypes.object.isRequired
 }
 
 export default connect(mapStateToProps)(TextChatContainer);

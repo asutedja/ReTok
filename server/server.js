@@ -233,6 +233,7 @@ io.sockets.on('connection', function(socket) {
 app.get('/logout', function (req, res){
   req.session.destroy();
 	req.logout();
+  res.status(200).send('');
 });
 
 app.get('*', function(req, res) {
