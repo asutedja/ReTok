@@ -1,65 +1,66 @@
 var db = require('../server/db/db');
+var auth = require('../server/auth/auth')
 
-var username = ['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff'];
-var emoji = [':)', ':D', ':(', 'O_O'];
 
 // add records to User table
 function populateUserData(data) {
-	for (var i = 0; i < data.length) {
-		db.User.create({
-			username: data[i],
-			password: data[i],
-			email: data[i] + '@gmail.com',
-			coin: Math.floor(Math.random() * 1000),
-			online: Math.random() >= 0.5 ? true : false
+	var userData = data.map(function(name) {
+		auth.hashPwAsync(name).then(function(hashed) {
+			var user = {};
+			user.password = hashed;
+			user.username = name;
+			user.firstName = name;
+			user.lastName = name;
+			user.email = name + '@gmail.com';
+			user.coin = Math.floor(Math.random() * 1000);
+			user.online = Math.random() >= 0.5 ? true : false;
+			db.User.findAll({where: {username: name}})
+			.then(function(foundUser) {
+				if (foundUser.length > 0) {
+					return;	
+				} else {
+					db.User.create(user); 
+				}
+			})
 		});
-	}
+	});
+
 };
 
-function populateFriendshipData(data) {
-	for (var i = 0; i < data.length) {
-		var	userOne = (Math.random() * 10) % 6;
-		var	userTwo = (Math.random() * 10) % 6;
-		while (userOne === userTwo) {
-			userTwo = (Math.random() * 10) % 6;
-		}
-		db.Friendship.create({
-			userOne: userOne,
-			userTwo: userTwo,
-			relationship: 1,
-			textChatCount: Math.floor(Math.random() * 1000),
-			videoChatCount: Math.floor(Math.random() * 1000),
-		});
+function populateFriendshipData(numOfFriend) {
+	var	userOne = Math.floor(Math.random() * 100) % numOfFriend;
+	var	userTwo = Math.floor(Math.random() * 100) % numOfFriend;
+	while (userOne === userTwo) {
+		userTwo = Math.floor(Math.random() * 100) % numOfFriend;
 	}
+	db.Friendship.findAll({where: {
+		$or: [{$and: [{userOne: userOne}, {userTwo: userTwo}]}, {$and: [{userOne: userTwo}, {userTwo: userOne}]}]
+	}}).then(function(friendship) {
+		if (friendship.length > 0) {
+			return;
+		} else {
+			db.Friendship.create({
+				userOne: userOne,
+				userTwo: userTwo,
+				relationship: 1,
+				textChatCount: Math.floor(Math.random() * 1000),
+				videoChatCount: Math.floor(Math.random() * 1000),
+			});
+		}
+	})
 };
 
-function populateChatData(data) {
-	for (var i = 0; i < data.length) {
-		var	userOne = username[(Math.random() * 10) % 6];
-		var	userTwo = username[(Math.random() * 10) % 6];
-		while (userOne === userTwo) {
-			userTwo = username[(Math.random() * 10) % 6];
-		}
-		db.Chat.create({
-			sender: userOne,
-			receiver: userTwo,
-			text: 1,
-			time: new Date() + Math.floor(Math.random() * 100000)
-		});
-	}
-};
 
 function populateEmojiData(data) {
-	for (var i = 0; i < data.length) {
-		var	userOne = username[(Math.random() * 10) % 6];
-		var	userTwo = username[(Math.random() * 10) % 6];
-		while (userOne === userTwo) {
-			userTwo = username[(Math.random() * 10) % 6];
-		}
-		var price = Math.random() * 100
-		db.Emoji.create({
-			emoji: emoji[i]
-			price:  
-		});
-	}
+	var price = Math.ceil(Math.random() * 1000);
+	db.Emoji.create({
+		emoji: data,
+		price: price
+	});
 };
+
+module.exports = {
+	populateUserData: populateUserData,
+	populateFriendshipData: populateFriendshipData,
+	populateEmojiData: populateEmojiData
+}

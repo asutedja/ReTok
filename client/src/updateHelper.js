@@ -52,6 +52,9 @@ var updateHelper = (context) => {
             friendTierCalculator(friends);
             var onlineFriends = friends.filter(friend => friend.online === true);
             var suggestedFriends = tierRanking(onlineFriends.slice().sort((friend0, friend1) => {return friend1.score - friend0.score}));
+            console.log('onlineFriends: ', onlineFriends);
+            onlineFriends = onlineFriends.filter(friend => !suggestedFriends.includes(friend));
+            console.log('onlineFriends: ', onlineFriends);
             context.props.dispatch(userActions.updateFriends(friends.slice()));
             context.props.dispatch(userActions.updateOnlineFriends(onlineFriends.slice()));
             context.props.dispatch(userActions.updateSuggestedFriends(suggestedFriends.slice()));
