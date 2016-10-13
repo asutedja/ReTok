@@ -10,7 +10,7 @@ import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
 
 import * as userActions from '../Redux/userReducer'
-
+ 
 class TextChatContainer extends React.Component {
 
   constructor(props) {
