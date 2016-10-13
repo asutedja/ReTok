@@ -190,6 +190,7 @@ class TextChatContainer extends React.Component {
       alert("Alerted Browser Close");
   }
   sendChat(message) {
+
     var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
     var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
     this.props.dispatch(userActions.updateUser(userCopy));
