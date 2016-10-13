@@ -3,18 +3,18 @@
 var Sequelize = require('sequelize');
 var userinfo = require('../../settings.js');
 
-var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
-// var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password, {
-// host: userinfo.connectionString,
-// port: 3306,
-// logging: console.log,
-// maxConcurrentQueries: 100,
-// dialectOptions: {
-// ssl:'Amazon RDS'
-// },
-// pool: { maxConnections: 5, maxIdleTime: 30},
-// language: 'en'
-// })
+// var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password);
+var sequelize = new Sequelize('ReTok', userinfo.user, userinfo.password, {
+host: userinfo.connectionString,
+port: 3306,
+logging: console.log,
+maxConcurrentQueries: 100,
+dialectOptions: {
+ssl:'Amazon RDS'
+},
+pool: { maxConnections: 5, maxIdleTime: 30},
+language: 'en'
+})
 //define user model
 var User = sequelize.define('User', {
 	username: Sequelize.STRING,
