@@ -3,7 +3,6 @@ import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
 import SignUpForm from './SignUpForm.js'
 import axios from 'axios'
 import { connect } from 'react-redux'
-import * as userActions from '../Redux/userReducer'
 
 
 class LoginContainer extends React.Component {
@@ -97,14 +96,9 @@ class LoginContainer extends React.Component {
 	}
 }
 
-function mapStateToProps(state) {
-  return {
-    isLoggedIn: state.userReducer.isLoggedIn
-  }
-}
 
 LoginContainer.contextTypes = {
   router: PropTypes.object.isRequired
 }
 
-export default connect(mapStateToProps)(LoginContainer)
+export default LoginContainer
