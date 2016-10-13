@@ -183,6 +183,7 @@ io.sockets.on('connection', function(socket) {
 
   socket.on('disconnect', function() {
     console.log('socket disconnected')
+    console.log('socket name is disconnecting: ', socket.name)
     User.update({online: false}, {where: {username: socket.name}});
     var myself;
     var friends = [];
