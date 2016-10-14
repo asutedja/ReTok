@@ -122,28 +122,18 @@ class TextChatContainer extends React.Component {
       var chat = context.props.currentChat.slice();
       chat.push(message);
 
-   
-
       context.props.dispatch(userActions.updateCurrentChat(chat));
-
       var logCopy = Object.assign({}, context.props.chatLog);
-
       logCopy[context.props.room] = chat;
-
       context.props.dispatch(userActions.updateChatLog(logCopy));
 
 
       var logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
-
       logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
-
       logComponentCopy[context.props.room].push(message);
-
       context.setState({
         newChatHistoryLog: logComponentCopy
       })
-
-  
     });
 
     socket.on('joinRoomSuccess', function(room, friend) {
@@ -156,26 +146,17 @@ class TextChatContainer extends React.Component {
       var oldRoom = context.props.room;
 
       var chatLogCopy = Object.assign({}, context.props.chatLog);
-      console.log('check chatlog before', chatLogCopy);
       chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
-      console.log('check chatlog after', chatLogCopy);
-
       context.props.dispatch(userActions.createRoom(room));
 
-      console.log('checking joinroom success chatlog a bit later', context.props.chatLog);
-
       if(!chatLogCopy.hasOwnProperty(room)) {
-        console.log('i hit the falsy value for hasOwnProperty');
         chatLogCopy[room] = [];
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
-        console.log('checking chatLog --->', context.props.chatLog);
         context.props.dispatch(userActions.updateCurrentChat([]));
 
       } else {
-        console.log('i hit the truthy value for hasOwnProperty');
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
         context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
-        console.log('checking chatLog --->', context.props.chatLog);
       }
 
 
