@@ -349,6 +349,13 @@ video {
   padding-top: 5px;
   padding-botton: 5px; }
 
+.chatFriendsHeader {
+  display: flex;
+  align-items: center;
+  padding-left: 10%;
+  padding-top: 5px;
+  padding-botton: 5px; }
+
 .chatFriendsListEntry {
   display: flex;
   align-items: center;
