@@ -8,9 +8,8 @@ import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
 import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
-// import { _.escape, _.unescape, escapeMap ,unescapeMap} from 'underscore'
 import * as userActions from '../Redux/userReducer'
- 
+
 class TextChatContainer extends React.Component {
 
   constructor(props) {
@@ -23,54 +22,25 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
-    var context = this;
+
+
+
+    let context = this;
     axios.get('/auth')
       .then(function(res) {
-        console.log('checking auth res data',res.data);
 
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-              var socket = context.props.socket;
-              axios.get('/logout').then( () => {
-              context.props.dispatch(userActions.toggleLogIn(false));
+          context.context.router.push('/');
+        }
+      })
 
-              let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-              let options = {
 
-                method: 'POST',
-                headers: myHeaders,
-                body: `mutation
-                  {
-                    updateUser(username:"${context.props.user.username}" online: false) 
-                    {
-                      username
-                      online
-                    }
-                  }`
-              };
-              fetch('/graphql', options).then((res) =>{
-                return res.json().then((data) => {
-              socket.emit('updateFriends', context.props.friends);
-                    socket.emit('endTextChat', context.props.user.username, context.props.user.coin);
-                    socket.disconnect()
-                    context.props.dispatch(userActions.sendSocket(null))
-                    context.context.router.push('/')
-                  })
-              })
-              .catch((error) => console.log(error))
-           })
-            .catch( (error) => console.log(error))
-          }
-     })     
-    .catch((error) => console.log(error))
-
-    var socket = this.props.socket
+    let socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
-    var username = this.props.user.username    
+    let username = this.props.user.username
 
-    console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
-    var context = this;
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
@@ -89,8 +59,8 @@ class TextChatContainer extends React.Component {
     };
     fetch('/graphql', options).then((res) =>{
       return res.json().then((data) => {
-        var findChatsData = data.data.findChatsRedis;
-        var newChatLog = {};
+        let findChatsData = data.data.findChatsRedis;
+        let newChatLog = {};
 
         for (var i = 0; i < findChatsData.length; i++) {
 
@@ -104,36 +74,32 @@ class TextChatContainer extends React.Component {
           newChatLog[findChatsData[i]['room']] = myChatData;
         }
         context.props.dispatch(userActions.updateChatLog(newChatLog));
-        console.log('checking my chat log on will mount after fetching', context.props.chatLog);
 
       })
     })
 
 
     this.props.dispatch(userActions.createRoom(''));
-    console.log('checking current chat --->', this.props.currentChat);
-    console.log('checking  chatlog on mount --->', this.props.chatLog);
 
-    var chatLogCopy = Object.assign({}, this.props.chatLog);
+    let chatLogCopy = Object.assign({}, this.props.chatLog);
 
 
     socket.on('textmessagereceived', function(message) {
    
-      var chat = context.props.currentChat.slice();
+      let chat = context.props.currentChat.slice();
       chat.push(message);
 
    
 
       context.props.dispatch(userActions.updateCurrentChat(chat));
 
-      var logCopy = Object.assign({}, context.props.chatLog);
+      let logCopy = Object.assign({}, context.props.chatLog);
 
       logCopy[context.props.room] = chat;
 
       context.props.dispatch(userActions.updateChatLog(logCopy));
 
-
-      var logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
+      let logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
 
       logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
 
@@ -151,31 +117,27 @@ class TextChatContainer extends React.Component {
         chatSelected: true,
         currentFriend: friend
       })
-      console.log('checking joinroom success chatlog', context.props.chatLog);
 
-      var oldRoom = context.props.room;
+      let oldRoom = context.props.room;
 
-      var chatLogCopy = Object.assign({}, context.props.chatLog);
-      console.log('check chatlog before', chatLogCopy);
+      let chatLogCopy = Object.assign({}, context.props.chatLog);
       chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
-      console.log('check chatlog after', chatLogCopy);
 
       context.props.dispatch(userActions.createRoom(room));
 
-      console.log('checking joinroom success chatlog a bit later', context.props.chatLog);
 
       if(!chatLogCopy.hasOwnProperty(room)) {
-        console.log('i hit the falsy value for hasOwnProperty');
+
         chatLogCopy[room] = [];
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
-        console.log('checking chatLog --->', context.props.chatLog);
+
         context.props.dispatch(userActions.updateCurrentChat([]));
 
       } else {
-        console.log('i hit the truthy value for hasOwnProperty');
+
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
         context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
-        console.log('checking chatLog --->', context.props.chatLog);
+
       }
 
 
@@ -183,8 +145,8 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillUnmount() {
-    var socket = this.props.socket;
-    var clearChat = [];
+    let socket = this.props.socket;
+    let clearChat = [];
 
 
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
@@ -214,17 +176,16 @@ class TextChatContainer extends React.Component {
 
   }
 
-  handleWindowClose(){
-      alert("Alerted Browser Close");
-  }
+
   sendChat(message) {
-    var updatedCoin = this.props.user.coin + this.state.currentFriend.score;
-    var userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
+
+    let updatedCoin = this.props.user.coin + this.state.currentFriend.score;
+    let userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
     this.props.dispatch(userActions.updateUser(userCopy));
-    console.log('i am receiving a message', message);
     message = this.props.user.username+": "+message;
     this.props.socket.emit('textmessagesent', message, this.props.room);
     const emojiEscapedString = encodeURI(unicodeToShort(message));
+
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let chatOptions = {
       method: 'POST',
@@ -242,8 +203,8 @@ class TextChatContainer extends React.Component {
         console.log('sending chat to Redis');
       })
     })
-  }
 
+  }
 
   goToProfile() {
     this.setState({
@@ -252,19 +213,21 @@ class TextChatContainer extends React.Component {
     })
 
     if(document.getElementsByClassName('chatFriendListSelected')[0]) {
-      var oldSelectedEntry = document.getElementsByClassName('chatFriendListSelected')[0];
+      let oldSelectedEntry = document.getElementsByClassName('chatFriendListSelected')[0];
       oldSelectedEntry.classList.remove('chatFriendListSelected');
     }
-    var socket = this.props.socket;
+    let socket = this.props.socket;
 
     socket.emit('leavetextchatview', this.props.room, this.props.user.username);
     this.props.dispatch(userActions.createRoom(this.props.user.username));
   }
 
+
   goToUploadView() {
 
     this.context.router.push('/upload');
   }
+
 
   render() {
 
@@ -276,11 +239,11 @@ class TextChatContainer extends React.Component {
     }
 
 
-    var context = this;
-    var chat = context.props.currentChat.map((message) => <div><div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div></div>);
+    let context = this;
+    let chat = context.props.currentChat.map((message) => <div><div className="oneChatMessage">{shortToUnicode(message, context.props.userEmojis, context.props.user.username)}</div></div>);
 
 
-    var chatInputWindow;
+    let chatInputWindow;
     if(this.state.chatSelected) {
       chatInputWindow = <div className ="chatWrapper">
       <div className= "chatHeader">
@@ -311,7 +274,14 @@ class TextChatContainer extends React.Component {
       <div className ="chatProfileInfo">
         <div className = "oneFriend" style={divStyle} onClick={()=>{this.goToUploadView();}}>
           <div className="oneFriendWrapper">
+
           </div>
+        </div>
+        <div className="chatUserInfo">
+          <div className="chatUserInfoEntry"><b>User Name:</b> {this.props.user.username}</div>
+          <div className="chatUserInfoEntry"><b>Name:</b> <span>{this.props.user.firstName}</span><span> {this.props.user.lastName}</span></div>
+          <div className="chatUserInfoEntry"><b>Coins:</b>{this.props.user.coin}</div>
+          
         </div>
       </div>
     </div>
@@ -354,5 +324,7 @@ function mapStateToProps(state) {
 TextChatContainer.contextTypes = {
   router: PropTypes.object.isRequired
 }
+
+
 
 export default connect(mapStateToProps)(TextChatContainer);
