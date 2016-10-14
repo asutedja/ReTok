@@ -33362,6 +33362,11 @@ var TextChatContainer = function (_React$Component) {
       });
       (0, _updateHelper2.default)(this);
 
+      socket.on('update', function () {
+        return (0, _updateHelper2.default)(_this2);
+      });
+      (0, _updateHelper2.default)(this);
+
       var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
       var options = {
 

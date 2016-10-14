@@ -11,7 +11,6 @@ import axios from 'axios'
 import * as userActions from '../Redux/userReducer'
 import updateHelper from '../updateHelper.js'
 
-
 class TextChatContainer extends React.Component {
 
   constructor(props) {
@@ -24,9 +23,6 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
-
-
-
     let context = this;
     axios.get('/auth')
       .then(function(res) {
@@ -87,6 +83,9 @@ class TextChatContainer extends React.Component {
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
     var username = this.props.user.username   
+
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this); 
 
     socket.on('update', () => updateHelper(this))
     updateHelper(this); 
