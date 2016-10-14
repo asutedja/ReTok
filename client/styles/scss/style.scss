@@ -21,15 +21,15 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 10%;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  color: white;
+  color: #666666;
   font-size: 16px;
-  background-color: $secondaryColor;
-  margin-bottom: 10%;
+  background-color: white;
+  border-bottom: 2px solid $secondaryColor;
 }
 
 .profileNav {
@@ -42,7 +42,7 @@ body {
 
 a, a:link, a:active, a:visited {
   text-decoration: none;
-  color: white;
+  color: #666666;
 }
 
 a:hover {
@@ -51,6 +51,7 @@ a:hover {
 .logo {
   font-family: 'ATVICE', serif;
   font-size: 26px;
+  color: #666666 !important;
 }
 #wrapper {
   margin-top: 10%;
@@ -288,6 +289,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .searchButton{
+  color: white !important;
   border: 1px solid #15aeec;
   background-color: #49c0f0;
   -webkit-border-radius: 3px;
@@ -364,14 +366,20 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .subNavLinks{
+ font-size: 150%;
  color: #737373 !important; 
 }
 
+.subNavLinks:hover{
+  color: $thirdColor !important;
+}
+
 .chatFriendsList{
-  border: 2px solid $secondaryColor;
+  margin-top: -4%;
+  border: 1px solid $secondaryColor;
   border-radius: 2px;
-  background-color: white;
-  color: $secondaryColor !important;
+  background-color: $secondaryColor;
+  color: white !important;
   display: flex;
   position: fixed;
   flex-flow: column;
@@ -380,6 +388,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   padding-right: 1%;
   padding-top: 1%;
   padding-bottom: 1%;
+  height: 100%;
   width: 25%;
   min-width: 100px;
   max-width: 300px;
@@ -402,14 +411,14 @@ padding-botton:5px;
 
 .chatFriendsListEntry:hover {
   background-color: $thirdColor;
-  color: white !important;
+  color: white ;
 border-top-right-radius: 6px;
 border-bottom-right-radius: 6px;
 }
 
 .chatFriendListSelected {
-  background-color: $secondaryColor !important;
-  color: white !important;
+  background-color: white !important;
+  color: $secondaryColor !important;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -435,12 +444,14 @@ border-bottom-right-radius: 6px;
 }
 
 .chatWrapper{
+  margin-top: 14%;
   position: relative;
   left: 30%;
   width: 60%;
 }
 
 .chatWindow{
+overflow:auto;
 border: 1px solid white;
 border-radius: 5px;
 background-color: white;
@@ -550,7 +561,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   margin-bottom: 3%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   height: 100px;
 
 }
@@ -576,6 +587,7 @@ border: 2px solid $secondaryColor;
 }
 
 .chatProfile {
+  margin-top: 14%;
   border-radius: 2px;
   border: 2px solid $secondaryColor;
   background-color: white;
@@ -604,4 +616,25 @@ border: 2px solid $secondaryColor;
 
 .chatUserInfoEntry{
  padding-bottom: 2%; 
+}
+
+.videoChatBtn{
+
+  width: 15px;
+  height: 15px;
+  background-color: $secondaryColor;
+  color: white;
+  text-align: center;
+  margin-left: 2%;
+  padding: 2%;
+  font-size: 8px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.emojiStorePrice{
+  text-align:center;
+}
+
+.textChatWrapper {
+  margin-top: -4%;
 }
