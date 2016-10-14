@@ -82,7 +82,10 @@ class TextChatContainer extends React.Component {
     let socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
-    let username = this.props.user.username
+    var username = this.props.user.username   
+
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this); 
 
     socket.on('update', () => updateHelper(this))
     updateHelper(this); 
@@ -135,25 +138,18 @@ class TextChatContainer extends React.Component {
       let chat = context.props.currentChat.slice();
       chat.push(message);
 
-   
-
       context.props.dispatch(userActions.updateCurrentChat(chat));
-      let logCopy = Object.assign({}, context.props.chatLog);
+      var logCopy = Object.assign({}, context.props.chatLog);
       logCopy[context.props.room] = chat;
-
       context.props.dispatch(userActions.updateChatLog(logCopy));
 
       let logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
 
       logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
-
       logComponentCopy[context.props.room].push(message);
-
       context.setState({
         newChatHistoryLog: logComponentCopy
       })
-
-  
     });
 
     socket.on('joinRoomSuccess', function(room, friend) {
@@ -166,27 +162,18 @@ class TextChatContainer extends React.Component {
 
       let chatLogCopy = Object.assign({}, context.props.chatLog);
       chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
-
       context.props.dispatch(userActions.createRoom(room));
-
-
       if(!chatLogCopy.hasOwnProperty(room)) {
-
         chatLogCopy[room] = [];
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
-
         context.props.dispatch(userActions.updateCurrentChat([]));
-
       } else {
-
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
         context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
-
       }
-
-
     })
   }
+
 
   componentWillUnmount() {
     let socket = this.props.socket;
@@ -195,9 +182,9 @@ class TextChatContainer extends React.Component {
 
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
     if(socket) {
-       socket.removeAllListeners("joinRoomSuccess");
-       socket.removeAllListeners("textmessagereceived");
-    }
+    socket.removeAllListeners("joinRoomSuccess");
+    socket.removeAllListeners("textmessagereceived");
+    };
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
 
