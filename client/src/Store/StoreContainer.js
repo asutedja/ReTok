@@ -126,8 +126,8 @@ class StoreContainer extends React.Component {
 		return (
 			<div>
 				<div className= "profileNav">
-					<Link to="/store" className="subNavLinks">Buy Emojis</Link>
-					<Link to="/userinventory" className="subNavLinks">Emojis I Own</Link>
+					<Link to="/store" className="subNavLinks">Buy Emojis ></Link>
+					<Link to="/userinventory" className="subNavLinks">Emojis I Own ></Link>
 				</div>
 				{this.props.children}
 			</div>
