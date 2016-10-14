@@ -33081,12 +33081,12 @@ var FriendsListEntry = function FriendsListEntry(props) {
 
   return _react2.default.createElement(
     'div',
-    { className: 'chatFriendsListEntry', id: props.friend.username },
+    { onClick: function onClick(e) {
+        e.preventDefault();props.joinRoom(props.friend);props.addHighlightClass(props.friend.username);
+      }, className: 'chatFriendsListEntry', id: props.friend.username },
     _react2.default.createElement(
       'span',
-      { onClick: function onClick(e) {
-          e.preventDefault();props.joinRoom(props.friend);props.addHighlightClass(props.friend.username);
-        } },
+      null,
       props.friend.username
     ),
     _react2.default.createElement('button', { className: 'videoChatBtn', onClick: function onClick(e) {
