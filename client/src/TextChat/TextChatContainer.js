@@ -89,27 +89,19 @@ class TextChatContainer extends React.Component {
       let chat = context.props.currentChat.slice();
       chat.push(message);
 
-   
-
       context.props.dispatch(userActions.updateCurrentChat(chat));
 
-      let logCopy = Object.assign({}, context.props.chatLog);
-
+      var logCopy = Object.assign({}, context.props.chatLog);
       logCopy[context.props.room] = chat;
-
       context.props.dispatch(userActions.updateChatLog(logCopy));
 
       let logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
 
       logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
-
       logComponentCopy[context.props.room].push(message);
-
       context.setState({
         newChatHistoryLog: logComponentCopy
       })
-
-  
     });
 
     socket.on('joinRoomSuccess', function(room, friend) {
@@ -122,25 +114,15 @@ class TextChatContainer extends React.Component {
 
       let chatLogCopy = Object.assign({}, context.props.chatLog);
       chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
-
       context.props.dispatch(userActions.createRoom(room));
-
-
       if(!chatLogCopy.hasOwnProperty(room)) {
-
         chatLogCopy[room] = [];
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
-
         context.props.dispatch(userActions.updateCurrentChat([]));
-
       } else {
-
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
         context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
-
       }
-
-
     })
   }
 
