@@ -9,7 +9,6 @@ import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
 import * as userActions from '../Redux/userReducer'
-import updateHelper from '../updateHelper.js'
 
 class TextChatContainer extends React.Component {
 
@@ -32,63 +31,15 @@ class TextChatContainer extends React.Component {
 
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-              var socket = context.props.socket;
-              axios.get('/logout').then( () => {
-              context.props.dispatch(userActions.toggleLogIn(false));
-
-              let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-              let options = {
-
-                method: 'POST',
-                headers: myHeaders,
-                body: `mutation
-                  {
-                    updateUser(username:"${context.props.user.username}" online: false) 
-                    {
-                      username
-                      online
-                    }
-                  }`
-              };
-              fetch('/graphql', options).then((res) =>{
-                return res.json().then((data) => {
-              socket.emit('updateFriends', context.props.friends);
-                    socket.emit('endTextChat', context.props.user.username, context.props.user.coin);
-                    socket.disconnect()
-                    context.props.dispatch(userActions.sendSocket(null))
-                    context.context.router.push('/')
-                  })
-              })
-              .catch((error) => console.log(error))
-           })
-            .catch( (error) => console.log(error))
-          } else {
-        let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
-        let options1 = {
-
-          method: 'POST',
-          headers: myHeaders,
-          body: `
-              mutation {
-              updateUser(username: \"${username}\" online: true)  {
-                username
-              }
-              }
-              `
-        };
-        fetch('/graphql', options1)
-      }
-     })     
-    .catch((error) => console.log(error))
+          context.context.router.push('/');
+        }
+      })
 
 
     let socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
-    var username = this.props.user.username   
-
-    socket.on('update', () => updateHelper(this))
-    updateHelper(this); 
+    let username = this.props.user.username
 
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
@@ -138,19 +89,27 @@ class TextChatContainer extends React.Component {
       let chat = context.props.currentChat.slice();
       chat.push(message);
 
+   
+
       context.props.dispatch(userActions.updateCurrentChat(chat));
 
-      var logCopy = Object.assign({}, context.props.chatLog);
+      let logCopy = Object.assign({}, context.props.chatLog);
+
       logCopy[context.props.room] = chat;
+
       context.props.dispatch(userActions.updateChatLog(logCopy));
 
       let logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
 
       logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
+
       logComponentCopy[context.props.room].push(message);
+
       context.setState({
         newChatHistoryLog: logComponentCopy
       })
+
+  
     });
 
     socket.on('joinRoomSuccess', function(room, friend) {
@@ -163,15 +122,25 @@ class TextChatContainer extends React.Component {
 
       let chatLogCopy = Object.assign({}, context.props.chatLog);
       chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
+
       context.props.dispatch(userActions.createRoom(room));
+
+
       if(!chatLogCopy.hasOwnProperty(room)) {
+
         chatLogCopy[room] = [];
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
+
         context.props.dispatch(userActions.updateCurrentChat([]));
+
       } else {
+
         context.props.dispatch(userActions.updateChatLog(chatLogCopy));
         context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
+
       }
+
+
     })
   }
 
@@ -181,10 +150,9 @@ class TextChatContainer extends React.Component {
 
 
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
-    if(socket) {
-      socket.removeAllListeners("joinRoomSuccess");
-      socket.removeAllListeners("textmessagereceived");
-    }
+
+    socket.removeAllListeners("joinRoomSuccess");
+    socket.removeAllListeners("textmessagereceived");
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
@@ -320,7 +288,7 @@ class TextChatContainer extends React.Component {
     }
 
     return (
-      <div>
+      <div className="textChatWrapper">
 
 
           <div className="chatFriendsList">
@@ -329,7 +297,7 @@ class TextChatContainer extends React.Component {
             </Scrollbars>
           </div>
           {this.props.children}
-        <div>
+        <div className="chatInputWrapper">
          {chatInputWindow} 
         </div>
       </div>

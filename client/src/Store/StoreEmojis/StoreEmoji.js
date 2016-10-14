@@ -8,6 +8,9 @@ const StoreEmoji = (props) => {
         <div className="emojiWrapper">
           {emojify(props.emoji.emoji, {output: 'unicode'})}
         </div>
+        <div className="emojiStorePrice">
+        {props.emoji.price}
+        </div>
       <div className="storeButtonWrapper">
         <button className="storeButton" onClick={(e)=>{e.preventDefault(); props.buyEmoji(props.emoji, props.index)}}>Buy Emoji</button>
       </div>

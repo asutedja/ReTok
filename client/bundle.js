@@ -1602,7 +1602,6 @@ var restore = function restore(key, def) {
 
 var restoreDefault = function restoreDefault(key, def) {
   var stored = restore(key);
-  console.log('checking stored', stored);
   return stored != null ? JSON.parse(stored) : def;
 };
 
@@ -1704,8 +1703,6 @@ function userReducer() {
       state = _extends({}, state, { socket: action.socket });
       break;
   }
-  console.log('checking the action -->', action);
-  console.log('checking state in reducer', state);
   var _state = state;
   var connection = _state.connection;
   var socket = _state.socket;
@@ -29775,7 +29772,6 @@ var MultiChatContainer = function (_React$Component) {
       var context = this;
       _axios2.default.get('/auth').then(function (res) {
         console.log('checking auth res data', res.data);
-
         if (!res.data) {
           console.log('no session...redirecting to sign up page');
           var socket = context.props.socket;
@@ -29803,6 +29799,15 @@ var MultiChatContainer = function (_React$Component) {
           }).catch(function (error) {
             return console.log(error);
           });
+        } else {
+          var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+          var options1 = {
+
+            method: 'POST',
+            headers: myHeaders,
+            body: '\n              mutation {\n              updateUser(username: "' + username + '" online: true)  {\n                username\n              }\n              }\n              '
+          };
+          fetch('/graphql', options1);
         }
       }).catch(function (error) {
         return console.log(error);
@@ -32080,6 +32085,15 @@ var SearchContainer = function (_React$Component) {
           }).catch(function (error) {
             return console.log(error);
           });
+        } else {
+          var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+          var options1 = {
+
+            method: 'POST',
+            headers: myHeaders,
+            body: '\n              mutation {\n              updateUser(username: "' + username + '" online: true)  {\n                username\n              }\n              }\n              '
+          };
+          fetch('/graphql', options1);
         }
       }).catch(function (error) {
         return console.log(error);
@@ -32272,6 +32286,15 @@ var StoreContainer = function (_React$Component) {
 										}).catch(function (error) {
 												return console.log(error);
 										});
+								} else {
+										var _myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+										var options1 = {
+
+												method: 'POST',
+												headers: _myHeaders,
+												body: '\n              mutation {\n              updateUser(username: "' + username + '" online: true)  {\n                username\n              }\n              }\n              '
+										};
+										fetch('/graphql', options1);
 								}
 						}).catch(function (error) {
 								return console.log(error);
@@ -32321,12 +32344,12 @@ var StoreContainer = function (_React$Component) {
 										_react2.default.createElement(
 												_reactRouter.Link,
 												{ to: '/store', className: 'subNavLinks' },
-												'Buy Emojis'
+												'Buy Emojis >'
 										),
 										_react2.default.createElement(
 												_reactRouter.Link,
 												{ to: '/userinventory', className: 'subNavLinks' },
-												'Emojis I Own'
+												'Emojis I Own >'
 										)
 								),
 								this.props.children
@@ -32398,6 +32421,11 @@ var StoreEmoji = function StoreEmoji(props) {
       'div',
       { className: 'emojiWrapper' },
       (0, _reactEmojione.emojify)(props.emoji.emoji, { output: 'unicode' })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: 'emojiStorePrice' },
+      props.emoji.price
     ),
     _react2.default.createElement(
       'div',
@@ -32908,6 +32936,10 @@ var FriendsListContainer = function (_React$Component) {
       var offline = this.props.friends.filter(function (item, index) {
         return item.online === false;
       });
+      var suggestedFriends = this.props.suggestedFriends;
+      var onlineFriends = this.props.onlineFriends.filter(function (friend) {
+        return !suggestedFriends.includes(friend);
+      });
       return _react2.default.createElement(
         'div',
         { className: 'chatListContainer' },
@@ -32952,7 +32984,7 @@ var FriendsListContainer = function (_React$Component) {
             )
           )
         ),
-        this.props.onlineFriends.map(function (item, index) {
+        onlineFriends.map(function (item, index) {
           return _react2.default.createElement(_FriendsListEntry2.default, { key: index, videoChat: _this2.videoChat.bind(_this2), friend: item, joinRoom: _this2.joinRoom.bind(_this2), room: _this2.props.room, addHighlightClass: _this2.addHighlightClass.bind(_this2) });
         }),
         _react2.default.createElement(
@@ -33057,13 +33089,9 @@ var FriendsListEntry = function FriendsListEntry(props) {
         } },
       props.friend.username
     ),
-    _react2.default.createElement(
-      'button',
-      { onClick: function onClick(e) {
-          e.preventDefault();props.videoChat(props.friend);
-        } },
-      'Video'
-    )
+    _react2.default.createElement('button', { className: 'videoChatBtn', onClick: function onClick(e) {
+        e.preventDefault();props.videoChat(props.friend);
+      } })
   );
 };
 
@@ -33581,7 +33609,7 @@ var TextChatContainer = function (_React$Component) {
 
       return _react2.default.createElement(
         'div',
-        null,
+        { className: 'textChatWrapper' },
         _react2.default.createElement(
           'div',
           { className: 'chatFriendsList' },
@@ -33594,7 +33622,7 @@ var TextChatContainer = function (_React$Component) {
         this.props.children,
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'chatInputWrapper' },
           chatInputWindow
         )
       );
