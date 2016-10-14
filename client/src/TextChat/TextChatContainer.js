@@ -150,9 +150,10 @@ class TextChatContainer extends React.Component {
 
 
     this.props.dispatch(userActions.updateCurrentChat(clearChat));
-
-    socket.removeAllListeners("joinRoomSuccess");
-    socket.removeAllListeners("textmessagereceived");
+    if(socket) {
+      socket.removeAllListeners("joinRoomSuccess");
+      socket.removeAllListeners("textmessagereceived");
+    }
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
     let options = {
