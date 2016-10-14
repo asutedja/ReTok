@@ -9,6 +9,7 @@ import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
 import * as userActions from '../Redux/userReducer'
+import updateHelper from '../updateHelper.js'
 
 class TextChatContainer extends React.Component {
 
@@ -39,7 +40,10 @@ class TextChatContainer extends React.Component {
     let socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
-    let username = this.props.user.username
+    var username = this.props.user.username   
+
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this); 
 
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
