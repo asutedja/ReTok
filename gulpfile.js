@@ -31,7 +31,7 @@ gulp.task('sass:watch', function () {
 });
 
 gulp.task('insertData', function(cb) {
-  var mockUserData = ['aaa', 'bbb', 'ccc', 'ddd', 'eee', 'fff', 'ggg', 'hhh', 'iii', 'jjj', 'kkk', 'lll', 'mmm', 'nnn', 'ooo'];
+  var mockUserData = ['Jessie', 'Amy', 'Bob', 'Doug', 'Ellen', 'Frank', 'Greg', 'Helen', 'Iris', 'Carl', 'Kelvin', 'Lisa', 'Mike', 'Nick', 'Olivia'];
   var mockEmojiData = [':church:', ':stuck_out_tongue_winking_eye:', ':disappointed:', ':cry:', ':frowning:', ':grimacing:', ':scream:', ':slight_smile:', ':tiger:', ':hamster:', ':thumbsup:', ':thumbsdown:'];
   populateUserData(mockUserData);
   setTimeout(function() {
@@ -39,10 +39,11 @@ gulp.task('insertData', function(cb) {
       populateFriendshipData(mockUserData.length);
     }
   }, 2000);
+/*
   setTimeout(function() {
     for (var i = 0; i < mockEmojiData.length; i++) {
       populateEmojiData(mockEmojiData[i]);
     }
   }, 2000);
-
+*/
 });

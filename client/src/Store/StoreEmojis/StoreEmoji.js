@@ -9,7 +9,7 @@ const StoreEmoji = (props) => {
           {emojify(props.emoji.emoji, {output: 'unicode'})}
         </div>
         <div className="emojiStorePrice">
-        {props.emoji.price}
+        {props.emoji.price ? props.emoji.price : "Free" }
         </div>
       <div className="storeButtonWrapper">
         <button className="storeButton" onClick={(e)=>{e.preventDefault(); props.buyEmoji(props.emoji, props.index)}}>Buy Emoji</button>

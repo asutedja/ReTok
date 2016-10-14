@@ -376,13 +376,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .chatFriendsList{
-  margin-top: -4%;
+
   border: 1px solid $secondaryColor;
   border-radius: 2px;
   background-color: $secondaryColor;
   color: white !important;
-  display: flex;
-  position: fixed;
+
   flex-flow: column;
   font-size: 110%;
   align-items: center;
@@ -390,9 +389,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   padding-top: 1%;
   padding-bottom: 1%;
   height: 100%;
-  width: 25%;
-  min-width: 100px;
-  max-width: 300px;
+  width: 250px;
+
 }
 .chatFriendsHeader{
   display: flex;
@@ -445,10 +443,10 @@ border-bottom-right-radius: 6px;
 }
 
 .chatWrapper{
-  margin-top: 14%;
+  margin-top: 8%;
   position: relative;
-  left: 30%;
-  width: 60%;
+  left: 10%;
+  width: 100%;
 }
 
 .chatWindow{
@@ -535,6 +533,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 .chatInputWrapper{
   margin-top: 1%;
+  width: 700px;
 }
 
 
@@ -588,14 +587,14 @@ border: 2px solid $secondaryColor;
 }
 
 .chatProfile {
-  margin-top: 14%;
+  margin-top: 7%;
   border-radius: 2px;
   border: 2px solid $secondaryColor;
   background-color: white;
   position: relative;
   padding: 2%;
-  left: 30%;
-  width: 60%;
+  left: 10%;
+
 
 }
 
@@ -637,5 +636,7 @@ border: 2px solid $secondaryColor;
 }
 
 .textChatWrapper {
+  display: flex !important;
+  align-items: flex-start;
   margin-top: -4%;
 }

@@ -6,7 +6,6 @@ import OnlineFriends from '../Profile/OnlineFriends/OnlineFriends.js'
 import SuggestedFriends from '../Profile/Suggested/SuggestedFriends.js'
 import friendTierCalculator from '../friendTierCalculator.js'
 import updateHelper from '../updateHelper.js'
-import EmojiChatContainer from '../TextChat/EmojiChatContainer/EmojiChatContainer.js'
 import { Scrollbars } from 'react-custom-scrollbars';
 import axios from 'axios'
 import { Router } from 'react-router'
@@ -63,7 +62,7 @@ class MultiChatContainer extends React.Component {
           headers: myHeaders,
           body: `
               mutation {
-              updateUser(username: \"${username}\" online: true)  {
+              updateUser(username: \"${context.props.user.username}\" online: true)  {
                 username
               }
               }

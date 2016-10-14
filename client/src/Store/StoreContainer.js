@@ -57,7 +57,7 @@ class StoreContainer extends React.Component {
           headers: myHeaders,
           body: `
               mutation {
-              updateUser(username: \"${username}\" online: true)  {
+              updateUser(username: \"${context.props.user.username}\" online: true)  {
                 username
               }
               }

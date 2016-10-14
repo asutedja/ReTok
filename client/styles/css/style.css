@@ -332,13 +332,10 @@ video {
   color: #4d94ff !important; }
 
 .chatFriendsList {
-  margin-top: -4%;
   border: 1px solid #f46524;
   border-radius: 2px;
   background-color: #f46524;
   color: white !important;
-  display: flex;
-  position: fixed;
   flex-flow: column;
   font-size: 110%;
   align-items: center;
@@ -346,9 +343,7 @@ video {
   padding-top: 1%;
   padding-bottom: 1%;
   height: 100%;
-  width: 25%;
-  min-width: 100px;
-  max-width: 300px; }
+  width: 250px; }
 
 .chatFriendsHeader {
   display: flex;
@@ -390,10 +385,10 @@ video {
   overflow: hidden; }
 
 .chatWrapper {
-  margin-top: 14%;
+  margin-top: 8%;
   position: relative;
-  left: 30%;
-  width: 60%; }
+  left: 10%;
+  width: 100%; }
 
 .chatWindow {
   overflow: auto;
@@ -416,7 +411,9 @@ video {
   color: white;
   text-align: center;
   padding: 2%;
-  margin-bottom: -1%; }
+  margin-bottom: -1%;
+  width: 99%;
+ }
 
 .chatInputWindow {
   border: 1px solid white;
@@ -470,7 +467,8 @@ video {
   filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#1ab0ec, endColorstr=#3f9feb); }
 
 .chatInputWrapper {
-  margin-top: 1%; }
+  margin-top: 1%;
+  width: 700px; }
 
 #chatInputField {
   border-radius: 10px;
@@ -515,14 +513,13 @@ video {
   font-size: 3rem; }
 
 .chatProfile {
-  margin-top: 14%;
+  margin-top: 7%;
   border-radius: 2px;
   border: 2px solid #f46524;
   background-color: white;
   position: relative;
   padding: 2%;
-  left: 30%;
-  width: 60%; }
+  left: 10%; }
 
 .chatProfileInfo {
   display: flex !important;
@@ -555,4 +552,6 @@ video {
   text-align: center; }
 
 .textChatWrapper {
+  display: flex !important;
+  align-items: flex-start;
   margin-top: -4%; }

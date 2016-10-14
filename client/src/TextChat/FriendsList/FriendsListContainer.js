@@ -49,6 +49,10 @@ class FriendsListContainer extends React.Component {
   videoChat(friend) {
 
     let socket = this.props.socket;
+    let updatedCoin = this.props.user.coin + friend.score;
+    let userCopy = Object.assign({},this.props.user, {coin: updatedCoin});
+    this.props.dispatch(userActions.updateUser(userCopy));
+    socket.emit('endTextChat', this.props.user.username, this.props.user.coin);
 
     let info = {user: friend.username, caller: this.props.user.username}
     this.props.dispatch(userActions.createRoom(this.props.user.username))
