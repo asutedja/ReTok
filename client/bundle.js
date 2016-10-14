@@ -33273,6 +33273,10 @@ var _userReducer = __webpack_require__(16);
 
 var userActions = _interopRequireWildcard(_userReducer);
 
+var _updateHelper = __webpack_require__(58);
+
+var _updateHelper2 = _interopRequireDefault(_updateHelper);
+
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
@@ -33302,20 +33306,66 @@ var TextChatContainer = function (_React$Component) {
   _createClass(TextChatContainer, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
+      var _this2 = this;
 
       var context = this;
       _axios2.default.get('/auth').then(function (res) {
 
         if (!res.data) {
           console.log('no session...redirecting to sign up page');
-          context.context.router.push('/');
+          var socket = context.props.socket;
+          _axios2.default.get('/logout').then(function () {
+            context.props.dispatch(userActions.toggleLogIn(false));
+
+            var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+            var options = {
+
+              method: 'POST',
+              headers: myHeaders,
+              body: 'mutation\n                  {\n                    updateUser(username:"' + context.props.user.username + '" online: false) \n                    {\n                      username\n                      online\n                    }\n                  }'
+            };
+            fetch('/graphql', options).then(function (res) {
+              return res.json().then(function (data) {
+                socket.emit('updateFriends', context.props.friends);
+                socket.emit('endTextChat', context.props.user.username, context.props.user.coin);
+                socket.disconnect();
+                context.props.dispatch(userActions.sendSocket(null));
+                context.context.router.push('/');
+              });
+            }).catch(function (error) {
+              return console.log(error);
+            });
+          }).catch(function (error) {
+            return console.log(error);
+          });
+        } else {
+          var _myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
+          var options1 = {
+
+            method: 'POST',
+            headers: _myHeaders,
+            body: '\n              mutation {\n              updateUser(username: "' + username + '" online: true)  {\n                username\n              }\n              }\n              '
+          };
+          fetch('/graphql', options1);
         }
+      }).catch(function (error) {
+        return console.log(error);
       });
 
       var socket = this.props.socket;
       socket.emit('login', this.props.user.username);
       socket.emit('updateFriends', this.props.friends);
       var username = this.props.user.username;
+
+      socket.on('update', function () {
+        return (0, _updateHelper2.default)(_this2);
+      });
+      (0, _updateHelper2.default)(this);
+
+      socket.on('update', function () {
+        return (0, _updateHelper2.default)(_this2);
+      });
+      (0, _updateHelper2.default)(this);
 
       var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
       var options = {
@@ -33354,19 +33404,14 @@ var TextChatContainer = function (_React$Component) {
         chat.push(message);
 
         context.props.dispatch(userActions.updateCurrentChat(chat));
-
         var logCopy = Object.assign({}, context.props.chatLog);
-
         logCopy[context.props.room] = chat;
-
         context.props.dispatch(userActions.updateChatLog(logCopy));
 
         var logComponentCopy = Object.assign({}, context.state.newChatHistoryLog);
 
         logComponentCopy[context.props.room] = logComponentCopy[context.props.room] || [];
-
         logComponentCopy[context.props.room].push(message);
-
         context.setState({
           newChatHistoryLog: logComponentCopy
         });
@@ -33382,17 +33427,12 @@ var TextChatContainer = function (_React$Component) {
 
         var chatLogCopy = Object.assign({}, context.props.chatLog);
         chatLogCopy[oldRoom] = context.props.chatLog[oldRoom] || context.props.currentChat;
-
         context.props.dispatch(userActions.createRoom(room));
-
         if (!chatLogCopy.hasOwnProperty(room)) {
-
           chatLogCopy[room] = [];
           context.props.dispatch(userActions.updateChatLog(chatLogCopy));
-
           context.props.dispatch(userActions.updateCurrentChat([]));
         } else {
-
           context.props.dispatch(userActions.updateChatLog(chatLogCopy));
           context.props.dispatch(userActions.updateCurrentChat(chatLogCopy[room]));
         }
@@ -33405,10 +33445,10 @@ var TextChatContainer = function (_React$Component) {
       var clearChat = [];
 
       this.props.dispatch(userActions.updateCurrentChat(clearChat));
-
-      socket.removeAllListeners("joinRoomSuccess");
-      socket.removeAllListeners("textmessagereceived");
-
+      if (socket) {
+        socket.removeAllListeners("joinRoomSuccess");
+        socket.removeAllListeners("textmessagereceived");
+      };
       var myHeaders = new Headers({ 'Content-Type': 'application/graphql; charset=utf-8' });
       var options = {
 
@@ -33472,7 +33512,7 @@ var TextChatContainer = function (_React$Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this3 = this;
 
       var divStyle = {
         backgroundImage: 'url(' + this.props.user.profilePic + ')',
@@ -33531,7 +33571,7 @@ var TextChatContainer = function (_React$Component) {
               _react2.default.createElement(
                 'form',
                 { id: 'chatInput', onSubmit: function onSubmit(e) {
-                    e.preventDefault();_this2.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
+                    e.preventDefault();_this3.sendChat(document.getElementById("chatInputField").value);document.getElementById("chatInput").reset();
                   } },
                 _react2.default.createElement('input', { id: 'chatInputField' }),
                 _react2.default.createElement(
@@ -33553,7 +33593,7 @@ var TextChatContainer = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: 'oneFriend', style: divStyle, onClick: function onClick() {
-                  _this2.goToUploadView();
+                  _this3.goToUploadView();
                 } },
               _react2.default.createElement('div', { className: 'oneFriendWrapper' })
             ),
