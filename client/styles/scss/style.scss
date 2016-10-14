@@ -8,6 +8,9 @@
 
 $primaryColor: #f2f2f2;
 
+$secondaryColor: #f46524;
+
+$thirdColor: #4d94ff;
 body {
   background-color: $primaryColor;
   color: #737373;
@@ -25,7 +28,7 @@ body {
   justify-content: space-around;
   color: white;
   font-size: 16px;
-  background-color: #4d4d4d;
+  background-color: $secondaryColor;
   margin-bottom: 10%;
 }
 
@@ -46,7 +49,7 @@ a:hover {
   color: #e6e6e6;
 }
 .logo {
-  font-family: 'Suez One', serif;
+  font-family: 'ATVICE', serif;
   font-size: 26px;
 }
 #wrapper {
@@ -86,14 +89,14 @@ a:hover {
 .oneFriend {
   display: inline-block;
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid $secondaryColor;
   width: 30%;
   margin: 1.655%;
 
 }
 
 .oneFriend:hover {
-  border: 1px solid black;
+  border: 1px solid $thirdColor;
 
 }
 
@@ -365,11 +368,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .chatFriendsList{
-  border: 1px solid #404040;
-  border-radius: 5px;
-  margin-top: 5px;
-  background-color: #404040;
-  color: white !important;
+  border: 2px solid $secondaryColor;
+  border-radius: 2px;
+  background-color: white;
+  color: $secondaryColor !important;
   display: flex;
   position: fixed;
   flex-flow: column;
@@ -389,13 +391,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   padding-top: 5px;
   padding-botton:5px; 
 }
-.chatFriendsHeader{
-  display: flex;
-  align-items: center;
-  padding-left: 10%;
-  padding-top: 5px;
-  padding-botton:5px; 
-}
 
 .chatFriendsListEntry{
 display: flex;
@@ -406,13 +401,15 @@ padding-botton:5px;
 }
 
 .chatFriendsListEntry:hover {
-  background-color: #595959;
+  background-color: $thirdColor;
+  color: white !important;
 border-top-right-radius: 6px;
 border-bottom-right-radius: 6px;
 }
 
 .chatFriendListSelected {
-  background-color: #a6a6a6 !important;
+  background-color: $secondaryColor !important;
+  color: white !important;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
@@ -420,15 +417,19 @@ border-bottom-right-radius: 6px;
 
 .oneFriendChatImage {
   display: block;
+
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid $secondaryColor;
   width: 10%;
   margin: 1.655%;
   margin-right: 5%;
+
 }
+
 
 .oneFriendChatImageWrapper {
   width: 0;
+
   padding-bottom: 100%;
   overflow: hidden;
 }
@@ -457,7 +458,7 @@ height: 420px;
 .chatHeader{
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
-  background-color: #4d94ff;
+  background-color: $secondaryColor;
   color: white;
   text-align: center;
   padding: 2%;
@@ -536,16 +537,17 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   border-radius: 4px;
   padding: 5px;
   margin: 1%;
-  background-color: #4d94ff;
+  background-color: $secondaryColor;
   color: white;
   text-decoration: none;
   list-style-type: none;
 }
 
 .emojiChatContainer {
-  background-color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  background-color:white;
+
+  margin-top: 3%;
+  margin-bottom: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -557,8 +559,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
   margin: 2%;
 }
 .EmojiListChat{
+border-radius: 2px;
+border: 2px solid $secondaryColor;
   margin: 5%;
-  background-color:white;
+  background-color: white;
   border-radius: 5px;
   padding: 2%;
 }
@@ -572,9 +576,32 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=
 }
 
 .chatProfile {
+  border-radius: 2px;
+  border: 2px solid $secondaryColor;
   background-color: white;
   position: relative;
   padding: 2%;
   left: 30%;
   width: 60%;
+
+}
+
+.chatProfileInfo {
+  display: flex !important;
+  align-items: flex-start;
+
+}
+
+.chatUserInfo{
+  padding-top: 7%;
+  padding-left: 5%;
+  position: relative;
+
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.chatUserInfoEntry{
+ padding-bottom: 2%; 
 }

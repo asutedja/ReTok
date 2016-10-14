@@ -15,19 +15,19 @@ class FriendsListContainer extends React.Component {
   }
 
   joinRoom(friend) {
-    var currentRoom = this.props.room;
-    var roomNameSort = [[this.props.user.username], [friend.username]].sort();
+    let currentRoom = this.props.room;
+    
+    let roomNameSort = [[this.props.user.username], [friend.username]].sort();
 
-    var roomName=',';
+    let roomName=',';
 
     for (var i = 0; i < roomNameSort.length; i++) {
       roomName+= roomNameSort[i] +",";
     }
 
-    console.log('checking roomName --->', roomName);
-
+ 
     if ( roomName === currentRoom) {
-      console.log('room names are the same. return.');
+
       return;
     } else {
     this.props.socket.emit('joinRoom', roomName, currentRoom, this.props.user.username, friend);}
@@ -35,7 +35,6 @@ class FriendsListContainer extends React.Component {
   }
 
   addHighlightClass(username) {
-    console.log('hit highlightclass', username);
 
     if(document.getElementsByClassName('chatFriendListSelected')[0]) {
       var oldSelectedEntry = document.getElementsByClassName('chatFriendListSelected')[0];
@@ -48,11 +47,10 @@ class FriendsListContainer extends React.Component {
 
 
   videoChat(friend) {
-    console.log('i hit video chat for this friend', friend.username);
 
-    var socket = this.props.socket;
+    let socket = this.props.socket;
 
-    var info = {user: friend.username, caller: this.props.user.username}
+    let info = {user: friend.username, caller: this.props.user.username}
     this.props.dispatch(userActions.createRoom(this.props.user.username))
     socket.emit('calling', info);
     this.context.router.push('/chat')

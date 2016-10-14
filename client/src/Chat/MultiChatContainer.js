@@ -9,7 +9,7 @@ import updateHelper from '../updateHelper.js'
 import EmojiChatContainer from '../TextChat/EmojiChatContainer/EmojiChatContainer.js'
 import { Scrollbars } from 'react-custom-scrollbars';
 import axios from 'axios'
-import { Router, Route, hashHistory, IndexRoute, Link } from 'react-router'
+import { Router } from 'react-router'
 
 class MultiChatContainer extends React.Component {
 
