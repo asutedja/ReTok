@@ -8,8 +8,8 @@ import EmojiChatContainer from './EmojiChatContainer/EmojiChatContainer.js'
 import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
-// import { _.escape, _.unescape, escapeMap ,unescapeMap} from 'underscore'
 import * as userActions from '../Redux/userReducer'
+import updateHelper from '../updateHelper.js'
  
 class TextChatContainer extends React.Component {
 
@@ -67,7 +67,10 @@ class TextChatContainer extends React.Component {
     var socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
-    var username = this.props.user.username    
+    var username = this.props.user.username   
+
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this); 
 
     console.log('check new Chats Log on mount', this.state.newChatHistoryLog);
     var context = this;
