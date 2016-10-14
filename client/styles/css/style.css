@@ -19,7 +19,7 @@ body {
   justify-content: space-around;
   color: white;
   font-size: 16px;
-  background-color: #4d4d4d;
+  background-color: #f46524;
   margin-bottom: 10%; }
 
 .profileNav {
@@ -36,7 +36,7 @@ a:hover {
   color: #e6e6e6; }
 
 .logo {
-  font-family: 'Suez One', serif;
+  font-family: 'ATVICE', serif;
   font-size: 26px; }
 
 #wrapper {
@@ -70,12 +70,12 @@ a:hover {
 .oneFriend {
   display: inline-block;
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid #f46524;
   width: 30%;
   margin: 1.655%; }
 
 .oneFriend:hover {
-  border: 1px solid black; }
+  border: 1px solid #4d94ff; }
 
 .oneFriendWrapper {
   width: 0;
@@ -325,11 +325,10 @@ video {
   color: #737373 !important; }
 
 .chatFriendsList {
-  border: 1px solid #404040;
-  border-radius: 5px;
-  margin-top: 5px;
-  background-color: #404040;
-  color: white !important;
+  border: 2px solid #f46524;
+  border-radius: 2px;
+  background-color: white;
+  color: #f46524 !important;
   display: flex;
   position: fixed;
   flex-flow: column;
@@ -349,13 +348,6 @@ video {
   padding-top: 5px;
   padding-botton: 5px; }
 
-.chatFriendsHeader {
-  display: flex;
-  align-items: center;
-  padding-left: 10%;
-  padding-top: 5px;
-  padding-botton: 5px; }
-
 .chatFriendsListEntry {
   display: flex;
   align-items: center;
@@ -364,19 +356,21 @@ video {
   padding-botton: 5px; }
 
 .chatFriendsListEntry:hover {
-  background-color: #595959;
+  background-color: #4d94ff;
+  color: white !important;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px; }
 
 .chatFriendListSelected {
-  background-color: #a6a6a6 !important;
+  background-color: #f46524 !important;
+  color: white !important;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px; }
 
 .oneFriendChatImage {
   display: block;
   border-radius: 3px;
-  border: 1px solid white;
+  border: 1px solid #f46524;
   width: 10%;
   margin: 1.655%;
   margin-right: 5%; }
@@ -407,7 +401,7 @@ video {
 .chatHeader {
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
-  background-color: #4d94ff;
+  background-color: #f46524;
   color: white;
   text-align: center;
   padding: 2%;
@@ -477,15 +471,15 @@ video {
   border-radius: 4px;
   padding: 5px;
   margin: 1%;
-  background-color: #4d94ff;
+  background-color: #f46524;
   color: white;
   text-decoration: none;
   list-style-type: none; }
 
 .emojiChatContainer {
   background-color: white;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 3%;
+  margin-bottom: 3%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -495,6 +489,8 @@ video {
   margin: 2%; }
 
 .EmojiListChat {
+  border-radius: 2px;
+  border: 2px solid #f46524;
   margin: 5%;
   background-color: white;
   border-radius: 5px;
@@ -508,8 +504,25 @@ video {
   font-size: 3rem; }
 
 .chatProfile {
+  border-radius: 2px;
+  border: 2px solid #f46524;
   background-color: white;
   position: relative;
   padding: 2%;
   left: 30%;
   width: 60%; }
+
+.chatProfileInfo {
+  display: flex !important;
+  align-items: flex-start; }
+
+.chatUserInfo {
+  padding-top: 7%;
+  padding-left: 5%;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle; }
+
+.chatUserInfoEntry {
+  padding-bottom: 2%; }
