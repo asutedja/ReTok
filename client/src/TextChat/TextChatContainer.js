@@ -323,9 +323,11 @@ class TextChatContainer extends React.Component {
 
 
           <div className="chatFriendsList">
+
             <Scrollbars style={{ height: 700 }}>
               <FriendsListContainer goToProfile={this.goToProfile.bind(this)}/>
             </Scrollbars>
+
           </div>
           {this.props.children}
         <div className="chatInputWrapper">
