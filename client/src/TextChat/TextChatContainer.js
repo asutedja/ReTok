@@ -9,6 +9,7 @@ import shortToUnicode from '../../shortToUnicode.js'
 import unicodeToShort from '../../unicodeToShort.js'
 import axios from 'axios'
 import * as userActions from '../Redux/userReducer'
+import updateHelper from '../updateHelper.js'
 
 class TextChatContainer extends React.Component {
 
@@ -22,24 +23,69 @@ class TextChatContainer extends React.Component {
   }
 
   componentWillMount() {
-
-
-
     let context = this;
     axios.get('/auth')
       .then(function(res) {
 
         if(!res.data) {
           console.log('no session...redirecting to sign up page');
-          context.context.router.push('/');
-        }
-      })
+              var socket = context.props.socket;
+              axios.get('/logout').then( () => {
+              context.props.dispatch(userActions.toggleLogIn(false));
+
+              let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+              let options = {
+
+                method: 'POST',
+                headers: myHeaders,
+                body: `mutation
+                  {
+                    updateUser(username:"${context.props.user.username}" online: false) 
+                    {
+                      username
+                      online
+                    }
+                  }`
+              };
+              fetch('/graphql', options).then((res) =>{
+                return res.json().then((data) => {
+              socket.emit('updateFriends', context.props.friends);
+                    socket.emit('endTextChat', context.props.user.username, context.props.user.coin);
+                    socket.disconnect()
+                    context.props.dispatch(userActions.sendSocket(null))
+                    context.context.router.push('/')
+                  })
+              })
+              .catch((error) => console.log(error))
+           })
+            .catch( (error) => console.log(error))
+          } else {
+        let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
+        let options1 = {
+
+          method: 'POST',
+          headers: myHeaders,
+          body: `
+              mutation {
+              updateUser(username: \"${username}\" online: true)  {
+                username
+              }
+              }
+              `
+        };
+        fetch('/graphql', options1)
+      }
+     })     
+    .catch((error) => console.log(error))
 
 
     let socket = this.props.socket
     socket.emit('login', this.props.user.username)
     socket.emit('updateFriends', this.props.friends);
     let username = this.props.user.username
+
+    socket.on('update', () => updateHelper(this))
+    updateHelper(this); 
 
 
     let myHeaders = new Headers({'Content-Type': 'application/graphql; charset=utf-8'});
