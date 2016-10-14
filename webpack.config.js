@@ -5,8 +5,9 @@ var webpack = require('webpack');
 
 
 module.exports = {
-  entry: ['./client/src/App.js'],
-  output: { path: __dirname + '/client', filename: 'bundle.js' },
+devtool:'#cheap-module-source-map', 
+ entry: ['./client/src/App.js'],
+  output: { path: __dirname + '/client', filename: 'bundle.js', sourceMapFilename:'sourceMap.map' },
   module: {
     loaders: [
       {

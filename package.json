@@ -64,7 +64,7 @@
 
   },
   "scripts": {
-    "dev": "./node_modules/.bin/webpack -d -w --progress --colors",
+    "dev": "./node_modules/.bin/webpack -w --progress --colors",
     "nodemon": "nodemon ./server/server.js"
   },
   "repository": {
